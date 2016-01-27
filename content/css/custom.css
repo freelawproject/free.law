@@ -1,0 +1,37 @@
+::-moz-selection {
+    background: #AE0B0B;
+    color: #fff;
+    text-shadow: none;
+}
+
+::selection {
+    background: #AE0B0B;
+    color: #fff;
+    text-shadow: none;
+}
+
+#banner {
+    padding: 108px 0;
+}
+a:hover,
+a:active,
+a:focus {
+    color: #AE0B0B;
+}
+h2 a:hover,
+h2 a:active,
+h2 a:focus {
+    color: inherit;
+}
+code {
+    color: #AE0B0B;
+}
+
+.navbar-default .navbar-nav > li > a.donate {
+    color: #df0e0e;
+}
+
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+    color: #df0e0e;
+}
