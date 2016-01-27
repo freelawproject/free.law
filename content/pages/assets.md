@@ -1,0 +1,50 @@
+Title: Free Law Project Assets
+Date: 2013-11-11 16:09
+Author: mlissner
+Slug: assets
+Status: published
+
+These are the official logos and images of Free Law Project for use in
+your webpage, application, or printed material.
+
+You are free to use and modify these. Source versions are available in
+the related zip files.
+
+ 
+
+Free Law Project Logos
+----------------------
+
+The Free Law Project logo is available in square, blue and black
+versions. [Download a zip containing the svg, pdf and png
+versions.](http://freelawproject.org/wp-content/uploads/2013/11/flp-logos.zip)
+
+ 
+
+Powered By Free Law Project Logos {#powered-by}
+---------------------------------
+
+These badges are available in dark or light, and should work well with
+most designs. [Download a zip for full size images and dark versions
+(svg,
+png)](http://freelawproject.org/wp-content/uploads/2013/11/Powered-By1.zip).
+We suggest that you make them link to FreeLawProject.org.
+
+ 
+
+CourtListener Logos
+-------------------
+
+The [CourtListener](https://www.courtlistener.com/) logo is available in
+long, square and stacked formats. [Download a zip containing the svg
+versions.](http://freelawproject.org/wp-content/uploads/2013/11/CourtListener.zip)
+
+ 
+
+RECAP Logos
+-----------
+
+The RECAP logos are available as Adobe Illustrator, svg and png files.
+[Download a zip containing all versions and required
+fonts.](http://freelawproject.org/wp-content/uploads/2013/11/RECAP.zip)
+
