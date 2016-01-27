@@ -3,3 +3,4 @@ markdown
 BeautifulSoup4
 lxml
 feedparser
+typogrify
