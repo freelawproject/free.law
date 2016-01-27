@@ -1,14 +1,14 @@
 Title: Announcing Oral Arguments on CourtListener
 Date: 2014-10-31 08:22
 Author: mlissner
-Category: Announcements, API, Bulk Data, CourtListener, Coverage, Juriscraper, Oral Arguments
+Tags: Announcements, API, Bulk Data, CourtListener, Coverage, Juriscraper, Oral Arguments
 Slug: announcing-oral-arguments-on-courtlistener-2
 Status: published
 
 We're very excited to announce that CourtListener is currently in the
 process of rolling out support for Oral Argument audio. This is a
 feature that we've wanted for at least four years -- our
-nameÂ *isÂ *CourtListener, after all -- and one that will bring a raft
+name *is *CourtListener, after all -- and one that will bring a raft
 of new features to the project. We already have about 500 oral arguments
 on the site, and we've got many more we'll be adding over the coming
 weeks.

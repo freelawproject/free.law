@@ -1,7 +1,7 @@
-Title:  Announcing Citation Queries and other Goodies 
+Title:  Announcing Citation Queries and other Goodies
 Date: 2013-06-27 14:06
 Author: mlissner
-Category: Announcements, Citator, CourtListener, Search
+Tags: Announcements, Citator, CourtListener, Search
 Slug: announcing-citation-queries-and-other-goodies
 Status: published
 

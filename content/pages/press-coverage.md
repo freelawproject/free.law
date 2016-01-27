@@ -1,6 +1,6 @@
 Title: Press Coverage
 Date: 2013-11-25 09:35
-Author: admin
+Author: brianwc
 Slug: press-coverage
 Status: published
 
@@ -47,7 +47,7 @@ Contact us if you know of coverage we've neglected to list below:
     courts](http://www.washingtonpost.com/blogs/the-switch/wp/2014/08/26/why-pacer-removed-access-to-case-archives-of-five-courts/)*,
     Washington Post (Aug. 26, 2014).
 -   Mark Michels, "[Can Open Source Transform
-    Democracy?](http://www.lawtechnologynews.com/id=1202654251205)",Â Law
+    Democracy?](http://www.lawtechnologynews.com/id=1202654251205)", Law
     Technology News (May 6, 2014).
 -   Martha Sperry, "[Free Law Project Is Now Even Bigger, Ergo
     Better](http://advocatesstudio.com/2014/01/15/free-law-project-is-now-even-bigger-ergo-better/)"
@@ -120,7 +120,7 @@ Contact us if you know of coverage we've neglected to list below:
 -   Robert Richards, "[Juriscraper: A New Tool for Scraping Court
     Websites](https://legalinformatics.wordpress.com/2012/02/25/juriscraper-a-new-tool-for-scraping-court-websites/)"
     Legal Informatics Blog (Feb. 25, 2012).
--   Tom Mighell, "[Research Site of the Day â€“
+-   Tom Mighell, "[Research Site of the Day --
     CourtListener](http://www.inter-alia.net/2011/09/07/research-site-of-the-day-court-listener/)"
     Inter Alia (Sep. 7, 2011).
 -   Emily Lawson,
@@ -129,7 +129,7 @@ Contact us if you know of coverage we've neglected to list below:
 -   Jean Davis, "[Free tool:
     CourtListener](https://brooklaw.wordpress.com/2011/07/22/new-free-tool-court-listener/)"
     Brooklaw Library Weblog (July 22, 2011).
--   Staff, "[Useful! â€” CourtListener: Use the power of search to
+-   Staff, "[Useful! --- CourtListener: Use the power of search to
     follow the Federal Courts of
     Appeal](http://www.infodocket.com/2011/05/11/useful-courtlistener-use-the-power-of-search-to-follow-the-federal-courts-of-appeal/)"
     INFOdocket (May 11, 2011).
@@ -157,7 +157,7 @@ Contact us if you know of coverage we've neglected to list below:
     Appeals](http://midwesterngirl.com/2010/07/01/free-alert-tool-for-the-u-s-courts-of-appeals/)"
     Adventures of a Midwestern Girl in Sunny, Sunny California (Jul. 1,
     2010).
--   Staff, "[Court Listener â€“ Alerts From Circuit Courts of
+-   Staff, "[Court Listener -- Alerts From Circuit Courts of
     Appeal](https://uhlawlibrary.wordpress.com/2010/05/13/court-listener-alerts-from-circuit-courts-of-appeal/)"
     UH Law Library's Blog (May 13, 2010).
 -   Paul Lomio, "[Keeping up with the federal courts with

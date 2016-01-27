@@ -1,7 +1,7 @@
 Title: A few small API changes
 Date: 2013-06-19 14:04
 Author: mlissner
-Category: API, Bulk Data, XPath
+Tags: API, Bulk Data, XPath
 Slug: a-few-small-api-changes
 Status: published
 
@@ -16,7 +16,7 @@ in an automated fashion, please note the following changes:
 -   lexisCite is now lexis\_cite
 
 Additionally, a new field, west\_state\_cite, has been added, which will
-have any citations to West's *state* reporters.  
+have any citations to West's *state* reporters.
 We've made these changes in preparation of a proper API that will
 return XML and JSON. Before we released that API, we needed to clean up
 some old field values so they were more consistent. After this point, we

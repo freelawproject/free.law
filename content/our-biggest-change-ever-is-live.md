@@ -1,7 +1,7 @@
 Title: Our Biggest Change Ever is Live!
 Date: 2012-01-15 13:49
 Author: mlissner
-Category: Accessibility, Announcements, Design, Search
+Tags: Accessibility, Announcements, Design, Search
 Slug: our-biggest-change-ever-is-live
 Status: published
 

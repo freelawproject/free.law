@@ -1,7 +1,7 @@
 Title: The Winning Font in Court Opinions
 Date: 2012-01-27 13:10
 Author: mlissner
-Category: CourtListener, Font, OCR, Tesseract, Typography
+Tags: CourtListener, Font, OCR, Tesseract, Typography
 Slug: the-winning-font-in-court-opinions
 Status: published
 
@@ -40,7 +40,7 @@ Bold Italic
 
 </p>
 <th>
-Total  
+Total
 
 </tr>
 <tr>
@@ -65,7 +65,7 @@ Times
 
 </p>
 <td>
-**3321**  
+**3321**
 
 </tr>
 <tr>
@@ -90,7 +90,7 @@ Courier
 
 </p>
 <td>
-**1042**  
+**1042**
 
 </tr>
 <tr>
@@ -115,7 +115,7 @@ Arial
 
 </p>
 <td>
-**455**  
+**455**
 
 </tr>
 <tr>
@@ -140,7 +140,7 @@ Symbol
 
 </p>
 <td>
-**212**  
+**212**
 
 </tr>
 <tr>
@@ -165,7 +165,7 @@ Helvetica
 
 </p>
 <td>
-**189**  
+**189**
 
 </tr>
 <tr>
@@ -190,7 +190,7 @@ Century Schoolbook
 
 </p>
 <td>
-**173**  
+**173**
 
 </tr>
 <tr>
@@ -215,7 +215,7 @@ Garamond
 
 </p>
 <td>
-**127**  
+**127**
 
 </tr>
 <tr>
@@ -240,7 +240,7 @@ Palatino Linotype
 
 </p>
 <td>
-**85**  
+**85**
 
 </tr>
 <tr>
@@ -265,7 +265,7 @@ Old English
 
 </p>
 <td>
-**42**  
+**42**
 
 </tr>
 <tr>
@@ -290,7 +290,7 @@ Lincoln
 
 </p>
 <td>
-**27**  
+**27**
 
 </tr>
 </table>

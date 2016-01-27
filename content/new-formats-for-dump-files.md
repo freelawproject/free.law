@@ -1,7 +1,7 @@
 Title: New formats for dump files
 Date: 2011-08-24 13:45
 Author: mlissner
-Category: API, Bulk Data, CourtListener
+Tags: API, Bulk Data, CourtListener
 Slug: new-formats-for-dump-files
 Status: published
 

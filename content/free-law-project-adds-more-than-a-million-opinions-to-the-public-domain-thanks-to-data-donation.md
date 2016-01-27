@@ -1,14 +1,14 @@
 Title: Free Law Project Adds More than 1.5M Opinions to its Collection Thanks to Data Donation
 Date: 2013-10-30 07:00
 Author: mlissner
-Category: Announcements, API, Bulk Data, Citator, CourtListener, Courts, Coverage, Data Wrangling
+Tags: Announcements, API, Bulk Data, Citator, CourtListener, Courts, Coverage, Data Wrangling
 Slug: free-law-project-adds-more-than-a-million-opinions-to-the-public-domain-thanks-to-data-donation
 Status: published
 
 [![lawbox
 logo](http://freelawproject.org/wp-content/uploads/2013/10/lawbox-150x150.png)](http://lawboxapps.com)
 
-For Immediate Release â€” Berkeley, CA
+For Immediate Release --- Berkeley, CA
 
 After many years of collecting and curating data, today
 [CourtListener](https://www.courtlistener.com/) crossed some incredible
@@ -68,7 +68,7 @@ notable improvements to the project:
     not yet complete and we welcome your contributions.
 
 As you can tell, this is a very big day for the Free Law Project and the
-legal world â€” one that we've quietly been working towards for months.
+legal world --- one that we've quietly been working towards for months.
 Over the remainder of the week we will be writing two additional posts
 about this topic, explaining the design work behind our new jurisdiction
 picker, and the process we use to merge new corpuses in with our

@@ -1,13 +1,13 @@
 Title: Free Law Project Co-Founders Named to Fastcase 50 for 2014
 Date: 2014-07-14 10:42
-Author: admin
-Category: Announcements, Awards
+Author: brianwc
+Tags: Announcements, Awards
 Slug: free-law-project-co-founders-named-to-fastcase-50-for-2014
 Status: published
 
 Last week legal publisher Fastcase included Free Law Project
-co-founders, Brian Carver and Michael Lissner on the companyâ€™s[annual
-list of â€œFastcase 50â€? award
+co-founders, Brian Carver and Michael Lissner on the company's[annual
+list of "Fastcase 50" award
 recipients](http://www.fastcase.com/fastcase50-winners-2014). As their
 [press
 release](http://www.fastcase.com/fastcase-announces-2014-%e2%80%9cfastcase-50%e2%80%9d-award-winners/)

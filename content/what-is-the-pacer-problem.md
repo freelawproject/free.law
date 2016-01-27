@@ -1,7 +1,7 @@
 Title: What is the "PACER Problem"?
 Date: 2015-03-20 12:54
-Author: admin
-Category: Agitation, Courts, PACER, Policy
+Author: brianwc
+Tags: Agitation, Courts, PACER, Policy
 Slug: what-is-the-pacer-problem
 Status: published
 
@@ -21,9 +21,9 @@ address:
 
 -   What is the "PACER Problem"?
 -   [Why Should Congress Care About
-    PACER?](http://freelawproject.org/2015/03/23/why-should-congress-care-about-pacer/)
+    PACER?](/2015/03/23/why-should-congress-care-about-pacer/)
 -   [What Should be Done About the PACER
-    Problem?](http://freelawproject.org/2015/03/24/what-should-be-done-about-the-pacer-problem/)
+    Problem?](/2015/03/24/what-should-be-done-about-the-pacer-problem/)
 
 **What is the "PACER problem"?**
 
@@ -60,11 +60,11 @@ These "various problems" with the PACER system include:
     looking for beforehand.
 4.  **There is no accountability.** The [courts recently took thousands
     of documents
-    offline](http://freelawproject.org/2014/08/28/the-importance-of-backups/)
+    offline](/2014/08/28/the-importance-of-backups/)
     and after a [public
-    outcry](http://freelawproject.org/2014/08/27/free-law-project-joins-request-for-access-to-offline-pacer-documents/)
+    outcry](/2014/08/27/free-law-project-joins-request-for-access-to-offline-pacer-documents/)
     and [inquiring letters from members of
-    Congress](http://freelawproject.org/2014/09/16/senator-leahy-wants-pacer-documents-back-online/),
+    Congress](/2014/09/16/senator-leahy-wants-pacer-documents-back-online/),
     the courts stated that they would put them all back online, but
     because no one but the courts has unhindered access to the system,
     no one can say what was taken offline and whether it was restored or

@@ -1,7 +1,7 @@
 Title: Respecting privacy while providing hundreds of thousands of public documents
 Date: 2012-01-16 13:20
 Author: mlissner
-Category: CourtListener, Policy, Practical Obscurity, Privacy, robots.txt, sitemaps.xml, x-robots-tag
+Tags: CourtListener, Policy, Practical Obscurity, Privacy, robots.txt, sitemaps.xml, x-robots-tag
 Slug: respecting-privacy-while-providing-hundreds-of-thousands-of-public-documents
 Status: published
 
@@ -111,7 +111,7 @@ it), then they will include it in
 [indexes](http://www.bing.com/community/site_blogs/b/webmaster/archive/2009/08/21/prevent-a-bot-from-getting-lost-in-space-sem-101.aspx).
 This is true even if robots.txt explicitly blocks robots from crawling
 the page, because to include it in their indexes, they don't **have to**
-crawl it â€” they just need to know about it! Even your own link to a
+crawl it --- they just need to know about it! Even your own link to a
 page is sufficient for Google or Bing to know about the page. And what's
 worse, if you have a good URL with descriptive words within it, Google
 or Bing will know the terms in the URLs even when they haven't crawled

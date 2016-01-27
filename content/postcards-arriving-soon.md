@@ -1,7 +1,7 @@
 Title: Postcards Arriving Soon
 Date: 2015-05-28 14:36
-Author: admin
-Category: Announcements, PACER, RECAP
+Author: brianwc
+Tags: Announcements, PACER, RECAP
 Slug: postcards-arriving-soon
 Status: published
 

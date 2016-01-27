@@ -1,7 +1,7 @@
 Title: Our New Authorities Table Allows Traveling to the Past
 Date: 2013-11-26 08:00
 Author: mlissner
-Category: Announcements, Citator, CourtListener
+Tags: Announcements, Citator, CourtListener
 Slug: our-new-authorities-table-allows-traveling-to-the-past
 Status: published
 

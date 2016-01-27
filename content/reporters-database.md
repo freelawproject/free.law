@@ -1,7 +1,7 @@
 Title: Reporters Database
 Date: 2015-04-22 14:35
 Author: mlissner
-Category: Announcements, Bulk Data, Citator, CourtListener, Data Wrangling
+Tags: Announcements, Bulk Data, Citator, CourtListener, Data Wrangling
 Slug: reporters-database
 Status: published
 
@@ -13,7 +13,7 @@ yore such as [Mr. William
 Cranch](https://en.wikipedia.org/wiki/William_Cranch) and [Alex
 Dallas](https://en.wikipedia.org/wiki/Alexander_J._Dallas_%28statesman%29).
 
-These menâ€”for they were all menâ€”were busy for the next few centuries
+These men---for they were all men---were busy for the next few centuries
 and created *thousands* of these books, culminating in what we know
 today as West's reporters or as regional reporters like the "Dakota
 Reports" or the thoroughly-named, "Synopses of the Decisions of the

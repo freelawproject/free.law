@@ -52,7 +52,7 @@ Technology series, has served on numerous program committees for
 academic conferences in legal informatics and law and artificial
 intelligence, and is Secretary of the OASIS/Open committee on XML
 standards for legal documents. He was a member of the ABA's inaugural
-class of â€œLegal Rebelsâ€?, the 100 leading innovators in the American
+class of "Legal Rebels", the 100 leading innovators in the American
 legal profession, and of the FastCase 50, a similar group selected by
 popular vote. He wrote the first web browser for Microsoft Windows.
 

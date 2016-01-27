@@ -1,7 +1,6 @@
-Title: About
+Title: About & Mission
 Date: 2013-08-01 10:15
-Author: admin
-Slug: about
+Slug: mission
 Status: published
 
 **Free Law Project is a California non-profit public benefit corporation

@@ -1,7 +1,7 @@
 Title: Our New Jurisdiction Picker
 Date: 2013-10-31 13:20
 Author: mlissner
-Category: CourtListener, Courts, Design, Technology
+Tags: CourtListener, Courts, Design, Technology
 Slug: our-new-jurisdiction-picker
 Status: published
 
@@ -24,7 +24,7 @@ support. It should:
 -   Allow a user to select a single jurisdiction;
 -   Allow a user to select all jurisdictions from state, federal,
     district, bankruptcy or all of the above;
--   Allow a user to select in hybrid mode â€“ expanding a selection of a
+-   Allow a user to select in hybrid mode -- expanding a selection of a
     state courts to the related federal courts or vice versa;
 -   Allow users to easily select the courts they desire by filtering to
     the ones they're interested in;

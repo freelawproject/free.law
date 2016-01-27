@@ -1,7 +1,7 @@
 Title: CourtListener Adds 7,000 More Oral Arguments
 Date: 2014-11-19 03:00
 Author: mlissner
-Category: Announcements, Oral Arguments
+Tags: Announcements, Oral Arguments
 Slug: courtlistener-adds-7000-more-oral-arguments
 Status: published
 
@@ -15,7 +15,7 @@ made into podcasts.
 Although 7,000 more oral arguments may not sound like much, I must point
 out that these files are larger than your average MP3 and this has taken
 a week for our powerful server to download and prepare. Our collection
-now has more than 200 continuousÂ *days* of listeningÂ â€“ more than six
+now has more than 200 continuous *days* of listening -- more than six
 months of audio.
 
 From here on, we'll continue getting the latest oral arguments from the

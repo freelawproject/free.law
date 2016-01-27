@@ -1,7 +1,7 @@
 Title: Updated Supreme Court Case Dates and The First Release of Early SCOTUS Data in Machine-Readable Form
 Date: 2011-05-25 13:41
 Author: mlissner
-Category: Announcements, API, Bulk Data, CourtListener, Data Wrangling
+Tags: Announcements, API, Bulk Data, CourtListener, Data Wrangling
 Slug: updated-supreme-court-case-dates-and-the-first-release-of-early-scotus-data-in-machine-readable-form
 Status: published
 

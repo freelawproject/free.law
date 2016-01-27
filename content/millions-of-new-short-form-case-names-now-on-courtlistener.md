@@ -1,7 +1,7 @@
 Title: Millions of New "Short Form" Case Names Now on CourtListener
 Date: 2015-12-11 12:36
 Author: mlissner
-Category: Announcements, API, Bulk Data, CourtListener, Data Wrangling, Juriscraper
+Tags: Announcements, API, Bulk Data, CourtListener, Data Wrangling, Juriscraper
 Status: draft
 
 While working on our new visualization project, we realized that we
@@ -60,7 +60,7 @@ As for the algorithm itself, the process was roughly:
     they're not in the list made in step one (i.e., they're not a state,
     city, Attorney General, etc.), use that as the short form case name.
 
-There are a few more subtleties you can findÂ  [in our Github
+There are a few more subtleties you can find  [in our Github
 repository](https://github.com/freelawproject/juriscraper/blob/master/lib/string_utils.py#L435-L522),
 but the basic premise, while imperfect, worked extremely well. When this
 was combined with a human editor to handle hard cases, we were able to

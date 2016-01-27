@@ -1,7 +1,7 @@
 Title: New Courts at CourtListener with Historical Data
 Date: 2013-01-31 14:00
 Author: mlissner
-Category: Announcements, Bulk Data, CourtListener, Juriscraper
+Tags: Announcements, Bulk Data, CourtListener, Juriscraper
 Slug: new-courts-at-courtlistener-with-historical-data
 Status: published
 

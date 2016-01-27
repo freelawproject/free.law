@@ -1,7 +1,7 @@
 Title: Welcoming Thomas Bruce and Jerry Goldman to our Board
 Date: 2015-07-23 07:51
 Author: mlissner
-Category: Announcements, Board of Directors
+Tags: Announcements, Board of Directors
 Slug: welcoming-thomas-bruce-and-jerry-goldman-to-our-board
 Status: published
 
@@ -34,5 +34,5 @@ experience in making legal materials available to the public online,
 have agreed to help Free Law Project advance its public access mission."
 
 You can [read more on our Board of Directors
-page](http://freelawproject.org/team/).
+page](/team/).
 

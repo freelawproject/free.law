@@ -1,7 +1,7 @@
 Title: Free Law Project Recognized in two one of Top Ten Legal Hacks of 2014 by DC Legal Hackers!
 Date: 2014-12-04 12:09
 Author: mlissner
-Category: Announcements, Awards, Free Law Ferret, Oral Arguments
+Tags: Announcements, Awards, Free Law Ferret, Oral Arguments
 Slug: free-law-project-recognized-in-two-of-top-ten-legal-hacks-of-2014-by-dc-legal-hackers
 Status: published
 
@@ -29,7 +29,7 @@ presentation, which contained a typo.
 > [\#legalhacker](https://twitter.com/hashtag/legalhacker?src=hash)
 > [pic.twitter.com/MJAvRU5Xln](http://t.co/MJAvRU5Xln)
 >
-> â€” Matt McKibbin (@LibertyPanacea) [December 4,
+> --- Matt McKibbin (@LibertyPanacea) [December 4,
 > 2014](https://twitter.com/LibertyPanacea/status/540327898134351872)
 
  

@@ -30,7 +30,7 @@ Management](https://pacer.psc.uscourts.gov/pscof/manage/maint.jsf). From
 there, you should be able to fix the problem, but sometimes this error
 is shown due to duplicate account or other non-credit card errors. In
 that case, call in to get your account working: (800) 676-6856. We
-haveÂ  never had to wait 7-10 days to get an account working.
+have  never had to wait 7-10 days to get an account working.
 
 Install RECAP
 -------------
@@ -118,7 +118,7 @@ PACER
 problem](https://www.recapthelaw.org/2015/03/20/the-pacer-problem/),
 there's more you can do:
 
--   You can look at ourÂ  [list of ways to
+-   You can look at our  [list of ways to
     help](http://freelawproject.org/2015/03/24/what-should-be-done-about-the-pacer-problem/).
 -   You can help add features or resolve bugs in the RECAP extensions
     ([Chrome](https://github.com/freelawproject/recap-chrome)/[Firefox](https://github.com/freelawproject/recap-firefox)).

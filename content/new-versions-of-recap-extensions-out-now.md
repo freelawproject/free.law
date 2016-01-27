@@ -1,7 +1,7 @@
 Title: New Versions of RECAP Extensions Out Now!
 Date: 2015-04-22 13:11
 Author: mlissner
-Category: Announcements, PACER, RECAP
+Tags: Announcements, PACER, RECAP
 Slug: new-versions-of-recap-extensions-out-now
 Status: published
 

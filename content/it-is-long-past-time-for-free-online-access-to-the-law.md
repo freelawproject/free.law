@@ -1,7 +1,7 @@
 Title: It is Long Past Time for Free Online Access to the Law
 Date: 2014-01-30 09:29
-Author: admin
-Category: CourtListener, Juriscraper, Policy, Presentations
+Author: brianwc
+Tags: CourtListener, Juriscraper, Policy, Presentations
 Slug: it-is-long-past-time-for-free-online-access-to-the-law
 Status: published
 

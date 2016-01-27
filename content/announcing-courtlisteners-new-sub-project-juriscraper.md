@@ -1,7 +1,7 @@
 Title: Announcing CourtListener's New Sub-Project: Juriscraper
 Date: 2012-02-25 13:51
 Author: mlissner
-Category: Announcements, Juriscraper
+Tags: Announcements, Juriscraper
 Slug: announcing-courtlisteners-new-sub-project-juriscraper
 Status: published
 

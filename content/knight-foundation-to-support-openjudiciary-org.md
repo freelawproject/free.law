@@ -1,13 +1,13 @@
 Title: Knight Foundation to Support OpenJudiciary.org
 Date: 2015-07-22 07:05
-Author: admin
-Category: Announcements, Awards
+Author: brianwc
+Tags: Announcements, Awards
 Slug: knight-foundation-to-support-openjudiciary-org
 Status: published
 
 Free Law Project is pleased to announce that its OpenJudiciary.org has
 been selected as a winner of the <span
-id="OLK_SRC_BODY_SECTION">KnightÂ News Challenge</span> on Elections, an
+id="OLK_SRC_BODY_SECTION">Knight News Challenge</span> on Elections, an
 initiative of the John S. and James L. Knight Foundation.
 
 The new project will make judicial elections more transparent for

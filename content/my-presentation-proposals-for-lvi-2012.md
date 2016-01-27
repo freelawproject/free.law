@@ -1,7 +1,7 @@
 Title: My Presentation Proposals for LVI 2012
 Date: 2012-03-15 12:56
 Author: mlissner
-Category: CourtListener, Juriscraper, LVI2012, Presentations, Proposals
+Tags: CourtListener, Juriscraper, LVI2012, Presentations, Proposals
 Slug: my-presentation-proposals-for-lvi-2012
 Status: published
 
@@ -18,7 +18,7 @@ of cases without ever leaving your home. At the same time, there are
 nearly a hundred court websites, many of these websites suffer from poor
 funding or prioritization, and gaining a higher-level view of the law
 can be challenging.
-â€œ[Juriscraper](https://bitbucket.org/mlissner/juriscraper/)â€? is a
+"[Juriscraper](https://bitbucket.org/mlissner/juriscraper/)" is a
 new project designed to ease these problems for all those that wish to
 collect these court opinions daily. The project is under active
 development, and we are looking for others to get involved.
@@ -42,9 +42,7 @@ goals:
 
 As well as a number of features:
 
--   Harmonization of metadata (US, USA, United States of America, etc
-    â†’ United States; et al, et. al., etc. get eliminated; vs., v, vs
-    â†’ v.; all dates are Python objects; etc.)
+-   Harmonization of metadata (US, USA, United States of America, etc become United States; et al, et. al., etc. get eliminated; vs., v, vs become v.; all dates are Python objects; etc.)
 -   Smart title-casing of case names (several courts provide case names
     in uppercase only)
 -   Sanity checking and sorting of metadata values returned by court

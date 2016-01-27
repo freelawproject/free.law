@@ -1,7 +1,7 @@
 Title: Announcing CourtListener.com
 Date: 2010-05-01 13:30
 Author: mlissner
-Category: Announcements, CourtListener
+Tags: Announcements, CourtListener
 Slug: announcing-courtlistener-com
 Status: published
 

@@ -1,7 +1,7 @@
 Title: Converting PDF Files to HTML
 Date: 2010-02-06 13:34
 Author: mlissner
-Category: CourtListener, PDF
+Tags: CourtListener, PDF
 Slug: converting-pdf-files-to-html
 Status: published
 
@@ -21,15 +21,17 @@ from the 13 federal circuit courts, I wanted to figure out which method
 works best for which court, and which method will provide us with the
 most generalizable solution across whatever PDF a court may crank out.
 
-The short version is that the best option seems to be:  
-` pdftotext -htmlmeta -layout -enc 'UTF-8' yourfile.pdf`{lang="bash"}
+The short version is that the best option seems to be:
+
+    :::bash
+    pdftotext -htmlmeta -layout -enc 'UTF-8' yourfile.pdf
 
 This creates an html file with the text of the case laid out best as
 possible, some basic html meta data applied, and the UTF-8 encoding
 applied.
 
 Before coming to this conclusion though, I looked at two settings that
-pdftohtml has. With the -c argument, it can generate a 'complex' HTML
+`pdftohtml` has. With the `-c` argument, it can generate a 'complex' HTML
 document that closely resembles that of the original. Without the -c
 argument, it will create a more simple document. Although the complex
 documents are rather impressive in appearance, they're abysmal when it

@@ -1,7 +1,7 @@
 Title: CourtListner's REST API Featured on Programmable Web
 Date: 2013-12-13 07:00
-Author: admin
-Category: API, CourtListener
+Author: brianwc
+Tags: API, CourtListener
 Slug: courtlistners-rest-api-featured-on-programmable-web
 Status: published
 

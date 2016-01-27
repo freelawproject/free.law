@@ -1,11 +1,11 @@
 Title: Non-Profit "Free Law Project" Formed to Create an Open Legal Ecosystem
 Date: 2013-09-24 08:00
 Author: mlissner
-Category: Announcements, Roadmap
+Tags: Announcements, Roadmap
 Slug: non-profit-free-law-project-formed-to-create-an-open-legal-ecosystem
 Status: published
 
-For Immediate Release â€” Berkeley, CA
+For Immediate Release --- Berkeley, CA
 
 Brian W. Carver and Michael Lissner, creators of the [CourtListener
 platform](https://www.courtlistener.com/) and associated technology, are
@@ -50,7 +50,7 @@ researchers have used both the code and the bulk data as a basis for
 their work.
 
 More information is available in [the Free Law Project about
-page](http://freelawproject.org/about/), where you can find a list of
+page](/about/), where you can find a list of
 current activities and non-profit documents. The co-founders expect to
 pursue grant funding from foundations, but also hope that those who
 support the goals of improving public access to the law will [donate

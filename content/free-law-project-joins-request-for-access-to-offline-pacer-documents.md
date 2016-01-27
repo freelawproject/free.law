@@ -1,7 +1,7 @@
 Title: Free Law Project Joins Request for Access to Offline PACER Documents
 Date: 2014-08-27 08:39
-Author: admin
-Category: Announcements, Bulk Data, CourtListener, Courts, Policy, RECAP
+Author: brianwc
+Tags: Announcements, Bulk Data, CourtListener, Courts, Policy, RECAP
 Slug: free-law-project-joins-request-for-access-to-offline-pacer-documents
 Status: published
 
@@ -11,7 +11,7 @@ on the federal PACER website indicated that PACER documents from five
 courts prior to certain dates (pre-2010 for two courts, pre-2012 for one
 court, etc.) would no longer be available on PACER. The announcement was
 reported widely by news organizations, including the [Washington
-Post](http://www.washingtonpost.com/blogs/the-switch/wp/2014/08/26/why-pacer-removed-access-to-case-archives-of-five-courts/)Â and
+Post](http://www.washingtonpost.com/blogs/the-switch/wp/2014/08/26/why-pacer-removed-access-to-case-archives-of-five-courts/) and
 [Ars
 Technica](http://arstechnica.com/tech-policy/2014/08/us-courts-trash-a-decades-worth-of-documents-shrug-it-off/).
 The announcement has now been changed to explain, "As a result of these
@@ -37,9 +37,9 @@ presence of social security numbers in court records, as
 Public.Resource.Org has done previously in several contexts. In addition
 we offer to host all the documents in a free public archive, at the
 [Internet Archive](http://archive.org), as we do now
-withÂ [RECAP](http://recapthelaw.org) documents. Free Law Project would
+with [RECAP](http://recapthelaw.org) documents. Free Law Project would
 also plan, ultimately, to incorporate the documents into our
-[CourtListener](https://courtlistener.com)Â platform, for even easier
+[CourtListener](https://courtlistener.com) platform, for even easier
 full-text searching and public accessibility.
 
 The [National Law

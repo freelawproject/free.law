@@ -1,7 +1,7 @@
 Title: CourtListener Can Now Send Alerts in Real Time for Donors
 Date: 2015-01-05 15:44
 Author: mlissner
-Category: Alerts, Announcements, CourtListener, Oral Arguments
+Tags: Alerts, Announcements, CourtListener, Oral Arguments
 Slug: courtlistener-will-now-send-alerts-in-real-time
 Status: published
 

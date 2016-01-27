@@ -1,7 +1,7 @@
 Title: Free Law Project Joins Free Access to Law Movement
 Date: 2013-12-10 07:00
-Author: admin
-Category: Announcements, Policy
+Author: brianwc
+Tags: Announcements, Policy
 Slug: free-law-project-joins-free-access-to-law-movement
 Status: published
 
@@ -17,7 +17,7 @@ The Declaration explains in part that,
 -   Public legal information from all countries and international
     institutions is part of the common heritage of humanity. Maximising
     access to this information promotes justice and the rule of law;
--   Public legal information is digital common property and should be  
+-   Public legal information is digital common property and should be
     accessible to all on a non-profit basis and free of charge;
 -   Organisations such as legal information institutes have the right to
     publish public legal information and the government bodies that

@@ -1,7 +1,7 @@
 Title: CourtListener Improves Search Results Thanks to Volunteer Contributor
 Date: 2013-11-12 08:00
 Author: mlissner
-Category: Announcements, Bulk Data, Citator, CourtListener, Relevancy, Search
+Tags: Announcements, Bulk Data, Citator, CourtListener, Relevancy, Search
 Slug: courtlistener-improves-search-results-thanks-to-volunteer-contributor
 Status: published
 

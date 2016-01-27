@@ -1,7 +1,7 @@
 Title: Another new court on CourtListener
 Date: 2013-02-01 14:01
 Author: mlissner
-Category: Announcements, Juriscraper
+Tags: Announcements, Juriscraper
 Slug: another-new-court-on-courtlistener
 Status: published
 

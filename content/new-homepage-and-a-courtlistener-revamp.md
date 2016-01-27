@@ -1,7 +1,7 @@
 Title: New Homepage and a CourtListener Revamp
 Date: 2014-06-03 06:00
 Author: mlissner
-Category: Announcements, CourtListener, Design
+Tags: Announcements, CourtListener, Design
 Slug: new-homepage-and-a-courtlistener-revamp
 Status: published
 
@@ -12,7 +12,7 @@ website to make it more polished, easier to use and easier to learn.
 There are a handful of changes we're really happy about and that we've
 wanted to do for a long time.
 
-First, of course, is ourÂ [new homepage](https://www.courtlistener.com).
+First, of course, is our [new homepage](https://www.courtlistener.com).
 The new homepage is designed to showcase our latest material, to make
 new opinions easy to find, and to better introduce CourtListener to new
 users. The most striking change in the homepage is that at its center it
@@ -22,7 +22,7 @@ all of the search facets that we support, from Case Name to Citation
 Count.
 
 The homepage also ushers in a change that's been in the works for some
-time â€“ we're finally ordering our results by "Relevance" instead of
+time -- we're finally ordering our results by "Relevance" instead of
 "Newest First". This change was made possible by the improvements we've
 made to our relevance engine over the past year, and is one we're really
 excited about. We expect that as you use the new homepage, you'll find

@@ -1,7 +1,7 @@
-Title:  Second Series of Federal Reporter from 1950 to 1993 now on CourtListener 
+Title:  Second Series of Federal Reporter from 1950 to 1993 now on CourtListener
 Date: 2011-08-25 13:47
 Author: mlissner
-Category: Uncategorized
+Tags: Uncategorized
 Slug: second-series-of-federal-reporter-from-1950-to-1993-now-on-courtlistener
 Status: published
 

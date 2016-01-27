@@ -1,7 +1,7 @@
 Title: Why Should Congress Care About PACER?
 Date: 2015-03-23 13:41
-Author: admin
-Category: Agitation, Courts, PACER, Policy
+Author: brianwc
+Tags: Agitation, Courts, PACER, Policy
 Slug: why-should-congress-care-about-pacer
 Status: published
 
@@ -46,7 +46,7 @@ There are several reasons that Congress should care about PACER:
     Conference](http://managingmiracles.blogspot.com/2009/02/lieberman-letter-on-pacer.html)
     expressing dismay that seven years after the passage of the
     E-Government Act, "it appears that little has been done to make
-    these records freely available â€“ with PACER charging a higher rate
+    these records freely available -- with PACER charging a higher rate
     than 2002." Well, another six years have passed since then, and the
     situation has only worsened. The courts are simply ignoring
     Congressional intent and direction. One would like to quote the
@@ -98,7 +98,7 @@ There are several reasons that Congress should care about PACER:
     others) would work quickly to create APIs and other value-added
     services on top of this data that would do more to further the
     current burst in legal technology innovations than anything else
-    government could do.**  
+    government could do.**
    **
 
 The expressed desire of Congress to make PACER information free is

@@ -1,7 +1,7 @@
 Title: Check Out CourtListener's New Paint and Features
 Date: 2014-11-13 06:33
 Author: mlissner
-Category: Accessibility, Announcements, CourtListener, Design
+Tags: Accessibility, Announcements, CourtListener, Design
 Slug: check-out-courtlisteners-new-paint-and-features
 Status: published
 

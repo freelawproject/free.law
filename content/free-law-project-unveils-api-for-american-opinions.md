@@ -1,7 +1,7 @@
 Title: Free Law Project Unveils API for Court Opinions
 Date: 2013-11-19 08:00
 Author: mlissner
-Category: Announcements, API, Citator, CourtListener, Courts, Practical Obscurity, Search, Technology
+Tags: Announcements, API, Citator, CourtListener, Courts, Practical Obscurity, Search, Technology
 Slug: free-law-project-unveils-api-for-american-opinions
 Status: published
 
@@ -10,8 +10,8 @@ logo](http://freelawproject.org/wp-content/uploads/2013/11/full-light-250w.png)]
 
 Today marks another big day for the Free Law Project. We're happy to
 share that we've created [the first ever API for U.S. Legal
-Opinions](https://www.courtlistener.com/api/rest-info/). An API â€” or
-Application Programming Interface â€” is a way for computers to talk to
+Opinions](https://www.courtlistener.com/api/rest-info/). An API --- or
+Application Programming Interface --- is a way for computers to talk to
 each other and consume each others' data in an automated fashion. From
 this day forth, developers, researchers and legal startups can begin
 consuming the data that we have at CourtListener in a granular and very

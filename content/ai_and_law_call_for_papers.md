@@ -1,21 +1,21 @@
 Title: AI and Law Call for Papers
 Date: 2015-07-23 15:06
-Author: admin
-Category: Announcements
+Author: brianwc
+Tags: Announcements
 Slug: ai_and_law_call_for_papers
 Status: published
 
 Passing along this call for papers:
 
-> **Special Issue ofÂ Artificial Intelligence and LawÂ in Honor of
+> **Special Issue of Artificial Intelligence and Law in Honor of
 > Carole Hafner: call for papers**
 >
 > Earlier this year, Carole Hafner, a key figure in the origin and
 > development of AI and Law, died. A tribute to Carole can be found
-> atÂ <http://www.iaail.org/?q=page/memorials>. A special issue
-> ofÂ Artificial Intelligence and LawÂ (which she co-founded) will be
-> published in 2016, focusing on Caroleâ€™s main research topics:
-> semantic retrieval andÂ the procedural, temporal and teleological
+> at <http://www.iaail.org/?q=page/memorials>. A special issue
+> of Artificial Intelligence and Law (which she co-founded) will be
+> published in 2016, focusing on Carole's main research topics:
+> semantic retrieval and the procedural, temporal and teleological
 > aspects of reasoning with legal cases.
 >
 > In her long academic career, Carole Hafner made contributions in a
@@ -33,7 +33,7 @@ Passing along this call for papers:
 >
 > Perhaps her most significant contributions were her triptych of papers
 > written with Don Berman published in the 1991, 1993 and 1995 ICAIL
-> conferences and consolidated in anÂ AI and LawÂ journal paper (Hafner
+> conferences and consolidated in an AI and Law journal paper (Hafner
 > and Berman 2002). All three of these papers dealt with various
 > limitations of factor based reasoning. The 1991 paper (Berman and
 > Hafner 1991) called for more account to be taken of the procedural
@@ -56,14 +56,14 @@ Passing along this call for papers:
 > papers are welcome, we particularly seek contributions on the
 > procedural and temporal aspects of case based reasoning, which we
 > regard as unduly neglected. All contributions should clearly
-> demonstrate their connection with Caroleâ€™s work. The editor of the
+> demonstrate their connection with Carole's work. The editor of the
 > special issue will be Trevor Bench-Capon, and all papers will go
 > through the standard review process for this journal.
 >
-> Contributions, which should be submitted through the Journalâ€™s site
+> Contributions, which should be submitted through the Journal's site
 > at <http://www.editorialmanager.com/arti/default.aspx> and copied to
 > Trevor Bench-Capon (tbc@csc.liv.ac.uk), should be received by
-> 31stÂ May 2016, and notification of acceptance will be by the end of
+> 31st May 2016, and notification of acceptance will be by the end of
 > July 2016 with a view to the special issue appearing as the last issue
 > of 2016.
 >
@@ -71,21 +71,21 @@ Passing along this call for papers:
 >
 > Carole D. Hafner and Donald H. Berman: The role of context in
 > case-based legal reasoning: teleological, temporal, and
-> procedural.Â Artificial Intelligence and LawÂ 10(1-3): 19-64 (2002)
+> procedural. Artificial Intelligence and Law 10(1-3): 19-64 (2002)
 >
 > Donald H. Berman, Carole D. Hafner: Incorporating Procedural Context
-> into a Model of Case-based Legal Reasoning.Â ICAIL 1991: 12-20
+> into a Model of Case-based Legal Reasoning. ICAIL 1991: 12-20
 >
 > Donald H. Berman, Carole D. Hafner: Representing Teleological
-> Structure in Case-based Legal Reasoning: The Missing Link.Â ICAIL
+> Structure in Case-based Legal Reasoning: The Missing Link. ICAIL
 > 1993: 50-59
 >
-> Donald H. Berman,Â Carole D. Hafner: Understanding Precedents in a
-> Temporal Context of Evolving Legal Doctrine.Â ICAIL 1995: 42-51
+> Donald H. Berman, Carole D. Hafner: Understanding Precedents in a
+> Temporal Context of Evolving Legal Doctrine. ICAIL 1995: 42-51
 >
-> Carole D. Hafner:Â An Information Retrieval System Based on a Computer
-> Model of Legal Knowledge.Â Â Ann Arbor: UMI Research Press, 1981.
+> Carole D. Hafner: An Information Retrieval System Based on a Computer
+> Model of Legal Knowledge.  Ann Arbor: UMI Research Press, 1981.
 >
 > Carole D. Hafner: Conceptual Organization of Case Law Knowledge
-> Bases.Â  ICAIL 1987: 35-42.
+> Bases.  ICAIL 1987: 35-42.
 

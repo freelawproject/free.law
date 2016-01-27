@@ -1,7 +1,7 @@
 Title: LVI 2014 Call for Abstracts
 Date: 2014-03-20 06:25
-Author: admin
-Category: Announcements
+Author: brianwc
+Tags: Announcements
 Slug: lvi-2014-call-for-abstracts
 Status: published
 

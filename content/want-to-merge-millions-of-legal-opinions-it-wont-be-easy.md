@@ -1,7 +1,7 @@
 Title: Want to Merge Millions of Legal Opinions? It Won't Be Easy.
 Date: 2013-11-01 07:11
 Author: mlissner
-Category: Bulk Data, Citator, CourtListener, Courts, Data Wrangling, Design, Technology, XPath
+Tags: Bulk Data, Citator, CourtListener, Courts, Data Wrangling, Design, Technology, XPath
 Slug: want-to-merge-millions-of-legal-opinions-it-wont-be-easy
 Status: published
 

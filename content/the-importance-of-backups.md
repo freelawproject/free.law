@@ -1,7 +1,7 @@
 Title: The Importance of Backups
 Date: 2014-08-28 13:09
-Author: admin
-Category: Bulk Data, Courts, Coverage, Policy, RECAP
+Author: brianwc
+Tags: Bulk Data, Courts, Coverage, Policy, RECAP
 Slug: the-importance-of-backups
 Status: published
 
@@ -30,7 +30,7 @@ out some of the [landmark civil rights cases taken off
 PACER](http://www.bbc.com/news/technology-28953299) through this action.
 
 The BBC mentions the case *Ricci v. DeStefano* which was decided at the
-Second Circuit whileÂ  Sonia Sotomayor was a Circuit Judge. Sotomayor,
+Second Circuit while  Sonia Sotomayor was a Circuit Judge. Sotomayor,
 now a Supreme Court Justice, had her role in deciding the case closely
 scrutinized during her Supreme Court confirmation hearings. Many who dug
 in to Sotomayor's background during those hearings likely relied on the
@@ -39,7 +39,7 @@ decided. What will happen when the next individual from the Second,
 Seventh, Eleventh, or Federal Circuit, is nominated for higher office?
 Unless PACER officials make some accommodation, such as the one [we
 asked for
-yesterday](http://freelawproject.org/2014/08/27/free-law-project-joins-request-for-access-to-offline-pacer-documents/),
+yesterday](/2014/08/27/free-law-project-joins-request-for-access-to-offline-pacer-documents/),
 researchers and the public will face the daunting task of requesting
 these materials individually, possibly in person, at excessive expense
 and inconvenience for everyone involved.
@@ -50,7 +50,7 @@ the Administrative Office of the Courts ("AOC") cannot argue that some
 of these cases have been closed for "13 years." Some were closed this
 year! They also cannot argue that "many had not been accessed in several
 years" because as we demonstrated in [a recent
-video](http://freelawproject.org/2014/08/26/using-pacer-what-could-possibly-go-wrong/),
+video](/2014/08/26/using-pacer-what-could-possibly-go-wrong/),
 it can be very difficult and expensive to use PACER. Thus, PACER usage
 statistics should tell us nothing about the importance of these files.
 And often, as was the situation with Judge Sotomayor's historical

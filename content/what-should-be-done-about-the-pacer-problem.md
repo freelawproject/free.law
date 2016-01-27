@@ -1,14 +1,14 @@
 Title: What Should be Done About the PACER Problem?
 Date: 2015-03-24 15:41
-Author: admin
-Category: Agitation, Courts, PACER, Policy, RECAP
+Author: brianwc
+Tags: Agitation, Courts, PACER, Policy, RECAP
 Slug: what-should-be-done-about-the-pacer-problem
 Status: published
 
 This is the third in a series of posts about PACER:
 
-1.  [What is the â€œPACER
-    Problemâ€??](http://freelawproject.org/2015/03/20/what-is-the-pacer-problem/)
+1.  [What is the "PACER
+    Problem"](http://freelawproject.org/2015/03/20/what-is-the-pacer-problem/)
 2.  [Why Should Congress Care About
     PACER?](http://freelawproject.org/2015/03/23/why-should-congress-care-about-pacer/)
 3.  What Should be Done About the PACER Problem?
@@ -34,7 +34,7 @@ three-pronged approach that average individuals can take to address the
 PACER Problem: Litigation, Supplication, and Agitation. Let's consider
 each.
 
-**Litigation**  
+**Litigation**
 It's probably not fruitful if everyone runs out and sues the courts
 over PACER. Carl's memorandum sketches many of the challenges that such
 cases would face. There are people thinking about this carefully,
@@ -43,7 +43,7 @@ standing, or have other resources to contribute to such an effort, feel
 free to [get in touch with us](http://freelawproject.org/contact/) and
 we can direct you to the folks having these conversations.
 
-**Supplication**  
+**Supplication**
 Carl's memorandum also explains that Public.Resource.Org is asking for
 a fee exemption from the courts, focused on receiving all of the
 documents from one district court and one appellate-level Circuit court.
@@ -56,7 +56,7 @@ supportive of this request, or pursue their own fee exemptions where
 they believe they have grounds to receive one, most people will find
 something in the next category more useful to pursue.
 
-**Agitation**  
+**Agitation**
 There are several polite ways you could raise the profile of this
 issue. It appears to us that many of the decision-makers are not even
 aware that there is a problem or that the problem is as dire as it is,
@@ -94,7 +94,7 @@ Committee that wrote [that
 report](http://freelawproject.org/2015/03/23/why-should-congress-care-about-pacer/)
 about the E-Government Act of 2002 that said Congress wanted the
 Judicial Conference to move to "a fee structure in which this
-information is freely available to the greatest extent possible.â€?
+information is freely available to the greatest extent possible."
 Write your members of Congress, whoever they are, and say something
 like:
 
@@ -103,7 +103,7 @@ like:
 > well. When Congress passed the E-Government Act of 2002 an
 > accompanying Senate report stated that Congress wanted the Judicial
 > Conference to move to "a fee structure in which this information is
-> freely available to the greatest extent possible.â€? However, PACER
+> freely available to the greatest extent possible." However, PACER
 > fees have only increased since that time and there appear to be no
 > meaningful efforts to make these public records freely available. I
 > would urge you to call for public hearings on PACER to learn why no
@@ -123,11 +123,11 @@ memorandum also suggested a way to pursue direct action to free some
 PACER documents. PACER waives any fees that are under \$15/quarter. So,
 Carl proposed that on May 1st a lot of people download \$15/worth of
 documents and try to set a record day for PACER usage. Using your
-\$15/quarter in â€œfreeâ€? downloads is easy: You need to get a PACER
+\$15/quarter in "free" downloads is easy: You need to get a PACER
 account (credit card required), then you need to get [the RECAP
 extension](http://recapthelaw.org) for either Firefox or Chrome. Do this
 now in the first quarter so you can make sure your setup is working.
-That way you know youâ€™ll be ready on May Day. We've written up
+That way you know you'll be ready on May Day. We've written up
 [detailed instructions for
 participating](http://freelawproject.org/pacer-drainage-instructions/).
 We've also set up a [recap-reminder mailing
@@ -136,12 +136,12 @@ that will send you a reminder when each quarter is coming to a close, so
 you never forget to use your \$15 credit to put more public documents
 into a free public archive.
 
-**Do whatever you do best!**  
+**Do whatever you do best!**
 Maybe you're great at making videos or art or writing opinion pieces
 for your local newspaper. That's awesome. Do those things. This is a
 people's protest.
 
-**Make May 1 "Law Day" a National Day of PACER Protest**  
+**Make May 1 "Law Day" a National Day of PACER Protest**
 To give all these individual efforts greater collective impact, Carl
 has proposed that the people take back May 1st "Law Day" by making it a
 National Day of PACER Protest. So, whether you're mailing a letter,

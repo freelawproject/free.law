@@ -1,7 +1,7 @@
 Title: Adding New Fonts to Tesseract 3 OCR Engine
 Date: 2012-02-11 13:01
 Author: mlissner
-Category: CourtListener, Font, HowTo, OCR, Tesseract
+Tags: CourtListener, Font, HowTo, OCR, Tesseract
 Slug: adding-new-fonts-to-tesseract-3-ocr-engine
 Status: published
 
@@ -43,7 +43,8 @@ abbreviation](http://www.sil.org/iso639-3/iso-639-3_Name_Index_20120203.tab)
 for your language), and then use the following command to convert it to
 a 300dpi tiff (requires imagemagick):
 
-`convert -density 300 -depth 4 lang.font-name.exp0.pdf lang.font-name.exp0.tif`
+    :::bash
+    convert -density 300 -depth 4 lang.font-name.exp0.pdf lang.font-name.exp0.tif
 
 You'll now have a good training image called lang.font-name.exp0.tif. If
 you're adding multiple fonts, or bold, italic or underline, repeat this
@@ -58,7 +59,8 @@ shot, we then give it corrections. It'll provide us with a box file,
 which is just a file containing x,y coordinates of each letter it found
 along with what letter it thinks it is. So let's see what it can do:
 
-`tesseract lang.font-name.exp0.tiff lang.font-name.exp0 batch.nochop makebox`
+    :::bash
+    tesseract lang.font-name.exp0.tiff lang.font-name.exp0 batch.nochop makebox
 
 You'll now have a file called font-name.exp0.box, and you'll need to
 open it in a box-file editor. There are a bunch of these [on the
@@ -76,11 +78,13 @@ two lines.
 
 When that's done, you feed the box file back into tesseract:
 
-`tesseract eng.font-name.exp0.tif eng.font-name.box nobatch box.train.stderr`
+    :::bash
+    tesseract eng.font-name.exp0.tif eng.font-name.box nobatch box.train.stderr
 
 Next, you need to detect the Character set used in all your box files:
 
-`unicharset_extractor *.box`
+    :::bash
+    unicharset_extractor *.box
 
 When that's complete, you need to create a `font_properties` file. It
 should list every font you're training, one per line, and identify
@@ -99,7 +103,8 @@ included out of the box.
 
 We're getting near the end. Next, create the clustering data:
 
-`mftraining -F font_properties -U unicharset -O lang.unicharset *.tr  cntraining *.tr`
+    :::bash
+    mftraining -F font_properties -U unicharset -O lang.unicharset *.tr  cntraining *.tr
 
 If you want, you can [create a
 wordlist](http://code.google.com/p/tesseract-ocr/wiki/TrainingTesseract3#Dictionary_Data_(Optional))
@@ -112,13 +117,15 @@ To do that, rename each of the language files (normproto, Microfeat,
 inttemp, pffmtable) to have your lang prefix, and run (mind the dot at
 the end):
 
-`combine_tessdata lang.`
+    :::bash
+    combine_tessdata lang.
 
 This will create all the data files you need, and you just need to move
 them to the correct place on your OS. On Ubuntu, I was able to move them
 to;
 
-`sudo mv eng.traineddata /usr/local/share/tessdata/`
+    :::bash
+    sudo mv eng.traineddata /usr/local/share/tessdata/
 
 And that, good friend, is it. Worst process for a human, ever.
 
