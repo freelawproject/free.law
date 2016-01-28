@@ -6,7 +6,7 @@ Slug: free-law-project-unveils-api-for-american-opinions
 Status: published
 
 [![powered-by
-logo](http://freelawproject.org/wp-content/uploads/2013/11/full-light-250w.png)](http://freelawproject.org/wp-content/uploads/2013/11/full-light-250w.png)
+logo]({filename}/images/full-light-250w.png)
 
 Today marks another big day for the Free Law Project. We're happy to
 share that we've created [the first ever API for U.S. Legal

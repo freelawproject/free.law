@@ -23,7 +23,7 @@ announcement without this explanation:
 
 [caption id="attachment\_520" align="aligncenter"
 width="300"][![Original PACER
-announcement](http://freelawproject.org/wp-content/uploads/2014/08/PACER_docs_disappear-300x161.png)](http://freelawproject.org/wp-content/uploads/2014/08/PACER_docs_disappear.png)
+announcement]({filename}/images/PACER_docs_disappear.png)
 Original PACER announcement[/caption]
 
 This morning, Free Law Project signed on to [five

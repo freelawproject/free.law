@@ -78,7 +78,7 @@ There are several reasons that Congress should care about PACER:
     <p>
     [caption id="attachment\_753" align="aligncenter"
     width="510"][![pacer.gov
-    website](http://freelawproject.org/wp-content/uploads/2015/03/pacer-gov-2015-03-23-101247-1024x1024.png)](http://freelawproject.org/wp-content/uploads/2015/03/pacer-gov-2015-03-23-101247.png)
+    website]({filename}/images/pacer-gov-2015-03-23-101247.png)
     Screenshot of pacer.gov website (March 2015)[/caption]
 3.  **Congress wants to encourage innovation and nothing would spur the
     legal technology space more than opening up PACER.** Addressing the

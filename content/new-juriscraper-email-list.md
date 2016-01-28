@@ -21,7 +21,7 @@ day to day problems that arise with so many scrapers.
 
 [caption id="attachment\_931" align="alignnone" width="333"]![Scraper
 Status
-Email](http://freelawproject.org/wp-content/uploads/2015/08/Screenshot-from-2015-08-27-104126.png)
+Email]({filename}/images/Screenshot-from-2015-08-27-104126.png)
 Yesterday's status email[/caption]
 
 We look forward to lots more discussion and so much more scraping!

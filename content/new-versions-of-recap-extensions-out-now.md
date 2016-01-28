@@ -6,7 +6,7 @@ Slug: new-versions-of-recap-extensions-out-now
 Status: published
 
 [![RECAP
-Logo](http://freelawproject.org/wp-content/uploads/2015/03/recap_r-150x150.png)](http://recapthelaw.org)We've
+Logo]({filename}/images/recap_r-150x150.png)](http://recapthelaw.org)We've
 released new versions of the RECAP extensions for
 [Chrome](https://chrome.google.com/webstore/detail/recap/oiillickanjlaeghobeeknbddaonmjnc?hl=en)
 and

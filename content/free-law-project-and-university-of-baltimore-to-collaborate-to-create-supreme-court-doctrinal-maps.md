@@ -7,7 +7,7 @@ Status: published
 
 [caption id="attachment\_926" align="alignright" width="300"][![An early
 prototype of the new
-version.](http://freelawproject.org/wp-content/uploads/2015/08/scotus-maps-prototype-300x232.png)](http://freelawproject.org/wp-content/uploads/2015/08/scotus-maps-prototype.png)
+version.]({filename}/images/scotus-maps-prototype.png)
 An early prototype of the new version.[/caption]
 
 Free Law Project is excited to announce that over the next several

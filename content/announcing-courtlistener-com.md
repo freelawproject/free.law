@@ -51,7 +51,7 @@ without having to download a PDF and crank up Adobe Acrobat.
 As I mentioned earlier, this project has been designed as an open source
 project, so if you're looking for something to contribute to, look no
 further. We have a very active [bug
-list](http://bitbucket.org/mlissner/legal-current-awareness/issues?status=new&status=open)
+list](https://github.com/freelawproject/courtlistener/issues/)
 where you can dip your toes in, or if you prefer something meatier, we
 can cook something up specifically for you.
 
@@ -59,8 +59,9 @@ I've greatly enjoyed working on this project so far, and I'd love to get
 more people using it, working on it, and recommending it to their
 friends. We're already planning version 1.0, so drop me a line if you're
 interested in helping out, otherwise, [go check it out
-already](http://courtlistener.com), and see all that it has to offer!
+already](https://www.courtlistener.com), and see all that it has to offer!
 
-[Final Report, Michael Lissner, no
-Appendix](http://freelawproject.org/wp-content/uploads/2013/07/Final-Report-Michael-Lissner-no-Appendix.pdf)
+## Attachments
+
+[Final Report, Michael Lissner, no Appendix]({filename}/pdf/Final-Report-Michael-Lissner-no-Appendix.pdf)
 

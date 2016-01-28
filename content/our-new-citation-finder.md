@@ -64,7 +64,7 @@ When you try to load citations with problems like this, you'll get a
 list of the cases that it might refer to, like so:
 
 ![Several Results
-Found](http://freelawproject.org/wp-content/uploads/2015/11/Screenshot-from-2015-11-30-102734.png)
+Found]({filename}/images/Screenshot-from-2015-11-30-102734.png)
 
 We're very excited about this tool because it's a great example of the
 kind of work that is made possible by open data and open tools. This

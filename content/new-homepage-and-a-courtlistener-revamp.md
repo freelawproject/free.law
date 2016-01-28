@@ -6,7 +6,7 @@ Slug: new-homepage-and-a-courtlistener-revamp
 Status: published
 
 [![Home Page
-Screenshot](http://freelawproject.org/wp-content/uploads/2014/06/home-169x300.png)](http://freelawproject.org/wp-content/uploads/2014/06/home.png)We're
+Screenshot]({filename}/images/home.png)We're
 happy to share today that we've completed a revamp of the CourtListener
 website to make it more polished, easier to use and easier to learn.
 There are a handful of changes we're really happy about and that we've

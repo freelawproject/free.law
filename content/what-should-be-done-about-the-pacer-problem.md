@@ -81,7 +81,7 @@ Click on [this map](https://www.pacer.gov/map.html) to use a PACER
 feature that actually works fairly well if you're not sure which is your
 local federal court.
 
-[![court\_map\_540x290](http://freelawproject.org/wp-content/uploads/2015/03/court_map_540x290.png)](https://www.pacer.gov/map.html)
+[![court\_map\_540x290]({filename}/images/court_map_540x290.png)](https://www.pacer.gov/map.html)
 
 **Write to your members of Congress.** Is one of your Senators on the
 [Senate Judiciary
@@ -118,7 +118,7 @@ OpenCongress.org](https://www.opencongress.org/people/zipcodelookup).
 
 **Join our crowd-based effort to download PACER documents using RECAP.**
 [![RECAP
-Logo](http://freelawproject.org/wp-content/uploads/2015/03/recap_r-150x150.png)](http://recapthelaw.org)Carl's
+Logo]({filename}/images/recap_r-150x150.png)](http://recapthelaw.org)Carl's
 memorandum also suggested a way to pursue direct action to free some
 PACER documents. PACER waives any fees that are under \$15/quarter. So,
 Carl proposed that on May 1st a lot of people download \$15/worth of

@@ -5,11 +5,6 @@ Tags: Announcements, Bulk Data, Citator, CourtListener, Relevancy, Search
 Slug: courtlistener-improves-search-results-thanks-to-volunteer-contributor
 Status: published
 
-[caption id="attachment\_279" align="alignright"
-width="150"]![demo-graph](http://freelawproject.org/wp-content/uploads/2013/11/simple-graph-150x150.png)
-Opinions and their citations are made into a network to calculate
-CiteGeist[/caption]
-
 We're excited to announce that beginning today our relevancy engine will
 provide significantly better results than it has in the past. Starting
 today, whenever you place a query we will analyze which opinions are the
@@ -19,6 +14,17 @@ of your query ("Geist") and gives you the best possible results. This is
 currently enabled for our corpus starting in the 1750's up through about
 1985, and the remaining years will get the CiteGeist treatment as well
 over the next few days.
+
+<div class="row">
+    <div class="col-xs-4">
+        <div class="thumbnail">
+          <img src="{filename}/images/simple-graph-150x150.png" alt="demo graph">
+          <div class="caption">
+            <p>The citation graph is made into a network to compute CiteGeist scores.</p>
+          </div>
+        </div>
+    </div>
+</div>
 
 The details of how CiteGeist works are in our code, but the basic idea
 is to give a high CiteGeist score to opinions that are cited many times

@@ -22,7 +22,7 @@ this point. A few times we've seen that payment information fails the
 verification process and then needs either human review or to be
 reentered:
 
-[![human-review](http://freelawproject.org/wp-content/uploads/2015/03/human-review.png)](http://freelawproject.org/wp-content/uploads/2015/03/human-review.png)If
+[![human-review]({filename}/images/human-review.png)If
 you run into this problem, [log into
 PACER](https://pacer.login.uscourts.gov/csologin/login.jsf) (ignore the
 client code field), then go to [Account

@@ -6,7 +6,7 @@ Slug: free-law-project-adds-more-than-a-million-opinions-to-the-public-domain-th
 Status: published
 
 [![lawbox
-logo](http://freelawproject.org/wp-content/uploads/2013/10/lawbox-150x150.png)](http://lawboxapps.com)
+logo]({filename}/images/lawbox-150x150.png)](http://lawboxapps.com)
 
 For Immediate Release --- Berkeley, CA
 

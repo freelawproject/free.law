@@ -10,8 +10,7 @@ for a long time. Starting today, you can make citation queries against
 the CourtListener corpus. If you look in the bottom of the left hand
 column, you'll see a new slider:
 
-![Screenshot from 2013-07-31
-15:19:34](http://freelawproject.org/wp-content/uploads/2013/07/Screenshot-from-2013-07-31-151934.png)
+![sliders]({filename}/images/sliders.png)
 
 Sliding the handles around, you can easily filter out any documents that
 are too popular or not popular enough -- or both. In addition to this,

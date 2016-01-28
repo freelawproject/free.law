@@ -12,7 +12,7 @@ start using this now by selecting "Real Time" in the rate drop down when
 creating alerts:
 
 ![Real Time Alerts
-Demo](http://freelawproject.org/wp-content/uploads/2015/01/Screenshot-from-2015-01-02-173801.png)
+Demo]({filename}/images/Screenshot-from-2015-01-02-173801.png)
 
 Once you've set up an alert with this rate, we'll begin checking the
 hundreds of items we download each day and we will send an email as soon

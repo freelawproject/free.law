@@ -129,7 +129,9 @@ to;
 
 And that, good friend, is it. Worst process for a human, ever.
 
-[standard-training-text.txt](http://freelawproject.org/wp-content/uploads/2013/07/standard-training-text.txt)
+## Attachments
 
-[old-english.doc](http://freelawproject.org/wp-content/uploads/2013/07/old-english.doc)
+[standard-training-text.txt]({filename}/txt/standard-training-text.txt)
+
+[old-english.doc]({filename}/doc/old-english.doc)
 
