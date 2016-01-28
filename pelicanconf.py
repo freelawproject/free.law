@@ -35,9 +35,10 @@ PAGE_URL = '{slug}'
 PAGE_SAVE_AS = '{slug}/index.html'
 
 STATIC_PATHS = [
-    '.',
-    'images',
+    '.',  # For favicons.
     'css',
+    'images',
+    'keys',
 ]
 
 # Blogroll
@@ -92,7 +93,7 @@ BOOTSTRAP_THEME = 'flatly'
 #BOOTSTRAP_NAVBAR_INVERSE = True
 
 BANNER = '/images/scotus.jpeg'
-BANNER_SUBTITLE = 'Providing free access to primary legal materials, developing legal research tools, and supporting academic research on legal corpora'
+BANNER_SUBTITLE = 'Providing free access to primary legal materials, developing legal research tools, and supporting academic research on legal corpora.'
 BANNER_ALL_PAGES = True
 CUSTOM_CSS = 'css/custom.css'
 
