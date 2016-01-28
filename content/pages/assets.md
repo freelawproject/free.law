@@ -17,7 +17,7 @@ Free Law Project Logos
 
 The Free Law Project logo is available in square, blue and black
 versions. [Download a zip containing the svg, pdf and png
-versions.](http://freelawproject.org/wp-content/uploads/2013/11/flp-logos.zip)
+versions.]({filename}/zip/flp-logos.zip)
 
  
 
@@ -27,7 +27,7 @@ Powered By Free Law Project Logos {#powered-by}
 These badges are available in dark or light, and should work well with
 most designs. [Download a zip for full size images and dark versions
 (svg,
-png)](http://freelawproject.org/wp-content/uploads/2013/11/Powered-By1.zip).
+png)]({filename}/zip/Powered-By1.zip).
 We suggest that you make them link to FreeLawProject.org.
 
  
@@ -37,7 +37,7 @@ CourtListener Logos
 
 The [CourtListener](https://www.courtlistener.com/) logo is available in
 long, square and stacked formats. [Download a zip containing the svg
-versions.](http://freelawproject.org/wp-content/uploads/2013/11/CourtListener.zip)
+versions.]({filename}/zip/CourtListener.zip)
 
  
 
@@ -46,5 +46,5 @@ RECAP Logos
 
 The RECAP logos are available as Adobe Illustrator, svg and png files.
 [Download a zip containing all versions and required
-fonts.](http://freelawproject.org/wp-content/uploads/2013/11/RECAP.zip)
+fonts.]({filename}/zip/RECAP.zip)
 

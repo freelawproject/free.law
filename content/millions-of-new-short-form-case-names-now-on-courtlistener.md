@@ -43,7 +43,7 @@ correction.
 All of these short form case names are now available in our new
 database, bulk API, and REST API in the field called `case_name_short`.
 To get a feel for these, you can also look at [the attached
-spreadsheet](http://freelawproject.org/wp-content/uploads/2015/12/short_names.csv),
+spreadsheet]({filename}/csv/short_names.csv),
 which shows the cases that were completed by hand.
 
 As for the algorithm itself, the process was roughly:

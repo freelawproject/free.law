@@ -37,8 +37,14 @@ PAGE_SAVE_AS = '{slug}/index.html'
 STATIC_PATHS = [
     '.',  # For favicons.
     'css',
+    'csv',
+    'doc',
     'images',
     'keys',
+    'odt',
+    'pdf',
+    'txt',
+    'zip',
 ]
 
 # Blogroll

@@ -17,5 +17,7 @@ slides to this Blog post, and the audio for the talk may eventually get
 posted [on the LVI
 site](http://blog.law.cornell.edu/lvi2012/presentation/wrangling-court-data-on-a-national-level/).
 
-[LVI-Presentation-Lissner-Juriscraper](http://freelawproject.org/wp-content/uploads/2013/07/LVI-Presentation-Lissner-Juriscraper.pdf)
+## Attachments
+
+[LVI-Presentation-Lissner-Juriscraper]({filename}/pdf/LVI-Presentation-Lissner-Juriscraper.pdf)
 

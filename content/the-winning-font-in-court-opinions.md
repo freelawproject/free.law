@@ -294,7 +294,10 @@ Lincoln
 
 </tr>
 </table>
-[extract\_font\_metadata\_from\_files.py\_.txt](http://freelawproject.org/wp-content/uploads/2012/01/extract_font_metadata_from_files.py_.txt)
 
-[font-analysis.ods](http://freelawproject.org/wp-content/uploads/2012/01/font-analysis.ods)
+## Attachments
+
+[extract\_font\_metadata\_from\_files.py\_.txt]({filename}/txt/extract_font_metadata_from_files.py.txt)
+
+[font-analysis.ods]({filename}/ods/font-analysis.ods)
 
