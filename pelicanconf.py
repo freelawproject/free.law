@@ -98,7 +98,7 @@ THEME = 'themes/pelican-bootstrap3'
 BOOTSTRAP_THEME = 'flatly'
 #BOOTSTRAP_NAVBAR_INVERSE = True
 
-BANNER = '/images/scotus.jpeg'
+BANNER = 'images/scotus.jpeg'
 BANNER_SUBTITLE = 'Providing free access to primary legal materials, developing legal research tools, and supporting academic research on legal corpora.'
 BANNER_ALL_PAGES = True
 CUSTOM_CSS = 'css/custom.css'
