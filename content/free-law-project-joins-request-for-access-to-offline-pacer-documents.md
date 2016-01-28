@@ -21,10 +21,9 @@ therefore, the judiciary is no longer able to provide electronic access
 to the closed cases on those systems." See a screenshot of the earlier
 announcement without this explanation:
 
-[caption id="attachment\_520" align="aligncenter"
-width="300"][![Original PACER
-announcement]({filename}/images/PACER_docs_disappear.png)
-Original PACER announcement[/caption]
+[![Original PACER announcement]({filename}/images/PACER_docs_disappear.png)
+
+*Original PACER announcement*
 
 This morning, Free Law Project signed on to [five
 letters](https://t.co/x8jAx0E5dn) from the non-profit,

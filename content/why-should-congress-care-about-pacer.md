@@ -36,12 +36,11 @@ There are several reasons that Congress should care about PACER:
     could from multiple sources and produced an
     [analysis](http://managingmiracles.blogspot.com/2010/05/what-is-electronic-public-access-to.html)
     that suggests that annual revenue from electronic public access
-    ("EPA") services approaches \\$100 million while annual EPA operating
-    costs are closer to \\$20 million. The enormous surplus is used to
+    ("EPA") services approaches $100 million while annual EPA operating
+    costs are closer to $20 million. The enormous surplus is used to
     fund all manner of other court technology needs, such as flatscreen
     monitors for jurors and audio speaker systems in courtrooms.
 
-    <p>
     In 2009, [Senator Lieberman sent a letter to the Judicial
     Conference](http://managingmiracles.blogspot.com/2009/02/lieberman-letter-on-pacer.html)
     expressing dismay that seven years after the passage of the
@@ -74,12 +73,12 @@ There are several reasons that Congress should care about PACER:
     entity's budget by a corresponding amount and allocating it to the
     courts directly for operating a free public access system might be a
     budget-neutral solution to the unreasonable burdens imposed on the
-    public by the current fee structure.^[1]^
-    <p>
-    [caption id="attachment\_753" align="aligncenter"
-    width="510"][![pacer.gov
-    website]({filename}/images/pacer-gov-2015-03-23-101247.png)
-    Screenshot of pacer.gov website (March 2015)[/caption]
+    public by the current fee structure.[^1]
+
+    ![pacer.gov website]({filename}/images/pacer-gov-2015-03-23-101247.png)
+
+    *Screenshot of pacer.gov website (March 2015)*
+
 3.  **Congress wants to encourage innovation and nothing would spur the
     legal technology space more than opening up PACER.** Addressing the
     PACER problem is a "good government" issue and hence a non-partisan
@@ -112,13 +111,12 @@ opportunity to encourage an increasingly vital area of the economy.
 Congress *should* care about PACER and--in our next post--we'll further
 outline what both Congress and others should do about it.
 
---[@brianwc](http://twitter.com/brianwc)
 
-^[1]^ To address a few potential counter-arguments, let me state some
+[^1]: To address a few potential counter-arguments, let me state some
 assumptions I make. First, I suspect the government entity usage of
-PACER amounts to at least 20% or at least \\$20 million annually and that
+PACER amounts to at least 20% or at least $20 million annually and that
 a public access system for the federal courts could be operated and
-maintained for less than \\$20 million annually. It is in this sense that
+maintained for less than $20 million annually. It is in this sense that
 my proposal would be budget neutral. This would not include spending on
 the courtroom technology upgrades or whatever else the courts are doing
 with the PACER surplus, expenditures that I think the courts *should*

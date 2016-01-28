@@ -16,11 +16,9 @@ This is the third in a series of posts about PACER:
 Let's outline what you should do, what Congress should do, and what the
 courts should do:
 
-<div class="media">
-  <div class="media-left">
-    <img class="media-object" src="{filename}/images/670px-Uncle_Sam_pointing_finger.jpg" alt="Uncle Sam (pointing finger)" by James Montgomery Flagg - Public Domain via Wikimedia Commons">
-  </div>
-</div>
+
+<img src="{filename}/images/670px-Uncle_Sam_pointing_finger.jpg" alt="Uncle Sam (pointing finger)" by James Montgomery Flagg - Public Domain via Wikimedia Commons">
+
 
 *By James Montgomery Flagg - Public Domain via Wikimedia Commons*
 
@@ -114,25 +112,25 @@ like:
 > Thank you for your attention to this important matter.
 
 You can find contact information for your members of congress by
-[searching on
-OpenCongress.org](https://www.opencongress.org/people/zipcodelookup).
+[searching on OpenCongress.org](https://www.opencongress.org/people/zipcodelookup).
 
 **Join our crowd-based effort to download PACER documents using RECAP.**
 
-<div class="media">
-  <div class="media-left">
+
+<div class="left-image">
     <a href="http://recapthelaw.org">
-      <img class="media-object" src="{filename}/images/recap_r-150x150.png" alt="RECAP Logo">
+        <img src="{filename}/images/recap_r-150x150.png"
+             alt="RECAP Logo"/>
     </a>
-  </div>
 </div>
+
 
 Carl's
 memorandum also suggested a way to pursue direct action to free some
-PACER documents. PACER waives any fees that are under \\$15/quarter. So,
-Carl proposed that on May 1st a lot of people download \\$15/worth of
+PACER documents. PACER waives any fees that are under $15/quarter. So,
+Carl proposed that on May 1st a lot of people download $15/worth of
 documents and try to set a record day for PACER usage. Using your
-\\$15/quarter in "free" downloads is easy: You need to get a PACER
+$15/quarter in "free" downloads is easy: You need to get a PACER
 account (credit card required), then you need to get [the RECAP
 extension](http://recapthelaw.org) for either Firefox or Chrome. Do this
 now in the first quarter so you can make sure your setup is working.
@@ -142,7 +140,7 @@ participating](http://freelawproject.org/pacer-drainage-instructions/).
 We've also set up a [recap-reminder mailing
 list](http://lists.freelawproject.org/cgi-bin/mailman/listinfo/recap-reminder)
 that will send you a reminder when each quarter is coming to a close, so
-you never forget to use your \\$15 credit to put more public documents
+you never forget to use your $15 credit to put more public documents
 into a free public archive.
 
 **Do whatever you do best!**
@@ -154,12 +152,10 @@ people's protest.
 To give all these individual efforts greater collective impact, Carl
 has proposed that the people take back May 1st "Law Day" by making it a
 National Day of PACER Protest. So, whether you're mailing a letter,
-delivering a postcard in person, or downloading \\$15 worth of PACER
+delivering a postcard in person, or downloading $15 worth of PACER
 documents with RECAP, focus your activity on May 1st.
 
-!["Capitol building" by Francisco Anzola - CC-BY 2.0 via
-Wikimedia
-Commons]({filename}/images/1200px-Capitol_building_3452037202.jpg)
+!["Capitol building" by Francisco Anzola - CC-BY 2.0 via Wikimedia Commons]({filename}/images/1200px-Capitol_building_3452037202.jpg)
 *By Francisco Anzola - CC-BY 2.0 via Wikimedia Commons*
 
 **What Congress should do about the PACER Problem**
@@ -214,10 +210,9 @@ showed separately the revenue generated from searches, docket reports,
 and document downloads. Congress already has the authority to receive
 such information and simply needs to ask.
 
-[caption id="attachment\_791" align="aligncenter" width="512"][![By Phil
-Roeder. CC-BY 2.0 via Wikimedia
-Commons.]({filename}/images/Inside_the_United_States_Supreme_Court.jpg)
-By Phil Roeder. CC-BY 2.0 via Wikimedia Commons.[/caption]
+![By Phil Roeder. CC-BY 2.0 via Wikimedia Commons.]({filename}/images/Inside_the_United_States_Supreme_Court.jpg)
+
+*By Phil Roeder. CC-BY 2.0 via Wikimedia Commons.*
 
 **What the Courts should do about the PACER Problem**
 -----------------------------------------------------
@@ -286,6 +281,4 @@ thwarts the ability of the press and the public to ensure the proper
 functioning of our democracy. Start preparing to do your part to address
 the PACER Problem before, during, and after May 1st. We intend to keep
 at it until we tear down that pay wall.
-
---[@brianwc](http://twitter.com/brianwc)
 

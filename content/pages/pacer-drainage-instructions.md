@@ -59,10 +59,10 @@ If you're using an existing account, before you begin, you should check
 your remaining balance for the quarter. To do this, go to [the Billing
 History
 page](https://pacer.login.uscourts.gov/csobill-hist/billingmenu.jsf),
-click on "This Quarter" and hit submit. PACER gives you \\$15 of free
+click on "This Quarter" and hit submit. PACER gives you $15 of free
 downloads per quarter. If you exceed that amount by even a penny, you
 pay the entire amount, so **check this amount carefully and always stay
-below the \\$15 threshold**.
+below the $15 threshold**.
 
 Drainage
 --------
@@ -75,15 +75,15 @@ download. Your process is:
 2.  It will suggest an item for you to download. Click on the suggested
     link.
 3.  You will be shown the cost of the item before you are charged. If it
-    will push you above \\$15, **STOP**!
+    will push you above $15, **STOP**!
 4.  If not, download the item by pressing the "View Document" link.
 5.  The item will be downloaded to your computer and RECAP will upload
     it to the Internet Archive. Success! You've contributed to the
     public domain!
 6.  Inform Operation Asymptote that the item was retrieved successfully.
 
-Repeat that process until the next item would exceed the \\$15 quarterly
-allotment, then **STOP**. If you exceed \\$15, you'll be required to pay
+Repeat that process until the next item would exceed the $15 quarterly
+allotment, then **STOP**. If you exceed $15, you'll be required to pay
 the whole amount. Be careful.
 
 Once you've done all this, pat yourself on the back and enjoy the
@@ -113,7 +113,7 @@ part of the process. Thank you for contributing to the public domain!
 What Else?
 ----------
 
-If you've spent your \\$15 and you still have energy to work on [the
+If you've spent your $15 and you still have energy to work on [the
 PACER
 problem](https://www.recapthelaw.org/2015/03/20/the-pacer-problem/),
 there's more you can do:

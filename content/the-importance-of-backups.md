@@ -5,11 +5,13 @@ Tags: Bulk Data, Courts, Coverage, Policy, RECAP
 Slug: the-importance-of-backups
 Status: published
 
-[caption id="attachment\_526" align="alignright" width="197"][![Burning
-of the Library of
-Alexandria]({filename}/images/The_Burning_of_the_Library_at_Alexandria_in_391_AD.jpg)
-The Burning of the Library of Alexandria, an illustration from
-'Hutchinsons History of the Nations', c. 1910.[/caption]
+<div class="right-image">
+    <img src="{filename}/images/The_Burning_of_the_Library_at_Alexandria_in_391_AD.jpg"
+         alt="Burning of the Library of Alexandria"/>
+</div>
+
+*The Burning of the Library of Alexandria, an illustration from
+'Hutchinsons History of the Nations', c. 1910.*
 
 At least since the destruction of the [Ancient Library of
 Alexandria](en.wikipedia.org/wiki/Library_of_alexandria), the world has

@@ -35,3 +35,11 @@ code {
 .navbar-default .navbar-nav > li > a:focus {
     color: #df0e0e;
 }
+.left-image {
+    float:left;
+    padding: 0 15px 5px 0;
+}
+.right-image {
+    float: right;
+    padding: 0 0 5px 15px;
+}

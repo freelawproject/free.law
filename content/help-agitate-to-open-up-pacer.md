@@ -11,7 +11,8 @@ there were some astounding figures about the size and scope of PACER,
 the Federal system for court filings. Among his figures was the fact
 that there are more than "one billion retrievable documents" in PACER:
 
-https://twitter.com/mlissner/status/555858284091944960
+<blockquote class="twitter-tweet" lang="en"><p lang="en" dir="ltr">PACER has 1B docs. Averaging 6 pages, that&#39;d cost $600M to download. Biggest paywall ever. <a href="http://t.co/Vn0YEAQx1k">http://t.co/Vn0YEAQx1k</a> <a href="http://t.co/pknozoHldq">pic.twitter.com/pknozoHldq</a></p>&mdash; ℳike Lissner (@mlissner) <a href="https://twitter.com/mlissner/status/555858284091944960">January 15, 2015</a></blockquote>
+<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 We believe that this means that PACER is the largest collection of
 public domain documents locked behind a pay wall. Having access to this
@@ -32,15 +33,15 @@ Here's how it will work:
 1.  Today, you sign up for our email list by [filling out the form
     here](http://lists.freelawproject.org/cgi-bin/mailman/listinfo/recap-reminder).
 2.  PACER provides [a fee waiver for the first
-    \\$15](https://www.pacer.gov/psc/faq.html#H_PGP3) that you spend each
+    $15](https://www.pacer.gov/psc/faq.html#H_PGP3) that you spend each
     quarter. Near the end of each quarter, we will send you an email
-    reminding you to download \\$15-worth of content from PACER, if you
+    reminding you to download $15-worth of content from PACER, if you
     haven't done so already.
 3.  You install the RECAP extension and then use [Think Computer
     Foundation's Operation
     Asymptote](http://www.plainsite.org/asymptote/) to identify
     documents that are not already part of our free public archive.
-4.  You download suggested items until you get close to the \\$15 fee
+4.  You download suggested items until you get close to the $15 fee
     waiver, then you STOP.
 
 Our hope is that [the administrators of

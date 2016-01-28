@@ -5,9 +5,11 @@ Tags: Announcements, Oral Arguments
 Slug: more-oral-argument-news
 Status: published
 
-[caption id="" align="alignright" width="240"]![Stitcher
-Logo](https://pbs.twimg.com/profile_images/1555421472/twitter_400x400.jpg)
-Oral Arguments Now on Stitcher![/caption]
+<div class="left-image">
+    <img src="{filename}/images/stitcher_400x400.jpg"
+         alt="Stitcher Logo"
+         width="200"/>
+</div>
 
 We're happy to share three pieces of news about [oral arguments at
 CourtListener](https://www.courtlistener.com/?q=&type=oa&order_by=dateArgued+desc).
