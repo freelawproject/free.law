@@ -80,7 +80,7 @@ Click on [this map](https://www.pacer.gov/map.html) to use a PACER
 feature that actually works fairly well if you're not sure which is your
 local federal court.
 
-[![court\_map\_540x290]({filename}/images/court_map_540x290.png)](https://www.pacer.gov/map.html)
+![court\_map\_540x290]({filename}/images/court_map_540x290.png)](https://www.pacer.gov/map.html)
 
 **Write to your members of Congress.** Is one of your Senators on the
 [Senate Judiciary

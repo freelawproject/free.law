@@ -21,7 +21,7 @@ therefore, the judiciary is no longer able to provide electronic access
 to the closed cases on those systems." See a screenshot of the earlier
 announcement without this explanation:
 
-[![Original PACER announcement]({filename}/images/PACER_docs_disappear.png)
+![Original PACER announcement]({filename}/images/PACER_docs_disappear.png)
 
 *Original PACER announcement*
 

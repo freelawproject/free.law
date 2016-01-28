@@ -12,7 +12,7 @@ bulk downloads and try to archive any opinion that a court publishes.
 On some occasions, this results in a slightly confusing search result
 like the following:
 
-[![double
+![double
 result]({filename}/images/double-result.png)](https://www.courtlistener.com/?q=epa+v+eme+homer&stat_Precedential=on&order_by=dateFiled+desc&court=scotus)
 
 We realize having an opinion in the system two times can be a bit

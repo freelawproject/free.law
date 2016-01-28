@@ -65,7 +65,7 @@ as they're short enough.
 As we built the new court picker, we had several iterations. The first
 was a basic wireframe like so:
 
-[![Modal
+![Modal
 Example]({filename}/images/mockup-screenshot.png)
 
 This didn't work at all, but it provided a pretty good place to start.
@@ -75,7 +75,7 @@ prototype](http://notskool.me/courtlistener/filter_demo_added.htm) that
 greatly enhanced our sidebar without forcing people to use modal
 dialogs:
 
-[![chooser
+![chooser
 example]({filename}/images/chooser.png)](http://notskool.me/courtlistener/header-chooser.htm)
 
 Not bad, but it made it very difficult to select lots of jurisdictions,
@@ -84,7 +84,7 @@ ended up with [a working
 demo](http://notskool.me/courtlistener/header-chooser.htm) that looks
 like this:
 
-[![filter
+![filter
 demo]({filename}/images/filter-demo1.png)
 
 Our final version is quite similar, but is changed in a couple

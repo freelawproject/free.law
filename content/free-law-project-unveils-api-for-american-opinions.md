@@ -5,7 +5,7 @@ Tags: Announcements, API, Citator, CourtListener, Courts, Practical Obscurity, S
 Slug: free-law-project-unveils-api-for-american-opinions
 Status: published
 
-[![powered-by
+![powered-by
 logo]({filename}/images/full-light-250w.png)
 
 Today marks another big day for the Free Law Project. We're happy to

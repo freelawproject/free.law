@@ -5,7 +5,7 @@ Tags: Announcements, CourtListener, Design
 Slug: new-homepage-and-a-courtlistener-revamp
 Status: published
 
-[![Home Page
+![Home Page
 Screenshot]({filename}/images/home.png)We're
 happy to share today that we've completed a revamp of the CourtListener
 website to make it more polished, easier to use and easier to learn.
