@@ -5,7 +5,7 @@ Tags: Announcements, Bulk Data, Citator, CourtListener, Data Wrangling
 Slug: reporters-database
 Status: published
 
-![320px-Unitedstatesreports](http://freelawproject.org/wp-content/uploads/2015/04/320px-Unitedstatesreports-150x150.jpg)A
+![320px-Unitedstatesreports]({filename}/images/320px-Unitedstatesreports-150x150.jpg)A
 long time ago in a courthouse not too far away, people started making
 books of every important decision made by the courts. These books became
 known as *reporters* and were generally created by librarian-types of

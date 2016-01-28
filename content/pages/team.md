@@ -5,7 +5,7 @@ Slug: team
 Status: published
 
 [![Mike
-Lissner](http://freelawproject.org/wp-content/uploads/2015/06/mike-150x150.jpeg)](http://michaeljaylissner.com)**[Michael
+Lissner]({filename}/images/mike-150x150.jpeg)](http://michaeljaylissner.com)**[Michael
 Lissner](http://michaeljaylissner.com)** is the Executive Director and
 CTO of Free Law Project.
 
@@ -16,7 +16,7 @@ about open source, community-driven approaches to legal research.
 
  
 
-![brian](http://freelawproject.org/wp-content/uploads/2015/06/brian-150x150.jpeg)**[Brian
+![brian]({filename}/images/brian-150x150.jpeg)**[Brian
 W. Carver](http://www.ischool.berkeley.edu/people/faculty/briancarver)**
 is a co-founder of Free Law Project and an attorney specializing in
 intellectual property and internet law.
@@ -33,7 +33,7 @@ continues to support all of Free Law Project's efforts as a member of
 its Board of Directors.
 
 ![Tom
-Bruce](http://freelawproject.org/wp-content/uploads/2015/06/tom-bruce-b-w-150x150.jpeg)**[Thomas
+Bruce]({filename}/images/tom-bruce-b-w-150x150.jpeg)**[Thomas
 R. Bruce](http://www.lawschool.cornell.edu/faculty/bio.cfm?id=188)** is
 a board member of Free Law Project and the Director and co-founder of
 the [Legal Information Institute](http://www.law.cornell.edu/) at the
@@ -57,7 +57,7 @@ legal profession, and of the FastCase 50, a similar group selected by
 popular vote. He wrote the first web browser for Microsoft Windows.
 
 ![Jerry
-Goldman](http://freelawproject.org/wp-content/uploads/2015/06/jerry-goldman-bw.jpeg)
+Goldman]({filename}/images/jerry-goldman-bw.jpeg)
 
 **[Jerry
 Goldman](https://www.kentlaw.iit.edu/faculty/full-time-faculty/jerry-goldman)**

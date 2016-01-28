@@ -19,7 +19,7 @@ courts should do:
 [caption id="attachment\_792" align="aligncenter" width="510"][!["Uncle
 Sam (pointing finger)" by James Montgomery Flagg - Public Domain via
 Wikimedia
-Commons](http://freelawproject.org/wp-content/uploads/2015/03/670px-Uncle_Sam_pointing_finger.jpg)](https://commons.wikimedia.org/wiki/File:Uncle_Sam_(pointing_finger).jpg#/media/File:Uncle_Sam_(pointing_finger).jpg)
+Commons]({filename}/images/File:Uncle_Sam_(pointing_finger).jpg)
 By James Montgomery Flagg - Public Domain via Wikimedia
 Commons[/caption]
 
@@ -151,7 +151,7 @@ documents with RECAP, focus your activity on May 1st.
 [caption id="attachment\_790" align="aligncenter"
 width="510"][!["Capitol building" by Francisco Anzola - CC-BY 2.0 via
 Wikimedia
-Commons](http://freelawproject.org/wp-content/uploads/2015/03/1200px-Capitol_building_3452037202-1024x768.jpg)](https://commons.wikimedia.org/wiki/File:Capitol_building_(3452037202).jpg)
+Commons]({filename}/images/File:Capitol_building_(3452037202).jpg)
 By Francisco Anzola - CC-BY 2.0 via Wikimedia Commons[/caption]
 
 **What Congress should do about the PACER Problem**
@@ -208,7 +208,7 @@ such information and simply needs to ask.
 
 [caption id="attachment\_791" align="aligncenter" width="512"][![By Phil
 Roeder. CC-BY 2.0 via Wikimedia
-Commons.](http://freelawproject.org/wp-content/uploads/2015/03/Inside_the_United_States_Supreme_Court.jpg)](https://upload.wikimedia.org/wikipedia/commons/2/25/Inside_the_United_States_Supreme_Court.jpg)
+Commons.]({filename}/images/Inside_the_United_States_Supreme_Court.jpg)
 By Phil Roeder. CC-BY 2.0 via Wikimedia Commons.[/caption]
 
 **What the Courts should do about the PACER Problem**

@@ -7,7 +7,7 @@ Status: published
 
 [caption id="attachment\_526" align="alignright" width="197"][![Burning
 of the Library of
-Alexandria](http://freelawproject.org/wp-content/uploads/2014/08/The_Burning_of_the_Library_at_Alexandria_in_391_AD.jpg)](http://freelawproject.org/wp-content/uploads/2014/08/The_Burning_of_the_Library_at_Alexandria_in_391_AD.jpg)
+Alexandria]({filename}/images/The_Burning_of_the_Library_at_Alexandria_in_391_AD.jpg)
 The Burning of the Library of Alexandria, an illustration from
 'Hutchinsons History of the Nations', c. 1910.[/caption]
 

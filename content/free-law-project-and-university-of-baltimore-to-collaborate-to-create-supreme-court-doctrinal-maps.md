@@ -31,7 +31,7 @@ laying a great foundation for this project.
 
 [caption id="attachment\_928" align="alignleft" width="300"][![The
 current
-design](http://freelawproject.org/wp-content/uploads/2015/08/scotus-map-current-300x169.jpg)](http://freelawproject.org/wp-content/uploads/2015/08/scotus-map-current.jpg)
+design]({filename}/images/scotus-map-current.jpg)
 The current design[/caption]
 
 We hope that within a few months our new service will go live, and that

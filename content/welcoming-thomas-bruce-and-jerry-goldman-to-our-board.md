@@ -9,7 +9,7 @@ Today we're proud to announce that Tom Bruce and Jerry Goldman recently
 joined the Free Law Project Board of Directors.
 
 [![Tom
-Bruce](http://freelawproject.org/wp-content/uploads/2015/06/tom-bruce-b-w-150x150.jpeg)](http://freelawproject.org/wp-content/uploads/2015/06/tom-bruce-b-w.jpeg)Tom
+Bruce]({filename}/images/tom-bruce-b-w.jpeg)Tom
 is the Director and co-founder of the [Legal Information
 Institute](http://www.law.cornell.edu/) at the Cornell Law School, where
 he has built a strong organization that serves millions of people every
@@ -18,7 +18,7 @@ standards bodies and committees, and in a previous life made the first
 browser for Microsoft Windows.
 
 [![Jerry
-Goldman](http://freelawproject.org/wp-content/uploads/2015/06/jerry-goldman-bw.jpeg)](http://freelawproject.org/wp-content/uploads/2015/06/jerry-goldman-bw.jpeg)Jerry
+Goldman]({filename}/images/jerry-goldman-bw.jpeg)Jerry
 is the founder and director of the [Oyez Project](http://www.oyez.org),
 a vast and widely utilized multimedia archive devoted to the U.S.
 Supreme Court and its work. He's an influential author on a number of
