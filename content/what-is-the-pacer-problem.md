@@ -38,7 +38,7 @@ These "various problems" with the PACER system include:
     known until after you have incurred the charge.** Using PACER's
     search functionality is terrifying. You have no way of knowing what
     you will be charged until after you have incurred the charge. In my
-    own experience, slight typos have cost me upwards of \$50. Imagine
+    own experience, slight typos have cost me upwards of \\$50. Imagine
     using Google and paying based on the number of results that Google
     returns, where the number of results that might be returned are
     completely unknown in advance. On the internet, you could use a

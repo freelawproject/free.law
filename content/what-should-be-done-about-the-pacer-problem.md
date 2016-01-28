@@ -16,12 +16,13 @@ This is the third in a series of posts about PACER:
 Let's outline what you should do, what Congress should do, and what the
 courts should do:
 
-[caption id="attachment\_792" align="aligncenter" width="510"][!["Uncle
-Sam (pointing finger)" by James Montgomery Flagg - Public Domain via
-Wikimedia
-Commons]({filename}/images/File:Uncle_Sam_(pointing_finger).jpg)
-By James Montgomery Flagg - Public Domain via Wikimedia
-Commons[/caption]
+<div class="media">
+  <div class="media-left">
+    <img class="media-object" src="{filename}/images/670px-Uncle_Sam_pointing_finger.jpg" alt="Uncle Sam (pointing finger)" by James Montgomery Flagg - Public Domain via Wikimedia Commons">
+  </div>
+</div>
+
+*By James Montgomery Flagg - Public Domain via Wikimedia Commons*
 
 **What you should do about the PACER Problem**
 ----------------------------------------------
@@ -117,13 +118,21 @@ You can find contact information for your members of congress by
 OpenCongress.org](https://www.opencongress.org/people/zipcodelookup).
 
 **Join our crowd-based effort to download PACER documents using RECAP.**
-[![RECAP
-Logo]({filename}/images/recap_r-150x150.png)](http://recapthelaw.org)Carl's
+
+<div class="media">
+  <div class="media-left">
+    <a href="http://recapthelaw.org">
+      <img class="media-object" src="{filename}/images/recap_r-150x150.png" alt="RECAP Logo">
+    </a>
+  </div>
+</div>
+
+Carl's
 memorandum also suggested a way to pursue direct action to free some
-PACER documents. PACER waives any fees that are under \$15/quarter. So,
-Carl proposed that on May 1st a lot of people download \$15/worth of
+PACER documents. PACER waives any fees that are under \\$15/quarter. So,
+Carl proposed that on May 1st a lot of people download \\$15/worth of
 documents and try to set a record day for PACER usage. Using your
-\$15/quarter in "free" downloads is easy: You need to get a PACER
+\\$15/quarter in "free" downloads is easy: You need to get a PACER
 account (credit card required), then you need to get [the RECAP
 extension](http://recapthelaw.org) for either Firefox or Chrome. Do this
 now in the first quarter so you can make sure your setup is working.
@@ -133,7 +142,7 @@ participating](http://freelawproject.org/pacer-drainage-instructions/).
 We've also set up a [recap-reminder mailing
 list](http://lists.freelawproject.org/cgi-bin/mailman/listinfo/recap-reminder)
 that will send you a reminder when each quarter is coming to a close, so
-you never forget to use your \$15 credit to put more public documents
+you never forget to use your \\$15 credit to put more public documents
 into a free public archive.
 
 **Do whatever you do best!**
@@ -145,14 +154,13 @@ people's protest.
 To give all these individual efforts greater collective impact, Carl
 has proposed that the people take back May 1st "Law Day" by making it a
 National Day of PACER Protest. So, whether you're mailing a letter,
-delivering a postcard in person, or downloading \$15 worth of PACER
+delivering a postcard in person, or downloading \\$15 worth of PACER
 documents with RECAP, focus your activity on May 1st.
 
-[caption id="attachment\_790" align="aligncenter"
-width="510"][!["Capitol building" by Francisco Anzola - CC-BY 2.0 via
+!["Capitol building" by Francisco Anzola - CC-BY 2.0 via
 Wikimedia
-Commons]({filename}/images/File:Capitol_building_(3452037202).jpg)
-By Francisco Anzola - CC-BY 2.0 via Wikimedia Commons[/caption]
+Commons]({filename}/images/1200px-Capitol_building_3452037202.jpg)
+*By Francisco Anzola - CC-BY 2.0 via Wikimedia Commons*
 
 **What Congress should do about the PACER Problem**
 ---------------------------------------------------

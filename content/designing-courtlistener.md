@@ -17,7 +17,8 @@ will be given few options. Basically, they can login, register for an
 account, make a search, or read one of the ancillary pages such as the
 "About" or "Privacy" page:
 
-![](http://michaeljaylissner.com/files/images/DSC02180%20(Modified).800x600.preview.JPG)
+![first sketch]({filename}/images/designing-cl/1.jpeg)
+
 Also, note the advanced button under the search field. When this is
 clicked, it expands to show the advanced search queries that the site
 will support, as you can see on the next page.
@@ -30,13 +31,14 @@ collapsed, but in the wire frame, I sketched it out. Also, if users
 click on "More details," (in the bottom-right of the "Advanced" box)
 they can get explanations and examples of all the connectors shown.
 
-![](http://michaeljaylissner.com/files/images/DSC02183%20(Modified).800x600.preview.JPG)
+![second sketch]({filename}/images/designing-cl/2.jpeg)
 
 From that page, they would normally be redirected to their settings
 page, where their alerts are listed. Here, they can edit and see their
 alerts.
 
-![](http://michaeljaylissner.com/files/images/DSC02185%20(Modified).800x600.preview.JPG)
+![third sketch]({filename}/images/designing-cl/3.jpeg)
+
 Clicking the "Edit" button takes a user back to the "create alert"
 page, except that it will be pre-filled with the alert they're trying to
 edit.
@@ -47,7 +49,7 @@ does have a couple unusual features, such as the bar memberships the
 user is a part of and whether they prefer HTML or plain text emails (not
 shown in the below version - sorry).
 
-![](http://michaeljaylissner.com/files/images/DSC02184%20(Modified).800x600.preview.JPG)
+![fourth sketch]({filename}/images/designing-cl/4.jpeg)
 
 And that's it for now. I'd LOVE any feedback anybody has on these.
 Typing this up, I've already come across a couple problems:

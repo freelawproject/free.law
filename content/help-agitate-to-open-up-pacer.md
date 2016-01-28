@@ -32,15 +32,15 @@ Here's how it will work:
 1.  Today, you sign up for our email list by [filling out the form
     here](http://lists.freelawproject.org/cgi-bin/mailman/listinfo/recap-reminder).
 2.  PACER provides [a fee waiver for the first
-    \$15](https://www.pacer.gov/psc/faq.html#H_PGP3) that you spend each
+    \\$15](https://www.pacer.gov/psc/faq.html#H_PGP3) that you spend each
     quarter. Near the end of each quarter, we will send you an email
-    reminding you to download \$15-worth of content from PACER, if you
+    reminding you to download \\$15-worth of content from PACER, if you
     haven't done so already.
 3.  You install the RECAP extension and then use [Think Computer
     Foundation's Operation
     Asymptote](http://www.plainsite.org/asymptote/) to identify
     documents that are not already part of our free public archive.
-4.  You download suggested items until you get close to the \$15 fee
+4.  You download suggested items until you get close to the \\$15 fee
     waiver, then you STOP.
 
 Our hope is that [the administrators of
