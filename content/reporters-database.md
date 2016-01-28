@@ -5,8 +5,12 @@ Tags: Announcements, Bulk Data, Citator, CourtListener, Data Wrangling
 Slug: reporters-database
 Status: published
 
-![320px-Unitedstatesreports]({filename}/images/320px-Unitedstatesreports-150x150.jpg)A
-long time ago in a courthouse not too far away, people started making
+<div class="left-image">
+    <img src="{filename}/images/320px-Unitedstatesreports-150x150.jpg"
+         alt="United States Reporters"/>
+</div>
+
+A long time ago in a courthouse not too far away, people started making
 books of every important decision made by the courts. These books became
 known as *reporters* and were generally created by librarian-types of
 yore such as [Mr. William

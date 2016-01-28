@@ -5,10 +5,15 @@ Tags: Announcements, API, Bulk Data, Citator, CourtListener, Courts, Coverage, D
 Slug: free-law-project-adds-more-than-a-million-opinions-to-the-public-domain-thanks-to-data-donation
 Status: published
 
-![lawbox
-logo]({filename}/images/lawbox-150x150.png)](http://lawboxapps.com)
+<div class="left-image">
+    <a href="http://lawboxapps.com">
+        <img src="{filename}/images/lawbox-150x150.png"
+             alt="lawbox
+                  logo"/>
+    </a>
+</div>
 
-For Immediate Release --- Berkeley, CA
+*For Immediate Release --- Berkeley, CA*
 
 After many years of collecting and curating data, today
 [CourtListener](https://www.courtlistener.com/) crossed some incredible

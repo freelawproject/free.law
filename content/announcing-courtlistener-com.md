@@ -61,7 +61,7 @@ friends. We're already planning version 1.0, so drop me a line if you're
 interested in helping out, otherwise, [go check it out
 already](https://www.courtlistener.com), and see all that it has to offer!
 
-## Attachments
+### Attachments
 
 [Final Report, Michael Lissner, no Appendix]({filename}/pdf/Final-Report-Michael-Lissner-no-Appendix.pdf)
 
