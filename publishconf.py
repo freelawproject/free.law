@@ -10,7 +10,8 @@ import sys
 sys.path.append(os.curdir)
 from pelicanconf import *
 
-SITEURL = 'https://free.law'
+SITEURL = 'http://free.law.s3-website-us-east-1.amazonaws.com'
+# SITEURL = 'free.law
 RELATIVE_URLS = False
 
 FEED_ALL_ATOM = 'feeds/all.atom.xml'
