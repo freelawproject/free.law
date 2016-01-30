@@ -12,7 +12,7 @@ We love preserving digital artifacts, so here's a screenshot of the old site:
 
 ![Old Homepage]({filename}/images/flp-homepage-v1.png)
 
-*FreeLawProject.org, v1. You can also browse the old site [archive.org][ia].*
+*FreeLawProject.org, v1. You can also browse the old site at [archive.org][ia].*
 
 For the technically curious, this new site uses the [Pelican Static Site Generator][p], and runs on the Amazon Web Services stack. This means that it will be incredibly fast no matter where you are in the world, it should never go down, and it allows us to secure the page behind HTTPS. If you want more details, you can find them in the ["Infrastructure" section of the readme][i].
 
