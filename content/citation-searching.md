@@ -12,7 +12,15 @@ For example, say you're looking at [Roe v. Wade][roe] and you want to analyze th
 
 ![Sidebar]()
 
-If you click that link, you'll be taken back to the search results page, and you'll see that your query is for `cites:(108713)`. The XXXCOUNTXXX results that are shown can now be filtered however you like.
+If you click that link, you'll be taken back to the search results page, and you'll see that your query is for `cites:(108713)`. The number in there is the ID of Roe v. Wade that you can see in its URL. This is just standard CourtListener search syntax, so you can tweak it however you like. For example, if you want cases that cite both Roe v. Wade and another case, you can do a query for:
+
+    cites:(108713 AND OTHER-NUMBER-HERE)
+
+Or if you want to find out cases that cite either Roe v. Wade OR another case, you can do that too:
+
+    cites:(108713 OR OTHER-NUMBER-HERE)
+
+In this example, we don't do that, so we see XXXCOUNTXXX cases that cite just Roe v. Wade, and those opinions can now be filtered however we like.
 
 Let's assume that you want to look for cases citing Roe v. Wade that have the phrase "Planned Parenthood". To do that, we'll change the query to `cites:(108713) "planned parenthood"`.
 
