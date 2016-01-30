@@ -35,7 +35,9 @@ You're done!
 
 ## Writing a post or a page
 
-Posts are easy to write, but to make it even easier, there's a template called example.md. Start there, write your post in markdown and generate the HTML when you think your post is ready (read on).
+Posts are easy to write, but to make it even easier, there's a template called example.md. Start there, write your post in markdown and generate the HTML when you think your post is ready (read on for that).
+
+If you want to tag your post, unfortunately, we don't have autocomplete for that. So either just go for it, and we can embrace a folksonomy or look in the `output/tag` directory, where they're all listed.
 
 If you're making a page, it's just like making a post, except you put it in the `content/pages` directory instead. You can also give it a custom slug if you want.
 
