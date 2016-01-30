@@ -1,10 +1,12 @@
 Title:
 Subtitle:
 Summary:
+Author: mlissner
 disqus_identifier:
 Date:
 Modified:
 Tags:
+Status: Draft
 
 
 An image:
