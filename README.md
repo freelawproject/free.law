@@ -100,4 +100,4 @@ There is another weak point in this configuration. The connection between CloudF
 
 [1]: https://olivermak.es/2016/01/aws-tls-certificate-with-jekyll/
 [fl]: https://free.law
-[keys]: [1]: https://console.aws.amazon.com/iam/home?region=us-west-2#security_credential
+[keys]: https://console.aws.amazon.com/iam/home?region=us-west-2#security_credential
