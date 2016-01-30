@@ -1,7 +1,7 @@
 Title: Launching Free.law Website
 Subtitle: Free Law Project got a new home!
 Author: mlissner
-Date: 2015-01-30
+Date: 2016-01-30
 Tags: announcements
 
 A quick announcement today to share that we're making [Free.law][1] our new home and that we're launching a new homepage to go with it. If you're reading this post, you're looking at the new site! Let us know what you think or if we can improve it somehow. For the most part, it's a replica of our old site, but we've made a few improvements here and there. In general, the layout, typography, security, speed, and reliability should all be better.
