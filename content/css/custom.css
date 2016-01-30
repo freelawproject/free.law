@@ -18,6 +18,9 @@ a:active,
 a:focus {
     color: #AE0B0B;
 }
+h1 a:hover,
+h1 a:active,
+h1 a:focus,
 h2 a:hover,
 h2 a:active,
 h2 a:focus {
