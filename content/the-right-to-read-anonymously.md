@@ -54,8 +54,12 @@ speak and to associate are intertwined with this right to read
 anonymously such that we should see the right to read anonymously as a
 fundamental constitutional right.
 
-![1984-Big-Brother]({filename}/images/1984-Big-Brother.jpg)Now,
-imagine a different sort of "library," so different from traditional
+<div class="left-image">
+    <img src="{filename}/images/1984-Big-Brother.jpg"
+         alt="1984-Big-Brother"/>
+</div>
+
+Now, imagine a different sort of "library," so different from traditional
 libraries we should instead call it simply a "repository." This
 repository has no shelves or books directly accessible to the public.
 Instead it has only a giant counter, guarded by something so unlike
