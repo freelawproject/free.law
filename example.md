@@ -1,8 +1,6 @@
 Title:
-Subtitle:
 Summary:
 Author: mlissner
-disqus_identifier:
 Date:
 Modified:
 Tags:
