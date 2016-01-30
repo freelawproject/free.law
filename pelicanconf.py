@@ -59,10 +59,10 @@ SOCIAL = (
     ('Free Law Project', 'https://twitter.com/freelawproject', 'twitter'),
     ('CourtListener', 'https://twitter.com/courtlistener', 'twitter'),
     ('RECAP', 'https://twitter.com/recapthelaw', 'twitter'),
+    ('Github', 'https://github.com/freelawproject', 'github'),
     ('Facebook', 'https://www.facebook.com/freelawproject', 'facebook'),
     ('LinkedIn', 'https://www.linkedin.com/company/free-law-project', 'linkedin'),
     ('Google Plus', 'https://plus.google.com/u/0/b/101318679730088826987/101318679730088826987/about', 'google-plus'),
-    ('Github', 'https://github.com/freelawproject', 'github'),
 )
 
 DEFAULT_PAGINATION = 20
