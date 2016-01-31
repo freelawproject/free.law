@@ -1,18 +1,16 @@
 Title: Millions of New "Short Form" Case Names Now on CourtListener
-Summary: Free Law Project makes millions of short form case names available in bulk.
 Date: 2016-01-30 18:00:00
 Author: mlissner
 Tags: Announcements, API, Bulk Data, CourtListener, Data Wrangling, Juriscraper
-Status: draft
 
-While working on a soon-to-be-released feature of CourtListener, we needed to create "short form" case names for all the cases in CourtListener. We're happy to share that we've created about 1.8M short form case names, including complete coverage for all Supreme Court cases going back to 1947, when the [Supreme Court
+While working on a soon-to-be-released feature of CourtListener, we needed to create "short form" case names for all the cases that we could. We're happy to share that we've created about 1.8M short form case names, including complete coverage for all Supreme Court cases going back to 1947, when the [Supreme Court
 Database](http://scdb.wustl.edu/) begins.
 
 If you're not familiar with the term, short form case names are the ones you might use in a later citation to an authority you've already discussed in a document. For example, the first time you mention a case you might say:
 
 > Kellogg Brown & Root Services, Inc. v. United States Ex Rel. Carter
 
-But latter references might just be:
+But later references might just be:
 
 > Kellogg Brown at 22
 
@@ -22,7 +20,9 @@ The Blue Book doesn't have a lot to say about this format, but does say the shor
 > of the first party, unless that party is a geographical or
 > governmental unit or other common litigant.
 
-With these rules in mind, we made an algorithm that attempts to generate good short form case names, spitting out hard cases for human review. The final version of the algorithm was able to create about 1.8M short form case names out of the 3M cases in our system, and is run every day as we collect new opinions. About 2500 Supreme Court cases were too complicated for the algorithm. For these cases, we created short form case names by hand. We also know that the program is not perfect, so if you see any errors, as always, feel free to send them to us for correction.
+With these rules in mind, we made an algorithm that attempts to generate good short form case names, spitting out hard cases for human review. The final version of the algorithm was able to create about 1.8M short form case names out of the 3M cases in our system, and is run every day as we collect new opinions.
+
+About 2,500 Supreme Court cases were too complicated for the algorithm. For these cases, we created short form case names by hand. We also know that the program is not perfect, so if you see any errors, as always, feel free to send them to us for correction.
 
 All of these short form case names are now available in our new database, bulk API, and REST API in the field called `case_name_short`. To get a feel for these, you can also look at [the attached spreadsheet]({filename}/csv/short_names.csv), which shows the cases that were completed by hand.
 

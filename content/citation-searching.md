@@ -1,14 +1,12 @@
 Title: Citation Searching on CourtListener
-Summary: Our new citation searching feature allows you to slice and dice the citations to any opinion.
 Author: mlissner
 Date: 2016-01-30 18:00:00
 Tags: announcements, citations, courtlistener, API, alerts, RSS
-Status: Draft
 
 
 One of the great new features that [the new version of CourtListener][1] provides is what we're calling Citation Searching. Citation Searching lets you look at all the opinions that cite an opinion you're interested in and then slice and dice them so that you only see the ones that are important to you.
 
-For example, say you're looking at [*Roe v. Wade*][roe] and you want to analyze the cases that have cited it. In the sidebar on the left, there's a list of the opinions citing the one you're looking at, in the section called "Cited By". At the bottom of that section, there's a link that says, "Full List of Cited Opinions".
+For example, say you're looking at [*Roe v. Wade*][roe] and you want to analyze the cases that have cited it. In CourtListener, in the sidebar on the left, there's a list of the opinions citing the one you're looking at, in the section called "Cited By". At the bottom of that section, there's a link that says, "Full List of Cited Opinions".
 
 ![Sidebar]()
 
@@ -39,10 +37,10 @@ Now that you have a query that you like (all cases citing *Roe v. Wade* in feder
 
 As always, you can also set up an [RSS feed][feeds] for any query, if you're familiar with that technology, and these queries are also available on our API.
 
-Citation searching is a feature that we've wanted to deploy for a long time, ever since we realized it was possible. We're sure it's going to become a valuable part of your research process, and we hope if you like it, you'll [consider making a donation to support our work][donate]. As always, if you have any ideas for making it better please let us know!
+Citation searching is a feature that we've wanted to deploy for a long time, ever since we realized it was possible. We're sure it's going to become a valuable part of your research process, and we hope that if you like it, you'll [consider making a donation to support our work][donate]. As always, if you have any ideas for making it better please let us know!
 
 
-[1]: {filname}/brand-new-courtlistener-a-year-in-the-works.md
+[1]: {filename}/brand-new-courtlistener-a-year-in-the-works.md
 [roe]: https://www.courtlistener.com/opinion/108713/roe-v-wade/
 [picker]: {filename}/our-new-jurisdiction-picker.md
 [rt]: {filename}/courtlistener-will-now-send-alerts-in-real-time.md
