@@ -10,7 +10,7 @@ Tags: courtlistener, announcements
     </a>
 </div>
 
-It's taken the better part of a year, but I'm thrilled to announce that a new and better version of CourtListener is live as of this moment. If you can't tell the difference immediately, we see that as a good thing, since most of the enhancements are under the hood.
+It's taken the better part of a year, but I'm thrilled to announce that a new and better version of [CourtListener is live as of this moment][cl]. If you can't tell the difference immediately, we see that as a good thing, since most of the enhancements are under the hood.
 
  - The most important changes in this version have to do with the database, which now supports a number of new features. Most importantly, legal opinions are no longer single entities. For example, in the past if we had the lead opinion, a dissent, and a concurrence, we had no choice but to put them all together and make them readable top to bottom on our site. That has been fine, but in our new system we introduce the concept of an Opinion Cluster, which consists of several "sub opinions".
 
@@ -29,3 +29,4 @@ These changes are just the beginning of the improvements that are already live i
 [cns]: {filename}/short-form-case-names.md
 [contact]: {filename}/pages/contact.md
 [proto]: {filename}/knight-foundation-to-support-openjudiciary-org.md
+[cl]: https://www.courtlistener.com
