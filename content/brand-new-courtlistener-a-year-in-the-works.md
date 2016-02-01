@@ -22,7 +22,7 @@ It's taken the better part of a year, but I'm thrilled to announce that a new an
 
  - Finally, in pursuit of creating a robust and competitive legal ecosystem, we're sharing one more piece of data that has never been available before. For every case in CourtListener, we've generated or manually created short form case names. To legal writers, these are the short names that you might use to refer to an opinion after you've already cited it the first time (for example, "*Roe*" instead of "*Roe v. Wade*"). To read more about this, [check out out blog post on the topic][cns].
 
-These changes are just the beginning of the improvements that are already live in the new version, and we have a number of other big projects that will sharing soon. We hope you'll enjoy all the new benefits of the new version, and as always if you have praise, ideas, or find bugs, [let us know][contact]!
+These changes are just the beginning of the improvements that are already live in the new version, and we have a number of other big projects that we will sharing soon. We hope you'll enjoy all the new benefits of the new version, and as always if you have praise, ideas, or find bugs, [let us know][contact]!
 
 
 [1]: {filename}/citation-searching.md
