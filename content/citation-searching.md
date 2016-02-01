@@ -8,32 +8,34 @@ One of the great new features that [the new version of CourtListener][1] provide
 
 For example, say you're looking at [*Roe v. Wade*][roe] and you want to analyze the cases that have cited it. In CourtListener, in the sidebar on the left, there's a list of the opinions citing the one you're looking at, in the section called "Cited By". At the bottom of that section, there's a link that says, "Full List of Cited Opinions".
 
-![Sidebar]()
+![Sidebar]({filename}/images/cited-by-sidebar.png)
 
-If you click that link, you'll be taken back to the search results page, and you'll see that your query is for `cites:(108713)`. The number in there is the ID of *Roe v. Wade* that you can see in its URL. This is just standard CourtListener search syntax, so you can tweak it however you like. For example, if you want cases that cite both *Roe v. Wade* and another case, you can do a query for:
+If you click that link, you'll be taken back to the search results page, and you'll see that your query is for `cites:(108713)`. The number in there is the ID of *Roe v. Wade* that you can see in its URL. This is just standard CourtListener search syntax, so you can tweak it however you like.
 
-    cites:(108713 AND OTHER-NUMBER-HERE)
+For example, another important case in this area is *[Planned Parenthood v. Casey][pp]*, which has an ID of `112786`. If you want cases that cite both *Roe* and *Casey*, you can do a query for:
 
-Or if you want to find out cases that cite either *Roe v. Wade* OR another case, you can do that too:
+    cites:(108713 AND 112786)
 
-    cites:(108713 OR OTHER-NUMBER-HERE)
+That brings back 205 results. If you want to find out cases that cite either *Roe* OR *Casey*, you can do that too:
 
-In this example, we don't do that, so we see XXXCOUNTXXX cases that cite just *Roe v. Wade*, and those opinions can now be filtered however we like.
+    cites:(108713 OR 112786)
+
+That brings back about 1,600 results. In this example, we won't do that, so we see 1,271 cases that cite just *Roe v. Wade*, and those opinions can now be filtered however we like.
 
 Let's assume that you want to look for opinions citing *Roe v. Wade* that have the phrase "Planned Parenthood". To do that, we'll change the query to `cites:(108713) "planned parenthood"`.
 
-![PP Query]()
+![PP Query]({filename}/images/citing-roe-pp.png)
 
-That brings the number of opinions that cite *Roe v. Wade* to only XXXX cases, but that's still a lot to review. Perhaps you can filter down to only federal cases using [the Jurisdiction Picker][picker]. If you do that, you will have XXX opinions remaining, and you can sort them by relevancy to see which ones are most important.
+That brings the number of opinions that cite *Roe v. Wade* to only 352 cases, but that's still a lot to review. Perhaps you can filter down to only cases in the Ninth Circuit using [the Jurisdiction Picker][picker]. If you do that, you will have 32 opinions remaining, and they'll be sorted by relevancy to show which ones are most important.
 
 
 ## Citation Alerts
 
 Another use of Citation Searching is to tie it in with our alert system. If you're logged into CourtListener, and you're looking at search results, you'll see a sidebar that allows you to create an alert.
 
-![Alert Sidebar]()
+![Alert Sidebar]({filename}/images/alert-sidebar.png)
 
-Now that you have a query that you like (all cases citing *Roe v. Wade* in federal jurisdictions containing the phrase "Planned Parenthood"), you can create an alert so that whenever a new case fits these criteria you get an email sent to you at the end of the day, week, or even in [real time][rt], if you're a Free Law Project supporter.
+Now that you have a query that you like (all cases citing *Roe v. Wade* in the Ninth Circuit containing the phrase "Planned Parenthood"), you can create an alert so that whenever a new case fits these criteria you get an email sent to you at the end of the day, week, or even in [real time][rt], if you're a Free Law Project supporter.
 
 As always, you can also set up an [RSS feed][feeds] for any query, if you're familiar with that technology, and these queries are also available on our API.
 
@@ -46,3 +48,4 @@ Citation searching is a feature that we've wanted to deploy for a long time, eve
 [rt]: {filename}/courtlistener-will-now-send-alerts-in-real-time.md
 [feeds]: https://www.courtlistener.com/feeds/
 [donate]: https://www.courtlistener.com/donate/?referrer=flp-citation-searching
+[pp]: https://courtlistener.com/opinion/112786/planned-parenthood-of-southeastern-pa-v-casey/
