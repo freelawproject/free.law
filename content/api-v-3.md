@@ -17,6 +17,9 @@ The new version of the API is a huge improvement over the old version, and I hig
 
 *The design of the new database*
 
+
+## The Bad News
+
 The bad news is that versions 1 and 2 of the API are being deprecated with some haste. We investigated how difficult it would be to support these versions longer, but there are a number of problems that really can't be solved. The showstoppers are:
 
 1. [The library used to generate v1 and v2][pie] has gone out of style, having been replaced by [the much-better library we're using in v3][drf]. The updates to the old library are slow and its developers are aloof, making bug fixes impossible and making support a nightmare. We simply need to move off it.
