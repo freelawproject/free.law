@@ -68,6 +68,8 @@ To publish your post, simply run:
 
 This will regenerate the site using the `publishconf.py` file, then will sync it with Amazon, pushing anything new and deleting anything old.
 
+Note that if you're updating an item, you may have to wait for cache invalidation to occur before you'll see your changes. This can take about a day, or you can log into the CloudFront distribution and manually invalidate caches there.
+
 
 # Infrastructure
 
