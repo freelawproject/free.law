@@ -61,7 +61,7 @@ backwards and forwards from it, identifying the volume, page number,
 year, and any other related information.
 
 Finding the jurisdiction relies on [a collection of about 500 regular
-expressions](https://bitbucket.org/mlissner/search-and-awareness-platform-courtlistener/src/c03b7d82b7f529c3ef7866ff468b620257a28501/alert/corpus_importer/court_regexes.py?at=default),
+expressions](https://github.com/freelawproject/courtlistener/blob/master/cl/corpus_importer/court_regexes.py),
 each designed to find a specific court. Since the data provided by
 Lawbox is rather dirty, you can see that these regular expressions do a
 lot work. Unfortunately this approach isn't enough for many
@@ -92,7 +92,7 @@ manually.
 For the remainder of the meta data fields listed, we employed similar
 tricks, but these were the hardest examples. For the remainder of our
 approach, you can [inspect the code
-itself](https://bitbucket.org/mlissner/search-and-awareness-platform-courtlistener/src/c03b7d82b7f529c3ef7866ff468b620257a28501/alert/corpus_importer/import_law_box.py?at=default).
+itself](https://github.com/freelawproject/courtlistener/blob/master/cl/corpus_importer/lawbox/import_law_box.py).
 Just be careful of hairballs.
 
 Merging

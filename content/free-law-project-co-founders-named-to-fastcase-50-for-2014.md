@@ -37,7 +37,7 @@ this year's list, such as:
     Council of the District of Columbia, who saw that we hadn't gotten
     around to adding scrapers for the D.C. Court of Appeals or the
     District Court for the District of Columbia to
-    [juriscraper](http://bitbucket.org/mlissner/juriscraper/) and wrote
+    [juriscraper](https://github.com/freelawproject/juriscraper) and wrote
     them for us.
 
 These individuals were obviously recognized for their broader work, but

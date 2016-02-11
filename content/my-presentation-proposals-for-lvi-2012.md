@@ -18,7 +18,7 @@ of cases without ever leaving your home. At the same time, there are
 nearly a hundred court websites, many of these websites suffer from poor
 funding or prioritization, and gaining a higher-level view of the law
 can be challenging.
-"[Juriscraper](https://bitbucket.org/mlissner/juriscraper/)" is a
+"[Juriscraper](https://github.com/freelawproject/juriscraper)" is a
 new project designed to ease these problems for all those that wish to
 collect these court opinions daily. The project is under active
 development, and we are looking for others to get involved.

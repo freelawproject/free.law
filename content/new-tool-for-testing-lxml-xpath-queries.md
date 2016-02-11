@@ -20,7 +20,7 @@ consistently had the problem that when the HTML got nasty, they'd start
 falling over.
 
 No more! Today I built [a quick Django
-app](https://bitbucket.org/mlissner/lxml-xpath-tester/) that can be run
+app](https://github.com/mlissner/lxml-xpath-tester/) that can be run
 locally or on a server. It's quite simple. You input some HTML and an
 XPath expression, and it will tell you the matches for that expression.
 It has syntax highlighting, and a few other tricks up its sleeve, but
