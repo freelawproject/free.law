@@ -59,6 +59,9 @@ Activate your virtualenv, change into the `output` directory, then run:
 
 You'll find you have a server running on port 8000.
 
+## Tweaking the default theme
+
+All of its code is in the `themes` directory. Go for it.
 
 ## Pushing content to Amazon (Publishing Your Work)
 
