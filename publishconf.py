@@ -22,6 +22,9 @@ AUTHOR_FEED_ATOM = "feeds/%s.atom.xml"
 
 DELETE_OUTPUT_DIRECTORY = True
 
+PIWIK_URL = 'www.courtlistener.com/piwik/'
+PIWIK_SITE_ID = 2
+
 # Following items are often useful when publishing
 
 #DISQUS_SITENAME = ""
