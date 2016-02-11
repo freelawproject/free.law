@@ -1,4 +1,4 @@
-Title: CourtListener Improves Search Results Thanks to Volunteer Contributor
+Title: CiteGeist Powers CourtListener's Newly Improved Search Results
 Date: 2013-11-12 08:00
 Author: mlissner
 Tags: Announcements, Bulk Data, Citator, CourtListener, Relevancy, Search
