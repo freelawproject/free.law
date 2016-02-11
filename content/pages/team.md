@@ -5,7 +5,7 @@ Slug: team
 Status: published
 
 <div class="media">
-  <div class="media-left">
+  <div class="media-left pull-left">
     <a href="http://michaeljaylissner.com">
       <img class="media-object" src="{filename}/images/mike-150x150.jpeg" alt="Michael Lissner Headshot">
     </a>
@@ -20,7 +20,7 @@ Status: published
 </div>
 
 <div class="media">
-  <div class="media-left">
+  <div class="media-left pull-left">
     <a href="http://www.ischool.berkeley.edu/people/faculty/briancarver">
       <img class="media-object" src="{filename}/images/brian-150x150.jpeg" alt="Brian Carver Headshot">
     </a>
@@ -42,7 +42,7 @@ Status: published
 
 
 <div class="media">
-  <div class="media-left">
+  <div class="media-left pull-left">
     <a href="http://www.lawschool.cornell.edu/faculty/bio.cfm?id=188">
       <img class="media-object" src="{filename}/images/tom-bruce-b-w-150x150.jpeg" alt="Tom Bruce Headshot">
     </a>
@@ -71,7 +71,7 @@ Status: published
 </div>
 
 <div class="media">
-  <div class="media-left">
+  <div class="media-left pull-left">
     <a href="https://www.kentlaw.iit.edu/faculty/full-time-faculty/jerry-goldman">
       <img class="media-object" src="{filename}/images/jerry-goldman-bw.jpeg" alt="Jerry Goldman Headshot">
     </a>
