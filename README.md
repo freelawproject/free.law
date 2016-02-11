@@ -24,7 +24,7 @@ This site uses the Pelican static site generator.
 
     You will now have all the dependencies, including the Amazon command line tool, installed.
 
-1. Configure the Amazon tool by running:
+1. If you're somebody that has permission to push the content to Amazon, configure the Amazon tool by running:
 
         s3cmd --configure
 
