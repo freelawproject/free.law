@@ -3,6 +3,7 @@ Author: mlissner
 Date:
 Modified:
 Tags:
+Summary:
 Status: Draft
 
 
@@ -19,6 +20,15 @@ Floated left:
     </a>
 </div>
 
+
+Centered:
+
+<div class="text-center">
+    <img src="{filename}/images/recap_r-150x150.png"
+             alt="RECAP Logo"/>
+    </a>
+</div>
+
 Or right:
 
 <div class="right-image">
@@ -27,6 +37,10 @@ Or right:
              alt="RECAP Logo"/>
     </a>
 </div>
+
+You can make a big button with:
+
+<a href="blah" class="btn btn-primary btn-lg">Foo</a>
 
 With a caption below:
 
