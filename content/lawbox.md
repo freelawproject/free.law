@@ -2,7 +2,6 @@ Title: Free Law Project Adds More than 1.5M Opinions to its Collection Thanks to
 Date: 2013-10-30 07:00
 Author: mlissner
 Tags: Announcements, API, Bulk Data, Citator, CourtListener, Courts, Coverage, Data Wrangling
-Slug: free-law-project-adds-more-than-a-million-opinions-to-the-public-domain-thanks-to-data-donation
 Status: published
 
 <div class="left-image">
@@ -26,7 +25,7 @@ professionals and researchers insight into data that has never before
 been available in bulk and greatly enhances the data we previously had.
 This data will be slowly rolling out in our front end, and will soon be
 available in bulk from our [bulk downloads
-page](https://www.courtlistener.com/dump-info/). A new version of [our
+page](https://www.courtlistener.com/api/bulk-info/). A new version of [our
 coverage page](https://www.courtlistener.com/coverage/) was developed,
 and, as always, you can see our current coverage for any jurisdiction we
 support.

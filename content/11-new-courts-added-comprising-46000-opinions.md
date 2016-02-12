@@ -32,7 +32,7 @@ contributors, we're adding a number of new jurisdictions to the project:
 Combined, these new jurisdictions already add nearly [50,000 new
 opinions](https://www.courtlistener.com/?q=&court_ark=on&court_arkctapp=on&court_calctapp=on&court_ill=on&court_illappct=on&court_tenn=on&court_tennctapp=on&court_tenncrimapp=on&court_vt=on&court_va=on&court_vactapp=on&stat_Precedential=on&stat_Non-Precedential=on&sort=dateFiled+desc)
 to our collection, and as always, these are immediately available for
-free via our [bulk downloads](https://www.courtlistener.com/dump-info/).
+free via our [bulk downloads](https://www.courtlistener.com/api/bulk-info/).
 As these jurisdictions publish more opinions, we will have them
 automatically, usually within 30 minutes from when they are posted.
 
