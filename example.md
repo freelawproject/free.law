@@ -1,7 +1,7 @@
 Title:
-Author: mlissner
-Date:
-Modified:
+Author: mlissner, brianwc, etc.
+Date: 1982-06-09
+Modified: (Optional)
 Tags:
 Summary:
 Status: Draft
