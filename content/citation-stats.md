@@ -8,7 +8,7 @@ Status: Draft
 <div class="right-image">
     <img src="{filename}/images/simple-graph-150x150.png" alt="demo graph">
     <div class="caption">
-        <p>The citation network.</p>
+        <p>The citation network formed by the inter-opinion citations.</p>
     </div>
 </div>
 
@@ -20,7 +20,7 @@ As you can imagine, looking up every citation in every opinion in CourtListener 
  - It ran a total of XX million queries against our search engine.
  - It found XXX citations between opinions.
 
-This process requires significant processing time, so we only run this when we need to. This time we needed to run it as part of [the major upgrade we just finished][1] so that the database was updated properly.
+This process requires significant processing time, so we only run this when we need to. This time we needed to run it as part of [the major upgrade we just finished][1] so that the database and search engine were updated properly.
 
 As always, these citations are available as a [CSV in our bulk data][bulk] or via the [CourtListener API][api].
 
