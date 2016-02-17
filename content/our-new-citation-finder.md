@@ -10,7 +10,7 @@ citation in our system. It's dead simple. There are two ways to use it.
 
 Either simply type in the citation you want to look up:
 
-![Citation Lookup]({filename}/images/citation-lookup.png)
+[![Citation Lookup]({filename}/images/citation-lookup.png)][1]
 
 Or, just make a link with a format like:
 
