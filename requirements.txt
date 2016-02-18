@@ -5,3 +5,4 @@ lxml
 feedparser
 typogrify
 s3cmd
+awscli

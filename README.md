@@ -24,27 +24,35 @@ This site uses the Pelican static site generator.
 
     You will now have all the dependencies, including the Amazon command line tool, installed.
 
-1. If you're somebody that has permission to push the content to Amazon, configure the Amazon tool by running:
+1. If you're somebody that has permission to push the content to Amazon, configure the two Amazon tools by running:
 
         s3cmd --configure
 
     This will ask for your Access Key and Secret key, [which are at this link][keys].
+
+    Configure the second tool with:
+
+        aws configure
+
+    Tell it your access and secret keys as well, and leave the region and output format blank. Then enable preview features by running:
+
+        aws configure set preview.cloudfront true
 
 You're done!
 
 
 ## Writing a post or a page
 
-Posts are easy to write, but to make it even easier, there's a template called example.md. Start there, write your post in markdown and generate the HTML when you think your post is ready (read on for that).
+Posts are easy to write, but to make it even easier, there's a template called example.md. Make a copy of that file with a descriptive name and put it in the `content` directory. Write your post in markdown in that file and generate the HTML when you think your post is ready (read on for how to do that).
 
 If you want to tag your post, unfortunately, we don't have autocomplete for that. So either just go for it, and we can embrace a folksonomy or look in the `output/tag` directory, where they're all listed.
 
-If you're making a page, it's just like making a post, except you put it in the `content/pages` directory instead. You can also give it a custom slug if you want.
+If you're making a page, it's just like making a post, except you put it in the `content/pages` directory instead. You can also give it a custom slug if you want (you probably should).
 
 
 ## Generating HTML Content from Markdown Files
 
-Run a command like:
+With your virtual env activated, run a command like:
 
     pelican content -s pelicanconf.py -d -r
 
@@ -59,9 +67,11 @@ Activate your virtualenv, change into the `output` directory, then run:
 
 You'll find you have a server running on port 8000.
 
+
 ## Tweaking the default theme
 
 All of its code is in the `themes` directory. Go for it.
+
 
 ## Pushing content to Amazon (Publishing Your Work)
 
@@ -71,7 +81,7 @@ To publish your post, simply run:
 
 This will regenerate the site using the `publishconf.py` file, then will sync it with Amazon, pushing anything new and deleting anything old.
 
-Note that if you're updating an item, you may have to wait for cache invalidation to occur before you'll see your changes. This can take about a day, or you can log into the CloudFront distribution and manually invalidate caches there.
+Note that if you're updating an item, you may have to wait for cache invalidation to occur before you'll see your changes. The cache is cleared automatically when you run `s3_upload`, but it can take a few minutes (sometimes up to ten) for the cache to clear everywhere.
 
 
 # Infrastructure
