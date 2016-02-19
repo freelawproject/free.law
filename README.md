@@ -103,13 +103,11 @@ Note that if you're updating an item, you may have to wait for cache invalidatio
 
 There are a lot of pieces in this puzzle, so this is where they are documented. The set up that we have was [inspired greatly by the post here][1].
 
-This is a diagram of the set up:
-
-For requests to the naked domain:
+Requests to the naked domain do this:
 
     Route 53 (DNS) --> CloudFront Distribution --> S3 Bucket (free.law)
 
-For requests to the www subdomain (hopefully a corner case):
+Requests to the www subdomain (hopefully a corner case) do this:
 
     Route 53 (DNS) --> CloudFront WWW Distribution -->
     S3 Bucket (www.free.law) --> Redirects to naked domain --> Route 53 -->
@@ -138,5 +136,5 @@ There is another weak point in this configuration. The connection between CloudF
 [wrap]: https://virtualenvwrapper.readthedocs.org/en/latest/
 [g]: https://git-scm.com/
 [ex]: https://github.com/freelawproject/free.law/blob/master/example.md
-[md]: https://courtlistener.com:81/help/markdown/
+[md]: https://courtlistener.com/help/markdown/
 [f]: https://en.wikipedia.org/wiki/Folksonomy
