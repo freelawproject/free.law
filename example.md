@@ -48,6 +48,12 @@ With a caption below:
 
 *My caption*
 
+An embedded thing:
+
+<div class="embed-responsive embed-responsive-4by3">
+    <iframe class="embed-responsive-item" src="" frameborder="0" allowfullscreen></iframe>
+</div>
+
 Some links:
 [a link relative to content root]({filename}/article1.md)
 [a link relative to current file]({filename}../article1.md)
