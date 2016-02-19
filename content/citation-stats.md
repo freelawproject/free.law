@@ -13,6 +13,18 @@ As you can imagine, looking up every citation in every opinion in CourtListener 
  - It found 25,471,410 citations between opinions.
  - There are about three million opinions currently in CourtListener.
 
+After running the parser, the first stop I like to take is to go and see [the search results ordered by citation count][cited]. As usual, [*Strickland v. Washington*][svw] is on top (50,119 cites) followed by [*Celotex v. Catrell*][cvc] (49,360 cites):
+
+[![Most Cited Opinions]({filename}/images/most-cited.png)][cited]
+
+*The Most Cited Opinions in CourtListener*
+
+Since the citations also impact [the relevance engine][citegeist], I also like to see which cases are considered the most relevant when no query is made. In this case, the top three are:
+
+1. With 34,094 cites, [*Anders v. California*][avc]
+1. With 50,131 cites, [Strickland v. Washington][svw]
+1. With 13,375 cites, [Slack v. McDaniel][svmd]
+
 This process requires significant processing time, so we only run this when we need to. This time we needed to run it as part of [the major upgrade we just finished][1] so that the database and search engine were updated properly.
 
 As always, we're proud to offer these citations as a [CSV in our bulk data][bulk] or via the [CourtListener API][api].
@@ -24,3 +36,9 @@ As always, we're proud to offer these citations as a [CSV in our bulk data][bulk
 [api]: https://www.courtlistener.com/api/rest-info/
 [2]: {filename}/building-a-citator-on-courtlistener.md
 [c]: https://www.courtlistener.com/c/U.S./410/113/
+[cited]: https://www.courtlistener.com/?q=&order_by=citeCount+desc&stat_Precedential=on
+[svw]: https://www.courtlistener.com/opinion/111170/strickland-v-washington/
+[cvc]: https://www.courtlistener.com/opinion/111722/celotex-corporation-v-myrtle-nell-catrett-administratrix-of-the-estate-of/
+[avc]: https://www.courtlistener.com/opinion/107423/anders-v-california/
+[svmd]: https://www.courtlistener.com/opinion/118359/slack-v-mcdaniel/
+[citegeist]: {filename}/citegeist.md
