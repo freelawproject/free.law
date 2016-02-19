@@ -52,20 +52,24 @@ You're done!
 
 ## Writing a post or a page
 
-Posts are easy to write, but to make it even easier, there's a template called example.md. Make a copy of that file with a descriptive name and put it in the `content` directory. Write your post in markdown in that file and generate the HTML when you think your post is ready (read on for how to do that).
+Posts are easy to write, but to make it even easier, there's [a template called example.md][ex]. Make a copy of that file with a descriptive name and put it in the `content` directory. Write your post [in markdown][md] in that file and generate the HTML when you think your post is ready (read on for how to do that).
 
-If you want to tag your post, unfortunately, we don't have autocomplete for that. So either just go for it, and we can embrace a folksonomy or look in the `output/tag` directory, where they're all listed.
+If you want to tag your post, unfortunately, we don't have autocomplete for that. So either just go for it, and we can embrace a [folksonomy][f] or look in the `output/tag` directory, where all the existing tags are listed.
 
-If you're making a page, it's just like making a post, except you put it in the `content/pages` directory instead. You can also give it a custom slug if you want (you probably should).
+If you're making a page, it's just like making a post, except you put it in the `content/pages` directory instead. You can also give it a custom slug if you want (you probably should), so that it shows up at `/contact/` instead of `/pages/contact/`, for example.
+
+Finally, it should go without saying, but if you see something on the site that you want to replicate, just search through this repository for words in the post and you'll find the markdown file that made that page. Replicate away!
 
 
 ## Generating HTML Content from Markdown Files
 
-If you want to see your worn, activate your virtualenv if you're using one, then run a command like:
+If you want to see your work, activate your virtualenv if you're using one, then run a command like:
 
     pelican content -s pelicanconf.py -d -r
 
-This will use the development settings to delete the output directory before recreating it, and will automatically regenerate the content whenever it changes. Once the generation is done, the content is in the `output` directory. If you're writing a draft, it will be in the `drafts` folder.
+This will use the development settings (`-s pelicanconf.py`) to delete the output directory before recreating it (`-d`), and will automatically regenerate the content whenever it changes (`-r`).
+
+Once the generation is done, the content is in the `output` directory. If you're writing a draft, it will be in the `output/drafts` folder.
 
 Feel free to look at the other options the `pelican` command provides.
 
@@ -133,3 +137,6 @@ There is another weak point in this configuration. The connection between CloudF
 [venv]: https://virtualenv.pypa.io/en/latest/
 [wrap]: https://virtualenvwrapper.readthedocs.org/en/latest/
 [g]: https://git-scm.com/
+[ex]: https://github.com/freelawproject/free.law/blob/master/example.md
+[md]: https://courtlistener.com:81/help/markdown/
+[f]: https://en.wikipedia.org/wiki/Folksonomy
