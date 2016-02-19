@@ -2,29 +2,38 @@
 
 This is [the website for Free Law Project][fl]. Like the rest of our work, it is developed in the open and can be edited by other people, like you. See a typo? Fix it! Want to make the site look better? Go for it!
 
-This site uses the Pelican static site generator.
+This site uses the [Pelican static site generator][pelican], which means that there is no database, no dynamic code on the site, aside from what JavaScript can do in your browser. The entire site is here -- in Github -- and you can render it yourself, work on it locally, and even host it on your own server if you wanted to (though we'd send our shark lawyers after you).
+
 
 ## Installation
 
-1. Make a virtualenv and activate it.
+If you want to work on the site, the thing to do is install the dependencies. All of them are Python dependencies, so if you have Python installed, you can probably do this pretty quickly.
+
+1. Optional but recommended: Make a virtualenv and activate it.
+
+    If you don't know how to do this or why you'd want to, it's something that you'll want to learn eventually, but you can probably skip this step if you just want to get to blogging. Skipping this step may cause problems, but probably won't. If you want to learn more about virtualenv and its virtues, [it's a pretty quick read][venv]. I also recommend [virtualenvwrapper][wrap], which makes virtualenv easier to use. It's not essential though.
 
 1. Download this repository:
+
+    If you don't have [Git][g], install it, then run:
 
         git clone https://github.com/freelawproject/free.law.git
 
 1. Install the requirements file:
 
+    If you're using virtualenv, make sure it's activated, then:
+
         cd free.law
         pip install -r requirements.txt
 
-1. Install the pelican-plugins in a directory next to your current directory.
+1. Install the `pelican-plugins` in a directory next to your current directory.
 
         cd ..
         git clone https://github.com/getpelican/pelican-plugins.git
 
-    You will now have all the dependencies, including the Amazon command line tool, installed.
+    You will now have all the dependencies installed.
 
-1. If you're somebody that has permission to push the content to Amazon, configure the two Amazon tools by running:
+1. Most people can skip this step, but if you're somebody that has permission to push the content to Amazon, configure the two Amazon tools by running:
 
         s3cmd --configure
 
@@ -52,20 +61,22 @@ If you're making a page, it's just like making a post, except you put it in the 
 
 ## Generating HTML Content from Markdown Files
 
-With your virtual env activated, run a command like:
+If you want to see your worn, activate your virtualenv if you're using one, then run a command like:
 
     pelican content -s pelicanconf.py -d -r
 
-This will use the development settings to delete the output directory before recreating it and will auto-reload whenever you change your content. Feel free to look at the other options the `pelican` command provides.
+This will use the development settings to delete the output directory before recreating it, and will automatically regenerate the content whenever it changes. Once the generation is done, the content is in the `output` directory. If you're writing a draft, it will be in the `drafts` folder.
+
+Feel free to look at the other options the `pelican` command provides.
 
 
 ## Running a development server
 
-Activate your virtualenv, change into the `output` directory, then run:
+To see the content in Firefox or Chrome or whatever, activate your virtualenv if you're using one, change into the `output` directory, then run:
 
     python -m pelican.server
 
-You'll find you have a server running on port 8000.
+That will run a little server on your laptop, and with it running you can go to http://localhost:8000, where you'll find you have a server running on port 8000.
 
 
 ## Tweaking the default theme
@@ -118,3 +129,7 @@ There is another weak point in this configuration. The connection between CloudF
 [1]: https://olivermak.es/2016/01/aws-tls-certificate-with-jekyll/
 [fl]: https://free.law
 [keys]: https://console.aws.amazon.com/iam/home?region=us-west-2#security_credential
+[pelican]: https://github.com/getpelican/pelican/
+[venv]: https://virtualenv.pypa.io/en/latest/
+[wrap]: https://virtualenvwrapper.readthedocs.org/en/latest/
+[g]: https://git-scm.com/
