@@ -15,6 +15,17 @@ Consider the network above. It was created with the tool and embedded directly i
 
 While the nation debates Scalia's legacy, this network reminds us that Court doctrine is often more complicated than our stock labels suggest. The tool helps visualize this complexity.
 
-We invite everyone to [try out our new tool](https://www.courtlistener.com/visualizations/scotus-mapper/) and see what kind of networks they can make. For examples of maps of SCOTUS doctrine already created with the tool, check out the [CourtListener Gallery](https://www.courtlistener.com/visualizations/gallery/), review a [Libguides Law Library Page](http://law.ubalt.libguides.com/content.php?pid=627751&sid=5223608), or check out a this [complete set of citation networks for 2014 Term](http://home.ubalt.edu/id86mp66/scotusmapper/Homepage_2014Term.html).
+We invite everyone to [try out our new tool](https://www.courtlistener.com/visualizations/scotus-mapper/) and see what kinds of complexity (or simplicity!) they can uncover in Supreme Court networks.
+
+Additional tool features include:
++ Two types of visualization - Spread (highlighting degrees of connection between cases) and Supreme Court Database (highlighting Spaeth data in networks). 
++ Two views for each visualization type - Chronological (data displayed in accurate timeline) and Equal Spacing (schematic makes data easier to read).
++ Cases tab - View network data in sortable table. Quick links to case opinion text and Spaeth information.
++ Description field - Permits users to annotate their network maps using Markdown. Special syntax allows users to easily link their networks to others on CourtListener.
++ Analysis tab - Shows the ["degree of dissent"](https://www.courtlistener.com/faq/#dod) in the network 
+
+For examples of maps of SCOTUS doctrine already created with the tool, check out the [CourtListener Gallery](https://www.courtlistener.com/visualizations/gallery/), review a [Libguides Law Library Page](http://law.ubalt.libguides.com/content.php?pid=627751&sid=5223608), or check out a this [complete set of citation networks for 2014 Term](http://home.ubalt.edu/id86mp66/scotusmapper/Homepage_2014Term.html).
+
+Free Law Project wishes to thank all the volunteers who worked on creating this tool. Special thanks and recognition are due to Jason Aller whose tireless efforts made the front end possible.
 
 We look forward to hearing your feedback.
