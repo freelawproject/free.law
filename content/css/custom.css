@@ -29,6 +29,9 @@ h2 a:focus {
 code {
     color: #AE0B0B;
 }
+.scotus-map {
+    padding-bottom: 540px;
+}
 
 .navbar-default .navbar-nav > li > a.donate {
     color: #df0e0e;
