@@ -2,7 +2,6 @@ Title: Our Newest Launch: A SCOTUS Data Viz Tool
 Author: mlissner
 Date: 2016-02-22
 Tags: visualization, scotus, scdb, University of Baltimore
-Status: Draft
 
 We here at Free Law Project are happy to announce the launch of our [Supreme Court Citation Network tool][home]. Created in collaboration with the [SCOTUS Mapping Project][smp] at the University of Baltimore, the tool permits users to create citation networks that represent "lines of cases" in Supreme Court doctrine. With the tool, users can also visualize, analyze, and share the networks they create.
 
@@ -43,6 +42,6 @@ We look forward to hearing your feedback.
 [home]: https://www.courtlistener.com/visualizations/scotus-mapper/
 [viz]: https://www.courtlistener.com/visualizations/scotus-mapper/484/kyllo-2001-to-jardines-2013/
 [gal]: https://www.courtlistener.com/visualizations/gallery/
-[libg]: http://law.ubalt.libguides.com/content.php?pid=627751&sid=5223608
+[libg]: http://law.ubalt.libguides.com/map_intro
 [complete]: http://home.ubalt.edu/id86mp66/scotusmapper/Homepage_2014Term.html
 [starger]: http://law.ubalt.edu/faculty/profiles/starger.cfm
