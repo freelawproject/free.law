@@ -7,7 +7,7 @@ This post is one with mixed news, so I'll start with the good news, which is tha
 
  - **It is now browsable**. [Go check it out][api]. You can click around the API and peruse the data without doing *any* programming. At the top of every page there is a button that says `Options`. Click that button to see all the filtering and complexity that lies behind an API endpoint.
  - **It can be sampled without authentication**. Previously, if you wanted to use the API, you had to log in. No more. In the new version, you can sample the API and click around. If you want to use it programatically, you'll still need to authenticate.
- - **It conforms with the new CourtListener database**. More on this in a moment, but the important part is that version 3 of the API supports Dockets, Opinion Clusters and Sub Opinions, linking them neatly to Judges.
+ - **It conforms with the new CourtListener database**. More on this in a moment, but the important part is that version 3 of the API supports Dockets, Opinion Clusters and Sub-Opinions, linking them neatly to Judges.
  - **The search API supports Citation Searching.** Our new [Citation Search][cs] is a powerful feature that's now available in the API.
  - **Bulk data now has metadata**. In response to [a user request][u], you can now learn when the bulk data was last generated. It's also pretty printed.
 
