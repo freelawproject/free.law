@@ -49,3 +49,7 @@ code {
     float: right;
     padding: 0 0 5px 15px;
 }
+
+.bg-danger {
+    background-color: #f2dede;
+}

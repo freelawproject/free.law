@@ -54,6 +54,10 @@ An embedded thing:
     <iframe class="embed-responsive-item" src="" frameborder="0" allowfullscreen></iframe>
 </div>
 
+A warning:
+
+<p class="bg-danger alert">Oh no!!!!</p>
+
 Some links:
 [a link relative to content root]({filename}/article1.md)
 [a link relative to current file]({filename}../article1.md)
