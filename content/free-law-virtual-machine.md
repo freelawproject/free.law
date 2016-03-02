@@ -5,6 +5,9 @@ Tags: Announcements, Bulk Data, CourtListener, Juriscraper, Technology
 Slug: free-law-virtual-machine-available-for-academics-and-developers
 Status: published
 
+
+<p class="bg-danger alert"><strong>Update</strong>: This tool has been deprecated. We heartily recommend <a href="{filename}/vagrant.md">our new process using Vagrant</a>.</p>
+
 A goal of the Free Law Project is to make development of legal tools as
 easy as possible. In that vein, we're excited to share that as of today
 we're officially taking the wraps off what we're calling the [Free Law
