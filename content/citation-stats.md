@@ -13,19 +13,23 @@ As you can imagine, looking up every citation in every opinion in CourtListener 
  - It found 25,471,410 citations between opinions.
  - There are about three million opinions currently in CourtListener.
 
-After running the parser, the first stop I like to take is to go and see [the search results ordered by citation count][cited]. As usual, [*Strickland v. Washington*][svw] is on top (50,119 cites) followed by [*Celotex v. Catrell*][cvc] (49,360 cites):
+After running the parser, the first stop I like to take is to go and see [the search results ordered by citation count][cited]. In an upset, [*Strickland v. Washington*][svw], the former leader, has been pushed to third place by [*Anderson v. Libby Lobby*][avll] and by [*Celotex v. Catrell*][cvc]:
 
 [![Most Cited Opinions]({filename}/images/most-cited.png)][cited]
 
 *The Most Cited Opinions in CourtListener*
 
-Since the citations also impact [the relevance engine][citegeist], I also like to see which cases are considered the most relevant when no query is made. In this case, the top three are:
+Since the citations also impact [the relevance engine][citegeist], I also like to see which cases are considered the most relevant when no query is made. In this case, the top five are:
 
-1. With 34,094 cites, [*Anders v. California*][avc]
-1. With 50,131 cites, [Strickland v. Washington][svw]
-1. With 13,375 cites, [Slack v. McDaniel][svmd]
+1. With 34,260 cites, [*Anders v. California*][avc]
+1. With 1,589 cites, [*Boyd v. United States*][boyd]
+1. With 1,548 cites, [*Weeks v. United States*][weeks]
+1. With 28,212 cites, [*Miranda v. Arizona*][mir]
+1. With 48,998 cites, [Strickland v. Washington][svw]
 
-This process requires significant processing time, so we only run this when we need to. This time we needed to run it as part of [the major upgrade we just finished][1] so that the database and search engine were updated properly.
+If you're wondering why the most cited cases are not the most relevant cases, the answer is that relevance is a combination of both what cites a case and how many times it is cited. For example, if a case is cited many times by cases that in turn are never cited, that case might not be as relevant as one that is cited a few times by other cases that are very popular. If this sounds confusing, that's because it's a [recursive][r] technique. The relevance of every item affects every item. The more a case is cited by cases that are cited by many cases that are cited by many cases that are cited by many cases&hellip;and so on&hellip;the more relevant it is.
+
+Running the citation parser requires our servers to do a lot of work, so we only run it when we need to. This time we needed to run it as part of [the major upgrade we just finished][1] so that the database and search engine were updated properly.
 
 As always, we're proud to offer these citations as a [CSV in our bulk data][bulk] or via the [CourtListener API][api].
 
@@ -40,5 +44,9 @@ As always, we're proud to offer these citations as a [CSV in our bulk data][bulk
 [svw]: https://www.courtlistener.com/opinion/111170/strickland-v-washington/
 [cvc]: https://www.courtlistener.com/opinion/111722/celotex-corporation-v-myrtle-nell-catrett-administratrix-of-the-estate-of/
 [avc]: https://www.courtlistener.com/opinion/107423/anders-v-california/
-[svmd]: https://www.courtlistener.com/opinion/118359/slack-v-mcdaniel/
 [citegeist]: {filename}/citegeist.md
+[boyd]: https://www.courtlistener.com/opinion/91573/boyd-v-united-states/
+[weeks]: https://www.courtlistener.com/opinion/98094/weeks-v-united-states/
+[mir]: https://www.courtlistener.com/opinion/107252/miranda-v-arizona/
+[r]: https://en.wikipedia.org/wiki/Recursion
+[avll]: https://www.courtlistener.com/opinion/111719/jack-anderson-v-liberty-lobby-inc-and-willis-a-carto/
