@@ -1,0 +1,36 @@
+Title: Announcing Free Law Project Data Services
+Author: mlissner
+Date: 2016-03-07
+Tags: data, api, services
+Summary: Free Law Project is now offering legal data services to answer difficult questions and generate custom data reports.
+Status: Draft
+
+### Unanswered Questions
+
+Over the years we've received many requests for custom reports and data. People want the <a href="https://www.courtlistener.com/api/">CourtListener API</a> data as a CSV. Or they want us to answer a particular question. Or they want bulk data that we've never generated before.
+
+In the past, our response to these kinds of questions was usually:
+
+<blockquote>
+<p>What a great idea. Good news, you can download our bulk data yourself and figure out the answer!</p>
+<footer>Sincerely, <cite title="Free Law Project">Free Law Project</cite></footer>
+</blockquote>
+
+For many people, this is not very helpful. It's crazy to suggest that they download a huge file, unpack it, and load it into a database. Pointing most people at a bulk data set is kind of like asking them to moonwalk&hellip;on the actual moon. We always knew this, but at the same time, we couldn't do much better because otherwise we'd spend too much time responding to requests, instead of building our core data sets and features.
+
+
+### A Solution
+
+Today, in our ongoing quest provide legal data and information to everybody who wants or needs it,  we're finally offering a better answer to this problem. Today we're announcing the availability of [Free Law Project Data Services and Consulting][1].
+
+You can click the link above to learn more about it&mdash;and it will probably be changing as we learn more about what people need&mdash;but at the outset, the basic idea will be to offer legal data research for hire. We have been working with legal data for years, created the first API for legal opinions, and have strong feelings about how legal data should work. We're excited to offer this service.
+
+If you have ideas about how to best do this or if you have suggestions about the kinds of people that might find it useful, we'd love to hear your ideas as we work out this new part of our offerings.
+
+Hopefully, with this new launch, we'll be able to get people the answers they need. Instead of asking them to moonwalk.
+
+<a href="{filename}/pages/data-services.md" class="btn btn-primary btn-lg">Learn more About FLP Data Services</a>
+
+
+
+[1]: {filename}/pages/data-services.md
