@@ -3,7 +3,6 @@ Author: mlissner
 Date: 2016-03-07
 Tags: data, api, services
 Summary: Free Law Project is now offering legal data services to answer difficult questions and generate custom data reports.
-Status: Draft
 
 ### Unanswered Questions
 
