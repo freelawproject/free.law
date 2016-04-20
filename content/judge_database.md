@@ -4,6 +4,12 @@ Tags: judges, api, bulk_data, courtlistener, fjc
 Date: 2016-04-19
 Status: Draft
 
+<div class="left-image">
+    <a href="{filename}/images/taft.png">
+        <img src="{filename}/images/taft-thumb.png"
+             alt="A screenshot of President, Judge Taft"/>
+    </a>
+</div>
 
 Today we're extremely proud and excited to be launching a massive judicial database. We hope that this database, its APIs, and its bulk data will become a valuable tool for attorneys and researchers across the country. This new database has been developed with support from the National Science Foundation and the John S. and James L. Knight Foundation, in conjunction with [Elliott Ash][e] of Princeton University and Bentley MacLeod of Columbia University.
 
