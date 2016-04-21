@@ -1,8 +1,8 @@
-Title: Launching a Massive Judicial Database
-Author: mlissner, elliott
+Title: Free Law Project and Princeton/Columbia Researchers Launch First-of-its-Kind Judicial Database
+Slug: judicial-database-announcement
+Author: mlissner
 Tags: judges, api, bulk_data, courtlistener, fjc
 Date: 2016-04-19
-Status: Draft
 
 <div class="left-image">
     <a href="{filename}/images/taft.png">
@@ -11,9 +11,9 @@ Status: Draft
     </a>
 </div>
 
-Today we're extremely proud and excited to be launching a massive judicial database. We hope that this database, its APIs, and its bulk data will become a valuable tool for attorneys and researchers across the country. This new database has been developed with support from the National Science Foundation and the John S. and James L. Knight Foundation, in conjunction with [Elliott Ash][e] of Princeton University and Bentley MacLeod of Columbia University.
+Today we’re extremely proud and excited to be launching a comprehensive database of judges and the judiciary, to be linked to Courtlistener's corpus of legal opinions authored by those judges. We hope that this database, its APIs, and its bulk data will become a valuable tool for attorneys and researchers across the country. This new database has been developed with support from the National Science Foundation and the John S. and James L. Knight Foundation, in conjunction with [Elliott Ash][e] of Princeton University and Bentley MacLeod of Columbia University.
 
-At launch, the database has [nearly 8,500 judges][1] from federal and state courts, all of which are available via our APIs, in bulk data, and via a new [judicial search interface][1] that we've created.
+At launch, the database has [nearly 8,500 judges][1] from [federal][fed] and [state][state] courts, all of which are available via [our APIs][api], in [bulk data][bulk], and via a new [judicial search interface][1] that we've created.
 
 The database is aimed to be comprehensive, including as many facts about as many judges as possible. At the outset, we are collecting the following kinds of information about the judges:
 
@@ -46,11 +46,13 @@ A major concern when creating a database of this scope is the quality of the dat
  - The data on Schools and their aliases was compiled by the Department of Education and made available via their [Developer Portal][doe].
 
 
-## What's missing
+## What's Missing
 
 The data quality is relatively high and we have already corrected some errors in the upstream sources. However this is a work in progress with much data missing. We appreciate any input from the community.
 
 There are a few major gaps in what we're launching today:
+
+1. Linking judges to the opinions they've written. This will be added gradually over the next few months
 
 1. We have been unable to find a comprehensive source of data for magistrate judges or federal bankruptcy judges.
 
@@ -60,8 +62,13 @@ There are a few major gaps in what we're launching today:
 
 If you have good sources of data for any of these gaps or have other data that you think should be included, [we'd love to hear from you][contact].
 
+## Getting Started
 
-## Getting involved and reporting errors
+The best way to get started is by reading our documentation.
+
+<a href="https://www.courtlistener.com/api/bulk-info/#judge-data" class="btn btn-primary btn-lg">Read the Documentation</a>
+
+## Reporting Errors
 
 We've done our best to make this as complete as possible, but we know it's not perfect. If you have corrections to send or want to get involved improving what's here, please get in touch using [our contact form][contact]. There's a lot to do and we'd be very pleased to hear from you.
 
@@ -75,3 +82,7 @@ We've done our best to make this as complete as possible, but we know it's not p
 [b]: https://www.nber.org/papers/w22071
 [hoohoo]: https://en.wikipedia.org/wiki/Marquis_Who%27s_Who
 [doe]: http://www.ed.gov/developer
+[fed]: https://www.courtlistener.com/?q=&type=p&order_by=name_reverse+asc&court=scotus+ca1+ca2+ca3+ca4+ca5+ca6+ca7+ca8+ca9+ca10+ca11+cadc+cafc+caca+dcd+ald+almd+alnd+alsd+akd+azd+ared+arwd+cacd+caed+cand+casd+cod+ctd+ded+fld+flmd+flnd+flsd+gad+gamd+gand+gasd+hid+idd+ilcd+ilnd+ilsd+innd+insd+iad+iand+iasd+ksd+kyd+kyed+kywd+lad+laed+lamd+lawd+med+mdd+mad+michd+mied+miwd+mnd+missd+msnd+mssd+mod+mocd+moed+mowd+mosd+mtd+ned+nvd+nhd+njd+nmd+nyd+nyed+nynd+nysd+nywd+nced+ncmd+ncwd+ndd+ncd+ohnd+ohsd+oked+oknd+okwd+ord+paed+pamd+pawd+pennsylvaniad+rid+scd+sdd+tned+tnmd+tnwd+texd+txed+txnd+txsd+txwd+utd+vtd+vad+vaed+vawd+washd+waed+wawd+wvad+wvnd+wvsd+wisd+wied+wiwd+wyd+gud+nmid+prd+vid+californiad+illinoised+illinoisd+indianad+orld+ohiod+southcarolinaed+southcarolinawd+tennessed+canalzoned+bap1+bap2+bap6+bap8+bap9+bap10+bapme+bapma+almb+alnb+alsb+akb+arb+areb+arwb+cacb+caeb+canb+casb+cob+ctb+deb+dcb+flmb+flnb+flsb+gamb+ganb+gasb+hib+idb+ilcb+ilnb+ilsb+innb+insb+ianb+iasb+ksb+kyeb+kywb+laeb+lamb+lawb+meb+mdb+mab+mieb+miwb+mnb+msnb+mssb+moeb+mowb+mtb+nebraskab+nvb+nhb+njb+nmb+nyeb+nynb+nysb+nywb+nceb+ncmb+ncwb+ndb+ohnb+ohsb+okeb+oknb+okwb+orb+paeb+pamb+pawb+rib+scb+sdb+tneb+tnmb+tnwb+tennesseeb+txeb+txnb+txsb+txwb+utb+vtb+vaeb+vawb+waeb+wawb+wvnb+wvsb+wieb+wiwb+wyb+gub+nmib+prb+vib+afcca+asbca+armfor+acca+cc+uscfc+com+ccpa+cusc+tax+mc+mspb+nmcca+cavc+bva+eca+tecoa+fiscr+fisc+reglrailreorgct+cit+usjc+jpml+stp
+[state]: https://www.courtlistener.com/?q=&type=p&order_by=name_reverse+asc&court=ala+alactapp+alacrimapp+alacivapp+alaska+alaskactapp+ariz+arizctapp+ariztaxct+ark+arkctapp+cal+calctapp+colo+coloctapp+conn+connappct+connsuperct+del+delch+delsuperct+delctcompl+delfamct+deljudct+dc+fla+fladistctapp+ga+gactapp+haw+hawapp+idaho+idahoctapp+ill+illappct+ind+indctapp+indtc+iowa+iowactapp+kan+kanctapp+ky+kyctapp+la+lactapp+me+md+mdctspecapp+mass+massappct+mich+michctapp+minn+minnctapp+miss+missctapp+mo+moctapp+mont+neb+nebctapp+nev+nh+nj+njsuperctappdiv+njtaxct+nm+nmctapp+ny+nyappdiv+nyappterm+nysupct+nyfamct+nysurct+nc+ncctapp+nd+ndctapp+ohio+ohioctapp+ohioctcl+okla+oklacivapp+oklacrimapp+oklajeap+oklacoj+oklaag+or+orctapp+pa+pasuperct+pacommwct+cjdpa+ri+sc+scctapp+sd+tenn+tennctapp+tenncrimapp+tex+texapp+texcrimapp+texreview+utah+utahctapp+vt+va+vactapp+wash+washctapp+wva+wis+wisctapp+wyo+massdistct+masssuperct
+[api]: https://www.courtlistener.com/api/rest/v3/
+[bulk]: https://www.courtlistener.com/api/bulk-info/
