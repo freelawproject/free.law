@@ -83,5 +83,3 @@ passionate about bringing greater access to our primary legal materials,
 about how technology can replace old legal models, and about open
 source, community-driven approaches to legal research.
 
-For more information, contact info@freelawproject.org
-
