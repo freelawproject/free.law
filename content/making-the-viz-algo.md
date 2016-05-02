@@ -1,10 +1,9 @@
 Title: Notes and Sketches from Making SCOTUS Network Visualizations
 Author: mlissner
-Date: 2016-04-28
+Date: 2016-05-02
 Tags: design, visualization, algorithms
-Status: Draft
 
-<div class="left-image">
+<div class="right-image">
     <a href="{filename}/images/viz-design/with-case-names.jpg">
         <img src="{filename}/images/viz-design/with-case-names-thumb.jpg"
              alt="A design sketch with case names"
@@ -14,11 +13,14 @@ Status: Draft
 
 In February we [announced][viz] our [Supreme Court Citation Network tool][home] that we developed with [University of Baltimore School of Law][ubalt]. We haven't had a chance until now to comment on some of the technical difficulties that came up while we were working on it. If you're not familiar with this tool, you should take a moment now to go check it out ([gallery][g], [homepage][home]).
 
-In this post I'll be talking about the challenges that we overcame in order to efficiently generate these visualizations.
+In this post I'll be talking about the challenges that we overcame in order to efficiently generate these visualizations. If you like what you read here, you might [want to vote (hint, hint)][cali] for Colin Starger's talk at the [Cali Conference][2016].
 
-From the beginning, a goal was to create a system that could quickly generate these diagrams in response to a user's request, without resorting to any kind of "please wait" mechanism such as a spinner (<i class="fa fa-spin fa-spinner"></i>) or any other tricks that might frustrate our users. This would turn out to be a very difficult goal beacuse of the nature of citation networks.
 
-In a database like ours, the data is organized into tables, much like in an Excel Spreadsheet. One table we have simply has two columns, which say that Opinion A (in column 1) cites Opinion B (in column 2). This table currently [has about 25 million rows][stats]. Most opinions have about 30 rows in this table, with each row representing another citation from Opinion A to Opinion B or C or D.
+## In the Beginning&hellip;
+
+A goal at the start was to create a system that could quickly generate these diagrams in response to a user's request, without resorting to any kind of "please wait" mechanism such as a spinner (<i class="fa fa-spin fa-spinner"></i>) or any other tricks that might frustrate our users. This would turn out to be a very difficult goal beacuse of the nature of citation networks.
+
+In a database like ours, the data is organized into tables, much like in an Excel Spreadsheet. One such table simply has two columns, which say that Opinion A (in column 1) cites Opinion B (in column 2). This table currently [has about 25 million rows][stats]. Most opinions have about 30 rows in this table, with each row representing another citation from Opinion A to Opinion B or C or D.
 
 For example:
 
@@ -47,9 +49,9 @@ For example:
 
 *Roe* cites *Terry*, *Katz* and *Younger*
 
-With our data this way, when we want to make a citation network, what we do is start at the newest recent opinion in column 1, then look up all of the opinions that it cites in column 2. That will return about 30 opinions that were cited by the newest opinion, and for each of those 30 opinions, we do the same thing: Look up all the opinions that *they* cite. And for each of ***those***, the same, and so forth until we arrive at the oldest opinion.
+With our data this way, when we want to make a citation network, we start at the newest recent opinion in column 1, then look up all of the opinions that it cites in column 2. That will return about 30 opinions that were cited by the newest opinion, and for each of those 30 opinions, we do the same thing: Look up all the opinions that *it* cites. And for each of ***those***, the same, and so forth until we arrive at the oldest opinion.
 
-What should quickly become clear is that the first lookup will return about 30 results, but the next will return about 900 (30 &times; 30, beacuse you're looking up all the opinions that all of the first 30 opinions cite). The next hop out from there will contain about 2,700 opinions (again, 30 &times; 900). This means that to build a network with just a few degrees of separation, we're now in the position of doing about 3,600 queries on our database.
+What should quickly become clear is that the first lookup will return about 30 results, but the next will return about 900 (30 &times; 30, because you're looking up all the opinions that all of the first 30 opinions cite). The next hop out from there will contain about 2,700 opinions (again, 30 &times; 900). This means that to build a network with just a few degrees of separation, we're now in the position of doing about 3,600 queries on our database.
 
 This is bad. When a user can trigger thousands of queries to your database, you know something is wrong. Indeed, when we launched the first version of our citation builder, it took upwards of 10 minutes to generate a graph.
 
@@ -187,15 +189,17 @@ In this network, as we do a depth-first traversal from `A` to `E`, the first rou
 For this reason, we must keep track of the shortest route from the starting node to every node in the network, and if we find a shorter route than one we previously took, we can reconsider all the nodes below the one with the newly found route. This gets complicated, but is entirely doable.
 
 
-## We Did It
 
-<div class="left-image">
+<div class="right-image">
     <a href="{filename}/images/viz-design/tendrils.jpg">
         <img src="{filename}/images/viz-design/tendrils-thumb.jpg"
              alt="A sketch of networks with tendrils"
              title="A sketch of networks with tendrils (click for enlarged view)"/>
     </a>
 </div>
+
+
+## We Did It
 
 As I mentioned above, getting the networks to where they are today took a lot of experimentation and research. We had to consider different approaches to fixing the performance problem and we had to implement more than a few of them before we knew what worked. We had to switch our code from breadth-first to depth-first, and we had to stamp out all manner of bugs like circular networks, newly found shortest paths, and the like.
 
@@ -212,3 +216,5 @@ We hope this post has been informative and that you'll [check out the tool][home
 [g]: https://www.courtlistener.com/visualizations/gallery/
 [viz]: {filename}/viz.md
 [ubalt]: http://law.ubalt.edu/
+[cali]: http://2016.calicon.org/node/1/sessions/mapping-supreme-court-doctrine
+[2016]: http://2016.calicon.org/
