@@ -5,6 +5,8 @@ Tags: Juriscraper
 Slug: new-juriscraper-email-list
 Status: published
 
+<p class="bg-danger alert"><strong>Update</strong>: We've moved our development conversation over to Slack. If you wish to join us there, please get in touch using our contact form.</p>
+
 Quick post today to share that by popular demand, we've created YAEL --
 Yet Another Email List. Today's list is one we should have made a while
 back, and is for folks that work on the Juriscraper library. You can

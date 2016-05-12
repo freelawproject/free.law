@@ -36,6 +36,7 @@ records so that anybody can easily begin working or experimenting with
 our platform.
 
 If you're interested in using the Free Law Virtual Machine, feel free to
-download and use it, and please get in touch in [our developer
-forum](http://lists.freelawproject.org/cgi-bin/mailman/listinfo/dev).
+download and use it, and please get [in touch to share your work][c].
+
+[c]: {filename}/pages/contact.md
 

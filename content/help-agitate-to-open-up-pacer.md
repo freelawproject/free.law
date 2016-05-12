@@ -5,6 +5,8 @@ Tags: Agitation, Announcements, PACER, Policy, RECAP
 Slug: help-agitate-to-open-up-pacer
 Status: published
 
+<p class="bg-danger alert"><strong>Update</strong>: This initiative has ended.</p>
+
 In [Chief Justice Roberts' End of Year
 Report](http://www.supremecourt.gov/publicinfo/year-end/2014year-endreport.pdf)
 there were some astounding figures about the size and scope of PACER,
@@ -30,8 +32,7 @@ the strategy: Agitation.
 
 Here's how it will work:
 
-1.  Today, you sign up for our email list by [filling out the form
-    here](http://lists.freelawproject.org/cgi-bin/mailman/listinfo/recap-reminder).
+1.  Today, you sign up for our email list.
 2.  PACER provides [a fee waiver for the first
     $15](https://www.pacer.gov/psc/faq.html#H_PGP3) that you spend each
     quarter. Near the end of each quarter, we will send you an email
