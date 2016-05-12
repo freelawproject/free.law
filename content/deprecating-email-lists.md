@@ -14,6 +14,8 @@ While I don't think we succeeded in applying the pressure we wanted (the AO is h
 
 The second thing we're winding down today is our mailman list server, which powered our [Juriscraper][js], [PACER Drainage][1], and Developers email lists. Most of these lists were low traffic, and were used for developers only, so this should not have a huge impact. These days we are using Slack for this purpose anyway. If you are interested in contributing to Free Law Project, [send us a note][c] and we'll get you set up.
 
+Thank you for all of your efforts and for being a part of our work!
+
 
 [1]: {filename}/help-agitate-to-open-up-pacer.md
 [c]: {filename}/pages/contact.md
