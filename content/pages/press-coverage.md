@@ -153,7 +153,7 @@ Contact us if you know of coverage we've neglected to list below:
     Real Time Alert Tool for the U.S. Judicial
     System'](http://web.resourceshelf.com/go/resourceblog/61250)"
     Resource Shelf (Oct. 13, 2010).
--   , "[Free Alert Tool for the U.S. Courts of
+-   "[Free Alert Tool for the U.S. Courts of
     Appeals](http://midwesterngirl.com/2010/07/01/free-alert-tool-for-the-u-s-courts-of-appeals/)"
     Adventures of a Midwestern Girl in Sunny, Sunny California (Jul. 1,
     2010).
@@ -168,3 +168,7 @@ Contact us if you know of coverage we've neglected to list below:
     Courts](https://legalinformatics.wordpress.com/2010/05/07/courtlistener-new-rss-alert-service-for-u-s-federal-appellate-courts/)"
     Legal Informatics Blog (May 7, 2010).
 
+You can see more press coverage of the [RECAP Project][1] in the page "[What People Are Saying About RECAP][2]."
+
+[1]: {filename}/pages/recap.md
+[2]: {filename}/pages/recap/what-people-are-saying.md

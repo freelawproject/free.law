@@ -16,7 +16,7 @@ Status: published
 At least since the destruction of the [Ancient Library of
 Alexandria](en.wikipedia.org/wiki/Library_of_alexandria), the world has
 known the importance of having a backup. The
-[RECAP](http://recapthelaw.org) archive of documents from PACER is a
+[RECAP]({filename}/pages/recap.md) archive of documents from PACER is a
 partial backup of [documents taken offline by five federal
 courts](https://www.pacer.gov/announcements/general/webpacer.html). It
 is impossible to determine how complete a backup we have, because the

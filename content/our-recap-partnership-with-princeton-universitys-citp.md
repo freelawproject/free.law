@@ -8,7 +8,7 @@ Status: published
 Today Free Law Project [announced](http://www.prlog.org/12324795) that
 it is partnering with Princeton University's [Center for Information
 Technology Policy](https://citp.princeton.edu/) to manage the operation
-and development of the [RECAP](https://www.recapthelaw.org/) platform.
+and development of the [RECAP]({filename}/pages/recap.md) platform.
 Most readers here will know that the RECAP platform utilizes free
 browser extensions to improve the experience of using PACER, the
 electronic public access system for U.S. federal courts, and
@@ -35,7 +35,7 @@ been frustrated with PACER for a long time because it creates a wall
 between the public and the law.
 
 So when [CITP announced the launch of RECAP in August
-2009](https://www.recapthelaw.org/2009/08/14/welcome/) I was overjoyed
+2009]({filename}/welcome.md) I was overjoyed
 and I became an early adopter. I reported bugs and suggested
 enhancements on RECAP's now-defunct "getsatisfaction" community. I told
 anyone that would listen what a brilliant idea it was to involve

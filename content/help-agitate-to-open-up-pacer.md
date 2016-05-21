@@ -49,7 +49,7 @@ Our hope is that [the administrators of
 PACER](http://www.uscourts.gov/FederalCourts/UnderstandingtheFederalCourts/AdministrativeOffice.aspx)
 will notice an unusual usage of the quarterly fee waiver and that they
 will begin to feel pressure to open up the system. At the same time,
-since we are using the [RECAP extension](https://www.recapthelaw.org),
+since we are using the [RECAP extension]({filename}/pages/recap.md),
 we will be contributing all of this content to the public domain.
 
 The more people we can get on board this project, the greater our impact

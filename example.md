@@ -14,7 +14,7 @@ An image:
 Floated left:
 
 <div class="left-image">
-    <a href="http://recapthelaw.org">
+    <a href="http://google.com">
         <img src="{filename}/images/recap_r-150x150.png"
              alt="RECAP Logo"/>
     </a>
@@ -32,7 +32,7 @@ Centered:
 Or right:
 
 <div class="right-image">
-    <a href="http://recapthelaw.org">
+    <a href="http://google.com">
         <img src="{filename}/images/recap_r-150x150.png"
              alt="RECAP Logo"/>
     </a>

@@ -118,7 +118,7 @@ You can find contact information for your members of congress by
 
 
 <div class="left-image">
-    <a href="http://recapthelaw.org">
+    <a href="{filename}/pages/recap.md">
         <img src="{filename}/images/recap_r-150x150.png"
              alt="RECAP Logo"/>
     </a>
@@ -132,7 +132,7 @@ Carl proposed that on May 1st a lot of people download $15/worth of
 documents and try to set a record day for PACER usage. Using your
 $15/quarter in "free" downloads is easy: You need to get a PACER
 account (credit card required), then you need to get [the RECAP
-extension](http://recapthelaw.org) for either Firefox or Chrome. Do this
+extension](https://free.law/recap/) for either Firefox or Chrome. Do this
 now in the first quarter so you can make sure your setup is working.
 That way you know you'll be ready on May Day. We've written up
 [detailed instructions for

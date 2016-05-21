@@ -115,11 +115,11 @@ What Else?
 
 If you've spent your $15 and you still have energy to work on [the
 PACER
-problem](https://www.recapthelaw.org/2015/03/20/the-pacer-problem/),
+problem]({filename}/what-is-the-pacer-problem.md),
 there's more you can do:
 
 -   You can look at our  [list of ways to
-    help](http://freelawproject.org/2015/03/24/what-should-be-done-about-the-pacer-problem/).
+    help]({filename}/what-should-be-done-about-the-pacer-problem.md).
 -   You can help add features or resolve bugs in the RECAP extensions
     ([Chrome](https://github.com/freelawproject/recap-chrome)/[Firefox](https://github.com/freelawproject/recap-firefox)).
 -   You can recruit others to join this mailing list.

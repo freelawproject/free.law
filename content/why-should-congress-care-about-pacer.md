@@ -88,7 +88,7 @@ There are several reasons that Congress should care about PACER:
     every political persuasion should favor, and so it presents an
     opportunity for Congress to claim an easy victory and accomplish
     something really meaningful. As the current stewards of
-    [RECAP](http://recapthelaw.org), we are contacted on nearly a weekly
+    [RECAP](https://free.law/recap/), we are contacted on nearly a weekly
     basis by someone with a commercial interest in federal court records
     and the metadata contained therein, but they are all frustrated by
     the enormous cost and lack of machine-friendly interfaces of the

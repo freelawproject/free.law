@@ -69,7 +69,7 @@ access, legal research ecosystem. Currently Free Law Project sponsors
 the development of
 [CourtListener](https://github.com/freelawproject/courtlistener),
 [Juriscraper](https://github.com/freelawproject/juriscraper), and
-[RECAP](https://www.recapthelaw.org).
+[RECAP]({filename}/pages/recap.md).
 
 **About the <span id="OLK_SRC_BODY_SECTION">John S. and James L. Knight
 Foundation</span>**

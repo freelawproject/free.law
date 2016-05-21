@@ -4,7 +4,7 @@ from __future__ import unicode_literals
 
 AUTHOR = u'Free Law Project'
 SITENAME = u'Free Law Project'
-SITEURL = 'http://localhost:8000'
+SITEURL = 'http://localhost:8080'
 
 PATH = 'content'
 
@@ -24,6 +24,7 @@ MD_EXTENSIONS = ([
     'extra',
     'smarty',
     'footnotes',
+    'toc',
 ])
 
 # URL Settings

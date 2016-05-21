@@ -36,7 +36,7 @@ presence of social security numbers in court records, as
 Public.Resource.Org has done previously in several contexts. In addition
 we offer to host all the documents in a free public archive, at the
 [Internet Archive](http://archive.org), as we do now
-with [RECAP](http://recapthelaw.org) documents. Free Law Project would
+with [RECAP]({filename}/pages/recap.md) documents. Free Law Project would
 also plan, ultimately, to incorporate the documents into our
 [CourtListener](https://courtlistener.com) platform, for even easier
 full-text searching and public accessibility.
