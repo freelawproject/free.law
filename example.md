@@ -11,13 +11,15 @@ An image:
 
 ![Alt Text]({filename}/images/han.jpg)
 
-Floated left:
+Floated left or right:
 
-<div class="left-image">
+<div class="{right-image or left-image}">
     <a href="http://google.com">
-        <img src="{filename}/images/recap_r-150x150.png"
-             alt="RECAP Logo"/>
+        <img src="{filename}/images/recap/citp-logo.png"
+             alt="CITP Logo"
+             class="img-responsive">
     </a>
+    <p class="caption">Center for Information Technology Policy at Princeton University is a partner in our work.</p>
 </div>
 
 
@@ -29,24 +31,10 @@ Centered:
     </a>
 </div>
 
-Or right:
-
-<div class="right-image">
-    <a href="http://google.com">
-        <img src="{filename}/images/recap_r-150x150.png"
-             alt="RECAP Logo"/>
-    </a>
-</div>
 
 You can make a big button with:
 
 <a href="blah" class="btn btn-primary btn-lg">Foo</a>
-
-With a caption below:
-
-![Alt Text]({filename}/images/han.jpg)
-
-*My caption*
 
 An embedded thing:
 

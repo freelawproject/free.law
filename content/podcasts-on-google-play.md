@@ -8,7 +8,8 @@ Tags: announcements, Oral Arguments, podcasts
     <img src="{filename}/images/play_music_triangle.svg"
          alt="Google Play Logo"
          height="200"
-         width="200"/>
+         width="200"
+         class="img-responsive"/>
 </div>
 
 Just a quick post today to share that our [oral argument podcasts][p] are now available on [Google Play Music][g].

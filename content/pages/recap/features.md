@@ -7,7 +7,8 @@ using PACER without changing your workflow.
 ## Automatic Upload
 
 <div class="right-image">
-    <img src="{filename}/images/recap/iaupload.png">
+    <img src="{filename}/images/recap/iaupload.png"
+         class="img-responsive"/>
 </div>
 
 
@@ -22,7 +23,8 @@ contributing to this growing public domain legal library.
 ## Free Documents
 
 <div class="right-image">
-    <img src="{filename}/images/recap/free-link.png">
+    <img src="{filename}/images/recap/free-link.png"
+         class="img-responsive"/>
 </div>
 
 On each docket page, RECAP will tell you
@@ -35,7 +37,8 @@ Over time, this can save you considerable fees.
 ## Better Filenames
 
 <div class="right-image">
-    <img src="{filename}/images/recap/better-filename.png">
+    <img src="{filename}/images/recap/better-filename.png"
+         class="img-responsive"/>
 </div>
 
 You may have noticed that PDFs from
@@ -50,7 +53,8 @@ style]({filename}/recap-extension-0-6-beta-released.md).
 ## PDF Headers
 
 <div class="right-image">
-    <img src="{filename}/images/recap/include-headers.png">
+    <img src="{filename}/images/recap/include-headers.png"
+         class="img-responsive"/>
 </div>
 
 In some courts, there is the option

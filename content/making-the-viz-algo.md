@@ -7,8 +7,9 @@ Tags: design, visualization, algorithms
     <a href="{filename}/images/viz-design/with-case-names.jpg">
         <img src="{filename}/images/viz-design/with-case-names-thumb.jpg"
              alt="A design sketch with case names"
-             title="A sketch showing links between cases (click for enlarged view)"/>
+             class="img-responsive"/>
     </a>
+    <p class="caption">A sketch showing links between cases (click for enlarged view)</p>
 </div>
 
 In February we [announced][viz] our [Supreme Court Citation Network tool][home] that we developed with [University of Baltimore School of Law][ubalt]. We haven't had a chance until now to comment on some of the technical difficulties that came up while we were working on it. If you're not familiar with this tool, you should take a moment now to go check it out ([gallery][g], [homepage][home]).
@@ -62,8 +63,9 @@ That wouldn't do.
     <a href="{filename}/images/viz-design/networks.jpg">
         <img src="{filename}/images/viz-design/networks-thumb.jpg"
              alt="Design sketches of networks"
-             title="Sketches of networks (click for enlarged view)"/>
+             class="img-responsive">
     </a>
+    <p class="caption">Sketches of networks (click for enlarged view)</p>
 </div>
 
 
@@ -107,8 +109,9 @@ With computers, there are really only a few ways to make something faster:
     <a href="{filename}/images/viz-design/tulip.jpg">
         <img src="{filename}/images/viz-design/tulip-thumb.jpg"
              alt="A tulip-shaped sketch"
-             title="A tulip-shaped sketch (click for enlarged view)"/>
+             class="img-responsive"/>
     </a>
+    <p class="caption">A tulip-shaped sketch (click for enlarged view)</p>
 </div>
 
 It turns out that there were a number of ways to make the software faster, but we needed a couple constraints to make them work. First, we had an insight that some of the graphs we were making had hundreds of cases. This made them difficult to read and mostly useless. Was there a way that we could put a cap on the number of opinions in a network?
@@ -194,8 +197,9 @@ For this reason, we must keep track of the shortest route from the starting node
     <a href="{filename}/images/viz-design/tendrils.jpg">
         <img src="{filename}/images/viz-design/tendrils-thumb.jpg"
              alt="A sketch of networks with tendrils"
-             title="A sketch of networks with tendrils (click for enlarged view)"/>
+             class="img-responsive">
     </a>
+    <p class="caption">A sketch of networks with tendrils (click for enlarged view)</p>
 </div>
 
 

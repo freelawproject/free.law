@@ -7,7 +7,8 @@ Status: published
 
 <div class="left-image">
     <img src="{filename}/images/320px-Unitedstatesreports-150x150.jpg"
-         alt="United States Reporters"/>
+         alt="United States Reporters"
+         class="img-responsive"/>
 </div>
 
 A long time ago in a courthouse not too far away, people started making

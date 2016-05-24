@@ -7,7 +7,8 @@ Status: published
 
 <div class="right-image">
     <img src="{filename}/images/The_Burning_of_the_Library_at_Alexandria_in_391_AD.jpg"
-         alt="Burning of the Library of Alexandria"/>
+         alt="Burning of the Library of Alexandria"
+         class="img-responsive"/>
 </div>
 
 *The Burning of the Library of Alexandria, an illustration from

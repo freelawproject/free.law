@@ -56,7 +56,8 @@ fundamental constitutional right.
 
 <div class="left-image">
     <img src="{filename}/images/1984-Big-Brother.jpg"
-         alt="1984-Big-Brother"/>
+         alt="1984-Big-Brother"
+         class="img-responsive"/>
 </div>
 
 Now, imagine a different sort of "library," so different from traditional

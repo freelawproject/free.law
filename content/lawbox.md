@@ -7,8 +7,8 @@ Status: published
 <div class="left-image">
     <a href="http://lawboxapps.com">
         <img src="{filename}/images/lawbox-150x150.png"
-             alt="lawbox
-                  logo"/>
+             alt="lawbox logo"
+             class="img-responsive"/>
     </a>
 </div>
 

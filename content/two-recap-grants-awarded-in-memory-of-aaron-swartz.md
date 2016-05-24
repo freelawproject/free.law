@@ -55,7 +55,8 @@ continues).
 
 <div class="left-image">
     <img src="{filename}/images/recap/ping-150.jpg"
-         alt="Ka-Ping Yee Headshot">
+         alt="Ka-Ping Yee Headshot"
+         class="img-responsive"/>
 </div>
 
 The Chrome version of
@@ -82,7 +83,8 @@ programmers, Filippo Valsorda and Alessio Palmero Aprosio.
 
 <div class="left-image">
     <img src="{filename}/images/recap/filippo-150.jpg"
-         alt="Filippo Headshot">
+         alt="Filippo Headshot"
+         class="img-responsive"/>
 </div>
 
 Filippo
@@ -102,7 +104,8 @@ warning."
 
 <div class="left-image">
     <img src="{filename}/images/recap/alessio-150.jpg"
-         alt="Alessio Head Shot">
+         alt="Alessio Head Shot"
+         class="img-responsive"/>
 </div>
 
 

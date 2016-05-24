@@ -6,7 +6,8 @@ Tags: courtlistener, announcements
 <div class="left-image">
     <a href="https://www.courtlistener.com">
         <img src="{filename}/images/cl-3.png"
-             alt="CL 3.0!"/>
+             alt="CL 3.0!"
+             class="img-responsive"/>
     </a>
 </div>
 

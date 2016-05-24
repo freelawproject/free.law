@@ -8,7 +8,9 @@ Status: published
 <div class="left-image">
     <img src="{filename}/images/stitcher_400x400.jpg"
          alt="Stitcher Logo"
-         width="200"/>
+         width="200"
+         class="img-responsive"/>
+     <p class="caption">Stitcher Logo</p>
 </div>
 
 We're happy to share three pieces of news about [oral arguments at

@@ -7,7 +7,8 @@ Status: published
 
 <div class="left-image">
     <img src="{filename}/images/recap_r-150x150.png"
-         alt="RECAP Logo"/>
+         alt="RECAP Logo"
+         class="img-responsive"/>
 </div>
 
 We've

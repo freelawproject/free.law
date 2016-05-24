@@ -67,7 +67,7 @@ SOCIAL = (
 )
 
 DEFAULT_PAGINATION = 20
-SUMMARY_MAX_LENGTH = 100
+SUMMARY_MAX_LENGTH = 200
 
 # Uncomment following line if you want document-relative URLs when developing
 #RELATIVE_URLS = True

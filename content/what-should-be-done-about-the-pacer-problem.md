@@ -120,7 +120,8 @@ You can find contact information for your members of congress by
 <div class="left-image">
     <a href="{filename}/pages/recap.md">
         <img src="{filename}/images/recap_r-150x150.png"
-             alt="RECAP Logo"/>
+             alt="RECAP Logo"
+             class="img-responsive"/>
     </a>
 </div>
 
