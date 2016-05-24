@@ -21,6 +21,13 @@ To use RECAP, simply install it and then use PACER as you normally would. It's t
 <br>
 
 
+<div class="right-image">
+    <img src="{filename}/images/recap/citp-logo.png"
+         alt="CITP Logo"
+         class="img-responsive">
+    <p class="caption">Center for Information Technology Policy at Princeton University is a partner in our work.</p>
+</div>
+
 RECAP is a joint project of the <a href="https://citp.princeton.edu/">Center for Information Technology Policy</a> at Princeton University and <a href="/">Free Law Project</a>. It is one of several projects that harness the power of the web to increase government transparency.</p>
 
 RECAP is led by Free Law Project co-founders [Brian Carver](http://www.ischool.berkeley.edu/people/faculty/briancarver) and [Michael Lissner](http://michaeljaylissner.com/). CITP Director [Ed Felten](http://www.cs.princeton.edu/~felten/) also provides guidance. RECAP was created by Harlan Yu, Steve Schultze, and Timothy B. Lee, based on the principles described in [Government Data and the Invisible Hand](http://papers.ssrn.com/sol3/papers.cfm?abstract_id=1138083).
