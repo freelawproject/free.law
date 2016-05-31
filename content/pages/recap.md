@@ -22,7 +22,7 @@ To use RECAP, simply install it and then use PACER as you normally would. It's t
 
 
 <div class="right-image">
-    <img src="{filename}/images/recap/citp-logo.png"
+    <img src="{filename}/images/recap/citp-logo-initials.png"
          alt="CITP Logo"
          class="img-responsive">
     <p class="caption">Center for Information Technology Policy at Princeton University is a partner in our work.</p>
