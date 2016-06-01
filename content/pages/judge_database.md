@@ -1,8 +1,10 @@
-Title: Judicial Database
+Title: Judge and Appointer Database
 Summary: Free Law Project has created a detailed database of judges for use by researchers and practitioners. This database contains biographical, political, and role information for thousands of judges.
 Slug: judicial-database
 
-Free Law Project, in conjunction with [Elliott Ash][e] of Princeton University and Bentley MacLeod of Columbia University, with support from the National Science Foundation and the John S. and James L. Knight Foundation, have created a comprehensive database of judges and the judiciary.
+<p class="lead">For the benefit of researchers and practitioners, we are proud to host a comprehensive database of judges and the judiciary.</p>
+
+This project was created by Free Law Project, in conjunction with [Elliott Ash][e] of Princeton University and Bentley MacLeod of Columbia University, with support from the National Science Foundation and the John S. and James L. Knight Foundation.
 
 We hope this database, its APIs, and its bulk data will be valuable tools for practitioners and researchers across the country.
 
