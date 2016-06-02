@@ -20,7 +20,4 @@ We created Juriscraper to create a unified scraper framework that any
 organization can use to get the latest content from the hundreds of
 courts in the US.
 
-[Check it out!](https://github.com/freelawproject/juriscraper)
-
-We hope you'll find it useful!
-
+<a href="https://github.com/freelawproject/juriscraper" class="btn btn-lg btn-primary">Read More on Github</a>

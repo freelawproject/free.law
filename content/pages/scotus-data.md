@@ -5,7 +5,7 @@ Tags: data-wrangling, supreme court, API, bulk data, scotus
 Summary: Free Law Project has sponsored the creation of detailed Supreme Court Data and made it available via their CourtListener website. The data combines the best of many sources including the Supreme Court Database (SCDB), Resource.org, Library of Congress, and the Supreme Court's website. The data is available as XML or JSON in bulk data format or via an API.
 
 
-The Supreme Court is the most important court in the United States and for many years, we have worked to create the most complete and detailed collection of Supreme Court data possible.
+<p class="lead">The Supreme Court is the most important court in the United States and for many years, we have worked to create the most complete and detailed collection of Supreme Court data possible.</p>
 
 In this task, we have combined many sources of data including the [Supreme Court Database][scdb], the [opinions available on Resource.org][pro], [Library of Congress][loc], and downloads that we have [collected directly][js] from the [Supreme Court website][scotus] itself. All of this data has been carefully combined, fixing innumerable errors both manually and with automated systems.
 
