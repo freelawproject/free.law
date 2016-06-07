@@ -2,7 +2,6 @@ Title: Announcing Oral Arguments on CourtListener
 Date: 2014-10-31 08:22
 Author: mlissner
 Tags: Announcements, API, Bulk Data, CourtListener, Coverage, Juriscraper, Oral Arguments
-Slug: announcing-oral-arguments-on-courtlistener-2
 Status: published
 
 We're very excited to announce that CourtListener is currently in the
