@@ -7,7 +7,13 @@ Tags: conferences, talks, visualizations
 Last week was a busy one for Free Law Project. While I was at the [LTDCA conference][1] in San Diego, presenting on our [database of judges][jdb], [Colin Starger][starger] of University of Baltimore School of Law was at the [annual CALI conference][cali] talking about our new [Supreme Court citation visualizations][viz].
 
 
-[![Starger Video]({filename}/images/cali-vid.png)][video]
+<div class="text-center">
+    <a href="https://gsu.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=e7c2d415-2b4e-4cb3-b46f-a3a814731e48">
+        <img src="{filename}/images/cali-vid.png"
+                 alt="Starger Video"/>
+    </a>
+</div>
+
 
 While my talk wasn't recorded, Colin's was, and you can [watch it now][video]. He's also got [a great post on his blog][colin-blog] that has lots more information about the talk and his process. Both are a great way to get started with our [Supreme Court visualizations][viz]. Enjoy!
 
