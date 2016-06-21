@@ -9,6 +9,8 @@ If you only watch one video about using the federal Public Access to
 Court Electronic Records (PACER) system, make it this video by Free Law
 Project's Brian Carver: "Using PACER: What Could Possibly Go Wrong?"
 
+<iframe src="https://www.youtube.com/embed/hoBhYxxycuk" width="480" height="360" frameborder="0" allowfullscreen="allowfullscreen"></iframe>
+
 The video provides a demonstration of what a regular member of the
 public might experience trying to find a copy of a recent newsworthy
 federal district court opinion on the court's website and through the
@@ -36,11 +38,4 @@ Office of the Courts will be open to such options.
 
 We recommend watching the video Full Screen and/or in High Definition so
 that the slides are readable.
-
-<p>
-<center>
-<iframe src="https://www.youtube.com/embed/hoBhYxxycuk" width="480" height="360" frameborder="0" allowfullscreen="allowfullscreen"></iframe>
-
-</center>
-</p>
 

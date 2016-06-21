@@ -53,7 +53,7 @@ the Administrative Office of the Courts ("AOC") cannot argue that some
 of these cases have been closed for "13 years." Some were closed this
 year! They also cannot argue that "many had not been accessed in several
 years" because as we demonstrated in [a recent
-video](/2014/08/26/using-pacer-what-could-possibly-go-wrong/),
+video]({filename}/using-pacer-vid.md),
 it can be very difficult and expensive to use PACER. Thus, PACER usage
 statistics should tell us nothing about the importance of these files.
 And often, as was the situation with Judge Sotomayor's historical

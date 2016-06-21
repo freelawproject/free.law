@@ -14,7 +14,7 @@ three-pronged approach for addressing these problems this year.
 
 More detail is available in the memorandum or in the video we made last
 fall, "[Using PACER: What Could Possibly Go
-Wrong?](https://www.youtube.com/watch?v=HA4Z9LEJSBw)"
+Wrong?]({filename}/using-pacer-vid.md)"
 
 However, this is the first of three shorter posts where we will try to
 address:
