@@ -1,4 +1,4 @@
-Title: Free Law Project Assets
+Title: Free Law Project Assets and Logos
 Date: 2013-11-11 16:09
 Author: mlissner
 Slug: assets
@@ -7,8 +7,7 @@ Status: published
 These are the official logos and images of Free Law Project for use in
 your webpage, application, or printed material.
 
-You are free to use and modify these. Source versions are available in
-the related zip files.
+These are available according to the [Creative Commons Attribution 4.0 license][by]. You are free to use and modify these logos. Source versions are available in the zip files.
 
  
 
@@ -48,3 +47,5 @@ The RECAP logos are available as Adobe Illustrator, svg and png files.
 [Download a zip containing all versions and required
 fonts.]({filename}/zip/RECAP.zip)
 
+
+[by]: https://creativecommons.org/licenses/by/4.0/
