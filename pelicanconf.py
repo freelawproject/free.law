@@ -52,7 +52,7 @@ STATIC_PATHS = [
 LINKS = (
     ('Donate to FLP', 'https://www.courtlistener.com/donate/'),
     ('CourtListener', 'https://www.courtlistener.com/'),
-    ('RECAP', 'https://www.recapthelaw.org/'),
+    ('RECAP', '/recap/'),
 )
 
 # Social widget
