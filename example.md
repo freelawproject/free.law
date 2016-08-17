@@ -21,6 +21,8 @@ Floated left or right:
     </a>
     <p class="caption">Center for Information Technology Policy at Princeton University is a partner in our work.</p>
 </div>
+<!-- Optionally, do this to force the content to the next line. -->
+<div class="clearfix"></div>
 
 
 Centered:
