@@ -1,7 +1,7 @@
 Title: CourtListener's SCOTUS Data Gets Even Better with Legacy Data from the Supreme Court Database
 Author: mlissner
 Date: 2016-09-06
-Tags: SCDB, CourtListener, Visualizations
+Tags: SCDB, CourtListener, Visualizations, Supreme Court Database
 
 
 We're excited to share that as of today, we have added the latest data from the [Supreme Court Database (SCDB)][scdb] into [CourtListener][cl]. This update adds SCDB ID's, parallel citations, vote counts, and decision direction data to about 20,000 Supreme Court cases. Each of these enhancements enables some great functionality.
