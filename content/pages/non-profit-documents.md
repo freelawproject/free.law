@@ -21,7 +21,7 @@ Status: published
 -   [Minutes of First Board Meeting - August 1,
     2013]({filename}/pdf/004-mins_1st_bd_mtg-signed.pdf)
 -   [Complete Application for 501(c)(3) status (IRS
-    1023)](http://owncloud.freelawproject.org/public.php?service=files&t=679d702c8596346f261db57e18405afd&download)
+    1023)]({filename}/pdf/irs-1023-free-law-project.pdf)
 
 ### Tax Documents
 

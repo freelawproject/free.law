@@ -61,7 +61,7 @@ OpenJudiciary.org will be a vital new data source.
 
 **About Free Law Project**
 
-[Free Law Project](http://freelawproject.org) seeks to provide free
+[Free Law Project](https://free.law) seeks to provide free
 access to primary legal materials, develop legal research tools, and
 support academic research on legal corpora. We work diligently with
 volunteers to expand our efforts at building an open source, open
@@ -87,7 +87,7 @@ participation before, during and after elections.
 **Contacts:**
 
 Free Law Project: Michael Lissner, Co-Founder & Project Lead; Brian
-Carver, Co-Founder, 510-501-6262, brian@mail.freelawproject.org.
+Carver, Co-Founder, info@free.law
 
 Knight Foundation: Anusha Alikhan, Director of Communications, Knight
 Foundation, 305-908-2646, media@knightfoundation.org

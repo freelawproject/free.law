@@ -27,7 +27,7 @@ These badges are available in dark or light, and should work well with
 most designs. [Download a zip for full size images and dark versions
 (svg,
 png)]({filename}/zip/Powered-By1.zip).
-We suggest that you make them link to FreeLawProject.org.
+We suggest that you make them link to https://free.law.
 
  
 

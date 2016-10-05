@@ -8,9 +8,9 @@ Status: published
 This is the third in a series of posts about PACER:
 
 1.  [What is the "PACER
-    Problem"](http://freelawproject.org/2015/03/20/what-is-the-pacer-problem/)
+    Problem"]({filename}/what-is-the-pacer-problem.md)
 2.  [Why Should Congress Care About
-    PACER?](http://freelawproject.org/2015/03/23/why-should-congress-care-about-pacer/)
+    PACER?]({filename}/why-should-congress-care-about-pacer.md)
 3.  What Should be Done About the PACER Problem?
 
 Let's outline what you should do, what Congress should do, and what the
@@ -26,7 +26,7 @@ courts should do:
 ----------------------------------------------
 
 As we mentioned in our [first
-post](http://freelawproject.org/2015/03/20/what-is-the-pacer-problem/),
+post]({filename}/what-is-the-pacer-problem.md),
 Carl Malamud of [Public.Resource.Org](https://public.resource.org) has
 written a [memorandum](https://yo.yourhonor.org/) detailing a
 three-pronged approach that average individuals can take to address the
@@ -39,7 +39,7 @@ over PACER. Carl's memorandum sketches many of the challenges that such
 cases would face. There are people thinking about this carefully,
 however, and so if you believe you are particularly likely to have
 standing, or have other resources to contribute to such an effort, feel
-free to [get in touch with us](http://freelawproject.org/contact/) and
+free to [get in touch with us]({filename}/pages/contact.md) and
 we can direct you to the folks having these conversations.
 
 **Supplication**
@@ -48,7 +48,7 @@ a fee exemption from the courts, focused on receiving all of the
 documents from one district court and one appellate-level Circuit court.
 The courts have the ability to grant such a waiver, and as [discussed in
 our second
-post](http://freelawproject.org/2015/03/23/why-should-congress-care-about-pacer/),
+post]({filename}/why-should-congress-care-about-pacer.md),
 Congress wants the courts to move towards making these documents free.
 This request is already in the works, so while individuals could be
 supportive of this request, or pursue their own fee exemptions where
@@ -90,7 +90,7 @@ Committee](http://judiciary.house.gov/index.cfm/committee-members)? or
 is one of your Senators on the [Homeland Security and Governmental
 Affairs Committee](http://www.hsgac.senate.gov/about)? This was the
 Committee that wrote [that
-report](http://freelawproject.org/2015/03/23/why-should-congress-care-about-pacer/)
+report]({filename}/why-should-congress-care-about-pacer.md)
 about the E-Government Act of 2002 that said Congress wanted the
 Judicial Conference to move to "a fee structure in which this
 information is freely available to the greatest extent possible."
@@ -137,7 +137,7 @@ extension](https://free.law/recap/) for either Firefox or Chrome. Do this
 now in the first quarter so you can make sure your setup is working.
 That way you know you'll be ready on May Day. We've written up
 [detailed instructions for
-participating](http://freelawproject.org/pacer-drainage-instructions/).
+participating]({filename}/pages/pacer-drainage-instructions.md).
 We've also set up a [recap-reminder mailing
 list](http://lists.freelawproject.org/cgi-bin/mailman/listinfo/recap-reminder)
 that will send you a reminder when each quarter is coming to a close, so
@@ -167,7 +167,7 @@ Judicial Council from charging PACER fees.** While this is something of
 a "nuclear" option, it is actually the best option because almost
 nothing else would solve every aspect of the [PACER Problem we wrote
 about in part one of this
-series](http://freelawproject.org/2015/03/20/what-is-the-pacer-problem/).
+series]({filename}/what-is-the-pacer-problem.md).
 The elimination of fees obviously resolves the unreasonably high cost of
 public access, but it would also solve the user-interface,
 document-level search, and accountability problems that make up the
@@ -176,7 +176,7 @@ innovate with the PACER data. Additionally, when multiple third parties
 have their own copies of the public record, there can finally be
 accountability since the Judicial Council would be unable to
 [arbitrarily take thousands of documents
-offline](http://freelawproject.org/2014/08/28/the-importance-of-backups/).
+offline]({filename}/the-importance-of-backups.md).
 
 A fundamental part of such a change in the law should include a
 commitment to provide the courts with the funding they need directly. It
@@ -220,7 +220,7 @@ such information and simply needs to ask.
 
 **The Courts should eliminate numerous PACER fees immediately in order
 to eliminate the PACER surplus.** As described in our [second
-post](http://freelawproject.org/2015/03/23/why-should-congress-care-about-pacer/),
+post]({filename}/why-should-congress-care-about-pacer.md),
 best evidence suggests that PACER fees generate far more revenue than it
 costs to operate PACER. This has created a surplus whose existence
 violates the E-Government Act of 2002 and thwarts clear congressional
@@ -249,7 +249,7 @@ without better reporting from the Judiciary or Congressional oversight,
 we lack detailed statistics on PACER usage, making it impossible to know
 for sure what financial impact this would have. Comments from the
 Administrative Office of the Courts during the
-[PACERocalypse](http://freelawproject.org/2014/08/28/the-importance-of-backups/)
+[PACERocalypse]({filename}/the-importance-of-backups.md)
 certainly suggest that documents in these older closed cases are not
 frequently retrieved and so should not significantly reduce revenue.
 

@@ -8,20 +8,20 @@ As most readers of this blog know, PACER is a website run by the Administrative 
  
 The pricing of PDFs is pretty clear: 10 cents per page with a cap at three dollars. Got it. But the price of the dockets and of the search results is perplexing. Dockets and search results are also priced per page, but unlike a PDF, there are no *pages* per se --- These are webpages, not PDFs. So I began to wonder: What *is* a page of PACER data? When I get charged for a search result or for a docket, what exactly am I paying for? How are pages computed?
 
-To get to the bottom of this, I spent a little time talking with the folks who run PACER, and I present the results of those discussions below. But before I begin, I'll tell you the punchline: PACER is charging for content page by page, but they won't define what a page actually is. This gives them the capability to change how pages are computed in order to drive up their revenue. It makes them vulnerable to lawsuits, and indeed such a suit is progressing in the Court of Federal Claims[^1]. 
+To get to the bottom of this, I spent a little time talking with the folks who run PACER, and I present the results of those discussions below. But before I begin, I'll tell you the punchline: PACER is charging for content page by page, but they won't define what a page actually is. This gives them the capability to change how pages are computed in order to drive up their revenue. It makes them vulnerable to lawsuits, and indeed such a suit is progressing in the Court of Federal Claims.[^1] 
 
-We don't know if the underlying methods of pricing have ever changed and we probably never will, but with courts being strapped for cash, we do know that there's motivation to do so. The AOC's unwillingness to discuss this topic is troubling, since it forms the core of their pricing, and we hope that they will consider providing more details about this question.
+We don't know if the underlying methods of pricing have ever changed and we probably never will, but with courts being strapped for cash, we do know that there's motivation to do so. The AOC's unwillingness to discuss this topic is troubling, since it forms the core of their pricing. We hope that they will consider providing more details about this question.
 
 
 ## Getting Towards an Answer
 
-My inquiry about this began with a phone call to the PACER service center, where I got the answer: Dockets are charged based on the number of pages that would be printed if you sent them to your printer. This was clearly wrong, so I pushed back: "Does that mean that if I increase my font size, I have to pay more because it would print more pages?" This stumped the person on the phone, and I was told I should send an email with my question instead. Fair enough:
+My inquiry about this began with a phone call to the PACER service center, where I got the following answer: Dockets are charged based on the number of pages that would be printed if you sent them to your printer. This was clearly wrong, so I pushed back: "Does that mean that if I increase my font size, I have to pay more because it would print more pages?" This stumped the person on the phone, and I was told I should send an email with my question instead. Fair enough:
 
 > When I download a PDF, it's quite clear what a page is, but when I look at a docket or search results, it's not so clear. Is this based on the font size that I have in my browser? Is it based on the kilobytes of data that I download? Is it based on the number of characters in the HTML? I'm really trying to understand this, because it feels very arbitrary.
   
 > Can you give me a more specific explanation of what a "page" is? It's at the heart of your pricing, so I hope this is a question with a simple answer.
 
-The response I received was brief and wrong:
+The response I received was brief and wrong again:
 
 <div class="left-image">
     <blockquote>
@@ -75,7 +75,9 @@ I could not imagine that PACER doesn't know how big a page is, so I pushed again
 </div>
 <div class="clearfix"></div>
 
-For those keeping track, we're now one phone call and three answers into this seemingly basic question, but it looks like we have an answer. Except:
+For those keeping track, we're now one phone call and three answers into this seemingly basic question, but it looks like we have an answer. 
+
+Except:
 
 1. If you test a docket by downloading it and then measuring how big it is, nothing adds up to 4,320 bytes, so there's still no way to know where those bytes are coming from.
 
@@ -97,7 +99,7 @@ The answer:
 
 This is getting into the weeds, but it feels like what she's saying is:
 
-1. We extract a lot of data from our database.
+1. We extract a lot of data from our database in an "original extraction file".
 
 2. We measure this data and bill you for it.
 

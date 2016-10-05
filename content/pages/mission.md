@@ -63,5 +63,5 @@ Movement](http://falm.info/).
 * * * * *
 
 See our [Non-Profit
-Documents](http://freelawproject.org/non-profit-documents/).
+Documents]({filename}/pages/non-profit-documents.md).
 

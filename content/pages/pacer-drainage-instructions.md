@@ -93,7 +93,7 @@ Problems?
 ---------
 
 Send an email [using our contact
-form](http://freelawproject.org/contact/).
+form]({filename}/pages/contact.md).
 
 Thank You
 ---------

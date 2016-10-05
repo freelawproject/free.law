@@ -57,7 +57,7 @@ support the goals of improving public access to the law will [donate
 directly](https://courtlistener.com/donate/?referrer=flp-blog) so that
 the non-profit can put more developers to work on these efforts.
 
-In the future, freelawproject.org will be the official place to find
+In the future, https://free.law will be the official place to find
 updates about Free Law Project and its related technologies.
 
 "This is a huge day for the open legal movement, and we hope you'll help

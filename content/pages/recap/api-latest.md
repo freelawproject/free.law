@@ -160,7 +160,7 @@ server or if you need it to be enabled.
 ### Official Artwork {#art}
 
 Official artwork is available [on the Free Law Project
-website](http://freelawproject.org/about/assets/).
+website]({filename}/pages/assets.md).
 
 Querying Items
 --------------
