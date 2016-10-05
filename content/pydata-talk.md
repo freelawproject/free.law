@@ -2,7 +2,6 @@ Title: Iain Carmichael and Michael Kim Present at PyData Carolinas Conference
 Author: mlissner
 Date: 2016-10-05
 Tags: talks, pydata, networks, visualizations, videos
-Status: Draft
 
 
 [Iain Carmichael][ic] and Michael Kim recently gave a presentation at the [PyData Carolinas][1] conference on the topic of *Networks and the Law*. For their talk they analyzed data from CourtListener, applying a variety of network algorithms to identify important or influential cases. 
