@@ -11,7 +11,7 @@ and [Ars
 Technica](http://arstechnica.com/tech-policy/2014/09/senator-demands-us-courts-recover-10-years-of-online-public-records/)
 that Chairman of the Judiciary Committee, Senator Patrick Leahy, had
 sent a letter to Judge Bates, the head of the Administrative Office of
-the Courts, urging the AOC to put back online the recently-removed PACER
+the Courts (AO), urging the AO to put back online the recently-removed PACER
 documents from five courts. I had not seen the full letter posted
 anywhere yet, [so I present it here][1].
 
@@ -20,7 +20,7 @@ anywhere yet, [so I present it here][1].
 Free Law Project agrees with Senator Leahy that taking these documents
 offline represents "a dramatic step backwards" and that the Courts'
 currently proposed work-around represents "a troubling increase in
-costs..." We hope the AOC will be open to restoring online access to
+costs..." We hope the AO will be open to restoring online access to
 these documents and stand ready to help make these documents freely
-available online for the public were that agreeable to the AOC.
+available online for the public were that agreeable to the AO.
 

@@ -49,7 +49,7 @@ and inconvenience for everyone involved.
 
 And as I told [Common
 Dreams](http://commondreams.org/news/2014/08/28/decade-court-cases-quietly-wiped-online-database),
-the Administrative Office of the Courts ("AOC") cannot argue that some
+the Administrative Office of the Courts (AO) cannot argue that some
 of these cases have been closed for "13 years." Some were closed this
 year! They also cannot argue that "many had not been accessed in several
 years" because as we demonstrated in [a recent
@@ -65,7 +65,7 @@ Put another way, libraries should hang on to their copy of Plato's
 
 This PACER situation presses home more than ever the importance of
 having a backup. Many critics of the PACER system were dissatisfied with
-many aspects of the AOC's custodianship of America's judicial record,
+many aspects of the AO's custodianship of America's judicial record,
 but no critic ever thought that after so much work to move to online
 electronic records, we would return to an offline system of access to
 court records. If we now cannot even count on the courts to keep the

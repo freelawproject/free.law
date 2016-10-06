@@ -4,13 +4,13 @@ Author: mlissner
 Tags: PACER, transparency
 Status: draft
 
-As most readers of this blog know, PACER is a website run by the Administrative Office of the Courts that [hosts over a billion documents][b] from the Federal District and Circuit courts. The system was created in the nineties and was set up with a paywall so that you pay for every bit of data that you receive. For example, if you do a search, you pay by the number of search results returned. If you download one of the PDFs in PACER, you pay by the page. And if you look at a list of documents within a case (the "docket" for that case), you pay by the length of that docket.
+As most readers of this blog know, PACER is a website run by the Administrative Office of the Courts (AO) that [hosts over a billion documents][b] from the Federal District and Circuit courts. The system was created in the nineties and was set up with a paywall so that you pay for every bit of data that you receive. For example, if you do a search, you pay by the number of search results returned. If you download one of the PDFs in PACER, you pay by the page. And if you look at a list of documents within a case (the "docket" for that case), you pay by the length of that docket.
  
 The pricing of PDFs is pretty clear: 10 cents per page with a cap at three dollars. Got it. But the price of the dockets and of the search results is perplexing. Dockets and search results are also priced per page, but unlike a PDF, there are no *pages* per se --- These are webpages, not PDFs. So I began to wonder: What *is* a page of PACER data? When I get charged for a search result or for a docket, what exactly am I paying for? How are pages computed?
 
 To get to the bottom of this, I spent a little time talking with the folks who run PACER, and I present the results of those discussions below. But before I begin, I'll tell you the punchline: PACER is charging for content page by page, but they won't define what a page actually is. This gives them the capability to change how pages are computed in order to drive up their revenue. It makes them vulnerable to lawsuits, and indeed such a suit is progressing in the Court of Federal Claims.[^1] 
 
-We don't know if the underlying methods of pricing have ever changed and we probably never will, but with courts being strapped for cash, we do know that there's motivation to do so. The AOC's unwillingness to discuss this topic is troubling, since it forms the core of their pricing. We hope that they will consider providing more details about this question.
+We don't know if the underlying methods of pricing have ever changed and we probably never will, but with courts being strapped for cash, we do know that there's motivation to do so. The AO's unwillingness to discuss this topic is troubling, since it forms the core of their pricing. We hope that they will consider providing more details about this question.
 
 
 ## Getting Towards an Answer
@@ -105,7 +105,7 @@ This is getting into the weeds, but it feels like what she's saying is:
 
 3. We send you a subset of that data in the form of a docket.
 
-Since at this point they still hadn't explained how a page was created, and since this opaque process was at the heart of the revenue model for PACER, I decided to send one more email asking about the technical details for generating the "original extraction file." Since we don't know  how these files are generated, it's possible that the AOC could tweak this method and thereby raise PACER revenue.
+Since at this point they still hadn't explained how a page was created, and since this opaque process was at the heart of the revenue model for PACER, I decided to send one more email asking about the technical details for generating the "original extraction file." Since we don't know  how these files are generated, it's possible that the AO could tweak this method and thereby raise PACER revenue.
 
 When I asked about this, the next response I got was from the Senior Attorney for the Administrative Office of the Courts:
 
@@ -117,19 +117,19 @@ When I asked about this, the next response I got was from the Senior Attorney fo
 </div>
 <div class="clearfix"></div>
 
-This was a bit of a surprise, and I must confess that this is where the story goes cold. But we can learn a few things from these interactions. First, it's important to note that it took three answers before the AOC could give me a vaguely correct answer to my basic question about their pricing. The first two answers were flat wrong. Second, the AOC has no interest in being truly transparent about how their pricing works. Yes, we now know that 4,320 bytes is a "page", but we still don't know: Bytes of *what*? What *is* an "original extraction file"?
+This was a bit of a surprise, and I must confess that this is where the story goes cold. But we can learn a few things from these interactions. First, it's important to note that it took three answers before the AO could give me a vaguely correct answer to my basic question about their pricing. The first two answers were flat wrong. Second, the AO has no interest in being truly transparent about how their pricing works. Yes, we now know that 4,320 bytes is a "page", but we still don't know: Bytes of *what*? What *is* an "original extraction file"?
  
-Third, we know that if you ask about this kind of thing persistently enough, you'll be routed to an attorney for an official response. At the time when I was researching this, I was shocked to hear from an attorney in response to a help desk question. Since then, it's come to make more sense. It turns out that towards the end of last year, there was a class action lawsuit filed against PACER alleging erroneous pricing for---you guessed it---generating dockets.[^1] While I won't opine on the merits of that case (and indeed I'm not a lawyer), it is possible that the AOC had wind of that case and wanted to make sure they didn't make any legal missteps while emailing with me. The timeline isn't perfect---my inquiries were in November, and the case was filed in December---but if it wasn't related, it sure was prescient.
+Third, we know that if you ask about this kind of thing persistently enough, you'll be routed to an attorney for an official response. At the time when I was researching this, I was shocked to hear from an attorney in response to a help desk question. Since then, it's come to make more sense. It turns out that towards the end of last year, there was a class action lawsuit filed against PACER alleging erroneous pricing for---you guessed it---generating dockets.[^1] While I won't opine on the merits of that case (and indeed I'm not a lawyer), it is possible that the AO had wind of that case and wanted to make sure they didn't make any legal missteps while emailing with me. The timeline isn't perfect---my inquiries were in November, and the case was filed in December---but if it wasn't related, it sure was prescient.
 
-Going forward, we believe that the AOC should consider a few changes:
+Going forward, we believe that the AO should consider a few changes:
 
-1. The AOC should share more details about how their pricing works both internally, so their staff have the correct answers, and externally, so that the answers are easy to find by the public, not buried in a 28 page manual. Indeed, in their billing it could  say how much *data* you purchased in a month instead of how many *pages*.
+1. The AO should share more details about how their pricing works both internally, so their staff have the correct answers, and externally, so that the answers are easy to find by the public, not buried in a 28 page manual. Indeed, in their billing it could  say how much *data* you purchased in a month instead of how many *pages*.
 
-2. The AOC should provide transparency about how "pages" are defined. We know that they're 4,320 bytes, but we still don't know what an "original extraction file" is. Providing technical details on this would provide clarity to their pricing and would make them less able to make technical changes in efforts to raise revenue. Criticism like this post would be largely addressed.
+2. The AO should provide transparency about how "pages" are defined. We know that they're 4,320 bytes, but we still don't know what an "original extraction file" is. Providing technical details on this would provide clarity to their pricing and would make them less able to make technical changes in efforts to raise revenue. Criticism like this post would be largely addressed.
 
-3. The AOC should refrain from having lawyers answer help desk questions.
+3. The AO should refrain from having lawyers answer help desk questions.
 
-We hope the AOC will consider these changes, and that in the future their pricing will be more transparent.
+We hope the AO will consider these changes, and that in the future their pricing will be more transparent.
 
 
 [b]: https://www.supremecourt.gov/publicinfo/year-end/2014year-endreport.pdf
