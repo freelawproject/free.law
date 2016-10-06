@@ -9,6 +9,9 @@
     color: #fff;
     text-shadow: none;
 }
+*:target {
+    background-color: lightyellow;
+}
 
 #banner {
     padding: 108px 0;
