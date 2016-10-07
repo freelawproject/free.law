@@ -17,13 +17,16 @@ Let's outline what you should do, what Congress should do, and what the
 courts should do:
 
 
-<img src="{filename}/images/670px-Uncle_Sam_pointing_finger.jpg" alt="Uncle Sam (pointing finger)" by James Montgomery Flagg - Public Domain via Wikimedia Commons">
 
 
-*By James Montgomery Flagg - Public Domain via Wikimedia Commons*
+<div class="left-image">
+    <img src="{filename}/images/670px-Uncle_Sam_pointing_finger.jpg" alt="Uncle Sam (pointing finger)" by James Montgomery Flagg - Public Domain via Wikimedia Commons">
+    <p class="caption">By James Montgomery Flagg - Public Domain via Wikimedia Commons</p>
+</div>
+<div class="clearfix"></div>
 
-**What you should do about the PACER Problem**
-----------------------------------------------
+
+## What you should do about the PACER Problem
 
 As we mentioned in our [first
 post]({filename}/what-is-the-pacer-problem.md),
@@ -33,7 +36,7 @@ three-pronged approach that average individuals can take to address the
 PACER Problem: Litigation, Supplication, and Agitation. Let's consider
 each.
 
-**Litigation**
+### Litigation
 It's probably not fruitful if everyone runs out and sues the courts
 over PACER. Carl's memorandum sketches many of the challenges that such
 cases would face. There are people thinking about this carefully,
@@ -42,7 +45,7 @@ standing, or have other resources to contribute to such an effort, feel
 free to [get in touch with us]({filename}/pages/contact.md) and
 we can direct you to the folks having these conversations.
 
-**Supplication**
+### Supplication
 Carl's memorandum also explains that Public.Resource.Org is asking for
 a fee exemption from the courts, focused on receiving all of the
 documents from one district court and one appellate-level Circuit court.
@@ -55,15 +58,17 @@ supportive of this request, or pursue their own fee exemptions where
 they believe they have grounds to receive one, most people will find
 something in the next category more useful to pursue.
 
-**Agitation**
+### Agitation
 There are several polite ways you could raise the profile of this
 issue. It appears to us that many of the decision-makers are not even
 aware that there is a problem or that the problem is as dire as it is,
 so this is not a time to resort to name-calling or flame wars. Instead,
 consider some of these options for PACER activism:
 
-**Send postcards to the chief judge in your local federal district court
-and your regional circuit court.** Send a simple message, something
+#### Postcards
+
+You can send a postcard to the chief judge in your local federal district court
+and your regional circuit court. Send a simple message, something
 like:
 
 > Hi. I believe that public access to electronic court records is
@@ -80,22 +85,19 @@ Click on [this map](https://www.pacer.gov/map.html) to use a PACER
 feature that actually works fairly well if you're not sure which is your
 local federal court.
 
-![court\_map\_540x290]({filename}/images/court_map_540x290.png)](https://www.pacer.gov/map.html)
+<div class="left-image">
+    <a href="https://www.pacer.gov/map.html">
+        <img src="{filename}/images/court_map_540x290.png"
+             alt="court map"
+             class="img-responsive">
+    </a>
+</div>
+<div class="clearfix"></div>
 
-**Write to your members of Congress.** Is one of your Senators on the
-[Senate Judiciary
-Committee](http://www.judiciary.senate.gov/about/members)? Is your
-representative on the [House Judiciary
-Committee](http://judiciary.house.gov/index.cfm/committee-members)? or
-is one of your Senators on the [Homeland Security and Governmental
-Affairs Committee](http://www.hsgac.senate.gov/about)? This was the
-Committee that wrote [that
-report]({filename}/why-should-congress-care-about-pacer.md)
-about the E-Government Act of 2002 that said Congress wanted the
-Judicial Conference to move to "a fee structure in which this
-information is freely available to the greatest extent possible."
-Write your members of Congress, whoever they are, and say something
-like:
+
+#### Write to your members of Congress.
+
+Is one of your Senators on the [Senate Judiciary Committee](http://www.judiciary.senate.gov/about/members)? Is your representative on the [House Judiciary Committee](http://judiciary.house.gov/index.cfm/committee-members)? or is one of your Senators on the [Homeland Security and Governmental Affairs Committee](http://www.hsgac.senate.gov/about)? This was the Committee that wrote [that report]({filename}/why-should-congress-care-about-pacer.md) about the E-Government Act of 2002 that said Congress wanted the Judicial Conference to move to "a fee structure in which this information is freely available to the greatest extent possible." Write your members of Congress, whoever they are, and say something like:
 
 > Hello. I believe that public access to electronic court records is
 > important, but that the current PACER system is not serving the public
@@ -114,7 +116,9 @@ like:
 You can find contact information for your members of congress by
 [searching on OpenCongress.org](https://www.opencongress.org/people/zipcodelookup).
 
-**Join our crowd-based effort to download PACER documents using RECAP.**
+#### Crowd Source the Documents
+
+Another option is to join our crowd-based effort to download PACER documents using RECAP.
 
 
 <div class="left-image">
@@ -144,12 +148,13 @@ that will send you a reminder when each quarter is coming to a close, so
 you never forget to use your $15 credit to put more public documents
 into a free public archive.
 
-**Do whatever you do best!**
+#### Do whatever you do best!
+
 Maybe you're great at making videos or art or writing opinion pieces
 for your local newspaper. That's awesome. Do those things. This is a
 people's protest.
 
-**Make May 1 "Law Day" a National Day of PACER Protest**
+#### Make May 1 "Law Day" a National Day of PACER Protest
 To give all these individual efforts greater collective impact, Carl
 has proposed that the people take back May 1st "Law Day" by making it a
 National Day of PACER Protest. So, whether you're mailing a letter,
@@ -159,12 +164,13 @@ documents with RECAP, focus your activity on May 1st.
 !["Capitol building" by Francisco Anzola - CC-BY 2.0 via Wikimedia Commons]({filename}/images/1200px-Capitol_building_3452037202.jpg)
 *By Francisco Anzola - CC-BY 2.0 via Wikimedia Commons*
 
-**What Congress should do about the PACER Problem**
----------------------------------------------------
 
-**Congress should amend the E-Government Act of 2002 to forbid the
-Judicial Council from charging PACER fees.** While this is something of
-a "nuclear" option, it is actually the best option because almost
+## What Congress should do about the PACER Problem
+
+
+### Congress should amend the E-Government Act of 2002 to forbid the Judicial Council from charging PACER fees.
+ 
+While this is something of a "nuclear" option, it is actually the best option because almost
 nothing else would solve every aspect of the [PACER Problem we wrote
 about in part one of this
 series]({filename}/what-is-the-pacer-problem.md).
@@ -184,8 +190,9 @@ is not right for the courts to use a PACER surplus to fund unrelated
 needs. This should stop and Congress should open up the books and figure
 out the appropriate level of direct funding.
 
-**Congress should hold hearings on public access to electronic court
-records.** Before any change to the law, Congress generally holds
+### Congress should hold hearings on public access to electronic court records. 
+
+Before any change to the law, Congress generally holds
 hearings, and hearings on public access to electronic court records are
 long overdue. The courts put out reports that make hard-to-believe
 claims about user satisfaction rates and present carefully-selected
@@ -200,7 +207,8 @@ filing is disastrous as a fee-based public access system and that this
 particular disaster is holding back an enormous amount of innovation,
 economic growth, and public good.
 
-**Congress should require greater financial transparency around PACER.**
+### Congress should require greater financial transparency around PACER.
+
 At a minimum, Congress and the public deserve more information in order
 to evaluate PACER and its operation. Congress should insist on detailed
 financial reports and outside audits that would show annual PACER
@@ -211,21 +219,20 @@ showed separately the revenue generated from searches, docket reports,
 and document downloads. Congress already has the authority to receive
 such information and simply needs to ask.
 
-![By Phil Roeder. CC-BY 2.0 via Wikimedia Commons.]({filename}/images/Inside_the_United_States_Supreme_Court.jpg)
+<div class="left-image">
+    <img src="{filename}/images/Inside_the_United_States_Supreme_Court.jpg"
+         alt="Inside the SCUTOS"
+         class="img-responsive">
+    <p class="caption">By Phil Roeder. CC-BY 2.0 via Wikimedia Commons.</p>
+</div>
+<div class="clearfix"></div>
 
-*By Phil Roeder. CC-BY 2.0 via Wikimedia Commons.*
 
-**What the Courts should do about the PACER Problem**
------------------------------------------------------
+## What the Courts should do about the PACER Problem
 
-**The Courts should eliminate numerous PACER fees immediately in order
-to eliminate the PACER surplus.** As described in our [second
-post]({filename}/why-should-congress-care-about-pacer.md),
-best evidence suggests that PACER fees generate far more revenue than it
-costs to operate PACER. This has created a surplus whose existence
-violates the E-Government Act of 2002 and thwarts clear congressional
-intent that the Judicial Council move towards making these documents
-free.
+### The Courts should eliminate numerous PACER fees immediately in order to eliminate the PACER surplus. 
+
+As described in our [second post]({filename}/why-should-congress-care-about-pacer.md), best evidence suggests that PACER fees generate far more revenue than it costs to operate PACER. This has created a surplus whose existence violates the E-Government Act of 2002 and thwarts clear congressional intent that the Judicial Council move towards making these documents free.
 
 These fees could be dropped to eliminate the surplus: searches should be
 free, docket reports should be free, complaints should be free, and not
@@ -253,7 +260,8 @@ Administrative Office of the Courts during the
 certainly suggest that documents in these older closed cases are not
 frequently retrieved and so should not significantly reduce revenue.
 
-**The Courts should grant Public.Resource.Org's Fee Waiver Request.**
+### The Courts should grant Public.Resource.Org's Fee Waiver Request.
+
 Public.Resource.Org proposes an extremely worthwhile experiment in free
 bulk access to PACER. In addition to the value that would be had as a
 result of the privacy audit proposed, I believe the chief value of such
@@ -263,15 +271,16 @@ currently don't even know we want or would enjoy. Their prototypes built
 on the data from a few courts will help demonstrate what we're missing
 out on by not opening up all the documents.
 
-**The Courts should publish reports that provide for greater
-transparency.** The same reports that I suggest Congress should ask for,
+### The Courts should publish reports that provide for greater transparency.
+ 
+The same reports that I suggest Congress should ask for,
 the Courts should simply produce on their own, without having to be
 asked. The courts should be leaders in operational transparency, instead
 of engaging in what looks like obfuscation to hide revenues that should
 have never been collected.
 
-Finally
--------
+
+## Finally
 
 In the end, solving the "PACER Problem" will require help from the
 public, Congress, and the courts. The system has been in place for many
