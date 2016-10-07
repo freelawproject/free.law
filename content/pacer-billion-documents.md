@@ -10,30 +10,28 @@ Recently, we started a new project to analyze a few million PACER documents that
 <blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">Based on a sample of about 2M PDFs, the average length of a PACER document is 9.1 pages. The max (so far) is 4,417.</p>&mdash; RECAP the Law (@RECAPtheLaw) <a href="https://twitter.com/RECAPtheLaw/status/771585725875691520">September 2, 2016</a></blockquote>
 <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 
-This is a really interesting statistic. Another is that according to the [Supreme Court's 2014 Annual Report][scotus-report], there are more than one billion documents in in PACER:
+This is a really interesting statistic. Another is that there are more than one billion documents in in PACER:
 
-<div class="text-center">
-    <a href="https://www.supremecourt.gov/publicinfo/year-end/2014year-endreport.pdf">
-        <img src="{filename}/images/one-billion.png"
-                 alt="One Billion Documents"/>
-    </a>
-</div>
-<div class="clearfix"></div>
+<blockquote>
+    <p>CM/ECF currently contains, in aggregate, more than one billion retrievable documents spread among the 13 courts of appeals, 94 district courts, 90 bankruptcy courts, and other specialized tribunals.
+    </p>
+    <footer><a href="https://www.supremecourt.gov/publicinfo/year-end/2014year-endreport.pdf">2014 Supreme Court Annual Report</a></footer>
+</blockquote>
 
 With these two statistics and the knowledge that [downloading a document costs ten cents per page][cost], we can once again see how PACER---the biggest paywall the world has ever known---is a deeply troubling system. At this price, purchasing the contents of PACER would cost somewhere on the order of one billion dollars.[^1]
  
 One 👏 Billion 👏 Dollars 👏
 
-For reference, storing the entire PACER corpus in the cloud would cost around $128,000/year.[^2]
+For reference, storing the entire PACER corpus in the cloud would cost around $128,000/year.[^2] That number doesn't include a variety of other expenses in the PACER system, but the difference between the storage cost and the amount it would cost to purchase the content is astounding.
 
-How did this happen? How is it that as the cost of storing data has gone down, the cost of PACER data has gone up? How is it that non-profit organizations like the [Internet Archive][ia] can share [15 petabytes of data][ia-wiki][^3] for free while PACER data costs so much? 
+How did this happen? How is it that as the cost of storing data has gone down, the cost of PACER data has gone up? How is it that non-profit organizations like the [Internet Archive][ia] can share [15 petabytes of data for free][ia-wiki][^3] while PACER data costs so much? 
 
-Well, one reason the price is high, is because the Administrative Office of the Courts (AO), the federal organization that runs PACER, has a monopoly. In the [E-Government Act][egov], Congress asked the AO to set up PACER and said that they could charge a reasonable price for it to recoup costs. Since then, they've had an officially sanctioned monopoly on this data.
+Well, one reason the price is high is because the Administrative Office of the Courts (AO), the federal organization that runs PACER, has a monopoly. In the [E-Government Act][egov], Congress asked the AO to set up PACER and said that they could charge a reasonable price for it to recoup costs. Since then, they've had an officially sanctioned monopoly on this data.
 
  
 ## Let's Talk (Briefly) About Monopolies
  
-Contrary to popular wisdom, there can be good reasons for monopolies. For example, sometimes you have a product that's extremely expensive and that you wouldn't want to create in duplicate. A classic example of this is the sewer line that connects to your house. This sewer line is almost always run by an organization that has a local monopoly for your city because putting in sewer lines is expensive, and because we don't want every house to be connected do a half dozen sewer lines run by different companies. A competitive system like that would never work.
+Contrary to popular wisdom, there are good reasons for monopolies. For example, sometimes you have a product that's extremely expensive and that you wouldn't want to create in duplicate. A classic example of this is the sewer line that connects to your house. This sewer line is almost always run by an organization that has a local monopoly for your city because putting in sewer lines is expensive, and because we don't want every house to be connected do a half dozen sewer lines run by different companies. A competitive system like that would never work.
 
 This is often the case for infrastructure that's expensive to set up, and PACER is like this in some respects. We could have multiple places were people uploaded their legal documents and where the public went to download them, but they'd each require a lot of upfront investment. Plus, if we set up multiple systems like that, we would lose the centralized system we currently have. These are probably good reasons to set up a limited monopoly, and Congress was probably right to do so when they passed the E-Government Act.
 
@@ -65,8 +63,11 @@ The E-Government Act created a monopoly for the distribution of Federal Court da
   
 We estimate that storing the entire PACER database could cost around $128,000/year, but [in 2015 PACER revenue was $145M][budget]. 
  
-Congress has an oversight role for the AO, but so far it hasn't acted to curb these costs and rein in PACER revenue. FOIA and Inspectors General can't help.
-  
+Congress has an oversight role for the AO, but so far it hasn't acted to curb these costs and rein in PACER revenue. FOIA and Inspectors General can't help. 
+
+In the end, we believe a solution to PACER's egregious fees will require cooperation of the public, Congress, journalists, and the courts themselves. We've [written extensively about the roles that each of these groups plays][todo] in fixing this problem, and we hope you'll learn more at that link and get involved in whatever capacity you can. At that link, we have guidance for the public, Congress, and members of the judiciary. 
+
+As it stands, PACER thwarts the ability of the press and the public to ensure the proper functioning of our democracy, and it cripples researchers who wish to study the federal courts. PACER has been this way almost since its inception,but it need not be this way forever.  
 
 
 [^1]: 9.1 pages per document &times; ten cents per page = $0.91 per document. $0.91 &times; 1B documents (as of 2014) = $910,000,000. Critics will point out that there's a $3 cap per document, so this average isn't quite right. Still, this number doesn't factor in the cost of the docket sheets or search results (the latter aren't subject to a $3 cap). On top of this, the corpus has undoubtedly grown since 2014. Can we agree that one billion dollars is the right ballpark?
@@ -106,10 +107,10 @@ Congress has an oversight role for the AO, but so far it hasn't acted to curb th
 
 [cost]: https://www.pacer.gov/psc/faq.html
 [recap]: {filename}/pages/recap.md
-[scotus-report]: https://www.supremecourt.gov/publicinfo/year-end/2014year-endreport.pdf
 [ia-wiki]: https://en.wikipedia.org/wiki/Internet_Archive
 [ia]: https://archive.org
 [suit]: http://arstechnica.com/tech-policy/2016/04/lawsuit-accuses-pacer-of-milking-the-public-for-cash-in-exchange-for-access/
 [budget]: https://www.gpo.gov/fdsys/pkg/BUDGET-2017-APP/pdf/BUDGET-2017-APP-1-4.pdf
 [s3]: https://aws.amazon.com/govcloud-us/pricing/s3/
 [egov]: https://www.congress.gov/bill/107th-congress/house-bill/02458
+[todo]: {filename}/what-should-be-done-about-the-pacer-problem.md
