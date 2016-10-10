@@ -27,49 +27,19 @@ address:
 
 **What is the "PACER problem"?**
 
-> **As a result of various problems with the PACER system, the average
+> As a result of various problems with the PACER system, the average
 > member of the public has no meaningful access to federal court
-> records. This is the "PACER Problem."**
+> records. This is the "PACER Problem."
 
 These "various problems" with the PACER system include:
 
-1.  **PACER fees are too high, especially in the case of surprise
-    charges for searches where the total charge for the search is not
-    known until after you have incurred the charge.** Using PACER's
-    search functionality is terrifying. You have no way of knowing what
-    you will be charged until after you have incurred the charge. In my
-    own experience, slight typos have cost me upwards of $50. Imagine
-    using Google and paying based on the number of results that Google
-    returns, where the number of results that might be returned are
-    completely unknown in advance. On the internet, you could use a
-    different search engine, but PACER is an absolute monopoly, so some
-    times you have no choice but to search and cross your fingers. A
-    system designed only for the wealthy, who have the luxury of having
-    no regard for what use of the system might cost them, is not a
-    *public* access system.
-2.  **The user interface is an inexplicable unusable disaster.** (See
-    our [video](https://www.youtube.com/watch?v=HA4Z9LEJSBw) for
-    numerous examples.)
-3.  **There is no document-level search.** Unlike modern search engines
-    that index documents and return responsive documents to queries,
-    PACER users can only search for a litigant's name or by using an
-    already-known case docket number. This makes the system utterly
-    unusable for general purpose research. You cannot search for a
-    general word or phrase, like "asylum" and hope to get back
-    responsive documents. Instead one must already know the case one is
-    looking for beforehand.
-4.  **There is no accountability.** The [courts recently took thousands
-    of documents
-    offline](/2014/08/28/the-importance-of-backups/)
-    and after a [public
-    outcry](/2014/08/27/free-law-project-joins-request-for-access-to-offline-pacer-documents/)
-    and [inquiring letters from members of
-    Congress](/2014/09/16/senator-leahy-wants-pacer-documents-back-online/),
-    the courts stated that they would put them all back online, but
-    because no one but the courts has unhindered access to the system,
-    no one can say what was taken offline and whether it was restored or
-    not. As things stand now, fact-checking the courts on this is simply
-    not possible.
+1.  **PACER fees are too high, especially in the case of surprise charges for searches where the total charge for the search is not known until after you have incurred the charge.** Using PACER's search functionality is terrifying. You have no way of knowing what you will be charged until after you have incurred the charge. In my own experience, slight typos have cost me upwards of $50. Imagine using Google and paying based on the number of results that Google returns, where the number of results that might be returned are completely unknown in advance. On the internet, you could use a different search engine, but PACER is an absolute monopoly, so some times you have no choice but to search and cross your fingers. A system designed only for the wealthy, who have the luxury of having no regard for what use of the system might cost them, is not a *public* access system.
+
+2.  **The user interface is an inexplicable unusable disaster.** (See our [video for numerous examples](https://www.youtube.com/watch?v=HA4Z9LEJSBw) .)
+
+3.  **There is no document-level search.** Unlike modern search engines that index documents and return responsive documents to queries, PACER users can only search for a litigant's name or by using an already-known case docket number. This makes the system utterly unusable for general purpose research. You cannot search for a general word or phrase, like "asylum" and hope to get back responsive documents. Instead one must already know the case one is looking for beforehand.
+
+4.  **There is no accountability.** The [courts recently took thousands of documents offline](/2014/08/28/the-importance-of-backups/) and after a [public outcry](/2014/08/27/free-law-project-joins-request-for-access-to-offline-pacer-documents/) and [inquiring letters from members of Congress](/2014/09/16/senator-leahy-wants-pacer-documents-back-online/), the courts stated that they would put them all back online, but because no one but the courts has unhindered access to the system, no one can say what was taken offline and whether it was restored or not. As things stand now, fact-checking the courts on this is simply not possible.
 
 So, again: **As a result of various problems with the PACER system, the
 average member of the public has no meaningful access to federal court
@@ -89,6 +59,3 @@ government.
 We will address in a subsequent post what should be done about the PACER
 problem, but here we simply want to say: The PACER Problem is a problem
 of consequence that cannot be permitted to stand.
-
---Brian
-

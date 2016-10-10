@@ -57,6 +57,3 @@ more progress faster.
 
 The only problem with these lists is that Fastcase CEO, Ed Walters,
 should be on there too. Thanks, Ed!
-
---Brian
-

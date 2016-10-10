@@ -88,6 +88,3 @@ intend to start tweeting there.
 
 See also, Steve Schultze's post at [Freedom to
 Tinker](https://freedom-to-tinker.com/blog/sjs/free-law-project-partnering-in-stewardship-of-recap/).
-
---Brian
-

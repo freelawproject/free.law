@@ -34,6 +34,3 @@ say we've got that fully covered, but in 24 months I think we'll look
 back and not only find it quaint that this was interesting in 2013, but
 also we'll mark this time as an important turning point, where the seed
 for that legal technology revolution was planted.
-
---Brian
-
