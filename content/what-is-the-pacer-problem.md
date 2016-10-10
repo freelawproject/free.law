@@ -25,7 +25,9 @@ address:
 -   [What Should be Done About the PACER
     Problem?](/2015/03/24/what-should-be-done-about-the-pacer-problem/)
 
-**What is the "PACER problem"?**
+### What is the "PACER problem"?
+
+We define the "PACER Problem" as:
 
 > As a result of various problems with the PACER system, the average
 > member of the public has no meaningful access to federal court

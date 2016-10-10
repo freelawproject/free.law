@@ -4,18 +4,30 @@ Author: mlissner
 Tags: PACER, transparency
 Status: draft
 
-As most readers of this blog know, PACER is a website run by the Administrative Office of the Courts (AO) that [hosts over a billion documents][b] from the Federal District and Circuit courts. The system was created in the nineties and was set up with a paywall so that you pay for every bit of data that you receive. For example, if you do a search, you pay by the number of search results returned. If you download one of the PDFs in PACER, you pay by the page. And if you look at a list of documents within a case (the "docket" for that case), you pay by the length of that docket.
+As most readers of this blog know, PACER is a system run by the Administrative Office of the Courts (AO) that [hosts over a billion documents][b] from the Federal District and Circuit courts. The system was created in the nineties and was set up with a paywall so that you pay for every bit of data that you receive. The idea of the fees, as established by the E-Government Act, is that the AO could use them to recoup the cost of running the PACER. 
+
+The size of the fees has varied over the years, but they've always gone up, and they've always been assessed roughly as follows:
+
+1. If you do a search, you pay by the number of search results returned. You don't know the price of a search in advance of placing it, sorry.
  
-The pricing of PDFs is pretty clear: 10 cents per page with a cap at three dollars. Got it. But the price of the dockets and of the search results is perplexing. Dockets and search results are also priced per page, but unlike a PDF, there are no *pages* per se --- These are webpages, not PDFs. So I began to wonder: What *is* a page of PACER data? When I get charged for a search result or for a docket, what exactly am I paying for? How are pages computed?
+1. If you download one of the PDFs in PACER, you pay by the page.
 
-To get to the bottom of this, I spent a little time talking with the folks who run PACER, and I present the results of those discussions below. But before I begin, I'll tell you the punchline: PACER is charging for content page by page, but they won't define what a page actually is. This gives them the capability to change how pages are computed in order to drive up their revenue. It makes them vulnerable to lawsuits, and indeed such a suit is progressing in the Court of Federal Claims.[^1] 
+1. If you look at a list of documents within a case (the "docket" for that case), you pay by the length of that docket.
+ 
+The pricing of PDFs is pretty clear: 10 cents per page with a cap at three dollars. Got it. But the price of the dockets and of the search results is perplexing. Dockets and search results are also priced per page, but unlike a PDF, there ***are no pages***---these are webpages, not PDFs. So I began to wonder: What *is* a page of PACER data? When I get charged for a search result or for a docket, what exactly am I paying for? How are pages calculated?
 
-We don't know if the underlying methods of pricing have ever changed and we probably never will, but with courts being strapped for cash, we do know that there's motivation to do so. The AO's unwillingness to discuss this topic is troubling, since it forms the core of their pricing. We hope that they will consider providing more details about this question.
+To get to the bottom of this, I spent a little time talking with the AO, and I present the results of those discussions below. But before I begin, I'll tell you the punchline: PACER is charging for content page by page, but they won't define how pages are actually measured. This gives them the capability to change how pages are computed in order to drive up their revenue. It makes them vulnerable to lawsuits, and indeed such a suit is progressing in the Court of Federal Claims.[^1] 
+
+We don't know if the underlying methods of pricing have ever changed and we probably never will, but with courts being strapped for cash, we do know that there's motivation to do so. The AO's unwillingness to discuss this topic is troubling since it forms the core of their pricing. We hope that they will consider providing more details about this question.
 
 
 ## Getting Towards an Answer
 
-My inquiry about this began with a phone call to the PACER service center, where I got the following answer: Dockets are charged based on the number of pages that would be printed if you sent them to your printer. This was clearly wrong, so I pushed back: "Does that mean that if I increase my font size, I have to pay more because it would print more pages?" This stumped the person on the phone, and I was told I should send an email with my question instead. Fair enough:
+My inquiry about this began with a phone call to the PACER service center, where I got the following answer (paraphrasing): 
+
+> Dockets are charged based on the number of pages that would be printed if you sent them to your printer. 
+
+This was clearly wrong, so I pushed back: "Does that mean that if I increase my font size, I have to pay more because it would print more pages?" This stumped the person on the phone, and I was told I should send an email with my question instead. Fair enough:
 
 > When I download a PDF, it's quite clear what a page is, but when I look at a docket or search results, it's not so clear. Is this based on the font size that I have in my browser? Is it based on the kilobytes of data that I download? Is it based on the number of characters in the HTML? I'm really trying to understand this, because it feels very arbitrary.
   
@@ -43,7 +55,7 @@ The answer:
 </div>
 <div class="clearfix"></div>
 
-Ah ha. This was the third answer I'd received, but it seemed like we were getting warmer. Pages are measured by the length of data they return. That sort of makes sense. But wait, how many bytes make up a page?
+Ah ha. This was the third answer I'd received, but it seemed like we were getting warmer. Bytes are a measurement of data, and so pages are measured by the amount of data they return. That sort of makes sense. But wait, how many bytes make up a page?
 
 
 <div class="left-image">
@@ -79,11 +91,11 @@ For those keeping track, we're now one phone call and three answers into this se
 
 Except:
 
-1. If you test a docket by downloading it and then measuring how big it is, nothing adds up to 4,320 bytes, so there's still no way to know where those bytes are coming from.
+1. If you test a docket by downloading it and then measuring how big it is, nothing adds up to 4,320 bytes, so there's still no way to know where those measurements are coming from.
 
 2. It took two PACER service center representatives three answers and maybe a dozen emails to arrive at this answer. 
 
-3. 4,320 bytes is perhaps the most arbitrary number imaginable (although "54 lines" is about as bad).
+3. 4,320 bytes is perhaps the most arbitrary number imaginable (although "54 lines" is about as bad). For reference, the text of this webpage is about twice that size and an MP3 is [about 800&times; as large][avg].
 
 I decided to set aside issues number two and three, and focus on the first issue: If we know that a "page" is now defined as 4,320 bytes, what is the thing that is being divided into "pages"? Is it the webpage? The text of the webpage? Something else?
  
@@ -99,7 +111,7 @@ The answer:
 
 This is getting into the weeds, but it feels like what she's saying is:
 
-1. We extract a lot of data from our database in an "original extraction file".
+1. We extract a lot of data from our database in an "original extraction file."
 
 2. We measure this data and bill you for it.
 
@@ -117,24 +129,30 @@ When I asked about this, the next response I got was from the Senior Attorney fo
 </div>
 <div class="clearfix"></div>
 
-This was a bit of a surprise, and I must confess that this is where the story goes cold. But we can learn a few things from these interactions. First, it's important to note that it took three answers before the AO could give me a vaguely correct answer to my basic question about their pricing. The first two answers were flat wrong. Second, the AO has no interest in being truly transparent about how their pricing works. Yes, we now know that 4,320 bytes is a "page", but we still don't know: Bytes of *what*? What *is* an "original extraction file"?
+This was a bit of a surprise, and I must confess that this is where the story goes cold. But we can learn a few things from these interactions. First, it's important to note that it took three answers before the AO could give me a vaguely correct answer to my basic question about their pricing. The first two answers were flat wrong. 
+
+Second, the AO has no interest in being fully transparent about how their pricing works. Yes, we now know that 4,320 bytes is a "page," but we still don't know: Bytes of *what*? What *is* an "original extraction file"?
  
-Third, we know that if you ask about this kind of thing persistently enough, you'll be routed to an attorney for an official response. At the time when I was researching this, I was shocked to hear from an attorney in response to a help desk question. Since then, it's come to make more sense. It turns out that towards the end of last year, there was a class action lawsuit filed against PACER alleging erroneous pricing for---you guessed it---generating dockets.[^1] While I won't opine on the merits of that case (and indeed I'm not a lawyer), it is possible that the AO had wind of that case and wanted to make sure they didn't make any legal missteps while emailing with me. The timeline isn't perfect---my inquiries were in November, and the case was filed in December---but if it wasn't related, it sure was prescient.
+Third, we know that if you ask about this kind of thing persistently enough, you'll be routed to an attorney for an official response. At the time when I was researching this, I was shocked to hear from an attorney in response to a help desk question. Since then, it's come to make more sense. It turns out that towards the end of last year, there was a class action lawsuit filed against the AO alleging erroneous pricing for---you guessed it---generating dockets.[^1] While I won't opine on the merits of that case (and indeed I'm not a lawyer), it is possible that the AO had wind of that case and wanted to make sure they didn't make any legal missteps while emailing with me. The timeline isn't perfect---my inquiries were in November, and the case was filed in December---but if it wasn't related, it sure was prescient.
 
 Going forward, we believe that the AO should consider a few changes:
 
 1. The AO should share more details about how their pricing works both internally, so their staff have the correct answers, and externally, so that the answers are easy to find by the public, not buried in a 28 page manual. Indeed, in their billing it could  say how much *data* you purchased in a month instead of how many *pages*.
 
-2. The AO should provide transparency about how "pages" are defined. We know that they're 4,320 bytes, but we still don't know what an "original extraction file" is. Providing technical details on this would provide clarity to their pricing and would make them less able to make technical changes in efforts to raise revenue. Criticism like this post would be largely addressed.
+2. The AO should provide transparency about how "pages" are defined. We know that they're 4,320 bytes, but we still don't know what an "original extraction file" is. Providing technical details on this would provide clarity to their pricing and would make the AO less able to make technical changes in efforts to raise revenue. Criticism like this post would be largely addressed.
 
 3. The AO should refrain from having lawyers answer help desk questions.
 
 We hope the AO will consider these changes, and that in the future their pricing will be more transparent.
 
 
-[b]: https://www.supremecourt.gov/publicinfo/year-end/2014year-endreport.pdf
+[^1]: Among [other failings][wrong], PACER doesn't provide permalinks, so for the moment, I can't provide a link to this information. What I can do is tell you to go to [the PACER website for the Court of Federal Claims][2]. From there you can look up case number: `1:15-cv-01575-TCW`. 
 
-[^1]: Among other failings, PACER doesn't provide permalinks, so for the moment, I can't provide a link to this information. What I can do is tell you to go to [the PACER website for the Court of Federal Claims][2]. From there you can look up case number: 1:15-cv-01575-TCW. Beware: There will be opaque fees.
-  
+    Beware: There will be opaque fees.
+
+
+[b]: https://www.supremecourt.gov/publicinfo/year-end/2014year-endreport.pdf 
 [2]: https://ecf.cofc.uscourts.gov/cgi-bin/ShowIndex.pl
 [numbers]: http://business.camden.rutgers.edu/files/Schindler-Yalch-2006.pdf
+[avg]: http://filecatalyst.com/todays-media-file-sizes-whats-average/
+[wrong]: {filename}/what-is-the-pacer-problem.md
