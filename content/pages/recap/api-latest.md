@@ -52,7 +52,7 @@ RECAP documents.
 
 It's important to understand this archicture as we discuss the
 functionality and limitations of this API. The below diagram shows these
-actors during typlical usage.
+actors during typical usage.
 
 [
 ![RECAP Architecture
@@ -91,7 +91,7 @@ the millions of items that are uploaded to the Internet Archive. This
 means that we are unable to add API features like document search,
 although this is an area we are exploring.
 
-A final limiation is that our system does not currently support
+A final limitation is that our system does not currently support
 so-called minute orders, although this is also an area that has been
 sponsored and will soon be fixed. For more details, see the [ticket in
 our issue
@@ -111,12 +111,12 @@ pattern.
 ### Dates and Times {#datetimes}
 
 All dates and times are in UTC. Dates are currently formatted in
-`mm/dd/yy`, but we plan to change this to ISO-8601 when time allows.
+`mm/dd/yy`, but we plan to change this to ISO-8601 in the next version of the API.
 
 ### Code and Development {#code}
 
 All elements of RECAP are developed by Free Law Project and others in a
-transparent manner. Implicit in that promise is the online availablity
+transparent manner. Implicit in that promise is the online availability
 of the code for all of our projects:
 
 -   [RECAP Server](https://github.com/freelawproject/recap-server)
@@ -159,8 +159,8 @@ server or if you need it to be enabled.
 
 ### Official Artwork {#art}
 
-Official artwork is available [on the Free Law Project
-website]({filename}/pages/assets.md).
+Official artwork is available [on the Free Law Project website]({filename}/pages/assets.md). You are welcome to use our logos if you are an official partner.
+
 
 Querying Items
 --------------
