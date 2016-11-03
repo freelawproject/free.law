@@ -1,22 +1,21 @@
 Title: What is a "Page" of PACER Content
-Date: 2016-10-03
+Date: 2016-11-03
 Author: mlissner
 Tags: PACER, transparency
-Status: draft
 
-As most readers of this blog know, PACER is a system run by the Administrative Office of the Courts (AO) that [hosts over a billion documents][b] from the Federal District and Circuit courts. The system was created in the nineties and was set up with a paywall so that you pay for every bit of data that you receive. The idea of the fees, as established by the E-Government Act, is that the AO could use them to recoup the cost of running the PACER. 
+As most readers of this blog know, PACER is a system run by the Administrative Office of the Courts (AO) that [hosts over a billion documents][b] from the Federal District and Circuit courts. The system was created in the nineties and was set up with a paywall so that you pay for every "page" of data that you receive. The idea of the fees, as established by the E-Government Act, is that the AO could use them to recoup the cost of running the PACER, but the pricing of the content has always been a bit odd. In my last post I talked about how these fees [result in an outrageous cost for PACER data][billion]. In this post, I do a deep dive into the core unit of PACER's pricing and attempt to answer the question, what ***is*** a "page" of PACER data? 
 
-The size of the fees has varied over the years, but they've always gone up, and they've always been assessed roughly as follows:
+The size of PACER's fees has varied over the years, but they've always gone up, and they've always been assessed roughly as follows:
 
-1. If you do a search, you pay by the number of search results returned. You don't know the price of a search in advance of placing it, sorry.
+1. If you download a PDF from PACER, you pay by the page.
+
+1. If you do a search, you pay by the number of search results returned. Because you don't know how many results a query will return, you don't know the price of a search in advance of placing it and being charged for it.
  
-1. If you download one of the PDFs in PACER, you pay by the page.
-
-1. If you look at a list of documents within a case (the "docket" for that case), you pay by the length of that docket.
+1. If you look at a list of documents within a case (the "docket" for that case), you pay by the number of "pages" of that docket.
  
-The pricing of PDFs is pretty clear: 10 cents per page with a cap at three dollars. Got it. But the price of the dockets and of the search results is perplexing. Dockets and search results are also priced per page, but unlike a PDF, there ***are no pages***---these are webpages, not PDFs. So I began to wonder: What *is* a page of PACER data? When I get charged for a search result or for a docket, what exactly am I paying for? How are pages calculated?
+The pricing of PDFs is pretty clear: 10 cents per page with a cap at three dollars. Got it. But the price of the dockets and of the search results is perplexing. Dockets and search results are also priced per page, but unlike a PDF, there ***are no pages***---these are webpages, not PDFs. So the question is, when I get charged for a search result or for a docket, what exactly am I paying for? How are "pages" calculated? What *is* a "page" of PACER data? 
 
-To get to the bottom of this, I spent a little time talking with the AO, and I present the results of those discussions below. But before I begin, I'll tell you the punchline: PACER is charging for content page by page, but they won't define how pages are actually measured. This gives them the capability to change how pages are computed in order to drive up their revenue. It makes them vulnerable to lawsuits, and indeed such a suit is progressing in the Court of Federal Claims.[^1] 
+To get to the bottom of this, I spent some time talking with the AO, and I present the results of those discussions below. But before I begin, I'll tell you the punchline: PACER is charging for content page by page, but they won't define how pages are actually measured. This gives them the capability to change how pages are computed in order to drive up their revenue. It makes them vulnerable to lawsuits, and indeed such a suit is progressing in the Court of Federal Claims.[^1] 
 
 We don't know if the underlying methods of pricing have ever changed and we probably never will, but with courts being strapped for cash, we do know that there's motivation to do so. The AO's unwillingness to discuss this topic is troubling since it forms the core of their pricing. We hope that they will consider providing more details about this question.
 
@@ -76,7 +75,7 @@ The shocking response:
 </div>
 <div class="clearfix"></div>
 
-I could not imagine that PACER doesn't know how big a page is, so I pushed again and got closer to a real answer:
+I could not imagine that PACER doesn't know how big a "page" is, so I pushed again and got closer to a real answer:
 
 <div class="left-image">
     <blockquote>
@@ -117,7 +116,7 @@ This is getting into the weeds, but it feels like what she's saying is:
 
 3. We send you a subset of that data in the form of a docket.
 
-Since at this point they still hadn't explained how a page was created, and since this opaque process was at the heart of the revenue model for PACER, I decided to send one more email asking about the technical details for generating the "original extraction file." Since we don't know  how these files are generated, it's possible that the AO could tweak this method and thereby raise PACER revenue.
+Since at this point the AO still hadn't explained how a page was created, and since this opaque process was at the heart of the revenue model for PACER, I decided to send one more email asking about the technical details for generating the "original extraction file." Since we don't know  how these files are generated, it's possible that the AO could (accidentally or deliberately) tweak this method and thereby change PACER revenue.
 
 When I asked about this, the next response I got was from the Senior Attorney for the Administrative Office of the Courts:
 
@@ -129,11 +128,11 @@ When I asked about this, the next response I got was from the Senior Attorney fo
 </div>
 <div class="clearfix"></div>
 
-This was a bit of a surprise, and I must confess that this is where the story goes cold. But we can learn a few things from these interactions. First, it's important to note that it took three answers before the AO could give me a vaguely correct answer to my basic question about their pricing. The first two answers were flat wrong. 
+This was a bit of a surprise, and I must confess that this is where the story goes cold. But we can learn a few things from these interactions. First, it's important to note that it took three answers before the AO could give me a vaguely correct answer to my basic question about pricing. The first two answers were flat wrong. 
 
-Second, the AO has no interest in being fully transparent about how their pricing works. Yes, we now know that 4,320 bytes is a "page," but we still don't know: Bytes of *what*? What *is* an "original extraction file"?
+Second, the AO has no interest in being fully transparent about how their pricing works. Yes, we now know that 4,320 bytes is a "page," but we still don't know: Bytes of *what*? What *is* an "original extraction file"? (This [isn't][goog] some kind of technical term.)
  
-Third, we know that if you ask about this kind of thing persistently enough, you'll be routed to an attorney for an official response. At the time when I was researching this, I was shocked to hear from an attorney in response to a help desk question. Since then, it's come to make more sense. It turns out that towards the end of last year, there was a class action lawsuit filed against the AO alleging erroneous pricing for---you guessed it---generating dockets.[^1] While I won't opine on the merits of that case (and indeed I'm not a lawyer), it is possible that the AO had wind of that case and wanted to make sure they didn't make any legal missteps while emailing with me. The timeline isn't perfect---my inquiries were in November, and the case was filed in December---but if it wasn't related, it sure was prescient.
+Third, we know that if you ask about this kind of thing persistently enough, you'll be routed to an attorney. At the time when I was researching this, I was shocked to hear from an attorney in response to a help desk question, but since then, it's come to make more sense. It turns out that towards the end of last year, there was a class action lawsuit filed against the AO alleging erroneous pricing for---you guessed it---generating dockets.[^1] While I won't opine on the merits of that case (and indeed I'm not a lawyer), it is possible that the AO had wind of that case and wanted to make sure they didn't make any legal missteps while emailing with me. The timeline isn't perfect---my inquiries were in November, and the case was filed in December---but if it wasn't related, it sure was prescient.
 
 Going forward, we believe that the AO should consider a few changes:
 
@@ -156,3 +155,5 @@ We hope the AO will consider these changes, and that in the future their pricing
 [numbers]: http://business.camden.rutgers.edu/files/Schindler-Yalch-2006.pdf
 [avg]: http://filecatalyst.com/todays-media-file-sizes-whats-average/
 [wrong]: {filename}/what-is-the-pacer-problem.md
+[billion]: {filename}/pacer-billion-documents.md
+[goog]: https://www.google.com/search?q=%22original+extraction+file%22&ie=utf-8&oe=utf-8
