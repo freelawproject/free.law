@@ -1,7 +1,7 @@
 Title: RECAP Media Recap
 Date: 2009-11-18 17:32
 Author: recapthelaw
-Category: Announcements
+Tags: RECAP, Press
 Slug: recap-media-recap
 Status: published
 

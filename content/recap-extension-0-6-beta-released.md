@@ -1,7 +1,7 @@
 Title: RECAP Extension 0.6 Beta Released
 Date: 2010-01-21 16:41
 Author: recapthelaw
-Category: Announcements
+Tags: announcements, recap
 Slug: recap-extension-0-6-beta-released
 Status: published
 

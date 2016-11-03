@@ -1,7 +1,7 @@
 Title: Schultze and Lee on RECAP at NYLS
 Date: 2011-03-17 12:44
 Author: recapthelaw
-Category: Announcements
+Tags: RECAP, Presentations
 Slug: schultze-and-lee-on-recap-at-nyls
 Status: published
 

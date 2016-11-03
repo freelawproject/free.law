@@ -1,7 +1,7 @@
 Title: More RECAP Events
 Date: 2010-06-16 18:15
 Author: recapthelaw
-Category: Announcements
+Tags: Presentations, Events
 Slug: more-recap-events
 Status: published
 

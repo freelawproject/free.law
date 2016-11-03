@@ -1,7 +1,7 @@
 Title: Google Project Shows Value of Open Judicial Records
 Date: 2009-11-20 16:44
 Author: recapthelaw
-Category: Announcements
+Tags: Google Scholar
 Slug: google-project-shows-value-of-open-judicial-records
 Status: published
 

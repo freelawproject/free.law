@@ -1,7 +1,7 @@
 Title: The Blogosphere Weighs in on RECAP
 Date: 2009-08-14 13:34
 Author: recapthelaw
-Category: Announcements
+Tags: RECAP, Press
 Slug: the-blogosphere-weighs-in-on-recap
 Status: published
 

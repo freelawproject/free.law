@@ -1,7 +1,7 @@
 Title: $10,000 in Further Awards for RECAP Projects
 Date: 2013-02-03 17:05
 Author: citp
-Category: Announcements
+Tags: Announcements, RECAP, Awards, Aaron Swartz
 Slug: 10000-in-further-awards-for-recap-projects
 Status: published
 

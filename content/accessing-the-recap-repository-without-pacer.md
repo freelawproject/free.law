@@ -1,7 +1,7 @@
 Title: Accessing the RECAP Repository without PACER
 Date: 2009-08-18 11:43
 Author: recapthelaw
-Category: Announcements
+Tags: Announcements, RECAP, archive.org, privacy
 Slug: accessing-the-recap-repository-without-pacer
 Status: published
 

@@ -1,7 +1,7 @@
 Title: RECAP Firefox Search Plugin
 Date: 2010-09-02 22:48
 Author: recapthelaw
-Category: Announcements
+Tags: RECAP, Extensions
 Slug: recap-firefox-search-plugin
 Status: published
 

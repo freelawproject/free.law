@@ -1,7 +1,7 @@
 Title: RECAP in the Los Angeles Times and Elsewhere
 Date: 2009-09-30 10:16
 Author: recapthelaw
-Category: Announcements
+Tags: RECAP, Press
 Slug: recap-in-the-los-angeles-times-and-elsewhere
 Status: published
 

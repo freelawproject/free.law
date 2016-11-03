@@ -1,7 +1,7 @@
 Title: ABA Webinar: Public Access to Court Records - Protecting Personal Sensitive Information
 Date: 2011-03-30 13:57
 Author: recapthelaw
-Category: Announcements
+Tags: Announcements, presentations
 Slug: aba-webinar-public-access-to-court-records-protecting-personal-sensitive-information
 Status: published
 

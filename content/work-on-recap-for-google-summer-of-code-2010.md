@@ -1,7 +1,7 @@
 Title: Work on RECAP for Google Summer of Code 2010
 Date: 2010-03-26 15:51
 Author: recapthelaw
-Category: Announcements
+Tags: Google, Google Summer of Code, RECAP
 Slug: work-on-recap-for-google-summer-of-code-2010
 Status: published
 

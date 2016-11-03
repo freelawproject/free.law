@@ -1,7 +1,7 @@
 Title: RECAP in Minnesota Lawyer
 Date: 2009-11-09 17:16
 Author: recapthelaw
-Category: Announcements
+Tags: RECAP, Press
 Slug: recap-in-minnesota-lawyer
 Status: published
 

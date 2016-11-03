@@ -1,7 +1,7 @@
 Title: Announcing the Aaron Swartz Memorial Grants
 Date: 2013-01-20 14:23
 Author: recapthelaw
-Category: Announcements
+Tags: Announcements, Aaron Swartz, Awards
 Slug: announcing-the-aaron-swartz-memorial-grants
 Status: published
 

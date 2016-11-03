@@ -1,7 +1,7 @@
 Title: RECAP's Steve Schultze at the Gov 2.0 Expo
 Date: 2009-09-08 10:15
 Author: recapthelaw
-Category: Announcements
+Tags: RECAP, Presentations
 Slug: recaps-steve-schultze-at-the-gov-2-0-expo
 Status: published
 

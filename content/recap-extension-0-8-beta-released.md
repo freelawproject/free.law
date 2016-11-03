@@ -1,7 +1,7 @@
 Title: RECAP Extension 0.8 Beta Released
 Date: 2010-10-06 08:12
 Author: recapthelaw
-Category: Announcements
+Tags: RECAP
 Slug: recap-extension-0-8-beta-released
 Status: published
 

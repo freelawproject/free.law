@@ -1,7 +1,7 @@
 Title: RECAP, The Press, and Judicial Transparency
 Date: 2010-04-30 13:08
 Author: recapthelaw
-Category: Announcements
+Tags: RECAP, Press, Transparency
 Slug: recap-the-press-and-judicial-transparency
 Status: published
 

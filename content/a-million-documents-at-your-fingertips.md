@@ -1,7 +1,7 @@
 Title: A Million Documents At Your Fingertips
 Date: 2009-08-14 10:13
 Author: recapthelaw
-Category: Announcements
+Tags: Announcements, RECAP, bulk data,
 Slug: a-million-documents-at-your-fingertips
 Status: published
 

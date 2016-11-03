@@ -1,7 +1,7 @@
 Title: RECAP in the Wall Street Journal
 Date: 2009-08-21 08:51
 Author: recapthelaw
-Category: Announcements
+Tags: RECAP, Press
 Slug: recap-in-the-wall-street-journal
 Status: published
 
