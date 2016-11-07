@@ -19,7 +19,7 @@ non-lawyers to navigate, and it has a "paywall" that requires users to
 pay significant fees for the documents they download from PACER.
 
 #### What does RECAP do?
-RECAP is an extension (or "add on") for the Firefox web browser that
+RECAP is an extension for Firefox or Chrome that
 improves the PACER experience while helping PACER users build a free and
 open repository of public court records. RECAP users automatically
 donate the documents they purchase from PACER into a public repository
@@ -39,7 +39,7 @@ We've [built an experimental
 interface]({filename}/new-search-and-browsing-interface-for-the-recap-archive.md)
 to browse the RECAP archive. You can access it by clicking the 'Archive'
 link at the top of the page, or by visiting
-<http://archive.recapthelaw.org/>. Not all information contained within
+<https://www.courtlistener.com/recap/>. Not all information contained within
 the archive is searchable. We are being very conservative about what is
 browseable/searchable because of [ongoing privacy
 concerns](http://public.resource.org/uscourts.gov/) related to attorneys
@@ -148,9 +148,7 @@ documents for certain personal identification information (including
 Social Security numbers) before they are uploaded to the Internet
 Archive. Any document in which we detect such information is
 automatically suppressed. In addition, we rely on you to report privacy
-problems by [emailing us][c] or clicking on
-the link requesting that a document be hidden from search engines, which
-is on the right side of archive.recapthelaw.org pages.
+problems by [emailing us][c].
 
 For the second situation, RECAP’s general policy is to suppress a
 document when we become aware that it has been sealed by a court. If you

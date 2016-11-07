@@ -10,7 +10,7 @@ is made accessible in a free and open format, people will find useful
 new ways to search and process that data. We have heard from many folks
 looking to do interesting things with the documents archived by RECAP,
 and last year a group of students built the searchable web-based [RECAP
-Archive](http://archive.recapthelaw.org/). Today, Brian Carver shared a
+Archive](https://www.courtlistener.com/recap/). Today, Brian Carver shared a
 simple tool he built on top of that -- a [Firefox RECAP search
 plugin](http://mycroft.mozdev.org/search-engines.html?name=recapthelaw.org).
 You know that little search box in the top-right corner of Firefox? If

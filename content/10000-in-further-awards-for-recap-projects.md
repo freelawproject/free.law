@@ -25,7 +25,7 @@ prompting the user to liberate up to their free quarterly $15
 allocation as the end of the quarter approaches (inspired by [Operation
 Asymptote](http://www.plainsite.org/asymptote/index.html)). Someone
 might propose to improve the
-[archive.recapthelaw.org](http://archive.recapthelaw.org) interface, and
+[https://www.courtlistener.com/recap/](https://www.courtlistener.com/recap/) interface, and
 to improve detection and removal of private information. Someone might
 propose some other idea that we haven't thought of. You may wish to
 [watch the discussion of a few of these initial

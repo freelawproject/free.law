@@ -205,6 +205,8 @@ law would be much improved if all of PACER’s records were available
 within the RECAP Archive. But it’s unlikely that the Courts will
 voluntarily drop the PACER paywall any time soon.
 
+(***Update, 2016-11-04***: archive.recapthelaw.org has been replaced with a new version at <https://www.courtlistener.com/recap/>.)
+
 As with many issues, it all comes down to the money. In the E-Government
 Act of 2002, Congress authorized the Courts to prescribe reasonable fees
 for PACER access, but “only to the extent necessary” to provide the
