@@ -7,7 +7,7 @@ Status: Draft
 
 PACER is the system that the public and various organizations use to access electronic records in the federal district and appeals courts. When PACER is used, it charges for certain activities, like downloading a PDF or making a search query. Raising funds this way was authorized by congress in the E-Government Act to the extent that the revenue paid for running PACER. 
 
-In the beginning the revenue from these charges was fairly modest, but the revenue has risen for many years, culminating in revenue of $145M in [2015]({filename}/pdfs/judicial-budgets/BUDGET-2015-APP-1-4.pdf) (the last year that's available). 
+In the beginning the revenue from these charges was fairly modest, but the revenue has risen for many years, culminating in revenue of $145M in [2015]({filename}/pdf/judicial-budgets/BUDGET-2015-APP-1-4.pdf) (the last year that's available). 
 
 This chart shows the trends in PACER revenue since 1995:
 
