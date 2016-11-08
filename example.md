@@ -30,7 +30,6 @@ Centered:
 <div class="text-center">
     <img src="{filename}/images/recap_r-150x150.png"
              alt="RECAP Logo"/>
-    </a>
 </div>
 
 
