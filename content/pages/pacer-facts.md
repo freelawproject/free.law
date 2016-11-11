@@ -49,6 +49,10 @@ The second source an article ([webpage][journal-web]/[pdf][journal-pdf]) in the 
 
 
 
+### Has there ever been an effort to transfer PACER records to the National Archives?
+ 
+[It seems so][nara], but to our knowledge nothing has ever been transferred. More investigation is likely needed on this topic.
+
 [c]: {filename}/pages/contact.md
 [api-docs]: {filename}/pdf/PACER-API-Documentation.pdf
 [billion]: {filename}/pacer-billion-documents.md
@@ -62,3 +66,4 @@ The second source an article ([webpage][journal-web]/[pdf][journal-pdf]) in the 
 [journal-web]: http://www.iacajournal.org/articles/abstract/10.18352/ijca.179/
 [bank]: https://www.pacer.gov/documents/case_upload_specs_5_1_1.pdf
 [xml]: https://www.pacer.gov/documents/pacer_xml_apv3.1.pdf
+[nara]: {filename}/pdf/N1-021-10-2.pdf
