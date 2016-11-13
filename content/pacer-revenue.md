@@ -1,8 +1,7 @@
 Title: How Much Money Does PACER Make?
 Author: mlissner
-Date: 2016-11-08
+Date: 2016-11-14
 Tags: pacer, revenue, numbers
-Status: Draft
 
 
 PACER is the system that the public and various organizations use to access electronic records in the federal district and appeals courts. When PACER is used, it charges for certain activities, like downloading a PDF or making a search query. Raising funds this way was authorized by congress in the E-Government Act to the extent that the revenue paid for running PACER. 
@@ -18,7 +17,7 @@ This chart shows the trends in PACER revenue since 1995:
 
 In total, that's $1.2B that PACER has brought in over 21 years, with an average revenue of $60.7M per year.[^1] These are remarkable numbers and they point to one of two conclusions. Either PACER is creating a surplus --- which is illegal according to the E-Government Act --- or PACER is costing $60M/year to run. 
 
-Whichever the case, it's clear that something has gone terribly wrong. If the justice system is turning a profit selling public domain legal documents through its public access system, that's wrong. If the judicial branch needs $60/year to run a basic website, that's gross waste, and that's wrong too. 
+Whichever the case, it's clear that something has gone terribly wrong. If the justice system is turning a profit selling public domain legal documents through its public access system, that's wrong. If the judicial branch needs $60M/year to run a basic website, that's gross waste, and that's wrong too. 
 
 Something needs to be done to rein in PACER, and again we ask that public citizens, Congress, journalists, and the courts [work to develop a solution][what-to-do]. 
 
