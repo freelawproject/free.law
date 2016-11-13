@@ -17,9 +17,16 @@ Using this system, you can easily see the sources of money that a judge received
 
 For example, on the page for [Judge Tom Parker][tp], there is a new section that looks like this:
 
-[![Example Screenshot]({filename}/images/ftm-integration.png)][tp]
+<div class="left-image">
+    <a href="https://www.courtlistener.com/person/3652/tom-parker/">
+        <img src="{filename}/images/ftm-integration.png"
+             alt="Example screenshot"
+             class="img-responsive border">
+    </a>
+    <p class="caption">Tom Parker has raised approximately $2.1M dollars.</p> 
+</div>
+<div class="clearfix"></div>
 
-*Tom Parker has raised approximately $2.1M dollars.*
 
 To our knowledge, it has never previously been possible to research the decisions written by a judge side by side with the money they've received. We invite researchers and journalists to use this information to uncover interesting biases that may have previously been less transparent. Other correlations can also be easily investigated. For example, a few quick queries of the data indicate that male judges appear to raise about $60,000 more than female judges.[^1]
 

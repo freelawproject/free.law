@@ -5,7 +5,15 @@ Tags: judge database, announcements, linkages, courtlistener
 
 When we launched our [judicial database][jdb], we shared our plan to show the cases written by each judge. As of today, we're pleased to share that we've launched the first iteration of that endeavor. If you pull up any judge, say, [Sonia Sotomayor][ss], you'll see a new section at the bottom that looks like this:
 
-[![Sotomayor's top opinions]({filename}/images/sotomayor-authorship.png)][ss]
+<div class="left-image">
+    <a href="https://www.courtlistener.com/person/3045/sonia-sotomayor/#authored-opinions">
+        <img src="{filename}/images/sotomayor-authorship.png"
+             alt="Sotomayor's top opinions"
+             class="img-responsive border">
+    </a>
+</div>
+<div class="clearfix"></div>
+
 
 This listing provides the five most important opinions by the judge, and you can click the button at the bottom to see all of the cases they wrote or participated in. Clicking the button takes you to our search results, where you can slice and dice the data, choosing, for example, to see only [their opinions from the Second Circuit][s2d], or [their Supreme Court Cases][sscotus].
 

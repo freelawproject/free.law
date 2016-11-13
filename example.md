@@ -17,7 +17,7 @@ Floated left or right:
     <a href="http://google.com">
         <img src="{filename}/images/recap/citp-logo.png"
              alt="CITP Logo"
-             class="img-responsive">
+             class="img-responsive border">
     </a>
     <p class="caption">Center for Information Technology Policy at Princeton University is a partner in our work.</p>
 </div>
@@ -29,7 +29,8 @@ Centered:
 
 <div class="text-center">
     <img src="{filename}/images/recap_r-150x150.png"
-             alt="RECAP Logo"/>
+         alt="RECAP Logo"
+         class="img-responsive border"/>
 </div>
 
 

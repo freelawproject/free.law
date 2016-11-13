@@ -56,6 +56,11 @@ code {
     margin: 0 0 10px 15px;
 }
 
+img.border {
+    border: solid 1px gray;
+    box-shadow: 3px 3px 3px darkgray;
+}
+
 p.caption {
     display: table-caption;
     caption-side: bottom;

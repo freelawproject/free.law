@@ -10,7 +10,8 @@ The big problem with this goal? We have about a million PDFs that consist only o
  
 <div class="left-image">
     <img src="{filename}/images/handwritten-motion.png"
-         alt="Handwritten Motion"/>
+         alt="Handwritten Motion"
+         class="border"/>
      <p class="caption">A beautiful handwritten motion. It goes on like this for 46 pages.</p>
 </div>
 <div class="clearfix"></div>
@@ -20,7 +21,8 @@ But others are hideous:
 
 <div class="left-image">
     <img src="{filename}/images/horrid-ocr.png"
-             alt="Log from 1957"/>
+         alt="Log from 1957"
+         class="border"/>
      <p class="caption">An 84 page log from 1957. It's come a long ways just to appear on this blog today.</p>
 </div>
 <div class="clearfix"></div>
@@ -32,7 +34,8 @@ About a month ago we started working on this using two very powerful computers, 
 
 <div class="left-image">
     <img src="{filename}/images/htop-ocr.png"
-             alt="A system manager showing lots of cores fully pegged."/>
+         alt="A system manager showing lots of cores fully pegged."
+         class="border"/>
      <p class="caption">This shows 24 CPUs each at 100% utilization.</p>
 </div>
 <div class="clearfix"></div>

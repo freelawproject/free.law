@@ -30,8 +30,8 @@ To address the confusion that is caused by so many jurisdictions (a *good* probl
 
 <div class="text-center">
     <img src="{filename}/images/termination-dates.png"
-             alt="Jurisdiction picker with termination dates"/>
-    </a>
+         alt="Jurisdiction picker with termination dates"
+         class="border"/>
 </div>
 
 Hopefully the addition of these new jurisdictions will make your research more complete, and separating out the terminated jurisdictions will make it more efficient. These changes will be coming to CourtListener in the next couple of weeks.

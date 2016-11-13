@@ -7,7 +7,7 @@ Slug: judicial-seals
 <div class="right-image">
     <img src="{filename}/images/scotus.png"
          alt="Seal of the Supreme Court"
-         class="img-responsive">
+         class="img-responsive border">
     <p class="caption">The seal of the Supreme Court of the United States</p>
 </div>
 

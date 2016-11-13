@@ -8,7 +8,7 @@ Date: 2016-04-19
     <a href="{filename}/images/taft.png">
         <img src="{filename}/images/taft-thumb.png"
              alt="A screenshot of President, Judge Taft"
-             class="img-responsive"/>
+             class="img-responsive border"/>
     </a>
     <p class="caption">President Taft's Biography Page</p>
 </div>

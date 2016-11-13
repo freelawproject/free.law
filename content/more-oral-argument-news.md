@@ -9,7 +9,7 @@ Status: published
     <img src="{filename}/images/stitcher_400x400.jpg"
          alt="Stitcher Logo"
          width="200"
-         class="img-responsive"/>
+         class="img-responsive border"/>
      <p class="caption">Stitcher Logo</p>
 </div>
 

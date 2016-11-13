@@ -10,7 +10,7 @@ The big new feature in this version is the addition of a new navigation bar at t
 <div class="left-image">
     <img src="{filename}/images/navbar.png"
          alt="New Navigation Bar"
-         class="img-responsive">
+         class="img-responsive border">
     <p class="caption">The new navigation bar on every page.</p>
 </div>
 <div class="clearfix"></div>
@@ -22,7 +22,7 @@ The other big feature in this version is new advanced search pages for opinions,
 <div class="left-image">
     <img src="{filename}/images/adv-search-judges.png"
          alt="Screenshot of the Judge Advanced Search page"
-         class="img-responsive">
+         class="img-responsive border">
     <p class="caption">The new judicial advanced search page.</p>
 </div>
 <div class="clearfix"></div>
@@ -37,7 +37,7 @@ This kind of work doesn't sound like much, but we dug out an old screenshot of t
 <div class="left-image">
     <img src="{filename}/images/cl-2010.png"
          alt="Screenshot of CourtListenter from 2010"
-         class="img-responsive">
+         class="img-responsive border">
     <p class="caption">CourtListener.com <a href="https://web.archive.org/web/20100328140211/http://courtlistener.com/">circa 2010</a> -- in the Beta days.</p>
 </div>
 <div class="clearfix"></div>

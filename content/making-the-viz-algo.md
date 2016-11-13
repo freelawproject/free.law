@@ -7,7 +7,7 @@ Tags: design, visualization, algorithms
     <a href="{filename}/images/viz-design/with-case-names.jpg">
         <img src="{filename}/images/viz-design/with-case-names-thumb.jpg"
              alt="A design sketch with case names"
-             class="img-responsive"/>
+             class="img-responsive border"/>
     </a>
     <p class="caption">A sketch showing links between cases (click for enlarged view)</p>
 </div>
@@ -63,7 +63,7 @@ That wouldn't do.
     <a href="{filename}/images/viz-design/networks.jpg">
         <img src="{filename}/images/viz-design/networks-thumb.jpg"
              alt="Design sketches of networks"
-             class="img-responsive">
+             class="img-responsive border"/>
     </a>
     <p class="caption">Sketches of networks (click for enlarged view)</p>
 </div>
@@ -109,7 +109,7 @@ With computers, there are really only a few ways to make something faster:
     <a href="{filename}/images/viz-design/tulip.jpg">
         <img src="{filename}/images/viz-design/tulip-thumb.jpg"
              alt="A tulip-shaped sketch"
-             class="img-responsive"/>
+             class="img-responsive border"/>
     </a>
     <p class="caption">A tulip-shaped sketch (click for enlarged view)</p>
 </div>
@@ -197,7 +197,7 @@ For this reason, we must keep track of the shortest route from the starting node
     <a href="{filename}/images/viz-design/tendrils.jpg">
         <img src="{filename}/images/viz-design/tendrils-thumb.jpg"
              alt="A sketch of networks with tendrils"
-             class="img-responsive">
+             class="img-responsive border"/>
     </a>
     <p class="caption">A sketch of networks with tendrils (click for enlarged view)</p>
 </div>
