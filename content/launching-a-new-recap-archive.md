@@ -19,7 +19,7 @@ The search capabilities of this new system empower researchers in new ways. For 
  
  - It is now straightforward to search for certain types of documents within our archive of PACER documents. This makes it easy to find examples of [motions to dismiss][mtd], [summary judgements][sj], or any other type of document. 
  
- - Researchers can filter by nature of suit, case name, jurisdiction, cause, or one of a number of other fields. Ever wish you could look for examples of certain kinds of documents in your jurisdiction or topic area? Now you can.
+ - Researchers can filter by [nature of suit, case name, jurisdiction, cause, or one of a number of other fields][adv]. Ever wish you could look for examples of certain kinds of documents in your jurisdiction or topic area? Now you can.
  
  - It is now possible to do full-text search within all the documents in a case that are in the [RECAP Archive][ra]. This feature is particularly powerful in large cases containing thousands of documents. 
   
@@ -73,3 +73,4 @@ We believe that this new search tool and the roadmap presented above will bring 
 [donate]: https://www.courtlistener.com/donate/
 [recap]: {filename}/pages/recap.md
 [c]: {filename}/pages/contact.md
+[adv]: https://www.courtlistener.com/search/advanced-techniques/
