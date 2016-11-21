@@ -5,33 +5,22 @@ Tags: Agitation, Courts, PACER, Policy
 Slug: what-is-the-pacer-problem
 Status: published
 
-In January of 2015, Carl Malamud of
-[Public.Resource.Org](https://public.resource.org) posted a
-[memorandum](https://yo.yourhonor.org/) detailing problems with the
-federal [PACER](https://www.pacer.gov/) system that is supposed to
-provide Public Access to Court Electronic Records and outlining a
-three-pronged approach for addressing these problems this year.
+In January of 2015, Carl Malamud of [Public.Resource.Org](https://public.resource.org) posted a [memorandum](https://yo.yourhonor.org/) detailing problems with the federal [PACER](https://www.pacer.gov/) system that is supposed to provide Public Access to Court Electronic Records and outlining a three-pronged approach for addressing these problems this year.
 
-More detail is available in the memorandum or in the video we made last
-fall, "[Using PACER: What Could Possibly Go
-Wrong?]({filename}/using-pacer-vid.md)"
+More detail is available in the memorandum or in the video we made last fall, "[Using PACER: What Could Possibly Go Wrong?]({filename}/using-pacer-vid.md)"
 
-However, this is the first of three shorter posts where we will try to
-address:
+However, this is the first of three shorter posts where we will try to address:
 
 -   What is the "PACER Problem"?
--   [Why Should Congress Care About
-    PACER?](/2015/03/23/why-should-congress-care-about-pacer/)
--   [What Should be Done About the PACER
-    Problem?](/2015/03/24/what-should-be-done-about-the-pacer-problem/)
+-   [Why Should Congress Care About PACER?](/2015/03/23/why-should-congress-care-about-pacer/)
+-   [What Should be Done About the PACER Problem?](/2015/03/24/what-should-be-done-about-the-pacer-problem/)
+
 
 ### What is the "PACER problem"?
 
 We define the "PACER Problem" as:
 
-> As a result of various problems with the PACER system, the average
-> member of the public has no meaningful access to federal court
-> records. This is the "PACER Problem."
+> As a result of various problems with the PACER system, the average member of the public has no meaningful access to federal court records. This is the "PACER Problem."
 
 These "various problems" with the PACER system include:
 
@@ -43,21 +32,8 @@ These "various problems" with the PACER system include:
 
 4.  **There is no accountability.** The [courts recently took thousands of documents offline](/2014/08/28/the-importance-of-backups/) and after a [public outcry](/2014/08/27/free-law-project-joins-request-for-access-to-offline-pacer-documents/) and [inquiring letters from members of Congress](/2014/09/16/senator-leahy-wants-pacer-documents-back-online/), the courts stated that they would put them all back online, but because no one but the courts has unhindered access to the system, no one can say what was taken offline and whether it was restored or not. As things stand now, fact-checking the courts on this is simply not possible.
 
-So, again: **As a result of various problems with the PACER system, the
-average member of the public has no meaningful access to federal court
-records.**
+So, again: **As a result of various problems with the PACER system, the average member of the public has no meaningful access to federal court records.**
 
-There is no liberty without access to the law. The guarantees of the
-First Amendment require that the public and the press have meaningful
-access to court proceedings and documents. Having an open democratic
-society requires that the people be able to scrutinize public
-institutions to ensure their fairness, to enhance their quality, and to
-safeguard their integrity. We cannot accept a justice system we are
-prohibited from observing, because the watchful eyes of the public and
-the press are what diminish injustice, incompetence, perjury, and fraud.
-Meaningful public access is foundational to the functioning of good
-government.
+There is no liberty without access to the law. The guarantees of the First Amendment require that the public and the press have meaningful access to court proceedings and documents. Having an open democratic society requires that the people be able to scrutinize public institutions to ensure their fairness, to enhance their quality, and to safeguard their integrity. We cannot accept a justice system we are prohibited from observing, because the watchful eyes of the public and the press are what diminish injustice, incompetence, perjury, and fraud. Meaningful public access is foundational to the functioning of good government.
 
-We will address in a subsequent post what should be done about the PACER
-problem, but here we simply want to say: The PACER Problem is a problem
-of consequence that cannot be permitted to stand.
+We will address in a subsequent post what should be done about the PACER problem, but here we simply want to say: The PACER Problem is a problem of consequence that cannot be permitted to stand.
