@@ -2,7 +2,6 @@ Title: Free Law Project Re-Launches RECAP Archive, a New Search Tool for PACER D
 Author: mlissner
 Date: 2016-11-22
 Tags: recap, pacer, archive, search, roadmap, privacy
-Status: Draft
 
 
 After months of development, we are thrilled to share a from-scratch re-launch of the [RECAP Archive][ra]. Our new archive, available immediately at <https://www.courtlistener.com/recap/>, contains all of the content currently in [RECAP][recap] and makes it all fully searchable for the first time. At launch, the collection contains information about more than ten million PACER documents, including the extracted text from more than seven million pages of scanned documents.
