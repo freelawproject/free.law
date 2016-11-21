@@ -1,19 +1,21 @@
 Title: Free Law Project Re-Launches RECAP Archive, a New Search Tool for PACER Dockets and Documents
 Author: mlissner
-Date: 2016-11-09
+Date: 2016-11-22
 Tags: recap, pacer, archive, search, roadmap, privacy
 Status: Draft
 
 
-After months of development, we are thrilled to share a from-scratch re-launch of the [RECAP Archive][ra]. Our new archive, available immediately at <https://www.courtlistener.com/recap/>, contains all of the content currently in [RECAP][recap] and makes it all fully searchable for the first time. At launch the collection contains information about nearly ten million PACER documents, including the extracted text from more than seven million pages of scanned PACER documents.
+After months of development, we are thrilled to share a from-scratch re-launch of the [RECAP Archive][ra]. Our new archive, available immediately at <https://www.courtlistener.com/recap/>, contains all of the content currently in [RECAP][recap] and makes it all fully searchable for the first time. At launch, the collection contains information about more than ten million PACER documents, including the extracted text from more than seven million pages of scanned documents.
 
-<div class="text-center">
+<div class="left-image">
     <a href="https://www.courtlistener.com/recap/">
         <img src="{filename}/images/recap-adv-search.png"
              alt="RECAP Advanced Search Screen"
              class="img-responsive border"/>
     </a>
+    <p class="caption">The new advanced search interface for the <a href="https://www.courtlistener.com/recap/">RECAP Archive</a>.</p>
 </div>
+<div class="clearfix"></div>
 
 The search capabilities of this new system empower researchers in new ways. For example:
  
@@ -21,13 +23,13 @@ The search capabilities of this new system empower researchers in new ways. For 
  
  - Researchers can filter by [nature of suit, case name, jurisdiction, cause, or one of a number of other fields][adv]. Ever wish you could look for examples of certain kinds of documents in your jurisdiction or topic area? Now you can.
  
- - It is now possible to do full-text search within all the documents in a case that are in the [RECAP Archive][ra]. This feature is particularly powerful in large cases containing thousands of documents. 
+ - It is now possible to do full-text search within all the documents in a case that are in the [RECAP Archive][ra]. This feature is particularly powerful in large cases containing thousands of documents. For example, one of the largest cases we have is the [Deepwater Horizon case][dwh], related to the [BP Oil Spill][oil] a few years ago in the Gulf of Mexico. [Here are all the times in that case (that we know about) where the word "tourism" is mentioned][dwht].
   
 Beyond the powerful search capabilities we have built into this tool, this new archive makes a variety of tasks possible that were difficult or impossible before. For example:
 
  - Every document and every docket in the [RECAP Archive][ra] now has a link. This makes it much easier to share PACER documents. Rather than telling a colleague to go to a certain PACER website, search for a certain case, then look for a certain document, now you can simply share a link.
  
- - All documents have page counts in their metadata. This means that before you even open an item, you know what to expect. It also allows fascinating research. For example, did you know that the average length of a PACER document is 9.1 pages, but that the average length of a summary judgement is 18.9 pages?
+ - All documents have page counts in their metadata. This means that before you even open an item, you know what to expect. It also allows fascinating research. For example, we now know that the average length of a PACER document is 9.1 pages, and the average length of a summary judgement is 18.9 pages.
    
 
 ## Privacy Balance
@@ -38,7 +40,10 @@ Privacy of personal information has always been important to us at Free Law Proj
 
 1. PACER dockets are generally available to search engines, but with two exceptions. First, if a request is made by a party in a case to make it private, we consider doing so. Second, any bankruptcy case with fewer than 500 items is private by default. There are innumerable personal bankruptcy cases, so we use this threshold to gauge the importance of the case.
 
+1. Finally, if a docket or document in RECAP is subsequently sealed, we will defer to the court, and remove that item from RECAP.
+
 We see the rules above as a starting point, and we will be refining these rules as we hear more from our stakeholders.
+
 
 ## What's Next?
 
@@ -58,7 +63,7 @@ As we move forward with our PACER and RECAP initiatives, we see a number of next
  
 1. We will soon be running our citation extractor across the RECAP Archive to identify citations to opinions in our collection so that they can be analyzed and made into links.
 
-1. A few details are not quite ready in this tool: Party information is not searchable, we are not syncing the latest RECAP content, and favorites, alerts, and RSS feeds for dockets are not yet in place. We will be adding these features as soon as possible, but decided to launch today so that we could begin getting feedback. As always, [get in touch][c] if you are interested in volunteering to help develop these features.
+1. A few details are not quite ready in this tool: Party information is not searchable, and alerts and RSS feeds for dockets are not yet in place. We will be adding these features as soon as possible, but decided to launch today so that we could begin getting feedback. As always, [get in touch if you are interested in volunteering to help develop these features][c].
 
 
 ## Wrapping Up
@@ -74,3 +79,6 @@ We believe that this new search tool and the roadmap presented above will bring 
 [recap]: {filename}/pages/recap.md
 [c]: {filename}/pages/contact.md
 [adv]: https://www.courtlistener.com/search/advanced-techniques/
+[dwh]: https://www.courtlistener.com/docket/4510515/in-re-oil-spill-by-the-oil-rig-deepwater-horizon-in-the-gulf-of-mexico/
+[dwht]: https://www.courtlistener.com/?q=docket_id%3A4510515+tourism&type=r&order_by=score+desc&available_only=on
+[oil]: https://en.wikipedia.org/wiki/Deepwater_Horizon_oil_spill
