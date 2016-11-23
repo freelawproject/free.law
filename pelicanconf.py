@@ -48,9 +48,9 @@ STATIC_PATHS = [
     'zip',
 ]
 
-# Blogroll
 LINKS = (
     ('Donate to FLP', 'https://www.courtlistener.com/donate/'),
+    ("Newsletter", 'https://free.law/newsletter/'),
     ('CourtListener', 'https://www.courtlistener.com/'),
     ('RECAP', '/recap/'),
 )
