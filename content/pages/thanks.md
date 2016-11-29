@@ -45,7 +45,7 @@ efforts towards our mission:
 
 We would never be where we are today without this generous support.
 
-If we forgot you or your organization, [please get in touch][1] or [edit this page yourself][pr].
+If we forgot you or your organization, [please get in touch][1] or [if you're one of our volunteer developers, feel free edit this page yourself][pr]!
 
 [1]: {filename}/pages/contact.md
 [pr]: https://github.com/freelawproject/free.law/blob/master/content/pages/thanks.md
