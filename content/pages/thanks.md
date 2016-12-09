@@ -8,6 +8,7 @@ Free Law Project has benefited immensely from the generous support of the follow
 
 - [CaseText](https://casetext.com)
 - Commetric, Inc.
+- [Courthouse News](http://courthousenews.com)
 - [FastCase](https://www.fastcase.com)
 - [ILS Technologies](http://ilstech.com/)
 - [Justia](https://www.justia.com)
