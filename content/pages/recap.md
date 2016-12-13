@@ -1,15 +1,22 @@
 Title: RECAP Project -- Turning PACER Around
 Slug: recap
 
-<p class="lead">RECAP is a free extension for Firefox and Chrome that improves the experience of using PACER, the electronic public access system for the U.S. Federal District and Bankruptcy Courts.</p>
+<p class="lead">RECAP is an <a href="https://www.courtlistener.com/recap/">online archive</a> and free extension for Firefox and Chrome that improves the experience of using PACER, the electronic public access system for the U.S. Federal District and Bankruptcy Courts.</p>
 
-RECAP is a free extension that is very simple to use and has no configuration. It:
+The online archive contains millions of searchable PACER documents and can be used to do deep research within a case, a topic, or a jurisdiction. 
 
- - Helps you give back by contributing to a public archive.
- - Saves you money by showing you when free documents are available in the archive.
- - Keeps you organized by providing better file names to the files you download on PACER.
+<div class="text-center">
+<a href="https://www.courtlistener.com/recap/" class="btn btn-primary btn-lg">Visit the RECAP Archive</a>
+</div>
+<br>
 
-Thousands of people have used RECAP, and together we have created an archive with millions of documents.
+The RECAP extensions are very simple to use and have no configuration. They:
+
+ - Help you give back by contributing to a public archive.
+ - Save you money by showing you when free documents are available in the archive.
+ - Keep you organized by providing better file names to the files you download on PACER.
+
+Thousands of people have used RECAP, and together we have created <a href="https://www.courtlistener.com/recap/">an archive with millions of documents</a>.
 
 To use RECAP, simply install it and then use PACER as you normally would. It's that simple.
 
