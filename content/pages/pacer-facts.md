@@ -48,7 +48,15 @@ The second source an article ([webpage][journal-web]/[pdf][journal-pdf]) in the 
 > Presently, CM/ECF databases contain over 47,000,000 cases and well over 600,000,000 legal documents; approximately 2,000,000 new cases and tens of millions of new documents are entered each year
 
 
+### What do we know about PACER users?
 
+ - According to an a declaration by the PACER Service Center manager, 63% of PACER users did not pay fees in 2015.
+
+    [![Declaration Screenshot]({filename}/images/63-percent-non-payers.jpeg)][declaration]
+
+ - 75% of revenue comes from 1% of users, according to Robert Lowney, director of the PACER program. The implication here is that those 1% of users are likely bots.
+ 
+ 
 ### Has there ever been an effort to transfer PACER records to the National Archives?
  
 [It seems so][nara], but to our knowledge nothing has ever been transferred. More investigation is likely needed on this topic.
@@ -67,3 +75,4 @@ The second source an article ([webpage][journal-web]/[pdf][journal-pdf]) in the 
 [bank]: https://www.pacer.gov/documents/case_upload_specs_5_1_1.pdf
 [xml]: https://www.pacer.gov/documents/pacer_xml_apv3.1.pdf
 [nara]: {filename}/pdf/N1-021-10-2.pdf
+[declaration]: https://www.courtlistener.com/docket/4214664/13/2/national-veterans-legal-services-program-v-united-states/
