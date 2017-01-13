@@ -1,7 +1,7 @@
 Title: Free Law Project Joins Request for Access to Offline PACER Documents
 Date: 2014-08-27 08:39
 Author: brianwc
-Tags: Announcements, Bulk Data, CourtListener, Courts, Policy, RECAP
+Tags: Announcements, Bulk Data, CourtListener, Courts, Policy, RECAP, PACER
 Slug: free-law-project-joins-request-for-access-to-offline-pacer-documents
 Status: published
 
@@ -26,7 +26,7 @@ announcement without this explanation:
 *Original PACER announcement*
 
 This morning, Free Law Project signed on to [five
-letters](https://t.co/x8jAx0E5dn) from the non-profit,
+letters](https://law.resource.org/pacer/) from the non-profit,
 [Public.Resource.Org](http://resource.org), headed by [Carl
 Malamud](https://twitter.com/carlmalamud), asking the Chief Judge of
 each of these five courts to provide us with access to these newly
