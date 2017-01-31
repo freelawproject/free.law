@@ -7,7 +7,7 @@ Slug: featured-cases/airport-cases/
 On January 27, 2017, President Trump signed an [Executive Order titled "Protecting the Nation from Foreign Terrorist Entry Into the United States"][pdf]. The next day, civil rights and immigration lawyers began filing legal challenges throughout the country. As the dockets from these cases become available in Free Law Project's [RECAP Archive][recap], we are linking them on this page.
 
 
-## Dockets by Circuit
+## Dockets by Court
 
 - District of Massachusetts (1st Cir.)
     - Tootkaboni v. Trump (case no. 17-cv-10154)
@@ -15,10 +15,14 @@ On January 27, 2017, President Trump signed an [Executive Order titled "Protecti
     - [Darweesh v. Trump][darweesh] (case no. 1:17-cv-480)
 - Eastern District of Virginia (4th Cir.)
     - [Aziz v. Trump][aziz] (case no. 1:17-cv-116)
+    - [Sarsour v. Trump][sarsour] (case no. 1:17-cv-00120)
 - Central District of California (9th Cir.)
     - [Vayeghan v. Kelly][vayeghan] (case no. 2:17-cv-00702)
+- Northern District of California (9th Cir.)
+    - California v. Trump (case no. 3:17-cv-00451) --- Private attorney general case, not filed by State
 - Western District of Washington (9th Cir.)
     - [Doe v. Trump][doe] (case no. 2:17-cv-126) --- Voluntarily dismissed
+    - [Washington v. Trump][wa-v-trump] (case no. 2:17-cv-00141)
 
 
 ## Updating Dockets
@@ -51,3 +55,5 @@ There appear to be many more cases than we have listed. [This search on our RECA
 [doe]: https://www.courtlistener.com/docket/4577105/doe-1-v-trump/
 [pr]: https://github.com/freelawproject/free.law/blob/master/content/pages/airport-cases.md
 [moar]: https://www.courtlistener.com/?type=r&filed_after=2017-01-28&order_by=score+desc&case_name=Trump
+[wa-v-trump]: https://www.courtlistener.com/docket/4577101/state-of-washington-v-trump/
+[sarsour]: https://www.courtlistener.com/docket/4576796/sarsour-v-walid/
