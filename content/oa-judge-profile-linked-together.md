@@ -1,8 +1,7 @@
 Title: Judge Profiles on CourtListener Now Show Oral Arguments Heard
 Author: mlissner
-Date: 2017-01-19
+Date: 2017-01-23
 Tags: judge database, announcements, linkages, courtlistener, oral arguments
-Status: draft
 
 
 We're proud to share that we've now linked together our [database of judges][jdb] and our [database of oral argument recordings][oa]. This means that as of now if you look at the profile page for a judge, you may see a list of oral argument recordings for cases that judge heard.
