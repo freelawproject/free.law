@@ -38,3 +38,4 @@ There appear to be many more cases than we have listed. [This search on our RECA
 
 - [The Procedural Aspects of "The Airport Cases"](http://joshblackman.com/blog/2017/01/29/the-procedural-aspects-of-the-airport-cases/) by Josh Blackman (January 29, 2017)
 - [The Airport Cases: What Happened, and What's Next?](https://www.justsecurity.org/36960/stock-weekends-district-court-orders-immigration-eo/) at Just Security (January 30, 2017)
+- [Litigation Documents & Resources Related to Trump Executive Order](https://lawfareblog.com/litigation-documents-resources-related-trump-executive-order) at Lawfare (January 29, 2017)
