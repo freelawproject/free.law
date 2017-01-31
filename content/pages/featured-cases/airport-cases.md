@@ -5,7 +5,7 @@ Slug: featured-cases/airport-cases
 Status: draft
 
 On January 27, 2017, President Trump signed an [Executive Order titled "Protecting the Nation from Foreign Terrorist
-Entry Into the United States"](https://assets.documentcloud.org/documents/3431047/Extreme-Vetting-EO.pdf). The next day, civil rights and immigration lawyers began filing legal challenges throughout the country. As the dockets from these cases become available in Free Law Project's [RECAP Archive](https://www.courtlistener.com/recap/), we are linking them on this page.
+Entry Into the United States"](/pdf/EO-2017-02281.pdf). The next day, civil rights and immigration lawyers began filing legal challenges throughout the country. As the dockets from these cases become available in Free Law Project's [RECAP Archive](https://www.courtlistener.com/recap/), we are linking them on this page.
 
 ## Dockets by Circuit
 
