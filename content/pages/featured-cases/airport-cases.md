@@ -18,6 +18,7 @@ On January 27, 2017, President Trump signed an [Executive Order titled "Protecti
     - [Sarsour v. Trump][sarsour] (case no. 1:17-cv-00120)
 - Central District of California (9th Cir.)
     - [Vayeghan v. Kelly][vayeghan] (case no. 2:17-cv-00702)
+    - Mohammed v. United States (case no. 2:17-cv-00786) --- [TRO][mohammed-tro]
 - Northern District of California (9th Cir.)
     - [California v. Trump][ca-v-trump] (case no. 3:17-cv-00451) --- Private attorney general case, not filed by State
 - Western District of Washington (9th Cir.)
@@ -25,7 +26,7 @@ On January 27, 2017, President Trump signed an [Executive Order titled "Protecti
     - [Washington v. Trump][wa-v-trump] (case no. 2:17-cv-00141)
 - Northern District of Illinois (7th Cir.)
     - [Doe v. Trump][doe-ilnd] (case no. 1:17-cv-00770)
-    - Al Homssi v. Trump (case no. 1:17-cv-00801)
+    - [Al Homssi v. Trump][alhomssi] (case no. 1:17-cv-00801)
 
 
 ## Updating Dockets
@@ -62,10 +63,12 @@ These searches are imperfect and underinclusive, but they're a start toward find
 [aziz]: https://www.courtlistener.com/docket/4576795/aziz-v-trump/
 [sarsour]: https://www.courtlistener.com/docket/4576796/sarsour-v-walid/
 [vayeghan]: https://www.courtlistener.com/docket/4576959/ali-khoshbakhti-vayeghan-v-john-f-kelly/
+[mohammed-tro]: {filename}/pdf/C.D.Cal._2-17-cv-00786_7_0.pdf
 [ca-v-trump]: https://www.courtlistener.com/docket/4576141/people-of-the-united-states-of-america-v-trump/
 [doe]: https://www.courtlistener.com/docket/4577105/doe-1-v-trump/
 [wa-v-trump]: https://www.courtlistener.com/docket/4577101/state-of-washington-v-trump/
 [doe-ilnd]: https://www.courtlistener.com/docket/4577005/doe-v-trump/
+[alhomssi]: https://www.courtlistener.com/docket/4578561/al-homssi-v-trump/
 [ext]: {filename}/pages/recap.md
 [c]: {filename}/pages/contact.md
 [pr]: https://github.com/freelawproject/free.law/blob/master/content/pages/airport-cases.md
