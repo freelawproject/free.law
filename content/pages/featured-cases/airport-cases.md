@@ -16,6 +16,9 @@ On January 27, 2017, President Trump signed an [Executive Order titled "Protecti
 - Eastern District of Virginia (4th Cir.)
     - [Aziz v. Trump][aziz] (case no. 1:17-cv-116)
     - [Sarsour v. Trump][sarsour] (case no. 1:17-cv-00120)
+- Northern District of Illinois (7th Cir.)
+    - [Doe v. Trump][doe-ilnd] (case no. 1:17-cv-00770)
+    - [Al Homssi v. Trump][alhomssi] (case no. 1:17-cv-00801)
 - Central District of California (9th Cir.)
     - [Vayeghan v. Kelly][vayeghan] (case no. 2:17-cv-00702)
     - Mohammed v. United States (case no. 2:17-cv-00786) --- [TRO][mohammed-tro]
@@ -24,10 +27,6 @@ On January 27, 2017, President Trump signed an [Executive Order titled "Protecti
 - Western District of Washington (9th Cir.)
     - [Doe v. Trump][doe] (case no. 2:17-cv-126) --- Voluntarily dismissed
     - [Washington v. Trump][wa-v-trump] (case no. 2:17-cv-00141)
-- Northern District of Illinois (7th Cir.)
-    - [Doe v. Trump][doe-ilnd] (case no. 1:17-cv-00770)
-    - [Al Homssi v. Trump][alhomssi] (case no. 1:17-cv-00801)
-
 
 ## Updating Dockets
 
