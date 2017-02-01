@@ -1,4 +1,4 @@
-Title: Facts About PACER.
+Title: Facts About PACER
 Slug: pacer-facts
 
 PACER is a big and complex system that's incredibly opaque to the normal search tools. Over time, we've learned where various facts are tucked away, but it's nearly impossible to keep track of where you read something or how you found it. 
@@ -43,18 +43,20 @@ We have two sources for this information. One source is the [2014 Annual Supreme
 
 > CM/ECF currently contains, in aggregate, more than one billion retrievable documents spread among the 13 courts of appeals, 94 district courts, 90 bankruptcy courts, and other specialized tribunals.
 
-The second source an article ([webpage][journal-web]/[pdf][journal-pdf]) in the International Journal for Court Administration, entitled, "E-Filing Case Management Services in the US Federal Courts: The Next Generation: A Case Study". That article says:
+The second source is an article ([webpage][journal-web]/[pdf][journal-pdf]) in the International Journal for Court Administration, entitled, "E-Filing Case Management Services in the US Federal Courts: The Next Generation: A Case Study". That article says:
 
 > Presently, CM/ECF databases contain over 47,000,000 cases and well over 600,000,000 legal documents; approximately 2,000,000 new cases and tens of millions of new documents are entered each year
 
 
 ### What do we know about PACER users?
 
+ - There are "[30,000+ court employees, over 650,000 lawyers who practice in the US federal courts and over 1,000,000 registered public users and organizations [that] have relied on CM/ECF and PACER.][journal-pdf]"
+
  - According to an a declaration by the PACER Service Center manager, 63% of PACER users did not pay fees in 2015.
 
     [![Declaration Screenshot]({filename}/images/63-percent-non-payers.jpeg)][declaration]
 
- - 75% of revenue comes from 1% of users, according to Robert Lowney, director of the PACER program. The implication here is that those 1% of users are likely bots.
+ - 75% of revenue comes from 1% of users, according to Robert Lowney, director of the PACER program. The implication here is that those 1% of users are likely bots.  
  
  
 ### Has there ever been an effort to transfer PACER records to the National Archives?
