@@ -10,7 +10,7 @@ On January 27, 2017, President Trump signed an [Executive Order titled "Protecti
 ## Dockets by Court
 
 - District of Massachusetts (1st Cir.)
-    - Tootkaboni v. Trump (case no. 17-cv-10154)
+    - [Louhghalam v. Trump][louhghalam] (case no. 17-cv-10154)
 - Eastern District of New York (2d. Cir.)
     - [Darweesh v. Trump][darweesh] (case no. 1:17-cv-480)
 - Eastern District of Virginia (4th Cir.)
@@ -19,7 +19,7 @@ On January 27, 2017, President Trump signed an [Executive Order titled "Protecti
 - Central District of California (9th Cir.)
     - [Vayeghan v. Kelly][vayeghan] (case no. 2:17-cv-00702)
 - Northern District of California (9th Cir.)
-    - California v. Trump (case no. 3:17-cv-00451) --- Private attorney general case, not filed by State
+    - [California v. Trump][ca-v-trump] (case no. 3:17-cv-00451) --- Private attorney general case, not filed by State
 - Western District of Washington (9th Cir.)
     - [Doe v. Trump][doe] (case no. 2:17-cv-126) --- Voluntarily dismissed
     - [Washington v. Trump][wa-v-trump] (case no. 2:17-cv-00141)
@@ -34,7 +34,12 @@ To update a docket, [install the RECAP browser extension][ext] and download the 
 
 If you would like to add a docket link or suggest another update to this page, please [contact us][c] or [submit a Pull Request on GitHub][pr].
 
-There appear to be many more cases than we have listed. [This search on our RECAP Archive][moar] turns up all cases with "Trump" in a party name that were filed on or after January 28, 2017. This is imperfect, but a start toward finding more cases.
+There appear to be many more cases than we have listed. Here are some suggestions for finding them in our RECAP Archive:
+
+- [This search][moar] finds all cases with "Trump" in a party name that were filed on or after January 28, 2017.
+- [This search][moar2] finds all cases coded with Nature of Suit code 463 (Habeas Corpus - Alien Detainee) filed on or after January 28, 2017.
+
+These searches are imperfect and underinclusive, but they're a start toward finding more cases.
 
 
 ## Helpful Posts from the Web
@@ -43,17 +48,21 @@ There appear to be many more cases than we have listed. [This search on our RECA
 - [The Airport Cases: What Happened, and What's Next?](https://www.justsecurity.org/36960/stock-weekends-district-court-orders-immigration-eo/) at Just Security (January 30, 2017)
 - [Litigation Documents & Resources Related to Trump Executive Order](https://lawfareblog.com/litigation-documents-resources-related-trump-executive-order) at Lawfare (January 29, 2017)
 - [Civil Rights Challenges to President Trump's Executive Orders on Immigration and Refugees](https://www.clearinghouse.net/featuredCase.php?id=40) at the University of Michigan's Civil Rights Litigation Clearinghouse; more information in its [Special Collection](https://www.clearinghouse.net/results.php?searchSpecialCollection=44)
+- [Four states sue Trump administration over 'un-American' travel ban](https://www.theguardian.com/us-news/2017/jan/31/trump-travel-ban-state-lawsuits) at The Guardian (January 31, 2017)
 
 
 [pdf]: {filename}/pdf/EO-2017-02281.pdf
-[ext]: {filename}/pages/recap.md
-[c]: {filename}/pages/contact.md
 [recap]: https://www.courtlistener.com/recap/
+[louhghalam]: https://www.courtlistener.com/docket/4576148/louhghalam-v-trump/
 [darweesh]: https://www.courtlistener.com/docket/4576731/darweesh-v-trump/
 [aziz]: https://www.courtlistener.com/docket/4576795/aziz-v-trump/
+[sarsour]: https://www.courtlistener.com/docket/4576796/sarsour-v-walid/
 [vayeghan]: https://www.courtlistener.com/docket/4576959/ali-khoshbakhti-vayeghan-v-john-f-kelly/
+[ca-v-trump]: https://www.courtlistener.com/docket/4576141/people-of-the-united-states-of-america-v-trump/
 [doe]: https://www.courtlistener.com/docket/4577105/doe-1-v-trump/
+[wa-v-trump]: https://www.courtlistener.com/docket/4577101/state-of-washington-v-trump/
+[ext]: {filename}/pages/recap.md
+[c]: {filename}/pages/contact.md
 [pr]: https://github.com/freelawproject/free.law/blob/master/content/pages/airport-cases.md
 [moar]: https://www.courtlistener.com/?type=r&filed_after=2017-01-28&order_by=score+desc&case_name=Trump
-[wa-v-trump]: https://www.courtlistener.com/docket/4577101/state-of-washington-v-trump/
-[sarsour]: https://www.courtlistener.com/docket/4576796/sarsour-v-walid/
+[moar2]: https://www.courtlistener.com/?order_by=score+desc&filed_after=2017-01-28&type=r&nature_of_suit=%22463+Habeas+Corpus+-+Alien+Detainee%22
