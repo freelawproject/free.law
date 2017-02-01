@@ -23,6 +23,9 @@ On January 27, 2017, President Trump signed an [Executive Order titled "Protecti
 - Western District of Washington (9th Cir.)
     - [Doe v. Trump][doe] (case no. 2:17-cv-126) --- Voluntarily dismissed
     - [Washington v. Trump][wa-v-trump] (case no. 2:17-cv-00141)
+- Northern District of Illinois (7th Cir.)
+    - [Doe v. Trump][doe-ilnd] (case no. 1:17-cv-00770)
+    - Al Homssi v. Trump (case no. 1:17-cv-00801)
 
 
 ## Updating Dockets
@@ -34,7 +37,7 @@ To update a docket, [install the RECAP browser extension][ext] and download the 
 
 If you would like to add a docket link or suggest another update to this page, please [contact us][c] or [submit a Pull Request on GitHub][pr].
 
-There appear to be many more cases than we have listed. Here are some suggestions for finding them in our RECAP Archive:
+There appear to be many more airport cases than we have listed. Here are some suggestions for finding them in our RECAP Archive:
 
 - [This search][moar] finds all cases with "Trump" in a party name that were filed on or after January 28, 2017.
 - [This search][moar2] finds all cases coded with Nature of Suit code 463 (Habeas Corpus - Alien Detainee) filed on or after January 28, 2017.
@@ -49,6 +52,7 @@ These searches are imperfect and underinclusive, but they're a start toward find
 - [Litigation Documents & Resources Related to Trump Executive Order](https://lawfareblog.com/litigation-documents-resources-related-trump-executive-order) at Lawfare (January 29, 2017)
 - [Civil Rights Challenges to President Trump's Executive Orders on Immigration and Refugees](https://www.clearinghouse.net/featuredCase.php?id=40) at the University of Michigan's Civil Rights Litigation Clearinghouse; more information in its [Special Collection](https://www.clearinghouse.net/results.php?searchSpecialCollection=44)
 - [Four states sue Trump administration over 'un-American' travel ban](https://www.theguardian.com/us-news/2017/jan/31/trump-travel-ban-state-lawsuits) at The Guardian (January 31, 2017)
+- [Two lawsuits in Chicago challenge Trump travel ban](http://www.chicagotribune.com/news/local/breaking/ct-trump-travel-ban-chicago-lawsuit-met-20170131-story.html?shr=t) at Chicago Tribune (January 31, 2017)
 
 
 [pdf]: {filename}/pdf/EO-2017-02281.pdf
@@ -61,6 +65,7 @@ These searches are imperfect and underinclusive, but they're a start toward find
 [ca-v-trump]: https://www.courtlistener.com/docket/4576141/people-of-the-united-states-of-america-v-trump/
 [doe]: https://www.courtlistener.com/docket/4577105/doe-1-v-trump/
 [wa-v-trump]: https://www.courtlistener.com/docket/4577101/state-of-washington-v-trump/
+[doe-ilnd]: https://www.courtlistener.com/docket/4577005/doe-v-trump/
 [ext]: {filename}/pages/recap.md
 [c]: {filename}/pages/contact.md
 [pr]: https://github.com/freelawproject/free.law/blob/master/content/pages/airport-cases.md
