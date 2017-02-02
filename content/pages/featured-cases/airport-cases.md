@@ -11,22 +11,29 @@ On January 27, 2017, President Trump signed an [Executive Order titled "Protecti
 
 - District of Massachusetts (1st Cir.)
     - [Louhghalam v. Trump][louhghalam] (case no. 17-cv-10154)
+      - [Temporary Restraining Order][louhghalam-tro]
 - Eastern District of New York (2d. Cir.)
     - [Darweesh v. Trump][darweesh] (case no. 1:17-cv-480)
+      - [Decision and Order (1/28/2017)][darweesh-order]
 - Eastern District of Virginia (4th Cir.)
     - [Aziz v. Trump][aziz] (case no. 1:17-cv-116)
+      - [Motion to Intervene][aziz-motion-to-intervene]
     - [Sarsour v. Trump][sarsour] (case no. 1:17-cv-00120)
+      - [Complaint][sarsour-complaint]
 - Northern District of Illinois (7th Cir.)
     - [Doe v. Trump][doe-ilnd] (case no. 1:17-cv-00770)
     - [Al Homssi v. Trump][alhomssi] (case no. 1:17-cv-00801)
 - Central District of California (9th Cir.)
     - [Vayeghan v. Kelly][vayeghan] (case no. 2:17-cv-00702)
-    - Mohammed v. United States (case no. 2:17-cv-00786) --- [TRO][mohammed-tro]
+      - [Amended TRO][vayeghan-amended-tro]
+    - Mohammed v. United States (case no. 2:17-cv-00786
+      - [Temporary Restraining Order][mohammed-tro]
 - Northern District of California (9th Cir.)
     - [California v. Trump][ca-v-trump] (case no. 3:17-cv-00451) --- Private attorney general case, not filed by State
 - Western District of Washington (9th Cir.)
     - [Doe v. Trump][doe] (case no. 2:17-cv-126) --- Voluntarily dismissed
     - [Washington v. Trump][wa-v-trump] (case no. 2:17-cv-00141)
+      - [Amended Complaint][wa-v-trump-amended-complaint]
 
 ## Updating Dockets
 
@@ -57,15 +64,21 @@ These searches are imperfect and underinclusive, but they're a start toward find
 
 [pdf]: {filename}/pdf/EO-2017-02281.pdf
 [recap]: https://www.courtlistener.com/recap/
-[louhghalam]: https://www.courtlistener.com/docket/4576148/louhghalam-v-trump/
-[darweesh]: https://www.courtlistener.com/docket/4576731/darweesh-v-trump/
-[aziz]: https://www.courtlistener.com/docket/4576795/aziz-v-trump/
-[sarsour]: https://www.courtlistener.com/docket/4576796/sarsour-v-walid/
-[vayeghan]: https://www.courtlistener.com/docket/4576959/ali-khoshbakhti-vayeghan-v-john-f-kelly/
+[louhghalam]: https://ia801505.us.archive.org/28/items/gov.uscourts.mad.186429/gov.uscourts.mad.186429.docket.html
+[louhghalam-tro]: https://ia801505.us.archive.org/28/items/gov.uscourts.mad.186429/gov.uscourts.mad.186429.6.0.pdf
+[darweesh]: https://ia601501.us.archive.org/18/items/gov.uscourts.nyed.396475/gov.uscourts.nyed.396475.docket.html
+[darweesh-order]: https://ia601501.us.archive.org/18/items/gov.uscourts.nyed.396475/gov.uscourts.nyed.396475.8.0.pdf
+[aziz]: https://ia601507.us.archive.org/13/items/gov.uscourts.vaed.358386/gov.uscourts.vaed.358386.docket.html
+[aziz-motion-to-intervene]: https://ia601507.us.archive.org/13/items/gov.uscourts.vaed.358386/gov.uscourts.vaed.358386.27.0.pdf
+[sarsour]: https://ia801500.us.archive.org/20/items/gov.uscourts.vaed.358422/gov.uscourts.vaed.358422.docket.html
+[sarsour-complaint]: https://ia801500.us.archive.org/20/items/gov.uscourts.vaed.358422/gov.uscourts.vaed.358422.1.0.pdf
+[vayeghan]: https://ia601504.us.archive.org/35/items/gov.uscourts.cacd.668830/gov.uscourts.cacd.668830.docket.html
+[vayeghan-amended-tro]: https://ia601504.us.archive.org/35/items/gov.uscourts.cacd.668830/gov.uscourts.cacd.668830.6.0.pdf
 [mohammed-tro]: {filename}/pdf/C.D.Cal._2-17-cv-00786_7_0.pdf
 [ca-v-trump]: https://www.courtlistener.com/docket/4576141/people-of-the-united-states-of-america-v-trump/
 [doe]: https://www.courtlistener.com/docket/4577105/doe-1-v-trump/
-[wa-v-trump]: https://www.courtlistener.com/docket/4577101/state-of-washington-v-trump/
+[wa-v-trump]: https://ia601500.us.archive.org/1/items/gov.uscourts.wawd.241761/gov.uscourts.wawd.241761.docket.html
+[wa-v-trump-amended-complaint]: https://ia601500.us.archive.org/1/items/gov.uscourts.wawd.241761/gov.uscourts.wawd.241761.18.0.pdf
 [doe-ilnd]: https://www.courtlistener.com/docket/4577005/doe-v-trump/
 [alhomssi]: https://www.courtlistener.com/docket/4578561/al-homssi-v-trump/
 [ext]: {filename}/pages/recap.md
