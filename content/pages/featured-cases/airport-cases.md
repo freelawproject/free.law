@@ -11,29 +11,29 @@ On January 27, 2017, President Trump signed an [Executive Order titled "Protecti
 
 - District of Massachusetts (1st Cir.)
     - [Louhghalam v. Trump][louhghalam] (case no. 17-cv-10154)
-      - [Temporary Restraining Order][louhghalam-tro]
+        - [Temporary Restraining Order][louhghalam-tro]
 - Eastern District of New York (2d. Cir.)
     - [Darweesh v. Trump][darweesh] (case no. 1:17-cv-480)
-      - [Decision and Order (1/28/2017)][darweesh-order]
+        - [Decision and Order (1/28/2017)][darweesh-order]
 - Eastern District of Virginia (4th Cir.)
     - [Aziz v. Trump][aziz] (case no. 1:17-cv-116)
-      - [Motion to Intervene][aziz-motion-to-intervene]
+        - [Motion to Intervene][aziz-motion-to-intervene]
     - [Sarsour v. Trump][sarsour] (case no. 1:17-cv-00120)
-      - [Complaint][sarsour-complaint]
+        - [Complaint][sarsour-complaint]
 - Northern District of Illinois (7th Cir.)
     - [Doe v. Trump][doe-ilnd] (case no. 1:17-cv-00770)
     - [Al Homssi v. Trump][alhomssi] (case no. 1:17-cv-00801)
 - Central District of California (9th Cir.)
     - [Vayeghan v. Kelly][vayeghan] (case no. 2:17-cv-00702)
-      - [Amended TRO][vayeghan-amended-tro]
+        - [Amended Temporary Restraining Order][vayeghan-amended-tro]
     - Mohammed v. United States (case no. 2:17-cv-00786
-      - [Temporary Restraining Order][mohammed-tro]
+        - [Temporary Restraining Order][mohammed-tro]
 - Northern District of California (9th Cir.)
     - [California v. Trump][ca-v-trump] (case no. 3:17-cv-00451) --- Private attorney general case, not filed by State
 - Western District of Washington (9th Cir.)
     - [Doe v. Trump][doe] (case no. 2:17-cv-126) --- Voluntarily dismissed
     - [Washington v. Trump][wa-v-trump] (case no. 2:17-cv-00141)
-      - [Amended Complaint][wa-v-trump-amended-complaint]
+        - [Amended Complaint][wa-v-trump-amended-complaint]
 
 ## Updating Dockets
 
