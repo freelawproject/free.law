@@ -47,5 +47,5 @@ Citation searching is a feature that we've wanted to deploy for a long time, eve
 [picker]: {filename}/our-new-jurisdiction-picker.md
 [rt]: {filename}/courtlistener-will-now-send-alerts-in-real-time.md
 [feeds]: https://www.courtlistener.com/feeds/
-[donate]: https://www.courtlistener.com/donate/?referrer=flp-citation-searching
+[donate]: {filename}/pages/donate.md
 [pp]: https://courtlistener.com/opinion/112786/planned-parenthood-of-southeastern-pa-v-casey/

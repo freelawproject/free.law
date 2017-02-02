@@ -74,7 +74,7 @@ We believe that this new search tool and the roadmap presented above will bring 
 [ra]: https://www.courtlistener.com/recap/
 [mtd]: https://www.courtlistener.com/?q=&type=r&order_by=score+desc&description=%22motion+to+dismiss%22
 [sj]: https://www.courtlistener.com/?q=&type=r&order_by=score+desc&description=%22summary+judgement%22
-[donate]: https://www.courtlistener.com/donate/
+[donate]: {filename}/pages/donate.md
 [recap]: {filename}/pages/recap.md
 [c]: {filename}/pages/contact.md
 [adv]: https://www.courtlistener.com/search/advanced-techniques/

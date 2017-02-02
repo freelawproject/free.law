@@ -17,7 +17,7 @@ Status: published
 After many years of collecting and curating data, today
 [CourtListener](https://www.courtlistener.com/) crossed some incredible
 boundaries. Thanks to a generous [data
-donation](https://www.courtlistener.com/donate/#data) from [Lawbox
+donation]({filename}/pages/donate.md) from [Lawbox
 LLC](http://lawboxapps.com/), our computers are currently adding more
 than 1.5M new opinions to CourtListener, expanding our coverage to a
 total of more than 350 jurisdictions. This new data enables legal
@@ -80,6 +80,6 @@ existing data.
 
 We hope that these new opinions and features will unleash a new surge in
 legal research and technology, and that you'll help [support our
-project](https://www.courtlistener.com/donate/#data) so that we can
+project]({filename}/pages/donate.md) so that we can
 continue bringing these technologies and information to the fore.
 

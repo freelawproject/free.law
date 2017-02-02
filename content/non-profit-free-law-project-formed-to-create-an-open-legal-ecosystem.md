@@ -54,7 +54,7 @@ page](/about/), where you can find a list of
 current activities and non-profit documents. The co-founders expect to
 pursue grant funding from foundations, but also hope that those who
 support the goals of improving public access to the law will [donate
-directly](https://courtlistener.com/donate/?referrer=flp-blog) so that
+directly]({filename}/pages/donate.md) so that
 the non-profit can put more developers to work on these efforts.
 
 In the future, https://free.law will be the official place to find

@@ -74,7 +74,7 @@ a long-term home for RECAP maintenance and improvement.
 
 However, to do everything we envision with RECAP and its existing
 document archive is going to require additional funding. (You can always
-[donate](https://www.courtlistener.com/donate/)!) Therefore, we expect
+[donate]({filename}/pages/donate.md)!) Therefore, we expect
 in the coming weeks to approach anyone who is known to write large
 checks with this idea: Support us in creating the largest
 freely-downloadable collection of court documents that has ever been
