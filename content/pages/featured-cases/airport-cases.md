@@ -4,7 +4,7 @@ Author: anseljh
 Slug: featured-cases/airport-cases/
 
 
-On January 27, 2017, President Trump signed an [Executive Order titled "Protecting the Nation from Foreign Terrorist Entry Into the United States"][pdf]. The next day, civil rights and immigration lawyers began filing legal challenges throughout the country. As the dockets from these cases become available in Free Law Project's [RECAP Archive][recap], we are linking them on this page.
+On January 27, 2017, President Trump signed an [Executive Order titled "Protecting the Nation from Foreign Terrorist Entry Into the United States"][eo-pdf]. The next day, civil rights and immigration lawyers began filing legal challenges throughout the country. As the dockets from these cases become available in Free Law Project's [RECAP Archive][recap], we are linking them on this page.
 
 
 ## Dockets by Court
@@ -62,7 +62,7 @@ These searches are imperfect and underinclusive, but they're a start toward find
 - [Two lawsuits in Chicago challenge Trump travel ban](http://www.chicagotribune.com/news/local/breaking/ct-trump-travel-ban-chicago-lawsuit-met-20170131-story.html?shr=t) at Chicago Tribune (January 31, 2017)
 
 
-[pdf]: {filename}/pdf/EO-2017-02281.pdf
+[eo-pdf]: {filename}/pdf/EO-2017-02281.pdf
 [recap]: https://www.courtlistener.com/recap/
 [louhghalam]: https://ia801505.us.archive.org/28/items/gov.uscourts.mad.186429/gov.uscourts.mad.186429.docket.html
 [louhghalam-tro]: https://ia801505.us.archive.org/28/items/gov.uscourts.mad.186429/gov.uscourts.mad.186429.6.0.pdf
