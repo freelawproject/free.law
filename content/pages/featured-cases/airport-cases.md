@@ -20,16 +20,23 @@ On January 27, 2017, President Trump signed an [Executive Order titled "Protecti
         - [Motion to Intervene][aziz-motion-to-intervene]
     - [Sarsour v. Trump][sarsour] (case no. 1:17-cv-00120)
         - [Complaint][sarsour-complaint]
+- Eastern District of Michigan (6th Cir.)
+    - Arab American Civil Rights League (case no. 2:17-cv-10310)
+        - [Complaint][acrl-complaint]
+        - [TRO Motion][acrl-tro-motion]
 - Northern District of Illinois (7th Cir.)
     - [Doe v. Trump][doe-ilnd] (case no. 1:17-cv-00770)
     - [Al Homssi v. Trump][alhomssi] (case no. 1:17-cv-00801)
 - Central District of California (9th Cir.)
     - [Vayeghan v. Kelly][vayeghan] (case no. 2:17-cv-00702)
         - [Amended Temporary Restraining Order][vayeghan-amended-tro]
-    - Mohammed v. United States (case no. 2:17-cv-00786
+    - [Mohammed v. United States][mohammed] (case no. 2:17-cv-00786)
         - [Temporary Restraining Order][mohammed-tro]
+    - Farmad v. Trump (case no. 2:17-cv-00702)
 - Northern District of California (9th Cir.)
     - [California v. Trump][ca-v-trump] (case no. 3:17-cv-00451) --- Private attorney general case, not filed by State
+    - Al-Mowafak v. Trump (case no. 3:17-cv-00557)
+        - [Complaint][mowafak-complaint]
 - Western District of Washington (9th Cir.)
     - [Doe v. Trump][doe] (case no. 2:17-cv-126) --- Voluntarily dismissed
     - [Washington v. Trump][wa-v-trump] (case no. 2:17-cv-00141)
@@ -72,10 +79,14 @@ These searches are imperfect and underinclusive, but they're a start toward find
 [aziz-motion-to-intervene]: https://ia601507.us.archive.org/13/items/gov.uscourts.vaed.358386/gov.uscourts.vaed.358386.27.0.pdf
 [sarsour]: https://ia801500.us.archive.org/20/items/gov.uscourts.vaed.358422/gov.uscourts.vaed.358422.docket.html
 [sarsour-complaint]: https://ia801500.us.archive.org/20/items/gov.uscourts.vaed.358422/gov.uscourts.vaed.358422.1.0.pdf
+[acrl-complaint]: {filename}/pdf/E.D.Mich._317381_1_0.pdf
+[acrl-tro-motion]: {filename}/pdf/E.D.Mich._317381_5_0.pdf
 [vayeghan]: https://ia601504.us.archive.org/35/items/gov.uscourts.cacd.668830/gov.uscourts.cacd.668830.docket.html
 [vayeghan-amended-tro]: https://ia601504.us.archive.org/35/items/gov.uscourts.cacd.668830/gov.uscourts.cacd.668830.6.0.pdf
+[mohammed]: https://ia801506.us.archive.org/24/items/gov.uscourts.cacd.669123/gov.uscourts.cacd.669123.docket.html
 [mohammed-tro]: {filename}/pdf/C.D.Cal._2-17-cv-00786_7_0.pdf
 [ca-v-trump]: https://www.courtlistener.com/docket/4576141/people-of-the-united-states-of-america-v-trump/
+[mowafak-complaint]: {filename}/pdf/Al-Mowafak-Complaint.pdf
 [doe]: https://www.courtlistener.com/docket/4577105/doe-1-v-trump/
 [wa-v-trump]: https://ia601500.us.archive.org/1/items/gov.uscourts.wawd.241761/gov.uscourts.wawd.241761.docket.html
 [wa-v-trump-amended-complaint]: https://ia601500.us.archive.org/1/items/gov.uscourts.wawd.241761/gov.uscourts.wawd.241761.18.0.pdf
