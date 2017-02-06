@@ -16,7 +16,8 @@ On January 27, 2017, President Trump signed an [Executive Order titled "Protecti
         - [USA's motion for emergency administrative stay][ca9-wa-v-trump-motion-emergency-stay]
         - [Order denying motion for emergency administrative stay][ca9-wa-v-trump-order-emergency-stay]
         - [Amicus brief by technology companies][ca9-wa-v-trump-tech-amicus]
-        - Amicus brief by law professors and clinicians
+        - [Amicus brief by law professors and clinicians][ca9-wa-v-trump-profs-amicus]
+        - [Amicus brief by Fred T. Korematsu Center][ca9-wa-v-trump-korematsu-amicus]
 
 ### District Courts
 
@@ -87,6 +88,8 @@ These searches are imperfect and underinclusive, but they're a start toward find
 [ca9-wa-v-trump-motion-emergency-stay]: https://www.courtlistener.com/recap/gov.uscourts.ca9.17-35105.14.0.pdf
 [ca9-wa-v-trump-order-emergency-stay]: https://www.courtlistener.com/recap/gov.uscourts.ca9.17-35105.15.0.pdf
 [ca9-wa-v-trump-tech-amicus]: https://upload.wikimedia.org/wikipedia/foundation/e/e4/Amicus_curiae_brief_of_Tech_Companies_%26_Orgs%2C_Washington_v._Trump.pdf
+[ca9-wa-v-trump-profs-amicus]: https://app.box.com/s/tfr4vegkjwnngkl06zet8rs9s1611ib1
+[ca9-wa-v-trump-korematsu-amicus]: https://app.box.com/s/wtkwhxwvqejd6ft5x8kidwuq604fbr3l
 [louhghalam]: https://ia801505.us.archive.org/28/items/gov.uscourts.mad.186429/gov.uscourts.mad.186429.docket.html
 [louhghalam-tro]: https://ia801505.us.archive.org/28/items/gov.uscourts.mad.186429/gov.uscourts.mad.186429.6.0.pdf
 [darweesh]: https://ia601501.us.archive.org/18/items/gov.uscourts.nyed.396475/gov.uscourts.nyed.396475.docket.html
