@@ -7,7 +7,18 @@ Slug: featured-cases/airport-cases/
 On January 27, 2017, President Trump signed an [Executive Order titled "Protecting the Nation from Foreign Terrorist Entry Into the United States"][eo-pdf]. The next day, civil rights and immigration lawyers began filing legal challenges throughout the country. As the dockets from these cases become available in Free Law Project's [RECAP Archive][recap], we are linking them on this page.
 
 
-## Dockets by Court
+## Dockets
+
+### Appeals
+
+- Ninth Circuit
+    - [Washington v. Trump][ca9-wa-v-trump]
+        - [USA's motion for emergency administrative stay][ca9-wa-v-trump-motion-emergency-stay]
+        - [Order denying motion for emergency administrative stay][ca9-wa-v-trump-order-emergency-stay]
+        - [Amicus brief by technology companies][ca9-wa-v-trump-tech-amicus]
+        - Amicus brief by law professors and clinicians
+
+### District Courts
 
 - District of Massachusetts (1st Cir.)
     - [Louhghalam v. Trump][louhghalam] (case no. 17-cv-10154)
@@ -41,6 +52,7 @@ On January 27, 2017, President Trump signed an [Executive Order titled "Protecti
     - [Doe v. Trump][doe] (case no. 2:17-cv-126) --- Voluntarily dismissed
     - [Washington v. Trump][wa-v-trump] (case no. 2:17-cv-00141)
         - [Amended Complaint][wa-v-trump-amended-complaint]
+        - **[Temporary Restraining Order][wa-v-trump-tro] --- Nationwide restraining order against Executive Order**
 
 ## Updating Dockets
 
@@ -71,6 +83,10 @@ These searches are imperfect and underinclusive, but they're a start toward find
 
 [eo-pdf]: {filename}/pdf/EO-2017-02281.pdf
 [recap]: https://www.courtlistener.com/recap/
+[ca9-wa-v-trump]: https://www.courtlistener.com/docket/4580611/state-of-washington-v-donald-j-trump/
+[ca9-wa-v-trump-motion-emergency-stay]: https://www.courtlistener.com/recap/gov.uscourts.ca9.17-35105.14.0.pdf
+[ca9-wa-v-trump-order-emergency-stay]: https://www.courtlistener.com/recap/gov.uscourts.ca9.17-35105.15.0.pdf
+[ca9-wa-v-trump-tech-amicus]: https://upload.wikimedia.org/wikipedia/foundation/e/e4/Amicus_curiae_brief_of_Tech_Companies_%26_Orgs%2C_Washington_v._Trump.pdf
 [louhghalam]: https://ia801505.us.archive.org/28/items/gov.uscourts.mad.186429/gov.uscourts.mad.186429.docket.html
 [louhghalam-tro]: https://ia801505.us.archive.org/28/items/gov.uscourts.mad.186429/gov.uscourts.mad.186429.6.0.pdf
 [darweesh]: https://ia601501.us.archive.org/18/items/gov.uscourts.nyed.396475/gov.uscourts.nyed.396475.docket.html
@@ -90,6 +106,7 @@ These searches are imperfect and underinclusive, but they're a start toward find
 [doe]: https://www.courtlistener.com/docket/4577105/doe-1-v-trump/
 [wa-v-trump]: https://ia601500.us.archive.org/1/items/gov.uscourts.wawd.241761/gov.uscourts.wawd.241761.docket.html
 [wa-v-trump-amended-complaint]: https://ia601500.us.archive.org/1/items/gov.uscourts.wawd.241761/gov.uscourts.wawd.241761.18.0.pdf
+[wa-v-trump-tro]: http://www.archive.org/download/gov.uscourts.wawd.241761/gov.uscourts.wawd.241761.52.0.pdf
 [doe-ilnd]: https://www.courtlistener.com/docket/4577005/doe-v-trump/
 [alhomssi]: https://www.courtlistener.com/docket/4578561/al-homssi-v-trump/
 [ext]: {filename}/pages/recap.md
