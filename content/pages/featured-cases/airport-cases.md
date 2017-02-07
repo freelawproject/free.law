@@ -15,9 +15,23 @@ On January 27, 2017, President Trump signed an [Executive Order titled "Protecti
     - [Washington v. Trump][ca9-wa-v-trump]
         - [USA's motion for emergency administrative stay][ca9-wa-v-trump-motion-emergency-stay]
         - [Order denying motion for emergency administrative stay][ca9-wa-v-trump-order-emergency-stay]
+        - [States' Response to Government's motion to stay][ca9-wa-v-trump-wa-response]
+        - [USA's reply brief][ca9-wa-v-trump-reply]
         - [Amicus brief by technology companies][ca9-wa-v-trump-tech-amicus]
         - [Amicus brief by law professors and clinicians][ca9-wa-v-trump-profs-amicus]
         - [Amicus brief by Fred T. Korematsu Center][ca9-wa-v-trump-korematsu-amicus]
+        - [Amicus brief by ACLU and ACLU-Washington][ca9-wa-v-trump-aclu]
+        - [Amicus brief by Americans United for Separation of Church and State and Southern Poverty Law Center][ca9-wa-v-trump-auscs-splc]
+        - [Amicus brief by HIAS][ca9-wa-v-trump-hias]
+        - [Amicus brief by 15 states and DC][ca9-wa-v-trump-15-states-dc]
+        - [Amicus brief by Constitutional law scholars][ca9-wa-v-trump-profs-constitutional]
+        - [Amicus brief by Anti-Defamation League][ca9-wa-v-trump-adl]
+        - [Amicus brief by Service Employees International Union (SEIU)][ca9-wa-v-trump-seiu]
+        - [Amicus brief by National Immigrant Justice Center and ASISTA][ca9-wa-v-trump-nijc]
+        - [Amicus brief by law professors on standing][ca9-wa-v-trump-profs-standing]
+        - [Amicus brief by US Justice Foundation and 10 other organizations][ca9-wa-v-trump-usjf]
+        - [Amicus brief by Washington State Labor Council][ca9-wa-v-trump-wslc]
+
 
 ### District Courts
 
@@ -91,6 +105,19 @@ These searches are imperfect and underinclusive, but they're a start toward find
 [ca9-wa-v-trump-tech-amicus]: https://upload.wikimedia.org/wikipedia/foundation/e/e4/Amicus_curiae_brief_of_Tech_Companies_%26_Orgs%2C_Washington_v._Trump.pdf
 [ca9-wa-v-trump-profs-amicus]: https://app.box.com/s/tfr4vegkjwnngkl06zet8rs9s1611ib1
 [ca9-wa-v-trump-korematsu-amicus]: https://app.box.com/s/wtkwhxwvqejd6ft5x8kidwuq604fbr3l
+[ca9-wa-v-trump-wa-response]: https://www.courtlistener.com/recap/gov.uscourts.ca9.17-35105.28.1.pdf
+[ca9-wa-v-trump-aclu]: http://cdn.ca9.uscourts.gov/datastore/general/2017/02/06/17-35105%20Amicus%20ACLU.pdf
+[ca9-wa-v-trump-auscs-splc]: http://cdn.ca9.uscourts.gov/datastore/general/2017/02/06/17-35105%20Amicus%20Americans%20United%20for%20Separation%20of%20Church%20and%20State;%20S.%20Poverty%20Law%20Ctr.pdf
+[ca9-wa-v-trump-hias]: http://cdn.ca9.uscourts.gov/datastore/general/2017/02/06/17-35105%20Amicus%20HIAS.pdf
+[ca9-wa-v-trump-15-states-dc]: https://oag.ca.gov/system/files/attachments/press_releases/washington_v_trump.states_amicus_memo_of_law_in_support_of_appellees-1.pdf?
+[ca9-wa-v-trump-profs-constitutional]: http://cdn.ca9.uscourts.gov/datastore/general/2017/02/06/17-35105%20Constitutional%20Scholars%20Motion%20and%20Brief.pdf
+[ca9-wa-v-trump-adl]: http://cdn.ca9.uscourts.gov/datastore/general/2017/02/06/17-35105%20Anti%20Defamation%20League%20Amicus%20Brief.pdf
+[ca9-wa-v-trump-seiu]: http://cdn.ca9.uscourts.gov/datastore/general/2017/02/06/17-35105%20SEIU%20Amicus%20Motion%20and%20Brief.pdf
+[ca9-wa-v-trump-nijc]: http://cdn.ca9.uscourts.gov/datastore/general/2017/02/06/17-35105%20Natl%20Immigrant%20Justice%20Ctr%20ASISTA%20Amicus%20Motion%20and%20Brief.pdf
+[ca9-wa-v-trump-profs-standing]: http://cdn.ca9.uscourts.gov/datastore/general/2017/02/06/17-35105%20Additional%20Law%20Professors%20Amicus%20Motion%20and%20Brief.pdf
+[ca9-wa-v-trump-usjf]: http://cdn.ca9.uscourts.gov/datastore/general/2017/02/06/17-35105%20U.S.%20Justice%20Foundation%20Citizens%20United%20et%20al%20Amicus%20Motion%20and%20Brief.pdf
+[ca9-wa-v-trump-wslc]: http://cdn.ca9.uscourts.gov/datastore/general/2017/02/06/17-35105%20Washington%20State%20Labor%20Council%20Amicus%20Motion%20and%20Brief.pdf
+[ca9-wa-v-trump-reply]: http://cdn.ca9.uscourts.gov/datastore/general/2017/02/06/17-35105%20reply%20in%20support%20of%20stay.pdf
 [louhghalam]: https://ia801505.us.archive.org/28/items/gov.uscourts.mad.186429/gov.uscourts.mad.186429.docket.html
 [louhghalam-tro]: https://ia801505.us.archive.org/28/items/gov.uscourts.mad.186429/gov.uscourts.mad.186429.6.0.pdf
 [darweesh]: https://ia601501.us.archive.org/18/items/gov.uscourts.nyed.396475/gov.uscourts.nyed.396475.docket.html
