@@ -80,6 +80,7 @@ These searches are imperfect and underinclusive, but they're a start toward find
 - [Civil Rights Challenges to President Trump's Executive Orders on Immigration and Refugees](https://www.clearinghouse.net/featuredCase.php?id=40) at the University of Michigan's Civil Rights Litigation Clearinghouse; more information in its [Special Collection](https://www.clearinghouse.net/results.php?searchSpecialCollection=44)
 - [Four states sue Trump administration over 'un-American' travel ban](https://www.theguardian.com/us-news/2017/jan/31/trump-travel-ban-state-lawsuits) at The Guardian (January 31, 2017)
 - [Two lawsuits in Chicago challenge Trump travel ban](http://www.chicagotribune.com/news/local/breaking/ct-trump-travel-ban-chicago-lawsuit-met-20170131-story.html?shr=t) at Chicago Tribune (January 31, 2017)
+- [Washington v. Trump (No. 17–35105): the Administration’s Attempt to Undo a District Court Stay of the #MuslimBan](https://medium.com/@mattytang/washington-v-trump-no-17-35105-76f235ff6df0#.jvor3b77r) by Matt Tang
 
 
 [eo-pdf]: {filename}/pdf/EO-2017-02281.pdf
