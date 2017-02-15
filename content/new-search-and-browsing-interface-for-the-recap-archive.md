@@ -5,7 +5,7 @@ Tags: RECAP Archive, RECAP
 Slug: new-search-and-browsing-interface-for-the-recap-archive
 Status: published
 
-<p class="bg-danger alert"><strong>Update</strong>: We wound down this version of the archive, but we <a href="https://free.law/slug-to-the-new-place">replaced it with something <em>much</em> better</a>.</p>
+<p class="bg-danger alert"><strong>Update</strong>: We wound down this version of the archive, but we <a href="/2016/11/22/free-law-project-re-launches-recap-archive-a-new-search-tool-for-pacer-dockets-and-documents/">replaced it with something <em>much</em> better</a>.</p>
 
 One of the most-requested RECAP features is a better web interface to
 the archive. Today we're releasing an experimental system for searching
