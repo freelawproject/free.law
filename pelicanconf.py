@@ -79,14 +79,14 @@ PLUGINS = [
 SITEMAP = {
     'format': 'xml',
     'priorities': {
-        'articles': 0.7,
+        'articles': 0.6,
         'indexes': 0.4,
-        'pages': 0.6
+        'pages': 0.7
     },
     'changefreqs': {
-        'articles': 'monthly',
+        'articles': 'weekly',
         'indexes': 'daily',
-        'pages': 'monthly'
+        'pages': 'weekly',
     }
 }
 
