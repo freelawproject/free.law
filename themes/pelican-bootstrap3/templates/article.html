@@ -46,6 +46,12 @@
     {% endif %}
 {% endblock %}
 
+{% block block_search %}
+    {% if article.private == "True" %}
+        <meta name="robots" content="noindex, noodp, noarchive, noimageindex"/>
+    {% endif %}
+{% endblock %}
+
 {% block canonical_rel %}
 <link rel="canonical" href="{{ SITEURL }}/{{ article.url }}">
 {% endblock %}

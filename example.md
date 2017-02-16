@@ -5,6 +5,7 @@ Modified: (Optional)
 Tags:
 Summary:
 Status: Draft
+Private: True/False
 
 
 An image:
