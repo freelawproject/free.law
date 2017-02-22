@@ -32,8 +32,16 @@ In addition to data requests, we are also open to working on projects with a com
 Getting started is very easy. Just [send us a brief email][c] with what you need. If it's something complicated, we'll arrange a call to talk. If not, we can often just start the work immediately. Many projects can be completed the same day they are requested.
 
 
-### Your Logo Here
+### Past Clients
 
-We are presently offering discounts for reputable organizations that can endorse this service with their logo. Let us know if this interests you when you get in touch.
+<div class="row">
+    <div class="col-xs-3">
+            <a href="https://empiricalscotus.com/">
+                <img src="{filename}/images/services-logos/empirical-scotus.png"
+                     alt="Empirical Scotus Logo"
+                     class="img-responsive border">
+            </a>
+    </div>
+</div>
 
 [c]: {filename}/pages/contact.md
