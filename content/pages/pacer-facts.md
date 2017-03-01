@@ -20,7 +20,7 @@ For uploads, there is only [information for uploading bankruptcy files][bank].
 
 There's a variety of information that you can find on the [list of courts on the PACER site, if you click the little information icon&nbsp;<i class="fa fa-info-circle"></i>][court-list]. We've taken some of this information and built a simple [JSON][json] or [HTML website][html] with it, so it's all in one place. 
 
-Included in that information is the "Go Live Date" for each jurisdiction, but some jurisdictions have cases going back much further. Our understanding is that the older cases in PACER were put in manually, so the quality of the data is poor and the coverage is incomplete. However, you can get a [list of all the earliest cases at this link][earliest]. 
+Included in that information is the "Go Live Date" for each jurisdiction, but some jurisdictions have cases going back much further. Our understanding is that the older cases in PACER were put in manually, so the quality of the data is poor and the coverage is incomplete. However, you can get a list of all the earliest cases [at this link][earliest] or [as a spreadsheet][earliest-csv]. 
 
 
 ### How much money does PACER bring in each year?
@@ -71,6 +71,7 @@ The second source is an article ([webpage][journal-web]/[pdf][journal-pdf]) in t
 [json]: https://court-version-scraper.herokuapp.com/courts.json
 [html]: https://court-version-scraper.herokuapp.com/
 [earliest]: https://pcl.uscourts.gov/courts
+[earliest-csv]: {filename}/xlsx/pacer-start-end-dates.xlsx
 [revenue]: {filename}/pacer-revenue.md
 [journal-pdf]: {filename}/pdf/179-594-1-PB.pdf
 [journal-web]: http://www.iacajournal.org/articles/abstract/10.18352/ijca.179/
