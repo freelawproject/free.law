@@ -63,6 +63,17 @@ The second source is an article ([webpage][journal-web]/[pdf][journal-pdf]) in t
  
 [It seems so][nara], but to our knowledge nothing has ever been transferred. More investigation is likely needed on this topic.
 
+
+### Are there PACER/ECF sites where I can poke around, experiment, and try things?
+
+Yes! There are two PACER sites that we know about that have content and do not charge for usage:
+
+ - [The official PACER training website][train]
+ - [A training website maintained by the Court of International Trade][cit-train]
+ 
+The CIT training site also allows you to practice ECF filings if you have an ECF account.
+  
+
 [c]: {filename}/pages/contact.md
 [api-docs]: {filename}/pdf/PACER-API-Documentation.pdf
 [billion]: {filename}/pacer-billion-documents.md
@@ -79,3 +90,5 @@ The second source is an article ([webpage][journal-web]/[pdf][journal-pdf]) in t
 [xml]: https://www.pacer.gov/documents/pacer_xml_apv3.1.pdf
 [nara]: {filename}/pdf/N1-021-10-2.pdf
 [declaration]: https://www.courtlistener.com/docket/4214664/13/2/national-veterans-legal-services-program-v-united-states/
+[train]: https://dcecf.psc.uscourts.gov/cgi-bin/ShowIndex.pl
+[cit-train]: https://ecf-train.cit.uscourts.gov/cgi-bin/login.pl
