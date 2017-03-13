@@ -2,8 +2,6 @@ Title: Parties, Attorneys, and Firms are Now Searchable in the RECAP Archive
 Author: mlissner
 Date: 2017-03-02
 Tags: RECAP Archive, PACER, search
-Status: Draft
-Private: True
 
 <div class="right-image">
     <a href="https://www.courtlistener.com/recap/">
@@ -13,7 +11,7 @@ Private: True
     </a>
 </div>
 
-We're thrilled to announce that today we are launching party, attorney, and firm search for the [RECAP Archive of PACER documents][archive]. This unlocks powerful new ways to do your research. 
+Today we are launching party, attorney, and firm search for the [RECAP Archive of PACER documents][archive]. This unlocks powerful new ways to do your research. 
 
 For example, consider the following queries:
  
@@ -28,7 +26,7 @@ Click any of the above queries to see how they were made.
 
 To use this new feature, type the name of the party or attorney into the fields on the [RECAP Archive homepage][archive] or in the sidebar to the left of any search results. These boxes also accept [advanced query syntax][adv], and there are several new fields that can be queried from the main search box including `party`, `attorney`, and `firm`. 
 
-For example, in the main box you can search for [attorney:"eric holder"~2 firm:covington][holder]. This query shows the cases where Eric Holder was an attorney (with or without his middle name) while he was in private practice at Covington & Burling.
+For example, in the main box you can search for [attorney:"eric holder"~2 firm:covington][holder]. This query shows the cases where the attorney has the word "Eric" within two words of "Holder" (thus allowing his middle name) which were handled at the firm "Covington & Burling".
 
 <div class="left-image">
     <a href="https://www.courtlistener.com/?q=attorney%3A%22eric+holder%22~2+firm%3Acovington&type=r&order_by=score+desc">
@@ -42,7 +40,7 @@ For example, in the main box you can search for [attorney:"eric holder"~2 firm:c
 
 Adding this capability to the RECAP Archive has been a challenging process, including extracting the data, normalizing it appropriately, and making it searchable. As usual, in addition to making this feature available on our website, it will also be available via our APIs and bulk data. 
 
-We're very proud to be sharing this today and we can't wait to see how it is used.
+We're proud to be sharing this today and we can't wait to see how it is used.
 
 
 [archive]: https://www.courtlistener.com/recap/
