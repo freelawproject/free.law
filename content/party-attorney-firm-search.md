@@ -1,6 +1,6 @@
 Title: Parties, Attorneys, and Firms are Now Searchable in the RECAP Archive 
 Author: mlissner
-Date: 2017-03-02
+Date: 2017-03-13
 Tags: RECAP Archive, PACER, search
 
 <div class="right-image">
