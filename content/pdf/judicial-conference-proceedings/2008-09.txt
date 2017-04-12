@@ -1,0 +1,2444 @@
+R EPORT OF THE P ROCEEDINGS
+OF THE J UDICIAL C ONFERENCE
+OF THE U NITED S TATES
+
+
+
+
+SEPTEMBER 16, 2008
+WASHINGTON, D.C.
+
+JUNE 17, 2008
+SPECIAL SESSION
+
+
+
+
+JUDICIAL CONFERENCE OF THE UNITED STATES
+CHIEF JUSTICE JOHN G. ROBERTS, JR.,
+PRESIDING
+JAMES C. DUFF, SECRETARY
+R EPORT OF THE P ROCEEDINGS
+OF THE J UDICIAL C ONFERENCE
+OF THE U NITED S TATES
+
+
+
+
+SEPTEMBER 16, 2008
+WASHINGTON, D.C.
+
+JUNE 17, 2008
+SPECIAL SESSION
+R EPORT OF THE P ROCEEDINGS
+OF THE J UDICIAL C ONFERENCE
+OF THE U NITED S TATES
+
+September 16, 2008
+
+     Contents
+
+     Call of the Conference . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 1
+     Reports . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 4
+     Executive Committee . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 4
+             Resolutions . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 4
+             Senior District Judge Participation in Court Governance . . . . . . . . . . . 5
+             Miscellaneous Actions . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 6
+     Committee on the Administrative Office . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 7
+             Committee Activities . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 7
+     Committee on the Administration of the Bankruptcy System . . . . . . . . . . . . . . 8
+             Committee Activities . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 8
+     Committee on the Budget . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 8
+             Fiscal Year 2010 Budget Request . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 8
+             Capital Investment Fund . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 8
+             Committee Activities . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 9
+     Committee on Codes of Conduct . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 9
+             Committee Activities . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 9
+     Committee on Court Administration and Case Management . . . . . . . . . . . . . 10
+             Courtroom Usage Study . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 10
+             Senior District Judge Participation in Court Governance . . . . . . . . . . 11
+             Miscellaneous Fees . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 12
+             District of North Dakota . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 17
+             Data Transfer to Bankruptcy Case Trustees . . . . . . . . . . . . . . . . . . . . . 17
+             Records Disposition Schedule for Electronic Case Files . . . . . . . . . . . 17
+             Committee Activities . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 18
+     Committee on Criminal Law . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 18
+             Committee Activities . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 18
+     Committee on Defender Services . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 19
+             Case-Budgeting Pilot Project . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 19
+             Committee Activities . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 19
+     Committee on Federal-State Jurisdiction . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 19
+             Committee Activities . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 19
+Committee on Financial Disclosure . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 20
+      Committee Activities . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 20
+Committee on Information Technology . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 20
+      Long Range Plan for Information Technology . . . . . . . . . . . . . . . . . . 20
+      Committee Activities . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 21
+Committee on Intercircuit Assignments . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 21
+      Committee Activities . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 21
+Committee on International Judicial Relations . . . . . . . . . . . . . . . . . . . . . . . . 21
+      Committee Activities . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 21
+Committee on the Judicial Branch . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 22
+      Judicial Survivors’ Annuities System . . . . . . . . . . . . . . . . . . . . . . . . . 22
+      Judges’ Travel Regulations . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 22
+      Committee Activities . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 23
+Committee on Judicial Conduct and Disability . . . . . . . . . . . . . . . . . . . . . . . . 23
+      Committee Activities . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 23
+Committee on Judicial Resources . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 24
+      Staffing Formulas . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 24
+      Two-Percent Productivity Adjustment . . . . . . . . . . . . . . . . . . . . . . . . . 24
+      Pro Se Law Clerks . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 24
+      Court Personnel System . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 25
+      Staff Court Interpreter Positions . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 26
+      Type II Deputies . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 27
+      Alternative Dispute Resolution . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 27
+      Entry and Exit Surveys . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 28
+      Human Resources Legislation . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 28
+      Committee Activities . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 28
+Committee on Judicial Security . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 29
+      Committee Activities . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 29
+Committee on the Administration of the Magistrate Judges System . . . . . . . . 29
+      Senior District Judge Participation in Court Governance . . . . . . . . . . 29
+      Changes in Magistrate Judge Positions . . . . . . . . . . . . . . . . . . . . . . . . 30
+      Accelerated Funding . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 33
+      Committee Activities . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 33
+Committee on Rules of Practice and Procedure . . . . . . . . . . . . . . . . . . . . . . . . 34
+      Time Computation Project . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 34
+      Federal Rules of Appellate Procedure . . . . . . . . . . . . . . . . . . . . . . . . . 35
+      Federal Rules of Bankruptcy Procedure . . . . . . . . . . . . . . . . . . . . . . . . 35
+      Federal Rules of Civil Procedure . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 36
+      Federal Rules of Criminal Procedure . . . . . . . . . . . . . . . . . . . . . . . . . . 36
+      Committee Activities . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 36
+Committee on Space and Facilities . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 37
+      Circuit Rent Budget Allotments - Component B Projects . . . . . . . . . . 37
+      Committee Activities . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 38
+Funding . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 38
+R EPORT OF THE P ROCEEDINGS
+OF THE J UDICIAL C ONFERENCE
+OF THE U NITED S TATES
+
+
+September 16, 2008
+
+
+                     The Judicial Conference of the United States convened in Washington,
+             D.C., on September 16, 2008, pursuant to the call of the Chief Justice of the
+             United States issued under 28 U.S.C. § 331. The Chief Justice presided, and
+             the following members of the Conference were present:
+
+                     First Circuit:
+
+                                 Chief Judge Sandra L. Lynch
+                                 Judge Ernest C. Torres,
+                                        District of Rhode Island
+
+                     Second Circuit:
+
+                                 Chief Judge Dennis Jacobs
+                                 Chief Judge William K. Sessions III,
+                                        District of Vermont
+
+                     Third Circuit:
+
+                                 Chief Judge Anthony J. Scirica
+                                 Chief Judge Garrett E. Brown, Jr.,
+                                        District of New Jersey
+
+                     Fourth Circuit:
+
+                                 Chief Judge Karen J. Williams
+                                 Chief Judge James P. Jones,
+                                        Western District of Virginia
+Judicial Conference of the United States                                            September 16, 2008
+
+                               Fifth Circuit:
+
+                                           Chief Judge Edith Hollan Jones1
+                                           Judge Sim Lake,
+                                                  Southern District of Texas
+
+                               Sixth Circuit:
+
+                                           Chief Judge Danny J. Boggs
+                                           Judge Thomas M. Rose,
+                                                  Southern District of Ohio
+
+                               Seventh Circuit:
+
+                                           Chief Judge Frank H. Easterbrook
+                                           Judge Wayne R. Andersen,
+                                                  Northern District of Illinois
+
+                               Eighth Circuit:
+
+                                           Chief Judge James B. Loken
+                                           Judge Lawrence L. Piersol,
+                                                  District of South Dakota
+
+                               Ninth Circuit:
+
+                                           Judge Sidney R. Thomas2
+                                           Judge Charles R. Breyer,
+                                                  Northern District of California
+
+                               Tenth Circuit:
+
+                                           Chief Judge Robert H. Henry
+                                           Judge Alan B. Johnson,
+                                                  District of Wyoming
+
+
+
+             1
+              Due to a weather emergency, Chief Judge Jones and Judge Lake participated by
+             telephone.
+             2
+                 Designated by the Chief Justice.
+
+                                                               2
+Judicial Conference of the United States                                              September 16, 2008
+
+                                Eleventh Circuit:
+
+                                           Chief Judge J. L. Edmondson
+                                           Judge Myron H. Thompson,
+                                                  Middle District of Alabama
+
+                                District of Columbia Circuit:
+
+                                           Chief Judge David Bryan Sentelle
+                                           Chief Judge Royce C. Lamberth,
+                                                  District of Columbia
+
+                                Federal Circuit:
+
+                                           Chief Judge Paul R. Michel
+
+                                Court of International Trade:
+
+                                           Chief Judge Jane A. Restani
+
+                               The following Judicial Conference committee chairs or chair
+                       substitutes attended the Conference session: Circuit Judges Arthur J. Gajarsa,
+                       Julia Smith Gibbons, Roger L. Gregory, M. Margaret McKeown, Carl
+                       E. Stewart, and Richard C. Tallman, and District Judges Joseph F. Bataillon,
+                       Julie E. Carnes, Dennis M. Cavanaugh, John Gleeson, Janet C. Hall, Robert
+                       L. Hinkle, D. Brock Hornby, Henry E. Hudson, Mark R. Kravitz, Barbara
+                       M.G. Lynn, J. Frederick Motz, Gordon J. Quist, Lee H. Rosenthal,3 George
+                       Z. Singal, Ortrie D. Smith, Laura Taylor Swain, John R. Tunheim, and
+                       Thomas I. Vanaskie. Bankruptcy Judge David S. Kennedy and Magistrate
+                       Judge Robert B. Collings were also in attendance. Millie Adams of the Eighth
+                       Circuit represented the circuit executives.
+
+                               James C. Duff, Director of the Administrative Office of the United
+                       States Courts, attended the session of the Conference, as did Jill C. Sayenga,
+                       Deputy Director; William R. Burchill, Jr., Associate Director and General
+                       Counsel; Laura C. Minor, Assistant Director, and Wendy Jennis, Deputy
+                       Assistant Director, Judicial Conference Executive Secretariat; Cordia
+
+
+
+
+              3
+                  Due to a weather emergency, Judge Rosenthal participated by telephone.
+
+                                                                3
+Judicial Conference of the United States                                            September 16, 2008
+
+                      A. Strom, Assistant Director, Legislative Affairs; and David A. Sellers,
+                      Assistant Director, Public Affairs. District Judge Barbara Jacobs Rothstein,
+                      Director, and John S. Cooke, Deputy Director, Federal Judicial Center, and
+                      District Judge Ricardo H. Hinojosa, Chair, and Judith W. Sheon, Staff
+                      Director, United States Sentencing Commission, were in attendance at the
+                      session of the Conference, as was Jeffrey P. Minear, Administrative Assistant
+                      to the Chief Justice. Scott Harris, Supreme Court Counsel, and the 2008-2009
+                      Supreme Court Fellows also observed the Conference proceedings.
+
+                             Attorney General Michael B. Mukasey addressed the Conference on
+                      matters of mutual interest to the judiciary and the Department of Justice.
+                      Senators Patrick Leahy, Arlen Specter, and Jeff Sessions and Representative
+                      John Conyers, Jr., spoke on matters pending in Congress of interest to the
+                      Conference.
+
+
+             R EPORTS
+                              Mr. Duff reported to the Conference on the judicial business of the
+                      courts and on matters relating to the Administrative Office (AO). Judge
+                      Rothstein spoke to the Conference about Federal Judicial Center (FJC)
+                      programs, and Judge Hinojosa reported on United States Sentencing
+                      Commission activities. Judge Hornby, Chair of the Committee on the Judicial
+                      Branch, presented a report on the judicial salary restoration initiative, and
+                      Judge Gibbons, Chair of the Committee on the Budget, presented a report on
+                      judiciary appropriations and other budget matters.
+
+
+             E XECUTIVE C OMMITTEE
+
+                      RESOLUTION
+
+                              The Judicial Conference approved a recommendation of the Executive
+                      Committee to adopt the following resolution recognizing the substantial
+                      contributions made by the Judicial Conference committee chairs whose terms
+                      of service end in 2008:
+
+                                    The Judicial Conference of the United States recognizes
+                               with appreciation, respect, and admiration the following
+                               judicial officers:
+
+
+
+                                                             4
+Judicial Conference of the United States                                               September 16, 2008
+
+                                              HONORABLE GORDON J. QUIST
+                                                Committee on Codes of Conduct
+
+                                               HONORABLE JOHN GLEESON
+                                                Committee on Defender Services
+
+                                              HONORABLE ORTRIE D. SMITH
+                                               Committee on Financial Disclosure
+
+                                           HONORABLE THOMAS I. VANASKIE
+                                            Committee on Information Technology
+
+                                           HONORABLE ROYCE C. LAMBERTH
+                                            Committee on Intercircuit Assignments
+
+                                             HONORABLE ROBERT H. HENRY
+                                           Committee on International Judicial Relations
+
+                                             HONORABLE DAVID B. SENTELLE
+                                                Committee on Judicial Security
+
+                                     Appointed as committee chairs by the Chief Justice of the
+                                United States, these outstanding jurists have played a vital role
+                                in the administration of the federal court system. These judges
+                                served with distinction as leaders of their Judicial Conference
+                                committees while, at the same time, continuing to perform their
+                                duties as judges in their own courts. They have set a standard
+                                of skilled leadership and earned our deep respect and sincere
+                                gratitude for their innumerable contributions. We acknowledge
+                                with appreciation their commitment and dedicated service to
+                                the Judicial Conference and to the entire federal judiciary.
+
+
+                       SENIOR DISTRICT JUDGE PARTICIPATION
+                       IN COURT GOVERNANCE
+
+                               The Court Security Improvement Act of 2007 (Pub. L. No. 110-177),
+                       enacted in January 2008, contained two provisions that expand the role in
+                       court governance of district court judges who take senior status under
+                       28 U.S.C. § 371(b). However, the provisions differ on whether these judges
+                       must meet a workload requirement in order to exercise a statutory right to
+                       participate in the selection of magistrate judges. Noting the confusion in the
+
+                                                                5
+Judicial Conference of the United States                                              September 16, 2008
+
+                      courts caused by the contradictory provisions, and the need for expeditious
+                      resolution of the discrepancy before the 110th Congress adjourns, the
+                      Committee on Court Administration and Case Management asked the
+                      Executive Committee to approve on behalf of the Conference a
+                      recommendation that the Conference seek repeal of section 504, which does
+                      not contain a workload requirement. The Executive Committee approved the
+                      recommendation. (See also infra, “Senior Judge Participation in Court
+                      Governance,” pp. 11-12; 29-30.)
+
+
+                      MISCELLANEOUS ACTIONS
+
+                               The Executive Committee —
+
+                      •        Approved, on behalf of the Judicial Conference and on
+                               recommendation of the Committee on Court Administration and Case
+                               Management and the Committee on Information Technology, an
+                               annual report to Congress on deferred court compliance with section
+                               205 of the E-Government Act of 2002, and authorized transmittal of
+                               that report to Congress as specified in the Act;
+
+                      •        On recommendation of the Committee on the Administration of the
+                               Magistrate Judges System and on behalf of the Conference, authorized
+                               an additional full-time and an additional part-time magistrate judge
+                               position for the District of Arizona and accelerated funding for the
+                               positions to help address a dramatic caseload increase related to
+                               enhanced immigration enforcement;
+
+                      •        Approved on behalf of the Conference a recommendation of the Space
+                               and Facilities Committee that the Cedar Rapids, Iowa courthouse
+                               construction project be designated a judicial space emergency and that
+                               the General Services Administration be encouraged not to expend
+                               significant money to remediate for re-occupancy by the court the old
+                               courthouse, which has been severely damaged by flooding;
+
+                      •        Pending congressional action on the judiciary’s appropriations for the
+                               next fiscal year, approved fiscal year (FY) 2009 interim financial plans
+                               for the Salaries and Expenses, Defender Services, Court Security, and
+                               Fees of Jurors and Commissioners accounts and endorsed a strategy
+                               for distributing court allotments among the court programs;
+
+
+
+                                                              6
+Judicial Conference of the United States                                               September 16, 2008
+
+                        •       Established a short-term ad hoc advisory committee to take the first
+                                steps in reviewing the judiciary’s long-range planning process;
+
+                        •       Agreed to a request of the Chair of the Committee on Rules of Practice
+                                and Procedure to recommend to the Chief Justice that the Civil Rules
+                                Advisory Committee be expanded to include an additional Article III
+                                judge and that a district judge slot on the Bankruptcy Rules Advisory
+                                Committee be converted to a slot for a private-sector attorney;4
+
+                        •       Endorsed revised attorney admission fund guidelines that incorporate
+                                updates and clarifications and asked the Administrative Office to
+                                promulgate them, and referred two suggested policy changes to the
+                                guidelines to the Committee on Court Administration and Case
+                                Management for its consideration; and
+
+                        •       Asked the Committee on Court Administration and Case Management
+                                to take the lead, in consultation with other interested committees, on a
+                                study of the impact on court space of streamlining court operations and
+                                processes through the use of technology or other means.
+
+
+              C OMMITTEE ON THE A DMINISTRATIVE O FFICE
+
+                        COMMITTEE ACTIVITIES
+
+                                The Committee on the Administrative Office reported that it received
+                        an extensive briefing on the AO’s audit and investigations responsibilities.
+                        The Committee emphasized that conducting thorough and comprehensive
+                        financial audits and ensuring that corrective actions are taken to address any
+                        noted deficiencies are critical functions of the AO. The Committee also
+                        reported that it reviewed and endorsed a proposal to revise the Administrative
+                        Office’s advisory process. In addition, after reviewing nominations submitted
+                        by judges, court managers, and AO managers, the Committee selected three
+                        AO employees to receive the Leonidas Ralph Mecham Award for Exemplary
+                        Service to the Courts.
+
+
+
+
+              4
+                  The Chief Justice subsequently approved the request.
+
+                                                               7
+Judicial Conference of the United States                                              September 16, 2008
+
+
+             C OMMITTEE ON THE A DMINISTRATION
+             OF THE B ANKRUPTCY S YSTEM
+
+                      COMMITTEE ACTIVITIES
+
+                              The Bankruptcy Committee reported that it considered a
+                      recommendation of its Subcommittee on Judgeships regarding the continued
+                      need for existing bankruptcy judgeships. It also endorsed the proposed new
+                      staffing formula for bankruptcy clerks’ offices approved by the Judicial
+                      Conference at this session (see infra, “Staffing Formulas,” p. 24), and voted to
+                      recommend to the Budget Committee that funding in FY 2010 remain at the
+                      FY 2009 adjusted current services levels for the three areas within the
+                      Bankruptcy Committee’s jurisdiction. In addition, the Committee received
+                      status reports from its members who serve in liaison roles to other Conference
+                      committees on law clerk recruitment, diversity, work measurement, and
+                      courtroom use study projects.
+
+
+             C OMMITTEE ON THE B UDGET
+
+                      FISCAL YEAR 2010 BUDGET REQUEST
+
+                              After careful consideration of the funding levels proposed by the
+                      program committees, the Committee on the Budget recommended to the
+                      Judicial Conference a fiscal year 2010 budget request to Congress that is 7.4
+                      percent above assumed appropriations for fiscal year 2009. This request is
+                      consistent with the budget caps approved by the Judicial Conference for the
+                      various accounts within the judiciary’s budget. The Conference approved the
+                      budget request subject to amendments necessary as a result of (a) new
+                      legislation, (b) actions of the Judicial Conference, or (c) any other reason the
+                      Executive Committee considers necessary and appropriate.
+
+
+                      CAPITAL INVESTMENT FUND
+
+                              In order to provide courts with greater flexibility in the management of
+                      their resources, the Budget Committee proposed that the Judicial Conference
+                      establish a fund that would allow courts to carry forward moneys saved from a
+                      previous fiscal year to use in future years to fund major and multi-year
+                      projects. In accordance with the Committee’s recommendation, the
+
+
+                                                              8
+Judicial Conference of the United States                                                September 16, 2008
+
+                       Conference agreed to establish a Capital Investment Fund pilot program for a
+                       four-year period beginning in fiscal year 2009, subject to congressional
+                       approval, which would allow participating court units to do the following:
+
+                       a.       Voluntarily return funds for deposit into the Capital Investment Fund
+                                up to a maximum at any given time of $50,000;
+
+                       b.       Utilize funds deposited into the Capital Investment Fund in subsequent
+                                fiscal years, once the Executive Committee has approved the national
+                                Salaries and Expenses financial plan and final allotments have been
+                                transmitted to the courts; and
+
+                       c.       Expend funds deposited into the Capital Investment Fund specifically
+                                for, and limited to, tenant alterations, cyclical facilities maintenance,
+                                non-judicial furniture, capital goods, courtroom technology, and multi-
+                                year contracts for services that enhance major projects and
+                                acquisitions.
+
+
+                       COMMITTEE ACTIVITIES
+
+                               The Committee on the Budget reported that it endorsed changes to the
+                       Cost Control Monitoring System, the funding formula used to issue salary
+                       allotments to the courts. These changes included updating salary baselines,
+                       modifying national average salaries for bankruptcy court and court interpreter
+                       positions, and adding a locality adjustment factor to national average salaries
+                       for courts in high-cost areas. The Committee also discussed the work
+                       measurement process used to develop court staffing formulas and endorsed
+                       updates to the information technology infrastructure and law enforcement
+                       funding formulas.
+
+
+              C OMMITTEE ON C ODES OF C ONDUCT
+
+                       COMMITTEE ACTIVITIES
+
+                               The Committee on Codes of Conduct reported that it continues to
+                       work on revisions to the Code of Conduct for United States Judges for
+                       consideration by the Conference in March 2009. It also indicated that since its
+                       last report to the Judicial Conference in March 2008, the Committee received
+                       39 new written inquiries and issued 37 written advisory responses. During
+
+
+                                                                9
+Judicial Conference of the United States                                                September 16, 2008
+
+                      this period, the average response time for requests was 15 days. In addition,
+                      the Committee chair received and responded to 69 informal inquiries from
+                      colleagues, and individual Committee members responded to 278 such
+                      inquiries.
+
+
+             C OMMITTEE ON C OURT A DMINISTRATION
+             AND C ASE M ANAGEMENT
+
+                      COURTROOM USAGE STUDY
+
+                              In response to a request from Congress, the Court Administration and
+                      Case Management Committee asked the Federal Judicial Center to conduct an
+                      independent and comprehensive study of courtroom use in the district courts.
+                      Based on the findings of this study, the Committee, after consultation with
+                      several other Conference committees, recommended that the Conference adopt
+                      several policy changes with regard to courtroom usage to be applied to new
+                      courthouse construction and to construction of additional courtrooms in
+                      existing buildings. After discussion and in accordance with the Committee’s
+                      recommendations, the Conference agreed to —
+
+                      a.       Direct the Committee on Court Administration and Case Management
+                               – in consultation with the Committee on Space and Facilities – to
+                               develop appropriate regulations for the U.S. Courts Design Guide
+                               regarding the assignment of courtrooms for senior judges to reflect a
+                               policy that provides one courtroom for every two senior judges,
+                               recognizing that the application of this policy for some senior judges
+                               who maintain a high caseload may require closer examination and the
+                               development of a standard, objective, and narrowly tailored exemption
+                               policy.
+
+                      b.       Direct the Committee on Court Administration and Case Management
+                               – in consultation with the Committee on Space and Facilities and the
+                               Committee on the Administration of the Magistrate Judges System – to
+                               develop appropriate regulations for the U.S. Courts Design Guide to
+                               implement a courtroom sharing policy for magistrate judges, balancing
+                               the need to maintain the flexibility afforded to district courts to utilize
+                               magistrate judge resources to meet local needs with the ability to
+                               standardize space planning on a national basis, and ensuring the
+                               efficient use of courtrooms without sacrificing the availability of
+                               immediate access to a courtroom.
+
+
+                                                               10
+Judicial Conference of the United States                                             September 16, 2008
+
+                       c.       Direct the Committee on Court Administration and Case Management
+                                – in consultation with the Committee on Space and Facilities – to
+                                assess the feasibility of, and to develop an appropriate policy
+                                implementing, courtroom sharing among non-senior district judges in
+                                large courthouses (i.e., courthouses with more than ten non-senior
+                                district judges).
+
+                       d.       Direct the Committee on Court Administration and Case Management
+                                to study the usage of bankruptcy courtrooms and, if usage levels so
+                                indicate, develop – in consultation with the Committee on Space and
+                                Facilities and the Committee on the Administration of the Bankruptcy
+                                System – an appropriate sharing policy for bankruptcy courtrooms.
+
+                       e.       Adopt the proposed “Report on the Usage of Federal District Court
+                                Courtrooms” as the position of the Conference and transmit it, in
+                                conjunction with the Federal Judicial Center’s study on courtroom use,
+                                to the House Committee on Transportation and Infrastructure’s
+                                Subcommittee on Economic Development, Public Buildings and
+                                Emergency Management, as an explanation of the Conference’s views
+                                on the FJC’s study.
+
+
+                       SENIOR DISTRICT JUDGE PARTICIPATION
+                       IN COURT GOVERNANCE
+
+                               As previously noted (see supra, “Senior District Judge Participation in
+                       Court Governance,” pp. 5-6), the Court Security Improvement Act of 2007
+                       contains contradictory provisions relating to the statutory right of district
+                       judges who take senior status under 28 U.S.C. § 371(b) to participate in the
+                       selection of magistrate judges. Under section 503 of that Act, these judges
+                       may elect to participate in magistrate judge selection if in the preceding
+                       calendar year they performed an amount of work equal to or greater than the
+                       amount of work an average judge in active service on that court would
+                       perform in six months. Section 504 authorizes senior district judges to
+                       participate in the appointment of magistrate judges without reference to a
+                       workload requirement. As also noted supra, the Executive Committee
+                       authorized seeking legislation to repeal section 504, which does not include a
+                       workload requirement. To assist the courts in implementing the Act despite
+                       the conflicting provisions, the Conference agreed to issue the following
+
+
+
+
+                                                              11
+Judicial Conference of the United States                                                  September 16, 2008
+
+                      guidance recommended by the Court Administration and Case Management
+                      Committee:
+
+                      a.       That the 50 percent workload requirement for senior judges set forth in
+                               section 503 should apply to governance activities (including
+                               appointing magistrate judges) while legislative repeal of section 504 is
+                               being sought; and
+
+                      b.       That the 50 percent workload requirement should be based on the
+                               amount of work actually performed by a senior judge within the
+                               district, but that courts, at their discretion, may include work
+                               performed by the senior judge outside the district to assist courts in
+                               need.
+
+                      See also infra, “Senior District Judge Participation in Court Governance,”
+                      pp. 29-30.
+
+
+                      MISCELLANEOUS FEES
+
+                              In March 2008, the Judicial Conference amended the Bankruptcy
+                      Court Miscellaneous Fee Schedule to clarify and make stylistic changes to fee
+                      items to comport with current editorial standards. No fee amounts were
+                      changed. At this session, on recommendation of the Committee, the
+                      Conference approved similar technical and style revisions to the Court of
+                      Appeals Miscellaneous Fee Schedule and the District Court Miscellaneous
+                      Fee Schedule, which now read as follows:
+
+                                           Court of Appeals Miscellaneous Fee Schedule
+                                            (Issued in accordance with 28 U.S.C. § 1913)
+
+                               The fees included in the Court of Appeals Miscellaneous Fee
+                               Schedule are to be charged for services provided by the courts
+                               of appeals.
+
+                               •           The United States should not be charged fees under this
+                                           schedule, except as prescribed in Items 2, 4, and 5 when
+                                           the information requested is available through remote
+                                           electronic access.
+
+                               •           Federal agencies or programs that are funded from
+                                           judiciary appropriations (agencies, organizations, and
+
+                                                                  12
+Judicial Conference of the United States                                                   September 16, 2008
+
+                                           individuals providing services authorized by the
+                                           Criminal Justice Act, 18 U.S.C. § 3006A, and
+                                           bankruptcy administrators) should not be charged any
+                                           fees under this schedule.
+
+                                (1)        For docketing a case on appeal or review, or docketing
+                                           any other proceeding, $450.
+
+                                           •      Each party filing a notice of appeal pays a
+                                                  separate fee to the district court, but parties
+                                                  filing a joint notice of appeal pay only one fee.
+
+                                           •      There is no docketing fee for an application for
+                                                  an interlocutory appeal under 28 U.S.C.
+                                                  § 1292(b) or other petition for permission to
+                                                  appeal under Fed. R. App. P. 5, unless the
+                                                  appeal is allowed.
+
+                                           •      There is no docketing fee for a direct bankruptcy
+                                                  appeal or a direct bankruptcy cross appeal, when
+                                                  the fee has been collected by the bankruptcy
+                                                  court in accordance with item 14 of the
+                                                  Bankruptcy Court Miscellaneous Fee Schedule.
+
+                                (2)        For conducting a search of the court of appeals records,
+                                           $26 per name or item searched. This fee applies to
+                                           services rendered on behalf of the United States if the
+                                           information requested is available through remote
+                                           electronic access.
+
+                                (3)        For certification of any document, $9.
+
+                                (4)        For reproducing any document, $.50 per page. This fee
+                                           applies to services rendered on behalf of the United
+                                           States if the document requested is available through
+                                           remote electronic access.
+
+                                (5)        For reproducing recordings of proceedings, regardless
+                                           of the medium, $26. This fee applies to services
+                                           rendered on behalf of the United States if the recording
+                                           is available through remote electronic access.
+
+
+
+                                                                  13
+Judicial Conference of the United States                                                    September 16, 2008
+
+                               (6)         For reproducing the record in any appeal in which the
+                                           court of appeals does not require an appendix pursuant
+                                           to Fed. R. App. P. 30(f), $71.
+
+                               (7)         For retrieving a record from a Federal Records Center,
+                                           National Archives, or other storage location removed
+                                           from the place of business of the court, $45.
+
+                               (8)         For a check paid into the court that is returned for lack
+                                           of funds, $45.
+
+                               (9)         For copies of opinions, a fee commensurate with the
+                                           cost of printing, as fixed by each court.
+
+                               (10)        For copies of the local rules of court, a fee
+                                           commensurate with the cost of distributing the copies.
+                                           The court may also distribute copies of the local rules
+                                           without charge.
+
+                               (11)        For filing:
+
+                                           •       Any separate or joint notice of appeal or
+                                                   application for appeal from a bankruptcy
+                                                   appellate panel, $5;
+
+                                           •       A notice of the allowance of an appeal from a
+                                                   bankruptcy appellate panel, $5.
+
+                               (12)        For counsel’s requested use of the court’s
+                                           videoconferencing equipment in connection with each
+                                           oral argument, the court may charge and collect a fee of
+                                           $200 per remote location.
+
+                               (13)        For original admission of an attorney to practice,
+                                           including a certificate of admission, $150. For a
+                                           duplicate certificate of admission or certificate of good
+                                           standing, $15.
+
+
+
+
+                                                                   14
+Judicial Conference of the United States                                                   September 16, 2008
+
+                                            District Court Miscellaneous Fee Schedule
+                                            (Issued in accordance with 28 U.S.C. § 1914)
+
+                                The fees included in the District Court Miscellaneous Fee
+                                Schedule are to be charged for services provided by the district
+                                courts.
+
+                                •          The United States should not be charged fees under this
+                                           schedule, with the exception of those specifically
+                                           prescribed in Items 2, 4 and 5, when the information
+                                           requested is available through remote electronic access.
+
+                                •          Federal agencies or programs that are funded from
+                                           judiciary appropriations (agencies, organizations, and
+                                           individuals providing services authorized by the
+                                           Criminal Justice Act, 18 U.S.C. § 3006A, and
+                                           bankruptcy administrators) should not be charged any
+                                           fees under this schedule.
+
+                                (1)        For filing any document that is not related to a pending
+                                           case or proceeding, $39.
+
+                                (2)        For conducting a search of the district court records,
+                                           $26 per name or item searched. This fee applies to
+                                           services rendered on behalf of the United States if the
+                                           information requested is available through electronic
+                                           access.
+
+                                (3)        For certification of any document, $9. For
+                                           exemplification of any document, $18.
+
+                                (4)        For reproducing any record or paper, $.50 per page.
+                                           This fee applies to paper copies made from either:
+                                           (1) original documents; or (2) microfiche or microfilm
+                                           reproductions of the original records. This fee applies
+                                           to services rendered on behalf of the United States if the
+                                           record or paper requested is available through electronic
+                                           access.
+
+                                (5)        For reproduction of an audio recording of a court
+                                           proceeding, $26. This fee applies to services rendered
+
+
+
+                                                                  15
+Judicial Conference of the United States                                                    September 16, 2008
+
+                                           on behalf of the United States if the recording is
+                                           available electronically.
+
+                               (6)         For each microfiche sheet of film or microfilm jacket
+                                           copy of any court record, where available, $5.
+
+                               (7)         For retrieval of a record from a Federal Records Center,
+                                           National Archives, or other storage location removed
+                                           from the place of business of the court, $45.
+
+                               (8)         For a check paid into the court which is returned for
+                                           lack of funds, $45.
+
+                               (9)         For an appeal to a district judge from a judgment of
+                                           conviction by a magistrate judge in a misdemeanor
+                                           case, $32.
+
+                               (10)        For original admission of an attorney to practice,
+                                           including a certificate of admission, $150. For a
+                                           duplicate certificate of admission or certificate of good
+                                           standing, $15.
+
+                               (11)        For copies of the local rules of court, a fee
+                                           commensurate with the cost of distributing the copies.
+                                           The court may also distribute copies of the local rules
+                                           without charge.
+
+                               (12)        For the handling of registry funds deposited with the
+                                           court, the clerk shall assess a fee from interest earnings
+                                           and in accordance with the detailed fee schedule issued
+                                           by the Director of the Administrative Office of the
+                                           United States Courts.
+
+                               (13)        For filing an action brought under title III of the Cuban
+                                           Liberty and Democratic Solidarity (LIBERTAD) Act of
+                                           1996, Pub. L. No. 104-114, 110 Stat. 785, $5,431. (This
+                                           fee is in addition to the filing fee prescribed in
+                                           28 U.S.C. § 1914(a) for instituting any civil action other
+                                           than a writ of habeas corpus.)
+
+
+
+
+                                                                   16
+Judicial Conference of the United States                                                September 16, 2008
+
+
+
+                       DISTRICT OF NORTH DAKOTA
+
+                               Section 114 of title 28, United States Code, establishes the District of
+                       North Dakota as one judicial district comprised of four divisions, enumerates
+                       the counties within each division, and sets out the places of holding court for
+                       these divisions. In order for the district to have greater flexibility in adjusting
+                       the workload among the judges of the court, the Committee, at the request of
+                       the district court, recommended that the Conference seek legislation to amend
+                       28 U.S.C. § 114 to eliminate references to the divisions and counties in the
+                       District of North Dakota, while maintaining language providing that North
+                       Dakota constitutes one judicial district and that court be held at Bismarck,
+                       Fargo, Grand Forks, and Minot. The Conference approved the Committee’s
+                       recommendation.
+
+
+                       DATA TRANSFER TO BANKRUPTCY CASE TRUSTEES
+
+                               In March 1989, the Judicial Conference authorized the bulk electronic
+                       transfer of data from bankruptcy courts to the Department of Justice’s
+                       Executive Office for U.S. Trustees (EOUST), with the understanding that the
+                       EOUST could not sell or otherwise distribute the data to other entities (JCUS-
+                       MAR 89, p. 20). With the passage of the Bankruptcy Abuse Prevention and
+                       Consumer Protection Act of 2005, bankruptcy case trustees must collect and
+                       report additional data from bankruptcy case files. To facilitate the work of the
+                       case trustees and at the request of the EOUST, the Conference adopted a
+                       Committee recommendation to permit the EOUST and bankruptcy
+                       administrators to transfer to trustees in bankruptcy cases (or their agents) data
+                       received from the judiciary’s Case Management/Electronic Case Files
+                       (CM/ECF) system without application of the Electronic Public Access fee.
+                       Such a transfer is limited to the data that the case trustees are required to
+                       provide in final reports filed in bankruptcy cases, and the EOUST, the case
+                       trustees and their agents, and the bankruptcy administrators are not permitted
+                       to otherwise transfer or sell such data.
+
+
+                       RECORDS DISPOSITION SCHEDULE FOR
+                       ELECTRONIC CASE FILES
+
+                             Pursuant to regulations adopted by the National Archives and Records
+                       Administration (NARA) in December 2007, if an electronic record replaces
+
+
+                                                               17
+Judicial Conference of the United States                                             September 16, 2008
+
+                      either a permanent hard copy record or a hard copy record that has both
+                      temporary and permanent elements, a previously approved hard copy
+                      permanent disposition authority may be applied to the entire electronic record
+                      (36 C.F.R. § 1228.31(b)(1)(i) and (ii)). Since all appellate case files are
+                      classified as permanent under existing records schedules, and virtually all
+                      district and bankruptcy cases contain at least one permanent element under
+                      such schedules (i.e., the docket sheet), the Committee recommended that the
+                      Conference notify NARA that the judiciary will apply the previously approved
+                      hard copy permanent disposition authority to appellate, district, and
+                      bankruptcy court electronic case file records in accordance with 36 C.F.R.
+                      § 1228.31(b)(1). The Conference adopted the Committee’s recommendation.
+
+
+                      COMMITTEE ACTIVITIES
+
+                              The Committee on Court Administration and Case Management
+                      reported that it considered, among other things, implementation of the Judicial
+                      Conference’s access plan for electronic transcripts of court proceedings; the
+                      measures used to rank courts with respect to case processing and how more
+                      assistance could be provided to the “most congested courts”; and the future of
+                      electronic case management systems in bankruptcy and district courts. The
+                      Committee also considered and endorsed several budget items, including a
+                      fiscal year 2010 records management program funding request and a fiscal
+                      year 2010 libraries and computer-assisted legal research funding request, both
+                      of which have been provided to the Budget Committee.
+
+
+             C OMMITTEE ON C RIMINAL L AW
+
+                      COMMITTEE ACTIVITIES
+
+                              The Committee on Criminal Law reported that, in coordination with
+                      the AO’s Forms Working Group, it considered and approved technical
+                      revisions to several national forms (AO forms 199A, 199B, 199C, 245B, and
+                      472) to conform to statutory amendments, new privacy requirements, and
+                      policy changes previously approved by the Conference. As part of its
+                      continuing exploration of evidence-based practices, the Committee also
+                      discussed the use of programs modeled on problem-solving courts (e.g., drug
+                      courts and diversion courts) in the federal system, paying particular attention
+                      to post-conviction reentry court programs. The Committee has asked the
+
+
+
+                                                             18
+Judicial Conference of the United States                                             September 16, 2008
+
+                       Federal Judicial Center to conduct a study of existing federal programs and to
+                       report its findings at a future meeting of the Committee.
+
+
+              C OMMITTEE ON D EFENDER S ERVICES
+
+                       CASE-BUDGETING PILOT PROJECT
+
+                               In September 2005, the Judicial Conference approved a three-year pilot
+                       project for the Defender Services appropriation to fund a position in up to
+                       three circuits to support the case-budgeting process (JCUS-SEP 05, p. 21).
+                       Preliminary reports indicate that the case-budgeting attorneys are helping to
+                       contain costs and to improve the management of high-cost Criminal Justice
+                       Act (CJA) representations. However, in order to ensure that the project is
+                       evaluated effectively, the Committee on Defender Services recommended that
+                       the Judicial Conference extend the time period of the pilot project by one year.
+                       The Conference adopted the Committee’s recommendation.
+
+
+                       COMMITTEE ACTIVITIES
+
+                               The Committee on Defender Services reported that under its delegated
+                       authority from the Judicial Conference (JCUS-MAR 89, pp. 16-17), it
+                       approved federal defender organization FY 2009 budgets and grants totaling
+                       $518 million. The Committee also reported that it reviewed data from the first
+                       phase of an ongoing project to update a 1998 report on the cost, availability,
+                       and quality of defense representation in federal death penalty cases. In
+                       addition, the Committee received a status report on the follow-up actions from
+                       a 15-district audit of the system for processing CJA payments to panel
+                       attorneys and interpreters.
+
+
+              C OMMITTEE ON F EDERAL -S TATE J URISDICTION
+
+                       COMMITTEE ACTIVITIES
+
+                               The Committee on Federal-State Jurisdiction reported that it was
+                       briefed on the work of the Ninth Circuit’s Pacific Islands Committee and
+                       discussed a draft report prepared by the Government Accountability Office
+                       related to the establishment of a federal judicial presence in American Samoa.
+                       The Committee also discussed ways to more fully implement its charge to
+
+                                                             19
+Judicial Conference of the United States                                               September 16, 2008
+
+                      serve as a conduit of communication between the federal and state courts and
+                      identified possible areas of federal-state cooperation that would require
+                      coordination with other Judicial Conference committees, such as working with
+                      the state courts to improve the ability of federal and state courts at the local
+                      levels to share files electronically. It continued its discussion of capital habeas
+                      corpus petitions, focusing on ways the federal and state courts can improve
+                      coordination between the two court systems related to capital litigation. The
+                      Committee also continued its review of legislation that would amend the
+                      Prison Litigation Reform Act.
+
+
+             C OMMITTEE ON F INANCIAL D ISCLOSURE
+
+                      COMMITTEE ACTIVITIES
+
+                              The Committee on Financial Disclosure reported that it included a
+                      self-audit function in the most recent release of the Financial Disclosure
+                      Report Software that allows filers to check their reports prior to submission
+                      and avoid inadvertent errors such as inconsistent income data and missing or
+                      incorrect codes. The use of the self-audit feature will be included in the
+                      Committee’s development of a system for electronic filing and records
+                      management of reports. As of July 8, 2008, the Committee had received
+                      3,942 financial disclosure reports and certifications for calendar year 2007,
+                      including 1,209 reports and certifications from Supreme Court justices, Article
+                      III judges, and judicial officers of special courts; 331 reports from bankruptcy
+                      judges; 519 reports from magistrate judges; and 1,883 reports from judicial
+                      employees.
+
+
+              C OMMITTEE ON INFORMATION T ECHNOLOGY
+
+                      LONG RANGE PLAN FOR INFORMATION TECHNOLOGY
+
+                              Pursuant to 28 U.S.C. § 612 and on recommendation of the Committee
+                      on Information Technology, the Judicial Conference approved the fiscal year
+                      2009 update to the Long Range Plan for Information Technology in the
+                      Federal Judiciary. Funds for the judiciary’s information technology program
+                      will be spent in accordance with this plan.
+
+
+
+
+                                                              20
+Judicial Conference of the United States                                              September 16, 2008
+
+
+
+                       COMMITTEE ACTIVITIES
+
+                               The Committee on Information Technology reported that it reviewed a
+                       status report on the information technology (IT) projects and initiatives funded
+                       through the Judiciary Information Technology Fund and asked that the
+                       information be made available to the court community on the J-Net. The
+                       Committee also reviewed and endorsed revisions to the IT infrastructure
+                       formula used to provide IT funds to the courts and agreed that an IT-related
+                       component of the existing law enforcement formula should be established
+                       beginning in fiscal year 2009. The Committee asked the Administrative
+                       Office to work with two courts that have developed calendaring systems to
+                       provide national support for those systems. The Committee received
+                       information about, and approved implementation of, port-to-port encryption of
+                       e-mail on the judiciary’s data communications network.
+
+
+             C OMMITTEE ON INTERCIRCUIT A SSIGNMENTS
+
+                       COMMITTEE ACTIVITIES
+
+                                The Committee on Intercircuit Assignments reported that 79
+                       intercircuit assignments were undertaken by 61 Article III judges from
+                       January 1, 2008 to June 30, 2008. The Committee recommended to the Chief
+                       Justice changes to the Guidelines for Intercircuit Assignments (including
+                       changes to the operating procedures) and agreed to distribute a revised
+                       questionnaire to all Article III judges in order to update the Committee’s roster
+                       of judges willing to take intercircuit assignments. To increase awareness and
+                       facilitate the use of visiting judges, the Committee continued to disseminate
+                       information about intercircuit assignments and aided courts requesting
+                       assistance by identifying and obtaining judges willing to take assignments.
+
+
+              C OMMITTEE ON INTERNATIONAL J UDICIAL R ELATIONS
+
+                       COMMITTEE ACTIVITIES
+
+                              The Committee on International Judicial Relations reported on its
+                       involvement in rule of law and judicial reform activities throughout the world.
+                       The U.S. State Department, the United States Agency for International
+                       Development, and the U.S. Department of Justice Overseas Prosecutorial
+
+                                                              21
+Judicial Conference of the United States                                             September 16, 2008
+
+                      Development and Training Office reported about the progress of rule of law
+                      efforts. A special presentation by the World Bank’s Lead Public Sector
+                      Specialist for the Europe and Central Asia Region focused on the Bank’s
+                      support for justice sector reform in 17 countries in Europe and Central Asia,
+                      including the Russian Federation, Croatia, and Bulgaria.
+
+
+             C OMMITTEE ON THE J UDICIAL B RANCH
+
+                      JUDICIAL SURVIVORS’ ANNUITIES SYSTEM
+
+                              In March 2008, after considering a study conducted by the
+                      Administrative Office on the Judicial Survivors’ Annuities System (JSAS)
+                      coverage and cost, the Conference determined to seek legislation authorizing a
+                      one-time open season for judges who previously opted not to enroll in JSAS,
+                      with certain conditions. The JSAS study had also examined a September 1990
+                      position of the Judicial Conference (JCUS-SEP 90, p. 85; see also JCUS-
+                      MAR 91, p. 19) to seek legislation allowing survivors of judicial officers to
+                      continue Federal Employees Health Benefits (FEHB) program enrollment
+                      regardless of whether the judicial officer participated in JSAS. At this session
+                      the Committee recommended that, in light of the Conference’s endorsement of
+                      an open season to enroll in JSAS, the Conference should rescind its September
+                      1990/March 1991 position supporting legislation to allow a federal judge’s
+                      survivors to continue FEHB program enrollment whether or not the judge
+                      participated in JSAS. The Conference adopted the Committee’s
+                      recommendation.
+
+
+                      JUDGES’ TRAVEL REGULATIONS
+
+                              Meetings with Governmental Agencies and Associations. On
+                      recommendation of the Committee on the Judicial Branch, the Judicial
+                      Conference amended section B.3. of the Travel Regulations for Justices and
+                      Judges to clarify and simplify the procedure for approving judges’ attendance
+                      at governmental meetings that are held within the geographic boundaries of a
+                      court. Also on the Committee’s recommendation, the Conference clarified
+                      that portion of section B.3. pertaining to meetings of non-governmental
+                      organizations to substitute the phrase “colleges and universities, schools” for
+                      the terms “educational institutes” and “educational institutions” to clarify
+                      which organizations were intended to be covered in that section.
+
+
+
+                                                            22
+Judicial Conference of the United States                                              September 16, 2008
+
+                               Security-Related Travel. On recommendation of the Committee, the
+                       Judicial Conference approved an amendment to section B.3. of the judges’
+                       travel regulations to specifically authorize reimbursement for judges and their
+                       dependents for the expenses of security-related travel.
+
+                               Travel Interruptions. The Committee recommended and the
+                       Conference approved an amendment to section A.3. of the judges’ travel
+                       regulations to expressly authorize reimbursement of judges for expenses of
+                       transportation, lodging, meals, and incidentals that may result from the judges’
+                       inability to complete their official travel due to illness or injury.
+
+
+                       COMMITTEE ACTIVITIES
+
+                               The Committee on the Judicial Branch reported that it continues to
+                       give high priority to securing the enactment of judicial salary restoration
+                       legislation and a 2009 Employment Cost Index pay adjustment for judges. The
+                       Committee also devoted considerable attention to benefits matters. In
+                       addition, the Committee continues to work closely with the Freedom Forum’s
+                       First Amendment Center on planning and conducting regional programs for
+                       judges and journalists.
+
+
+              C OMMITTEE ON J UDICIAL C ONDUCT AND D ISABILITY
+
+                       COMMITTEE ACTIVITIES
+
+                               The Committee on Judicial Conduct and Disability reported that it
+                       adopted a uniform docket numbering scheme for judicial conduct and
+                       disability complaints, as required under Rule 8(a) of the Rules for
+                       Judicial-Conduct and Judicial-Disability Proceedings. Related efforts now
+                       proceeding under the Committee’s direction include (a) developing a process
+                       to monitor activity under the Judicial Conduct and Disability Act and the
+                       Rules for Judicial-Conduct and Judicial-Disability Proceedings; (b) assessing
+                       the Rules, after initial experience, for whether they may need to be adjusted;
+                       (c) preparing online resource materials, including a compendium of
+                       authorities; (d) responding to courts’ inquiries; and (e) developing a new
+                       online system for the gathering and reporting of statistical data on complaints
+                       under the Act and Rules.
+
+
+
+
+                                                              23
+Judicial Conference of the United States                                              September 16, 2008
+
+             C OMMITTEE ON J UDICIAL R ESOURCES
+
+                      STAFFING FORMULAS
+
+                               Based on rigorous work measurement studies conducted by the
+                      Administrative Office, the Committee on Judicial Resources recommended,
+                      and the Judicial Conference approved, new staffing formulas for the offices of
+                      bankruptcy clerks, circuit librarians, conference attorneys, and circuit
+                      executives, for implementation in fiscal year 2009. The new formula for
+                      bankruptcy clerks’ offices represents the first systematic adjustment to the
+                      method for estimating bankruptcy staffing needs since the Bankruptcy Abuse
+                      Prevention and Consumer Protection Act’s impact on workload became
+                      apparent. The new formulas for the appellate court and circuit offices are the
+                      first adjustments to these offices’ staffing formulas since fiscal year 2001.
+
+
+                      TWO-PERCENT PRODUCTIVITY ADJUSTMENT
+
+                              Included among the cost-containment strategies approved by the
+                      Judicial Conference in September 2004 (see JCUS-SEP 04, pp. 5-7) was a
+                      two-percent productivity adjustment to be applied cumulatively (through fiscal
+                      year 2009) to certain outdated staffing formulas. However, citing to a
+                      confluence of factors, including increased work requirements in appellate
+                      court and district clerks’ offices, combined with possible decreased court
+                      allotments resulting from implementation of new salary funding formulas, the
+                      Committee concluded that imposition of a two-percent productivity
+                      adjustment in fiscal year 2009 might create salary shortfalls that would be
+                      difficult for some offices to sustain. The Committee therefore recommended
+                      that the Conference eliminate the additional two-percent productivity
+                      adjustment in fiscal year 2009 for the offices of the appellate clerks, staff
+                      attorneys, bankruptcy appellate panel clerks, and district clerks. The
+                      Conference adopted the Committee’s recommendation.
+
+
+                      PRO SE LAW CLERKS
+
+                              In March 2002, the Judicial Conference adopted a stabilization policy
+                      for allocating pro se law clerk positions whereby the number of allocated
+                      positions in a court would only be reduced if the number of prisoner filings
+                      did not support those positions under the staffing formula for two years in a
+                      row (JCUS-MAR 02, p. 22). In March 2007, the Conference temporarily
+                      extended the stabilization period to three years, beginning in fiscal year 2008,
+
+                                                             24
+Judicial Conference of the United States                                              September 16, 2008
+
+                       with the two-year period to resume once a new pro se law clerk staffing
+                       formula was in place (JCUS-MAR 07, p. 24). Noting that a new staffing
+                       formula will not be available until fiscal year 2010 and that some districts with
+                       over-strength positions might have to downsize only to rehire after the new
+                       formula is developed, the Committee recommended that the Conference
+                       approve the retention of encumbered over-strength pro se law clerk positions
+                       through fiscal year 2009, with the understanding that, in accordance with the
+                       pro se law clerk stabilization policy, if an over-strength position is vacated, a
+                       court would not be authorized to refill that vacancy. The Conference
+                       approved the Committee’s recommendation.
+
+
+                       COURT PERSONNEL SYSTEM
+
+                                Benchmarks. As part of the judiciary’s long-term cost-containment
+                       strategy approved by the Judicial Conference in September 2004, the Judicial
+                       Resources Committee conducted a court compensation study to explore fair
+                       and reasonable opportunities to limit future compensation costs. Based on
+                       that study, in September 2007, the Conference approved a Committee
+                       recommendation to replace existing Court Personnel System (CPS)
+                       benchmarks with new benchmarks that more accurately reflect current job
+                       duties and responsibilities performed in the courts (JCUS-SEP 07, pp. 24-25).
+                       To implement this recommendation, at this session, the Committee
+                       recommended, and the Conference approved, effective January 5, 2009, titles
+                       and classification levels for forty new benchmarks, updated minimum
+                       qualification requirements, and a revised procedure for classifying CPS
+                       supervisory and managerial positions. Further, with regard to on-board
+                       employees, the Conference agreed that CPS employees will remain in their
+                       current classifications unless the court takes a personnel action that changes an
+                       individual employee’s position, or the court decides to apply the new
+                       benchmarks to the entire court unit or a portion of the court unit where all
+                       employees are performing a particular function, e.g., all financial positions. In
+                       the latter case, the decision to apply the new benchmarks to current employees
+                       must be made in a consistent, nondiscriminatory manner based on sound
+                       business principles.
+
+                               CPS Salary Progression Policy. In September 2007, the Judicial
+                       Conference agreed to modify the CPS salary progression policy to reduce the
+                       number of automatic default step increases and to give unit executives greater
+                       discretion to grant step increases based upon each employee’s overall
+                       contribution. It also directed that national performance guidelines be
+                       developed to assist executives in making decisions about pay increases
+
+
+                                                              25
+Judicial Conference of the United States                                             September 16, 2008
+
+                      (JCUS-SEP 07, p. 25). At this session, the Committee recommended that the
+                      Conference approve performance management guidelines for local
+                      implementation along the lines set forth by the Committee. However, noting
+                      that the October 2009 date envisioned for full implementation of the new
+                      policy was unrealistic, it also recommended modification of the
+                      implementation time line to delay pay linkage until October 2010, while
+                      maintaining October 2009 as the date for implementation of the other aspects
+                      of the policy. In addition, the Committee determined that three existing salary
+                      progression policies had been superseded or were inconsistent with the new
+                      salary progression policy. Consequently, it recommended that the pay-for-
+                      performance policy adopted by the Judicial Conference for CPS employees in
+                      1996 be eliminated, and that the quality-step-increase program (which has
+                      been suspended since 1993) and the longevity bonus program (which has been
+                      suspended since 2005) be eliminated for CPS and Judiciary Salary Plan (JSP)
+                      employees. The Conference adopted the Committee’s recommendations.
+
+
+                      STAFF COURT INTERPRETER POSITIONS
+
+                              Conversion from CPS to JSP. Noting that staff court interpreter
+                      positions are highly specialized and present unique challenges for fitting into
+                      the new CPS salary progression policy due to the difficulties in making
+                      meaningful distinctions on the fundamental elements of the interpreters’ work,
+                      the Committee recommended that the Conference approve the conversion of
+                      the staff court interpreter position from the CPS to the JSP, effective October
+                      13, 2008. It also recommended the creation of a JSP landmark standard with a
+                      target grade of JSP-14 for all staff court interpreter positions and the
+                      establishment of a grade JSP-15 for supervisory court interpreter positions.
+                      The Conference adopted the Committee’s recommendations.
+
+                              Additional Positions. Using established criteria, the Committee
+                      recommended, and the Conference approved, one additional Spanish staff
+                      court interpreter position each for the Central District of California, the
+                      District of New Mexico, the District of Oregon, and the Western District of
+                      Texas, for fiscal year 2010, based on the Spanish language interpreting
+                      workloads in these courts. Also on the Committee’s recommendation, the
+                      Conference declined to authorize one Spanish staff court interpreter position
+                      for the District of Connecticut. Accelerated funding in fiscal year 2009 was
+                      authorized for the additional Spanish staff court interpreter positions approved
+                      for the District of New Mexico and the Western District of Texas.
+
+
+
+
+                                                            26
+Judicial Conference of the United States                                              September 16, 2008
+
+
+
+                       TYPE II DEPUTIES
+
+                                Ninth Circuit Court of Appeals. Courts of appeals are permitted to
+                       have only one Type II deputy position per unit at a JSP-16 level unless the
+                       Judicial Conference finds that an additional Type II deputy is needed based on
+                       unique circumstances and individual justification provided by the court.
+                       Citing extraordinary circumstances in the Ninth Circuit Court of Appeals, the
+                       Committee recommended that the Conference authorize a second JSP-16 Type
+                       II chief deputy clerk position for the appellate clerk’s office in that circuit,
+                       using existing decentralized funding. The Conference adopted the
+                       Committee’s recommendation.
+
+                               Courts of Appeals Generally. Since September 2004, district and
+                       bankruptcy courts with 10 or more judgeships may obtain a second Type II
+                       deputy position, funded with the court’s decentralized funds, upon notification
+                       to the Administrative Office, and without Conference approval. Noting that
+                       the complexity and scope of responsibilities assigned to appellate court unit
+                       executives have changed substantially over the years, especially with the
+                       advent of CM/ECF, and that a policy similar to that for district courts may be
+                       appropriate for the courts of appeals, the Committee recommended that the
+                       Conference adopt a policy authorizing any clerk’s office in an appellate court
+                       with 12 or more authorized judgeships and a minimum staffing level of 75
+                       full-time equivalents (validated by the appellate clerk’s office staffing formula
+                       at 100 percent) to establish a second JSP-16 Type II chief deputy clerk
+                       position, using its decentralized funds, upon notification to the Administrative
+                       Office. The Conference approved the Committee’s recommendation
+
+
+                       ALTERNATIVE DISPUTE RESOLUTION
+
+                               In March 1998, the Judicial Conference approved “basic” and “robust”
+                       staffing factors for clerk’s office positions performing duties related to
+                       alternative dispute resolution (ADR) (JCUS-MAR 98, pp. 20-21). The basic
+                       staffing factor was intended to apply to most district courts’ ADR programs,
+                       while the robust factor was intended for a limited number of courts with
+                       extensive ADR programs. Based on the number of cases participating in the
+                       ADR program in the Northern District of Ohio, and on the number of hours
+                       spent processing these cases, the Committee recommended that the
+                       Conference approve that district’s request for application of the robust staffing
+                       factor for clerk’s office positions with duties related to ADR. The Conference
+                       adopted the Committee’s recommendation.
+
+                                                              27
+Judicial Conference of the United States                                             September 16, 2008
+
+
+
+                      ENTRY AND EXIT SURVEYS
+
+                              In order to assist the judiciary in recruiting and retaining highly
+                      qualified employees, the Committee recommended that the Conference
+                      approve the concept and implementation of detailed national entry and exit
+                      surveys for employees in the courts and federal public defender organizations,
+                      and encourage their use. The Conference adopted the Committee’s
+                      recommendation.
+
+
+                      HUMAN RESOURCES LEGISLATION
+
+                              On recommendation of the Committee, the Conference agreed to
+                      express to Congress the support of the judiciary for the concepts contained in
+                      bills pending in the 110th Congress that would provide paid parental leave
+                      (H.R. 5781), clarify the method for computing annuities under the Civil
+                      Service Retirement System that are based on part-time service (H.R. 2780),
+                      and amend title 5, United States Code, to facilitate the re-employment of
+                      annuitants (H.R. 3579).
+
+
+                      COMMITTEE ACTIVITIES
+
+                              The Committee on Judicial Resources reported that it recommended to
+                      the Committee on the Budget an FY 2010 budget request of 7.5 percent above
+                      the FY 2009 baseline for that portion of the budget over which the Judicial
+                      Resources Committee exercises responsibility. This request is within the
+                      guidelines issued by the Budget Committee chair, but is about $20 million
+                      short of the fiscal year 2010 total requirements level. To resolve the shortfall,
+                      the Judicial Resources Committee recommended a proportionate reduction of
+                      authorized work units based on each program area’s FY 2010 budget request.
+                      In addition, the Committee, in consultation with the Criminal Law Committee,
+                      endorsed a one-year moratorium on adopting new staffing formulas for
+                      probation and pretrial services offices, to allow the Administrative Office the
+                      opportunity to correlate work measurement results and case-weighting factors.
+                      The Committee also postponed consideration of revisions to the court reporter
+                      salary structure until December 2008 in order to obtain a broader view of the
+                      court reporter salary situation.
+
+
+
+
+                                                             28
+Judicial Conference of the United States                                                September 16, 2008
+
+              C OMMITTEE ON J UDICIAL S ECURITY
+
+                       COMMITTEE ACTIVITIES
+
+                               The Committee on Judicial Security reported that it began work with
+                       the Defender Services and Criminal Law Committees to identify and resolve
+                       issues arising from housing pretrial detainees in jail facilities located great
+                       distances from the courthouse. Members and staff from the three committees
+                       met in July 2008 with representatives from the U.S. Marshals Service, the
+                       Federal Bureau of Prisons, the Office of the Federal Detention Trustee, and
+                       other criminal justice system staff to establish the scope of the problem. The
+                       Committee was also briefed on the status of the perimeter security pilot
+                       program at seven courthouses and considered the results of a survey of judges
+                       on court and judicial security.
+
+
+              C OMMITTEE ON THE A DMINISTRATION
+              OF THE M AGISTRATE J UDGES S YSTEM
+
+                       SENIOR DISTRICT JUDGE PARTICIPATION IN COURT
+                       GOVERNANCE
+
+                                As noted supra (see “Senior Judge Participation in Court
+                       Governance,” pp. 5-6; 11-12), sections 503 and 504 of the Court Security
+                       Improvement Act of 2007 are inconsistent on the issue of whether senior
+                       district judges must meet a workload requirement in order to exercise a
+                       statutory right to participate in the selection and appointment of United States
+                       magistrate judges. Since, notwithstanding this inconsistency, at least some
+                       senior district judges are now statutorily eligible to participate in the
+                       appointment process, the Magistrate Judges Committee recommended, and the
+                       Conference agreed, that the Regulations of the Judicial Conference of the
+                       United States Establishing Standards and Procedures for the Appointment and
+                       Reappointment of United States Magistrate Judges be amended to (a) remove
+                       the word “active” from “active district judges” in sections 3.01, 3.02(a), 4.01,
+                       6.02, and 6.03(c) (those provisions addressing who participates in the
+                       appointment process) and (b) add the following language to the introduction:
+
+                                References to district judges in sections 3.01, 3.02(a), 4.01,
+                                6.02, and 6.03(c) of these regulations include all active district
+                                judges and, as determined by the court, either all senior judges
+                                or those senior judges who performed in the preceding calendar
+
+                                                               29
+Judicial Conference of the United States                                               September 16, 2008
+
+                               year an amount of work equal to or greater than the amount of
+                               work an average judge in active service on that court would
+                               perform in six months, and who elect to exercise such powers.
+                               [Ed. Note: There is a conflict in the law as it relates to senior
+                               judges voting on the appointment of magistrate judges. See 28
+                               U.S.C. §§ 296 and 631(a), as amended January 7, 2008. The
+                               Executive Committee, on behalf of the Judicial Conference, is
+                               seeking the repeal of Section 504 of the Court Security
+                               Improvement Act of 2007, which amended 28 U.S.C. § 631(a)
+                               to allow all senior judges to participate in the appointment of
+                               magistrate judges.]
+
+
+                      CHANGES IN MAGISTRATE JUDGE POSITIONS
+
+                              After consideration of the report of the Committee on the
+                      Administration of the Magistrate Judges System and the recommendations of
+                      the Director of the Administrative Office, the district courts, and the judicial
+                      councils of the circuits, the Judicial Conference approved the following
+                      changes in the number, salaries, locations, and arrangements for full-time and
+                      part-time magistrate judge positions. See also “Miscellaneous Actions,” p. 6.
+                      Changes with a budgetary impact are to be effective when appropriated funds
+                      are available.
+
+                      SECOND CIRCUIT
+
+                      Eastern District of New York
+
+                               Made no change in the number, locations, or arrangements of the
+                               magistrate judge positions in the district.
+
+                      District of Vermont
+
+                               Made no change in the location or arrangement of the magistrate judge
+                               position in the district.
+
+                      THIRD CIRCUIT
+
+                      District of New Jersey
+
+                      1.       Authorized an additional full-time magistrate judge position at
+                               Camden;
+
+
+                                                              30
+Judicial Conference of the United States                                                September 16, 2008
+
+                       2.       Authorized an additional full-time magistrate judge position at
+                                Trenton; and
+
+                       3.       Made no other change in the number, locations, salaries, or
+                                arrangements of the magistrate judge positions in the district.
+
+                       Middle District of Pennsylvania
+
+                       1.       Authorized an additional full-time magistrate judge position at
+                                Harrisburg; and
+
+                       2.       Made no other change in the number, locations, salaries, or
+                                arrangements of the magistrate judge positions in the district.
+
+                       FOURTH CIRCUIT
+
+                       District of Maryland
+
+                                Made no change in the number, locations, salaries, or arrangements of
+                                the magistrate judge positions in the district.
+
+                       Western District of Virginia
+
+                       1.       Increased the salary of the part-time magistrate judge position at
+                                Harrisonburg from Level 4 ($39,227 per annum) to Level 1 ($71,919
+                                per annum); and
+
+                       2.       Made no other change in the number, locations, or arrangements of the
+                                magistrate judge positions in the district.
+
+
+                       FIFTH CIRCUIT
+
+                       Northern District of Mississippi
+
+                                Made no change in the number, locations, or arrangements of the
+                                magistrate judge positions in the district.
+
+                       Eastern District of Texas
+
+                       1.       Authorized an additional full-time magistrate judge position for the
+                                district, to be located at Sherman;
+
+
+                                                               31
+Judicial Conference of the United States                                              September 16, 2008
+
+                      2.       Redesignated the full-time magistrate judge position at Sherman as
+                               Sherman or Plano; and
+
+                      3.       Made no other change in the number, locations, or arrangements of the
+                               magistrate judge positions in the district.
+
+                      SIXTH CIRCUIT
+
+                      Eastern District of Kentucky
+
+                      1.       Redesignated the full-time magistrate judge position at Ashland as
+                               Pikeville or Ashland; and
+
+                      2.       Authorized the full-time magistrate judge position at Pikeville or
+                               Ashland to serve in the adjoining Western District of Virginia and the
+                               adjoining Eastern District of Tennessee.
+
+                      Eastern District of Tennessee
+
+                               Made no change in the number, locations, or arrangements of the
+                               magistrate judge positions in the district.
+
+                      Western District of Tennessee
+
+                      1.       Authorized an additional full-time magistrate judge position at
+                               Memphis; and
+
+                      2.       Made no other change in the number, locations, or arrangements of the
+                               magistrate judge positions in the district.
+
+                      SEVENTH CIRCUIT
+
+                      Southern District of Indiana
+
+                               Made no change in the number, locations, salaries, or arrangements of
+                               the magistrate judge positions in the district.
+
+                      Eastern District of Wisconsin
+
+                               Made no change in the number, locations, salaries, or arrangements of
+                               the magistrate judge positions in the district.
+
+
+
+                                                             32
+Judicial Conference of the United States                                              September 16, 2008
+
+                       EIGHTH CIRCUIT
+
+                       Western District of Arkansas
+
+                       1.       Authorized an additional full-time magistrate judge position for the
+                                court, to be located at Fayetteville;
+
+                       2.       Discontinued the part-time magistrate judge position at Harrison; and
+
+                       3.       Made no other change in the number, locations, or arrangements of the
+                                magistrate judge positions in the district.
+
+                       District of South Dakota
+
+                                Increased the salary of the part-time magistrate judge position at
+                                Aberdeen from Level 6 ($13,073 per annum) to Level 4 ($39,227 per
+                                annum).
+
+                       ELEVENTH CIRCUIT
+
+                       Middle District of Georgia
+
+                                Made no change in the number, locations, or arrangements of the
+                                magistrate judge positions in the district.
+
+
+                       ACCELERATED FUNDING
+
+                               On recommendation of the Committee, the Judicial Conference agreed
+                       to designate for accelerated funding in fiscal year 2009 the new full-time
+                       magistrate judge positions at Camden and Trenton in the District of New
+                       Jersey; Harrisburg in the Middle District of Pennsylvania; Sherman in the
+                       Eastern District of Texas; Memphis in the Western District of Tennessee; and
+                       Fayetteville in the Western District of Arkansas.
+
+
+                       COMMITTEE ACTIVITIES
+
+                               The Committee on the Administration of the Magistrate Judges System
+                       reported that it asked the Executive Committee to authorize, on behalf of the
+                       Judicial Conference and on an expedited basis, one new full-time and one new
+                       part-time magistrate judge position for the District of Arizona and accelerated
+
+                                                              33
+Judicial Conference of the United States                                             September 16, 2008
+
+                      funding for the new positions effective immediately. The Executive
+                      Committee approved the recommendations (see supra, “Miscellaneous
+                      Actions,” p. 6). Pursuant to the September 2004 Judicial Conference policy
+                      regarding the review of magistrate judge position vacancies (JCUS-SEP 04,
+                      p. 26), during the period between the Committee’s December 2007 and June
+                      2008 meetings, the Committee chair approved filling eight full-time and four
+                      part-time magistrate judge position vacancies. At its June 2008 meeting, the
+                      Committee decided to defer until December 2008 decisions on two courts’
+                      requests to fill vacancies in magistrate judge positions so that the Committee
+                      could have the benefit of additional information provided by district-wide
+                      reviews of the courts.
+
+
+             C OMMITTEE ON R ULES OF P RACTICE AND P ROCEDURE
+
+                      TIME COMPUTATION PROJECT
+
+                              Rules Amendments. The Committee on Rules of Practice and
+                      Procedure submitted to the Judicial Conference proposed amendments to 91
+                      time-counting provisions in the Federal Rules of Appellate, Bankruptcy, Civil,
+                      and Criminal Procedure to simplify and reduce inconsistencies in the
+                      computation of time periods under the procedural rules. The proposed new
+                      rules adopt a “days-are-days” approach to computing time periods, i.e.,
+                      intermediate weekends and holidays and not just work days are counted
+                      regardless of the length of the specified period. To further simplify
+                      time-counting, most periods of less than 30 days would be changed to 7, 14,
+                      21, and 28-day periods wherever possible so that deadlines usually fall on
+                      weekdays. To account for the effect of including intermediate weekends and
+                      holidays in calculating time periods, the proposed amendments would also
+                      extend short time deadlines. The Judicial Conference approved the
+                      amendments and authorized their transmittal to the Supreme Court for its
+                      consideration with a recommendation that they be adopted by the Court and
+                      transmitted to Congress in accordance with the law.
+
+                              Statutory Amendments. The time-computation methodology used in
+                      the federal procedural rules applies to time periods set in statutes that affect
+                      court proceedings, unless the statutes themselves specify how to compute
+                      time. If the proposed rules amendments discussed above are adopted, they
+                      would have the effect of shortening statutory time periods because
+                      intermediate weekends and holidays would no longer be excluded. In order to
+                      accommodate the changes that would result from the proposed amendments,
+                      the Committee recommended that the Conference seek legislation to adjust the
+
+                                                            34
+Judicial Conference of the United States                                             September 16, 2008
+
+                       time periods in 29 statutory provisions affecting court proceedings. The
+                       Conference adopted the Committee’s recommendation.
+
+
+                       FEDERAL RULES OF APPELLATE PROCEDURE
+
+                               The Committee on Rules of Practice and Procedure submitted to the
+                       Judicial Conference proposed amendments to Appellate Rules 4 (Appeal as of
+                       Right — When Taken), 22 (Habeas Corpus and Section 2255 Proceedings),
+                       and 26 (Computing and Extending Time), and proposed new Rule 12.1
+                       (Remand After an Indicative Ruling by the District Court on a Motion for
+                       Relief That is Barred by a Pending Appeal), together with Committee Notes
+                       explaining their purpose and intent. The Judicial Conference approved the
+                       amendments and new rule and authorized their transmittal to the Supreme
+                       Court for its consideration with a recommendation that they be adopted by the
+                       Court and transmitted to Congress in accordance with the law. See also supra,
+                       “Time Computation Project,” p. 34.
+
+
+                       FEDERAL RULES OF BANKRUPTCY PROCEDURE
+
+                               The Committee on Rules of Practice and Procedure submitted to the
+                       Judicial Conference proposed amendments to Bankruptcy Rules 2016
+                       (Compensation for Services Rendered and Reimbursement of Expenses), 4008
+                       (Filing of Reaffirmation Agreement; Statement in Support of Reaffirmation
+                       Agreement), 7052 (Findings by the Court), 9006 (Time), 9015 (Jury Trials),
+                       9021 (Entry of Judgment), 9023 (New Trials; Amendment of Judgments), and
+                       proposed new Rule 7058 (Entering Judgment in Adversary Proceeding),
+                       together with Committee Notes explaining their purpose and intent. Many of
+                       these changes are technical or conforming in nature. The Judicial Conference
+                       approved the proposed amendments and new rules and authorized their
+                       transmission to the Supreme Court for its consideration with a
+                       recommendation that they be adopted by the Court and transmitted to
+                       Congress in accordance with the law. See also supra, “Time Computation
+                       Project,” p. 34.
+
+                               The Committee also submitted to the Judicial Conference proposed
+                       revisions to Bankruptcy Official Forms 8, 9F, 10, 23, and Exhibit D to Official
+                       Form 1, and proposed new Official Form 27. The Judicial Conference
+                       approved the revised forms to take effect on December 1, 2008, with the
+                       exception of new Official Form 27, which will take effect on December 1,
+
+
+
+                                                             35
+Judicial Conference of the United States                                             September 16, 2008
+
+                      2009, to coincide with the anticipated effective date of the proposed
+                      amendment to Bankruptcy Rule 4008.
+
+
+                      FEDERAL RULES OF CIVIL PROCEDURE
+
+                              The Committee on Rules of Practice and Procedure submitted to the
+                      Judicial Conference proposed amendments to Civil Rules 13 (Counterclaim
+                      and Crossclaim), 15 (Amended and Supplemental Pleadings), 48 (Number of
+                      Jurors; Verdict), and 81 (Applicability of the Rules in General; Removed
+                      Actions), and proposed new Rule 62.1 (Indicative Ruling on a Motion for
+                      Relief That is Barred by a Pending Appeal), together with Committee Notes
+                      explaining their purpose and intent. The Judicial Conference approved the
+                      proposed amendments and new rule and authorized their transmittal to the
+                      Supreme Court with a recommendation that they be adopted by the Court and
+                      transmitted to Congress in accordance with the law. See also supra, “Time
+                      Computation Project,” p. 34.
+
+
+                      FEDERAL RULES OF CRIMINAL PROCEDURE
+
+                              The Committee on Rules of Practice and Procedure submitted to the
+                      Judicial Conference proposed amendments to Criminal Rules 7 (The
+                      Indictment and the Information), 32 (Sentencing and Judgment), 32.2
+                      (Criminal Forfeiture), and 41 (Search and Seizure) and Rule 11 of the Rules
+                      Governing Section 2254 Cases in the United States District Courts5 and of the
+                      Rules Governing Section 2255 Proceedings for the United States District
+                      Courts, together with Committee Notes explaining their purpose and intent.
+                      The Judicial Conference approved the amendments and authorized their
+                      transmittal to the Supreme Court for its consideration with a recommendation
+                      that they be adopted by the Court and transmitted to Congress in accordance
+                      with the law. See also supra, “Time Computation Project,” p. 34.
+
+
+                      COMMITTEE ACTIVITIES
+
+                             The Committee on Rules of Practice and Procedure reported that it
+                      approved publishing for public comment proposed amendments to Appellate
+
+
+             5
+              Rule 11 of the Rules Governing Section 2254 Cases was amended by renumbering
+             existing Rule 11 as Rule 12 and substituting new language in Rule 11.
+
+                                                            36
+Judicial Conference of the United States                                             September 16, 2008
+
+                       Rules 1 and 29, and Appellate Form 4; Bankruptcy Rules 1007, 1014, 1015,
+                       1018, 1019, 4004, 7001, and 9001, and proposed new Rules 1004.2 and 5012;
+                       Civil Rules 26 and 56; Criminal Rules 5, 12.3, 15, 21, and 32.1; and Evidence
+                       Rule 804. The comment period expires on February 17, 2009. Publication of
+                       proposed restyled Evidence Rules 101-415 has been deferred until the entire
+                       Federal Rules of Evidence have been approved for publication.
+
+
+              C OMMITTEE ON S PACE AND F ACILITIES
+
+                       CIRCUIT RENT BUDGET ALLOTMENTS -
+                       COMPONENT B PROJECTS
+
+                                Procedure. In September 2007, the Judicial Conference adopted a
+                       circuit rent budget allotment methodology that divides the judiciary’s rent bill
+                       into three components (JCUS-SEP 07, pp. 36-37). “Component B” of the rent
+                       bill funds newly constructed courthouses or annexes, build-to-suit lease
+                       projects, requests for General Services Administration (GSA) feasibility
+                       studies, and prospectus-level repair and alteration projects (which require
+                       Committee and Conference approval), as well as necessary chambers and
+                       courtrooms for judges taking senior status, replacement judges, and new
+                       judgeships (which require only the approval of the Committee). At this
+                       session, on recommendation of the Committee, the Judicial Conference
+                       approved the following process for approval of Component B project requests:
+                       1) all decisions made by the Committee on Space and Facilities’ Rent
+                       Management Subcommittee will be provided to circuit judicial councils for
+                       comment prior to the full Committee’s consideration of the recommendations;
+                       2) all comments received will be provided to the full Committee; and 3)
+                       appeals of full Committee actions will be considered by the Judicial
+                       Conference.
+
+                               Eastern District of Pennsylvania. The Conference adopted a
+                       recommendation of the Committee to approve, as a Component B project, a
+                       request from the Eastern District of Pennsylvania for a new build-to-suit
+                       leased courthouse in Lancaster, Pennsylvania, contingent on the district taking
+                       nine specific space actions releasing space that would offset the anticipated
+                       rent increase involved with adding the new courthouse.
+
+
+
+
+                                                             37
+Judicial Conference of the United States                                          September 16, 2008
+
+
+
+                      COMMITTEE ACTIVITIES
+
+                              The Committee on Space and Facilities reported that it endorsed the
+                      Court Administration and Case Management Committee’s recommendations
+                      to the Judicial Conference with regard to the courtroom usage study (see
+                      supra, “Courtroom Usage Study,” pp. 10-11). The Committee also directed
+                      AO staff to continue to work with GSA to reform the procurement process for
+                      build-to-suit leased courthouses.
+
+
+             F UNDING
+                              All of the foregoing recommendations that require the expenditure of
+                      funds for implementation were approved by the Judicial Conference subject to
+                      the availability of funds and to whatever priorities the Conference might
+                      establish for the use of available resources.
+
+
+
+
+                                                                 Chief Justice of the United States
+                                                                 Presiding
+
+
+
+
+                                                           38
+Judicial Conference of the United States                                         September 16, 2008
+                                                                       June 17, 2008 Special Session
+
+             INDEX
+
+             Administrative Office, Committee on the, 7
+
+             Administrative Office of the United States Courts
+                  advisory process, 7
+                  attorney admission fund guidelines, 7
+                  build-to-suit leased courthouses, procurement process, 38
+                  Director, 30
+                  Forms Working Group, 18
+                  Judicial Survivors’ Annuities System, 22
+                  Leonidas Ralph Mecham Award for Exemplary Service to the Courts, 7
+                  magistrate judge positions, 30
+                  Type II deputy positions, 27
+                  work measurement studies, 24, 28
+
+             Alternative dispute resolution, 27
+
+             Appellate rules (see rules of practice and procedure)
+
+             Appropriations (see also cost containment)
+                  accelerated funding
+                     court interpreter position, 26
+                     magistrate judge positions, 6, 33
+                  budget caps, 8
+                  budget request, FY 2010, 8, 28
+                  Capital Investment Fund, 8-9
+                  Cost Control Monitoring System, 9
+                  court allotments, 6, 9
+                  Court Security account, 6
+                  Defender Services account, 6
+                  federal defender organization FY 2009 budgets, 19
+                  Fees of Jurors and Commissioners account, 6
+                  financial plans, FY 2009, interim, 6
+                  information technology infrastructure funding formula, 9, 21
+                  Judiciary Information Technology Fund, 21
+                  law enforcement funding formula, 9, 21
+                  Salaries and Expenses account, 6, 9
+                  salary funding formula, 9
+
+             Attorney admission fund guidelines, 7
+
+                                                         i
+Judicial Conference of the United States                                        September 16, 2008
+                                                                      June 17, 2008 Special Session
+
+             Bankruptcy Abuse Prevention and Consumer Protection Act of 2005, 17, 24
+
+             Bankruptcy judges (see judges, bankruptcy)
+
+             Bankruptcy rules (see rules of practice and procedure)
+
+             Bankruptcy system (see also court administration; staffing resources)
+                  Bankruptcy Abuse Prevention and Consumer Protection Act of 2005, 17, 24
+                  bankruptcy administrators,17
+                  bankruptcy case trustees, 17
+                  courtroom sharing, 11
+                  electronic data transfer, 17
+                  FY 2010 funding request, 8
+                  records disposition, electronic, 17-18
+                  rules of practice and procedure, 34-37
+                  staffing formula
+                     bankruptcy appellate panel clerks’ offices, 24
+                     bankruptcy clerks’ offices, 8, 24
+
+             Bankruptcy System, Committee on the Administration of the, 8, 11
+
+             Benefits
+                    Federal Employees Health Benefits, 22
+                    judicial officer survivors’, 22
+                    Judicial Survivors’ Annuities System, 22
+
+             Budget (see appropriations)
+
+             Budget, Committee on the, 8-9, 18, 28
+
+             Capital Investment Fund, 8-9
+
+             Case management (see court administration)
+
+             Case Management/Electronic Case Files system (see CM/ECF)
+
+             Chief Justice, 7, 21, Sp.Sess. 4.
+
+             Circuit councils (see circuit judicial councils)
+
+
+
+                                                          ii
+Judicial Conference of the United States                                           September 16, 2008
+                                                                         June 17, 2008 Special Session
+
+             Circuit executives
+                    offices, staffing formula, 24
+
+             Circuit judges (see judges, circuit)
+
+             Circuit judicial councils
+                    changes in magistrate judge positions, 30
+                    Component B space projects, 37
+
+             Civil rules (see rules of practice and procedure)
+
+             CM/ECF, 17, 27
+
+             Code of Conduct for United States Judges, 9, Sp.Sess. 5-6
+
+             Codes of Conduct, Committee on, 9-10
+
+             Community defender organizations (see federal defender organizations)
+
+             Compensation
+                  cost containment, 25
+                  Court Personnel System, 25-26
+                  court reporter, 28
+                  judicial, 23
+                  Judiciary Salary Plan, 26
+                  longevity bonus program, 26
+                  pay-for-performance policy, 26
+                  quality-step-increase program, 26
+                  salary funding formula, 9
+                  salary progression policy, 25-26
+
+             Congress (see also legislation, pending)
+                   budget request, FY 2010, 8
+                   Capital Investment Fund, 8-9
+                   courtroom usage study, 10-11
+                   E-Government Act annual report, 6
+                   Government Accountability Office, 19
+                   House Committee on Transportation and Infrastructure, Subcommittee on
+                     Economic Development, Public Buildings and Emergency Management, 11
+                   House of Representatives, Sp.Sess. 4
+                   impeachment, Sp.Sess. 6
+
+                                                         iii
+Judicial Conference of the United States                                             September 16, 2008
+                                                                           June 17, 2008 Special Session
+
+             Congress (continued)
+                   rules of practice and procedure, 34-36
+                   senior judge participation in court governance, 5-6, 11-12, 29-30
+
+             Cost containment, 24, 25
+
+             Court administration (see also bankruptcy system; courts of appeals; district courts;
+             electronic public access; fees; magistrate judges system; personnel, judiciary; records;
+             staffing resources)
+                     CM/ECF, 17, 27
+                     court governance, senior district judges, 5-6, 11-12, 29-30
+                     courtroom sharing, 10-11
+                     courtroom usage study, 10-11, 38
+                     electronic case management, 17-18
+                     miscellaneous fees, style/technical revisions, 12-16
+                     places of holding court, District of North Dakota, 17
+                     Report on the Usage of Federal District Court Courtrooms, 11
+                     rules of practice and procedure, 34-37
+                     streamlining court operations, impact on space, 7
+
+             Court Administration and Case Management, Committee on, 6, 7, 10-18, 38
+
+             Court interpreters
+                    salaries, 9
+                    staff positions
+                       additional, 26
+                       conversion from CPS to JSP, 26
+
+             Court Personnel System
+                   benchmarks, 25
+                   compensation study, 25
+                   national performance guidelines, 25-26
+                   salary progression policy, 25-26
+                   staff court interpreter positions, 26
+                   supervisory and managerial position classifications, 25
+
+             Court reporters, 28
+
+             Court Security Improvement Act of 2007, 5, 11, 30
+
+             Courthouses (see space and facilities)
+
+                                                          iv
+Judicial Conference of the United States                                           September 16, 2008
+                                                                         June 17, 2008 Special Session
+
+             Courtrooms (see space and facilities)
+
+             Courts of appeals (see also court administration)
+                   fees, miscellaneous, 12-15
+                   records disposition, electronic, 17-18
+                   staffing formulas
+                       circuit executive offices, 24
+                       circuit librarians offices, 24
+                       conference attorneys offices, 24
+                       two-percent productivity adjustment
+                            appellate clerks, 24
+                            staff attorneys, 24
+                   Type II deputies, 27
+
+             Criminal Justice Act (CJA) (see also defender services)
+                   representations, case budgeting, 19
+
+             Criminal law (see also Criminal Justice Act; defender services; probation and pretrial
+             services system)
+                    forms amendments, 18
+                    rules of practice and procedure, 34, 36-37
+
+             Criminal Law, Committee on, 18-19. 28, 29
+
+             Criminal rules (see rules of practice and procedure)
+
+             Data communications network, 21
+
+             Defender services (see also Criminal Justice Act (CJA); personnel, judiciary)
+                   budgets, federal defender organizations, 19
+                   case-budgeting pilot project, 19
+                   employee exit/entry surveys, 28
+                   financial plan, FY 2009, interim, 6
+
+             Defender Services, Committee on, 19, 29
+
+             Department of Justice
+                   Executive Office for U.S. Trustees (EOUST), 17
+                   Federal Bureau of Prisons, 29
+                   Office of Federal Detention Trustee, 17
+
+
+                                                         v
+Judicial Conference of the United States                                            September 16, 2008
+                                                                          June 17, 2008 Special Session
+
+             Department of Justice (continued)
+                   Overseas Prosecutorial Development and Training Office, 21-22
+                   United States Marshals Service, 29
+
+             Department of State, 21-22
+
+             Director, Administrative Office of the United States Courts, 30
+
+             District courts (see also bankruptcy system; court administration; fees; magistrate judges
+             system; probation and pretrial services system; staffing resources)
+                    alternative dispute resolution, 27
+                    clerks’ offices staffing formula, 24
+                    court interpreter positions, 26
+                    courtroom sharing, 10-11
+                    courtroom usage study, 10-11
+                    District of North Dakota divisions, 17
+                    fees, miscellaneous, 12-16
+                    magistrate judge positions
+                        changes, 30-34
+                        vacancies, 34
+                    places of holding court, District of North Dakota, 17
+                    pro se law clerk allocation, 24-25
+                    records disposition, electronic, 17-18
+                    rules of practice and procedure, 34, 36-37
+                    two-percent productivity adjustment, 24
+
+             District judges (see judges, district)
+
+             E-Government Act of 2002, 6
+
+             Electronic case files
+                    management, 17-18
+                    records disposition schedule, 17-18
+
+             Electronic public access (EPA)
+                    data transfer to bankruptcy case trustees, 17
+
+             Evidence rules (see rules of practice and procedure)
+
+
+
+
+                                                          vi
+Judicial Conference of the United States                                               September 16, 2008
+                                                                             June 17, 2008 Special Session
+
+             Executive branch
+                   Department of Justice, 17, 21-22
+                   Department of State, 21-22
+                   Executive Office for U.S. Trustees, 17
+                   Federal Bureau of Prisons, 29
+                   General Services Administration, 6, 37, 38
+                   Office of the Federal Detention Trustee, 29
+                   United States Marshals Service, 29
+
+             Executive Committee, 4-7, 8, 9, 11, 30, 33-34
+
+             Executive Office for U.S. Trustees, 17
+
+             Federal Bureau of Prisons, 29
+
+             Federal defender organizations (see also defender services; federal defenders)
+                   budgets and grants, 19
+                   exit/entry employee surveys, 28
+
+             Federal defenders (see defender services; federal defender organizations; personnel,
+             judiciary)
+
+             Federal Employees Health Benefits, 22
+
+             Federal Judicial Center, 10-11, 19
+
+             Federal rules (see rules of practice and procedure)
+
+             Federal-State Jurisdiction, Committee on, 19-20
+
+             Federal/state relations, 19-20
+
+             Fees
+                      Court of Appeals Miscellaneous Fee Schedule, 12-14
+                      District Court Miscellaneous Fee Schedule, 12, 15-16
+                      Electronic public access, data transfer to bankruptcy case trustees, 17
+
+             Financial Disclosure, Committee on, 20
+
+             Financial disclosure reports, 20
+
+
+                                                           vii
+Judicial Conference of the United States                                            September 16, 2008
+                                                                          June 17, 2008 Special Session
+
+             General Services Administration, 6, 37, 38
+
+             Gleeson, John, 4-5
+
+             Government Accountability Office, 19
+
+             Guidelines for Intercircuit Assignments, 21
+
+             Henry, Robert H., 4-5
+
+             Impeachment
+                   certificate of consideration of, Sp.Sess. 4-6
+
+             In re: Complaint of Judicial Misconduct against United States
+             District Judge G. Thomas Porteous, Jr., under the Judicial Conduct
+             and Disability Act of 1980, Sp.Sess. 3
+
+             Information technology
+                   Judiciary Information Technology Fund, 21
+                   Long Range Plan for Information Technology in the Federal Judiciary, 20
+
+             Information Technology, Committee on, 6, 20-21
+
+             Intercircuit assignments, 21
+
+             Intercircuit Assignments, Committee on, 21
+
+             International Judicial Relations, Committee on, 21-22
+
+             Judges, Article III (see also judges, federal)
+                   district, courtroom sharing, 10-11
+                   intercircuit assignments, 21
+
+             Judges, bankruptcy (see bankruptcy system; judges, federal)
+
+             Judges, circuit (see judges, Article III; judges, federal)
+
+             Judges, Court of Federal Claims (see judges, federal)
+
+             Judges, Court of International Trade (see judges, federal)
+
+
+                                                          viii
+Judicial Conference of the United States                                                  September 16, 2008
+                                                                                June 17, 2008 Special Session
+
+             Judges, district (see also judges, Article III; judges, federal)
+                   courtroom sharing
+                       large courthouses, 10-11
+                       senior, 10-11
+                   senior, court governance, 5-6, 11-12, 29-30
+
+             Judges, federal (see also judges, Article III; judges, magistrate)
+                   compensation, 23
+                   financial disclosure reports, 20
+                   health benefits enrollment, survivors, 22
+                   travel, 22-23
+
+             Judges, magistrate (see also judges, federal; magistrate judges system)
+                   accelerated funding, 6, 33
+                   changes in positions, 6, 30-33
+                   selection and appointment
+                      senior district judge participation, 5-6, 11-12, 29-30
+                   vacancies, 34
+
+             Judges, territorial (see judges, federal)
+
+             Judgeships, bankruptcy
+                   continued need, 8
+
+             Judicial Branch, Committee on the, 22-23
+
+             Judicial conduct and disability
+                    complaints, 23, Sp.Sess. 3-4
+                    proceeding, Sp.Sess. 3-6
+                    Rules for Judicial-Conduct and Judicial-Disability Proceedings, 23
+
+             Judicial Conduct and Disability Act, 23, Sp.Sess. 3, Sp.Sess. 6
+
+             Judicial Conduct and Disability, Committee on, 23, Sp.Sess. 3-6
+
+             Judicial Resources, Committee on, 24-28
+
+             Judicial Security, Committee on, 29
+
+             Judicial Survivors’ Annuities System, 22
+
+
+                                                           ix
+Judicial Conference of the United States                                           September 16, 2008
+                                                                         June 17, 2008 Special Session
+
+             Judiciary Salary Plan
+                    longevity bonus program, 26
+                    staff court interpreter positions, 26
+                    Type II deputy, 27
+
+             Lamberth, Royce, C., 4-5
+
+             Legislation, pending (110th Congress)
+                    Civil Service Retirement System annuities, part-time service, 28
+                    paid parental leave, 28
+                    re-employment of annuitants, 28
+
+             Leonidas Ralph Mecham Award for Exemplary Service
+             to the Courts, 7
+
+             Long Range Plan for Information Technology in the
+             Federal Judiciary, 20
+
+             Long-range planning
+                   ad hoc advisory committee, 7
+
+             Magistrate judges (see judges, magistrate)
+
+             Magistrate judges system (see also judges, magistrate)
+                   courtroom sharing, 10-11
+                   magistrate judge positions
+                      accelerated funding, 6, 33
+                      changes, 6, 30-34
+                      selection, 5-6, 11-12, 29-30
+                      vacancies, 34
+                   selection and appointment regulations, 29-30
+
+             Magistrate Judges System, Committee on the Administration
+             of the, 6, 10, 29-34
+
+             Miscellaneous fee schedules (see fees)
+
+             National Archives and Records Administration (NARA), 17-18
+
+             Office of the Federal Detention Trustee, 29
+
+
+                                                            x
+Judicial Conference of the United States                                            September 16, 2008
+                                                                          June 17, 2008 Special Session
+
+             Personnel, judiciary (see also staffing resources)
+                   compensation, 9, 25-26, 28
+                   Court Personnel System
+                      benchmarks, 25
+                      salary progression policy, 25-26
+                   employee exit/entry surveys, 28
+                   financial disclosure reports, 20
+                   human resources legislation, pending 110th Congress
+                      Civil Service Retirement System annuities, part-time service, 28
+                      paid parental leave, 28
+                      re-employment of annuitants, 28
+                   Judiciary Salary Plan, 26, 27
+                   staff court interpreter positions, 26
+
+             Porteous, G. Thomas, Jr., Sp.Sess. 3-6
+
+             Probation and pretrial services officers (see personnel, judiciary; probation and pretrial
+             services system)
+
+             Probation and pretrial services system
+                   staffing formulas, 28
+
+             Quist, Gordon J., 4-5
+
+             Records
+                   data transfer to bankruptcy case trustees, 17
+                   disposition schedules, electronic case files, 17-18
+
+             Regulations of the Judicial Conference of the United States Establishing
+             Standards and Procedures for the Appointment and Reappointment
+             of United States Magistrate Judges, 29
+
+             Report on the Usage of Federal District Court Courtrooms, 11
+
+             Resolutions
+                   Gleeson, John, 4-5
+                   Henry, Robert, H., 4-5
+                   Lamberth, Royce, C., 4-5
+                   Quist, Gordon J., 4-5
+                   Sentelle, David B., 4-5
+
+
+                                                         xi
+Judicial Conference of the United States                                         September 16, 2008
+                                                                       June 17, 2008 Special Session
+
+             Resolutions (continued)
+                   Smith, Ortrie D., 4-5
+                   Vanaskie, Thomas I., 4-5
+
+             Rule of law programs, 21-22
+
+             Rules for Judicial-Conduct and Judicial-Disability Proceedings, 23
+
+             Rules of practice and procedure
+                    appellate rules, 34, 35, 36-37
+                    bankruptcy rules, 34, 35-36, 36-37
+                    civil rules, 34, 36, 36-37
+                    criminal rules, 34, 36-37
+                    evidence rules, 36-37
+                    time computation, 34-35
+
+             Rules of Practice and Procedure, Committee on, 7, 34-37
+                    Bankruptcy Rules Advisory Committee, 7
+                    Civil Rules Advisory Committee, 7
+
+             Salaries (see compensation)
+
+             Security, 29
+
+             Sentelle, David B., 4-5
+
+             Smith, Ortrie D., 4-5
+
+             Space and facilities
+                    circuit rent budget allotment methodology, 37
+                    courthouse construction/renovation
+                       build-to-suit leased courthouse, 37, 38
+                       Component B projects, 37
+                       courtroom sharing, 10-11
+                       judicial space emergency, 6
+                    courtroom usage study, 10-11, 38
+                    U.S. Courts Design Guide, 10
+
+             Space and Facilities, Committee on, 6, 10-11, 37-38
+
+
+
+                                                         xii
+Judicial Conference of the United States                                            September 16, 2008
+                                                                          June 17, 2008 Special Session
+
+             Staffing formulas (see staffing resources)
+
+             Staffing resources (see also personnel, judiciary; staffing formulas)
+                    alternative dispute resolution, 27
+                    court interpreters positions, 26
+                    staffing formulas
+                        bankruptcy clerks offices, 24
+                        circuit executives offices, 24
+                        circuit librarians offices, 24
+                        conference attorneys offices, 24
+                        pro se law clerks, stabilization factor, 24-25
+                        probation/pretrial services offices, 28
+                        two-percent productivity adjustment, 24
+                    Type II deputy positions, courts of appeals, 27
+
+             Technology (see information technology)
+
+             Travel, judges’
+                    meetings
+                       governmental, 22
+                       non-governmental, 22
+                    regulations, 22-23
+                    security-related travel, 23
+                    travel interruptions, 23
+
+             Travel Regulations for United States Justices and Judges, 22-23
+
+             Type II deputies, 27
+
+             U. S. Courts Design Guide, 10
+
+             United States Agency for International Development, 21
+
+             United States Marshals Service, 29
+
+             Vanaskie, Thomas I., 4-5
+
+             Work measurement, 8, 9, 24, 28
+
+             World Bank, 22
+
+
+                                                          xiii
+A DMINISTRATIVE O FFICE OF THE U.S. C OURTS
+T HURGOOD M ARSHALL F EDERAL J UDICIARY B UILDING
+            W ASHINGTON, D.C. 20544
+

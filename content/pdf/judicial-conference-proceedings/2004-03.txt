@@ -1,0 +1,2078 @@
+REPORT OF THE PROCEEDINGS
+OF THE JUDICIAL CONFERENCE
+OF THE UNITED STATES
+
+
+
+
+MARCH 16, 2004
+WASHINGTON, D.C.
+
+
+
+
+JUDICIAL CONFERENCE OF THE UNITED STATES
+CHIEF JUSTICE WILLIAM H. REHNQUIST,
+PRESIDING
+LEONIDAS RALPH MECHAM, SECRETARY
+REPORT OF THE PROCEEDINGS
+OF THE JUDICIAL CONFERENCE
+OF THE UNITED STATES
+
+
+
+
+MARCH 16, 2004
+WASHINGTON, D.C.
+REPORT OF THE PROCEEDINGS
+OF THE JUDICIAL CONFERENCE
+OF THE UNITED STATES
+
+March 16, 2004
+
+     Contents
+
+     Call of the Conference . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 1
+     Reports . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 3
+     Elections . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 4
+     Executive Committee . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 4
+             Fiscal Year 2004 Financial Plans . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 4
+             Miscellaneous Actions . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 5
+     Committee on the Administrative Office . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 6
+             Committee Activities . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 6
+     Committee on the Administration of the Bankruptcy System . . . . . . . . . . . . . . . . 7
+             Attendance at Judicial Conference Sessions . . . . . . . . . . . . . . . . . . . . . . . 7
+             Uniform Dollar Amounts in the Bankruptcy Code . . . . . . . . . . . . . . . . . . 7
+             Committee Activities . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 7
+     Committee on the Budget . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 8
+             Chapter 7 Trustee Payments . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 8
+             Committee Activities . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 8
+     Committee on Codes of Conduct . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 9
+             Committee Activities . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 9
+     Committee on Court Administration and Case Management . . . . . . . . . . . . . . . . 9
+             Miscellaneous Fees . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 9
+             Places of Holding Court . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 10
+             Public Access to Electronic Criminal Case Files . . . . . . . . . . . . . . . . . . . 10
+             Remote Electronic Access to Transcripts . . . . . . . . . . . . . . . . . . . . . . . . 10
+             Committee Activities . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 11
+     Committee on Criminal Law . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 11
+             United States Sentencing Commission . . . . . . . . . . . . . . . . . . . . . . . . . . 11
+             Fine and Restitution Statutes . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 12
+             Federal Tort Claims Act . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 12
+             Post-Conviction Supervision Monograph . . . . . . . . . . . . . . . . . . . . . . . . 12
+             Presentence Investigation Report Monograph . . . . . . . . . . . . . . . . . . . . . 13
+             Judgments in a Criminal Case . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 13
+             Committee Activities . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 13
+Committee on Defender Services . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 14
+      Criminal Justice Act Resolution . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 14
+      Criminal Justice Act Payments for Paralegal Services . . . . . . . . . . . . . . 15
+      Committee Activities . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 16
+Committee on Federal-State Jurisdiction . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 16
+      Committee Activities . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 16
+Committee on Financial Disclosure . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 17
+      Committee Activities . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 17
+Committee on Information Technology . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 17
+      Long Range Plan for Information Technology . . . . . . . . . . . . . . . . . . . . 17
+      Committee Activities . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 17
+Committee on Intercircuit Assignments . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 18
+      Committee Activities . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 18
+Committee on International Judicial Relations . . . . . . . . . . . . . . . . . . . . . . . . . . 18
+      Committee Activities . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 18
+Committee on the Judicial Branch . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 18
+      Judges’ Travel Regulations . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 18
+      Committee Activities . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 19
+Committee on Judicial Resources . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 19
+      Elbow Law Clerk Compensation . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 19
+      Law Clerk Qualifications . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 20
+      Temporary Backfill of Chambers Staff . . . . . . . . . . . . . . . . . . . . . . . . . . 20
+      Type II Deputy . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 21
+      Reasonable Accommodations . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 21
+      Committee Activities . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 22
+Committee on the Administration of the Magistrate Judges System . . . . . . . . . . 22
+      Attendance at Judicial Conference Sessions . . . . . . . . . . . . . . . . . . . . . . 22
+      Authority to Hold Proceedings Outside a District in an Emergency . . . . 22
+      Residency Requirement for Merit Selection Panel Members . . . . . . . . . 23
+      Tax Court Legislation . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 23
+      Changes in Magistrate Judge Positions . . . . . . . . . . . . . . . . . . . . . . . . . . 23
+      Committee Activities . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 27
+Committee to Review Circuit Council Conduct and Disability Orders . . . . . . . 27
+      Committee Activities . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 27
+Committee on Rules of Practice and Procedure . . . . . . . . . . . . . . . . . . . . . . . . . 27
+      Committee Activities . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 27
+Committee on Security and Facilities . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 28
+      Space Rental Costs . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 28
+      U.S. Courts Design Guide . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 28
+      Committee Activities . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 30
+Funding . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 30
+REPORT OF THE PROCEEDINGS
+OF THE JUDICIAL CONFERENCE
+OF THE UNITED STATES
+
+
+March 16, 2004
+
+
+                     The Judicial Conference of the United States convened in Washington,
+             D.C., on March 16, 2004, pursuant to the call of the Chief Justice of the
+             United States issued under 28 U.S.C. § 331. The Chief Justice presided, and
+             the following members of the Conference were present:
+
+                    First Circuit:
+
+                                Chief Judge Michael Boudin
+                                Chief Judge Hector M. Laffitte,
+                                       District of Puerto Rico
+
+                    Second Circuit:
+
+                                Chief Judge John M. Walker, Jr.
+                                Chief Judge Frederick J. Scullin, Jr.,
+                                       Northern District of New York
+
+                    Third Circuit:
+
+                                Chief Judge Anthony J. Scirica
+                                Chief Judge Thomas I. Vanaskie,
+                                       Middle District of Pennsylvania
+
+                    Fourth Circuit:
+
+                                Chief Judge William W. Wilkins
+                                Judge David C. Norton,
+                                       District of South Carolina
+
+                    Fifth Circuit:
+
+                                Chief Judge Carolyn Dineen King
+                                Judge Martin L. C. Feldman,
+                                       Eastern District of Louisiana
+Judicial Conference of the United States
+
+                               Sixth Circuit:
+
+                                           Chief Judge Danny J. Boggs
+                                           Chief Judge Lawrence P. Zatkoff,
+                                                  Eastern District of Michigan
+
+                               Seventh Circuit:
+
+                                           Chief Judge Joel M. Flaum
+                                           Judge J. P. Stadtmueller,
+                                                  Eastern District of Wisconsin
+
+                               Eighth Circuit:
+
+                                           Chief Judge James B. Loken
+                                           Chief Judge James M. Rosenbaum,
+                                                  District of Minnesota
+
+                               Ninth Circuit:
+
+                                         Chief Judge Mary M. Schroeder
+                                         Chief Judge David Alan Ezra,
+                                                District of Hawaii
+                               Tenth Circuit:
+
+                                           Chief Judge Deanell R. Tacha
+                                           Judge David L. Russell,
+                                                  Western District of Oklahoma
+
+                               Eleventh Circuit:
+
+                                           Chief Judge J. L. Edmondson
+                                           Judge J. Owen Forrester,
+                                                  Northern District of Georgia
+
+                               District of Columbia Circuit:
+
+                                           Chief Judge Douglas H. Ginsburg
+                                           Chief Judge Thomas F. Hogan,
+                                                  District of Columbia
+
+
+
+
+                                                               2
+                                                                     March 16, 2004
+
+           Federal Circuit:
+
+                      Chief Judge Haldane Robert Mayer
+
+           Court of International Trade:
+
+                      Chief Judge Jane A. Restani
+
+           Circuit Judges Edward E. Carnes, Dennis G. Jacobs, Marjorie O.
+    Rendell, and Jane R. Roth, and District Judges Nina Gershon, John G.
+    Heyburn II, Robert B. Kugler, Sim Lake, David F. Levi, John W. Lungstrum,
+    James Robertson, Lee H. Rosenthal, Patti B. Saris, and Frederick P. Stamp, Jr.
+    attended the Conference session. Karen Milton of the Second Circuit
+    represented the circuit executives.
+
+            Leonidas Ralph Mecham, Director of the Administrative Office of the
+    United States Courts (AO), attended the session of the Conference, as did
+    Clarence A. Lee, Jr., Associate Director for Management and Operations;
+    William R. Burchill, Jr., Associate Director and General Counsel; Karen K.
+    Siegel, Assistant Director, Judicial Conference Executive Secretariat; Michael
+    W. Blommer, Assistant Director, Legislative Affairs; David Sellers, Assistant
+    Director, Public Affairs; and Wendy Jennis, Deputy Assistant Director,
+    Judicial Conference Executive Secretariat. Judge Barbara Jacobs Rothstein
+    and Russell Wheeler, Director and Deputy Director of the Federal Judicial
+    Center (FJC), also attended the session of the Conference, as did Sally Rider,
+    Administrative Assistant to the Chief Justice; Timothy B. McGrath, Staff
+    Director of the United States Sentencing Commission; and the 2003-2004
+    Judicial Fellows.
+
+            Representatives F. James Sensenbrenner and Lamar S. Smith spoke on
+    matters pending in Congress of interest to the Conference. Deputy Attorney
+    General James B. Comey, Jr. addressed the Conference on matters of mutual
+    interest to the judiciary and the Department of Justice.
+
+
+REPORTS
+           Mr. Mecham reported to the Conference on the judicial business of the
+   courts and on matters relating to the Administrative Office, and Judge
+   Rothstein spoke to the Conference about Federal Judicial Center programs.
+   Judge Heyburn, chair of the Committee on the Budget, briefed the members on
+
+
+
+                                           3
+Judicial Conference of the United States
+
+                     judiciary appropriations, and Judge Tacha, chair of the Committee on the
+                     Judicial Branch, reported on judicial compensation.
+
+
+             ELECTIONS
+                            The Judicial Conference elected to membership on the Board of the
+                     Federal Judicial Center, each for a term of four years, Judge Terence T. Evans,
+                     United States Court of Appeals for the Seventh Circuit, to succeed Judge
+                     Pauline Newman, and Judge Bernice Bouie Donald, United States District
+                     Court, Western District of Tennessee, to succeed Judge Robert Bryan.
+
+
+             EXECUTIVE COMMITTEE
+                     FISCAL YEAR 2004 FINANCIAL PLANS
+
+                             At the time of the Executive Committee’s December 2003 meeting,
+                     Congress had not yet enacted a final fiscal year 2004 appropriations bill for the
+                     judiciary. However, agreement by House and Senate conferees had been
+                     reached, as part of an omnibus appropriations bill, on funding levels for the
+                     judiciary. Using those agreed-upon levels, modified by two congressionally
+                     imposed across-the-board reductions, the Executive Committee adopted fiscal
+                     year 2004 financial plans for the Salaries and Expenses, Defender Services,
+                     Fees of Jurors and Commissioners, and Court Security accounts. The financial
+                     plans take into consideration limited resources in fiscal year 2004 and the
+                     likelihood that funding will become increasingly scarce in future years. The
+                     Committee also approved a recommended strategy for distribution of
+                     allotments to court units funded under the Salaries and Expenses account and
+                     methods for addressing shortfalls in other accounts. Anticipating that the
+                     Congress would recess for the year without enactment of an omnibus bill, the
+                     Executive Committee also unanimously approved guidance for operating under
+                     a continuing resolution until the end of January 2004. In addition, the
+                     Committee approved a proposal to seek supplemental funding that would
+                     restore the appropriation level for the Salaries and Expenses account to the
+                     amount approved by congressional conferees prior to the across-the-board
+                     reductions and that would also provide sufficient funds for Criminal Justice
+                     Act panel attorneys in fiscal year 2004.
+
+
+
+
+                                                            4
+                                                                 March 16, 2004
+
+
+
+MISCELLANEOUS ACTIONS
+
+    The Executive Committee—
+
+•   On recommendation of the Court Administration and Case
+    Management Committee, opposed legislation (S. 1719, 108th Congress)
+    that would amend 28 U.S.C. § 134 to prohibit the reassignment
+    between divisions of any district judge in Texas whose duty station has
+    three or fewer judges without the consent of all the district judges in the
+    district;
+
+•   Approved technical adjustments to the fiscal year 2005 budget request
+    associated with changes in the federal pay and benefits inflation rates,
+    revised requirements in the Fees of Jurors and Court Security accounts,
+    higher projected receipts from electronic public access charges, a
+    decrease in anticipated benefits costs for court personnel, and a revised
+    assumption regarding projected unobligated balances in fiscal year
+    2004 that can carry forward to finance requirements in fiscal year 2005;
+
+•   Agreed, on recommendation of the Committee on the Administration of
+    the Magistrate Judges System, to seek removal from proposed
+    legislation entitled the “Vital Interdiction of Criminal Terrorist
+    Organizations Act of 2003" (VICTORY Act) of a provision that would
+    strip magistrate judges of their existing trial authority in civil and
+    criminal forfeiture proceedings and give them case-dispositive motions
+    authority in such proceedings instead;
+
+•   Approved a recommendation of the Committee on Judicial Resources
+    that the voluntary separation incentive (“buy-out”) program approved
+    by the Judicial Conference in September 2003 (JCUS-SEP 03, pp. 27-
+    28) be amended to eliminate the financial incentive for court units to
+    favor involuntary separations over voluntary buy-outs;
+
+•   On recommendation of the Committee on Criminal Law, approved
+    technical changes to the Statement of Reasons that accompanies a
+    judgment in a criminal case to comply with sentencing guideline
+    amendments promulgated by the United States Sentencing Commission
+    and to meet the data collection needs of the Commission;
+
+•   Allowed to take effect the annual automatic inflation adjustment to the
+    alternative subsistence rate for judges’ travel expenses;
+
+
+
+                                     5
+Judicial Conference of the United States
+
+                     •         Approved release of a report by the Bankruptcy Committee’s
+                               Subcommittee on Venue-Related Issues relating to large chapter 11
+                               cases, with an appropriate disclaimer indicating that it is not
+                               Conference approved;
+
+                     •         Requested that the Committee on Defender Services, which is
+                               delegated budgetary responsibility for the defender services program,
+                               impose a rent control moratorium on all space requests below $2.29
+                               million, with certain limited exceptions, similar to the moratorium
+                               recommended by the Security and Facilities Committee and approved
+                               by the Judicial Conference at this session with regard to non-defender
+                               judiciary space requests (see infra, “Space Rental Costs,” p. 28), and
+                               report back to the Executive Committee on the actions taken in this
+                               regard; and
+
+                     •         In light of the anticipated dire budget situation for the foreseeable
+                               future, agreed to ask the Chief Justice whether he would charge a new
+                               ad hoc group of judges with the responsibility to develop an integrated
+                               strategy to deal with the probability of declining resources.1
+
+
+             COMMITTEE ON THE ADMINISTRATIVE OFFICE
+                         COMMITTEE ACTIVITIES
+
+                                 The Committee on the Administrative Office reported that it discussed
+                         extensively the Administrative Office’s management oversight and
+                         stewardship program for judges and unit executives, focusing particularly on
+                         AO assistance to the courts in strengthening internal controls for
+                         administrative decisions and operations. It unanimously passed a resolution
+                         commending the efforts of the Administrative Office to promote good
+                         stewardship in the federal courts, including improvements to chief judge
+                         orientations to put more focus on oversight and stewardship responsibilities.
+                         The Committee was briefed on the functions and activities of the AO’s Article
+                         III Judges Division. It was also given a report on an ongoing study of
+                         alternatives for providing administrative services to courts and expressed its
+                         support for identifying more efficient ways to provide administrative services
+                         for the courts.
+
+                    1
+                     The Chief Justice subsequently determined that the Executive Committee was
+                    the appropriate group to spearhead this strategic financial policy and planning
+                    effort; a mission statement describing the Committee’s expanded role was
+                    approved by the Chief Justice.
+
+                                                               6
+                                                                      March 16, 2004
+
+COMMITTEE ON THE ADMINISTRATION
+OF THE BANKRUPTCY SYSTEM
+
+   ATTENDANCE AT JUDICIAL CONFERENCE SESSIONS
+
+           The Committee on the Administration of the Bankruptcy System
+   recommended that the Judicial Conference invite one bankruptcy judge,
+   selected by the Chief Justice, to attend Judicial Conference sessions in a non-
+   voting capacity. The Magistrate Judges Committee made a similar
+   recommendation regarding attendance of a magistrate judge at Conference
+   sessions (see infra, “Attendance at Judicial Conference Sessions,” p. 22).
+   After discussion, the Conference adopted the Committee’s recommendation.
+
+
+   UNIFORM DOLLAR AMOUNTS IN THE
+   BANKRUPTCY CODE
+
+           Section 104(a) of the Bankruptcy Code requires the Judicial
+   Conference to transmit to Congress and to the President every six years a
+   recommendation for a uniform percentage adjustment of each dollar amount in
+   the Bankruptcy Code and in 28 U.S.C. § 1930 (which prescribes filing and
+   other fees to be paid in bankruptcy cases). However, since § 104(a) was
+   adopted, there have been several statutory changes relating to bankruptcy fee
+   provisions, including authorization for periodic automatic adjustments of
+   numerous specific dollar amounts in the Code (see § 104(b) of the Code, added
+   by the Bankruptcy Reform Act of 1994, Public Law No. 103-94). These
+   changes have made any across-the-board uniform percentage adjustment of all
+   dollar amounts unnecessary and inappropriate. Moreover, the Conference has
+   never endorsed a blanket adjustment of fees, preferring instead to adjust
+   individual fees after balancing fiscal responsibilities with the need to keep the
+   courts accessible to the public. The Conference therefore approved the
+   Bankruptcy Committee’s recommendation to seek repeal of 11 U.S.C. § 104(a)
+   relating to uniform adjustments of filing and miscellaneous fees in the
+   bankruptcy courts.
+
+
+   COMMITTEE ACTIVITIES
+           The Bankruptcy Committee reported that it approved a resolution
+   requesting the assistance of the Committee on Information Technology in
+   supporting certain locally developed calendaring and order-signing programs
+   to address the urgent automation needs of bankruptcy judges. It also endorsed
+   a cost-saving proposal for legislation to change the method of funding and
+
+                                           7
+Judicial Conference of the United States
+
+                     accounting for chapter 7 bankruptcy trustee fees; expressed support for certain
+                     proposals to facilitate law clerk assistance and to improve the collection and
+                     reporting of judicial statistics; and discussed, at the request of the Security and
+                     Facilities Committee, whether to recommend changes to the existing policy on
+                     courtrooms for recalled bankruptcy judges. The Committee received reports
+                     on a wide range of topics, including the status of pending bankruptcy reform
+                     legislation and legislative efforts to obtain authorization of additional
+                     bankruptcy judgeships.
+
+
+             COMMITTEE ON THE BUDGET
+                      CHAPTER 7 TRUSTEE PAYMENTS
+
+                              The Budget Committee, with the concurrence of the Bankruptcy
+                      Committee, recommended that the Judicial Conference seek legislation to
+                      change the process for paying chapter 7 bankruptcy trustees. Currently, a
+                      portion of the filing fee paid in a chapter 7 case is placed in a deposit fund
+                      with the Department of the Treasury, where it is held pending distribution to
+                      trustees. Under the new model, this portion of the fee would be deposited into
+                      the judiciary fee account, and chapter 7 trustees would be paid from the
+                      judiciary’s Salaries and Expenses account. The Judicial Conference approved
+                      the recommendation, which would simplify the accounting associated with
+                      chapter 7 trustee payments.
+
+
+                      COMMITTEE ACTIVITIES
+
+                              The Committee on the Budget reported that it focused its discussions
+                      on developing strategies for formulating future budget requests in a
+                      constrained budget environment. These strategies encompassed the
+                      committee’s two priorities – acquiring additional resources from Congress and
+                      preparing the program committees for future budget constraints. Throughout
+                      these discussions, the Committee noted helpful actions already taken by
+                      program committees, expressed support for planned future actions by program
+                      committees, and reaffirmed the need to approach future budget cycles
+                      collaboratively with these committees.
+
+
+
+
+                                                              8
+                                                                      March 16, 2004
+
+COMMITTEE ON CODES OF CONDUCT
+    COMMITTEE ACTIVITIES
+
+            The Committee on Codes of Conduct reported that since its last report
+    to the Conference in September 2003, the Committee received 34 new written
+    inquiries and issued 23 written advisory responses. (Several additional
+    responses resolved at the Committee’s January 2004 meeting were to be
+    issued shortly thereafter.) During this period, the average response time for
+    requests was 20 days. The Chairman received and responded to 29 telephone
+    inquiries, and individual Committee members responded to 180 inquiries from
+    their colleagues.
+
+
+COMMITTEE ON COURT ADMINISTRATION
+AND CASE MANAGEMENT
+
+    MISCELLANEOUS FEES
+
+             Preambles. On recommendation of the Committee on Court
+    Administration and Case Management, the Judicial Conference amended the
+    preambles to the miscellaneous fee schedules for the courts of appeals, the
+    district courts, the Court of Federal Claims, the bankruptcy courts, and the
+    Judicial Panel on Multidistrict Litigation (promulgated by the Judicial
+    Conference pursuant to 28 U.S.C. §§ 1913, 1914, 1926, 1930, and 1932,
+    respectively) to reflect that fees charged are for the totality of services
+    provided by the court, including those provided through the court’s electronic
+    systems. The preambles, which are identical for all of these fee schedules,
+    were amended so that the pertinent sentence reads as follows:
+
+           Following are fees to be charged for services provided by the
+           [appropriate court].
+
+            District Court Miscellaneous Fee Schedule. The Committee
+    recommended that the attorney admission fee, Item 10 of the District Court
+    Miscellaneous Fee Schedule, be raised from $50 to $150, noting the
+    significant benefit attorneys derive from this one-time fee, which has not been
+    raised in several years. The Judicial Conference, after discussion, adopted the
+    recommendation.
+
+
+
+
+                                           9
+Judicial Conference of the United States
+
+
+
+                      PLACES OF HOLDING COURT
+
+                              At the request of the District of Colorado and the Tenth Circuit
+                      Judicial Council, and on recommendation of the Court Administration and
+                      Case Management Committee, the Judicial Conference agreed to seek
+                      legislation to amend 28 U.S.C. § 85 to designate Colorado Springs as a place
+                      of holding court for the District of Colorado.
+
+
+                      PUBLIC ACCESS TO ELECTRONIC CRIMINAL
+                      CASE FILES
+
+                              In September 2003, the Judicial Conference adopted a policy
+                      permitting remote public access to electronic criminal case file documents to
+                      be the same as public access to criminal case file documents at the courthouse,
+                      with a requirement that filers redact personal data identifiers from documents
+                      filed electronically or in paper. The Conference delayed the effective date of
+                      this policy pending approval of specific guidance on the implementation and
+                      operation of the policy to be developed by the Committees on Court
+                      Administration and Case Management, Criminal Law and Defender Services
+                      (JCUS-SEP 03, pp. 15-16). At this session, the Committee on Court
+                      Administration and Case Management, in conjunction with the Committees
+                      on Criminal Law and Defender Services, after consulting with the Department
+                      of Homeland Security, recommended, and the Judicial Conference approved,
+                      guidance and a model local rule on privacy and public access to electronic
+                      criminal case files.
+
+
+                      REMOTE ELECTRONIC ACCESS TO TRANSCRIPTS
+
+                              In September 2003, the Judicial Conference agreed to adopt a policy
+                      requiring courts that make electronic documents remotely available to the
+                      public to make electronic transcripts of proceedings remotely available if such
+                      transcripts are otherwise prepared. The Conference deferred implementation
+                      of the policy, however, until March 2004, and requested that the Judicial
+                      Resources Committee study the impact of the policy on court reporter income
+                      and report back to the Conference. The Committee on Court Administration
+                      and Case Management was delegated the authority to develop and issue
+                      guidance to the courts on implementation of this policy (JCUS-SEP 03, pp.
+                      16-17). These committees decided that the best approach to gathering data on
+                      court reporter income would be to conduct a pilot program whereby district
+
+
+                                                            10
+                                                                       March 16, 2004
+
+    courts desiring to do so would voluntarily implement the policy on public
+    electronic access to official transcripts. So that the pilot program could
+    commence as soon as possible, the committees sought expedited Conference
+    approval of the pilot program. They also requested that the Conference defer
+    the date of the Judicial Resources Committee’s report, and subsequent
+    implementation of the policy, until the September 2004 Judicial Conference
+    session to allow for collection and analysis of the data. The Conference
+    approved these recommendations by mail ballot concluded on November 26,
+    2003.
+
+
+    COMMITTEE ACTIVITIES
+
+             The Committee on Court Administration and Case Management
+    reported that it undertook an examination of petit juror utilization rates.
+    Noting that the number of jurors called for service but not challenged or
+    seated was continuing to rise, the Committee decided to send a letter to each
+    court along with statistics indicating that court’s pattern of jury usage and
+    offering assistance for improving these statistics. The Committee also
+    considered several issues relating to its responsibilities for the lawbooks and
+    libraries program, including lawbook spending and space requirements for
+    satellite libraries.
+
+
+COMMITTEE ON CRIMINAL LAW
+    UNITED STATES SENTENCING COMMISSION
+
+             The Committee on Criminal Law, at the suggestion of the Committee
+    on Defender Services, recommended that the Judicial Conference seek
+    legislation that would authorize the Conference to appoint a federal defender
+    to serve as an ex-officio, non-voting member of the United States Sentencing
+    Commission. Currently, 28 U.S.C. § 994(o) requires a representative of the
+    federal public defenders to submit an annual report to the Commission
+    concerning the guidelines, and the Commission may invite a federal defender
+    to testify at open Commission meetings. However, an ex-officio member can
+    attend and provide input even at non-public meetings. The Attorney General
+    or his or her designee, and the chair of the United States Parole Commission
+    already serve as ex-officio, non-voting members of the Sentencing
+    Commission (see 28 U.S.C. § 991(a) and § 235 of Public Law No. 98-473,
+    respectively). The Conference adopted the Committee’s recommendation.
+
+
+
+
+                                           11
+Judicial Conference of the United States
+
+
+
+                        FINE AND RESTITUTION STATUTES
+
+                                 In order to achieve greater flexibility in the establishment and
+                        adjustment of criminal fine and restitution payment schedules, the Committee
+                        recommended that the Judicial Conference seek legislation that would provide
+                        that all criminal monetary penalties be payable immediately and collected as
+                        non-dischargeable civil debts. This would essentially decriminalize debt
+                        collection and apply well-established and efficient civil debt collection
+                        techniques to the collection of criminal debts. The Conference adopted the
+                        Committee’s recommendation.
+
+
+                        FEDERAL TORT CLAIMS ACT
+
+                                The Federal Tort Claims Act, 28 U.S.C. § 2671 et seq., excludes
+                        intentional torts from its coverage, with the exception of those committed by
+                        investigative or law enforcement officers, defined by statute as “any officer of
+                        the United States who is empowered by law to execute searches, to seize
+                        evidence, or to make arrests for violations of Federal law.” While probation
+                        and pretrial services officers are considered law enforcement officers for most
+                        purposes, pretrial services officers are not authorized to make arrests, and
+                        probation officers are discouraged by Judicial Conference policy from
+                        exercising their search and arrest authority (JCUS-MAR 93, p. 13). To ensure
+                        that any intentional torts of these officers are covered by the Act, the
+                        Conference approved a recommendation of the Committee that it seek an
+                        amendment to the Federal Tort Claims Act, 28 U.S.C. § 2680(h), to establish
+                        explicitly that both probation and pretrial services officers are law
+                        enforcement officers for purposes of the Act.2
+
+
+                        POST-CONVICTION SUPERVISION MONOGRAPH
+
+                               The Judicial Conference approved revisions to The Supervision of
+                        Federal Offenders, Monograph 109, in March 2003 (JCUS-Mar 03, pp. 11-
+                        12). However there have been a number of additional changes in statutes,
+                        case law, and policy that warrant further substantive revisions to the
+                        monograph. On recommendation of the Committee on Criminal Law, the
+
+
+
+                    2
+                     The Conference took a similar position with regard to pretrial services officers
+                    twice previously (JCUS-SEP 76, p. 52; JCUS-SEP 77, pp. 76-77).
+
+                                                              12
+                                                                   March 16, 2004
+
+Judicial Conference approved revisions to The Supervision of Federal
+Offenders, Monograph 109, for publication and distribution to the courts.
+
+
+PRESENTENCE INVESTIGATION REPORT MONOGRAPH
+
+        The Presentence Investigation Report, Monograph 107, provides
+guidance to probation officers on the format and content of the presentence
+report. It also includes instructions on how the presentence investigation
+should be conducted and a model report. The Committee on Criminal Law
+recommended that the face sheet of the model report be revised to include a
+section setting forth restrictions on the use and redisclosure of presentence
+investigation reports that reflect their confidential nature. The face sheet
+would advise, among other things, that disclosure to the Bureau of Prisons and
+any redisclosure by the Bureau are authorized solely to assist in administering
+an offender’s prison sentence and for certain other limited purposes. On
+recommendation of the Committee, the Conference adopted a revised model
+face sheet for presentence investigation reports to be included in The
+Presentence Investigation Report, Monograph 107.
+
+
+JUDGMENTS IN A CRIMINAL CASE
+
+        The Judicial Conference adopted a recommendation of the Criminal
+Law Committee that authority to approve technical, non-controversial
+revisions to the forms for judgments in criminal cases (AO 245B-245I) be
+delegated to the Committee.
+
+
+COMMITTEE ACTIVITIES
+
+        The Committee on Criminal Law reported that it has asked the
+Committee on Judicial Resources to recommend pursuit of legislation that
+would amend 18 U.S.C. § 3152(c) to make the selection process for chief
+pretrial services officers the same as the selection process for chief probation
+officers under 18 U.S.C. § 3602(c). The Committee received a report from
+the United States Sentencing Commission on recently enacted sentencing
+guideline amendments required by the Prosecutorial Remedies and Other
+Tools to end the Exploitation of Children Today Act of 2003 or “PROTECT
+Act” (Public Law No. 108-21). The Sentencing Commission also reported a
+sharp increase in the number of documents received from the courts since
+enactment of the PROTECT Act, which includes a provision requiring courts
+to submit certain documents to the Commission. In addition, the Committee
+
+                                       13
+Judicial Conference of the United States
+
+                      was briefed on the status of a joint AO-FJC study of the substance abuse
+                      treatment program for offenders and defendants and on an ongoing study of
+                      administrative services.
+
+
+             COMMITTEE ON DEFENDER SERVICES
+                      CRIMINAL JUSTICE ACT RESOLUTION
+
+                              On recommendation of the Committee on Defender Services, the
+                      Judicial Conference endorsed the following resolution in recognition of the
+                      40th anniversary of the enactment of the Criminal Justice Act of 1964:
+
+                               The Judicial Conference of the United States recognizes the
+                               fortieth anniversary of the Criminal Justice Act of 1964,
+                               18 U.S.C. § 3006A, which has created a nationally heralded
+                               program, administered by the judiciary, for the appointment
+                               and compensation of counsel to represent individuals who have
+                               been charged with a federal crime and cannot pay for their
+                               defense. The statute ensures that all defendants in federal court
+                               receive the effective assistance of counsel guaranteed by the
+                               Sixth Amendment.
+
+                               The Criminal Justice Act program has adapted to dramatic
+                               changes in the criminal justice system over the past 40 years.
+                               Today, due to the ever-burgeoning federal criminal caseload,
+                               federal defender organizations and private “CJA panel”
+                               attorneys furnish over 140,000 representations per year to
+                               financially eligible persons. The complexity of federal
+                               criminal practice has increased substantially since 1964, as
+                               have the time commitment and skill level required of defense
+                               counsel. Federal defender organizations, authorized by a 1970
+                               amendment to the Criminal Justice Act, now serve 83 of the 94
+                               federal judicial districts. The commitment of Congress to fund
+                               the Criminal Justice Act program, and of the judiciary to
+                               support it, together with the dedication of thousands of federal
+                               defender personnel and CJA panel attorneys, have produced an
+                               assigned counsel program that delivers professional, cost-
+                               effective representation.
+
+                               By ensuring the fair treatment and effective representation of
+                               all persons accused of federal crimes, the Criminal Justice Act
+
+
+                                                              14
+                                                                    March 16, 2004
+
+       protects the rights and liberties of all citizens. The statute, and
+       the defender program that it created, have become models for
+       nations seeking to adopt the rule of law, including the right to
+       the effective assistance of counsel, as part of their criminal
+       justice systems.
+
+       The federal judiciary has been a proud steward over the
+       Criminal Justice Act program, which has become a
+       fundamental and critical component of the American criminal
+       justice system.
+
+
+CRIMINAL JUSTICE ACT PAYMENTS FOR
+PARALEGAL SERVICES
+
+        In March 1993, the Judicial Conference agreed to seek explicit
+legislative authority to pay compensation, at reduced hourly rates, to
+paralegals and law students who assist CJA panel attorneys (JCUS-MAR 93,
+p. 27). However, such explicit authority does not appear to be necessary, as
+courts permit paralegals and legal assistants, including law students, who
+assist CJA panel attorneys to be reimbursed using one of two methods, either
+under subsection (e) of the CJA, 18 U.S.C. § 3006A, as a “service other than
+counsel,” or as an “expense” of counsel under subsection (d)(1) of the CJA.
+At this session, after determining that there should be a uniform method of
+payment as opposed to this dual system, and that the former method provides
+greater judicial oversight than the latter, the Committee recommended and the
+Judicial Conference agreed to—
+
+a.     Amend paragraph 3.16 (“Other Services and Computer Hardware and
+       Software”) of the Guidelines for the Administration of the Criminal
+       Justice Act and Related Statutes, Volume VII, Guide to Judiciary
+       Policies and Procedures, to provide explicit authorization and
+       compensation (at rates less than those paid to appointed counsel) for
+       paralegals, legal assistants (including law students), and other non-
+       secretarial professional support personnel employed by appointed
+       counsel, as services other than counsel under subsection (e) of the
+       Criminal Justice Act; and
+
+b.     Delete subparagraph 2.31A (“Law Student”), which has permitted
+       compensation paid to law students to be reimbursed as an expense of
+       appointed counsel under subsection (d)(1) of the Criminal Justice Act.
+
+
+
+                                       15
+Judicial Conference of the United States
+
+                      The Conference further agreed to rescind, as no longer necessary, its 1993
+                      policy of seeking explicit legislative authority for payment at reduced hourly
+                      rates for such services.
+
+
+                      COMMITTEE ACTIVITIES
+
+                              The Committee on Defender Services reported that it endorsed a set of
+                      core principles for the management and administration of CJA panel attorney
+                      programs, based on the December 2002 report by the Vera Institute of Justice
+                      entitled “Good Practices for Federal Panel Attorney Programs - A Preliminary
+                      Study of Plans and Practices.” The Committee discussed an AO initiative to
+                      evaluate case weighting as a possible method of facilitating comparative
+                      analyses of federal defender organization workloads and refining projected
+                      resource needs. It reviewed a draft of “Guidelines for Implementation of the
+                      Judicial Conference Policy on Privacy and Public Access to Electronic
+                      Criminal Case Files.” The Committee discussed the policy adopted by the
+                      Judicial Conference regarding the electronic availability of transcripts of court
+                      proceedings (JCUS-SEP 03, pp. 16-17), and expressed concerns about the
+                      policy’s potential resource impact on the Defender Services program.
+
+
+             COMMITTEE ON FEDERAL-STATE JURISDICTION
+                      COMMITTEE ACTIVITIES
+
+                               The Committee on Federal-State Jurisdiction reported that it was
+                      briefed by the Director of the Federal Judicial Center on past projects
+                      undertaken by the FJC, including the development of a website for state-
+                      federal judicial education programs, and on the FJC’s continuing goal to
+                      increase cooperation between federal and state judges. The Committee was
+                      also briefed by the chair and a member of the Judicial Panel on Multidistrict
+                      Litigation on the work of the Panel and techniques for managing complex
+                      litigation. In addition, the Committee determined to continue further
+                      development of a proposal to confer discretion on the district courts to dismiss
+                      actions in cases where the amount in controversy drops below the statutory
+                      threshold. The Committee also conducted an informal review of its
+                      operations and projects, and discussed the status of asbestos, DNA, and class
+                      action legislation.
+
+
+
+
+                                                             16
+                                                                      March 16, 2004
+
+COMMITTEE ON FINANCIAL DISCLOSURE
+    COMMITTEE ACTIVITIES
+
+            The Committee on Financial Disclosure reported that as of
+    December 31, 2003, the Committee had received 3,934 financial disclosure
+    reports and certifications for the calendar year 2002, including 1,360 reports
+    and certifications from Supreme Court justices, Article III judges, and judicial
+    officers of special courts; 352 from bankruptcy judges; 537 from magistrate
+    judges; and 1,685 from judicial employees.
+
+
+COMMITTEE ON INFORMATION TECHNOLOGY
+    LONG RANGE PLAN FOR INFORMATION TECHNOLOGY
+
+            Pursuant to 28 U.S.C. § 612 and on recommendation of the Committee
+    on Information Technology, the Judicial Conference approved a 2004 update
+    to the Long Range Plan for Information Technology in the Federal Judiciary.
+    Funds for the judiciary’s information technology program will be spent in
+    accordance with this plan.
+
+
+    COMMITTEE ACTIVITIES
+
+            The Committee on Information Technology reported that it is seeking
+    "partner" relationships with each of the Judicial Conference program
+    committees, inviting those committees to take a more active role in
+    identifying their information technology (IT)-related business needs and
+    prioritizing IT projects within their respective program areas. Committee
+    members also suggested that the IT training curriculum be revised to
+    emphasize work done in the courtroom and chambers and urged that training
+    and IT awareness be provided through additional venues. The Committee
+    discussed the PACER Archives project, which will ensure that the program
+    complies with statutory requirements and that court data from closed case
+    management/electronic case files (CM/ECF) system cases will continue to be
+    available. The Committee expressed support for the Administrative Office’s
+    ongoing study of administrative services and for the availability of individual
+    access to the judiciary’s data communications network for official court
+    reporters.
+
+
+
+                                          17
+Judicial Conference of the United States
+
+            COMMITTEE ON INTERCIRCUIT ASSIGNMENTS
+                      COMMITTEE ACTIVITIES
+
+                              The Committee on Intercircuit Assignments reported that during the
+                      period from July 1, 2003, to December 31, 2003, a total of 85 intercircuit
+                      assignments, undertaken by 53 Article III judges, were processed and
+                      recommended by the Committee on Intercircuit Assignments and approved by
+                      the Chief Justice. During calendar year 2003, a total of 147 intercircuit
+                      assignments were processed and approved, a 30 percent decrease from 2002,
+                      likely due to the creation of additional judgeships in three district courts that
+                      had frequently borrowed judges for intercircuit assignments. In addition, the
+                      Committee aided courts requesting assistance by identifying and obtaining
+                      judges willing to take assignments.
+
+
+             COMMITTEE ON INTERNATIONAL JUDICIAL RELATIONS
+                      COMMITTEE ACTIVITIES
+
+                               The Committee on International Judicial Relations reported
+                      on its involvement in rule-of-law and judicial reform activities throughout the
+                      world, highlighting those in Bahrain, Croatia, Ecuador, Ghana, and the
+                      Russian Federation. The Committee continues to work closely on the rule-of-
+                      law component of the Open World Program, which brings Russian jurists and
+                      judicial officials to the United States to forge closer ties between the Russian
+                      and United States judiciaries. With funding from the U.S. Department of
+                      State, several United States judges were also able to make reciprocal visits to
+                      meet with Open World alumni.
+
+
+            COMMITTEE ON THE JUDICIAL BRANCH
+                      JUDGES’ TRAVEL REGULATIONS
+
+                              Maximum Meals and Incidental Expenses Rate. Effective October 1,
+                      2003, the General Services Administration (GSA) increased the maximum
+                      Meals & Incidental Expenses (M & IE) reimbursement rate from $50 to $51
+                      for executive branch employees who travel to high-cost locations. In order to
+                      maintain parity with the executive branch, and to ensure that there will be no
+                      time lag between increases in the maximum M & IE rate promulgated by GSA
+
+                                                             18
+                                                                       March 16, 2004
+
+    and the availability of increased travel reimbursement for judges’ travel, the
+    Judicial Branch Committee recommended that the Conference:
+
+    a.     Approve an increase from $50 to $51 in the judges’ Meals and
+           Incidental Expenses reimbursement rate (where expenses are not
+           itemized) provided for in sections E.4.a., E.4.b.(1), and E.4.c. of the
+           Travel Regulations for United States Justices and Judges, Guide to
+           Judiciary Policies and Procedures, Vol. III-A, ch. C-V.; and
+
+    b.     Authorize the Director of the Administrative Office to incorporate
+           future M & IE reimbursement rate increases promulgated by the
+           General Services Administration automatically into the judges’ travel
+           regulations, without further approval of the Judicial Conference.
+
+    The Conference adopted the Committee’s recommendations.
+
+
+    COMMITTEE ACTIVITIES
+
+            The Committee on the Judicial Branch reported that it continues to
+    focus its priority attention on securing the enactment of a 16.5 percent
+    increase in judicial salaries. While a significant portion of the Congress, the
+    media, and the public understands the serious threat that inadequate judicial
+    compensation presents to the United States system of justice, there is still a
+    long way to go to obtain congressional approval. The Committee will
+    continue to exert its utmost efforts to achieve this Judicial Conference
+    objective.
+
+
+COMMITTEE ON JUDICIAL RESOURCES
+    ELBOW LAW CLERK COMPENSATION
+
+            Noting a significant and accelerating growth in “elbow” law clerk
+    salaries and benefits and a need to limit such growth in the face of a severe
+    federal budgetary environment, the Committee on Judicial Resources
+    undertook an analysis of elbow law clerk compensation and recommended
+    that the Judicial Conference take the following actions:
+
+    a.     Adopt a policy whereby judges may not designate an “elbow” law
+           clerk as a “career” law clerk until the law clerk has completed four full
+
+
+                                           19
+Judicial Conference of the United States
+
+                               years of employment as a “term” law clerk, at which time a law clerk
+                               could be designated as career and thereby become eligible to
+                               participate in the Federal Employees’ Retirement System and the
+                               Thrift Savings Plan;
+
+                      b.       Approve an amendment to the judiciary’s salary matching/advanced
+                               in-step appointment policy to establish a salary matching cap of
+                               JSP-12, step five, for law clerk appointees coming from other than
+                               federal civil service jobs; and
+
+                      c.       Adopt a policy discouraging judges from placing term law clerks
+                               under the Leave Act.
+
+                      After discussion, the Judicial Conference recommitted the recommendations
+                      to the Committee, with instructions that it reconsider any Conference policy
+                      that discourages the hiring of career law clerks.
+
+
+                      LAW CLERK QUALIFICATIONS
+
+                              In September 2003, the Judicial Conference agreed to expand the
+                      qualification standards for elbow law clerks to allow experience as a pro se
+                      law clerk to be considered as equivalent to elbow law clerk experience for
+                      purposes of establishing the grade level for elbow law clerks (JCUS-SEP 03,
+                      p. 28). At this session, on recommendation of the Committee on Judicial
+                      Resources, the Conference approved an expansion of the qualification
+                      standards for elbow law clerks to include staff attorney experience as
+                      creditable for purposes of establishing grade eligibility for elbow law clerks.
+
+
+                      TEMPORARY BACKFILL OF CHAMBERS STAFF
+
+                              Judicial Conference policy restricts “temporary employment of
+                      secretaries, law clerks, legal assistants, and clerical personnel for judges and
+                      magistrates to emergency situations or extraordinary circumstances, except
+                      for extended absences due to illness or maternity leave” (JCUS-SEP 86, pp.
+                      64-65; JCUS-SEP 87, p. 77). In July 2003, the Director of the Administrative
+                      Office found that extended military duty constituted extraordinary
+                      circumstances for purposes of this policy and authorized the use of centralized
+                      funding to backfill three chambers staff called to active military duty. In light
+                      of the large number of reservists and members of the national guard now
+                      being called to extended active duty, the Committee on Judicial Resources
+
+
+                                                             20
+                                                                        March 16, 2004
+
+    recommended that the Judicial Conference modify its policy to add extended
+    active military service as a specific exception to the restriction on use of
+    centralized funds for temporary chambers personnel. The Conference
+    approved the recommendation, allowing chambers to “backfill” positions of
+    employees called to extended active military service with temporary
+    personnel, upon appropriate certification, using centralized funds.
+
+
+    TYPE II DEPUTY
+
+            Citing extraordinary circumstances in the District of Maryland, the
+    Committee recommended, and the Judicial Conference approved, a second
+    JSP-16 Type II chief deputy clerk position for the district clerk’s office in the
+    District of Maryland using existing decentralized funding available to the
+    court.
+
+
+    REASONABLE ACCOMMODATIONS
+
+            Section 3102 of title 5, United States Code, authorizes the head of
+    each agency in the judicial branch to provide personal assistants for disabled
+    judges or employees, as determined necessary by the agency head. In March
+    2001, the Judicial Conference designated chief judges or their designees, court
+    unit executives, and federal public defenders as the “agency heads” for
+    employees of their respective chambers or units (JCUS-MAR 01, pp. 18-19,
+    25-26). The Conference also authorized the Administrative Office to develop
+    guidelines for designated agency heads to use in determining when and under
+    what circumstances the creation of a personal assistant position was
+    appropriate. At this session, after discussion, the Conference declined to
+    approve a recommendation of the Committee to amend the policy to give the
+    Director of the Administrative Office the responsibility for approving
+    personal assistant positions. The Conference did approve, however, a
+    recommendation of the Committee to institute a reporting requirement for
+    reasonable accommodations other than those involving personal assistants.3
+
+
+
+
+3
+ On April 20, 2004, the Executive Committee, acting on behalf of the
+Conference, amended the reporting requirement to include reasonable
+accommodations involving personal assistants.
+
+                                           21
+Judicial Conference of the United States
+
+
+
+                      COMMITTEE ACTIVITIES
+
+                               The Committee on Judicial Resources reported that it affirmed
+                      continued development of updated staffing formulae for district clerks,
+                      bankruptcy clerks, and probation and pretrial services offices for presentation
+                      at its June 2004 meeting. The Committee voiced strong support for
+                      developing new methodologies to gauge the impact of information technology
+                      on the work of the courts, to incorporate this impact into future staffing
+                      formulae, and to enhance the work measurement process by recognizing
+                      procedural and technological differences.
+
+
+             COMMITTEE ON THE ADMINISTRATION
+             OF THE MAGISTRATE JUDGES SYSTEM
+
+                      ATTENDANCE AT JUDICIAL CONFERENCE SESSIONS
+
+                              The Committee on the Administration of the Magistrate Judges
+                      System recommended that the Judicial Conference invite one magistrate
+                      judge, selected by the Chief Justice, to attend Judicial Conference sessions in
+                      a non-voting capacity. This recommendation was similar to one made by the
+                      Bankruptcy Committee (see supra, “Attendance at Judicial Conference
+                      Sessions,” p. 7). After discussion, the Conference approved the Committee’s
+                      recommendation.
+
+
+                      AUTHORITY TO HOLD PROCEEDINGS
+                      OUTSIDE A DISTRICT IN AN EMERGENCY
+
+                               In September 2003, the Judicial Conference agreed to seek legislation
+                      that would permit district, bankruptcy, and appellate courts, in times of
+                      emergency, to hold special court sessions outside their districts and/or circuits
+                      (JCUS-SEP 03, pp. 9-10, 15). Magistrate judges were not specifically
+                      included in this proposal although their activities are subject to certain
+                      territorial limitations imposed by the Federal Magistrates Act, 28 U.S.C. §
+                      631 et seq. On recommendation of the Committee, the Judicial Conference
+                      agreed that in pursuing legislation to allow extraterritorial emergency special
+                      court sessions, it would seek inclusion of a provision that makes clear that
+                      magistrate judges can participate in such sessions.
+
+
+
+                                                             22
+                                                                   March 16, 2004
+
+
+
+RESIDENCY REQUIREMENT FOR MERIT SELECTION
+PANEL MEMBERS
+
+        Section 3.02(c) of the Regulations of the Judicial Conference of the
+United States Establishing Standards and Procedures for the Appointment and
+Reappointment of United States Magistrate Judges requires each member of a
+merit selection panel to be a resident of the district within which a magistrate
+judge appointment or reappointment is to be made. In recent years, waivers
+have been sought from this regulation to permit non-resident persons with
+significant ties to the community to serve on merit selection panels. On
+recommendation of the Committee, the Judicial Conference agreed to amend
+section 3.02(c) to allow courts to determine at a local level those individuals
+who should be allowed to serve on panels based on their ties to the
+community, without having to seek waivers. The regulation was amended to
+read as follows:
+
+       3.02 (c) Each member of the panel shall be a resident of the
+       district within which the appointment is to be made, or, if a
+       nonresident, have significant ties to the community of the
+       district.
+
+
+TAX COURT LEGISLATION
+
+        Section 318 of the proposed “Tax Administration Good Government
+Act,” S. 882, 108th Congress, would change the title of the special trial judges
+in the Tax Court to “magistrate judges of the Tax Court.” To avoid potential
+confusion with the position of United States magistrate judge, the Committee
+recommended that the Judicial Conference oppose use of the term “magistrate
+judge” in S. 882. The Conference adopted the Committee’s recommendation.
+
+
+CHANGES IN MAGISTRATE JUDGE POSITIONS
+
+       After consideration of the report of the Committee on the
+Administration of the Magistrate Judges System and the recommendations of
+the Director of the Administrative Office, the district courts, and the judicial
+councils of the circuits, the Judicial Conference approved the following
+changes in the number, salaries, and arrangements of full-time and part-time
+
+
+
+
+                                       23
+Judicial Conference of the United States
+
+                      magistrate judge positions. Changes with a budgetary impact are to be
+                      effective when appropriated funds are available.
+
+                      THIRD CIRCUIT
+
+                      Eastern District of Pennsylvania
+
+                      1.       Authorized one additional full-time magistrate judge position at
+                               Philadelphia; and
+
+                      2.       Made no other change in the number, locations, or arrangements of the
+                               magistrate judge positions in the district.
+
+                      FOURTH CIRCUIT
+
+                      Eastern District of North Carolina
+
+                      1.       Increased the salary of the part-time magistrate judge position at
+                               Greenville from Level 2 ($61,071 per annum) to Level 1 ($67,178 per
+                               annum); and
+
+                      2.       Made no other change in the number, locations, salaries, or
+                               arrangements of the magistrate judge positions in the district.
+
+                      Eastern District of Virginia
+
+                               Made no change in the number, locations, or arrangements of the
+                               magistrate judge positions in the district.
+
+                      Western District of Virginia
+
+                               Authorized a part-time magistrate judge position at Harrisonburg at
+                               Level 4 ($36,642 per annum).
+
+                      FIFTH CIRCUIT
+
+                      Western District of Louisiana
+
+                      1.       Converted the part-time magistrate judge position at Monroe to full-
+                               time status;
+
+
+
+
+                                                              24
+                                                                 March 16, 2004
+
+2.     Redesignated as Alexandria the full-time magistrate judge position
+       previously designated as Alexandria or Monroe; and
+
+3.     Made no other change in the number, locations, or arrangements of the
+       magistrate judge positions in the district.
+
+Southern District of Texas
+
+       Made no change in the number, locations, or arrangements of the
+       magistrate judge positions in the district.
+
+SIXTH CIRCUIT
+
+Western District of Kentucky
+
+       Authorized the two full-time magistrate judge positions at Louisville
+       to serve in the adjoining Southern District of Indiana.
+
+SEVENTH CIRCUIT
+
+Southern District of Indiana
+
+       Authorized the part-time magistrate judge position at New Albany to
+       serve in the adjoining Western District of Kentucky.
+
+Northern District of Illinois
+
+1.     Authorized one additional full-time magistrate judge position at
+       Chicago; and
+
+2.     Made no other change in the number, locations, or arrangements of the
+       magistrate judge positions in the district.
+
+EIGHTH CIRCUIT
+
+District of Minnesota
+
+       Made no change in the number, locations, salaries, or arrangements of
+       the magistrate judge positions in the district.
+
+
+
+
+                                     25
+Judicial Conference of the United States
+
+                      NINTH CIRCUIT
+
+                      District of Hawaii
+
+                      1.       Discontinued the part-time magistrate judge position at Johnston
+                               Island; and
+
+                      2.       Made no other change in the number, locations, salaries, or
+                               arrangements of the magistrate judge positions in the district.
+
+                      District of Montana
+
+                      1.       Increased the salary of the part-time magistrate judge position at Wolf
+                               Point from Level 7 ($6,105 per annum) to Level 6 ($12,213 per
+                               annum); and
+
+                      2.       Made no other change in the number, locations, salaries, or
+                               arrangements of the magistrate judge positions in the district.
+
+                      District of Nevada
+
+                      1.       Authorized one additional full-time magistrate judge position at Las
+                               Vegas; and
+
+                      2.       Made no other change in the number, locations, or arrangements of the
+                               magistrate judge positions in the district.
+
+                      TENTH CIRCUIT
+
+                      Northern District of Oklahoma
+
+                               Made no change in the number, location, or arrangements of the
+                               magistrate judge positions in the district.
+
+                      ELEVENTH CIRCUIT
+
+                      Southern District of Alabama
+
+                               Made no change in the number, location, or arrangements of the
+                               magistrate judge positions in the district.
+
+
+
+
+                                                              26
+                                                                      March 16, 2004
+
+
+
+    COMMITTEE ACTIVITIES
+
+            The Committee on the Administration of the Magistrate Judges
+    System reported that it opposes elimination of the statutory authority of
+    magistrate judges to vote on the selection of chief pretrial services officers,
+    disagreeing with the Criminal Law Committee’s recommendation to the
+    Judicial Resources Committee that legislation be sought to amend 18 U.S.C. §
+    3152(c) to make the selection process for chief pretrial services officers the
+    same as the selection process for chief probation officers under 18 U.S.C. §
+    3602(c). The Judicial Resources Committee will consider both committees’
+    views at its June 2004 meeting. The Magistrate Judges Committee also
+    agreed to include in all future survey reports that analyze requests for new
+    magistrate judge positions information on the space implications of any new
+    positions, and, if available, the related costs of such requests.
+
+
+COMMITTEE TO REVIEW CIRCUIT
+COUNCIL CONDUCT AND DISABILITY ORDERS
+    COMMITTEE ACTIVITIES
+
+            The Committee to Review Circuit Council Conduct and Disability
+    Orders reported that, in the absence of any petition before it for review of
+    judicial council action under the Judicial Conduct and Disability Act, it has
+    continued to monitor congressional activity in the area of judicial conduct and
+    disability.
+
+
+COMMITTEE ON RULES OF PRACTICE AND PROCEDURE
+    COMMITTEE ACTIVITIES
+
+            The Committee on Rules of Practice and Procedure reported that it
+    approved for publication proposed amendments to Rules 5005 (Filing and
+    Transmittal of Papers) and 9036 (Notice by Electronic Transmission) of the
+    Federal Rules of Bankruptcy Procedure. The Committee also approved for
+    later publication proposed style amendments to Civil Rules 16-37 and 45.
+    Publication of these rules as well as proposed style amendments to Civil Rules
+
+
+
+
+                                          27
+Judicial Conference of the United States
+
+                      1-15 approved in September 2003 (JCUS-SEP 03, p. 37) have been deferred
+                      until all the civil rules have been revised, which is expected to occur early in
+                      2005. The Advisory Committees on Appellate, Bankruptcy, Civil, and
+                      Criminal Rules are reviewing comments from the public submitted on
+                      amendments proposed in August 2003 to their respective sets of rules.
+
+
+             COMMITTEE ON SECURITY AND FACILITIES
+                     SPACE RENTAL COSTS
+
+                             In order to control rental costs, the Conference adopted a
+                     recommendation of the Committee on Security and Facilities to impose for one
+                     year a moratorium on all space requests of less than $2.29 million in
+                     construction costs, except requests for courtrooms, chambers, lease renewals,
+                     official parking, and recovery from natural disasters or terrorist attacks. The
+                     Conference authorized the Director of the Administrative Office to make
+                     limited exceptions in consultation with the circuit representative to the Security
+                     and Facilities Committee and in coordination with the circuit judicial council.
+
+
+                     U. S. COURTS DESIGN GUIDE
+
+                             Renovations and Alterations Manual. Noting the difficulty and
+                     costliness of applying U.S. Courts Design Guide space standards to the
+                     structure, circulation patterns, and systems of older, existing buildings, and
+                     after studying the issue, the Committee began development of a renovations
+                     and alterations supplement to the Guide. A draft chapter on courtrooms was
+                     completed and endorsed by the Committee. In light of the usefulness of this
+                     chapter for courts with renovation and alteration projects, the Committee
+                     recommended that the Judicial Conference approve Chapter 4, Courtrooms, for
+                     publication and distribution before completion of the entire U.S. Courts
+                     Renovation and Alteration Project Manual. The Conference adopted the
+                     Committee’s recommendation.
+
+                             Access Floors for Courthouses. “Raised” or “access” floors are terms
+                     used to describe flooring that is raised to a height that permits easy routing of
+                     audio, video, telecommunications, videocommunications, data security, and
+                     power cables under the floor, and allows for rerouting of wiring without costly
+                     procedures. Access flooring has been authorized in the U.S. Courts Design
+
+
+
+
+                                                             28
+                                                                  March 16, 2004
+
+Guide since 1997, but most new courthouse projects still do not have access
+flooring throughout the building. Since requiring access flooring throughout
+the courthouse would greatly reduce the costs and time involved in
+altering space in the future, the Committee recommended that the Conference
+approve amendments to the Guide that would:
+
+a.     Describe the purpose and importance of access flooring throughout the
+       courthouse, and its functional and long-term benefits; and
+
+b.     Require access flooring at least four inches in height throughout the
+       courthouse except in mechanical rooms, electric and communication
+       closets, toilets, and other utility spaces.
+
+The Conference adopted the Committee’s recommendations.
+
+        Interagency Security Committee Guidelines. The U.S. Courts Design
+Guide, Chapter 14: Courthouse Security, currently requires that all courthouse
+security systems and equipment be consistent with GSA’s Security Criteria
+Manual. However, security design and construction criteria are now published
+by the Interagency Security Committee4 in a document entitled Security Design
+Criteria. To reflect this change, the Committee recommended, and the
+Conference agreed, that Chapter 14: Courthouse Security, of the Design Guide
+be amended to:
+
+a.     Strike the references on pages 14-1, 14-2, and 14-4 to GSA’s Security
+       Criteria Manual (Class C Buildings), and replace them with references
+       to the Interagency Security Committee’s Security Design Criteria; and
+
+b.     Include a statement in paragraph four, page 14-2, that all courthouses
+       should be designed and constructed with the “medium” level of security
+       provided in the Interagency Security Committee’s Security Design
+       Criteria.
+
+
+
+
+4
+ The Interagency Security Committee was created to provide a permanent body
+to address government-wide security for federal facilities. Federal executive
+agencies, including the U.S. Marshals Service, participate, and the
+Administrative Office is an associate member without voting rights.
+
+                                      29
+Judicial Conference of the United States
+
+
+
+                     COMMITTEE ACTIVITIES
+
+                             The Committee on Security and Facilities reported that it discussed the
+                     status of two U.S. Marshals Service studies required by the FY 2003 Omnibus
+                     Appropriations Act, Public Law No. 108-7, a nationwide courthouse security
+                     survey and a management study of the nationwide court security program. The
+                     Committee also discussed court security officer medical standards issues that
+                     have prompted 12 lawsuits filed in federal court. In addition, the Committee
+                     was briefed on the emerging “smart” identification card technology and its
+                     implications for the judiciary; the publication of manuals, studies, and a
+                     website on best practices in courthouse space; a new General Accounting
+                     Office study of courthouse projects; the building management delegation
+                     program; a tenant alterations criteria study; and the judiciary’s emergency
+                     preparedness program.
+
+
+             FUNDING
+                              All of the foregoing recommendations that require the expenditure of
+                      funds for implementation were approved by the Judicial Conference subject to
+                      the availability of funds and to whatever priorities the Conference might
+                      establish for the use of available resources.
+
+
+
+
+                                                           30
+                                                         March 16, 2004
+
+INDEX
+
+Administrative Office, Committee on the, 6
+
+Administrative Office of the United States Courts
+     administrative services study, 6, 14, 17
+     Interagency Security Committee, 29
+     magistrate judge positions, 23-26
+     reasonable accommodations, 21
+     stewardship program, 6
+     substance abuse treatment program study, 14
+
+Appropriations
+     budget request, FY 2005, 5
+     Court Security account, 4, 5
+     Criminal Justice Act panel attorney payments, 4
+     Defender Services account, 4
+     Fees of Jurors and Commissioners account, 4, 5
+     financial plans, FY 2004, 4
+     Salaries and Expenses account, 4, 8
+     strategic planning, 6
+
+Automation (see information technology)
+
+Bankruptcy judges (see judges, bankruptcy)
+
+Bankruptcy Reform Act of 1994, 7
+
+Bankruptcy rules (see rules of practice and procedure)
+
+Bankruptcy system (see also judges, bankruptcy)
+     chapter 7 trustee payments, 7-8
+     clerks, staffing formula, 22
+     fees, uniform percentage adjustment, 7
+     miscellaneous fees, 7, 9
+     rules of practice and procedure, 27-28
+     venue, chapter 11 cases, 6
+
+Bankruptcy System, Committee on the Administration
+of the, 6, 7-8, 8, 22
+        Subcommittee on Venue-Related Issues, 6
+
+
+
+                                           i
+Judicial Conference of the United States
+
+Benefits
+       elbow law clerks, 19-20
+
+Bryan, Robert, 4
+
+Budget (see appropriations)
+
+Budget, Committee on the, 8
+
+Case management (see court administration)
+
+Case management/electronic case files (CM/ECF) system, 17
+
+Chief judges (see judges, chief)
+
+Chief Justice, 6, 7, 18, 22
+
+Circuit councils (see circuit judicial councils)
+
+Circuit judges (see judges, circuit)
+
+Circuit judicial councils
+       changes in magistrate judge positions, 23-26
+       space request moratorium, 28
+
+Civil rules (see rules of practice and procedure)
+
+CM/ECF (see case management/electronic case files)
+
+Codes of Conduct, Committee on, 9
+
+Community defender organizations (see defender services)
+
+Compensation
+     court reporter, 10-11
+     judicial, 19
+     Judicial Salary Plan, 20, 21
+     law clerk, 19-20
+     paralegal services for CJA panel attorneys, 15-16
+     salary matching/advanced in-step policy, 20
+
+
+
+
+                                             ii
+                                                                           March 16, 2004
+
+Conduct and Disability Orders, Committee to Review
+Circuit Council, 27
+
+Congress (see also appropriations; legislation, pending)
+      appropriations bill, FY 2004, 4
+      bankruptcy fees, uniform percentage adjustment, 7
+      continuing resolution, 4
+      General Accounting Office, 30
+      judicial compensation, 19
+      tax court legislation, 23
+
+Court administration (see also bankruptcy system; courts of appeals; district courts;
+fees; jury administration; magistrate judges system; records; staffing resources)
+        administrative services study, 6, 14, 17
+        case management/electronic case files (CM/ECF) system, 17
+        electronic public access
+            criminal case files, 10
+            model local rule, 10
+            transcripts, 10-11
+        petit juror utilization rates, 11
+        places of holding court, 10
+        privacy/public access to electronic criminal case files, 10
+        staffing formulae, 22
+        temporary backfill of chambers staff, 20-21
+        voluntary separation incentive (“buy-out”) program, 5
+
+Court Administration and Case Management, Committee on, 5, 9-11,
+
+Court of Federal Claims
+      miscellaneous fee schedule, 9
+
+Court reporters
+      compensation, 10-11
+
+Courthouses (see space and facilities)
+
+Courtrooms (see space and facilities)
+
+Courts of appeals (see also court administration)
+      miscellaneous fee schedule, 9
+
+
+
+
+                                           iii
+Judicial Conference of the United States
+
+Criminal Justice Act (CJA) (see also defender services; federal defenders)
+      compensation
+         law students, 15-16
+         paralegals, 15-16
+      “Good Practices for Federal Panel Attorney Programs – A Preliminary
+         Study of Plans and Practices,” 16
+      Guidelines for the Administration of the Criminal Justice Act, 15-16
+      resolution, 14-15
+
+Criminal law (see also defender services; probation and pretrial services system)
+      effective assistance of counsel, 14-15
+      judgments in a criminal case, 5, 13
+      monetary penalties, 12
+      post-conviction supervision monograph, 12-13
+      presentence investigation report monograph, 13
+      privacy/public access to criminal case files
+         guidance, 10
+         model local rule, 10
+
+Criminal Law, Committee on, 5, 10, 11-14, 27
+
+Defender services (see also Criminal Justice Act; federal defenders)
+      assigned counsel program, 14-15
+      Criminal Justice Act resolution, 14-15
+      “Good Practices for Federal Panel Attorney Programs – A Preliminary
+         Study of Plans and Practices,” 16
+      rental cost controls, 6
+      space request moratorium, 6
+
+Defender Services, Committee on, 6, 10, 11, 14-16
+
+Department of Homeland Security, 10
+
+Department of Justice,
+      Attorney General, 11
+      Bureau of Prisons, 13
+      United States Marshals Service, 29, 30
+      United States Parole Commission, 11
+
+Department of State, 18
+
+Department of the Treasury, 8
+
+
+                                           iv
+                                                                            March 16, 2004
+
+Design Guide (see U.S. Courts Design Guide)
+
+Director, Administrative Office of the United States Courts, 19, 20, 21, 23, 28
+
+Disabled employees
+       reasonable accommodations
+          approval authority, 21
+          reporting requirements, 21
+
+District courts (see also bankruptcy system; court administration; jury administration;
+magistrate judges system; probation and pretrial services system)
+       attorney admission fee, 9
+       changes in magistrate judge positions, 23-26
+       electronic public access to transcripts, pilot program, 10-11
+       emergency court sessions outside district/circuit, 22
+       miscellaneous fees, 9
+       places of holding court, 10
+       rules of practice and procedure, 27-28
+       transcripts, electronic access, 10-11, 16
+       Type II chief deputy clerk, District of Maryland, 21
+
+District judges (see judges, district)
+
+Donald, Bernice Bouie, 4
+
+Electronic public access (EPA)
+       case management/electronic case files (CM/ECF) system, 17
+       criminal case files, 10, 16
+       Guidelines for Implementation of the Judicial Conference Policy on
+          Privacy and Public Access to Electronic Criminal Case Files, 16
+       privacy, 10
+       redaction of personal data identifiers, 10
+       transcripts, 10-11, 16
+
+Evans, Terence T., 4
+
+Executive branch
+      Department of Homeland Security, 10
+      Department of Justice,
+         Attorney General, 11
+         Bureau of Prisons, 13
+
+
+
+                                            v
+Judicial Conference of the United States
+
+Executive branch (continued)
+          United States Marshals Service, 29, 30
+          United States Parole Commission, 11
+       Department of State, 18
+       Department of the Treasury, 8
+       General Services Administration, 18, 19, 29
+       President of the United States, 7
+
+Executive Committee, 4-6, 21
+
+Federal defenders (see also Criminal Justice Act, defender services; personnel,
+judiciary)
+        case weighting, 16
+        Criminal Justice Act resolution, 14-15
+        disabled, personal assistants, 21
+        Sentencing Commission, ex-officio member, 11
+
+Federal Employees’ Retirement System, 20
+
+Federal Judicial Center, 4, 14, 16
+
+Federal Magistrates Act, 22
+
+Federal public defender organizations (see defender services)
+
+Federal rules (see rules of practice and procedure)
+
+Federal-State Jurisdiction, Committee on, 16
+
+Federal Tort Claims Act, 12
+
+Fees
+        bankruptcy court
+           Bankruptcy Court Miscellaneous Fee Schedule, 9
+           chapter 7 trustee payments, 7-8
+           filing, 7, 8
+           miscellaneous, 7, 9
+           uniform percentage adjustment, 7
+        Court of Appeals Miscellaneous Fee Schedule, 9
+        district court
+           attorney admission fee, 9
+           District Court Miscellaneous Fee Schedule, 9
+
+
+                                           vi
+                                                                       March 16, 2004
+
+Fees (continued)
+       Judicial Panel on Multidistrict Litigation Fee Schedule, 9
+       miscellaneous, 7, 9
+       United States Court of Federal Claims Fee Schedule, 9
+
+Financial Disclosure, Committee on, 17
+
+Financial disclosure reports
+      filed, 17
+
+General Accounting Office, 30
+
+General Services Administration, 18, 19, 29
+
+“Good Practices for Federal Panel Attorney Programs - A Preliminary
+Study of Plans and Practices,” 16
+
+Guide to Judiciary Policies and Procedures, 15, 19
+
+Guidelines for Implementation of the Judicial Conference Policy
+on Privacy and Public Access to Electronic Criminal Case Files, 16
+
+Guidelines for the Administration of the Criminal
+Justice Act and Related Statutes, 15-16
+
+Information technology (see also electronic public access)
+      bankruptcy judges automation needs, 7
+      case management/electronic case files (CM/ECF) system, 17
+      Long Range Plan for Information Technology in the Federal Judiciary, 17
+
+Information Technology, Committee on, 7, 17
+
+Interagency Security Committee, 29
+
+Intercircuit assignments, 18
+
+Intercircuit Assignments, Committee on, 18
+
+International Judicial Relations, Committee on, 18
+
+Internet (see electronic public access; information technology)
+
+
+
+                                           vii
+Judicial Conference of the United States
+
+Judges, Article III (see also judges, chief; judges, district; judges, federal)
+      intercircuit assignments, 18
+
+Judges, bankruptcy (see also bankruptcy system; judges, chief; judges, federal)
+      attendance at Judicial Conference sessions, 7, 22
+      automation needs, 7
+      recalled, courtroom requirements, 8
+
+Judges, chief
+      orientations, 6
+
+Judges, circuit (see judges, Article III; judges, chief; judges, federal)
+
+Judges, Court of Federal Claims (see judges, chief; judges, federal)
+
+Judges, district (see also, judges, Article III; judges, chief; judges, federal)
+      reassignment, 5
+
+Judges, federal (see also judges, Article III; judges, bankruptcy; judges, chief; judges,
+district; judges, magistrate)
+         compensation, 19
+         disabled, reasonable accommodations, 21
+         financial disclosure reports filed, 17
+         Meals and Incidental Expenses (M & IE) rate, 18-19
+         travel expenses, 5, 18-19
+         Travel Regulations for United States Justices and Judges, 18-19
+
+Judges, magistrate (see also judges, federal; magistrate judges system)
+      appointment regulations, 23
+      attendance at Judicial Conference sessions, 7, 22
+      changes in positions, 23-26
+      emergency court sessions outside district/circuit, 22
+      Federal Magistrates Act, 22
+      forfeiture proceedings authority, 5
+      merit selection panel, residency requirement, 23
+      selection of chief pretrial services officers, 27
+      tax court legislation, 23
+
+Judgments in criminal cases, 5, 13
+     Statement of Reasons, 5
+
+Judicial Branch, Committee on the, 18-19
+
+
+                                             viii
+                                                                      March 16, 2004
+
+Judicial Conduct and Disability Act, 27
+
+Judicial Conference of the United States
+       attendance at sessions
+           bankruptcy judge, 7, 22
+           magistrate judge, 7, 22
+       funding of actions, 30
+       mail ballot, 11
+
+Judicial Panel on Multidistrict Litigation
+       complex litigation management, 16
+       miscellaneous fee schedule, 9
+
+Judicial Resources, Committee on, 5, 10-11, 13, 19-22, 27
+
+Judiciary Salary Plan (JSP) (see also personnel, judiciary), 20, 21
+
+Jury administration
+      petit juror utilization rates, 11
+
+Law clerks
+      elbow
+         compensation, 19-20
+         Federal Employees’ Retirement System, 19-20
+         Leave Act, 19-20
+         qualification standards, 20
+         term/career, 19-20
+         Thrift Savings Plan, 19-20
+
+Lawbooks and libraries program, 11
+
+Leave Act, 20
+
+Legislation, pending (108th Congress)
+       district judge reassignments, 5
+       Tax Administration Good Government Act (S. 882), 23
+
+Local rules
+       privacy/public access to electronic criminal case files, 10
+
+Long Range Plan for Information Technology in the Federal Judiciary, 17
+
+
+
+                                             ix
+Judicial Conference of the United States
+
+Magistrate judges (see judges, magistrate)
+
+Magistrate judges system (see also judges, magistrate)
+      changes in positions, 23-26
+      emergency court sessions outside district/circuit, 22
+      Federal Magistrates Act, 22
+      forfeiture proceedings authority, 5
+      merit selection panel, 23
+      new positions, space/cost implications, 27
+
+Magistrate Judges System, Committee on the Administration
+of the, 5, 7, 22-27
+
+Mail ballot of the Judicial Conference, 11
+
+Miscellaneous fee schedules (see fees)
+
+Newman, Pauline, 4
+
+Omnibus Appropriations Act, 30
+
+Open World Program, 18
+
+PACER, 17
+
+PACER Archives Project (see PACER)
+
+Panel attorneys (see also Criminal Justice Act)
+       “Good Practices for Federal Panel Attorney Programs – A Preliminary
+          Study of Plans and Practices,” 16
+       management principles, 16
+       paralegal services, 15-16
+
+Personnel, judiciary (see also federal defenders; law clerks; staffing resources)
+      compensation
+         court reporter, 10-11
+         elbow law clerk, 19-20
+      Criminal Justice Act resolution, 14-15
+      disabled, reasonable accommodations, 21
+      financial disclosure reports, 17
+      Judiciary Salary Plan (JSP), 20, 21
+      law clerk qualifications, 20
+
+
+                                             x
+                                                                           March 16, 2004
+
+Personnel, judiciary (continued)
+       salary matching/advanced in-step appointment policy, 20
+       voluntary separation incentive (“buy-out”) program, 5
+
+Places of holding court, 10
+
+President of the United States, 7
+
+Privacy
+      electronic public access to criminal case files, 10
+      redaction of personal data identifiers, 10
+
+Probation and pretrial services officers (see also personnel, judiciary; probation and
+pretrial services system)
+        Federal Tort Claims Act coverage, 12
+        selection process for chief pretrial services officers, 13, 27
+
+Probation and pretrial services system (see also probation and pretrial services
+officers)
+        post-conviction supervision, 12-13
+        presentence investigation reports, 13
+        selection process, chief pretrial services officers, 13, 27
+        The Presentence Investigation Report, Monograph 107, 13
+        The Supervision of Federal Offenders, Monograph 109, 12-13
+
+Prosecutorial Remedies and Other Tools to end the Exploitation
+of Children Today Act of 2003 (PROTECT Act), 13
+
+PROTECT Act (see Prosecutorial Remedies and Other Tools to end the Exploitation
+of Children Today Act of 2003)
+
+Public Access to Court Electronic Records (see PACER)
+
+Records (see also electronic public access)
+      criminal cases, privacy/public access, 10
+      presentence investigation report disclosure, 13
+      redaction of personal data identifiers, 10
+      transcripts, electronic access, 10-11
+
+Regulations of the Judicial Conference of the United States Establishing
+Standards and Procedures for the Appointment and Reappointment of United
+States Magistrate Judges, 23
+
+
+                                            xi
+Judicial Conference of the United States
+
+Retirement
+      elbow law clerk benefits, 19-20
+
+Rule of law programs, 18
+
+Rules of practice and procedure
+       bankruptcy rules, 27
+       civil rules, 27-28
+       local rules, model, 10
+
+Rules of Practice and Procedure, Committee on, 27-28
+
+Salaries (see compensation)
+
+Security
+       Interagency Security Committee, 29
+       Security Criteria Manual, 29
+       Security Design Criteria, 29
+
+Security and Facilities, Committee on, 6, 8, 28-30
+
+Sentencing guidelines
+      amendments, 5
+
+Space and facilities (see also security)
+      access/raised floors for courthouses, 28-29
+      moratorium on space requests, 6, 28
+      rental cost controls, 6, 28
+      security design criteria, 29
+      U.S. Courts Design Guide, 28-29
+      U.S. Courts Renovation and Alteration Project Manual, 28
+
+Staff attorneys, 20
+
+Staffing formulae, 22
+
+Staffing resources (see also personnel, judiciary)
+       staffing formulae, 22
+       temporary backfill of chambers staff, 20-21
+       Type II deputy position, 21
+       voluntary separation incentive (“buy-out”) program, 5
+
+
+
+                                           xii
+                                                                         March 16, 2004
+
+Supporting personnel (see personnel, judiciary)
+
+Tax Court, 23
+
+Technology (see information technology)
+
+The Presentence Investigation Report, Monograph 107, 13
+
+The Supervision of Federal Offenders, Monograph 109, 12-13
+
+Thrift Savings Plan, 20
+
+Transcripts
+      electronic public access, 10, 16
+
+Travel, judges’
+       alternative subsistence rate, 5
+       Meals and Incidental Expenses (M & IE) rate, 18-19
+       Travel Regulations for United States Justices and Judges, 18-19
+
+Travel Regulations for United States Justices and Judges, 18-19
+
+Type II chief deputy clerk, 21
+
+United States Marshals Service, 29, 30
+
+United States Parole Commission, 11
+
+United States Sentencing Commission, 5, 11, 13
+
+U.S. Courts Design Guide, 28-29
+
+U.S. Courts Renovation and Alteration Project Manual, 28
+
+Vera Institute of Justice, 16
+
+
+
+
+                                          xiii
+ADMINISTRATIVE OFFICE OF THE U.S. COURTS
+THURGOOD MARSHALL FEDERAL JUDICIARY BUILDING
+          WASHINGTON, D.C. 20544
+
