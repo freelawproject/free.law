@@ -53,13 +53,13 @@ After [downloading all of the written opinions][wor], we [completed a brief anal
 </div>
 <div class="clearfix"></div>
 
-This disparity likely stems from clerks and judges improperly (or at least inconsistently) marking documents as opinions, and so we dug in to see if there was an official policy explaining what a written opinion actually was. With some sleuthing and some help, we discovered [the 2004 memo describing the policy][wor-policy].[^1] In short, a written opinion is defined as:
+This disparity likely stems from clerks and judges improperly (or inconsistently) marking documents as opinions. The official policy explaining when to mark a document as an opinion is from [a 2004 memo to the chief justices][wor-policy].[^1] In short, a written opinion is defined as:
  
 > any document issued by a judge or judges of the court, sitting in that capacity, that sets forth a reasoned explanation for a court's decision.
 
 Five additional clarifying points also apply which [can be read in the memo][wor-policy]. 
 
-We know of no recourse if you purchase a document that is clearly an opinion but is not labelled in PACER as such.
+Many documents are not marked as opinions that should be. We know of no recourse if you purchase such a document.
 
 [^1]: We are grateful to Rebecca Fordon and Stephen Burbank for their assistance in this research.
 
