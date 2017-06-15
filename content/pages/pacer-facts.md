@@ -103,6 +103,11 @@ For uploads, there is only [information for uploading bankruptcy files][bank].
 Outside of these APIs, we have also created [an open source system for crawling PACER][js].
 
 
+### As a developer, is there a way to stay up to date with PACER?
+
+Yes! There is a list for developers to subscribe to at developers@psc.uscourts.gov. Simply send a subscription request to that email address, and they will sign you up. As of this moment, they are not advertising this list publicly.
+
+
 ### Start and End Dates for Jurisdictions
 
 There's a variety of information that you can find on the [list of courts on the PACER site, if you click the little information icon&nbsp;<i class="fa fa-info-circle"></i>][court-list]. We've taken some of this information and built a simple [JSON][json] or [HTML website][html] with it, so it's all in one place. 
