@@ -1,8 +1,7 @@
 Title:  Second Series of Federal Reporter from 1950 to 1993 now on CourtListener
 Date: 2011-08-25 13:47
 Author: mlissner
-Tags: Uncategorized
-Slug: second-series-of-federal-reporter-from-1950-to-1993-now-on-courtlistener
+Tags: bulk data, federal-reporter, announcements, API, Bulk Data, Coverage, Data Wrangling
 Status: published
 
 Over the past few months we have been working on cleaning and importing
