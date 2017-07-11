@@ -30,4 +30,4 @@ This initiative will be a very important one as we further expand our collection
 [gsu]: {filename}/dol-grant.md
 [c]: {filename}/pages/contact.md
 [ia]: https://archive.org/details/usfederalcourts&tab=about
-[donate]: {filename/pages/donate.md
+[donate]: {filename}/pages/donate.md

@@ -26,7 +26,7 @@ We consider this to be a beta release of this feature -- it's useful in its pres
 
 [jdb]: {filename}/judge_database.md
 [ss]: https://www.courtlistener.com/person/3045/sonia-sotomayor/#authored-opinions
-[cg]: {filename/citegeist.md
+[cg]: {filename}/citegeist.md
 [s2d]: https://www.courtlistener.com/?q=author_id%3A3045+OR+panel_ids%3A3045&type=o&stat_Precedential=on&order_by=score+desc&court=ca2
 [sscotus]: https://www.courtlistener.com/?q=author_id%3A3045+OR+panel_ids%3A3045&type=o&stat_Precedential=on&order_by=score+desc&court=scotus
 [contact]: {filename}/pages/contact.md

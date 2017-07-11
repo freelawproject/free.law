@@ -26,6 +26,6 @@ We do a number of processes like this to build up the data, and as you can see, 
 [csv]: https://www.courtlistener.com/api/bulk-info/#citation-data
 [cite-api]: https://www.courtlistener.com/api/rest-info/#cites-endpoint
 [citegeist]: {filename}/citegeist.md
-[contact]: {filename/pages/contact.md
+[contact]: {filename}/pages/contact.md
 [js]: https://github.com/freelawproject/juriscraper
 [rdb]: https://github.com/freelawproject/reporters-db
