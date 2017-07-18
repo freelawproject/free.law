@@ -7,6 +7,19 @@ Slug: pacer-facts
          class="img-responsive border">
 </div>
 
+
+<script src="/js/anchor.min.js"></script>
+<script type="text/javascript">
+    anchors.options = {
+            'visible': 'touch',
+            'class': 'anchor',
+            'truncate': 20
+        };
+    document.addEventListener("DOMContentLoaded", function(event) {
+        anchors.add();
+    });
+</script>
+
 <p class="lead">PACER is a big and complex system with decades of history that's difficult to research or understand. For several years we have been trying to learn as much about it as we can.</p>
 
 This page is an attempt to keep a record of interesting facts we have gathered about PACER. Where possible, we link to backup copies of various resources or provide links to the original sources.
@@ -41,7 +54,7 @@ The second source is an article ([webpage][journal-web]/[pdf][journal-pdf]) in t
 
 ### Written opinions are free on PACER, but how are they defined?
 
-After [downloading all of the written opinions][wor], we [completed a brief analysis (xlsx)][wor-charts] and discovered that courts are wildly inconsistent about marking documents as opinions. For example, in our analysis we discovered that the busiest court in the country, NY Eastern District (NYED), has about 10% as many written opinions as California's Central District, and that NYED comes in 20th place across the country when it should be first in terms of output. 
+After [downloading all of the written opinions][wor], we [completed a brief analysis (xlsx)][wor-charts] and discovered that courts are wildly inconsistent about marking documents as opinions. For example, in our analysis we discovered that the busiest court in the country, NY Southern District (NYSD), has about 10% as many written opinions as California's Central District, and that NYSD comes in 21st place across the country when it should be first in terms of output. 
 
 <div class="left-image">
     <a href="{filename}/images/chart-of-written-opinions.png">
