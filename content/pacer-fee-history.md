@@ -153,6 +153,7 @@ The first reference to PACER is in the **March, 1990** proceedings of the Judici
 </div>
 <div class="clearfix"></div>
 
+<span id="opinions-made-free"></span>
 **September, 1998** --- The first modern fee is born with the "introduction of Internet technology to the judiciary's...public access system." The rate is set at 7¢/page. Some types of data are made free, including "opinions designated by the court for publication."
 
 <div class="left-image">
