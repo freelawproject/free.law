@@ -10,7 +10,7 @@ A million minutes of oral argument audio is a lot, so it helps to contextualize 
 
 We have had a lot of success with our oral argument archive, and we're thrilled to be able to provide it at no cost, despite its size growing every day. 
 
-In the coming months we will continue expanding this collection in two key ways. First, we plan to begin automatically generating transcripts for audio files so that you can get an email alert any time certain words are said in court. Second, we plan to continue expanding our coverage so that ot includes more state courts, and so that it includes all of the federal courts that have recordings available.
+In the coming months we will continue expanding this collection in two key ways. First, we plan to begin automatically generating transcripts for audio files so that you can get an email alert any time certain words are said in court. Second, we plan to continue expanding our coverage so that it includes more state courts, and so that it includes all of the federal courts that have recordings available.
  
 Between these two initiatives, we will continue expanding our archive and making it better. Soon we'll be archiving more than ever.
 
