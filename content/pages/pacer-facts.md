@@ -103,6 +103,11 @@ Yes! There are two PACER sites that we know about that have content and do not c
 The CIT training site also allows you to practice ECF filings if you have an ECF account.
 
 
+### Is PACER used anywhere other than the federal courts?
+
+Yes! Mississippi [is using PACER][miss] for e-filing in their courts. 
+
+
 ### Does PACER Have an API?
 
 Contrary to popular wisdom, PACER *does* have an API. This API allows limited search of PACER metadata across jurisdictions. It doesn't allow you to download documents and it's limited in a few other ways as well.
@@ -150,3 +155,4 @@ Included in that information is the "Go Live Date" for each jurisdiction, but so
 [wor-charts]: {filename}/xlsx/free-opinions-report-totals-by-court.xlsx
 [wor-policy]: {filename}/pdf/written-opinions-memo.pdf
 [js]: {filename}/pages/juriscraper.md
+[miss]: https://courts.ms.gov/mec/mec.html

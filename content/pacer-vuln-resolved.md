@@ -1,8 +1,7 @@
 Title: More Details on the PACER Vulnerability We Shared with the Administrative Office of the Courts
 Author: mlissner
-Date: 2017-07-24
+Date: 2017-08-09
 Tags: Security, PACER, ECF, Vulnerability, Administrative Office of the Courts
-Status: Draft
 
 <div class="right-image">
     <img src="{filename}/images/pacer-logo-300w.png"
@@ -14,10 +13,6 @@ PACER/ECF is a system of 204 websites that is run by the Administrative Office o
 
 In February [we reported][vuln] that we disclosed a major vulnerability in PACER/ECF to the AO. The proof of concept and disclosure/resolution timeline [are available here][poc].
 
-<!--
-When we reported the issue we followed industry norms and provided a broad 90 day window to resolve the vulnerability. Unfortunately, at this point more than 160 days have passed, and the AO has been unable to get this vulnerability fixed at all PACER locations. We are publishing this information today so that users can understand this vulnerability protect their accounts.
--->
-
 We are pleased to share that this issue is now properly addressed, and that we are now able to report more details about it. Throughout the process of researching, disclosing, and resolving this vulnerability, the AO has been prompt and professional, something that we greatly appreciate given the considerable constraints and complexities they are facing. However, despite their skill in dealing with this issue, after discovering it we have lingering concerns about the security of PACER/ECF on the whole.
 
 In this post, we discuss three topics. First, we outline what the vulnerability was and how to identify if you were a victim of it. Second, we discuss why the vulnerability is troubling for a system of PACER/ECF's size and importance. Third, we offer concrete actions that the AO can take to prevent this kind of problem in the future.
@@ -25,11 +20,11 @@ In this post, we discuss three topics. First, we outline what the vulnerability 
 
 ### The Vulnerability and Possible Exploits
 
-The vulnerability itself is a [Cross Site Request Forgery (CSRF)][owasp-csrf]. This type of vulnerability makes it possible for one website to take actions using an account on another website. For example, lawyers and journalists might be frequent users of a (fictional) website, "legal-news.com," and also of the PACER/ECF system. Before this vulnerability was fixed, it would have been possible for underhanded operators of "legal-news.com" to make purchases using the PACER/ECF account of any of their visitors who happened to also be logged into PACER/ECF. 
+The vulnerability itself is a [Cross Site Request Forgery (CSRF)][owasp-csrf]. This type of vulnerability makes it possible for one website to take actions using an account on another website. For example, lawyers and journalists might be frequent users of a (fictional) website, "legal-news.com," and also of the PACER/ECF system. Before this vulnerability was fixed, it would have been possible for underhanded operators of "legal-news.com" to make purchases using the PACER/ECF account of any visitor to their site who happened to also be logged into PACER/ECF. 
 
 Purchasing documents using somebody else's account is one possibility. We also speculate, but were unable to prove without a testing version of PACER/ECF, that this vulnerability could be used to file documents on behalf of an attorney without their knowledge or consent. The administrators of PACER/ECF have indicated to us that they have determined that filing documents was not possible.
 
-For the users that were attacked by "legal-news.com," their quarterly PACER/ECF bill would go up, but neither the AO nor the owner of the account would realize what was happening. Eventually, victims might discover the issue when their PACER/ECF bill arrived and might call the PACER/ECF Service Center to dispute unknown charges or unknown filings. But because this type of attack comes from a user's computer, not from any centralized location, it would be nearly impossible for anybody to prove they were a victim or to have any suspicions. Not even changing their password would help if they continued to visit "legal-news.com" while logged into PACER.  
+For the users that were attacked by "legal-news.com," their quarterly PACER/ECF bill would go up, but neither the AO nor the owner of the account would realize what was happening. Eventually, victims might discover the issue when their PACER/ECF bill arrived and might call the PACER/ECF Service Center to dispute unknown charges or unknown filings. But because this type of attack comes from a user's computer, not from any centralized location, it would be nearly impossible for anybody to prove they were a victim or even to have any suspicions. Not even changing their password would help if they continued to visit "legal-news.com" while logged into PACER/ECF.
 
 Although we believe this vulnerability has likely existed in the PACER/ECF website since the AO [implemented per-page fees nearly two decades ago][chron] — CSRF protections would likely be difficult to accidentally remove — we have no knowledge of this vulnerability being exploited. We highlight the scenarios above so that PACER/ECF users can identify if they have been a victim of this vulnerability and take action if so.
 
@@ -46,7 +41,9 @@ Although we believe this vulnerability has likely existed in the PACER/ECF websi
 
 ### Why This is Bad
 
-The PACER/ECF system has [an annual revenue of around $150M/year][revenue], and [has around 1.6M registered users][user-stats]. At this scale, this type of vulnerability is extremely troubling. Cross Site Request Forgeries are ranked by [the Open Web Application Security Project (OWASP)][owasp] as the [eighth most critical security risk in 2017 (PDF)][owasp-top-10]. These types of vulnerabilities are critical because they are easily found by hackers and can have significant impacts on users. Cross site request forgeries are not novel and do not require sophisticated hackers or researchers to discover. We identified this problem while gathering data from PACER, not while attempting to hack it or to research vulnerabilities.
+The PACER/ECF system has [an annual revenue of around $150M/year][revenue], and [has around 1.6M registered users][user-stats]. At this scale, this type of vulnerability is extremely troubling. Cross Site Request Forgeries are ranked by [the Open Web Application Security Project (OWASP)][owasp] as the [eighth most critical security risk in 2017 (PDF)][owasp-top-10]. These types of vulnerabilities are critical because they are easily found by hackers and can have significant impacts on users. 
+
+Cross site request forgeries are not novel and do not require sophisticated hackers or researchers to discover. We identified this problem while gathering data from PACER, not while attempting to hack it or to research vulnerabilities.
 
 Nearly all tools for making websites, such as Django, Spring, and AngularJS include protection for cross site request forgeries out of the box. PACER likely predates the creation of these tools and does not appear to use them.
 
@@ -61,7 +58,7 @@ For the people at the AO, who have worked to fix this problem, the only solution
 
 Beyond building a culture that values security, we identify several concrete actions the AO could take to improve the security of PACER/ECF:
  
-1. **Centralize and standardize PACER/ECF.** A major challenge the AO faces is that PACER/ECF is not a single website, but is instead 204 websites that are managed and deployed by court staff across the country. Thus, when a security issue is resolved by the AO, it can take weeks or months for the fix to be applied at all the courts. In this instance, we reported the vulnerability to the AO, but in the future bad actors might take a different, more nefarious approach. If they do, the AO will be hard-pressed to react in a timely manner.
+1. **Centralize and standardize PACER/ECF.** A major challenge the AO faces is that PACER/ECF is not a single website, but is instead 204 websites that are managed and deployed by court staff across the country. Thus, when a security issue is resolved by the AO, it can take weeks or months for the fix to be applied at all the courts. In this instance, we reported the vulnerability to the AO, but in the future bad actors might take a different, more nefarious approach. If they do, the AO will be hard-pressed to react in a timely manner. It [took nearly six months][timeline] for the AO to fix this vulnerability.
 
     Another issue that is caused by the distributed nature of PACER/ECF is that the security of nearly every installation is beholden to a different person at a different court. This means that hundreds of people are responsible for the security of their installation of PACER/ECF, each with their own priorities, skills, budgets, and time constraints. One example of how this creates problems is by looking at the HTTPS security of the various PACER/ECF websites. We recently reviewed these configurations and discovered numerous problems. Of the approximately 200 PACER/ECF websites we tested, none had a strong configuration and many had poor configurations with basic errors, [receiving an "F" grade from SSLLabs][cand], an organization that reviews HTTPS configurations.
       
@@ -102,3 +99,4 @@ We hope they do.
 [chron]: {filename}/pacer-fee-history.md
 [cand]: https://www.ssllabs.com/ssltest/analyze.html?d=ecf.cand.uscourts.gov
 [doj]: https://www.justice.gov/criminal-ccips/page/file/983996/download
+[timeline]: {filename}/pages/pacer-vulnerability-poc.md#timeline
