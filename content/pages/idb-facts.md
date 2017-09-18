@@ -20,9 +20,9 @@ Slug: idb-facts
 </script>
 
 
-<p class="lead">This page is where we keep useful information and notes for people that are using the Integrated Database provided by the Federal Judicial Center.</p>
- 
-There are a few questions that aren't answered by their website, and a few pieces of missing information that are essential for understanding the data. This is the page we wish existed when we began working with this data.
+<p class="lead">This page is where we keep useful information and notes for people that are using the <a href="https://www.fjc.gov/research/idb">Integrated Database</a> provided by the Federal Judicial Center.</p>
+
+This database contains information about every case filed in the PACER system, and is thus a valuable resource for researchers, journalists, and legal startups. There are a few questions that aren't answered by their website, and a few pieces of missing information that are essential for understanding the data. This is the page we wish existed when we began working with this data.
 
 
 ### Where can I find an explanation of the office codes?
