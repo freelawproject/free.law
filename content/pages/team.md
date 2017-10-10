@@ -39,3 +39,21 @@ Status: published
        its Board of Directors.</p>
   </div>
 </div>
+
+<div class="media">
+  <div class="media-left pull-left">
+    <a href="https://www.krinternetlaw.com/attorneys/ansel-halliburton-profile">
+      <img class="media-object" src="{filename}/images/ansel-150x150.jpg" alt="Ansel Halliburton Headshot">
+    </a>
+  </div>
+  <div class="media-body">
+    <h4 class="media-heading">Ansel Halliburton &ndash; Director</h4>
+    <p>Ansel has been involved in legal technology since 2006, when he joined a
+       team at Stanford Law School to help build a comprehensive database of
+       all federal intellectual property litigation. Now a lawyer, Ansel
+       practices technology law in San Francisco. Ansel holds degrees from
+       UC Berkeley and UC Davis School of Law, writes about technology and
+       security for [*Lawyerist*](https://lawyerist.com/author/ansel-halliburton/),
+       and builds small robots.</p>
+  </div>
+</div>
