@@ -53,7 +53,7 @@ Status: published
        all federal intellectual property litigation. Now a lawyer, Ansel
        practices technology law in San Francisco. Ansel holds degrees from
        UC Berkeley and UC Davis School of Law, writes about technology and
-       security for [*Lawyerist*](https://lawyerist.com/author/ansel-halliburton/),
+       security for <a href="https://lawyerist.com/author/ansel-halliburton/"><em>Lawyerist</em></a>
        and builds small robots.</p>
   </div>
 </div>
