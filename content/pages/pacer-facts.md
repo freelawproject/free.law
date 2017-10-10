@@ -72,7 +72,7 @@ This disparity likely stems from clerks and judges improperly (or inconsistently
 
 Five additional clarifying points also apply which [can be read in the memo][wor-policy]. 
 
-Many documents are not marked as opinions that should be. We know of no recourse if you purchase such a document.
+Many documents are not marked as opinions that should be. We know of no recourse if you purchase such a document, though [a lawsuit is working to fix that][dapuzzo], and [the issue is being studied by academics][pm].
 
 [^1]: We are grateful to Rebecca Fordon and Stephen Burbank for their assistance in this research.
 
@@ -110,15 +110,19 @@ Yes! Mississippi [is using PACER][miss] for e-filing in their courts.
 
 ### Does PACER Have an API?
 
-Contrary to popular wisdom, PACER *does* have an API. This API allows limited search of PACER metadata across jurisdictions. It doesn't allow you to download documents and it's limited in a few other ways as well.
+Contrary to popular wisdom, PACER *does* have something resembling an API for some purposes:
 
-We can't find this documentation on the PACER website anymore, so [we've posted it here][api-docs].
+ - There is an API that allows limited search of PACER metadata across jurisdictions. It doesn't allow you to download documents and it's limited in a few other ways as well. The documentation for this API is difficult to find, but we maintain [a mirror of it here][api-docs].
+ 
+ - There is also [information about the XML formats returned by PACER][xml].
 
-There is also [information about the XML formats returned by PACER][xml].
-
-For uploads, there is only [information for uploading bankruptcy files][bank].
-
-Outside of these APIs, we have also created [an open source system for crawling PACER][js].
+ - For uploads, there is only [information for uploading bankruptcy files][bank].
+ 
+ - There is also documentation from 2005 [about "bulk data" files here][bulk] (PACER does *not* actually have bulk data).
+ 
+ - The FJC manages an "[Integrated Database][idb]" which has extensive documentation about PACER fields and data.
+ 
+ - Finally, we have created [an open source system for crawling PACER][js].
 
 
 ### As a developer, is there a way to stay up to date with PACER?
@@ -156,3 +160,7 @@ Included in that information is the "Go Live Date" for each jurisdiction, but so
 [wor-policy]: {filename}/pdf/written-opinions-memo.pdf
 [js]: {filename}/pages/juriscraper.md
 [miss]: https://courts.ms.gov/mec/mec.html
+[dapuzzo]: https://www.courtlistener.com/docket/4547409/theodore-dapuzzo-pa-v-united-states/
+[pm]: https://osf.io/preprints/lawarxiv/bpmxe
+[bulk]: https://www.pacer.gov/documents/bulk_data.pdf
+[idb]: https://www.fjc.gov/research/idb
