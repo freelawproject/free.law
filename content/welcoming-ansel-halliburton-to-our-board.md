@@ -2,9 +2,8 @@ Title: Welcoming Ansel Halliburton to our Board
 Date: 2017-10-11 10:00
 Author: The Board
 Tags: Announcements, Board of Directors
-Status: Draft
 
-Today we're proud to announce that Ansel Halliburton has joined the Free Law Project Board of Directors. Ansel has already been contributing to Free Law Project for several years, and his experience as both a practicing lawyer and legal technologist will help steer us into the future.
+Today we're proud to announce that Ansel Halliburton has joined the [Free Law Project Board of Directors][team]. Ansel has already been contributing to Free Law Project for several years, and his experience as both a practicing lawyer and legal technologist will help steer us into the future.
 
 <div class="left-image">
     <a href="https://www.krinternetlaw.com/attorneys/ansel-halliburton-profile">
