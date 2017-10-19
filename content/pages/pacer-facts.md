@@ -7,19 +7,6 @@ Slug: pacer-facts
          class="img-responsive border">
 </div>
 
-
-<script src="/js/anchor.min.js"></script>
-<script type="text/javascript">
-    anchors.options = {
-            'visible': 'touch',
-            'class': 'anchor',
-            'truncate': 20
-        };
-    document.addEventListener("DOMContentLoaded", function(event) {
-        anchors.add();
-    });
-</script>
-
 <p class="lead">PACER is a big and complex system with decades of history that's difficult to research or understand. For several years we have been trying to learn as much about it as we can.</p>
 
 This page is an attempt to keep a record of interesting facts we have gathered about PACER. Where possible, we link to backup copies of various resources or provide links to the original sources.
@@ -135,6 +122,19 @@ Yes! There is a list for developers to subscribe to at developers@psc.uscourts.g
 There's a variety of information that you can find on the [list of courts on the PACER site, if you click the little information icon&nbsp;<i class="fa fa-info-circle"></i>][court-list]. We've taken some of this information and built a simple [JSON][json] or [HTML website][html] with it, so it's all in one place. 
 
 Included in that information is the "Go Live Date" for each jurisdiction, but some jurisdictions have cases going back much further. Our understanding is that the older cases in PACER were put in manually, so the quality of the data is poor and the coverage is incomplete. However, you can get a list of all the earliest cases [at this link][earliest] or [as a spreadsheet][earliest-csv]. 
+
+
+<script src="/js/anchor.min.js"></script>
+<script type="text/javascript">
+    anchors.options = {
+            'visible': 'touch',
+            'class': 'anchor',
+            'truncate': 20
+        };
+    document.addEventListener("DOMContentLoaded", function(event) {
+        anchors.add();
+    });
+</script>
 
 
 [c]: {filename}/pages/contact.md

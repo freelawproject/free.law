@@ -7,18 +7,6 @@ Slug: idb-facts
          class="img-responsive border">
 </div>
 
-<script src="/js/anchor.min.js"></script>
-<script type="text/javascript">
-    anchors.options = {
-            'visible': 'touch',
-            'class': 'anchor',
-            'truncate': 20
-        };
-    document.addEventListener("DOMContentLoaded", function(event) {
-        anchors.add();
-    });
-</script>
-
 
 <p class="lead">This page is where we keep useful information and notes for people that are using the <a href="https://www.fjc.gov/research/idb">Integrated Database</a> provided by the Federal Judicial Center.</p>
 
@@ -54,6 +42,18 @@ These are blank according to policy set by the Judicial Conference of the U.S. I
          alt="The 2003 conference notes"
          class="img-responsive border"/>
 </div>
+
+<script src="/js/anchor.min.js"></script>
+<script type="text/javascript">
+    anchors.options = {
+            'visible': 'touch',
+            'class': 'anchor',
+            'truncate': 20
+        };
+    document.addEventListener("DOMContentLoaded", function(event) {
+        anchors.add();
+    });
+</script>
     
     
 [031995]: {filename}/pdf/judicial-conference-proceedings/1995-03.pdf 
