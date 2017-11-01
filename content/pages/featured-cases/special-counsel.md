@@ -1,4 +1,4 @@
-Title: Special Counsel Cases
+Title: The Special Counsel Cases
 Date: 2017-11-01 09:00
 Author: anseljh
 Slug: featured-cases/special-counsel/
