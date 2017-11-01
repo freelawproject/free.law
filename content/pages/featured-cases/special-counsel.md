@@ -14,7 +14,7 @@ As selected documents and full dockets from these and other cases brought by the
 * [United States v. Papadopoulos (1:17-cr-00182)](https://www.courtlistener.com/docket/6182316/united-states-v-papadopoulos/)
 * [United States v. Manafort, et al. (1:17-cr-00201)](https://www.courtlistener.com/docket/6183591/united-states-v-manafort/)
 * In re Grand Jury Investigation (17-2336-BAH)
-  * [Memorandum Opinion][opinion-gj-priv]
+    * [Memorandum Opinion][opinion-gj-priv]
 
 
 ## Updating Dockets
