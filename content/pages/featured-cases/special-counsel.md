@@ -18,7 +18,7 @@ As selected documents and full dockets from these and other cases brought by the
     * [United States v. John Doe](https://www.courtlistener.com/docket/6182412/united-states-v-john-doe/) (D.D.C. 1:17-mc-02484-RDM)
         * [Order Unsealing Plea Proceedings][papadopoulos-unseal-order]
     * [United States v. Papadopoulos](https://www.courtlistener.com/docket/6182339/united-states-v-papadopoulos/) (D.D.C. 1:17-mj-00539-BAH)
-    * United States v. Papadopoulos (E.D.Va. 1:17-mj-00358-TCB) *Arrest*
+    * [United States v. Papadopoulos](https://www.courtlistener.com/docket/6184401/united-states-v-papadopoulos/) (E.D.Va. 1:17-mj-00358-TCB) *Arrest*
 * **Paul Manafort and Richard Gates**
     * [United States v. Manafort, et al.](https://www.courtlistener.com/docket/6183591/united-states-v-manafort/) (D.D.C. 1:17-cr-00201) *Main case*
     * In re Grand Jury Investigation (D.D.C. 17-2336-BAH)
