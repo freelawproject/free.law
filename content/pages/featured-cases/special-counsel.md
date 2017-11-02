@@ -9,12 +9,20 @@ On October 30, 2017, the first cases brought by Special Counsel Robert S. Muelle
 As selected documents and full dockets from these and other cases brought by the Special Counsel's Office become available in Free Law Project's [RECAP Archive][recap], we are linking them on this page.
 
 
-## Dockets
+## Cases
 
-* [United States v. Papadopoulos (1:17-cr-00182)](https://www.courtlistener.com/docket/6182316/united-states-v-papadopoulos/)
-* [United States v. Manafort, et al. (1:17-cr-00201)](https://www.courtlistener.com/docket/6183591/united-states-v-manafort/)
-* In re Grand Jury Investigation (17-2336-BAH)
-    * [Memorandum Opinion][opinion-gj-priv]
+* **George Papadopoulos**
+    * [United States v. Papadopoulos](https://www.courtlistener.com/docket/6182316/united-states-v-papadopoulos/) (D.D.C. 1:17-cr-00182) *Main case*
+        * [Plea Agreement][papadopoulos-plea]
+        * [Statement of the Offense][papadopoulos-statement]
+    * [United States v. John Doe](https://www.courtlistener.com/docket/6182412/united-states-v-john-doe/) (D.D.C. 1:17-mc-02484-RDM)
+        * [Order Unsealing Plea Proceedings][papadopoulos-unseal-order]
+    * [United States v. Papadopoulos](https://www.courtlistener.com/docket/6182339/united-states-v-papadopoulos/) (D.D.C. 1:17-mj-00539-BAH)
+    * United States v. Papadopoulos (E.D.Va. 1:17-mj-00358-TCB) *Arrest*
+* **Paul Manafort and Richard Gates**
+    * [United States v. Manafort, et al.](https://www.courtlistener.com/docket/6183591/united-states-v-manafort/) (D.D.C. 1:17-cr-00201) *Main case*
+    * In re Grand Jury Investigation (D.D.C. 17-2336-BAH)
+        * [Memorandum Opinion][opinion-gj-priv] about attorney–client privilege
 
 
 ## Updating Dockets
@@ -32,3 +40,6 @@ If you would like to add a docket link or suggest another update to this page, p
 [c]: {filename}/pages/contact.md
 [pr]: https://github.com/freelawproject/free.law/blob/master/content/pages/special-counsel.md
 [opinion-gj-priv]: {filename}/pdf/17-mc-2336_MEM_OP_REDACTED_FOR_UNSEALING_20171030.pdf
+[papadopoulos-unseal-order]: {filename}/pdf/gov.uscourts.dcd.189936.1.0.pdf
+[papadopoulos-plea]: {filename}/pdf/gov.uscourts.dcd.189898.18.0.pdf
+[papadopoulos-statement]: {filename}/pdf/gov.uscourts.dcd.189898.19.0.pdf
