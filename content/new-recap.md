@@ -2,7 +2,6 @@ Title: The Next Version of RECAP is Now Live
 Author: mlissner
 Date: 2017-11-13
 Tags: recap, recap archive, internet archive, pacer
-Status: Draft
        
 
 <div class="row">
