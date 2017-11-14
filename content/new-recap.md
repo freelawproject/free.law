@@ -38,13 +38,13 @@ That's the good news, but with all of this progress, there are two pieces of bad
     
     The good news is that when we do get this working for Firefox, all of the other browsers will get this feature too. We are hopeful we will find technical volunteers that can help us add appellate court support to all of the extensions — all that's needed to help are good JavaScript skills.
     
-1. As part of our transition to a new infrastructure, we are changing how often we push PACER data to the Internet Archive. Instead of pushing in realtime, as we've done historically, the new system starting today will upload PACER data once per quarter. 
+1. As part of our transition to a new infrastructure, we are changing how often we push PACER data to the Internet Archive. Instead of pushing in realtime, as we've done historically, the new system starting today will upload PACER data once per quarter.
 
     We know that this change will be difficult for some of our users that are used to the current system, but we are convinced that this change is necessary for RECAP to thrive. Please [let us know][c] if this causes any unforeseen difficulties for you that we might be able to address.
     
     For those that are concerned that this means we might one day close up shop and suddenly take a lot of data offline, do not worry. As of our last board meeting, we have [updated the Free Law Project bylaws][bylaws] to ensure that any data we have at the time we close up shop must be pushed to the Internet Archive or another similar organization.[^1] All federal non-profits are required to have a "dissolution clause" in their bylaws &mdash; Most of those clauses don't involve uploading to the Internet Archive.
 
-We know that some of these changes are hard and some may take time to get used to, but it's an exciting time for RECAP. After many years with little change or improvement, we're moving it to a more reliable, robust, and innovative system. We're sloughing off almost a decade of old code and we're moving to a single extension that can support numerous browsers. These changes are going to make RECAP the best it has ever been, and we're thrilled to be sharing it today. If you have comments about the new version or if you find things you want to improve or praise, don't hesitate to get in touch. We're eager [to hear what you think][c].
+It's an exciting time for RECAP. After many years with little change or improvement, we're moving it to a more reliable, robust, and innovative system. We're sloughing off almost a decade of old code and we're moving to a single extension that can support numerous browsers. These changes are going to make RECAP the best it has ever been, and we're thrilled to be sharing it today. If you have comments about the new version or if you find things you want to improve or praise, don't hesitate to get in touch. We're eager [to hear what you think][c].
 
 [^1]: The new section of [the bylaws][bylaws] can be found in §5.3 entitled, "Dedication of Information Assets."
 
