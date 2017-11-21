@@ -43,10 +43,12 @@ There are a few ways to avoid PACER fees, as [described in the PACER fee schedul
 1. PACER provides fee exemptions (or waivers) according to the following rules:
 
     <div class="left-image">
-        <img src="{filename}/images/waiver-details.png"
-             alt="Wiaver details"
-             class="img-responsive border"/>
-         <p class="caption">A screenshot of the fee waiver rules as of 21 November 2017.</p>
+        <a href="https://www.pacer.gov/documents/epa_feesched.pdf" rel="nofollow">
+            <img src="{filename}/images/waiver-details.png"
+                 alt="Wiaver details"
+                 class="img-responsive border"/>
+         </a>
+         <p class="caption">A screenshot of the <a href="https://www.pacer.gov/documents/epa_feesched.pdf" rel="nofollow">fee waiver rules as of 21 November 2017</a>.</p>
     </div>
     <div class="clearfix"></div>
 
