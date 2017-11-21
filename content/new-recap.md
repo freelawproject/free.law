@@ -50,7 +50,7 @@ It's an exciting time for RECAP. After many years with little change or improvem
 
 [ra]: https://www.courtlistener.com/recap/
 [ff-die-off]: https://blog.mozilla.org/addons/2016/11/23/add-ons-in-2017/
-[bylaws]: {filename/pdf/policies/bylaws-amended-2017-11-05.pdf
+[bylaws]: {filename}/pdf/policies/bylaws-amended-2017-11-05.pdf
 [c]: {filename}/pages/contact.md
 [apis]: https://www.courtlistener.com/api/
 [cl]: https://www.courtlistener.com/
