@@ -28,6 +28,33 @@ Simply replace 1998 with the desired year. In the PDF that you download, PACER r
 We tried to get to the bottom of this. [Our conclusion][billion] was that it would cost around one billion dollars.
 
 
+### Are there any ways to get around PACER fees?
+
+There are a few ways to avoid PACER fees, as [described in the PACER fee schedule][sched]:
+ 
+1. Some documents are labeled by clerks as "Opinions" and are free. In theory — and according to the E-Government Act — this would include all of the opinions issued, but in our research this has varied greatly by jurisdiction. These documents can be found by using the "Written Opinions" report.
+
+1. All PACER users are allowed $15 per calendar quarter before they are billed. However, once you hit $15.01 on your bill, you will be billed the entire amount.
+
+1. If you are a part of case, you're granted "One free look" at each document filed in that case.
+
+1. No fee is charged if PACER is used at a courthouse public access terminal.
+
+1. PACER provides fee exemptions (or waivers) according to the following rules:
+
+    <div class="left-image">
+        <img src="{filename}/images/waiver-details.png"
+             alt="Wiaver details"
+             class="img-responsive border"/>
+         <p class="caption">A screenshot of the fee waiver rules as of 21 November 2017.</p>
+    </div>
+    <div class="clearfix"></div>
+
+These rules call for numerous limitations such as non-redistribution, and limited periods of time. There is [at least one instance][redist], however, where a judge has not applied all of these rules, and has allowed redistribution.
+
+Additional [examples of PACER fee waivers][waivers] can be found in the RECAP Archive.
+
+
 ### How many cases and documents are in PACER and how fast is it growing?
 
 We have two sources for this information. One source is the [2014 Annual Supreme Court Report][scotus-report], which said: 
@@ -164,3 +191,6 @@ Included in that information is the "Go Live Date" for each jurisdiction, but so
 [pm]: https://osf.io/preprints/lawarxiv/bpmxe
 [bulk]: https://www.pacer.gov/documents/bulk_data.pdf
 [idb]: https://www.fjc.gov/research/idb
+[sched]: https://www.pacer.gov/documents/epa_feesched.pdf
+[redist]: https://www.courtlistener.com/docket/6155087/3/in-re-application-for-exemption-from-the-electronic-public-access-fees/
+[waivers]: https://www.courtlistener.com/?q=pacer+AND+(%22fee+waiver%22+OR+%22fee+exemption%22)&type=r&order_by=score+desc#
