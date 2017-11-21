@@ -4,11 +4,20 @@ Summary: Legal Data Services and Consulting from Free Law Project, a 501(c)(3)
              nonprofit.
 
 
-<p class="lead">Can't find what you need? Too hard to process the data yourself? Free Law Project provides customized research and reports for modest fees.</p>
+<div class="row">
+    <div class="col-xs-12 col-sm-8 col-md-9">
+        <p class="lead">Need bulk PACER data? Can't find what you need using our APIs? Too hard to process the data yourself? Free Law Project provides data gathering, customized research, and reports for modest fees.</p>
+    </div>
+    <div class="col-xs-12 col-sm-4 col-md-3">
+        <span class="pull-right"><a href="{filename}/pages/contact.md" class="btn btn-lg btn-danger">Contact Us</a></span>
+    </div>
+</div>
 
-We have millions of opinions from hundreds of jurisdictions in our database. We have tens of thousands of oral arguments. We have information about nearly every reporter written. This data is all available via our <a href="https://www.courtlistener.com/api/">APIs</a>, but making sense of it can be very time consuming and expensive.
+We have a powerful system for gathering bulk data from PACER. We have millions of opinions from hundreds of jurisdictions in our database. We have tens of thousands of oral argument audio files. We have information about nearly every reporter written. Much of this data <a href="https://www.courtlistener.com/api/">is available via our APIs</a>, but making sense of it can be time consuming.
 
-To fill this need, we have begun offering data services. Our work is usually billed hourly, but we are available for project-based billing as well. We charge **$115/hour** with a one hour minimum. Billing is rounded up to the nearest half hour. Non-profit discounts are available for verified 501(c)(3) organizations.
+To fill these needs, we offer data services. Jobs are billed hourly or by project milestones. For hourly work, we typically charge **$115/hour** with a one hour minimum. Billing is rounded up to the nearest half hour. Discounts may be available for qualified organizations.
+
+If you are interested in working with us, please [send us an email describing your project][c], and we'll set up a time to talk in more detail.
 
 
 ### Example Projects
@@ -21,10 +30,20 @@ The following are three simple projects that we have completed:
 
  - **Three Hours**: Please give me a histogram of the usage of exclamation points in Supreme Court opinions.
 
+Some more complex projects include:
+
+ - Please gather all of the initial complaints in PACER that match a given nature of suit code and make them available for download.
+ 
+ - Please gather all of the header information for any dockets in a given jurisdiction.
+ 
+ - Please provide consulting guidance for a startup idea that I wish to pursue. 
+
 
 ### Joint Projects
 
-In addition to data requests, we are also open to working on projects with a common goal. If you have projects that might require generating new forms of metadata or that might require significant effort on our behalf, please [get in touch][c] with your idea so we can discuss it further. If the project is one that we also have on our roadmap, we can sometimes work together towards a common goal.
+In addition to data or consulting requests, we are also open to working on projects with a common goal. If you have projects that might require generating new forms of metadata or that might require significant effort on our behalf, please [get in touch][c] with your idea so we can discuss it further. 
+
+If the project is one that we also have on our roadmap, we can sometimes work together towards a common goal.
 
 
 ### Getting Started
@@ -36,11 +55,18 @@ Getting started is very easy. Just [send us a brief email][c] with what you need
 
 <div class="row">
     <div class="col-xs-3">
-            <a href="https://empiricalscotus.com/">
-                <img src="{filename}/images/services-logos/empirical-scotus.png"
-                     alt="Empirical Scotus Logo"
-                     class="img-responsive border">
-            </a>
+        <a href="https://empiricalscotus.com/" rel="nofollow">
+            <img src="{filename}/images/services-logos/empirical-scotus.png"
+                 alt="Empirical Scotus Logo"
+                 class="img-responsive border">
+        </a>
+    </div>
+    <div class="col-xs-3">
+        <a href="{filename}/dol-grant.md" rel="nofollow">
+            <img src="{filename}/images/gsu.png"
+                 alt="J. Mack Robinson School of Business at Georgia State University logo"
+                 class="img-responsive border">
+        </a>
     </div>
 </div>
 
