@@ -68,6 +68,13 @@ Getting started is very easy. Just [send us a brief email][c] with what you need
                  class="img-responsive border">
         </a>
     </div>
+    <div class="col-xs-3">
+        <a href="https://komply.co" rel="nofollow">
+            <img src="{filename}/images/komply.png"
+                 alt="Komply Logo"
+                 class="img-responsive border">
+        </a>
+    </div>
 </div>
 
 [c]: {filename}/pages/contact.md
