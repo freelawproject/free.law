@@ -20,6 +20,8 @@ To upgrade to the latest version, please click one of the following links:
 <a href="https://chrome.google.com/webstore/detail/recap/oiillickanjlaeghobeeknbddaonmjnc" class="btn btn-primary btn-lg">Add to Chrome&nbsp;<i class="fa fa-chrome"></i></a>
 <a href="https://addons.mozilla.org/en-US/firefox/addon/recap-195534/" class="btn btn-primary btn-lg">Add to Firefox&nbsp;<i class="fa fa-firefox"></i></a>
 
+The new version of the extension requires Firefox 56 or higher.
+
 If you have any questions or feedback about this deprecation, [please let us know][c].
 
 
