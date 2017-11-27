@@ -4,11 +4,11 @@ Slug: recap/dmca/
 
 Should you believe that RECAP is implicated in infringement of your copyrights, you should contact the following:
 
- - For content that is hosted on a princeton.edu, recapthelaw.org, or recapextension.org domain, see [Princeton's instructions for reporting copyright infringement][p].
+ - For content that is hosted on a princeton.edu domain, see [Princeton's instructions for reporting copyright infringement][p].
 
  - For content that is hosted on an archive.org domain, see the [Internet Archive Copyright Policy][ia].
 
- - For content that is hosted on CourtListener.com, see the [CourtListener.com Copyright Policy][cl].
+ - For content that is hosted on CourtListener.com or Free.law, see the [CourtListener.com Copyright Policy][cl].
 
 Each of these locations provides contact information for the agent designated under the Digital Millennium Copyright Act, P.L. 105-304.
 
