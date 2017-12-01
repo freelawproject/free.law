@@ -23,6 +23,9 @@ As selected documents and full dockets from these and other cases brought by the
     * [United States v. Manafort, et al.](https://www.courtlistener.com/docket/6183591/united-states-v-manafort/) (D.D.C. 1:17-cr-00201) *Main case*
     * In re Grand Jury Investigation (D.D.C. 17-2336-BAH)
         * [Memorandum Opinion][opinion-gj-priv] about attorney–client privilege
+* **Michael Flynn**
+    * [United States v. Flynn](https://www.courtlistener.com/docket/6234142/united-states-v-flynn/) (D.D.C. 1:17-cr-00232)
+        * [Information][flynn-information]
 
 
 ## Updating Dockets
@@ -43,3 +46,4 @@ If you would like to add a docket link or suggest another update to this page, p
 [papadopoulos-unseal-order]: {filename}/pdf/gov.uscourts.dcd.189936.1.0.pdf
 [papadopoulos-plea]: {filename}/pdf/gov.uscourts.dcd.189898.18.0.pdf
 [papadopoulos-statement]: {filename}/pdf/gov.uscourts.dcd.189898.19.0.pdf
+[flynn-information]: https://www.courtlistener.com/recap/gov.uscourts.dcd.191592/gov.uscourts.dcd.191592.1.0_2.pdf
