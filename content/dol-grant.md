@@ -1,5 +1,5 @@
 Title: Free Law Project to Serve as PACER Data Provider to Department of Labor Grantees at Georgia State University
-Author: mlissner
+Author: Michael Lissner
 Date: 2017-02-15
 Tags: pacer, recap, data services, awards, GSU, DoL, recap archive
 

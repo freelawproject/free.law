@@ -1,5 +1,5 @@
 Title: Free Law Project Receives "Le Hackie" Award from D.C. Legal Hackers for PACER Research and Blogging
-Author: mlissner
+Author: Michael Lissner
 Date: 2017-01-10
 Tags: awards, Le Hackie, D.C. Legal Hackers, PACER
 

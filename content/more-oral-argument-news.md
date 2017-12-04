@@ -1,6 +1,6 @@
 Title: More Oral Argument News
 Date: 2014-11-09 23:59
-Author: mlissner
+Author: Michael Lissner
 Tags: Announcements, Oral Arguments
 Slug: more-oral-argument-news
 Status: published

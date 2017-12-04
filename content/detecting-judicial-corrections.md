@@ -1,6 +1,6 @@
 Title: Detecting Judicial Corrections
 Date: 2014-05-03 13:41
-Author: mlissner
+Author: Michael Lissner
 Tags: Data Wrangling, Design
 Slug: detecting-judicial-corrections
 Status: published

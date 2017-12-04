@@ -1,6 +1,6 @@
 Title: Free Law Project Joins Request for Access to Offline PACER Documents
 Date: 2014-08-27 08:39
-Author: brianwc
+Author: Brian Carver
 Tags: Announcements, Bulk Data, CourtListener, Courts, Policy, RECAP, PACER
 Slug: free-law-project-joins-request-for-access-to-offline-pacer-documents
 Status: published

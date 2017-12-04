@@ -1,5 +1,5 @@
 Title: Releasing V3 of the API, Deprecating V1 and V2
-Author: mlissner
+Author: Michael Lissner
 Date: 2016-01-31
 Tags: API, Deprecation, Announcements, CourtListener, Bulk Data
 

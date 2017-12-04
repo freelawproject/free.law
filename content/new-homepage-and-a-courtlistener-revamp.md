@@ -1,6 +1,6 @@
 Title: New Homepage and a CourtListener Revamp
 Date: 2014-06-03 06:00
-Author: mlissner
+Author: Michael Lissner
 Tags: Announcements, CourtListener, Design
 Slug: new-homepage-and-a-courtlistener-revamp
 Status: published

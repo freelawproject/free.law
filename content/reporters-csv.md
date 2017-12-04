@@ -1,5 +1,5 @@
 Title: New CSV of Reporters of Decisions
-Author: mlissner
+Author: Michael Lissner
 Date: 2016-05-25
 Tags: reporters_db, csv, bulk_data
 

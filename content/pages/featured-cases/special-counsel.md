@@ -1,6 +1,6 @@
 Title: The Special Counsel Cases
 Date: 2017-11-01 09:00
-Author: anseljh
+Author: Ansel Halliburton
 Slug: featured-cases/special-counsel/
 
 

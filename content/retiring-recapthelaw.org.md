@@ -1,5 +1,5 @@
 Title: Retiring and Consolidating RECAP Websites
-Author: mlissner
+Author: Michael Lissner
 Date: 2016-08-09
 Tags: RECAP, domain names
 

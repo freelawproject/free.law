@@ -1,6 +1,6 @@
 Title: Live coverage graphs now available
 Date: 2013-02-09 14:02
-Author: mlissner
+Author: Michael Lissner
 Tags: Announcements, CourtListener, Coverage
 Slug: live-coverage-graphs-now-available
 Status: published

@@ -1,5 +1,5 @@
 Title: Ending our PACER Drainage Initiative and Stopping our Email Lists
-Author: mlissner
+Author: Michael Lissner
 Date: 2016-05-12
 Tags: deprecation, lists, PACER
 

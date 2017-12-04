@@ -1,5 +1,5 @@
 Title: A Million Minutes of Oral Arguments
-Author: mlissner
+Author: Michael Lissner
 Date: 2017-07-25
 Tags: audio, oral arguments, milestones
 

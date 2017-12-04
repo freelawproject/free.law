@@ -1,6 +1,6 @@
 Title: Millions of New "Short Form" Case Names Now on CourtListener
 Date: 2016-01-30 18:00:00
-Author: mlissner
+Author: Michael Lissner
 Tags: Announcements, API, Bulk Data, CourtListener, Data Wrangling, Juriscraper
 
 While working on a soon-to-be-released feature of CourtListener, we needed to create "short form" case names for all the cases that we could. We're happy to share that we've created about 1.8M short form case names, including complete coverage for all Supreme Court cases going back to 1947, when the [Supreme Court

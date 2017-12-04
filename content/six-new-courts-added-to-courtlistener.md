@@ -1,6 +1,6 @@
 Title: Six new courts added to CourtListener
 Date: 2013-02-28 14:03
-Author: mlissner
+Author: Michael Lissner
 Tags: Announcements, Juriscraper
 Slug: six-new-courts-added-to-courtlistener
 Status: published

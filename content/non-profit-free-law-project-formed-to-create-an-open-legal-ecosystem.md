@@ -1,6 +1,6 @@
 Title: Non-Profit "Free Law Project" Formed to Create an Open Legal Ecosystem
 Date: 2013-09-24 08:00
-Author: mlissner
+Author: Michael Lissner
 Tags: Announcements, Roadmap
 Slug: non-profit-free-law-project-formed-to-create-an-open-legal-ecosystem
 Status: published

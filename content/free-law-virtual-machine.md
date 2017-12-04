@@ -1,6 +1,6 @@
 Title: Free Law Virtual Machine Available for Academics and Developers
 Date: 2013-10-15 06:00
-Author: mlissner
+Author: Michael Lissner
 Tags: Announcements, Bulk Data, CourtListener, Juriscraper, Technology
 Slug: free-law-virtual-machine-available-for-academics-and-developers
 Status: published

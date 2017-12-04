@@ -1,5 +1,5 @@
 Title: Some Citation Parsing Statistics
-Author: mlissner
+Author: Michael Lissner
 Date: 2016-02-17
 Tags: statistics, citations, citator
 

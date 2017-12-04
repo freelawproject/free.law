@@ -1,5 +1,5 @@
 Title: Iain Carmichael and Michael Kim Present at PyData Carolinas Conference
-Author: mlissner
+Author: Michael Lissner
 Date: 2016-10-05
 Tags: talks, pydata, networks, visualizations, videos
 

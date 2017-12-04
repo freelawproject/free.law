@@ -1,6 +1,6 @@
 Title: Contact Us
 Date: 2015-01-20 14:25
-Author: mlissner
+Author: Michael Lissner
 Slug: contact
 Status: published
 

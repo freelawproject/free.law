@@ -1,5 +1,5 @@
 Title: Launching the Next Version of CourtListener.com
-Author: mlissner
+Author: Michael Lissner
 Date: 2016-08-16
 Tags: courtlistener, ux
 

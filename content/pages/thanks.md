@@ -1,6 +1,6 @@
 Title: Contributors
 Date: 2015-01-14 22:30
-Author: mlissner
+Author: Michael Lissner
 Slug: thanks
 Status: published
 

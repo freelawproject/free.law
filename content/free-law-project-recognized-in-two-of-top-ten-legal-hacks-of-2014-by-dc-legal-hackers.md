@@ -1,6 +1,6 @@
 Title: Free Law Project Recognized in two one of Top Ten Legal Hacks of 2014 by DC Legal Hackers!
 Date: 2014-12-04 12:09
-Author: mlissner
+Author: Michael Lissner
 Tags: Announcements, Awards, Free Law Ferret, Oral Arguments
 Slug: free-law-project-recognized-in-two-of-top-ten-legal-hacks-of-2014-by-dc-legal-hackers
 Status: published

@@ -1,5 +1,5 @@
 Title: Free Law Project Makes Emoluments Clause Opinions Searchable in its Collection of Attorney General Advisory Opinions
-Author: mlissner
+Author: Michael Lissner
 Date: 2017-01-30
 Tags: Attorney General Opinions, Emoluments Clause, Politico
 

@@ -1,6 +1,6 @@
 Title: Introducing Quick Tips on CourtListener
 Date: 2014-12-10 11:36
-Author: mlissner
+Author: Michael Lissner
 Tags: Announcements, CourtListener
 Slug: introducing-quick-tips-on-courtlistener
 Status: published

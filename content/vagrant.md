@@ -1,5 +1,5 @@
 Title: It's easier than ever to contribute to CourtListener and Free Law Project
-Author: mlissner
+Author: Michael Lissner
 Date: 2016-03-01
 Tags: Vagrant, Announcements, Technology
 

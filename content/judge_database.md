@@ -1,6 +1,6 @@
 Title: Free Law Project and Princeton/Columbia Researchers Launch First-of-its-Kind Judicial Database
 Slug: judicial-database-announcement
-Author: mlissner
+Author: Michael Lissner
 Tags: judge database, api, bulk data, courtlistener, fjc
 Date: 2016-04-19
 

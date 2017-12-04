@@ -1,5 +1,5 @@
 Title: Colin Starger's Talk about Citation Visualizations at CALI Conference
-Author: mlissner
+Author: Michael Lissner
 Date: 2016-06-20
 Tags: conferences, talks, visualizations
 

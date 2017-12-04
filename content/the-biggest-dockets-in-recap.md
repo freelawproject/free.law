@@ -1,5 +1,5 @@
 Title: Downloading Important Cases on PACER Costs More than a Brand New Car
-Author: mlissner
+Author: Michael Lissner
 Date: 2016-11-17
 Tags: mega-docket, RECAP, PACER
 

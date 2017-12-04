@@ -1,5 +1,5 @@
 Title: Judge Profiles on CourtListener Now Have Campaign Finance Information from the National Institute on Money In State Politics
-Author: mlissner
+Author: Michael Lissner
 Date: 2016-07-27
 Tags: judge database, announcements, linkages, courtlistener, elections, campaign finance
 

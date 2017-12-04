@@ -1,5 +1,5 @@
 Title: Citation Searching on CourtListener
-Author: mlissner
+Author: Michael Lissner
 Date: 2016-01-30 18:00:00
 Tags: announcements, citations, courtlistener, API, alerts, RSS
 

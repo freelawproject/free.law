@@ -1,5 +1,5 @@
 Title: Money for Nothing -- How Search Charges Devalue PACER
-Author: mlissner
+Author: Michael Lissner
 Date: 2016-06-21
 Tags: PACER, search, IR
 Status: Draft

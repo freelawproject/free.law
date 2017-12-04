@@ -1,6 +1,6 @@
 Title: Free Law Project Co-Founders Named to Fastcase 50 for 2014
 Date: 2014-07-14 10:42
-Author: brianwc
+Author: Brian Carver
 Tags: Announcements, Awards
 Slug: free-law-project-co-founders-named-to-fastcase-50-for-2014
 Status: published

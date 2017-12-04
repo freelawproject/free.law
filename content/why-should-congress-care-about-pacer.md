@@ -1,6 +1,6 @@
 Title: Why Should Congress Care About PACER?
 Date: 2015-03-23 13:41
-Author: brianwc
+Author: Brian Carver
 Tags: Agitation, Courts, PACER, Policy
 Slug: why-should-congress-care-about-pacer
 Status: published

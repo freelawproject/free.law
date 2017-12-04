@@ -1,6 +1,6 @@
 Title: Our New Citation Finder
 Date: 2015-11-30 11:50
-Author: mlissner
+Author: Michael Lissner
 Tags: Announcements, Citator, CourtListener, Data Wrangling
 Slug: our-new-citation-finder
 Status: published

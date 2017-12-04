@@ -1,5 +1,5 @@
 Title: A Complete Chronology of PACER Fees and Policies
-Author: mlissner
+Author: Michael Lissner
 Date: 2017-04-13
 Tags: pacer, fees, history, policies, Judicial Conference, proceedings
 

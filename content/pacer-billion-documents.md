@@ -1,5 +1,5 @@
 Title: The Cost of PACER Data? Around One Billion Dollars.
-Author: mlissner
+Author: Michael Lissner
 Date: 2016-10-10
 Tags: pacer, market incentives
 

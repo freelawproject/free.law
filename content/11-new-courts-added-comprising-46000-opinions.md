@@ -1,6 +1,6 @@
 Title: 11 New Courts Added to CourtListener and Juriscraper Comprising Nearly 50,000 New Opinions
 Date: 2013-10-09 14:15
-Author: mlissner
+Author: Michael Lissner
 Tags: Coverage, Juriscraper
 Slug: 11-new-courts-added-comprising-46000-opinions
 Status: published

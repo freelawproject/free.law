@@ -1,5 +1,5 @@
 Title: Judge Profiles on CourtListener Now Show the Cases Authored by Each Judge
-Author: mlissner
+Author: Michael Lissner
 Date: 2016-06-29
 Tags: judge database, announcements, linkages, courtlistener
 

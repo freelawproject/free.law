@@ -1,5 +1,5 @@
 Title: We've Added Thousands More Citations to Historical Supreme Court Opinions
-Author: mlissner
+Author: Michael Lissner
 Date: 2017-03-27
 Tags: citations, scotus, citator, history, reporter
 

@@ -1,5 +1,5 @@
 Title: Judge Profiles on CourtListener Now Show Oral Arguments Heard
-Author: mlissner
+Author: Michael Lissner
 Date: 2017-01-23
 Tags: judge database, announcements, linkages, courtlistener, oral arguments
 

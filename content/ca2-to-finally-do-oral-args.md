@@ -1,5 +1,5 @@
 Title: Second Circuit of Appeals to Finally Place Oral Arguments Online by Default -- Write to the Court with Your Suggestions
-Author: mlissner
+Author: Michael Lissner
 Date: 2016-06-21
 Tags: oral arguments, ca2, good news
 

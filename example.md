@@ -1,5 +1,5 @@
 Title:
-Author: mlissner, brianwc, etc.
+Author: Michael Lissner, Brian Carver, etc. (use full names)
 Date: 1982-06-09
 Modified: (Optional)
 Tags:

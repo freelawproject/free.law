@@ -1,6 +1,6 @@
 Title: What is a "Page" of PACER Content?
 Date: 2016-11-03
-Author: mlissner
+Author: Michael Lissner
 Tags: PACER, transparency
 
 As most readers of this blog know, PACER is a system run by the Administrative Office of the Courts (AO) that [hosts over a billion documents][b] from the Federal District and Circuit courts. The system was created in the nineties and was set up with a paywall so that you pay for every "page" of data that you receive. The idea of the fees, as established by the E-Government Act, is that the AO could use them to recoup the cost of running the PACER, but the pricing of the content has always been a bit odd. In my last post I talked about how these fees [result in an outrageous cost for PACER data][billion]. In this post, I do a deep dive into the core unit of PACER's pricing and attempt to answer the question, what ***is*** a "page" of PACER data? 

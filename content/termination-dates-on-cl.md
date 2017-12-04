@@ -1,5 +1,5 @@
 Title: Twenty-nine New Jurisdictions and an Improved Interface Coming Soon to CourtListener
-Author: mlissner
+Author: Michael Lissner
 Date: 2016-06-23
 Tags: courtlistener, court database
 

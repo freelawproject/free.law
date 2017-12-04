@@ -1,5 +1,5 @@
 Title: Free Law Project has Notified the Administrative Office of the Courts about a Major Security Vulnerability in the PACER/ECF System
-Author: mlissner
+Author: Michael Lissner
 Date: 2017-02-20
 Tags: Security, PACER, ECF, Vulnerability, Administrative Office of the Courts
 

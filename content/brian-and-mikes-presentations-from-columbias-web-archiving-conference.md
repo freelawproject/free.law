@@ -1,6 +1,6 @@
 Title: Brian and Mike's Presentations from Columbia's Web Archiving Conference
 Date: 2015-07-20 14:42
-Author: mlissner
+Author: Michael Lissner
 Tags: Awards, Juriscraper, RECAP, Video
 Slug: brian-and-mikes-presentations-from-columbias-web-archiving-conference
 Status: published

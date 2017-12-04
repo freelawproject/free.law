@@ -1,5 +1,5 @@
 Title: We Have Every Free PACER Opinion on CourtListener.com
-Author: mlissner
+Author: Michael Lissner
 Date: 2017-08-15
 Tags: PACER, RECAP, Opinions, Orders, bulk data, crawling, CourtListener
 

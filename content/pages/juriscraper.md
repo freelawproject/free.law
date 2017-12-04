@@ -1,6 +1,6 @@
 Title: Juriscraper Legal Scraping Toolkit
 Date: 2015-03-24 18:37
-Author: mlissner
+Author: Michael Lissner
 Slug: juriscraper
 Status: published
 

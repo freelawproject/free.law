@@ -1,6 +1,6 @@
 Title: Our New Jurisdiction Picker
 Date: 2013-10-31 13:20
-Author: mlissner
+Author: Michael Lissner
 Tags: CourtListener, Courts, Design, Technology
 Slug: our-new-jurisdiction-picker
 Status: published

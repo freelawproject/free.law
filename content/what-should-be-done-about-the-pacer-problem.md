@@ -1,6 +1,6 @@
 Title: What Should be Done About the PACER Problem?
 Date: 2015-03-24 15:41
-Author: brianwc
+Author: Brian Carver
 Tags: Agitation, Courts, PACER, Policy, RECAP
 Slug: what-should-be-done-about-the-pacer-problem
 Status: published

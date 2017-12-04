@@ -1,6 +1,6 @@
 Title: Board of Directors
 Date: 2015-06-29 11:04
-Author: mlissner
+Author: Michael Lissner
 Slug: team
 Status: published
 

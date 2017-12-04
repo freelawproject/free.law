@@ -1,5 +1,5 @@
 Title: Roundup of House Judiciary Committee's PACER Review  
-Author: mlissner
+Author: Michael Lissner
 Date: 2017-02-14
 Tags: pacer, recap, Thomas Bruce, Jonathan Zittrain, House Judiciary Committee
 

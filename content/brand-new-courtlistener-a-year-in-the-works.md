@@ -1,5 +1,5 @@
 Title: Many Improvements Released in New CourtListener Version
-Author: mlissner
+Author: Michael Lissner
 Date: 2016-01-30 17:00:00
 Tags: courtlistener, announcements
 

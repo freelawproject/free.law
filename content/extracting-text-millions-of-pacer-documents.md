@@ -1,5 +1,5 @@
 Title: Extracting Text from Our Collection of PACER Documents
-Author: mlissner
+Author: Michael Lissner
 Date: 2016-09-26
 Tags: ocr, pacer
 

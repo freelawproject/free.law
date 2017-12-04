@@ -1,5 +1,5 @@
 Title: More Details on the PACER Vulnerability We Shared with the Administrative Office of the Courts
-Author: mlissner
+Author: Michael Lissner
 Date: 2017-08-09
 Tags: Security, PACER, ECF, Vulnerability, Administrative Office of the Courts
 

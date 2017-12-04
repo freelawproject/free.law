@@ -1,5 +1,5 @@
 Title: Free Law Project Re-Launches RECAP Archive, a New Search Tool for PACER Dockets and Documents
-Author: mlissner
+Author: Michael Lissner
 Date: 2016-11-22
 Tags: RECAP Archive, PACER, archive, search, roadmap, privacy
 

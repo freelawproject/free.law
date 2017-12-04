@@ -1,5 +1,5 @@
 Title: CourtListener Podcasts Now on Google Play
-Author: mlissner
+Author: Michael Lissner
 Date: 2016-04-21
 Tags: announcements, Oral Arguments, podcasts
 

@@ -1,6 +1,6 @@
 Title: A few small API changes
 Date: 2013-06-19 14:04
-Author: mlissner
+Author: Michael Lissner
 Tags: API, Bulk Data, XPath
 Slug: a-few-small-api-changes
 Status: published

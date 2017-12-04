@@ -1,5 +1,5 @@
 Title: More Information about our Judicial Database and Some Responses to Feedback
-Author: mlissner
+Author: Michael Lissner
 Date: 2016-05-12
 Tags: judge database, judges, api, courtlistener
 

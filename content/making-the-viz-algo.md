@@ -1,5 +1,5 @@
 Title: Notes and Sketches from Making SCOTUS Network Visualizations
-Author: mlissner
+Author: Michael Lissner
 Date: 2016-05-02
 Tags: design, visualization, algorithms
 

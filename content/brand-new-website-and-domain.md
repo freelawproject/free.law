@@ -1,6 +1,6 @@
 Title: Launching Free.law Website
 Subtitle: Free Law Project got a new home!
-Author: mlissner
+Author: Michael Lissner
 Date: 2016-01-30
 Tags: announcements
 

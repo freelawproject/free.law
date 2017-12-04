@@ -1,6 +1,6 @@
 Title: Research Papers
 Date: 2014-11-13 16:44
-Author: mlissner
+Author: Michael Lissner
 Slug: research-papers
 Status: published
 

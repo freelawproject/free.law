@@ -1,6 +1,6 @@
 Title: Site refresh and new features now live!
 Date: 2011-07-06 13:44
-Author: mlissner
+Author: Michael Lissner
 Tags: Announcements, Design, Favorites
 Slug: site-refresh-and-new-features-now-live
 Status: published

@@ -1,6 +1,6 @@
 Title: Press Coverage
 Date: 2013-11-25 09:35
-Author: brianwc
+Author: Brian Carver
 Slug: press-coverage
 Status: published
 

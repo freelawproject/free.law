@@ -1,6 +1,6 @@
 Title: CourtListener Adds 7,000 More Oral Arguments
 Date: 2014-11-19 03:00
-Author: mlissner
+Author: Michael Lissner
 Tags: Announcements, Oral Arguments
 Slug: courtlistener-adds-7000-more-oral-arguments
 Status: published

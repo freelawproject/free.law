@@ -1,6 +1,6 @@
 Title:  Second Series of Federal Reporter from 1950 to 1993 now on CourtListener
 Date: 2011-08-25 13:47
-Author: mlissner
+Author: Michael Lissner
 Tags: bulk data, federal-reporter, announcements, API, Bulk Data, Coverage, Data Wrangling
 Status: published
 

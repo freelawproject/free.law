@@ -1,6 +1,6 @@
 Title: Free Law Project Assets and Logos
 Date: 2013-11-11 16:09
-Author: mlissner
+Author: Michael Lissner
 Slug: assets
 Status: published
 

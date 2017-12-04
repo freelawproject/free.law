@@ -1,5 +1,5 @@
 Title: CourtListener's SCOTUS Data Gets Even Better with Legacy Data from the Supreme Court Database
-Author: mlissner
+Author: Michael Lissner
 Date: 2016-09-06
 Tags: SCDB, CourtListener, Visualizations, Supreme Court Database
 
