@@ -1,6 +1,5 @@
 Title: Turning PACER Around
 Date: 2009-08-14 00:01
-Author: recapthelaw
 Tags: RECAP, PACER, Announcements
 Slug: welcome
 Status: published

@@ -1,6 +1,5 @@
 Title: Law Professors, Librarians, and Think Tankers Praise RECAP
 Date: 2009-08-17 11:47
-Author: recapthelaw
 Tags: RECAP, Press, praise
 Slug: law-professors-librarians-and-think-tankers-praise-recap
 Status: published

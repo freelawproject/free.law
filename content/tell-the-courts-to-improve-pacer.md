@@ -1,6 +1,5 @@
 Title: Tell The Courts to Improve PACER
 Date: 2009-08-19 09:42
-Author: recapthelaw
 Tags: PACER
 Slug: tell-the-courts-to-improve-pacer
 Status: published

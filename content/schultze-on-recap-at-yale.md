@@ -1,6 +1,5 @@
 Title: Schultze on RECAP at Yale
 Date: 2009-10-13 16:43
-Author: recapthelaw
 Tags: RECAP, Presentations
 Slug: schultze-on-recap-at-yale
 Status: published

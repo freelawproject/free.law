@@ -1,6 +1,5 @@
 Title: New PACER Fee Data, RECAP Appearances This Week
 Date: 2010-06-14 12:23
-Author: recapthelaw
 Tags: RECAP, PACER
 Slug: new-pacer-fee-data-recap-appearances-this-week
 Status: published

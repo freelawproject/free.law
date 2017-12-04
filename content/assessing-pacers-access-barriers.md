@@ -1,6 +1,5 @@
 Title: Assessing PACER's Access Barriers
 Date: 2010-08-17 15:54
-Author: recapthelaw
 Tags: Announcements, PACER
 Slug: assessing-pacers-access-barriers
 Status: published

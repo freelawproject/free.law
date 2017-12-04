@@ -1,6 +1,5 @@
 Title: RECAP Project -- Why It Matters
 Date: 2009-06-19 21:49
-Author: recapthelaw
 Status: published
 
 > The right of access to criminal trials in particular is properly

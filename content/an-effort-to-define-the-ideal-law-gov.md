@@ -1,6 +1,5 @@
 Title: An Effort to Define the Ideal "Law.gov"
 Date: 2009-10-16 12:06
-Author: recapthelaw
 Tags: Announcements, Law.gov
 Slug: an-effort-to-define-the-ideal-law-gov
 Status: published

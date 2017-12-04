@@ -1,6 +1,5 @@
 Title: RECAP Documents Now More Searchable Via Internet Archive
 Date: 2010-04-19 16:46
-Author: recapthelaw
 Tags: RECAP, Search, Privacy
 Slug: recap-documents-now-more-searchable-via-internet-archive
 Status: published

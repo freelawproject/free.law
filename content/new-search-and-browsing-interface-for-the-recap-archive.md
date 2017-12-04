@@ -1,6 +1,5 @@
 Title: New Search and Browsing Interface for the RECAP Archive
 Date: 2010-08-03 09:00
-Author: recapthelaw
 Tags: RECAP Archive, RECAP
 Slug: new-search-and-browsing-interface-for-the-recap-archive
 Status: published

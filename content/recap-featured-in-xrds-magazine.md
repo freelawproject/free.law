@@ -1,6 +1,5 @@
 Title: RECAP Featured in XRDS Magazine
 Date: 2012-01-10 19:57
-Author: recapthelaw
 Tags: RECAP, Press
 Slug: recap-featured-in-xrds-magazine
 Status: published

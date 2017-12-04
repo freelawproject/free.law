@@ -1,6 +1,5 @@
 Title: A Note on RECAP's Commitment to Privacy
 Date: 2009-08-20 15:07
-Author: recapthelaw
 Tags: Announcements, RECAP, Privacy
 Slug: a-note-on-recaps-commitment-to-privacy
 Status: published
