@@ -51,7 +51,7 @@ If the project is one that we also have on our roadmap, we can sometimes work to
 Getting started is very easy. Just [send us a brief email][c] with what you need. If it's something complicated, we'll arrange a call to talk. If not, we can often just start the work immediately. Many projects can be completed the same day they are requested.
 
 
-### Past Clients
+### Past Clients & Collaborators
 
 <div class="row">
     <div class="col-xs-3">
