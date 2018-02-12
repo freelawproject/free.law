@@ -3,10 +3,11 @@ Slug: recap
 
 <p class="lead">RECAP is an <a href="https://www.courtlistener.com/recap/">online archive</a> and free extension for <a href="https://addons.mozilla.org/en-US/firefox/addon/recap-195534/">Firefox</a> and <a href="https://chrome.google.com/webstore/detail/recap/oiillickanjlaeghobeeknbddaonmjnc">Chrome</a> that improves the experience of using PACER, the electronic public access system for the U.S. Federal District and Bankruptcy Courts.</p>
 
-The online archive contains millions of searchable PACER documents and can be used to do deep research within a case, a topic, or a jurisdiction. The archive also now includes [every free opinion on PACER][free].
+The archive contains the millions of contributions from our users, [every free opinion on PACER][free], and extensive content from [our data consulting projects][bulk]. It can be queried on CourtListener.com and is available via our APIs for journalists, researchers, or developers.
 
 <div class="text-center">
 <a href="https://www.courtlistener.com/recap/" class="btn btn-primary btn-lg">Visit the RECAP Archive</a>
+<a href="https://www.courtlistener.com/api/" class="btn btn-primary btn-lg">Read about the RECAP APIs</a>
 </div>
 <br>
 
@@ -56,3 +57,4 @@ We also have an API available for developers. For details, [get in touch][c].
 [privacy]: {filename}/pages/recap/privacy.md
 [c]: {filename}/pages/contact.md
 [free]: {filename}/we-have-all-free-pacer.md
+[bulk]: {filename}/pages/data-services.md
