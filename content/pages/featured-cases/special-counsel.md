@@ -23,6 +23,7 @@ As selected documents and full dockets from these and other cases brought by the
     * [United States v. Manafort, et al.](https://www.courtlistener.com/docket/6183591/united-states-v-manafort/) (D.D.C. 1:17-cr-00201) *Main case*
     * In re Grand Jury Investigation (D.D.C. 17-2336-BAH)
         * [Memorandum Opinion][opinion-gj-priv] about attorney–client privilege
+    * [Manafort v. U.S. Dept. of Justice](https://www.courtlistener.com/docket/6250827/manafort-v-u-s-department-of-justice/) (D.D.C. 1:18-cv-00011)
 * **Michael Flynn**
     * [United States v. Flynn](https://www.courtlistener.com/docket/6234142/united-states-v-flynn/) (D.D.C. 1:17-cr-00232)
         * [Information][flynn-information]
