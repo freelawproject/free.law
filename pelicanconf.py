@@ -20,7 +20,7 @@ AUTHOR_FEED_RSS = None
 FEED_MAX_ITEMS = 30
 
 TYPOGRIFY = True
-MD_EXTENSIONS = ([
+EXTENSIONS = ([
     'extra',
     'smarty',
     'footnotes',
