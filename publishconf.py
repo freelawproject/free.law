@@ -9,6 +9,9 @@ import sys
 # explicitly specify it as your config file.
 sys.path.append(os.curdir)
 
+# This line appears to do some magic. Remove it at your peril when you publish
+# the site live.
+
 #SITEURL = 'http://free.law.s3-website-us-east-1.amazonaws.com'
 SITEURL = 'https://free.law'
 RELATIVE_URLS = False
