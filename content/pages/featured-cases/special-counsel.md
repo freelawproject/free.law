@@ -27,6 +27,12 @@ As selected documents and full dockets from these and other cases brought by the
 * **Michael Flynn**
     * [United States v. Flynn](https://www.courtlistener.com/docket/6234142/united-states-v-flynn/) (D.D.C. 1:17-cr-00232)
         * [Information][flynn-information]
+* **Russian Election Interference**
+    * [U.S. v. Internet Research Agency, et al](https://www.courtlistener.com/docket/6307879/united-states-v-internet-research-agency-llc/) (D.D.C. 1:18-cr-00032)
+* **Richard Pinedo**
+    * [U.S. v. Richard Pinedo, et al](https://www.courtlistener.com/docket/6307917/united-states-v-pinedo/) (1:18-cr-24, District of Columbia)
+* **Alex Van der Zwaan**
+    * [United States v. Van der Zwaan](https://www.courtlistener.com/docket/6309895/united-states-v-van-der-zwaan/) (D.D.C 1:18-cr-00031)
 
 
 ## Updating Dockets
