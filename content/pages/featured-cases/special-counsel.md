@@ -8,6 +8,8 @@ On October 30, 2017, the first cases brought by Special Counsel Robert S. Muelle
 
 As selected documents and full dockets from these and other cases brought by the Special Counsel's Office become available in Free Law Project's [RECAP Archive][recap], we are linking them on this page.
 
+In many cases, the Special Counsel's Office posts documents on [their own web page](https://www.justice.gov/sco) before they are unsealed to the public, or in some instances filed in PACER. These RECAP links can only be as up-to-date as PACER.
+
 
 ## Cases
 
@@ -24,6 +26,7 @@ As selected documents and full dockets from these and other cases brought by the
     * In re Grand Jury Investigation (D.D.C. 17-2336-BAH)
         * [Memorandum Opinion][opinion-gj-priv] about attorney–client privilege
     * [Manafort v. U.S. Dept. of Justice](https://www.courtlistener.com/docket/6250827/manafort-v-u-s-department-of-justice/) (D.D.C. 1:18-cv-00011)
+    * SEALED (E.D.Va. 1:18-cr-00083) *Superseding indictment* handed up Feb. 22, 2018
 * **Michael Flynn**
     * [United States v. Flynn](https://www.courtlistener.com/docket/6234142/united-states-v-flynn/) (D.D.C. 1:17-cr-00232)
         * [Information][flynn-information]
