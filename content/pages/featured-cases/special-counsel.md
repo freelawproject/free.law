@@ -26,7 +26,7 @@ In many cases, the Special Counsel's Office posts documents on [their own web pa
     * In re Grand Jury Investigation (D.D.C. 17-2336-BAH)
         * [Memorandum Opinion][opinion-gj-priv] about attorney–client privilege
     * [Manafort v. U.S. Dept. of Justice](https://www.courtlistener.com/docket/6250827/manafort-v-u-s-department-of-justice/) (D.D.C. 1:18-cv-00011)
-    * SEALED (E.D.Va. 1:18-cr-00083) *Superseding indictment* handed up Feb. 22, 2018
+    * [United States v. Manafort, et al](https://www.courtlistener.com/docket/6314202/united-states-v-manafort/) (E.D.Va. 1:18-cr-00083) *Superseding indictment* handed up Feb. 22, 2018
 * **Michael Flynn**
     * [United States v. Flynn](https://www.courtlistener.com/docket/6234142/united-states-v-flynn/) (D.D.C. 1:17-cr-00232)
         * [Information][flynn-information]
