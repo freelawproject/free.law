@@ -36,7 +36,7 @@ There are a few ways to avoid PACER fees, as [described in the PACER fee schedul
 
 1. All PACER users are allowed $15 per calendar quarter before they are billed. However, once you hit $15.01 on your bill, you will be billed the entire amount.
 
-1. If you are a part of case, you're granted "One free look" at each document filed in that case.
+1. If you are a part of case, you're granted "One free look" at each document filed in that case. These expire after 15 days.
 
 1. No fee is charged if PACER is used at a courthouse public access terminal.
 
