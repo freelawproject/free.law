@@ -3,42 +3,64 @@ Slug: recap
 
 <p class="lead">RECAP is an <a href="https://www.courtlistener.com/recap/">online archive</a> and free extension for <a href="https://addons.mozilla.org/en-US/firefox/addon/recap-195534/">Firefox</a> and <a href="https://chrome.google.com/webstore/detail/recap/oiillickanjlaeghobeeknbddaonmjnc">Chrome</a> that improves the experience of using PACER, the electronic public access system for the U.S. Federal District and Bankruptcy Courts.</p>
 
-The archive contains the millions of contributions from our users, [every free opinion on PACER][free], and extensive content from [our data consulting projects][bulk]. It can be queried on CourtListener.com and is available via our APIs for journalists, researchers, or developers.
+If you use PACER, you should consider installing RECAP. Once installed, every docket or PDF you purchase on PACER will be added to the [RECAP Archive][archive]. Anything somebody else has added to the archive will be available to you for free — right in PACER itself. 
 
-<div class="text-center">
-<a href="https://www.courtlistener.com/recap/" class="btn btn-primary btn-lg">Visit the RECAP Archive</a>
-<a href="https://www.courtlistener.com/api/" class="btn btn-primary btn-lg">Read about the RECAP APIs</a>
-</div>
-<br>
+Tens of thousands of people have used RECAP. To join them, simply install it using the buttons below, and then use PACER as you normally would. It's that simple.
 
-The RECAP extensions are very simple to use and have no configuration. They:
-
- - Help you give back by contributing to a public archive.
- - Save you money by showing you when free documents are available in the archive.
- - Keep you organized by providing better file names to the files you download on PACER.
-
-Thousands of people have used RECAP, and together we have created <a href="https://www.courtlistener.com/recap/">an archive with millions of documents</a>.
-
-To use RECAP, simply install it and then use PACER as you normally would. It's that simple.
 
 <br>
 <div class="text-center">
-<a href="https://chrome.google.com/webstore/detail/recap/oiillickanjlaeghobeeknbddaonmjnc" class="btn btn-primary btn-lg">Add to Chrome&nbsp;<img src="{filename}/images/icons/chrome.svg" height="20" width="20"></a>
+<a href="https://chrome.google.com/webstore/detail/recap/oiillickanjlaeghobeeknbddaonmjnc" class="btn btn-primary btn-lg">Add to Chrome&nbsp;<img src="{filename}/images/icons/chrome.svg" height="20" width="20"></a>&nbsp;
 <a href="https://addons.mozilla.org/en-US/firefox/addon/recap-195534/" class="btn btn-primary btn-lg">Add to Firefox&nbsp;<img src="{filename}/images/icons/firefox.svg" height="20" width="20"></a>
 </div>
 <br>
 
+### What People are Saying
+
+<blockquote>
+  <p>Recap is an invaluable resource for journalists, activists - and really anyone who cares about law and justice in the United States. The work of the Free Law Project puts our courts within reach for everyone, and reinforces a pillar of democracy that is often overlooked. Everyone should support — and contribute — to this effort.</p>
+  <footer>Charles Duhigg, <cite>Pulitzer Prize winning journalist for New York Times</cite></footer>
+</blockquote>
+
+<blockquote>
+  <p>If you are a PACER user, I strongly encourage you to download RECAP.</p>
+  <footer>Todd Ito of the <cite><a href="http://www.guardian.co.uk/technology/2009/nov/11/recap-us-courtrooms">Chicago Association of Law Libraries</a></cite></footer>
+</blockquote>
+
+<blockquote>
+  <p>Citizens deserve open and easy access to all public court documents. Until public access becomes a matter of policy rather than blocked by PACER's artificial pay wall, independent efforts like RECAP continue to fill a critical gap in our ability to foster a more participatory and engaged democracy.</p>
+  <footer>Ari Schwartz, <cite><a href="https://cdt.org">Center for Democracy and Technology</a></cite></footer>
+</blockquote>
+
+<a href="/recap/quotes/" class="btn btn-primary">Read More Testimonials</a>
+
+
+### The Archives and APIs
+
+Thanks to our users and our data consulting projects, the [RECAP Archive][archive] contains tens of millions of PACER documents, including [every free opinion in PACER][free]. Everything in the archive is fully searchable, including millions of pages that were originally scanned PDFs.
+
+Everything that is in the RECAP Archive is also regularly uploaded to [the Internet Archive][ia-itself], where it has [a lasting home][ia]. This amounts to thousands of liberated documents daily.
+
+Finally, we make the RECAP Archive available via an API or as bulk data for journalists, researchers, startups, and developers.
+
+<div class="text-center">
+<a href="https://www.courtlistener.com/recap/" class="btn btn-primary btn-lg">Visit the RECAP Archive</a>&nbsp;
+<a href="https://www.courtlistener.com/api/" class="btn btn-primary btn-lg">Read about the RECAP APIs</a>
+</div>
+<br>
+
+
+## History
 
 <div class="right-image">
     <img src="{filename}/images/recap/citp-logo-initials.png"
          alt="CITP Logo"
          class="img-responsive">
-    <p class="caption">Center for Information Technology Policy at Princeton University is a partner in our work.</p>
 </div>
 
 RECAP is a joint project of the <a href="https://citp.princeton.edu/">Center for Information Technology Policy</a> at Princeton University and <a href="/">Free Law Project</a>. It is one of several projects that harness the power of the web to increase government transparency.</p>
 
-RECAP is led by Free Law Project co-founders [Brian Carver](http://www.ischool.berkeley.edu/people/faculty/briancarver) and [Michael Lissner](http://michaeljaylissner.com/). CITP Director [Ed Felten](http://www.cs.princeton.edu/~felten/) also provides guidance. RECAP was created by Harlan Yu, Steve Schultze, and Timothy B. Lee, based on the principles described in [Government Data and the Invisible Hand](http://papers.ssrn.com/sol3/papers.cfm?abstract_id=1138083).
+RECAP is led by Free Law Project co-founders [Brian Carver](http://www.ischool.berkeley.edu/people/faculty/briancarver) and [Michael Lissner](http://michaeljaylissner.com/). RECAP was created by Harlan Yu, Steve Schultze, and Timothy B. Lee, based on the principles described in [Government Data and the Invisible Hand](http://papers.ssrn.com/sol3/papers.cfm?abstract_id=1138083).
 
 ### For More Information, See&hellip;
 
@@ -48,7 +70,7 @@ RECAP is led by Free Law Project co-founders [Brian Carver](http://www.ischool.b
  - [What People are Saying About RECAP][say]
  - [The RECAP Privacy Policy][privacy]
 
-We also have an API available for developers. For details, [get in touch][c].
+We also have an API and bulk data available for developers. For details, [get in touch][c].
 
 [faq]: {filename}/pages/recap/faq.md
 [wim]: {filename}/why-it-matters.md
@@ -58,3 +80,6 @@ We also have an API available for developers. For details, [get in touch][c].
 [c]: {filename}/pages/contact.md
 [free]: {filename}/we-have-all-free-pacer.md
 [bulk]: {filename}/pages/data-services.md
+[archive]: https://www.courtlistener.com/recap/
+[ia]: https://archive.org/details/usfederalcourts&tab=about
+[ia-itself]: https://archive.org
