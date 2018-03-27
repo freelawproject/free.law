@@ -12,8 +12,8 @@ Tags: recap, recap archive, internet archive, pacer
         </p>
     </div>
     <div class="col-xs-12 col-sm-5 col-md-4 col-lg-3">
-        <a href="https://chrome.google.com/webstore/detail/recap/oiillickanjlaeghobeeknbddaonmjnc" class="btn btn-primary btn-lg btn-block">Add to Chrome&nbsp;<i class="fa fa-chrome"></i></a>
-        <a href="https://addons.mozilla.org/en-US/firefox/addon/recap-195534/" class="btn btn-primary btn-lg btn-block">Add to Firefox&nbsp;<i class="fa fa-firefox"></i></a>
+        <a href="https://chrome.google.com/webstore/detail/recap/oiillickanjlaeghobeeknbddaonmjnc" class="btn btn-primary btn-lg btn-block">Add to Chrome&nbsp;<img src="{filename}/images/icons/chrome.svg" height="20" width="20"></a>
+        <a href="https://addons.mozilla.org/en-US/firefox/addon/recap-195534/" class="btn btn-primary btn-lg btn-block">Add to Firefox&nbsp;<img src="{filename}/images/icons/firefox.svg" height="20" width="20"></a>
     </div>
 </div> 
 

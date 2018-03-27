@@ -23,8 +23,8 @@ To use RECAP, simply install it and then use PACER as you normally would. It's t
 
 <br>
 <div class="text-center">
-<a href="https://chrome.google.com/webstore/detail/recap/oiillickanjlaeghobeeknbddaonmjnc" class="btn btn-primary btn-lg">Add to Chrome&nbsp;<i class="fa fa-chrome"></i></a>
-<a href="https://addons.mozilla.org/en-US/firefox/addon/recap-195534/" class="btn btn-primary btn-lg">Add to Firefox&nbsp;<i class="fa fa-firefox"></i></a>
+<a href="https://chrome.google.com/webstore/detail/recap/oiillickanjlaeghobeeknbddaonmjnc" class="btn btn-primary btn-lg">Add to Chrome&nbsp;<img src="{filename}/images/icons/chrome.svg" height="20" width="20"></a>
+<a href="https://addons.mozilla.org/en-US/firefox/addon/recap-195534/" class="btn btn-primary btn-lg">Add to Firefox&nbsp;<img src="{filename}/images/icons/firefox.svg" height="20" width="20"></a>
 </div>
 <br>
 
