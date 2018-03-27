@@ -6,15 +6,15 @@ Slug: featured-cases/special-counsel/
 
 On October 30, 2017, the first cases brought by Special Counsel Robert S. Mueller, III were unsealed. The U.S. District Court for the District of Columbia unsealed an indictment against Paul Manafort and Richard Gates, as well as the full docket of a second case against George Papadopoulos, in which the defendant had already pled guilty. The court also unsealed an opinion in a third case, which discussed the attorney–client privilege. The full Manafort docket was unsealed the next day.
 
-As selected documents and full dockets from these and other cases brought by the Special Counsel's Office become available in Free Law Project's [RECAP Archive][recap], we are linking them on this page.
+As selected documents and full dockets from these and other cases brought by the Special Counsel's Office become available in Free Law Project's [RECAP Archive][recap], we are linking to them on this page.
 
-In many cases, the Special Counsel's Office posts documents on [their own web page](https://www.justice.gov/sco) before they are unsealed to the public, or in some instances filed in PACER. These RECAP links can only be as up-to-date as PACER.
+In many cases, the Special Counsel's Office posts documents on [their own web page](https://www.justice.gov/sco) before they are unsealed to the public, or in some instances filed in PACER; the RECAP links below are only as up-to-date as PACER. When the D.C. District unseals materials in an otherwise sealed case, it posts them at on its [Unsealed Opinions in Sealed Cases](http://www.dcd.uscourts.gov/unsealed-opinions-sealed-cases) or [Unsealed Documents in Sealed Cases](http://www.dcd.uscourts.gov/unsealed-documents-in-sealed-cases) webpages (not in PACER); we have mirrored or linked to some such documents here.
 
 
 ## Cases
 
 * **George Papadopoulos**
-    * [United States v. Papadopoulos](https://www.courtlistener.com/docket/6182316/united-states-v-papadopoulos/) (D.D.C. 1:17-cr-00182) *Main case*
+    * [United States v. Papadopoulos](https://www.courtlistener.com/docket/6182316/united-states-v-papadopoulos/) (D.D.C. 1:17-cr-00182-RDM) *Main case*
         * [Plea Agreement][papadopoulos-plea]
         * [Statement of the Offense][papadopoulos-statement]
     * [United States v. John Doe](https://www.courtlistener.com/docket/6182412/united-states-v-john-doe/) (D.D.C. 1:17-mc-02484-RDM)
@@ -22,21 +22,24 @@ In many cases, the Special Counsel's Office posts documents on [their own web pa
     * [United States v. Papadopoulos](https://www.courtlistener.com/docket/6182339/united-states-v-papadopoulos/) (D.D.C. 1:17-mj-00539-BAH)
     * [United States v. Papadopoulos](https://www.courtlistener.com/docket/6184401/united-states-v-papadopoulos/) (E.D.Va. 1:17-mj-00358-TCB) *Arrest*
 * **Paul Manafort and Richard Gates**
-    * [United States v. Manafort, et al.](https://www.courtlistener.com/docket/6183591/united-states-v-manafort/) (D.D.C. 1:17-cr-00201) *Main case*
-    * In re Grand Jury Investigation (D.D.C. 17-2336-BAH)
+    * [United States v. Manafort, et al.](https://www.courtlistener.com/docket/6183591/united-states-v-manafort/) (D.D.C. 1:17-cr-00201-ABJ) *Main case*
+    * In re Grand Jury Investigation [SEALED v. SEALED] (D.D.C. 1:17-mc-2336-BAH)
         * [Memorandum Opinion][opinion-gj-priv] about attorney–client privilege
-    * [Manafort v. U.S. Dept. of Justice](https://www.courtlistener.com/docket/6250827/manafort-v-u-s-department-of-justice/) (D.D.C. 1:18-cv-00011)
-    * [United States v. Manafort, et al](https://www.courtlistener.com/docket/6314202/united-states-v-manafort/) (E.D.Va. 1:18-cr-00083) *Superseding indictment* handed up Feb. 22, 2018
+    * [Manafort v. U.S. Dept. of Justice](https://www.courtlistener.com/docket/6250827/manafort-v-u-s-department-of-justice/) (D.D.C. 1:18-cv-00011-ABJ)
+    * [United States v. Manafort, et al](https://www.courtlistener.com/docket/6314202/united-states-v-manafort/) (E.D.Va. 1:18-cr-00083-TSE) *"Superseding" indictment* handed up Feb. 22, 2018
 * **Michael Flynn**
-    * [United States v. Flynn](https://www.courtlistener.com/docket/6234142/united-states-v-flynn/) (D.D.C. 1:17-cr-00232)
+    * [United States v. Flynn](https://www.courtlistener.com/docket/6234142/united-states-v-flynn/) (D.D.C. 1:17-cr-00232-EGS)
         * [Information][flynn-information]
 * **Russian Election Interference**
-    * [U.S. v. Internet Research Agency, et al](https://www.courtlistener.com/docket/6307879/united-states-v-internet-research-agency-llc/) (D.D.C. 1:18-cr-00032)
+    * [U.S. v. Internet Research Agency, et al](https://www.courtlistener.com/docket/6307879/united-states-v-internet-research-agency-llc/) (D.D.C. 1:18-cr-00032-DLF)
 * **Richard Pinedo**
-    * [U.S. v. Richard Pinedo, et al](https://www.courtlistener.com/docket/6307917/united-states-v-pinedo/) (1:18-cr-24, District of Columbia)
+    * [U.S. v. Richard Pinedo, et al](https://www.courtlistener.com/docket/6307917/united-states-v-pinedo/) (1:18-cr-00024-DLF, District of Columbia)
 * **Alex Van der Zwaan**
-    * [United States v. Van der Zwaan](https://www.courtlistener.com/docket/6309895/united-states-v-van-der-zwaan/) (D.D.C 1:18-cr-00031)
-
+    * [United States v. Van der Zwaan](https://www.courtlistener.com/docket/6309895/united-states-v-van-der-zwaan/) (D.D.C 1:18-cr-00031-ABJ)
+* Virginia real-estate brokers' subpoenas
+    * (*It is unclear if this is part of the Special Counsel's investigation, and if it might relate to Manafort or Gates*).
+    * In re Grand Jury Investigation [SEALED v. SEALED] (D.D.C 1:17-mc-2587-BAH)
+        * [Opinion denying motion to quash](http://www.dcd.uscourts.gov/sites/dcd/files/17-mc-2587-10272017.pdf)
 
 ## Updating Dockets
 
