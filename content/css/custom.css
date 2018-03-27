@@ -76,3 +76,41 @@ a.anchor, a.anchor:focus, a.anchor:hover {
     text-decoration: none;
     border-bottom: 0;
 }
+
+/* Tweaks for various screens */
+@media screen and (max-width: 767px) {
+    #banner {
+        display: none;
+    }
+}
+@media (min-width: 768px) {
+    #banner {
+        padding: 40px 0;
+    }
+    #banner .copy {
+        padding: 10px;
+    }
+    #banner .intro {
+        font-size: 19px;
+        padding: 0;
+    }
+}
+@media (min-width: 992px) {
+    #banner {
+        padding: 45px;
+    }
+    #banner .copy {
+        padding: 15px;
+    }
+    #banner .intro {
+        font-size: 20px;
+    }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+    .nav > li > a {
+        /* In sm size, make more room for links in the nav so they don't
+        overflow. */
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+}
