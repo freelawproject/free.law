@@ -32,8 +32,8 @@ Tens of thousands of people have used RECAP. To join them, simply install it usi
   <footer>Ari Schwartz, <cite><a href="https://cdt.org">Center for Democracy and Technology</a></cite></footer>
 </blockquote>
 
-<a href="/recap/quotes/" class="btn btn-primary">Read More Testimonials</a>
-
+<p class="text-center"><a href="/recap/quotes/" class="btn btn-primary btn-lg">Read More Testimonials</a></p>
+<br>
 
 ### The Archives and APIs
 
