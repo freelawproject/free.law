@@ -3,17 +3,40 @@ Slug: recap
 
 <p class="lead">RECAP is an <a href="https://www.courtlistener.com/recap/">online archive</a> and free extension for <a href="https://addons.mozilla.org/en-US/firefox/addon/recap-195534/">Firefox</a> and <a href="https://chrome.google.com/webstore/detail/recap/oiillickanjlaeghobeeknbddaonmjnc">Chrome</a> that improves the experience of using PACER, the electronic public access system for the U.S. Federal District and Bankruptcy Courts.</p>
 
+<div class="text-center">
+<a href="https://chrome.google.com/webstore/detail/recap/oiillickanjlaeghobeeknbddaonmjnc" 
+   class="btn btn-primary btn-lg"
+   id="chrome-button">Add to Chrome&nbsp;<img src="{filename}/images/icons/chrome.svg" height="35" width="35"></a>&nbsp;
+<a href="https://addons.mozilla.org/en-US/firefox/addon/recap-195534/" 
+   class="btn btn-primary btn-lg"
+   id="firefox-button">Add to Firefox&nbsp;<img src="{filename}/images/icons/firefox.svg" height="35" width="35"></a>
+</div>
+<br>
+
+<script type="text/javascript">
+document.addEventListener("DOMContentLoaded", function(event) { 
+  let isOpera = (!!window.opr && !!opr.addons) || !!window.opera || navigator.userAgent.indexOf(' OPR/') >= 0;
+  let isFirefox = typeof InstallTrigger !== 'undefined';
+  let isSafari = /constructor/i.test(window.HTMLElement) || (function (p) { return p.toString() === "[object SafariRemoteNotification]"; })(!window['safari'] || (typeof safari !== 'undefined' && safari.pushNotification));
+  let isIE = /*@cc_on!@*/false || !!document.documentMode;
+  let isEdge = !isIE && !!window.StyleMedia;
+  let isChrome = !!window.chrome && !!window.chrome.webstore;
+  
+  // Will need updating if we add more buttons
+  if (isChrome) {
+    $("#firefox-button").hide();
+  } else if (isFirefox) {
+    $("#chrome-button").hide();
+  }
+});
+</script>
+
 If you use PACER, you should consider installing RECAP. Once installed, every docket or PDF you purchase on PACER will be added to the [RECAP Archive][archive]. Anything somebody else has added to the archive will be available to you for free — right in PACER itself. 
 
 Tens of thousands of people have used RECAP. To join them, simply install it using the buttons below, and then use PACER as you normally would. It's that simple.
 
 
-<br>
-<div class="text-center">
-<a href="https://chrome.google.com/webstore/detail/recap/oiillickanjlaeghobeeknbddaonmjnc" class="btn btn-primary btn-lg">Add to Chrome&nbsp;<img src="{filename}/images/icons/chrome.svg" height="20" width="20"></a>&nbsp;
-<a href="https://addons.mozilla.org/en-US/firefox/addon/recap-195534/" class="btn btn-primary btn-lg">Add to Firefox&nbsp;<img src="{filename}/images/icons/firefox.svg" height="20" width="20"></a>
-</div>
-<br>
+
 
 ### What People are Saying
 
