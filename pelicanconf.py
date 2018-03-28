@@ -100,7 +100,7 @@ BOOTSTRAP_THEME = 'flatly'
 
 BANNER = 'images/scotus.jpeg'
 BANNER_SUBTITLE = 'Providing free access to primary legal materials, developing legal research tools, and supporting academic research on legal corpora.'
-BANNER_ALL_PAGES = True
+BANNER_ALL_PAGES = False
 CUSTOM_CSS = 'css/custom.css'
 
 # We don't want anything on the menu because we write our own instead (see
