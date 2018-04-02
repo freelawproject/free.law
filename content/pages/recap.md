@@ -31,9 +31,9 @@ document.addEventListener("DOMContentLoaded", function(event) {
 });
 </script>
 
-If you use PACER, you should consider installing RECAP. Once installed, every docket or PDF you purchase on PACER will be added to the [RECAP Archive][archive]. Anything somebody else has added to the archive will be available to you for free — right in PACER itself. 
+If you use PACER, install RECAP. Once installed, every docket or PDF you purchase on PACER will be added to the [RECAP Archive][archive]. Anything somebody else has added to the archive will be available to you for free — right in PACER itself. 
 
-Tens of thousands of people have used RECAP. To join them, simply install it using the buttons below, and then use PACER as you normally would. It's that simple.
+Tens of thousands of people have used RECAP. To join them, simply install it using the button above, and then use PACER as you normally would. It's that simple.
 
 
 
