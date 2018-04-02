@@ -68,6 +68,11 @@ p.caption {
     padding-top: 10px;
 }
 
+.entry-title .caps {
+    /* disable small caps on titles */
+    font-size: inherit;
+}
+
 .bg-danger {
     background-color: #f2dede;
 }
