@@ -55,6 +55,13 @@ Getting started is very easy. Just [send us a brief email][c] with what you need
 
 <div class="row">
     <div class="col-xs-3">
+        <a href="https://sociology.fas.harvard.edu/" rel="nofollow">
+            <img src="{filename}/images/logos/harvard-sociology-logo.png"
+                 alt="Harvard logo"
+                 class="img-responsive border">
+        </a>
+    </div>
+    <div class="col-xs-3">
         <a href="https://empiricalscotus.com/" rel="nofollow">
             <img src="{filename}/images/services-logos/empirical-scotus.png"
                  alt="Empirical Scotus Logo"
