@@ -36,11 +36,11 @@ In many cases, the Special Counsel's Office posts documents on [their own web pa
     * [U.S. v. Richard Pinedo, et al](https://www.courtlistener.com/docket/6307917/united-states-v-pinedo/) (1:18-cr-00024-DLF, District of Columbia)
 * **Alex Van der Zwaan**
     * [United States v. Van der Zwaan](https://www.courtlistener.com/docket/6309895/united-states-v-van-der-zwaan/) (D.D.C 1:18-cr-00031-ABJ)
-* Virginia real-estate brokers' subpoenas
+* **Virginia real-estate brokers' subpoenas**
     * (*It is unclear if this is part of the Special Counsel's investigation, and if it might relate to Manafort or Gates*).
     * In re Grand Jury Investigation [SEALED v. SEALED] (D.D.C 1:17-mc-2587-BAH)
         * [Opinion denying motion to quash](http://www.dcd.uscourts.gov/sites/dcd/files/17-mc-2587-10272017.pdf)
-* Michael Cohen
+* **Michael Cohen**
     * [In the Matter of Search Warrants Executed on April 9, 2018](https://www.courtlistener.com/docket/6362926/in-the-matter-of-search-warrants-executed-on-april-9-2018/) (S.D.N.Y. 1:18-mj-03161)
     
 
