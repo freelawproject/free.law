@@ -40,6 +40,9 @@ In many cases, the Special Counsel's Office posts documents on [their own web pa
     * (*It is unclear if this is part of the Special Counsel's investigation, and if it might relate to Manafort or Gates*).
     * In re Grand Jury Investigation [SEALED v. SEALED] (D.D.C 1:17-mc-2587-BAH)
         * [Opinion denying motion to quash](http://www.dcd.uscourts.gov/sites/dcd/files/17-mc-2587-10272017.pdf)
+* Michael Cohen
+    * [In the Matter of Search Warrants Executed on April 9, 2018](https://www.courtlistener.com/docket/6362926/in-the-matter-of-search-warrants-executed-on-april-9-2018/) (S.D.N.Y. 1:18-mj-03161)
+    
 
 ## Updating Dockets
 
