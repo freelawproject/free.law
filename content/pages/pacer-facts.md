@@ -136,7 +136,7 @@ Contrary to popular wisdom, PACER *does* have something resembling an API for so
  
  - There is also documentation from 2005 [about "bulk data" files here][bulk] (PACER does *not* actually have bulk data).
  
- - The FJC manages an "[Integrated Database][idb]" which has extensive documentation about PACER fields and data.
+ - The FJC manages an "[Integrated Database][idb]" which has extensive documentation about PACER fields and data. We have [our own cheat sheet for the IDB as well][idb-facts].
  
  - Finally, we have created [an open source system for crawling PACER][js].
 
@@ -196,3 +196,4 @@ Included in that information is the "Go Live Date" for each jurisdiction, but so
 [sched]: https://www.pacer.gov/documents/epa_feesched.pdf
 [redist]: https://www.courtlistener.com/docket/6155087/3/in-re-application-for-exemption-from-the-electronic-public-access-fees/
 [waivers]: https://www.courtlistener.com/?q=pacer+AND+(%22fee+waiver%22+OR+%22fee+exemption%22)&type=r&order_by=score+desc#
+[idb-facts]: {filename}/pages/idb-facts.md
