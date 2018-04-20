@@ -31,11 +31,13 @@ document.addEventListener("DOMContentLoaded", function(event) {
 });
 </script>
 
-If you use PACER, install RECAP. Once installed, every docket or PDF you purchase on PACER will be added to the [RECAP Archive][archive]. Anything somebody else has added to the archive will be available to you for free — right in PACER itself. 
+If you use PACER, install RECAP. Once installed, every docket or PDF you purchase on PACER will be added to the [RECAP Archive][archive]. Anything somebody else has added to the archive will be available to you for free — right in PACER itself.
 
 Tens of thousands of people have used RECAP. To join them, simply install it using the button above, and then use PACER as you normally would. It's that simple.
 
-
+<div class="text-center">
+  <a href="/recap/screenshots/" class="btn btn-primary btn-lg">View Screenshots</a>
+</div>
 
 
 ### What People are Saying
@@ -81,13 +83,14 @@ Finally, we make the RECAP Archive available via an API or as bulk data for jour
          class="img-responsive">
 </div>
 
-RECAP is a joint project of the <a href="https://citp.princeton.edu/">Center for Information Technology Policy</a> at Princeton University and <a href="/">Free Law Project</a>. It is one of several projects that harness the power of the web to increase government transparency.</p>
+RECAP is a joint project of the [Center for Information Technology Policy][citp] at Princeton University and Free Law Project. It is one of several projects that harness the power of the web to increase government transparency.</p>
 
 RECAP is led by Free Law Project co-founders [Brian Carver](http://www.ischool.berkeley.edu/people/faculty/briancarver) and [Michael Lissner](http://michaeljaylissner.com/). RECAP was created by Harlan Yu, Steve Schultze, and Timothy B. Lee, based on the principles described in [Government Data and the Invisible Hand](http://papers.ssrn.com/sol3/papers.cfm?abstract_id=1138083).
 
 ### For More Information, See&hellip;
 
  - [The Frequently Asked Questions][faq]
+ - [Facts about PACER][pacer-faq]
  - [Why It Matters][wim]
  - [Details about RECAP's features][f]
  - [What People are Saying About RECAP][say]
@@ -96,6 +99,7 @@ RECAP is led by Free Law Project co-founders [Brian Carver](http://www.ischool.b
 We also have an API and bulk data available for developers. For details, [get in touch][c].
 
 [faq]: {filename}/pages/recap/faq.md
+[pacer-faq]: {filename}/pages/pacer-facts.md
 [wim]: {filename}/why-it-matters.md
 [f]: {filename}/pages/recap/features.md
 [say]: {filename}/pages/recap/what-people-are-saying.md
@@ -106,3 +110,4 @@ We also have an API and bulk data available for developers. For details, [get in
 [archive]: https://www.courtlistener.com/recap/
 [ia]: https://archive.org/details/usfederalcourts&tab=about
 [ia-itself]: https://archive.org
+[citp]: https://citp.princeton.edu/
