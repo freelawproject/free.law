@@ -49,7 +49,7 @@ public records they already have into our archive.
 The video at the right provides a quick demonstration of RECAP in
 action. Our [about]({filename}/pages/recap/faq.md) page answers
 some common questions about RECAP. If you're convinced that you'd like
-to be a RECAP beta tester, please check out our [privacy
-policy]({filename}/pages/recap/privacy.md) and then head to [our homepage][{filename}/pages/recap.md] to get
+to be a RECAP beta tester, please check out our privacy
+policy and then head to [our homepage][{filename}/pages/recap.md] to get
 started. With your help, we can make the dream of free public access to
 court records a reality.
