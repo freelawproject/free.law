@@ -74,3 +74,4 @@ Note: You may also wish to review our [Copyright Infringement Policy]({filename}
 [cl-tos]: https://www.courtlistener.com/terms/
 [cl-pp]: https://www.courtlistener.com/terms/#privacy
 [copyright]: https://www.courtlistener.com/terms/#copyright
+[citp]: https://citp.princeton.edu

@@ -36,7 +36,7 @@ If you use PACER, install RECAP. Once installed, every docket or PDF you purchas
 Tens of thousands of people have used RECAP. To join them, simply install it using the button above, and then use PACER as you normally would. It's that simple.
 
 <div class="text-center">
-  <a href="/recap/screenshots/" class="btn btn-primary btn-lg">View Screenshots</a>
+  <a href="/recap/screenshots/" class="btn btn-primary btn-lg">See How It Works</a>
 </div>
 
 
@@ -62,7 +62,7 @@ Tens of thousands of people have used RECAP. To join them, simply install it usi
 
 ### The Archives and APIs
 
-Thanks to our users and our data consulting projects, the [RECAP Archive][archive] contains tens of millions of PACER documents, including [every free opinion in PACER][free]. Everything in the archive is fully searchable, including millions of pages that were originally scanned PDFs.
+Thanks to our users and our [data consulting projects][data], the [RECAP Archive][archive] contains tens of millions of PACER documents, including [every free opinion in PACER][free]. Everything in the archive is fully searchable, including millions of pages that were originally scanned PDFs.
 
 Everything that is in the RECAP Archive is also regularly uploaded to [the Internet Archive][ia-itself], where it has [a lasting home][ia]. This amounts to thousands of liberated documents daily.
 
@@ -83,9 +83,9 @@ Finally, we make the RECAP Archive available via an API or as bulk data for jour
          class="img-responsive">
 </div>
 
-RECAP is a joint project of the [Center for Information Technology Policy][citp] at Princeton University and Free Law Project. It is one of several projects that harness the power of the web to increase government transparency.</p>
+RECAP is a joint project of the [Center for Information Technology Policy][citp] at Princeton University and Free Law Project. It is one of several projects that harness the power of the web to increase government transparency.
 
-RECAP is led by Free Law Project co-founders [Brian Carver](http://www.ischool.berkeley.edu/people/faculty/briancarver) and [Michael Lissner](http://michaeljaylissner.com/). RECAP was created by Harlan Yu, Steve Schultze, and Timothy B. Lee, based on the principles described in [Government Data and the Invisible Hand](http://papers.ssrn.com/sol3/papers.cfm?abstract_id=1138083).
+RECAP is led by Free Law Project co-founders [Brian Carver][bcarver] and [Michael Lissner][ml]. RECAP was created by Harlan Yu, Steve Schultze, Timothy B. Lee, and [Ka-Ping Yee][yee] based on the principles described in [Government Data and the Invisible Hand][hand].
 
 ### For More Information, See&hellip;
 
@@ -111,3 +111,8 @@ We also have an API and bulk data available for developers. For details, [get in
 [ia]: https://archive.org/details/usfederalcourts&tab=about
 [ia-itself]: https://archive.org
 [citp]: https://citp.princeton.edu/
+[yee]: http://zesty.ca/
+[bcarver]: http://www.ischool.berkeley.edu/people/faculty/briancarver
+[ml]: http://michaeljaylissner.com/
+[hand]: http://papers.ssrn.com/sol3/papers.cfm?abstract_id=1138083
+[data]: {filename}/pages/data-services.md

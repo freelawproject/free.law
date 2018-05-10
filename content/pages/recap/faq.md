@@ -15,7 +15,7 @@ cases. You can learn more about PACER in our [PACER FAQ][faq].
 No. RECAP only becomes active when you are accessing PACER and deactivates when you're browsing non-PACER websites. Therefore, non-PACER users won't benefit from installing RECAP — it simply won't do anything.
 
 ### Will installing RECAP affect my use of other websites?
-No. RECAP only works on PACER-related sites.
+No. RECAP only works on PACER-related sites. When you install RECAP, you'll see that it only has access to uscourts.gov and CourtListener.com.
 
 ### Will RECAP interfere with my use of PACER?
 RECAP is designed to improve your PACER experience without getting in your way. To use RECAP, log into PACER and use PACER as you normally do. As you use PACER, you'll see small RECAP icons and other notifications about free versions of PACER content. Click these icons and links to get PACER content for free. 
@@ -24,7 +24,7 @@ RECAP is designed to improve your PACER experience without getting in your way. 
 
 
 ### Can the judiciary tell that I'm a RECAP user?
-We don't think so, no, and we have no reason to believe they've ever tried. From the PACER's perspective, a user with RECAP installed behaves exactly like any other user. The only difference is that the RECAP extension simultaneously communicates with the RECAP web server, uploading purchased documents and checking for documents available for free download. 
+We don't think so, no, and we have no reason to believe they've ever tried. From PACER's perspective, a user with RECAP installed behaves exactly like any other user. The only difference is that the RECAP extension simultaneously communicates with the RECAP web site, uploading purchased documents and checking for documents available for free download. 
 
 When a document is available for download, RECAP puts a small, distinctive icon next to the official PACER link. That means users always have a choice between downloading the free RECAP version (if one is available) or paying for the PACER version.
 
@@ -46,7 +46,7 @@ Yes, in two ways. First, in the RECAP preferences, there is an option to disable
 Second, if you wish to disable RECAP completely, you can do so via Chrome or Firefox's extension settings.
 
 ### What browsers are supported? Why?
-We currently support Firefox and Chrome, with an experimental version for Opera users. We would love to also add support for Safari and IE Edge, but we need a maintainer that is willing to help with these platforms when new versions are released. If that might be you, [send us a message][c]!
+We currently support Firefox and Chrome, with an experimental version for Opera. We would love to also add support for Safari and IE Edge, but we need a maintainer that is willing to help with these platforms when new versions are released. If that might be you, [send us a message][c]!
 
 ### How do I report a bug or make a feature suggestion?
 You can report bugs [on our bug tracker][bugs] or by [sending us an email][c] — whatever is comfortable for you.
@@ -57,14 +57,13 @@ You can report bugs [on our bug tracker][bugs] or by [sending us an email][c] �
 ## RECAP and PACER
 
 ### Is RECAP affiliated with PACER?
-RECAP is an independent joint project of the [Center for Information Technology Policy][citp] at Princeton University and Free Law Project. The project is in
-not affiliated with or endorsed by the PACER system or the United States
+RECAP is an independent joint project of the [Center for Information Technology Policy][citp] at Princeton University and Free Law Project. The project is not affiliated with or endorsed by the PACER system or the United States
 judiciary. 
 
 ### How do I know that the documents provided by RECAP are genuine?
 Unfortunately, you don't. We rely on RECAP users to donate documents to the repository. If the courts used a technology called [digital signatures][sigs], we would be able to independently verify the authenticity of documents submitted to us by users. But so far the courts have not done this, so we have no foolproof way to detect forgeries.
 
-That said, RECAP has been running since 2009 without any known forgeries.  We believe that all the documents currently in RECAP are genuine, and we're going to do our best to keep it that way. But we can't guarantee that vandalism or technical glitches won't cause problems in the future. So if you need a guarantee that a document is genuine, we recommend you pay for the PACER version. And if you spot a problem with a RECAP document, [please report it to us][c].
+That said, RECAP has been running since 2009 without any known forgeries.  We believe that all the documents currently in RECAP are genuine, and we do our best to keep it that way. But we can't guarantee that vandalism or technical glitches won't cause problems in the future. So if you need a guarantee that a document is genuine, we recommend you pay for the PACER version. And if you spot a problem with a RECAP document, [please report it to us][c].
 
 <hr>
 ## Privacy and Security
