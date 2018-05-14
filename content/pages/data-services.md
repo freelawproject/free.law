@@ -55,32 +55,50 @@ Getting started is very easy. Just [send us a brief email][c] with what you need
 
 <div class="row">
     <div class="col-xs-3">
-        <a href="https://sociology.fas.harvard.edu/" rel="nofollow">
+        <p><a href="https://sociology.fas.harvard.edu/" rel="nofollow"
+           target="_blank">
             <img src="{filename}/images/logos/harvard-sociology-logo.png"
                  alt="Harvard logo"
                  class="img-responsive border">
-        </a>
+        </a></p>
     </div>
     <div class="col-xs-3">
-        <a href="https://empiricalscotus.com/" rel="nofollow">
-            <img src="{filename}/images/services-logos/empirical-scotus.png"
-                 alt="Empirical Scotus Logo"
-                 class="img-responsive border">
-        </a>
-    </div>
-    <div class="col-xs-3">
-        <a href="{filename}/dol-grant.md" rel="nofollow">
+        <p><a href="{filename}/dol-grant.md" rel="nofollow"
+           target="_blank">
             <img src="{filename}/images/gsu.png"
                  alt="J. Mack Robinson School of Business at Georgia State University logo"
                  class="img-responsive border">
-        </a>
+        </a></p>
     </div>
     <div class="col-xs-3">
-        <a href="https://komply.co" rel="nofollow">
-            <img src="{filename}/images/komply.png"
-                 alt="Komply Logo"
+        <p>
+            <a href="https://komply.co" rel="nofollow"
+               target="_blank">
+                <img src="{filename}/images/komply.png"
+                     alt="Komply Logo"
+                     class="img-responsive border">
+            </a>
+        </p>
+    </div>
+    <div class="col-xs-3">
+        <p>
+            <a href="https://imanage.com" rel="nofollow"
+               target="_blank">
+                <img src="{filename}/images/logos/imanage.svg"
+                     alt="iManage Logo"
+                     class="img-responsive border">
+            </a>
+        </p>
+    </div>
+</div>
+<div class="row">
+    <div class="col-xs-3">
+        <p><a href="https://empiricalscotus.com/" rel="nofollow"
+           target="_blank">
+            <img src="{filename}/images/services-logos/empirical-scotus.png"
+                 alt="Empirical Scotus Logo"
                  class="img-responsive border">
-        </a>
+        </a></p>
     </div>
 </div>
 
