@@ -100,6 +100,14 @@ Getting started is very easy. Just [send us a brief email][c] with what you need
                  class="img-responsive border">
         </a></p>
     </div>
+    <div class="col-xs-3">
+            <p><a href="https://buriedaliveproject.org/" rel="nofollow"
+               target="_blank">
+                <img src="{filename}/images/services-logos/buried-alive-project.png"
+                     alt="Buried Alive Project Logo"
+                     class="img-responsive border">
+            </a></p>
+        </div>
 </div>
 
 [c]: {filename}/pages/contact.md
