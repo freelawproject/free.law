@@ -12,10 +12,10 @@ PACER to access legal documents relating to millions of federal court
 cases. You can learn more about PACER in our [PACER FAQ][faq].
 
 ### Should I install RECAP if I'm not a user of PACER? 
-No. RECAP only becomes active when you are accessing PACER and deactivates when you're browsing non-PACER websites. Therefore, non-PACER users won't benefit from installing RECAP — it simply won't do anything.
+No. RECAP only becomes active when you are accessing PACER and deactivates when you're browsing non-PACER websites. Therefore, non-PACER users won't benefit from installing RECAP &mdash; it won't cause any issues, but it simply won't do anything.
 
 ### Will installing RECAP affect my use of other websites?
-No. RECAP only works on PACER-related sites. When you install RECAP, you'll see that it only has access to uscourts.gov and CourtListener.com.
+No. RECAP only works on PACER-related sites. When you install RECAP, you'll see that it only has access to uscourts.gov and CourtListener.com. It cannot see your browsing or affect any other websites.
 
 ### Will RECAP interfere with my use of PACER?
 RECAP is designed to improve your PACER experience without getting in your way. To use RECAP, log into PACER and use PACER as you normally do. As you use PACER, you'll see small RECAP icons and other notifications about free versions of PACER content. Click these icons and links to get PACER content for free. 
@@ -30,7 +30,7 @@ When a document is available for download, RECAP puts a small, distinctive icon 
 
 
 ### Can I browse or search the archive directly, or do I need to use PACER to see RECAP files?
-Yes! You can search and browse the entire RECAP Archive on our website, CourtListener.com: 
+Yes! You can search and browse the entire RECAP Archive on our website, CourtListener.com, where you'll find the largest open repository of PACER cases and documents in the country. 
 
 <a href="https://www.courtlistener.com/recap/" class="btn btn-primary btn-lg">Visit the RECAP Archive</a>
 
@@ -47,6 +47,13 @@ Second, if you wish to disable RECAP completely, you can do so via Chrome or Fir
 
 ### What browsers are supported? Why?
 We currently support Firefox and Chrome, with an experimental version for Opera. We would love to also add support for Safari and IE Edge, but we need a maintainer that is willing to help with these platforms when new versions are released. If that might be you, [send us a message][c]!
+
+### I uploaded a document, but it didn't seem to work &mdash; there's no "R" icon. Why?
+There are a handful of reasons why we can't always work with a PDF that somebody has uploaded.
+
+The main reason that we might not show an "R" icon after receiving a document happens when we receive the document *before* we receive the docket. When this happens, we have a document, but we don't know what case to add it to since we've never seen its docket (or the right part of its docket). This is a bit of a dead end for us because we can't add a PDF to a docket we don't have. In this case, what we do is keep the document, and if we ever get the docket, we immediately add the document to it. So, if you think you might have this problem &mdash; you uploaded a document and it's not showing up properly &mdash; sometimes the solution is to try uploading the docket for that case.
+
+The second reason this can happen is because of a longstanding bug in criminal cases. In PACER, criminal cases can have multiple docket numbers, and this can cause problems for RECAP. If this happens, until we fix this issue, the best thing to do is to try to find the case in [the RECAP Archive][archive], and try to see if you can find the uploaded document that way.
 
 ### How do I report a bug or make a feature suggestion?
 You can report bugs [on our bug tracker][bugs] or by [sending us an email][c] — whatever is comfortable for you.
@@ -122,3 +129,4 @@ Absolutely not. PACER charges users for the documents they download from PACER. 
 [volokh]: http://www.volokh.com/posts/1248389303.shtml
 [ex2]: https://freedom-to-tinker.com/blog/abridy/fair-use-legal-databases-and-access-to-litigation-inputs/
 [ppp]: https://pacer.psc.uscourts.gov/documents/pacer_policy.pdf
+[archive]: https://www.courtlistener.com/recap/
