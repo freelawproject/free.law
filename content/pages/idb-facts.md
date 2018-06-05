@@ -93,7 +93,7 @@ These are blank according to policy set by the Judicial Conference of the U.S. I
     anchors.options = {
             'visible': 'touch',
             'class': 'anchor',
-            'truncate': 20
+            'truncate': 40
         };
     document.addEventListener("DOMContentLoaded", function(event) {
         anchors.add();

@@ -158,7 +158,7 @@ Included in that information is the "Go Live Date" for each jurisdiction, but so
     anchors.options = {
             'visible': 'touch',
             'class': 'anchor',
-            'truncate': 20
+            'truncate': 40
         };
     document.addEventListener("DOMContentLoaded", function(event) {
         anchors.add();

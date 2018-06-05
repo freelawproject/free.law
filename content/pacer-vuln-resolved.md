@@ -86,7 +86,7 @@ We hope they do.
 
 
 
-[user-stats]: {filename}/pages/pacer-facts.md#what-do-we-know-about-pacer-users
+[user-stats]: {filename}/pages/pacer-facts.md#what-do-we-know-about-pacer%C2%A0users
 [owasp-csrf]: https://www.owasp.org/index.php/Cross-Site_Request_Forgery_(CSRF)
 [owasp]: https://www.owasp.org/
 [owasp-top-10]: https://github.com/OWASP/Top10/raw/master/2017/OWASP%20Top%2010%20-%202017%20RC1-English.pdf

@@ -111,7 +111,7 @@ Absolutely not. PACER charges users for the documents they download from PACER. 
     anchors.options = {
             'visible': 'touch',
             'class': 'anchor',
-            'truncate': 20
+            'truncate': 40
         };
     document.addEventListener("DOMContentLoaded", function(event) {
         anchors.add();
