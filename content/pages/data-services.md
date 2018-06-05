@@ -15,7 +15,7 @@ Summary: Legal Data Services and Consulting from Free Law Project, a 501(c)(3)
 
 We have a powerful system for gathering bulk data from PACER. We have millions of opinions from hundreds of jurisdictions in our database. We have tens of thousands of oral argument audio files. We have information about nearly every reporter written. Much of this data <a href="https://www.courtlistener.com/api/">is available via our APIs</a>, but making sense of it can be time consuming.
 
-To fill these needs, we offer data services. Jobs are billed hourly or by project milestones. For hourly work, we typically charge **$115/hour** with a one hour minimum. Billing is rounded up to the nearest half hour. Discounts may be available for qualified organizations.
+To fill these needs, we offer data services. Jobs are billed hourly or by project milestones. For hourly work, we typically charge **$130/hour** with a one hour minimum. Billing is rounded up to the nearest half hour. Discounts may be available for qualified individuals or organizations.
 
 If you are interested in working with us, please [send us an email describing your project][c], and we'll set up a time to talk in more detail.
 
