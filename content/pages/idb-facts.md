@@ -19,8 +19,53 @@ The codebook states that this information is in "Guide to Judiciary Policies and
 
 <a href="/xlsx/fjc/integrated-database/office-codes.xlsx"
    class="btn btn-lg btn-primary">Download the office codes</a>
+
+
+### Is there any additional information about the fields?
+
+Yes, we have a little information about the fields beyond what's in the codebook. For example, many of the fields are artificially truncated. This appears to be a problem with the source data that the AO gives to the FJC. 
+
+We have requested the the lengths of the various fields in the civil data as of 1 June 2018, and published it here.
+
+<a href="/xlsx/fjc/integrated-database/cv88on-field-lengths.xlsx"
+   class="btn btn-lg btn-primary">Download the field lengths</a>
+ 
+We do not currently have this same information for the criminal data.
+
+
+### How can I link up the IDB with PACER?
+
+Well, you've always got the docket number, and sure enough, PACER provides a free undocumented API for looking up docket numbers and getting their unique PACER ID.
+
+If you're familiar with PACER as a user, this is the API that is used by the website itself when you paste a docket number into the docket report form and press "Find this case."
+
+Behind the scenes, when you do that, it does a query to a URL like:
+
     
-       
+    https://ecf.cand.uscourts.gov/cgi-bin/possible_case_numbers.pl?3:12-cv-3879;number=0.1258953044538912
+    
+We call this the "possible case numbers API". It will respond with something like:
+
+    <request number='3:12-cv-3879'>
+        <case number='3:12-cv-3879' 
+              id='257622' 
+              title='3:12-cv-03879-VC Technology Properties Limited LLC et al v. Novatel Wireless, Inc. (closed 07/14/2015)' 
+              sortable='3:2012-cv-03879-VC'/>
+    </request>
+
+A few notes:
+
+1. In this response, the PACER internal ID for the docket is in the `id` field and has a value of `257622`.
+
+1. Some docket numbers, particularly in criminal cases, are ambiguous, in which case there will be several `case` nodes in the returned XML.
+
+1. The possible case numbers API is very flexible in the format of docket numbers that it receives. If you prefer to query the docket number above as `12003879` instead of `3:12-cv-3879`, that will also work. 
+
+    Whatever format you put in will be converted to a standardized docket number, including the judge's initials.
+
+If you plan to use this API, we recommend using the Juriscraper framework, which has [APIs specifically for this purpose][possible].
+
+
 ### What encoding is used for the data?
 
 According to FJC staff, the document is encoded as ascii data. Using the following command, we were able to find three exceptions to this rule containing umlauts:
@@ -58,3 +103,4 @@ These are blank according to policy set by the Judicial Conference of the U.S. I
     
 [031995]: {filename}/pdf/judicial-conference-proceedings/1995-03.pdf 
 [032003]: {filename}/pdf/judicial-conference-proceedings/2003-03.pdf
+[possible]: https://github.com/freelawproject/juriscraper/blob/master/juriscraper/pacer/hidden_api.py#L13
