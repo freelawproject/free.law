@@ -84,6 +84,22 @@ Sometimes. If you are an attorney of record, you will have your own "ECF" login.
 At no time will RECAP ever upload any information that is not already publicly
 accessible. ([More Information]({filename}/recap-extension-0-8-beta-released.md))
 
+<hr>
+## RECAP and Internet Archive
+
+### How often does RECAP upload to the Internet Archive?
+Prior to November, 2017, when we [rolled out a brand new version of the RECAP extensions and servers][new-recap], the Internet Archive served as the main document storage and database for RECAP, and documents and docket metadata were uploaded to the Internet Archive on an ongoing basis. This system was slow, but worked fairly well for the first eight years of RECAP.
+
+However, with the creation of the new RECAP system, we began acquiring significantly more PACER data from a variety of new sources. With so much new data, using Internet Archive as our primary database would be very challenging. As a result, we now upload PACER documents every night and upload PACER metadata once per quarter. 
+
+For those who need faster access to the RECAP Archive, we offer CourtListener as a way to get content as a user, and we offer advanced APIs for programmatic access.
+
+
+### Do you charge for the new RECAP APIs?
+Sometimes. As with all of our APIs, we monitor their use and sometimes request contributions according to a sliding scale. If you are an individual or a researcher that needs access to the RECAP APIs, we are happy to have you use them &mdash; that's what we're here for. If you are able, we hope you'll consider contributing to support Free Law Project so we can continue maintaining and enhancing the RECAP ecosystem.
+
+As always, you can [inspect our tax returns][tax] to learn more about our finances.
+
 
 <hr>
 ## Public Records
@@ -130,3 +146,5 @@ Absolutely not. PACER charges users for the documents they download from PACER. 
 [ex2]: https://freedom-to-tinker.com/blog/abridy/fair-use-legal-databases-and-access-to-litigation-inputs/
 [ppp]: https://pacer.psc.uscourts.gov/documents/pacer_policy.pdf
 [archive]: https://www.courtlistener.com/recap/
+[new-recap]: {filename}/new-recap.md
+[tax]: {filename}/pages/non-profit-documents.md 
