@@ -11,15 +11,15 @@ Slug: donate
     </div>
 </div>
 
-Using support from grants, donations, and corporate and academic sponsorships, we:
+Using support from grants, donations, services, and corporate and academic sponsorships, we:
 
- - Sponsor the [RECAP extensions][recap] and [RECAP Archive][archive], which gathers numerous records from PACER each day and makes them fully searchable.
+ - Sponsor the [RECAP extensions][recap] and [RECAP Archive][archive], which gathers tens of thousands of records from PACER each day and makes them fully searchable and available.
 
- - Gather and curate the latest opinions from more than 200 courts daily, making them searchable in [our collection of nearly 4M opinions][opinions].
+ - Gather and curate the latest opinions from more than 200 courts daily, making them searchable in [our collection of more than 4M opinions][opinions].
  
- - Host [the largest archive of oral argument audio in the world][oa], with nearly 1,000,000 minutes of recordings.
+ - Host [the largest archive of oral argument audio in the world][oa], with more than 1,100,000 minutes of recordings.
  
- - Provide [an API and bulk data][api] to researchers and journalists. The API is used more than 10,000 times per day and the bulk data has contributed to many startups and research projects.
+ - Provide [an API and bulk data][api] to researchers, journalists, and other organizations. The API is used more than 10,000 times per day and the bulk data has contributed to many startups and research projects.
  
  - Aim to have [a complete collection of machine-readable data about American appellate judges][judges]. 
  
