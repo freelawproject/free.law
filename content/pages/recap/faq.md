@@ -88,17 +88,25 @@ accessible. ([More Information]({filename}/recap-extension-0-8-beta-released.md)
 ## RECAP and Internet Archive
 
 ### How often does RECAP upload to the Internet Archive?
-Prior to November, 2017, when we [rolled out a brand new version of the RECAP extensions and servers][new-recap], the Internet Archive served as the main document storage and database for RECAP, and documents and docket metadata were uploaded to the Internet Archive on an ongoing basis. This system was slow, but worked fairly well for the first eight years of RECAP.
+Before November, 2017, when we [rolled out a huge revamp of the RECAP extensions and servers][new-recap], the Internet Archive served as the main document storage and database for RECAP, and documents and docket metadata were uploaded to the Internet Archive on an ongoing basis. This system was slow, but worked fairly well for the first eight years of RECAP.
 
-However, with the creation of the new RECAP system, we began acquiring significantly more PACER data from a variety of new sources. With so much new data, using Internet Archive as our primary database would be very challenging. As a result, we now upload PACER documents every night and upload PACER metadata once per quarter. 
+But with the creation of the new RECAP system, we started getting a lot more PACER data from several new sources. With so much new data, using Internet Archive as our primary database would be very challenging &mdash; it's just not designed to be used as a database like we were. As a result, we now upload PACER documents every night and upload PACER metadata once per quarter.
 
 For those who need faster access to the RECAP Archive, we offer CourtListener as a way to get content as a user, and we offer advanced APIs for programmatic access.
 
 
 ### Do you charge for the new RECAP APIs?
-Sometimes. As with all of our APIs, we monitor their use and sometimes request contributions according to a sliding scale. If you are an individual or a researcher that needs access to the RECAP APIs, we are happy to have you use them &mdash; that's what we're here for. If you are able, we hope you'll consider contributing to support Free Law Project so we can continue maintaining and enhancing the RECAP ecosystem.
+Sometimes, sort of:
 
-As always, you can [inspect our tax returns][tax] to learn more about our finances.
+ - Individual documents are always freely available via the CourtListener website and the RECAP Extensions from the moment we get them.
+ 
+ - For individuals or researchers who need access to the RECAP APIs, we are happy to have you use them &mdash; that's one of the reasons we're here.
+ 
+ - For organizations, law firms, or other for-profit ventures that need access to thousands of documents in an organized way, and for whom the Internet Archive uploads are insufficient, we hope you'll consider contributing to support Free Law Project in exchange for your usage of the APIs. We only ask that you contribute what you can according to a sliding scale. Most contribute between $100&ndash;1000 monthly, depending on needs and means.
+
+This is a tough balance that we're attempting to strike between giving everything away for free and asking for support for our continued success. We welcome feedback and ideas to refine and improve this model.
+
+For those that are interested, [our tax returns][tax] are always available for inspection. 
 
 
 <hr>
