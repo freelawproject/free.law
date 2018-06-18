@@ -23,15 +23,18 @@ The codebook states that this information is in "Guide to Judiciary Policies and
 
 ### Is there any additional information about the fields?
 
-Yes, we have a little information about the fields beyond what's in the codebook. For example, many of the fields are artificially truncated. This appears to be a problem with the source data that the AO gives to the FJC. 
+Yes! We have a little information about the fields beyond what's in the code book. For example, many of the fields are artificially truncated. This appears to be a problem with the source data that the AO gives to the FJC. 
 
 We have requested the the lengths of the various fields in the civil data as of 1 June 2018, and published it here.
 
 <a href="/xlsx/fjc/integrated-database/cv88on-field-lengths.xlsx"
-   class="btn btn-lg btn-primary">Download the field lengths</a>
- 
-We do not currently have this same information for the criminal data.
+   class="btn btn-lg btn-primary">Download the civil field info</a>
+   
+A few weeks later, the the FJC also shared the lengths of the fields in the criminal data (without us even asking!):
 
+<a href="/xlsx/fjc/integrated-database/cr96on-field-lengths.xlsx"
+   class="btn btn-lg btn-primary">Download the criminal field info</a>  
+ 
 
 ### How can I link up the IDB with PACER?
 
