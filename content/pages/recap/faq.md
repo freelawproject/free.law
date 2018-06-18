@@ -38,7 +38,18 @@ Yes! You can search and browse the entire RECAP Archive on our website, CourtLis
 ## Technical Questions
 
 ### Why am I not getting any notifications that RECAP is uploading documents, even though the RECAP icon is blue?
-You must enable the "display notifications" option in RECAP preferences. It should be on by default.
+There are a handful of reasons why this could be. First, RECAP has an option to disable alerts. You should make sure the alerts are enabled by checking the box next to: "Notify me when RECAP uploads a file to the Archive." It should be on by default.
+
+If that's checked and things still don't seem to be working, the likely problem is that one of your other extensions is interacting with RECAP in a bad way. Lots of extensions change the way your browser works &mdash; some of them take away important features that RECAP relies on. Unfortunately, there's no way for us to detect which extensions you have installed, but so far we know that these will cause problems:
+
+ - MetaMask &mdash; This is a bitcoin-related tool and it injects JavaScript into every page you view including those on PACER. That JavaScript causes problems we can't deal with.
+ 
+ - Fix Url Links Redirect &mdash; This is a security-related extension that strips referer information that we rely on.
+
+If you find that RECAP is not working for you, the first step you can take is try to install it in a brand new profile for your browser. If that fixes it, you can use trial and error to add extensions from your original profile until RECAP works breaks again. That'll be your culprit. 
+
+If you discover an extension that causes problems, please let us know so we can update our list. If you've done all of the above and still have problems, don't hesitate to send us a message.
+
 
 ### Can I disable RECAP?
 Yes, in two ways. First, in the RECAP preferences, there is an option to disable uploads. Clicking that box will ensure that you avoid uploading something to the RECAP Archive while allowing you to continue to download items. We do hope you'll contribute though.
