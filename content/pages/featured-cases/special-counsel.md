@@ -4,8 +4,8 @@ Author: Ansel Halliburton
 Slug: featured-cases/special-counsel/
 
 
-This page has been moved to: 
+This page has been moved.
 
-    https://free.law/featured/special-counsel-cases/
+<a href="{filename}/pages/featured/special-counsel.md" class="btn btn-primary">Go to the new location</a>
 
 Sorry about the inconvenience.

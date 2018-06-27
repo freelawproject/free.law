@@ -4,8 +4,9 @@ Author: Ansel Halliburton
 Slug: featured-cases/airport-cases/
 
 
-This page has been moved to: 
 
-    https://free.law/featured/airport-cases/
+This page has been moved.
+
+<a href="{filename}/pages/featured/airport-cases.md" class="btn btn-primary">Go to the new location</a>
 
 Sorry about the inconvenience.
