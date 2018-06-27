@@ -8,7 +8,7 @@ This project was created by Free Law Project, in conjunction with [Elliott Ash][
 
 We hope this database, its APIs, and its bulk data will be valuable tools for practitioners and researchers across the country.
 
-At launch, the database contains data about thousands of state and federal judges and judicial appointors such as governors and presidents. Information includes biographical data about each person, the roles they have held before, during and after their time in the judicial branch, their political affiliations, their education, and any retention events that kept them in a judicial position (such as a reappointment). We hope to add campaign finance information and to link the judges with the opinions they wrote soon.
+At launch, the database contains data about thousands of state and federal judges and judicial appointors such as governors and presidents. Information includes biographical data about each person, the roles they have held before, during and after their time in the judicial branch, their political affiliations, their education, and any retention events that kept them in a judicial position (such as a reappointment). 
 
 To learn more about this data, please see our announcement and read the documentation.
 
