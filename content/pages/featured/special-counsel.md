@@ -33,7 +33,7 @@ In many cases, the Special Counsel's Office posts documents on [their own web pa
 * **Russian Election Interference**
     * [U.S. v. Internet Research Agency, et al](https://www.courtlistener.com/docket/6307879/united-states-v-internet-research-agency-llc/) (D.D.C. 1:18-cr-00032-DLF)
 * **Richard Pinedo**
-    * [U.S. v. Richard Pinedo, et al](https://www.courtlistener.com/docket/6307917/united-states-v-pinedo/) (1:18-cr-00024-DLF, District of Columbia)
+    * [U.S. v. Richard Pinedo, et al](https://www.courtlistener.com/docket/6307917/united-states-v-pinedo/) (D.D.C. 1:18-cr-00024-DLF)
 * **Alex Van der Zwaan**
     * [United States v. Van der Zwaan](https://www.courtlistener.com/docket/6309895/united-states-v-van-der-zwaan/) (D.D.C 1:18-cr-00031-ABJ)
 * **Virginia real-estate brokers' subpoenas**
@@ -42,7 +42,9 @@ In many cases, the Special Counsel's Office posts documents on [their own web pa
         * [Opinion denying motion to quash](http://www.dcd.uscourts.gov/sites/dcd/files/17-mc-2587-10272017.pdf)
 * **Michael Cohen**
     * [In the Matter of Search Warrants Executed on April 9, 2018](https://www.courtlistener.com/docket/6362926/in-the-matter-of-search-warrants-executed-on-april-9-2018/) (S.D.N.Y. 1:18-mj-03161)
-    
+* **DNC Hack by Russian Intelligence Agents**
+    * [U.S. v. Viktor Borisovich Netyksho, et al](https://www.courtlistener.com/docket/7431538/united-states-v-netyksho/) (D.D.C. 1:18-cr-215)
+        * [Indictment][gru-indictment] filed July 13, 2018
 
 ## Updating Dockets
 
@@ -63,3 +65,4 @@ If you would like to add a docket link or suggest another update to this page, p
 [papadopoulos-plea]: {filename}/pdf/gov.uscourts.dcd.189898.18.0.pdf
 [papadopoulos-statement]: {filename}/pdf/gov.uscourts.dcd.189898.19.0.pdf
 [flynn-information]: https://www.courtlistener.com/recap/gov.uscourts.dcd.191592/gov.uscourts.dcd.191592.1.0_2.pdf
+[gru-indictment]: https://www.courtlistener.com/recap/gov.uscourts.dcd.198489/gov.uscourts.dcd.198489.1.0.pdf
