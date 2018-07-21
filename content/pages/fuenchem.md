@@ -6,7 +6,7 @@ Slug: who-is-john-fuenchem
 
 Since November 2017, when we [released a new and vastly improved version of RECAP][changes], "Fuenchem" has been contacting numerous journalists and individuals. His typical approach is to identify somebody that supports Free Law Project publicly, either on Twitter or elsewhere, and to send that person emails listing his grievances and encouraging that person to spread the word. 
 
-Since that time, he has also approached numerous journalists and individuals that are important in the legal tech world and encouraged them write articles or otherwise spread the word. Of the many journalists that "Fuenchem" has contacted, only one has chosen to write an article, despite many of them discussing the topic with our executive director, Michael Lissner. 
+In addition to contacting our supporters, he has also approached numerous journalists and individuals that are important in the legal world and encouraged them write articles or otherwise spread the word. Of the many journalists that "Fuenchem" has contacted, only one has chosen to write an article, despite many of them discussing the topic with our executive director, Michael Lissner. 
 
 The article that was written explains the changes that were made to RECAP in detail, and has several quotes from our executive director and others explaining the situation. It serves as a good place to get some background:
 
@@ -18,7 +18,7 @@ We had hoped that with that article published, "Fuenchem" would stop his crusade
 
 At the same time that "Fuenchem" was writing these emails, he was also finding blog posts about Free Law Project or RECAP and posting his grievances as comments.
 
-After many months of these ongoing attacks, our executive director decided to attempt to address "Fuenchem's" grievances head on by writing him an email — perhaps directly addressing his concerns would end the months-long crusade to discredit and attack Free Law Project. After emailing with for many days and answering dozens of questions, our executive director had written more than 12,000 words in response to "Fuenchem's" questions. 
+After many months of these ongoing attacks, our executive director decided to attempt to address "Fuenchem's" grievances head on by writing him an email — perhaps directly addressing his concerns would end the months-long crusade to discredit and attack Free Law Project. After emailing with him for many days and answering dozens of his questions, our executive director had written more than 12,000 words in reply. 
 
 Rather than be satisfied by these responses, "Fuenchem" converted them into a Q&A he posted on a blog he created for that purpose. This effectively doxed the private emails from our executive director while putting them in a different context than they were intended. The "Q&A" can be found on the webpage created by "Fuenchem," here:
 
@@ -34,7 +34,7 @@ In recent days, "Fuenchem" has concluded that because our executive director won
 
 > If you continue refusing to answer these questions when I ask them, maybe you'll be more forthcoming with various journalists or the IRS. These questions are not going away and neither am I.
 
-So, again, if you have read this far, we apologize for having wasted your time, and we hope that you will just ignore his emails. We wish we had. If you do have lingering questions, feel free to [ask][c]. 
+So, again, if you have read this far, we apologize for having wasted your time, and we hope that you will just ignore his emails. We wish we had. If you do have lingering questions, [feel free to ask][c]. 
 
 
 ## Upshots
@@ -45,7 +45,7 @@ So, again, if you have read this far, we apologize for having wasted your time, 
 
 1. Despite protracted and strenuous attempts, "Fuenchem's" grievances are not satisfied. It seems they never will be.
 
-1. It's entirely unclear why Fuenchem has decided to wage this crusade against our organization. Why not do something productive instead?
+1. It's entirely unclear why Fuenchem has decided to wage this crusade against our organization.
 
 1. "Fuenchem" has absorbed an incredible amount of people's time. 
 
