@@ -34,7 +34,11 @@ In recent days, "Fuenchem" has concluded that because our executive director won
 
 > If you continue refusing to answer these questions when I ask them, maybe you'll be more forthcoming with various journalists or the IRS. These questions are not going away and neither am I.
 
-So, again, if you have read this far, we apologize for having wasted your time, and we hope that you will just ignore his emails. We wish we had. If you do have lingering questions, [feel free to ask][c]. 
+So at this point, we have tried ignoring him for around six months, tried addressing his grievances directly, and we have dealt with the questions he stirred up with journalists and RECAP users. He has damaged our organization and RECAP and he vows continue doing so. 
+
+Our intention at this point is to resume ignoring him as much as possible and to spread the word of his campaign until he gives it up. He has consumed a lot of our time and we again apologize if he has wasted yours. We hope that you will just ignore his emails. We wish we had. 
+
+If you do have lingering questions, [feel free to send us an email][c]. 
 
 
 ## Upshots
