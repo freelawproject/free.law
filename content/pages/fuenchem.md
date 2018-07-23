@@ -53,7 +53,7 @@ If you have lingering questions or if he has contacted you, [please feel free to
 
 1. Despite protracted and strenuous attempts, "Fuenchem's" grievances are not satisfied. It seems they never will be.
 
-1. It's entirely unclear why Fuenchem has decided to wage this crusade against our organization.
+1. It's entirely unclear why Fuenchem has decided to wage this crusade against Free Law Project and RECAP.
 
 1. "Fuenchem" has absorbed an incredible amount of people's time. 
 
