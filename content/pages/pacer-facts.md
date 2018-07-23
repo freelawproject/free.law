@@ -115,6 +115,7 @@ Yes! There are two PACER sites that we know about that have content and do not c
 
  - [The official PACER training website][train]
  - [A training website maintained by the Court of International Trade][cit-train]
+ - [A training website maintained by the Bankruptcy Court of the Northern District of Georgia][ganb-train]
  
 The CIT training site also allows you to practice ECF filings if you have an ECF account.
 
@@ -184,6 +185,7 @@ Included in that information is the "Go Live Date" for each jurisdiction, but so
 [declaration]: https://www.courtlistener.com/docket/4214664/13/2/national-veterans-legal-services-program-v-united-states/
 [train]: https://dcecf.psc.uscourts.gov/cgi-bin/ShowIndex.pl
 [cit-train]: https://ecf-train.cit.uscourts.gov/cgi-bin/login.pl
+[ganb-train]: https://ecf-train.ganb.uscourts.gov/cgi-bin/login.pl
 [wor]: {filename}/why-downloading-all-free-pacer.md
 [wor-charts]: {filename}/xlsx/free-opinions-report-totals-by-court.xlsx
 [wor-policy]: {filename}/pdf/written-opinions-memo.pdf

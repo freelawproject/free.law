@@ -3,20 +3,22 @@ Date: 2013-08-01 10:15
 Slug: mission
 Status: published
 
-**Free Law Project is a California non-profit public benefit corporation
-and a federally-recognized 501(c)(3) public charity whose specific
-purposes are primarily:**
+### Our Mission
 
--   to provide free, public, and permanent access to primary legal
+Free Law Project is a California non-profit public benefit corporation
+and a federally-recognized 501(c)(3) public charity whose specific
+purposes are primarily:
+
+-   To provide free, public, and permanent access to primary legal
     materials on the Internet for educational, charitable, and
     scientific purposes to the benefit of the general public and the
     public interest;
--   to develop, implement, and provide public access to technologies
+-   To develop, implement, and provide public access to technologies
     useful for legal research;
--   to create an open ecosystem for legal research and materials;
--   to support academic research on related technologies, corpora, and
+-   To create an open ecosystem for legal research and materials;
+-   To support academic research on related technologies, corpora, and
     legal systems; and
--   to carry on other charitable activities associated with these
+-   To carry on other charitable activities associated with these
     purposes, including, but not limited to, publications, meetings,
     conferences, trainings, educational seminars, and the issuance of
     grants and other financial support to educational institutions,
@@ -28,40 +30,42 @@ Movement](http://falm.info/).
 
 * * * * *
 
-**Current activities of Free Law Project are as follows:**
+### What We Do
 
--   We seek to collect and freely distribute online all United States
-    court opinions, both state and federal, both historical and current.
-    Our collection of current opinions is accomplished through our
-    [Juriscraper](https://github.com/freelawproject/juriscraper)
-    project. Online distribution of the opinions occurs through our
-    [CourtListener](https://courtlistener.com) project.
--   We develop technologies for use in legal research, such as a daily
-    alerting service, advanced search capabilities, and a citator. These
-    tools are deployed at [CourtListener](https://courtlistener.com).
--   We collaborate with others with similar goals and license all the
-    software we develop under free software licenses. Source code is
-    available for both
-    [Juriscraper](https://github.com/freelawproject/juriscraper) and
-    [CourtListener](https://github.com/freelawproject/courtlistener).
-    Our [REST API](https://www.courtlistener.com/api/rest-info/) enables
-    others to analyze or reuse on their own sites the materials we have
-    collected.
--   We support academic research on [search
-    technologies](http://citris-uc.org/research/projects/proactive_legal_information_retrieval_and_filtering)
-    and provide [free bulk
-    downloads](https://www.courtlistener.com/api/bulk-info/) of our
-    entire corpus for use in academic research or for any other purpose.
--   We lead
-    [workshops](http://people.ischool.berkeley.edu/~bcarver/juriscraper.html),
-    present at
-    [conferences](http://blog.law.cornell.edu/lvi2012/schedule/conference-program/),
-    and hold other events to educate others about our work, how to get
-    involved, and the underlying challenges facing the [free acces to
-    law movement](http://www.fatlm.org/).
+Current activities of Free Law Project are as follows:
+
+ - We seek to collect and freely distribute online all United States court opinions, both state and federal, both historical and current. Our collection of current opinions is accomplished through generous data donations and our [Juriscraper][js] project. Online distribution of the opinions occurs through our [CourtListener][cl] project. We will soon audit this collection of opinions and fill any gaps that we discover. 
+
+    At that time, we will have a complete collection of legal opinions in an open and accessible form.
+
+ - We host the [RECAP Project][recap] including the [RECAP Archive][recap-archive] and the extensions for [Chrome][chrome] and [Firefox][ff]. This project frees millions of dockets, docket entries, and documents from PACER, making them searchable on CourtListener and uploading them to the Internet Archive for permanent backup.  
+    
+ - We develop technologies for use in legal research, such as [opinion and PACER alerting services][alerts], advanced search capabilities, and a citator. These tools are deployed at [CourtListener][cl].
+ 
+ - We host a [database of judges][judges] with deep research on thousands of state and federal judges including their appointer information, campaign finance data, biographical information, roles held before, during and after the judicial branch, political affiliations, education, and more.
+ 
+ - We collaborate with others with similar goals and license all the software we develop under free software licenses. Source code is available for [Juriscraper][js-code],  [CourtListener][cl-code], and the [RECAP extensions][recap-code]. Our [APIs][api] enable others to analyze and reuse the materials we have collected. We even offer bulk downloading for some types of data.
+ 
+ - We provide data and research services to support academic researchers and journalists in their efforts to study and report on the legal world.
+    
+ - We lead workshops, present at conferences, and hold other events to educate others about our work, how to get involved, and the underlying challenges facing the [free acces to law movement][fatlm].
 
 * * * * *
 
-See our [Non-Profit
-Documents]({filename}/pages/non-profit-documents.md).
+See our [Non-Profit Documents][non-profit-docs].
 
+
+[js]: {filename}/pages/juriscraper.md
+[cl]: https://www.courtlistener.com/
+[recap]: {filename}/pages/recap.md
+[recap-archive]: https://www.courtlistener.com/recap/
+[alerts]: https://www.courtlistener.com/help/alerts/
+[js-code]: https://github.com/freelawproject/juriscraper/
+[cl-code]: https://github.com/freelawproject/courtlistener/
+[recap-code]: https://github.com/freelawproject/recap-chrome/
+[api]: https://www.courtlistener.com/api/
+[fatlm]: http://www.fatlm.org/
+[non-profit-docs]: {filename}/pages/non-profit-documents.md
+[judges]: {filename}/pages/judge_database.md
+[chrome]: https://chrome.google.com/webstore/detail/recap/oiillickanjlaeghobeeknbddaonmjnc
+[ff]: https://addons.mozilla.org/en-US/firefox/addon/recap-195534/
