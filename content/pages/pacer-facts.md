@@ -111,11 +111,12 @@ Many documents are not marked as opinions that should be. We know of no recourse
 
 ### Are there PACER/ECF sites where I can poke around, experiment, and try things?
 
-Yes! There are two PACER sites that we know about that have content and do not charge for usage:
+Yes! There are several PACER sites that we know about that have content and do not charge for usage:
 
  - [The official PACER training website][train]
  - [A training website maintained by the Court of International Trade][cit-train]
  - [A training website maintained by the Bankruptcy Court of the Northern District of Georgia][ganb-train]
+ - [For appellate, the Court of Appeals for Veterans Claims runs a free site][cavc-pacer]
  
 The CIT training site also allows you to practice ECF filings if you have an ECF account.
 
@@ -199,3 +200,4 @@ Included in that information is the "Go Live Date" for each jurisdiction, but so
 [redist]: https://www.courtlistener.com/docket/6155087/3/in-re-application-for-exemption-from-the-electronic-public-access-fees/
 [waivers]: https://www.courtlistener.com/?q=pacer+AND+(%22fee+waiver%22+OR+%22fee+exemption%22)&type=r&order_by=score+desc#
 [idb-facts]: {filename}/pages/idb-facts.md
+[cavc-pacer]: https://efiling.uscourts.cavc.gov/cmecf/servlet/TransportRoom?servlet=CaseSearch.jsp 
