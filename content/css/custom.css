@@ -73,6 +73,9 @@ p.caption {
     font-size: inherit;
 }
 
+.bg-warning {
+    background-color: #fcf8e3;
+}
 .bg-danger {
     background-color: #f2dede;
 }
