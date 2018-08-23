@@ -2,7 +2,6 @@ Title: Announcing PACER Docket Alerts for Journalists, Lawyers, Researchers, and
 Author: Michael Lissner
 Date: 2018-08-21
 Tags: alerts, PACER, RECAP
-Status: Draft
 
 <a href="https://www.courtlistener.com/help/alerts/#recap-alerts"
    target="_blank"
@@ -52,7 +51,7 @@ As part of our effort to strengthen Free Law Project financially, we are putting
 
  - Users who [install the RECAP Extension][recap] get a bonus of ten docket alerts, making a total of 15 cases that you can monitor at one time. We want everybody who can to install RECAP, and we hope this will encourage more people to do so. 
  
- - Finally, users who make monthly contributions to Free Law Project can make an unlimited number of alerts. We hope everybody using our tools will help support Free Law Project in return, but for those with the greatest need, we ask for your support.
+ - Finally, users who make monthly contributions to Free Law Project can make as many alerts as they need, though we may set some reasonable limits in the future, based on usage. We hope everybody using our tools will help support Free Law Project in return, but for those with the greatest need, we ask for your support. Currently, the minimum monthly donation is five dollars per month.
 
 <a href="https://www.courtlistener.com/donate/?referrer=docket-alerts-announcement"
    target="_blank"
