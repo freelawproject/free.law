@@ -13,25 +13,10 @@ Slug: recap
 </div>
 <br>
 
-<script type="text/javascript">
-document.addEventListener("DOMContentLoaded", function(event) { 
-  let isOpera = (!!window.opr && !!opr.addons) || !!window.opera || navigator.userAgent.indexOf(' OPR/') >= 0;
-  let isFirefox = typeof InstallTrigger !== 'undefined';
-  let isSafari = /constructor/i.test(window.HTMLElement) || (function (p) { return p.toString() === "[object SafariRemoteNotification]"; })(!window['safari'] || (typeof safari !== 'undefined' && safari.pushNotification));
-  let isIE = /*@cc_on!@*/false || !!document.documentMode;
-  let isEdge = !isIE && !!window.StyleMedia;
-  let isChrome = !!window.chrome && !!window.chrome.webstore;
-  
-  // Will need updating if we add more buttons
-  if (isChrome) {
-    $("#firefox-button").hide();
-  } else if (isFirefox) {
-    $("#chrome-button").hide();
-  }
-});
-</script>
 
 If you use PACER, install RECAP. Once installed, every docket or PDF you purchase on PACER will be added to the [RECAP Archive][archive]. Anything somebody else has added to the archive will be available to you for free — right in PACER itself.
+
+<!-- PELICAN_END_SUMMARY -->
 
 Tens of thousands of people have used RECAP. To join them, simply install it using the button above, and then use PACER as you normally would. It's that simple.
 
@@ -97,6 +82,24 @@ RECAP is led by Free Law Project co-founders [Brian Carver][bcarver] and [Michae
  - [The RECAP Privacy Policy][privacy]
 
 We also have an API and bulk data available for developers. For details, [get in touch][c].
+
+<script type="text/javascript">
+document.addEventListener("DOMContentLoaded", function(event) { 
+  let isOpera = (!!window.opr && !!opr.addons) || !!window.opera || navigator.userAgent.indexOf(' OPR/') >= 0;
+  let isFirefox = typeof InstallTrigger !== 'undefined';
+  let isSafari = /constructor/i.test(window.HTMLElement) || (function (p) { return p.toString() === "[object SafariRemoteNotification]"; })(!window['safari'] || (typeof safari !== 'undefined' && safari.pushNotification));
+  let isIE = /*@cc_on!@*/false || !!document.documentMode;
+  let isEdge = !isIE && !!window.StyleMedia;
+  let isChrome = !!window.chrome && !!window.chrome.webstore;
+  
+  // Will need updating if we add more buttons
+  if (isChrome) {
+    $("#firefox-button").hide();
+  } else if (isFirefox) {
+    $("#chrome-button").hide();
+  }
+});
+</script>
 
 [faq]: {filename}/pages/recap/faq.md
 [pacer-faq]: {filename}/pages/pacer-facts.md
