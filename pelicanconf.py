@@ -76,6 +76,7 @@ SUMMARY_MAX_LENGTH = 200
 PLUGIN_PATHS = ['../pelican-plugins']
 PLUGINS = [
     'sitemap',
+    'summary',
 ]
 SITEMAP = {
     'format': 'xml',

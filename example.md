@@ -8,6 +8,8 @@ Status: Draft
 Private: True/False
 
 
+<!-- PELICAN_BEGIN_SUMMARY --> and <!-- PELICAN_END_SUMMARY --> can be used to delimit the summaries.
+
 An image:
 
 ![Alt Text]({filename}/images/han.jpg)
@@ -48,6 +50,10 @@ An embedded thing:
 A warning:
 
 <p class="bg-danger alert">Oh no!!!!</p>
+
+<!-- JS has to come last or it can wind up in summary text. -->
+<script type="text/javascript"></script>
+
 
 Some links:
 [a link relative to content root]({filename}/article1.md)
