@@ -88,6 +88,10 @@ a.anchor, a.anchor:focus, a.anchor:hover {
     border-bottom: 0;
 }
 
+#sidebar {
+    word-break: normal;
+}
+
 /* Tweaks for various screens */
 @media screen and (max-width: 767px) {
     #banner {
