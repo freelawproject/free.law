@@ -16,6 +16,9 @@
     margin: -65px 0 0;
 }
 
+body {
+    padding-top: 60px;
+}
 a:hover,
 a:active,
 a:focus {
