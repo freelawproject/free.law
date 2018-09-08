@@ -10,9 +10,9 @@ Status: Draft
 <ul>
   <li><p>We have begun uploading six million PACER dockets to <a href="https://archive.org/details/usfederalcourts" target="_blank">the Internet Archive</a>. Docket uploads will be completed quarterly going forward.</p></li>
  
-  <li><p>Our <a href="https://www.courtlistener.com/audio/" target="_blank">collection of oral argument recordings</a> now supports all circuit courts and the Supreme Court. Previously, it lacked the Tenth and Eleventh Circuits.</p></li>
+  <li><p>Our <a href="https://www.courtlistener.com/audio/" target="_blank">collection of oral argument recordings</a> now supports all circuit courts and the Supreme Court. Previously, due to inaccesibility, it lacked the 10th and 11th Circuits.</p></li>
  
-  <li><p>We have uploaded <a href="https://archive.org/details/uscourtsoralarguments" target="_blank">more than thirty-six-thousand oral argument recordings</a> consisting of over 1.2 million minutes of audio to the Internet Archive. New oral argument recordings will be uploaded nightly.</p></li>
+  <li><p>We have uploaded <a href="https://archive.org/details/uscourtsoralarguments" target="_blank">more than thirty-six thousand oral argument recordings</a> consisting of over 1.2 million minutes of audio to the Internet Archive. New oral argument recordings will be uploaded nightly.</p></li>
 </ul>
 </div>
 
@@ -25,20 +25,20 @@ Status: Draft
 </div>
 
 <!-- PELICAN_BEGIN_SUMMARY -->
-At Free Law Project, we collect a lot of legal information. In our RECAP initiative, we collect (or [are donated][recap]) around one-hundred-thousand items from PACER every day. Separately, in our collection of oral argument recordings, we have gathered more than 1.2 million minutes of legal recordings — more than anywhere else on the web. All of this content comes from [a variety of sources][coverage], and we merge it all together to make [a searchable archive of PACER dockets][recap-archive], [our numerous APIs][api], and [a huge archive of oral argument recordings][oa].
+At Free Law Project, we collect a lot of legal information. In our RECAP initiative, we collect (or [are donated][recap]) around one hundred thousand items from PACER every day. Separately, in our collection of oral argument recordings, we have gathered more than 1.2 million minutes of legal recordings — more than anywhere else on the web. All of this content comes from [a variety of sources][coverage], and we merge it all together to make [a searchable collection of PACER dockets][recap-archive] and [a huge archive of oral argument recordings][oa].
 
 
-Part of our mission at Free Law Project is to share this information and to ensure its long-term distribution and preservation. A great way to do that is to give it to a neutral third party so that no matter what happens, the information will always be available. For years, we have been fortunate to partner with the [Internet Archive][ia] for this purpose and today we are pleased to share two pieces of news about how we give them information.
+Part of [our mission][mission] at Free Law Project is to share this information and to ensure its long-term distribution and preservation. A great way to do that is to give it to a neutral third party so that no matter what happens, the information will always be available. For years, we have been lucky to partner with the [Internet Archive][ia] for this purpose and today we are pleased to share two pieces of news about how we give them information.
 <!-- PELICAN_END_SUMMARY -->
 
-The first news is that we are fulfilling [our promise from last November][promise] to do quarterly uploads of the PACER dockets that we have in the [RECAP Archive][recap-archive]. This is currently about six million dockets comprising nearly 40 million docket entries. We already upload the PDFs from these cases each night, so the change here is that we are now *also* uploading all of the dockets. 
+The first news is that we are fulfilling [our promise from last November][promise] to do quarterly uploads of the PACER dockets that we have in the [RECAP Archive][recap-archive]. This is currently about six million dockets comprising nearly 40 million docket entries. We already upload the PDFs from these cases each night, so the change here is that we are now *also* uploading all of the dockets themselves. 
 
 We hoped to fulfill this promise back in December of last year, but [learned][gh1] — [repeatedly][gh2] — that this was a difficult and complex task. This first batch of dockets will take a while to complete, but we are happy to finally have it uploading. We apologize for the delay in accomplishing this.
 
 <p class="alert bg-warning"><i class="fa fa-bug"></i> <strong>For the techies:</strong> This information is being uploaded as JSON data, in a format that closely mirrors that of our APIs. <a href="https://archive.org/download/gov.uscourts.dcd.190597/gov.uscourts.dcd.190597.docket.json">Here's an example of a JSON object</a> for <a href="https://www.courtlistener.com/docket/6183591/united-states-v-manafort/">the Manafort case in DC</a>. To learn more about the data or the fields, please see <a href="https://www.courtlistener.com/api/rest-info/">the CourtListener API documentation</a>. Unfortunately, we no longer support the old XML format.
 </p>
 
-So we think this is big news! More than six million PACER dockets will be permanently preserved as high-quality data at the Internet Archive, with more regularly on the way.
+We think this is big news! More than six million PACER dockets will be permanently preserved as high-quality data at the Internet Archive, with more regularly on the way.
 
 ---
 
@@ -49,11 +49,16 @@ So we think this is big news! More than six million PACER dockets will be perman
     <p><a href="https://archive.org/details/uscourtsoralarguments" target="_blank" class="btn btn-info btn-block">Check It Out</a>
 </div>
 
-Our second piece of news is that as of a few days ago, we have pushed our [entire collection of oral argument recordings][oa] to the Internet Archive. This is around 1.2 million minutes of audio from about thirty-six-thousand federal circuit court recordings. Every night from now on, we will upload any new recordings that we gather.
+Our second piece of news is that as of a few days ago, we uploaded our [entire collection of oral argument recordings][oa] to the Internet Archive. This is around 1.2 million minutes of audio from about thirty-six thousand federal circuit court recordings. Every night from now on, we will upload any new recordings that we gather.
 
-We are also announcing today that our database of oral argument recordings now supports both the [Tenth][ca10] and [Eleventh circuits][ca11]. For years [we][letter1] [have][letter2] [been][letter3] [writing][letter4] letters to the circuit courts, urging them to post their oral argument recordings, and explaining to them the critical historical, educational, and legal importance of these recordings. With these last two courts added, all of the circuit courts finally post their oral argument recordings to their website shortly after they are argued. Prior to this advocacy, numerous courts required expensive and bureaucratic paperwork to get a single recording, and consequently, such recordings rarely saw the light of day.
+We are also announcing today that our database of oral argument recordings now supports both the [10th][ca10] and [11th circuits][ca11]. For years [we][letter1] [have][letter2] [been][letter3] [writing][letter4] letters to the circuit courts, urging them to post their oral argument recordings, and explaining the historical, educational, and legal importance of these recordings. 
 
-We could not be more thrilled and proud to have helped bring this data into the open. With this, we are finally gathering oral argument recordings from all of the circuit courts, making it [searchable][oa], uploading it to the Internet Archive, and even making it into [podcasts][podcasts]. The Internet Archive is even generating transcripts of all of the recordings we send them, allowing you to search for words that were said in a circuit court on a given day. This is what's possible when the data is readily available. 
+With these last two courts added, all of the circuit courts post their oral argument recordings to their website. Prior to this milestone, numerous circuit courts required expensive and bureaucratic paperwork to get a single recording, and consequently, such recordings rarely saw the light of day.
+
+We could not be more thrilled and proud to have helped bring this data into the open. With this, we are finally gathering oral argument recordings from all of the circuit courts, making it [searchable][oa], uploading it to the Internet Archive, and even making it into [podcasts][podcasts]. The Internet Archive is also generating written transcripts of all of the recordings we send them, allowing you to search for what was said in a circuit court on a given day. 
+
+This is what's possible when data is readily available. 
+
 
 ## What's Next
 
@@ -77,6 +82,7 @@ The steps we are taking today are hard ones that we have been working on for yea
 [letter2]: {filename}/pdf/letters/letter-to-ca11-re-oral-arguments.pdf
 [letter3]: {filename}/pdf/letters/letter-to-ca11-re-oral-arguments-rule-changes.pdf
 [letter4]: {filename}/pdf/letters/letter-to-tim-tymkovich-re-oral-argument-recordings-at-ca10.pdf
+[mission]: {filename}/pages/mission.md
 [promise]: {filename}/new-recap.md
 [recap]: {filename}/pages/recap.md
 
