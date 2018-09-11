@@ -31,7 +31,7 @@ At Free Law Project, we collect a lot of legal information. In our RECAP initiat
 Part of [our mission][mission] at Free Law Project is to share this information and to ensure its long-term distribution and preservation. A great way to do that is to give it to a neutral third party so that no matter what happens, the information will always be available. For years, we have been lucky to partner with the [Internet Archive][ia] for this purpose and today we are pleased to share two pieces of news about how we give them information.
 <!-- PELICAN_END_SUMMARY -->
 
-The first news is that we are fulfilling [our promise from last November][promise] to do quarterly uploads of the PACER dockets that we have in the [RECAP Archive][recap-archive]. This is currently about six million dockets comprising nearly 40 million docket entries. We already upload the PDFs from these cases each night, so the change here is that we are now *also* uploading all of the dockets themselves. 
+The first news is that we are fulfilling [our promise from last November][promise] to do quarterly uploads of the PACER dockets that we have in the [RECAP Archive][recap-archive]. This is currently about six million dockets comprising nearly 40 million docket entries. We already upload the PDFs from these cases each night, so the change here is that we are now *also* uploading all of the dockets themselves. These are being uploaded as JSON files, the standard for developers.
 
 We hoped to fulfill this promise back in December of last year, but [learned][gh1] — [repeatedly][gh2] — that this was a difficult and complex task. This first batch of dockets will take a while to complete, but we are happy to finally have it uploading. We apologize for the delay in accomplishing this.
 
@@ -65,6 +65,8 @@ This is what's possible when data is readily available.
 There is always more work to do. Here's what's next:
 
 1. We are looking for help downloading the oral argument transcriptions from Internet Archive and making them searchable on CourtListener.
+
+1. We are now uploading the raw data of these dockets to the Internet Archive, but it'd be great if it could be easily displayed for humans. We are looking for help creating a JavaScript library that could convert the data into nice HTML pages that'd be displayed on the Internet Archive.
 
 1. We need to continue monitoring our first big upload of dockets to make sure that it finishes cleanly and completely. It is a big job for our server and it requires a watchful eye.
 
