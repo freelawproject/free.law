@@ -42,9 +42,11 @@ There are a handful of reasons why this could be. First, RECAP has an option to 
 
 If that's checked and things still don't seem to be working, the likely problem is that one of your other extensions is interacting with RECAP in a bad way. Lots of extensions change the way your browser works &mdash; some of them take away important features that RECAP relies on. Unfortunately, there's no way for us to detect which extensions you have installed, but so far we know that these will cause problems:
 
- - MetaMask &mdash; This is a bitcoin-related tool and it injects JavaScript into every page you view including those on PACER. That JavaScript causes problems we can't deal with.
+ - **MetaMask** &mdash; This is a bitcoin-related tool and it injects JavaScript into every page you view including those on PACER. That JavaScript causes problems we can't deal with.
  
- - Fix Url Links Redirect &mdash; This is a security-related extension that strips referer information that we rely on.
+ - **Fix Url Links Redirect** &mdash; This is a security-related extension that strips referer information that we rely on.
+ 
+ - **Forecastfox (fix version)**  &mdash; Shows the weather in various toolbars.
 
 If you find that RECAP is not working for you, the first step you can take is try to install it in a brand new profile for your browser. If that fixes it, you can use trial and error to add extensions from your original profile until RECAP works breaks again. That'll be your culprit. 
 
