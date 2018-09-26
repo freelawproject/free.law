@@ -57,7 +57,7 @@ Getting started is very easy. Just [send us a brief email][c] with what you need
     <div class="col-xs-3">
         <p><a href="https://sociology.fas.harvard.edu/" rel="nofollow"
            target="_blank">
-            <img src="{filename}/images/logos/harvard-sociology-logo.png"
+            <img src="{filename}/images/services-logos/harvard-sociology-logo.png"
                  alt="Harvard logo"
                  class="img-responsive border">
         </a></p>
@@ -74,7 +74,7 @@ Getting started is very easy. Just [send us a brief email][c] with what you need
         <p>
             <a href="https://komply.co" rel="nofollow"
                target="_blank">
-                <img src="{filename}/images/komply.png"
+                <img src="{filename}/images/services-logos/komply.png"
                      alt="Komply Logo"
                      class="img-responsive border">
             </a>
@@ -84,7 +84,7 @@ Getting started is very easy. Just [send us a brief email][c] with what you need
         <p>
             <a href="https://imanage.com" rel="nofollow"
                target="_blank">
-                <img src="{filename}/images/logos/imanage.svg"
+                <img src="{filename}/images/services-logos/imanage.svg"
                      alt="iManage Logo"
                      class="img-responsive border">
             </a>
@@ -101,13 +101,13 @@ Getting started is very easy. Just [send us a brief email][c] with what you need
         </a></p>
     </div>
     <div class="col-xs-3">
-            <p><a href="https://buriedaliveproject.org/" rel="nofollow"
-               target="_blank">
-                <img src="{filename}/images/services-logos/buried-alive-project.png"
-                     alt="Buried Alive Project Logo"
-                     class="img-responsive border">
-            </a></p>
-        </div>
+        <p><a href="https://buriedaliveproject.org/" rel="nofollow"
+           target="_blank">
+            <img src="{filename}/images/services-logos/buried-alive-project.png"
+                 alt="Buried Alive Project Logo"
+                 class="img-responsive border">
+        </a></p>
+    </div>
 </div>
 
 [c]: {filename}/pages/contact.md
