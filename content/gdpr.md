@@ -2,7 +2,6 @@ Title: Responding to GDPR "Right to Erasure" Requests
 Author: The Board
 Date: 2018-09-26
 Tags: GDPR, Privacy, Removal Requests
-Status: Draft
 
 <!-- PELICAN_BEGIN_SUMMARY -->
 
@@ -11,7 +10,7 @@ Recently, we received a GDPR request from our domain registrar asking that we re
 <blockquote class="twitter-tweet" data-partner="tweetdeck"><p lang="en" dir="ltr">GDPR Being Used To Try To Disappear Public US Court Docket <a href="https://t.co/PlXcm0wl4n">https://t.co/PlXcm0wl4n</a></p>&mdash; techdirt (@techdirt) <a href="https://twitter.com/techdirt/status/1043214365669961728?ref_src=twsrc%5Etfw">September 21, 2018</a></blockquote>
 <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
-GDPR is a major development in the regulation of the Internet. It includes protections for individuals and a variety of regulations that apply to service providers like us. When GDPR went into effect, we were easily able to comply with its numerous privacy regulations because we were already being extremely conservative about who we shared data with and how much data we collected (see [our privacy policy][pp] for details). For us, complying with the GDPR just meant a few tweaks — no big deal.
+GDPR is a major development in the regulation of the Internet. It includes protections for individuals and a variety of regulations that apply to service providers like us. When GDPR went into effect, we were easily able to comply with its numerous privacy regulations because we were already being extremely conservative about who we shared data with and how much data we collected (see [our privacy policy][pp] for details). For us, adopting compatible procedures with the GDPR just meant a few tweaks — no big deal.
 
 Until last week that is, when we received a "[Right to Erasure][art17]" request demanding that we remove a case from CourtListener. Now we have an EU regulation that's at odds with our goal of gathering and sharing important legal information. What's worse, if we complied with this request, we would be removing precedential information from CourtListener. Our policy is to never do that without a court order from a competent jurisdiction. In short, this take down request is at odds with our goals — and with the design of the American legal system.
 
