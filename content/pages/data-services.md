@@ -55,7 +55,7 @@ Getting started is very easy. Just [send us a brief email][c] with what you need
 
 <div class="row">
     <div class="col-xs-12">
-        <p>Among others, we have worked with <a href="https://en.wikipedia.org/wiki/Big_Four_accounting_firms" rel="nofollow" target="_blank">the biggest accounting firms in the world</a>, and the following clients:</p>
+        <p>Among others, we have worked with <a href="https://en.wikipedia.org/wiki/Big_Four_accounting_firms" rel="nofollow" target="_blank">the biggest accounting firms in the world</a>, and the following companies, non-profits, and academic institutions:</p>
     </div>
     <div class="col-xs-3">
         <p><a href="https://sociology.fas.harvard.edu/" rel="nofollow"
