@@ -74,6 +74,14 @@ Getting started is very easy. Just [send us a brief email][c] with what you need
         </a></p>
     </div>
     <div class="col-xs-3">
+        <p><a href="https://www.edhec.edu" rel="nofollow"
+           target="_blank">
+            <img src="{filename}/images/services-logos/edhec.png"
+                 alt="EDHEC Business School"
+                 class="img-responsive border">
+        </a></p>
+    </div>
+    <div class="col-xs-3">
         <p>
             <a href="https://komply.co" rel="nofollow"
                target="_blank">
@@ -83,6 +91,8 @@ Getting started is very easy. Just [send us a brief email][c] with what you need
             </a>
         </p>
     </div>
+</div>
+<div class="row">
     <div class="col-xs-3">
         <p>
             <a href="https://imanage.com" rel="nofollow"
@@ -93,8 +103,6 @@ Getting started is very easy. Just [send us a brief email][c] with what you need
             </a>
         </p>
     </div>
-</div>
-<div class="row">
     <div class="col-xs-3">
         <p><a href="https://empiricalscotus.com/" rel="nofollow"
            target="_blank">
@@ -111,14 +119,7 @@ Getting started is very easy. Just [send us a brief email][c] with what you need
                  class="img-responsive border">
         </a></p>
     </div>
-    <div class="col-xs-3">
-        <p><a href="https://www.edhec.edu" rel="nofollow"
-           target="_blank">
-            <img src="{filename}/images/services-logos/edhec.png"
-                 alt="EDHEC Business School"
-                 class="img-responsive border">
-        </a></p>
-    </div>
+
 </div>
 
 [c]: {filename}/pages/contact.md
