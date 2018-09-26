@@ -13,7 +13,7 @@ Recently, we received a GDPR request from our domain registrar asking that we re
 
 GDPR is a major development in the regulation of the Internet. It includes protections for individuals and a variety of regulations that apply to service providers like us. When GDPR went into effect, we were easily able to comply with its numerous privacy regulations because we were already being extremely conservative about who we shared data with and how much data we collected (see [our privacy policy][pp] for details). For us, complying with the GDPR just meant a few tweaks — no big deal.
 
-Until last week that is, when we received a "[Right to Erasure][art17]" request. Now we have an EU regulation that's at odds with our goal of gathering and sharing important legal information. What's worse, if we complied with this request, we would be removing precedential information from CourtListener. Our policy is to never do that without a court order from a competent jurisdiction. In short, this take down request is at odds with our goals — and with the design of the American legal system.
+Until last week that is, when we received a "[Right to Erasure][art17]" request demanding that we remove a case from CourtListener. Now we have an EU regulation that's at odds with our goal of gathering and sharing important legal information. What's worse, if we complied with this request, we would be removing precedential information from CourtListener. Our policy is to never do that without a court order from a competent jurisdiction. In short, this take down request is at odds with our goals — and with the design of the American legal system.
 
 So where do we bend? Who wins in this conflict between us, the GDPR, and the individual wishing to remove content from CourtListener? What follows is our approach to responding to this kind of request. The short version is that we won't comply. We don't believe we are subject to the GDPR, and even if we were, it has numerous carve outs specifically for the kind of information we provide.
 
@@ -67,4 +67,4 @@ In conclusion, as explained in our Removal Policy, we have given extensive thoug
 [removal]: https://www.courtlistener.com/terms/#removal
 [roe]: https://www.courtlistener.com/opinion/108713/roe-v-wade/
 [miranda]: https://www.courtlistener.com/opinion/107252/miranda-v-arizona/
-[nonprofitdocs]: https://free.law/non-profit-documents/
+[nonprofitdocs]: {filename}/pages/non-profit-documents.md
