@@ -57,6 +57,62 @@ These rules call for numerous limitations such as non-redistribution, and limite
 Additional [examples of PACER fee waivers][waivers] can be found in the RECAP Archive.
 
 
+### What if I'm a government employee, say at the DOJ — Surely I don't pay PACER fees, right?
+
+This is a reasonable thought but even the DOJ must pay PACER fees. In fact, according to a [FOIA request placed in late 2017][doj], the DOJ has made the following annual PACER payments:
+
+<table class="table table-bordered table-condensed">
+    <thead>
+    <tr class="danger">
+        <th>Year</th>
+        <th>Amount</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr>
+        <td>2010</td>
+        <td>$1,554,641.92</td>
+    </tr>
+    <tr>
+        <td>2011</td>
+        <td>$1,742,514.76</td>
+    </tr>
+    <tr>
+        <td>2012</td>
+        <td>$1,918,149.77</td>
+    </tr>
+    <tr>
+        <td>2013</td>
+        <td>$4,596,026.64</td>
+    </tr>
+    <tr>
+        <td>2014</td>
+        <td>$4,317,820.96</td>
+    </tr>
+    <tr>
+        <td>2015</td>
+        <td>$3,152,377.52</td>
+    </tr>
+    <tr>
+        <td>2016</td>
+        <td>$3,341,286.56</td>
+    </tr>
+    <tr>
+        <td>2017</td>
+        <td>$3,862,912.86</td>
+    </tr>
+    </tbody>
+    <tfoot>
+    <tr class="active">
+        <td>Total (2010-2017)</td>
+        <td>$24,485,730.99</td>
+    </tr>
+    </tfoot>
+</table>
+
+Thank you to [Jonathan Rudenberg][titanous] for filing this FOIA and publishing the results.
+
+
 ### How many cases and documents are in PACER and how fast is it growing?
 
 We have two sources for this information. One source is the [2014 Annual Supreme Court Report][scotus-report], which said: 
@@ -201,3 +257,5 @@ Included in that information is the "Go Live Date" for each jurisdiction, but so
 [waivers]: https://www.courtlistener.com/?q=pacer+AND+(%22fee+waiver%22+OR+%22fee+exemption%22)&type=r&order_by=score+desc#
 [idb-facts]: {filename}/pages/idb-facts.md
 [cavc-pacer]: https://efiling.uscourts.cavc.gov/cmecf/servlet/TransportRoom?servlet=CaseSearch.jsp 
+[doj]: {filename}/pdf/doj-pacer-totals.pdf
+[titanous]: https://titanous.com/
