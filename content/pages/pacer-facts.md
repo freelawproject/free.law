@@ -59,7 +59,7 @@ Additional [examples of PACER fee waivers][waivers] can be found in the RECAP Ar
 
 ### What if I'm a government employee, say at the DOJ — Surely I don't pay PACER fees, right?
 
-This is a reasonable thought but even the DOJ must pay PACER fees. In fact, according to a [FOIA request placed in late 2017][doj], the DOJ has made the following annual PACER payments:
+This is a reasonable thought but even the DOJ must pay PACER fees. In fact, according to a [FOIA request placed in early 2015 and responded to in early 2018][doj], the DOJ has made the following annual PACER payments:
 
 <table class="table table-bordered table-condensed">
     <thead>
