@@ -5,7 +5,7 @@ Tags: GDPR, Privacy, Removal Requests
 
 <!-- PELICAN_BEGIN_SUMMARY -->
 
-Recently, we received a GDPR request from our domain registrar asking that we remove a court document from our database on CourtListener. It appears that [this is a growing problem for other legal publishers][techdirt] too, with techdirt doing a write up of the issue late last week:
+The General Data Protection Regulation (GDPR) is a sweeping new data protection and privacy law out of the EU. One of the things the GDPR includes is the ability of EU citizens to send "Right to Erasure" requests to websites, asking that those websites remove content that might be private. Recently, we received one of these requests from our domain registrar asking that we remove a court document from our database on CourtListener. It appears that [this is a growing problem for other legal publishers][techdirt] too, with techdirt doing a write up of the issue late last week:
 
 <blockquote class="twitter-tweet" data-partner="tweetdeck"><p lang="en" dir="ltr">GDPR Being Used To Try To Disappear Public US Court Docket <a href="https://t.co/PlXcm0wl4n">https://t.co/PlXcm0wl4n</a></p>&mdash; techdirt (@techdirt) <a href="https://twitter.com/techdirt/status/1043214365669961728?ref_src=twsrc%5Etfw">September 21, 2018</a></blockquote>
 <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
