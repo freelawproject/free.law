@@ -39,7 +39,7 @@ Some of the successes for those themes included:
  
  - Uploading [nearly our entire collection of PACER data][ia] to the Internet Archive for preservation and dissemination. (This effort is ongoing!)
  
-We also just received two of the spots in [the American Bar Association's list of top legal apps of 2018][aba] — one for RECAP and the other for CourtListener! 
+We also just received two spots on [the American Bar Association's list of top legal apps of 2018][aba] — one for RECAP and the other for CourtListener. 
 
 2018 has been busy!
 
@@ -52,11 +52,11 @@ We also just received two of the spots in [the American Bar Association's list o
 
 ## Please Support RECAP
 
-All of the achievements and initiatives above took considerable effort and we hope the results speak for themselves. Nine years after its creation, RECAP has never had more users, more data to share, or more functionality.
+All of the achievements and initiatives above took considerable effort. Nine years after its creation, RECAP has never had more users, more data to share, or more functionality.
 
-At the same time, we think RECAP has never been more more important. With your uploads, we have been able to host numerous dockets of historical significance. In 2018 the courts became more important than ever, and we were proud to be help the public see and follow the proceedings of these cases as they unfolded. 
+At the same time, we think RECAP has never been more more important. With your uploads, we have been able to host numerous dockets of historical significance. In 2018, the courts became more important than ever, and we were proud to help the public and the press follow these cases as they unfolded. 
 
-If you have benefited from our work this year or if you find our work valuable, we ask that you **please donate today**. Free Law Project is a California public benefit corporation and a federally recognized 501(c)(3) non-profit. 
+If you have benefited from our work this year, or if you find our work valuable, we ask that you **please donate today**. Free Law Project is a California public benefit corporation, and is a federally recognized 501(c)(3) non-profit. 
 
 All donations are tax deductible. 
 
