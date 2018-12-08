@@ -1,0 +1,11 @@
+---------- Forwarded message ---------
+Date: Wed, Dec 5, 2018 at 10:17 AM
+Subject: Notice from Southern Iowa BK Court
+
+NOTICE FROM THE UNITED STATES BANKRUPTCY COURT FOR THE SOUTHERN DISTRICT OF IOWA REGARDING THIRD-PARTY SERVICES AND SOFTWARE ACCESSING CASE INFORMATION AND DOCUMENTS IN CM/ECF
+
+Electronic filers should be cautious when using third-party services and software to collect and organize case filing data in matters in which you are involved. It is recommended that you not use such services and software when accessing restricted documents to avoid inadvertently redistributing those documents. Sharing your PACER account credentials with a third-party service provider or designating a provider as a secondary recipient of a Notice of Electronic Filing could result in giving access to sealed case filings or other restricted information. You are urged to use caution in your computer security practices to ensure that sealed documents to which you have access are not disclosed. Additionally, a third-party service may resell or republish case documents and information they obtain. Fee exempt users should not share the documents they obtain from PACER under the exemption because such exemptions apply only for limited purposes and any transfer of data obtained as a result of a fee exemption is prohibited unless expressly authorized by the court. If you have any questions, please call the Clerk's Office at 515-284-6230.
+
+ 
+
+This message was sent by the United States Courts
