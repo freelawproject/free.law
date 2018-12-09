@@ -42,18 +42,18 @@ Status: published
 
 <div class="media">
   <div class="media-left pull-left">
-    <a href="https://www.krinternetlaw.com/attorneys/ansel-halliburton-profile">
-      <img class="media-object" src="{filename}/images/ansel-150x150.jpg" alt="Ansel Halliburton Headshot">
-    </a>
+    <img class="media-object" src="{filename}/images/ansel-150x150.jpg" alt="Ansel Halliburton Headshot">
   </div>
   <div class="media-body">
     <h4 class="media-heading">Ansel Halliburton &ndash; Director</h4>
     <p>Ansel has been involved in legal technology since 2006, when he joined a
        team at Stanford Law School to help build a comprehensive database of
-       all federal intellectual property litigation. Now a lawyer, Ansel
-       practices technology law in San Francisco. Ansel holds degrees from
-       UC Berkeley and UC Davis School of Law, writes about technology and
-       security for <a href="https://lawyerist.com/author/ansel-halliburton/"><em>Lawyerist</em></a>,
+       all federal intellectual property litigation &mdash; work that later spun out
+       as Lex Machina. Ansel practiced technology law before co-founding
+       Syntexys, a document analytics software company spun out from
+       A<sup>3</sup> by Airbus. Ansel holds degrees from UC Berkeley and UC Davis
+       School of Law, writes about technology and security for
+       <a href="https://lawyerist.com/author/ansel-halliburton/"><em>Lawyerist</em></a>,
        and builds small robots.</p>
   </div>
 </div>
