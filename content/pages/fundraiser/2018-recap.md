@@ -5,7 +5,7 @@ Slug: fundraisers/2018/recap/
 
 <div class="row">
     <div class="col-xs-12 col-sm-8 col-md-9">
-        <p class="lead">The RECAP extensions are hosted by Free Law Project, a non-profit that is dedicated to opening legal data. We apologize for interrupting your day, but today once per year we ask for your support so we can continue hosting and enhancing the RECAP extensions.
+        <p class="lead">The RECAP extensions are hosted by Free Law Project, a non-profit that is dedicated to opening legal data. We apologize for interrupting your day, but once per year we ask for your support so we can continue hosting and enhancing the RECAP extensions.
         </p>
     </div>
     <div class="col-xs-12 col-sm-4 col-md-3">
