@@ -51,75 +51,88 @@ If the project is one that we also have on our roadmap, we can sometimes work to
 Getting started is very easy. Just [send us a brief email][c] with what you need. If it's something complicated, we'll arrange a call to talk. If not, we can often just start the work immediately. Many projects can be completed the same day they are requested.
 
 
-### Past Clients & Collaborators
+### Clients & Collaborators
 
 <div class="row">
     <div class="col-xs-12">
         <p>Among others, we have worked with <a href="https://en.wikipedia.org/wiki/Big_Four_accounting_firms" rel="nofollow" target="_blank">the biggest accounting firms in the world</a>, and the following companies, non-profits, and academic institutions:</p>
     </div>
-    <div class="col-xs-3">
+    <div class="col-xs-4">
         <p><a href="https://sociology.fas.harvard.edu/" rel="nofollow"
            target="_blank">
             <img src="{filename}/images/services-logos/harvard-sociology-logo.png"
                  alt="Harvard logo"
-                 class="img-responsive border">
+                 class="img-responsive">
         </a></p>
     </div>
-    <div class="col-xs-3">
+    <div class="col-xs-4">
         <p><a href="{filename}/dol-grant.md" rel="nofollow"
            target="_blank">
             <img src="{filename}/images/gsu.png"
                  alt="J. Mack Robinson School of Business at Georgia State University logo"
-                 class="img-responsive border">
+                 class="img-responsive">
         </a></p>
     </div>
-    <div class="col-xs-3">
+    <div class="col-xs-4">
         <p><a href="https://www.edhec.edu" rel="nofollow"
            target="_blank">
             <img src="{filename}/images/services-logos/edhec.png"
                  alt="EDHEC Business School"
-                 class="img-responsive border">
+                 class="img-responsive">
         </a></p>
     </div>
-    <div class="col-xs-3">
+</div>
+<div class="row">
+    <div class="col-xs-4">
         <p>
             <a href="https://komply.co" rel="nofollow"
                target="_blank">
                 <img src="{filename}/images/services-logos/komply.png"
                      alt="Komply Logo"
-                     class="img-responsive border">
+                     class="img-responsive">
             </a>
         </p>
     </div>
-</div>
-<div class="row">
-    <div class="col-xs-3">
+    <div class="col-xs-4">
         <p>
             <a href="https://imanage.com" rel="nofollow"
                target="_blank">
                 <img src="{filename}/images/services-logos/imanage.svg"
                      alt="iManage Logo"
-                     class="img-responsive border">
+                     class="img-responsive">
             </a>
         </p>
     </div>
-    <div class="col-xs-3">
+    <div class="col-xs-4">
+        <p>
+            <a href="https://cobaltmetrics.com/" rel="nofollow"
+               target="_blank">
+                <img src="{filename}/images/services-logos/cobaltmetrics.png"
+                     alt="Cobalt Metrics Logo"
+                     class="img-responsive">
+            </a>
+        </p>
+    </div>
+</div>
+<div class="row">
+    <div class="col-xs-2">
+    </div>
+    <div class="col-xs-4">
         <p><a href="https://empiricalscotus.com/" rel="nofollow"
            target="_blank">
             <img src="{filename}/images/services-logos/empirical-scotus.png"
                  alt="Empirical Scotus Logo"
-                 class="img-responsive border">
+                 class="img-responsive">
         </a></p>
     </div>
-    <div class="col-xs-3">
+    <div class="col-xs-4">
         <p><a href="https://buriedaliveproject.org/" rel="nofollow"
            target="_blank">
             <img src="{filename}/images/services-logos/buried-alive-project.png"
                  alt="Buried Alive Project Logo"
-                 class="img-responsive border">
+                 class="img-responsive">
         </a></p>
     </div>
-
 </div>
 
 [c]: {filename}/pages/contact.md
