@@ -1,4 +1,4 @@
-Title: Facts About PACER
+Title: Facts About PACER and CM/ECF
 Slug: pacer-facts
 
 <div class="right-image">
@@ -7,9 +7,9 @@ Slug: pacer-facts
          class="img-responsive border">
 </div>
 
-<p class="lead">PACER is a big and complex system with decades of history that's difficult to research or understand. For several years we have been trying to learn as much about it as we can.</p>
+<p class="lead">PACER and CM/ECF together form a big and complex system with decades of history that's difficult to research or understand. For several years we have been trying to learn as much about these systems as we can.</p>
 
-This page is an attempt to keep a record of interesting facts we have gathered about PACER. Where possible, we link to backup copies of various resources or provide links to the original sources.
+This page is an attempt to keep a record of interesting facts we have gathered about these systems. Where possible, we link to backup copies of various resources or provide links to the original sources.
 
 If you identify errors or omissions, [please get in touch][c]. 
 
