@@ -1,4 +1,4 @@
-Title: Please Support the RECAP Extensions in 2018
+Title: Sorry to Interrupt You. Please Support the RECAP Extensions
 Tags: fundraiser, 2018, RECAP
 Slug: fundraisers/2018/recap/
 
