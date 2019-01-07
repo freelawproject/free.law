@@ -50,6 +50,7 @@ STATIC_PATHS = [
 
 LINKS = (
     ('Donate to FLP', '/donate/'),
+    ('Our Sponsors', '/sponsors/'),
     ("Join our Newsletter", '/newsletter/'),
     ("Data Services", '/data-consulting/'),
     ('CourtListener', 'https://www.courtlistener.com/'),
