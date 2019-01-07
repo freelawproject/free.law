@@ -115,7 +115,13 @@ Getting started is very easy. Just [send us a brief email][c] with what you need
     </div>
 </div>
 <div class="row">
-    <div class="col-xs-2">
+    <div class="col-xs-4">
+        <p><a href="https://drugpatentwatch.com/" rel="nofollow"
+           target="_blank">
+            <img src="{filename}/images/services-logos/drugpatentwatch.png"
+                 alt="Drug Patent Watch Logo"
+                 class="img-responsive">
+        </a></p>
     </div>
     <div class="col-xs-4">
         <p><a href="https://empiricalscotus.com/" rel="nofollow"
