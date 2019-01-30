@@ -22,6 +22,14 @@ Thank you to all of our wonderful supporters for making our work possible and he
                  class="img-responsive">
         </a></p>
     </div>
+    <div class="col-xs-4">
+        <p><a href="http://www.komply.co/"
+           target="_blank">
+            <img src="{filename}/images/services-logos/komply.png"
+                 alt="Komply Logo"
+                 class="img-responsive">
+        </a></p>
+    </div>
 </div>
 <div class="clearfix"></div>
 
@@ -48,6 +56,14 @@ Thank you to all of our wonderful supporters for making our work possible and he
            target="_blank">
             <img src="{filename}/images/services-logos/courthouse-news.png"
                  alt="Courthouse News Service Logo"
+                 class="img-responsive">
+        </a></p>
+    </div>
+    <div class="col-xs-4">
+        <p><a href="https://www.lawyer.com"
+           target="_blank">
+            <img src="{filename}/images/services-logos/lawyer.com.png"
+                 alt="Lawyer.com Logo"
                  class="img-responsive">
         </a></p>
     </div>
