@@ -2,7 +2,6 @@ Title: We've Integrated the FJC Integrated Database into CourtListener
 Author: Michael Lissner
 Date: 2019-01-29
 Tags: Integrated Database, FJC, IDB
-Status: Draft
 
 
 The [Integrated Database][idb] provided by the [Federal Judicial Center][fjc] is one of the best-kept secrets in the world of legal information. Updated quarterly, it has metadata about *every* case in PACER (and many that are not), including civil, criminal, and bankruptcy cases. If the case is in PACER, this is often the only way to get in-depth metadata about it short of carefully reading the docket. The IDB is a treasure trove of data for researchers, litigants, and the public. 
