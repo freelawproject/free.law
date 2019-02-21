@@ -20,16 +20,16 @@ To fill these needs, we offer data services. Jobs are billed hourly or by projec
 <table class="table table-condensed">
     <tbody>
     <tr>
-        <td class="fit"><strong>Non-Profits</strong></td>
-        <td>$140/hour</td>
-    </tr>
-    <tr>
         <td class="fit"><strong>Researchers &amp; Academics</strong></td>
         <td>$140/hour</td>
     </tr>
     <tr>
         <td class="fit"><strong>Journalists</strong></td>
-        <td>$70-180/hour according to affilliation and project</td>
+        <td>$70-180/hour according to means and project</td>
+    </tr>
+    <tr>
+        <td class="fit"><strong>Non-Profits</strong></td>
+        <td>$140-180/hour according to means and project</td>
     </tr>
     <tr>
         <td class="fit"><strong>For-Profit Orgs</strong></td>
