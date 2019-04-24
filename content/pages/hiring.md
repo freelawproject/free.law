@@ -1,11 +1,22 @@
-Title: Current Positions We Have Open
+Title: Current Positions at Free Law Project
 Slug: hiring
 
-Free Law Project is a small but growing federal non-profit that uses technology to open up legal data and make it available to organizations, researchers, journalists, and individuals. Our mission, put simply, is to make the legal world more competitive. 
+Free Law Project is a small but growing non-profit that uses technology to open up legal data and make it available to organizations, researchers, journalists, and individuals. Our mission, put simply, is to make the legal world more competitive and accessible. 
+
+Questions or comments about the positions or about Free Law Project? Please contact: <a href="mailto:jobs@free.law">jobs@free.law</a>. We enthusiastically welcome emails as you are considering your application.
 
 We're thrilled you're considering joining us.
 
-Questions or comments? Please contact: <a href="mailto:jobs@free.law">jobs@free.law</a>.
+<div class="alert alert-info" role="alert">
+    <p><strong>Please do not include your name or other personally identifiable information on your résumé or cover letter</strong>. We intend to fill this role with as much race and gender blindness as possible.
+    </p>
+</div>
+
+<p class="text-center">
+    <a href="https://docs.google.com/forms/d/e/1FAIpQLSdbRrrOiKu74tgt7wJ1HEEz1XFRyn2XwYpIryxcB6aRJqd0_g/viewform?usp=sf_link" class="btn btn-lg btn-primary"><i class="fa fa-check"></i> Submit Your Application</a>
+</p>
+
+
 
 
 --------
@@ -44,13 +55,10 @@ The following are nice-to-haves:
  
  - Experience or interest in developing extensions for Chrome or Firefox
  
- - A gnawing frustration with the current legal ecosystem
- 
  - A degree from a law school, school of information, or school of library science (or similar experience)
  
-
-If you think you may be able to help us launch this system, please complete the Google form linked below. **Do not include your name or other personally identifiable information** on your résumé, as we are hoping to fill this role with as much race and gender blindness as possible. The form will ask your name, but will shield us from seeing it until we have completed your interview:
-
-<a href="https://docs.google.com/forms/d/e/1FAIpQLSdbRrrOiKu74tgt7wJ1HEEz1XFRyn2XwYpIryxcB6aRJqd0_g/viewform?usp=sf_link" class="btn btn-lg btn-primary">Get Started</a>
+ - A gnawing frustration with the current legal ecosystem
+ 
+If you think you may be able to help us launch this system, please submit your application above.
 
 Thank you!
