@@ -186,7 +186,11 @@ Yes! Mississippi [is using PACER][miss] for e-filing in their courts.
 
 Contrary to popular wisdom, PACER *does* have something resembling an API for some purposes:
 
- - There is an API that allows limited search of PACER metadata across jurisdictions. It doesn't allow you to download documents and it's limited in a few other ways as well. The documentation for this API is difficult to find, but we maintain [a mirror of it here][api-docs].
+ - There is an API, sort of, for the [PACER Case Locator (PCL)][pcl], that allows limited search of PACER metadata across jurisdictions. It only allows you to look up cases, and it is delayed by about a day (we believe it takes this long for the central search system to get the updates of the day). 
+ 
+     We've asked the AO to publish this documentation, but they either can't or won't, so we host it for them. Here's the [old version][api-docs], and [the new][api-docs-v3]. We post both of these because the old documentation has some information that was removed from the new. We informed the AO of this, but they've opted not to make documentation that is both complete *and* up to date. 
+     
+     This API has been declared "Legacy," and there are promises of a new system someday. At that point, we'll presumably host *that* documentation as well.
  
  - There is also [information about the XML formats returned by PACER][xml].
 
@@ -226,6 +230,7 @@ Included in that information is the "Go Live Date" for each jurisdiction, but so
 
 [c]: {filename}/pages/contact.md
 [api-docs]: {filename}/pdf/PACER-API-Documentation.pdf
+[api-docs-v3]: {filename}/pdf/PCL-legacy-API-v3.pdf
 [billion]: {filename}/pacer-billion-documents.md
 [scotus-report]: https://www.supremecourt.gov/publicinfo/year-end/2014year-endreport.pdf
 [court-list]: https://www.pacer.gov/psco/cgi-bin/links.pl
@@ -259,3 +264,4 @@ Included in that information is the "Go Live Date" for each jurisdiction, but so
 [cavc-pacer]: https://efiling.uscourts.cavc.gov/cmecf/servlet/TransportRoom?servlet=CaseSearch.jsp 
 [doj]: {filename}/pdf/doj-pacer-totals.pdf
 [titanous]: https://titanous.com/
+[pcl]: https://pcl.uscourts.gov/
