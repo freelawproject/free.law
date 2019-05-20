@@ -159,7 +159,28 @@ Many documents are not marked as opinions that should be. We know of no recourse
 
  - 75% of revenue comes from 1% of users, according to Robert Lowney, director of the PACER program. The implication here is that those 1% of users are likely bots.  
  
+
+### Who *runs* PACER and the CM/ECF help desk?
+
+PACER is officially run by the Administrative Office of the US Courts, but it's unclear how much of the actual *work* they do. It does seem like there is some number of admins within each jurisdiction handling upgrades and day-to-day server maintenance. From what we've gathered, the number of these people varies by the busyness of the court. In jurisdictions with slow courts (think: North Dakota, say), there can be just one person running both the bankruptcy and the district court. In others, it seems like they've got more robust staffing. 
+
+Outside of the day-to-day tasks and maintenance, much of the work seems to be outsourced to [Camber Corporation][camber]. In 2016, Camber Corporation was purchased by [Huntington Ingalls Industries][hi], the largest military shipbuilder in the United States. 
+
+Here's what we've been able to find about Camber Corp:
+
+ - This is their hiring page: <https://hii-mdis.jobs/jobs/?q=pacer>. Some titles we've seen pop up are Customer Service Analyst, System Administrator, and Security System Administrator.
  
+ - In 2013, they were involved in [a Fair Labor Standards Act lawsuit in W.D. Texas][flsa-suit]. This lawsuit indicates that one of their activities was arms manufacturing.
+     
+ - We've been unable to find their contract with the AO, but we did find [the bid solicitation for their contract with the AO][bid].
+ 
+ 
+[camber]: https://en.wikipedia.org/wiki/Camber_Corporation
+[hi]: https://en.wikipedia.org/wiki/Huntington_Ingalls_Industries
+[flsa-suit]: https://www.courtlistener.com/docket/4401011/burch-v-camber-corp/
+[bid]: https://www.uscourts.gov/sites/default/files/usca17r0021_0.pdf
+
+
 ### Has there ever been an effort to transfer PACER records to the National Archives?
  
 [It seems so][nara], but to our knowledge nothing has ever been transferred. More investigation is likely needed on this topic.
