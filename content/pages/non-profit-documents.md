@@ -31,11 +31,13 @@ Status: published
 
 ### Tax Documents
 
+ - [*2018* --- 990-EZ Tax Filing][tax-2018]
  - [*2017* --- 990-EZ Tax Filing][tax-2017]
  - [*2016* --- 990-EZ Tax Filing][tax-2016]
  - [*2015* --- 990-EZ Tax Filing][tax-2015]
  - [*2014* --- 990-N Tax Filing][tax-2014]
 
+[tax-2018]: {filename}/pdf/taxes/2018-990-EZ.pdf
 [tax-2017]: {filename}/pdf/taxes/2017-990-EZ.pdf
 [tax-2016]: {filename}/pdf/taxes/2016-990-EZ.pdf
 [tax-2015]: {filename}/pdf/taxes/2015-990-EZ.pdf
