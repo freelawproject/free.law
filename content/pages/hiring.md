@@ -5,10 +5,12 @@ Free Law Project is a small but growing non-profit that uses technology to open 
 
 Questions or comments about the positions or about Free Law Project? Please contact: <a href="mailto:jobs@free.law">jobs@free.law</a>. We enthusiastically welcome emails as you are considering your application.
 
+All of our positions are remote.
+
 We're thrilled you're considering joining us.
 
 <div class="alert alert-info" role="alert">
-    <p><strong>Please do not include your name or other personally identifiable information on your résumé or cover letter</strong>. We intend to fill this role with as much race and gender blindness as possible.
+    <p><strong>Please do not include your name or other personally identifiable information on your résumé or cover letter. Name your upload "resume.pdf", not "my-name.pdf".</strong> We intend to fill this role with as much race and gender blindness as possible and we need your help to pull it off.
     </p>
 </div>
 
@@ -21,18 +23,29 @@ We're thrilled you're considering joining us.
 
 --------
 
+# Open Positions
+
+Sadly there are no open positions at this time, but we welcome applications at any time. If you think you'd be a great fit for our mission or our technology, and if you found your way here, we'd love to hear from you. 
+ 
+
+# Closed Positions
+
 ## Open Data Backend Developer
 
-For this contract position, we are looking for somebody to help us launch a huge new collection of legal data. We expect this project to take around six months of part and full time work to develop and launch. If it is a success, we hope to hire as a full time employee whomever starts the project.
+For this contract position, we are looking for somebody to help us with two major initiatives that we expect to take around six months to complete. 
+
+The first initiative will be to gather and share a huge new collection of legal data that previously was only available behind a paywall. If successful, this project will collect millions of documents and make them freely available to the public.
+
+The second initiative is to finally audit and complete our case law database. For the first time in history, thanks to the tireless work of innumerable people, a free, audited, and complete collection of case law is possible. We have been working with librarians for years to gather the data needed for this project, have gotten the work funded, and now just need the right person to make it happen. Like Wikipedia, once this is done, it'll never need to be done again.
+
+If these projects are successful, we hope to hire you as a full time employee.
  
-We're looking for somebody that has expertise in the following:
+We're looking for somebody that has deep experience in the following:
 
  - Languages: Python, SQL
  
  - Database: Modeling, PostgreSQL
- 
- - Scraping: lxml, XPath, Python requests library, HTTP
- 
+  
  - APIs: Django REST Framework, Django ORM & migrations
  
 Excellent written communication and a demonstrated ability to work independently on larger technical projects are also important for this role.
@@ -48,6 +61,8 @@ Proficiency with the following is preferred, though expertise is not a must:
  
 
 The following are nice-to-haves:
+
+ - Scraping: lxml, XPath, Python requests, HTTP
 
  - Knowledge of the Github workflow and expertise with git
  
