@@ -91,6 +91,8 @@ These are blank according to policy set by the Judicial Conference of the U.S. I
          class="img-responsive border"/>
 </div>
 
+If you need these values, you *might* be able to obtain unredacted sources of the data from the [National Archive of Criminal Justice Data at University of Michigan][nacjd]. They appear to have this data in unredacted form, but getting access to it is extremely onerous.
+
 <script src="/js/anchor.min.js"></script>
 <script type="text/javascript">
     anchors.options = {
@@ -107,3 +109,4 @@ These are blank according to policy set by the Judicial Conference of the U.S. I
 [031995]: {filename}/pdf/judicial-conference-proceedings/1995-03.pdf 
 [032003]: {filename}/pdf/judicial-conference-proceedings/2003-03.pdf
 [possible]: https://github.com/freelawproject/juriscraper/blob/master/juriscraper/pacer/hidden_api.py#L13
+[nacjd]: https://www.icpsr.umich.edu/icpsrweb/NACJD/series/72/studies
