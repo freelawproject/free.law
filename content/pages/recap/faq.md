@@ -42,6 +42,8 @@ There are a handful of reasons why this could be. First, RECAP has an option to 
 
 If that's checked and things still don't seem to be working, the likely problem is that one of your other extensions is interacting with RECAP in a bad way. Lots of extensions change the way your browser works &mdash; some of them take away important features that RECAP relies on. Unfortunately, there's no way for us to detect which extensions you have installed, but so far we know that these will cause problems:
 
+ - **Drumpfinator** &mdash; This extension changes the word Trump to the word Drumpf in every webpage you see. Accordingly, it changes webpages on PACER, which you subsequently upload to us, and we've blocked this extension.
+
  - **MetaMask** &mdash; This is a bitcoin-related tool and it injects JavaScript into every page you view including those on PACER. That JavaScript causes problems we can't deal with.
  
  - **Fix Url Links Redirect** &mdash; This is a security-related extension that strips referer information that we rely on.
