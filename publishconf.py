@@ -28,7 +28,7 @@ RSS_FEED_SUMMARY_ONLY = False
 
 DELETE_OUTPUT_DIRECTORY = True
 
-PIWIK_URL = 'www.courtlistener.com/piwik/'
+PIWIK_URL = 'matomo.courtlistener.com/'
 PIWIK_SITE_ID = 2
 
 # Following items are often useful when publishing
