@@ -1,0 +1,113 @@
+Title: Vulnerability Disclosure Policy
+Slug: vulnerability-disclosure-policy
+
+<p class="lead">As a provider of legal data and services, Free Law Project takes seriously our responsibility to keep user information and systems safe and secure.</p> 
+
+We want security researchers to feel comfortable reporting vulnerabilities they've discovered. This policy describes **what systems and types of research** are covered under this policy, **how to send us** vulnerability reports, and **how long** we ask security researchers to wait before publicly disclosing vulnerabilities.
+
+
+### Guidelines
+
+We require that you:
+
+* Make every effort to avoid privacy violations, degradation of user experience, disruption to production systems, and destruction or manipulation of data.
+
+* Only use exploits to the extent necessary to confirm a vulnerability. Do not use an exploit to compromise or exfiltrate data, establish command line access and/or persistence, or use the exploit to "pivot" to other systems. Once you've established that a vulnerability exists, or encountered any of the sensitive data outlined below, you must stop your test and notify us immediately.
+
+* Keep confidential any information about discovered vulnerabilities for up to 90 calendar days after you have notified Free Law Project. For details, please review **[Coordinated Disclosure](#coordinated%C2%A0disclosure)**.
+
+### Scope
+
+This policy applies to the following systems:
+
+* [The RECAP Extensions][recap]
+
+* [`courtlistener.com`][cl] and related services such as its API or alerts
+
+* [`Our Data Replication System`][replication]
+
+* [`free.law`](https://free.law)
+
+* Non-public data on public third-party services — Free Law Project utilizes a number of third-party services to support its work model.  While non-public data published publicly on those services is in scope, testing those services is **not** in scope.
+
+**Any services not expressly listed above, such as any connected services, are excluded from scope** and are not authorized for testing. If you aren't sure whether a system or endpoint is in scope or not, contact us at <a href="mailto:&#115;&#101;&#099;&#117;&#114;&#105;&#116;&#121;&#064;&#102;&#114;&#101;&#101;&#046;&#108;&#097;&#119;">&#115;&#101;&#099;&#117;&#114;&#105;&#116;&#121;&#064;&#102;&#114;&#101;&#101;&#046;&#108;&#097;&#119;</a> before starting your research.
+
+Some of these systems may be eligible for [small bounties](#bounty%C2%A0program). 
+
+**The following test types are not authorized:**
+
+* User interface bugs or typos.
+* Network denial of service (DoS or DDoS) tests.
+* Physical testing (e.g. office access, open doors, tailgating), social engineering (e.g. phishing, vishing), or any other non-technical vulnerability testing.
+
+If you encounter any of the below on our systems while testing within the scope of this policy, **[stop your test and notify us](#reporting-a%C2%A0vulnerability) immediately**:
+
+* Personally identifiable information
+* Financial information (e.g. credit card or bank account numbers)
+* Proprietary information or trade secrets of companies of any party
+
+
+### Authorization
+
+If you make a good faith effort to comply with this policy during your security research, we will consider your research to be authorized, will work with you to understand and resolve the issue quickly, and we will not initiate or recommend legal action related to your research.
+
+Please contact us before engaging in conduct that may be inconsistent with or unaddressed by this policy.
+
+
+### Reporting a Vulnerability
+
+Please submit vulnerabilities to <a href="mailto:&#115;&#101;&#099;&#117;&#114;&#105;&#116;&#121;&#064;&#102;&#114;&#101;&#101;&#046;&#108;&#097;&#119;">&#115;&#101;&#099;&#117;&#114;&#105;&#116;&#121;&#064;&#102;&#114;&#101;&#101;&#046;&#108;&#097;&#119;</a>. Reports may be submitted anonymously.
+
+Reports should include:
+
+* Description of the location and potential impact of the vulnerability.
+
+* A detailed description of the steps required to reproduce the vulnerability. Proof of concept (POC) scripts, screenshots, and screen captures are all helpful. Please use extreme care to properly label and protect any exploit code.
+
+* Any technical information and related materials we would need to reproduce the issue.
+
+Please keep your vulnerability reports current by sending us any new information as it becomes available.
+
+We may share your vulnerability reports with [US-CERT](https://www.us-cert.gov/ais), as well as any affected vendors or open source projects.
+
+
+### Coordinated Disclosure
+
+Free Law Project is committed to patching vulnerabilities within 90 days or less, and disclosing the details of those vulnerabilities when patches are published. We believe that public disclosure of vulnerabilities is an essential part of the vulnerability disclosure process, and that one of the best ways to make software better is to enable everyone to learn from each other's mistakes.
+
+At the same time, we believe that disclosure in absence of a readily available patch tends to increase risk rather than reduce it, and so we ask that you refrain from sharing your report with others while we work on our patch. If you believe there are others that should be informed of your report before the patch is available, please let us know so we can make arrangements.
+
+We may want to coordinate an advisory with you to be published simultaneously with the patch, but you are also welcome to self-disclose if you prefer. By default, we prefer to disclose everything, but we will never publish information about you or our communications with you without your permission. In some cases, we may also have some sensitive information that should be redacted, and so please check with us before self-disclosing.
+
+
+### Bounty Program
+
+We are currently unable to provide financial rewards for those that make submissions according to this policy, but that does not stop us from showing our thanks. 
+
+Those that submit valid vulnerabilities will be thanked publicly, and will be rewarded with exclusive Free Law Project swag of their choice.
+
+
+### Policy History
+
+The complete history of this document, including unofficial edits, can be found online in our [repository for this website][flp-online]. The official versions and their notes are noted below.
+
+`2019-07-25` — First version published, pulling heavily from the [18F VDP][18f].
+
+
+[recap]: {filename}/pages/recap.md
+[cl]: https://www.courtlistener.com/
+[replication]: https://www.courtlistener.com/api/replication/
+[flp-online]: https://github.com/freelawproject/free.law/
+[18f]: https://github.com/18F/vulnerability-disclosure-policy/
+
+<script src="/js/anchor.min.js"></script>
+<script type="text/javascript">
+    anchors.options = {
+            'visible': 'touch',
+            'class': 'anchor',
+            'truncate': 40
+        };
+    document.addEventListener("DOMContentLoaded", function(event) {
+        anchors.add();
+    });
+</script>
