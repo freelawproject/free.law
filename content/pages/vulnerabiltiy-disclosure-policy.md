@@ -82,16 +82,26 @@ We may want to coordinate an advisory with you to be published simultaneously wi
 
 ### Bounty Program
 
-We are currently unable to provide financial rewards for those that make submissions according to this policy, but that does not stop us from showing our thanks. 
+Not all reported issues may qualify for a reward. Rewards are awarded at Free Law Project's sole discretion. As a small nonprofit we are unable to afford cash bounties (sorry!), but can offer non-cash rewards, including:
 
-Those that submit valid vulnerabilities will be thanked publicly, and will be rewarded with exclusive Free Law Project swag of their choice.
+* Public acknowledgement
+* Free Law Project gear (stickers, shirts, etc.)
+* Complimentary Free Law Project services
+* Opportunities to meet with Free Law Project staff
+* Complimentary tickets to Free Law Project events
+
+If you would like a particular reward, please let us know when you report the vulnerability. While the reward Free Law Project provides in exchange for disclosing a vulnerability under this policy will be up to the sole discretion of Free Law Project, we will certainly take your request into consideration.
+
+Please note that in some cases we will be unable to provide a physical reward if the shipping cost is prohibitively expensive, or if we have had difficulties shipping to your area before.
+
+Only the first report we receive about a given vulnerability will be rewarded. We cannot send rewards where prohibited by law (i.e. North Korea, Cuba, etc.).
 
 
 ### Policy History
 
 The complete history of this document, including unofficial edits, can be found online in our [repository for this website][flp-online]. The official versions and their notes are noted below.
 
-`2019-07-25` — First version published, pulling heavily from the [18F VDP][18f].
+`2019-07-25` — First version published, pulling heavily from the [18F VDP][18f] and the [Electronic Frontier Foundation bounty program][eff]. Thank you for your leadership! 
 
 
 [recap]: {filename}/pages/recap.md
@@ -99,6 +109,7 @@ The complete history of this document, including unofficial edits, can be found 
 [replication]: https://www.courtlistener.com/api/replication/
 [flp-online]: https://github.com/freelawproject/free.law/
 [18f]: https://github.com/18F/vulnerability-disclosure-policy/
+[eff]: https://www.eff.org/security
 
 <script src="/js/anchor.min.js"></script>
 <script type="text/javascript">
