@@ -8,7 +8,7 @@ You can contact us via email at:
 
 <!--
     This is a html-encoded email address link.
-    Damn the spammers.
+    Damn the spammers. See: http://www.wbwip.com/wbw/emailencoder.html
 -->
 <a href="mailto:&#105;&#110;&#102;&#111;&#064;&#102;&#114;&#101;&#101;&#046;&#108;&#097;&#119;" class="btn btn-lg btn-primary">&#105;&#110;&#102;&#111;&#064;&#102;&#114;&#101;&#101;&#046;&#108;&#097;&#119;</a>
 
