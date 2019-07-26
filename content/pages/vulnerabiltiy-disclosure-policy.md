@@ -36,7 +36,6 @@ Some of these systems may be eligible for [small bounties](#bounty%C2%A0program)
 
 **The following test types are not authorized as part of this policy:**
 
-* User interface bugs or typos.
 * Network denial of service (DoS or DDoS) tests.
 * Physical testing (e.g. office access, open doors, tailgating), social engineering (e.g. phishing, vishing), or any other non-technical vulnerability testing.
 
