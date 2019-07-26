@@ -24,6 +24,7 @@ efforts towards our mission:
 
 - Siddharth Agrawal
 - Jason Aller
+- Jon Andersen
 - Philip Ardery
 - Elliott Ash
 - Frank Bennett
