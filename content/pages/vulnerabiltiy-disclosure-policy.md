@@ -49,9 +49,16 @@ If you encounter any of the below on our systems while testing within the scope 
 
 ### Authorization
 
-If you make a good faith effort to comply with this policy during your security research, we will consider your research to be authorized, will work with you to understand and resolve the issue quickly, and we will not initiate or recommend legal action related to your research.
+When conducting vulnerability research according to this policy, we consider this research to be:
 
-Please contact us before engaging in conduct that may be inconsistent with or unaddressed by this policy.
+- Authorized in accordance with the Computer Fraud and Abuse Act (CFAA) (and/or similar state laws), and we will not initiate or support legal action against you for accidental, good faith violations of this policy;
+- Exempt from the Digital Millennium Copyright Act (DMCA), and we will not bring a claim against you for circumvention of technology controls;
+- Exempt from restrictions in our Terms & Conditions that would interfere with conducting security research, and we waive those restrictions on a limited basis for work done under this policy; and
+- Lawful, helpful to the overall security of the Internet, and conducted in good faith.
+
+You are expected, as always, to comply with all applicable laws.
+
+If at any time you have concerns or are uncertain whether your security research is consistent with this policy, please submit a report through one of our Official Channels before going any further.
 
 
 ### Reporting a Vulnerability
@@ -101,7 +108,7 @@ Only the first report we receive about a given vulnerability will be rewarded. W
 
 The complete history of this document, including unofficial edits, can be found online in our [repository for this website][flp-online]. The official versions and their notes are noted below.
 
-`2019-07-25` — First version published, pulling heavily from the [18F VDP][18f] and the [Electronic Frontier Foundation bounty program][eff]. Thank you for your leadership! 
+`2019-07-25` — First version published, pulling heavily from the [18F VDP][18f], the [Electronic Frontier Foundation bounty program][eff], and [disclose.io][https://disclose.io]. Thank you for your leadership! 
 
 
 [recap]: {filename}/pages/recap.md
