@@ -8,7 +8,7 @@ We want security researchers to feel comfortable reporting vulnerabilities they'
 
 ### Guidelines
 
-We require that you:
+For this policy to apply, we require that you:
 
 * Make every effort to avoid privacy violations, degradation of user experience, disruption to production systems, and destruction or manipulation of data.
 
@@ -34,7 +34,7 @@ This policy applies to the following systems:
 
 Some of these systems may be eligible for [small bounties](#bounty%C2%A0program). 
 
-**The following test types are not authorized:**
+**The following test types are not authorized as part of this policy:**
 
 * User interface bugs or typos.
 * Network denial of service (DoS or DDoS) tests.
