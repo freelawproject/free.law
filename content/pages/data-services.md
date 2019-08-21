@@ -33,7 +33,7 @@ To fill these needs, we offer data services. Jobs are billed hourly or by projec
     </tr>
     <tr>
         <td class="fit"><strong>For-Profit Orgs</strong></td>
-        <td>$170-220/hour</td>
+        <td>$170-750/hour</td>
     </tr>
     </tbody>
 </table>
