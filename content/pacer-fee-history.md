@@ -28,7 +28,7 @@ The first reference to PACER is in the **March, 1990** proceedings of the Judici
 </div>
 <div class="clearfix"></div>
 
-**March, 1991** --- The Judicial Conference learns that maintaining PACER accounts is impacting clerks' offices, and a 1-900 number is established at $1/minute.
+**March, 1991** -- The Judicial Conference learns that maintaining PACER accounts is impacting clerks' offices, and a 1-900 number is established at $1/minute.
 
 <div class="left-image">
     <a href="{filename}/pdf/judicial-conference-proceedings/1991-03.pdf">
@@ -40,7 +40,7 @@ The first reference to PACER is in the **March, 1990** proceedings of the Judici
 </div>
 <div class="clearfix"></div>
 
-**March, 1993** --- Federal agencies no longer get free PACER usage at district, bankruptcy, and appellate courts (except for, "those which receive funding from judiciary appropriations").
+**March, 1993** -- Federal agencies no longer get free PACER usage at district, bankruptcy, and appellate courts (except for, "those which receive funding from judiciary appropriations").
 
 <div class="left-image">
     <a href="{filename}/pdf/judicial-conference-proceedings/1993-03.pdf">
@@ -57,7 +57,7 @@ The first reference to PACER is in the **March, 1990** proceedings of the Judici
 </div>
 <div class="clearfix"></div>
 
-**September, 1993** --- Although the Judicial Conference believes that fees should be consistent across federal district, bankruptcy, and appeals courts, it is decided *not* to implement an electronic access fee at the appeals courts due to their use of a different system called "Appellate Court Electronic Services" née "Electronic Dissemination of Opinions System" (EDOS). This decision is reversed a year later.
+**September, 1993** -- Although the Judicial Conference believes that fees should be consistent across federal district, bankruptcy, and appeals courts, it is decided *not* to implement an electronic access fee at the appeals courts due to their use of a different system called "Appellate Court Electronic Services" née "Electronic Dissemination of Opinions System" (EDOS). This decision is reversed a year later.
 
 <div class="left-image">
     <a href="{filename}/pdf/judicial-conference-proceedings/1993-09.pdf">
@@ -74,7 +74,7 @@ The first reference to PACER is in the **March, 1990** proceedings of the Judici
 </div>
 <div class="clearfix"></div>
 
-**March, 1994** --- Federal agencies cease getting free electronic access to the Court of Federal Claims. This closes a gap since all other courts already have fees.
+**March, 1994** -- Federal agencies cease getting free electronic access to the Court of Federal Claims. This closes a gap since all other courts already have fees.
 
 <div class="left-image">
     <a href="{filename}/pdf/judicial-conference-proceedings/1994-03.pdf">
@@ -87,7 +87,7 @@ The first reference to PACER is in the **March, 1990** proceedings of the Judici
 <div class="clearfix"></div>
 
 
-**September, 1994** --- Electronic access fees are now applied to appellate courts as well. The exemption for federal agencies is clarified.
+**September, 1994** -- Electronic access fees are now applied to appellate courts as well. The exemption for federal agencies is clarified.
 
 <div class="left-image">
     <a href="{filename}/pdf/judicial-conference-proceedings/1994-09.pdf">
@@ -105,7 +105,7 @@ The first reference to PACER is in the **March, 1990** proceedings of the Judici
 <div class="clearfix"></div>
 
 
-**March, 1995** --- Numerous changes to fees are made. The per minute usage fee is reduced to 75¢ per minute. The policy for fee waivers is clarified. A policy is established that courts should not be reimbursed for electronic access costs accrued outside of the new policy.  
+**March, 1995** -- Numerous changes to fees are made. The per minute usage fee is reduced to 75¢ per minute. The policy for fee waivers is clarified. A policy is established that courts should not be reimbursed for electronic access costs accrued outside of the new policy.  
 
 <div class="left-image">
     <a href="{filename}/pdf/judicial-conference-proceedings/1995-03.pdf">
@@ -128,7 +128,7 @@ The first reference to PACER is in the **March, 1990** proceedings of the Judici
 <div class="clearfix"></div>
 
 
-**March, 1996** --- The electronic access fee is reduced from 75¢ to 60¢ per minute.
+**March, 1996** -- The electronic access fee is reduced from 75¢ to 60¢ per minute.
 
 <div class="left-image">
     <a href="{filename}/pdf/judicial-conference-proceedings/1996-03.pdf">
@@ -141,7 +141,7 @@ The first reference to PACER is in the **March, 1990** proceedings of the Judici
 <div class="clearfix"></div>
 
 
-**March, 1997** --- The fee for mailing labels is repealed given that they are no longer provided by most courts, having been replaced by PACER.
+**March, 1997** -- The fee for mailing labels is repealed given that they are no longer provided by most courts, having been replaced by PACER.
 
 <div class="left-image">
     <a href="{filename}/pdf/judicial-conference-proceedings/1997-03.pdf">
@@ -154,7 +154,7 @@ The first reference to PACER is in the **March, 1990** proceedings of the Judici
 <div class="clearfix"></div>
 
 <span id="opinions-made-free"></span>
-**September, 1998** --- The first modern fee is born with the "introduction of Internet technology to the judiciary's...public access system." The rate is set at 7¢/page. Some types of data are made free, including "opinions designated by the court for publication."
+**September, 1998** -- The first modern fee is born with the "introduction of Internet technology to the judiciary's...public access system." The rate is set at 7¢/page. Some types of data are made free, including "opinions designated by the court for publication."
 
 <div class="left-image">
     <a href="{filename}/pdf/judicial-conference-proceedings/1998-09.pdf">
@@ -172,7 +172,7 @@ The first reference to PACER is in the **March, 1990** proceedings of the Judici
 <div class="clearfix"></div>
 
 
-**September, 2000** --- The fee schedule is amended to make it clear that it applies to "all case-related documents."
+**September, 2000** -- The fee schedule is amended to make it clear that it applies to "all case-related documents."
 
 <div class="left-image">
     <a href="{filename}/pdf/judicial-conference-proceedings/2000-09.pdf">
@@ -185,7 +185,7 @@ The first reference to PACER is in the **March, 1990** proceedings of the Judici
 <div class="clearfix"></div>
 
 
-**March, 2001** --- Simplification and better centralization of the fee schedules. "One free look" introduced for "attorneys of record and parties in a case." $10/year fee forgiveness is introduced. Reduced fees for printing at public access terminals. New fee of $20 is introduced for PACER Service center staff to perform searches on behalf of people that do not have PACER accounts.
+**March, 2001** -- Simplification and better centralization of the fee schedules. "One free look" introduced for "attorneys of record and parties in a case." $10/year fee forgiveness is introduced. Reduced fees for printing at public access terminals. New fee of $20 is introduced for PACER Service center staff to perform searches on behalf of people that do not have PACER accounts.
 
 <div class="left-image">
     <a href="{filename}/pdf/judicial-conference-proceedings/2001-03.pdf">
@@ -203,7 +203,7 @@ The first reference to PACER is in the **March, 1990** proceedings of the Judici
 <div class="clearfix"></div>
 
 
-**March, 2002** --- A cap is created such that users are only be billed for the first 30 pages of a document. At the time this meant $2.10 maximum per document.
+**March, 2002** -- A cap is created such that users are only be billed for the first 30 pages of a document. At the time this meant $2.10 maximum per document.
 
 <div class="left-image">
     <a href="{filename}/pdf/judicial-conference-proceedings/2002-03.pdf">
@@ -216,7 +216,7 @@ The first reference to PACER is in the **March, 1990** proceedings of the Judici
 <div class="clearfix"></div>
 
 
-**September, 2003** --- Clarifications around fee waivers. 30 page cap introduced in March, 2002 is also applied to docket and case-specific reports, but not to transcripts, since that would result "in a transcript cost that is inconsistent with the current cost of obtaining those transcripts."
+**September, 2003** -- Clarifications around fee waivers. 30 page cap introduced in March, 2002 is also applied to docket and case-specific reports, but not to transcripts, since that would result "in a transcript cost that is inconsistent with the current cost of obtaining those transcripts."
 
 <div class="left-image">
     <a href="{filename}/pdf/judicial-conference-proceedings/2003-09.pdf">
@@ -229,7 +229,7 @@ The first reference to PACER is in the **March, 1990** proceedings of the Judici
 <div class="clearfix"></div>
 
 
-**September, 2004** --- Fees are increased from 7¢ to 8¢ per page, "in order to provide sufficient revenue to fully fund currently identified case management/electronic case files system costs."
+**September, 2004** -- Fees are increased from 7¢ to 8¢ per page, "in order to provide sufficient revenue to fully fund currently identified case management/electronic case files system costs."
 
 <div class="left-image">
     <a href="{filename}/pdf/judicial-conference-proceedings/2004-09.pdf">
@@ -242,7 +242,7 @@ The first reference to PACER is in the **March, 1990** proceedings of the Judici
 <div class="clearfix"></div>
 
 
-**March, 2006** --- New fees for paper reproductions and bounced checks. Search fees performed by PACER staff are now $26, up from $20.
+**March, 2006** -- New fees for paper reproductions and bounced checks. Search fees performed by PACER staff are now $26, up from $20.
 
 <div class="left-image">
     <a href="{filename}/pdf/judicial-conference-proceedings/2006-03.pdf">
@@ -255,7 +255,7 @@ The first reference to PACER is in the **March, 1990** proceedings of the Judici
 <div class="clearfix"></div>
 
 
-**September, 2006** --- Those with fee waivers can no longer redistribute documents at no cost.
+**September, 2006** -- Those with fee waivers can no longer redistribute documents at no cost.
 
 <div class="left-image">
     <a href="{filename}/pdf/judicial-conference-proceedings/2006-09.pdf">
@@ -268,7 +268,7 @@ The first reference to PACER is in the **March, 1990** proceedings of the Judici
 <div class="clearfix"></div>
 
 
-**September, 2007** --- A pilot project at 15 GPO depository libraries is launched providing free public access to court records in PACER. *Pro bono* attorneys are now considered "among those individuals who may...be exempted from EPA fees."
+**September, 2007** -- A pilot project at 15 GPO depository libraries is launched providing free public access to court records in PACER. *Pro bono* attorneys are now considered "among those individuals who may...be exempted from EPA fees."
 
 <div class="left-image">
     <a href="{filename}/pdf/judicial-conference-proceedings/2007-09.pdf">
@@ -285,7 +285,7 @@ The first reference to PACER is in the **March, 1990** proceedings of the Judici
 </div>
 <div class="clearfix"></div>
 
-**March, 2008** --- The fee schedule is amended to remove dial-up fees, "because of expanded accessibility through the internet."
+**March, 2008** -- The fee schedule is amended to remove dial-up fees, "because of expanded accessibility through the internet."
 
 <div class="left-image">
     <a href="{filename}/pdf/judicial-conference-proceedings/2008-03.pdf">
@@ -298,7 +298,7 @@ The first reference to PACER is in the **March, 1990** proceedings of the Judici
 <div class="clearfix"></div>
 
 
-**March, 2010** --- The $10/year fee exemption is amended to allow $10/quarter of fee exemptions.
+**March, 2010** -- The $10/year fee exemption is amended to allow $10/quarter of fee exemptions.
 
 <div class="left-image">
     <a href="{filename}/pdf/judicial-conference-proceedings/2010-03.pdf">
@@ -311,7 +311,7 @@ The first reference to PACER is in the **March, 1990** proceedings of the Judici
 <div class="clearfix"></div>
 
 
-**September, 2010** --- A new training program is launched including $50 of free quarterly usage for participating libraries.
+**September, 2010** -- A new training program is launched including $50 of free quarterly usage for participating libraries.
 
 <div class="left-image">
     <a href="{filename}/pdf/judicial-conference-proceedings/2010-09.pdf">
@@ -337,6 +337,17 @@ The first reference to PACER is in the **March, 1990** proceedings of the Judici
 <div class="clearfix"></div>
 
 
+**September, 2019** -- The free tier [is doubled from $15/quarter to $30/quarter][201909announce]. 
+<div class="left-image">
+    <a href="{filename}/pdf/judicial-conference-proceedings/2019-09.pdf">
+        <img src="{filename}/images/pacer-fee-history/2019-09.png"
+             alt="Screenshot of PACER fee changes"
+             class="img-responsive border">
+    </a>
+    <p class="caption"><strong>Source:</strong> Proceedings of the Judicial Conference, September, 2019.</p>
+</div>
+
 [c]: {filename}/pages/contact.md
 [jc]: http://www.uscourts.gov/about-federal-courts/governance-judicial-conference
 [pro]: http://www.uscourts.gov/about-federal-courts/reports-proceedings-judicial-conference-us
+[201909announce]: https://www.uscourts.gov/news/2019/09/17/judiciary-adopts-new-model-edr-plan-doubles-fee-waiver-pacer
