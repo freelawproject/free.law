@@ -107,7 +107,7 @@ Only the first report we receive about a given vulnerability will be rewarded. W
 
 The complete history of this document, including unofficial edits, can be found online in our [repository for this website][flp-online]. The official versions and their notes are noted below.
 
-`2019-07-25` — First version published, pulling heavily from the [18F VDP][18f], the [Electronic Frontier Foundation bounty program][eff], and [disclose.io][https://disclose.io]. Thank you for your leadership! 
+`2019-07-25` — First version published, pulling heavily from the [18F VDP][18f], the [Electronic Frontier Foundation bounty program][eff], and [disclose.io](https://disclose.io). Thank you for your leadership! 
 
 
 [recap]: {filename}/pages/recap.md
