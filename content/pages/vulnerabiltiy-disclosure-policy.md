@@ -1,4 +1,4 @@
-Title: Vulnerability Disclosure Policy
+Title: Vulnerability Disclosure Policy and Bounty Program
 Slug: vulnerability-disclosure-policy
 
 <p class="lead">As a provider of legal data and services, Free Law Project takes seriously our responsibility to keep user information and systems safe and secure.</p> 
@@ -110,6 +110,14 @@ The complete history of this document, including unofficial edits, can be found 
 `2019-07-25` — First version published, pulling heavily from the [18F VDP][18f], the [Electronic Frontier Foundation bounty program][eff], and [disclose.io](https://disclose.io). Thank you for your leadership! 
 
 
+### Public Acknowledgements
+
+We thank the following individuals for their assistance reporting and fixing vulnerabilities in our systems:
+
+ - Ankit Thakur - [Open redirect on successful registration][1021] (2019-10-01)
+
+
+[1021]: https://github.com/freelawproject/courtlistener/issues/1021
 [recap]: {filename}/pages/recap.md
 [cl]: https://www.courtlistener.com/
 [replication]: https://www.courtlistener.com/api/replication/
