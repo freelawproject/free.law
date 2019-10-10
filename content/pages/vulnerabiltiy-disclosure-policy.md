@@ -45,6 +45,10 @@ If you encounter any of the below on our systems while testing within the scope 
 * Financial information (e.g. credit card or bank account numbers)
 * Proprietary information or trade secrets of companies of any party
 
+The following security enhancements are not currently planned:
+
+* DNSSEC
+
 
 ### Authorization
 
@@ -115,6 +119,8 @@ The complete history of this document, including unofficial edits, can be found 
 We thank the following individuals for their assistance reporting and fixing vulnerabilities in our systems:
 
  - Ankit Thakur - [Open redirect on successful registration][1021] (2019-10-01)
+ 
+ - Ratnadip Gajbhiye - Subdomain takeover attack at mail.courtlistener.com (2019-10-09)
 
 
 [1021]: https://github.com/freelawproject/courtlistener/issues/1021
