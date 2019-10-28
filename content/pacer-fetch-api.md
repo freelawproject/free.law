@@ -48,12 +48,26 @@ There are several variations and approaches that you can learn about in our [doc
 
 Well, for one thing, if you want PACER content in JSON format, now you can easily get it. You don't have to set up crawling infrastructure. You don't have to  write crawlers (or use [ours][js]). You don't really have to do *much* beyond creating a PACER account and sending us API requests. Just ask for what you want, then crawl the response when it appears in our APIs. We have literally hundreds of regression tests on our parsers. Trust us that you don't want to be in the crawling business if you can avoid it.
 
-
 ### 2. Will this always be free?
 
 That's our goal. Our thinking is that if you want to use our tools (like the RECAP Extensions or these APIs) to add content to the RECAP Archive, that benefits everybody and is so well-aligned with our mission that we shouldn't stand in your way. 
 
-### 3. How do I get started? Do I need to sign up? 
+### 3. How secure is this? I give you my password???
+
+Yes, unfortunately the only way to make this work is for you to share your password with us. But:
+
+1. Your password is [fully encrypted][ssllabs] in transit to us.
+
+1. Once we get your password, we immediately use it to log into PACER and get cookies for your account. We then delete your credentials, keeping only the cookies. We never store or log your credentials, so they're typically only on our system for a few seconds. We don't have any columns in our database for your PACER credentials.
+
+1. We save your cookies for one hour with an automatic expiration. After that time, we will need your username and password again.
+
+1. We are leading the legal industry by having a [vulnerability disclosure policy and bug bounty program][vdp]. 
+
+For more on this topic, please see [the security documentation on our website][security]. 
+
+
+### 4. How do I get started? Do I need to sign up? 
 
 Here's the documentation:
 
@@ -68,3 +82,6 @@ We can't want to see how people use these APIs.
 [js]: https://github.com/freelawproject/juriscraper
 [recap]: https://www.courtlistener.com/recap/
 [recap-ex]: https://free.law/recap/
+[security]: https://www.courtlistener.com/api/rest-info/#security-of-recap-fetch-api
+[vdp]: {filename}/pages/vulnerabiltiy-disclosure-policy.md
+[ssllabs]: https://www.ssllabs.com/ssltest/analyze.html?d=courtlistener.com
