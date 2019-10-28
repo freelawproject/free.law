@@ -18,11 +18,28 @@ If you use PACER, install RECAP. Once installed, every docket or PDF you purchas
 
 <!-- PELICAN_END_SUMMARY -->
 
-Tens of thousands of people have used RECAP. To join them, simply install it using the button above, and then use PACER as you normally would. It's that simple.
+Tens of thousands of people have used RECAP. To join them, simply install it using the button above, and then use PACER as you normally would. It's that simple. If you don't like it, you can uninstall at any time. 
+
+Have questions? [We're here to help][c].
 
 <div class="text-center">
-  <a href="/recap/screenshots/" class="btn btn-primary btn-lg">See How It Works</a>
+  <a href="/recap/screenshots/" class="btn btn-primary btn-lg">See Screenshots</a>
 </div>
+
+
+### The Archives and APIs
+
+Thanks to our users and our [data consulting projects][data], the [RECAP Archive][archive] contains tens of millions of PACER documents, including [every free opinion in PACER][free]. Everything in the archive is fully searchable, including millions of pages that were originally scanned PDFs.
+
+Everything that is in the RECAP Archive is also regularly uploaded to [the Internet Archive][ia-itself], where it has [a lasting home][ia]. This amounts to thousands of liberated documents daily.
+
+Finally, we make the RECAP Archive available via an API or as bulk data for journalists, researchers, startups, and developers.
+
+<div class="text-center">
+<a href="https://www.courtlistener.com/recap/" class="btn btn-primary btn-lg">Visit the RECAP Archive</a>&nbsp;
+<a href="https://www.courtlistener.com/api/" class="btn btn-primary btn-lg">Read about the RECAP APIs</a>
+</div>
+<br>
 
 
 ### What People are Saying
@@ -45,19 +62,7 @@ Tens of thousands of people have used RECAP. To join them, simply install it usi
 <p class="text-center"><a href="/recap/quotes/" class="btn btn-primary btn-lg">Read More Testimonials</a></p>
 <br>
 
-### The Archives and APIs
 
-Thanks to our users and our [data consulting projects][data], the [RECAP Archive][archive] contains tens of millions of PACER documents, including [every free opinion in PACER][free]. Everything in the archive is fully searchable, including millions of pages that were originally scanned PDFs.
-
-Everything that is in the RECAP Archive is also regularly uploaded to [the Internet Archive][ia-itself], where it has [a lasting home][ia]. This amounts to thousands of liberated documents daily.
-
-Finally, we make the RECAP Archive available via an API or as bulk data for journalists, researchers, startups, and developers.
-
-<div class="text-center">
-<a href="https://www.courtlistener.com/recap/" class="btn btn-primary btn-lg">Visit the RECAP Archive</a>&nbsp;
-<a href="https://www.courtlistener.com/api/" class="btn btn-primary btn-lg">Read about the RECAP APIs</a>
-</div>
-<br>
 
 
 ## History
@@ -90,7 +95,7 @@ document.addEventListener("DOMContentLoaded", function(event) {
   let isSafari = /constructor/i.test(window.HTMLElement) || (function (p) { return p.toString() === "[object SafariRemoteNotification]"; })(!window['safari'] || (typeof safari !== 'undefined' && safari.pushNotification));
   let isIE = /*@cc_on!@*/false || !!document.documentMode;
   let isEdge = !isIE && !!window.StyleMedia;
-  let isChrome = !!window.chrome && !!window.chrome.webstore;
+  let isChrome = !!window.chrome && !!window.chrome.webstore;;
   
   // Will need updating if we add more buttons
   if (isChrome) {
