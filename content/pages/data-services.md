@@ -6,7 +6,7 @@ Summary: Legal Data Services and Consulting from Free Law Project, a 501(c)(3)
 
 <div class="row">
     <div class="col-xs-12 col-sm-8 col-md-9">
-        <p class="lead">Need bulk PACER data? Can't find what you need using our APIs? Too hard to process the data yourself? Free Law Project provides data gathering, customized research, and reports for modest fees.</p>
+        <p class="lead">Need bulk PACER data? Can't find what you need using our APIs? Too hard to process the data yourself? Free Law Project provides data gathering, customized research, and reports for modest fees. We are able to join NSF grant proposals.</p>
     </div>
     <div class="col-xs-12 col-sm-4 col-md-3">
         <span class="pull-right"><a href="{filename}/pages/contact.md" class="btn btn-lg btn-danger">Contact Us</a></span>
