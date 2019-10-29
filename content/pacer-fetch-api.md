@@ -5,7 +5,7 @@ Tags: PACER, APIs
 Status: Draft
 
 
-Until today, if you wanted to add something to the [RECAP Archive on CourtListener][recap], you had only one option: Use the [RECAP Extensions][recap-ex] to purchase the item from PACER, and let the extensions do the upload on your behalf. While that works well, many of our users — especially those that use our APIs — have asked for something more. Could we provide an API for them to more easily get PDFs and dockets from PACER? As of today, the answer is finally yes. Starting today, we have [a new free API][docs] released in Beta that anybody can use to get dockets and PDFs from PACER and add them to our website, APIs, and replication systems. 
+Until today, if you wanted to add something to the [RECAP Archive on CourtListener][recap], you had only one option: Use the [RECAP Extensions][recap-ex] to purchase the item from PACER, and let the extensions do the upload on your behalf. While that works well, many of our users — especially those that use our APIs — have asked for something more. Could we provide an API for them to more easily get PDFs and dockets from PACER? As of today, with the support of [the employment law firm Jet.law][jl], the answer is finally yes. Starting today, we have [a new free API][docs] released in Beta that anybody can use to get dockets and PDFs from PACER and add them to our website, APIs, and replication systems. 
 
 This is a tool for the techies, so here's how it works. Let's say you want a docket from PACER. Get it with:
 
@@ -95,3 +95,4 @@ We can't want to see how people use these APIs.
 [vdp]: {filename}/pages/vulnerabiltiy-disclosure-policy.md
 [ssllabs]: https://www.ssllabs.com/ssltest/analyze.html?d=courtlistener.com
 [tashea]: http://www.abajournal.com/lawscribbler/article/forgoing-bug-bounties-and-disclosure-policies-legal-tech-leaves-lawyers-vulnerable
+[jl]: https://www.jet.law
