@@ -1,8 +1,7 @@
 Title: Announcing our new PACER Fetch APIs
 Author: Michael Lissner
-Date: 2019-10-28
+Date: 2019-11-05
 Tags: PACER, APIs
-Status: Draft
 
 
 Until today, if you wanted to add something to the [RECAP Archive on CourtListener][recap], you had only one option: Use the [RECAP Extensions][recap-ex] to purchase the item from PACER, and let the extensions do the upload on your behalf. While that works well, many of our users — especially those that use our APIs — have asked for something more. Could we provide an API for them to more easily get PDFs and dockets from PACER? As of today, with the support of [the employment law firm Jet.law][jl], the answer is finally yes. Starting today, we have [a new free API][docs] released in Beta that anybody can use to get dockets and PDFs from PACER and add them to our website, APIs, and replication systems. 
@@ -54,7 +53,7 @@ That's our goal. Our thinking is that if you want to use our tools (like the REC
 
 ### 3. How secure is this? I give you my password???
 
-Yes, unfortunately the only way to make this work is for you to share your password with us. But:
+Unfortunately the only way to make this work is for you to share your password with us. But:
 
 1. Your password is [fully encrypted][ssllabs] in transit to us.
 
@@ -71,9 +70,9 @@ For more on this topic, please see [the security documentation on our website][s
 
 We aim to get each download done in a second or two, with many concurrent requests possible simultaneously. A request may take longer depending on a few things though:
 
- - Some PACER websites are faster than others. Typically, more populous jurisdictions seem to have better PACER servers.
+ - Some PACER websites are faster than others. Typically, more populous jurisdictions seem to have better PACER servers. Business hours are worse than after hours, etc.
  - Some PACER dockets, particularly large ones or ones with hundreds of parties, can be exceedingly slow. This API lets you download truly huge dockets that can take a very long time for PACER to generate and serve.
- - We extract text from every PDF we get. If OCR is needed, that usually takes about one second per page.
+ - We extract text from every PDF we get. If OCR is needed, that usually takes about one second per page, though the item will be in our database while OCR is being computed.
 
 
 ### 5. How do I get started? Do I need to sign up? 
