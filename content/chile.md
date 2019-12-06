@@ -2,7 +2,6 @@ Title: Free Law Project Participates in Chilean Judicial Modernization Initiativ
 Author: Michael Lissner
 Date: 2019-12-05
 Tags: Chile, Modernization, Openness, Government, Docassemble, Agile, Neutral Citations
-Status: Draft
 
 
 <div class="right-image">
