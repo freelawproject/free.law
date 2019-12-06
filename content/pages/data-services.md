@@ -111,6 +111,14 @@ Getting started is very easy. Just [send us a brief email][c] with what you need
 </div>
 <div class="row v-offset-above-2 vertical-align">
     <div class="col-xs-4">
+        <p><a href="https://www.onelegal.com/" rel="nofollow"
+           target="_blank">
+            <img src="{filename}/images/services-logos/one-legal.png"
+                 alt="One Legal Logo"
+                 class="img-responsive center-block">
+        </a></p>
+    </div>
+    <div class="col-xs-4">
         <p>
             <a href="https://komply.co" rel="nofollow"
                target="_blank">
@@ -130,6 +138,8 @@ Getting started is very easy. Just [send us a brief email][c] with what you need
             </a>
         </p>
     </div>
+</div>
+<div class="row v-offset-above-2 vertical-align">
     <div class="col-xs-4">
         <p><a href="https://fdd.org/" rel="nofollow"
            target="_blank">
@@ -138,8 +148,6 @@ Getting started is very easy. Just [send us a brief email][c] with what you need
                  class="img-responsive center-block">
         </a></p>
     </div>
-</div>
-<div class="row v-offset-above-2 vertical-align">
     <div class="col-xs-4">
         <p>
             <a href="https://cobaltmetrics.com/" rel="nofollow"
@@ -158,7 +166,9 @@ Getting started is very easy. Just [send us a brief email][c] with what you need
                  class="img-responsive center-block">
         </a></p>
     </div>
-    <div class="col-xs-4">
+</div>
+<div class="row v-offset-above-3 vertical-align">
+    <div class="col-xs-6">
         <p><a href="https://empiricalscotus.com/" rel="nofollow"
            target="_blank">
             <img src="{filename}/images/services-logos/empirical-scotus.png"
@@ -166,10 +176,7 @@ Getting started is very easy. Just [send us a brief email][c] with what you need
                  class="img-responsive center-block">
         </a></p>
     </div>
-</div>
-<div class="row v-offset-above-2 vertical-align">
-    <div class="col-xs-4"></div>
-    <div class="col-xs-4">
+    <div class="col-xs-6">
         <p><a href="https://buriedaliveproject.org/" rel="nofollow"
            target="_blank">
             <img src="{filename}/images/services-logos/buried-alive-project.png"
@@ -177,7 +184,6 @@ Getting started is very easy. Just [send us a brief email][c] with what you need
                  class="img-responsive center-block">
         </a></p>
     </div>
-    <div class="col-xs-4"></div>
 </div>
 
 [c]: {filename}/pages/contact.md
