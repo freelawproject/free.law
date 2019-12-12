@@ -63,3 +63,6 @@ target/
 /output/
 /free.law.iml
 /.idea/
+
+# Pelican
+/cache/
