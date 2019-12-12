@@ -15,7 +15,7 @@ By using this software, you will use your API key to gather items from the Harva
 
 2. Run the docker image with:
 
-        sudo docker run -e CAP_API_KEY="KEY_GOES_HERE" --restart unless-stopped freelawproject/case-law-access-project-client
+        sudo docker run -e CAP_API_KEY="KEY_GOES_HERE" --restart always freelawproject/case-law-access-project-client
 
 
 ## The Long Version
@@ -33,16 +33,16 @@ Before beginning, you must:
 
 Once the prerequisites are satisfied, to run via Docker, simply run the following command, replacing `KEY_GOES_HERE` with your API key:
 
-    sudo docker run -e CAP_API_KEY="KEY_GOES_HERE" --restart unless-stopped freelawproject/case-law-access-project-client
+    sudo docker run -e CAP_API_KEY="KEY_GOES_HERE" --restart always freelawproject/case-law-access-project-client
     
 If you have Docker set up to allow non-root users to run docker commands you can omit the `sudo` portion (this is the default for Docker Desktop).
 
-Docker runs in "attached" mode, which means it will retain control over the terminal and output all messages to the terminal (standard out). We recommend testing the container by running it in attached mode the first time, which should display messages indicating that cases are being downloaded. After confirming it works, you may quit the container and rerun it in detached mode by passing the `-d` flag to the run command:
+Docker runs in "attached" mode, which means it will retain control over the terminal and output all messages to the terminal (standard out). We recommend testing the container by running it in attached mode the first time, which should display messages indicating that cases are being downloaded. After confirming it works, you may quit the container (CTRL+C) and rerun it in detached mode by passing the `-d` flag to the run command:
 
-    sudo docker run -d -e CAP_API_KEY="KEY_GOES_HERE" --restart unless-stopped freelawproject/case-law-access-project-client
+    sudo docker run -d -e CAP_API_KEY="KEY_GOES_HERE" --restart always freelawproject/case-law-access-project-client
 
 (Again, omit `sudo` if it's not needed.)
 
 This should continue running indefinitely until you kill it. Weekly check-ins are usually advised. For monitoring running containers, the `docker ps` and `docker logs` commands may be useful.
 
-Good Luck!
+Good luck and thank you!
