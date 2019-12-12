@@ -2,6 +2,9 @@
 # -*- coding: utf-8 -*- #
 from __future__ import unicode_literals
 
+CACHE_CONTENT = True
+LOAD_CONTENT_CACHE = True
+
 AUTHOR = u'Free Law Project'
 SITENAME = u'Free Law Project'
 SITEURL = 'http://localhost:8080'
