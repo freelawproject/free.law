@@ -1,0 +1,81 @@
+Title: Please Support the Annual RECAP Fundraiser
+Tags: fundraiser, 2019, RECAP
+Slug: fundraisers/2019/recap/
+
+
+<p>
+  <a data-toggle="collapse" href="#collapse" role="button" aria-expanded="false" aria-controls="collapseExample">
+    Why am I seeing this? <i class="fa fa-angle-double-down"></i>
+  </a>
+</p>
+<div class="collapse" id="collapse">
+  <p class="well">
+    We're sorry to interrupt you. Once per year, the RECAP Extension will pop-up this tab in your browser to ask for your support. We hope you understand.
+  </p>
+</div>
+
+
+<div class="row">
+    <div class="col-xs-12 col-sm-8 col-md-9">
+        <p class="lead">The RECAP extensions are hosted by Free Law Project, a non-profit that is dedicated to opening legal data. Once per year we ask for your support so we can continue hosting and enhancing the RECAP extensions.
+        </p>
+        <p class="lead">We need your support to continue enhancing and maintaining the RECAP system. Please help us with a tax-deductible charitable donation today.
+        </p>
+    </div>
+    <div class="col-xs-12 col-sm-4 col-md-3">
+        <span class="pull-right"><a href="https://www.courtlistener.com/donate/?referrer=2019-big-button-recap" class="btn btn-lg btn-danger">Donate Now</a></span>
+    </div>
+</div>
+
+
+
+## Where Your Support Went in 2019
+
+<div class="right-image">
+    <img src="{filename}/images/recap_r-150x150.png"
+         alt="RECAP Logo"
+         class="img-responsive">
+</div>
+
+Our RECAP work in 2019 had three themes:
+ 
+1. **Increase the size and speed of the [searchable RECAP Archive][ra].** 
+
+    In this we were wildly successful. We completed a $14,000 upgrade early in the year, making RECAP search incredibly fast, and we quadrupled the size of the RECAP Archive itself. The Archive now has [more than one hundred million docket entries][100M].
+
+1. **Expand the number of people using the RECAP Extensions.**
+
+    We [nearly doubled the number of people using the RECAP Extensions][20k], and now we have nearly 20,000 users contributing around 1,500 PDFs per day.
+
+1. **Add appellate support to RECAP.**
+
+    This continues to be a work in progress. We hope to have it complete early next year.
+
+
+[ra]: https://www.courtlistener.com/recap/
+[100M]: https://twitter.com/FreeLawProject/status/1166489912570368000
+[20k]: https://twitter.com/FreeLawProject/status/1182719863472541696
+
+
+## Please Support RECAP
+
+All of the achievements and initiatives above took considerable effort. This year RECAP turned ten years old and it has never had more users, more data to share, or more functionality.
+
+We also think RECAP has never been more more important to our society. With your uploads, we have been able to host numerous dockets of historical significance. In 2019, the courts became more important than ever, and we were proud to help the public and the press follow these cases as they unfolded. 
+
+If you have benefited from our work this year, or if you find our work valuable, we ask that you **please donate today**. 
+
+Free Law Project is a California public benefit corporation, and is a federally recognized 501(c)(3) non-profit. All donations are tax deductible.
+
+<p><a href="https://www.courtlistener.com/donate/?referrer=2019-big-button-recap-2" class="btn btn-lg btn-danger">Donate Now</a></p>
+
+
+## Finally, Thank You.
+
+We have benefited immensely from [many sources][thanks] including individuals, organizations, and academic departments, too numerous to list here. 
+
+We are also thankful for all of our RECAP users. You contribute to the public RECAP Archive every day. Without your support and without your willingness to share the documents you purchase, none of this would be possible.
+
+Thank you for all your generous support.
+
+[thanks]: {filename}/pages/thanks.md
