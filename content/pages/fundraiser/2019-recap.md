@@ -10,7 +10,7 @@ Slug: fundraisers/2019/recap/
 </p>
 <div class="collapse" id="collapse">
   <p class="well">
-    We're sorry to interrupt you. Once per year, the RECAP Extension will pop-up this tab in your browser to ask for your support. We hope you understand.
+    We're sorry to interrupt you. Once per year, the RECAP Extension, which you have installed, will pop-up this tab in your browser to ask for your support. We hope you understand.
   </p>
 </div>
 
