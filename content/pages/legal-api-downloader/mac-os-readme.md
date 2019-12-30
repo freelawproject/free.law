@@ -1,5 +1,6 @@
 Title: Legal API Downloader -- Running the Mac Program
 Slug: legal-api-downloader/apple/
+Private: True
 
 
 <p class="lead">These instructions show you how to run our MacOS app to gather and share cases from Harvard's Caselaw Access Project.</p>

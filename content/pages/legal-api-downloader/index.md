@@ -1,5 +1,6 @@
 Title: Legal API Downloader
 Slug: legal-api-downloader/
+Private: True
 
 <p class="lead">Our Legal API Downloader is a tool for Apple computers or Docker that helps gather data from Harvard's Caselaw Access Project.</p>
 

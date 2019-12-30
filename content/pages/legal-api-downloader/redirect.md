@@ -1,5 +1,6 @@
 Title: Legal API Downloader
 Slug: meetup/
+Private: True
 
 <script defer type="text/javascript">
   window.location.replace("/legal-api-downloader/");

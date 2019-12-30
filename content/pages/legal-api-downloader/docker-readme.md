@@ -1,5 +1,6 @@
 Title: Legal API Downloader -- Running from Docker
 Slug: legal-api-downloader/docker/
+Private: True
 
 
 <p class="lead">These instructions show you how to run our docker image to gather and share API results from Harvard's Caselaw Access Project API.</p>
