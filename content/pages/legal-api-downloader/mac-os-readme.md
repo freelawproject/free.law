@@ -15,13 +15,42 @@ Thank you for your interest in joining this effort. When this is complete we wil
 
 ## The Short Version
 
-1. Install the Mac OS app
+1. Install Legal API Downloader on macOS from the Mac App Store.
 
 2. Configure it with your API key from https://case.law.
 
 
 ## The Long Version
 
-XXX
+Before beginning, you must:
+
+
+1. Search for Legal API Downloader on the Mac App Store and install the application.
+
+    <div class="text-center">
+    <img src="{filename}/images/mac-app-store-page.png"
+         alt="Legal API Downloader Page "
+         class="img-responsive border"/>
+    </div>
+
+
+2. When install is complete, the app should launch automatically. If not navigate to your application directory and start Legal API Downloader.  A preference window will open and an alert asking for permission to start after a reboot.
+
+3. Add your API Key or Select *Click to Register for an API Key* to open the Case.Law user registration.
+
+4. Once registration is complete and you have verified your email select *Click to find your API Key* button.  This will take you to login to Case.Law one more time to get your API Key. Copy and paste the key into the API Key textfield and close the window. If the API key is correct the app will start working immediately.
+
+    ![Mac App Store]({filename}/images/mac-app-pref-window.png "Optional title")
+
+5. FYI, Legal API Downloader is conveniently tucked away in your menu bar, where you can easily monitor your progress.   
+
+    <div class="text-center">
+    <img src="{filename}/images/mac-app-top-bar.png"
+         alt="Legal API Downloader Page "
+         class="img-responsive border"/>
+    </div>
+
+6. Sit back and relax.
 
 Good luck and thank you!
+
