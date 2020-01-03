@@ -3,7 +3,7 @@ Slug: legal-api-downloader/apple/
 Private: True
 
 
-<p class="lead">These instructions show you how to run our MacOS app to gather and share cases from Harvard's Caselaw Access Project.</p>
+<p class="lead">These instructions show you how to run our macOS app to gather and share cases from Harvard's Caselaw Access Project.</p>
 
 By using this software, you will use your credentials to gather legal cases from the Harvard Caselaw Access Project. The items that you gather will then be shared with us. Once shared with us, we upload them to the Internet Archive, a permanent digital public library.
 
@@ -38,9 +38,9 @@ Before beginning, you must:
 
 3. Add your API Key or Select *Click to Register for an API Key* to open the Case.Law user registration.
 
-4. Once registration is complete and you have verified your email select *Click to find your API Key* button.  This will take you to login to Case.Law one more time to get your API Key. Copy and paste the key into the API Key textfield and close the window. If the API key is correct the app will start working immediately.
-
     ![Mac App Store]({filename}/images/mac-app-pref-window.png "Optional title")
+
+4. Once registration is complete and you have verified your email select *Click to find your API Key* button.  This will take you to login to Case.Law one more time to get your API Key. Copy and paste the key into the API Key textfield and close the window. If the API key is correct the app will start working immediately.
 
 5. FYI, Legal API Downloader is conveniently tucked away in your menu bar, where you can easily monitor your progress.   
 
