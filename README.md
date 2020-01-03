@@ -52,18 +52,18 @@ You're done!
 
 ## Writing a post or a page
 
-Posts are easy to write, but to make it even easier, there's [a template called example.md][ex]. Make a copy of that file with a descriptive name and put it in the `content` directory. Write your post [in markdown][md] in that file and generate the HTML when you think your post is ready (read on for how to do that).
+Posts are easy to write, but to make it even easier, there's [a template called example.md][ex]. Make a copy of that file with a descriptive name and put it in the `content` directory &mdash; If you're doing a blog post, you can usually just put it directly in the `content` directory; pages go in the `pages` directory. Pages usually get a custom slug instead of having it auto-generated from their title (see other examples). 
+ 
+With that in place, write your post [in markdown][md] in that file and generate the HTML when you think your post is ready (read on for how to do that).
 
-If you want to tag your post, unfortunately, we don't have autocomplete for that. So either just go for it, and we can embrace a [folksonomy][f] or look in the `output/tag` directory, where all the existing tags are listed.
+You should put some tags on your post. Unfortunately there's no easy way to skim our existing tags, but you can grep the code for ideas or just go for it and we'll just live with it being a messy [folksonomy][f]. After you've created the content once, you can look in the `output/tag` directory, where all the existing tags are listed, if you care. Not a big deal here.
 
-If you're making a page, it's just like making a post, except you put it in the `content/pages` directory instead. You can also give it a custom slug if you want (you probably should), so that it shows up at `/contact/` instead of `/pages/contact/`, for example.
-
-Finally, it should go without saying, but if you see something on the site that you want to replicate, just search through this repository for words in the post and you'll find the markdown file that made that page. Replicate away!
+Finally, it should go without saying, but if you see something on the live site that you want to replicate, just search through this repository for words in the post and you'll find the markdown file that made that page.
 
 
 ## Generating HTML Content from Markdown Files
 
-If you want to see your work, activate your virtualenv if you're using one, then run a command like:
+If you want to see your work, activate your virtualenv if you're using one, get yourself into the root of this repository, then run a command like:
 
     pelican content -s pelicanconf.py -d -r
 
@@ -71,16 +71,16 @@ This will use the development settings (`-s pelicanconf.py`) to delete the outpu
 
 Once the generation is done, the content is in the `output` directory. If you're writing a draft, it will be in the `output/drafts` folder.
 
-Feel free to look at the other options the `pelican` command provides.
+Feel free to look at the other options the `pelican` command provides. Some, like caching, are pretty useful.
 
 
 ## Running a development server
 
-To see the content in Firefox or Chrome or whatever, activate your virtualenv if you're using one, change into the `output` directory, then run:
+To see the content in your browser, run your generation command with:
 
-    python -m pelican.server
+    --listen --port 8080
 
-That will run a little server on your laptop, and with it running you can go to http://localhost:8000, where you'll find you have a server running on port 8000.
+That will run a little server on your computer that you can visit at http://localhost:8080. When you do, it should look pretty much exactly like what's on https://free.law. 
 
 
 ## Tweaking the default theme
