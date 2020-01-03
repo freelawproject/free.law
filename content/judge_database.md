@@ -5,8 +5,8 @@ Tags: judge database, api, bulk data, courtlistener, fjc
 Date: 2016-04-19
 
 <div class="right-image">
-    <a href="{filename}/images/taft.png">
-        <img src="{filename}/images/taft-thumb.png"
+    <a href="{static}/images/taft.png">
+        <img src="{static}/images/taft-thumb.png"
              alt="A screenshot of President, Judge Taft"
              class="img-responsive border"/>
     </a>

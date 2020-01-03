@@ -36,7 +36,7 @@ The response I received was brief and wrong again:
 
 <div class="left-image">
     <blockquote>
-    <img src="{filename}/images/pacer-page/54-lines.png"
+    <img src="{static}/images/pacer-page/54-lines.png"
              alt="Email from PACER stating: One page of data is 54 lines. Those lines include spacing. It is related to the data as it is extracted, and not necessarily how it is displayed on a web page or printed out."/>
     </blockquote>
 </div>
@@ -48,7 +48,7 @@ The answer:
   
 <div class="left-image">
     <blockquote>
-    <img src="{filename}/images/pacer-page/bytes-of-data.png"
+    <img src="{static}/images/pacer-page/bytes-of-data.png"
              alt="Email from PACER stating: It is actually measured by bytes of data."/>
      </blockquote>
 </div>
@@ -59,7 +59,7 @@ Ah ha. This was the third answer I'd received, but it seemed like we were gettin
 
 <div class="left-image">
 <blockquote>
-    <img src="{filename}/images/pacer-page/how-many-bytes.png"
+    <img src="{static}/images/pacer-page/how-many-bytes.png"
              alt="Email from me, asking: Can you tell me how many bytes is considered a page?"/>
 </blockquote>
 </div>
@@ -69,7 +69,7 @@ The shocking response:
 
 <div class="left-image">
 <blockquote>
-    <img src="{filename}/images/pacer-page/dont-know.png"
+    <img src="{static}/images/pacer-page/dont-know.png"
              alt="Email from PACER stating: Unfortunately, I do not have that information."/>
 </blockquote>
 </div>
@@ -79,7 +79,7 @@ I could not imagine that PACER doesn't know how big a "page" is, so I pushed aga
 
 <div class="left-image">
     <blockquote>
-        <img src="{filename}/images/pacer-page/4320-bytes.png"
+        <img src="{static}/images/pacer-page/4320-bytes.png"
                  alt="Email from PACER stating that it's 4320 bytes."/>
     </blockquote>
     <p class="caption"><a href="https://www.pacer.gov/documents/pacermanual.pdf">Here's the manual, if you're interested</a>.</p>
@@ -102,7 +102,7 @@ The answer:
 
 <div class="left-image">
     <blockquote>
-        <img src="{filename}/images/pacer-page/two-files.png"
+        <img src="{static}/images/pacer-page/two-files.png"
                  alt="Email from PACER stating there are two files generated or something."/>
     </blockquote>
 </div>
@@ -122,7 +122,7 @@ When I asked about this, the next response I got was from the Senior Attorney fo
 
 <div class="left-image">
     <blockquote>
-        <img src="{filename}/images/pacer-page/atty-response.png"
+        <img src="{static}/images/pacer-page/atty-response.png"
                  alt="Email from PACER Senior Attorney"/>
     </blockquote>
 </div>

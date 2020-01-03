@@ -66,7 +66,7 @@ As we built the new court picker, we had several iterations. The first
 was a basic wireframe like so:
 
 ![Modal
-Example]({filename}/images/mockup-screenshot.png)
+Example]({static}/images/mockup-screenshot.png)
 
 This didn't work at all, but it provided a pretty good place to start.
 Around the same time, Peter was experimenting with the [Chosen jQuery
@@ -76,7 +76,7 @@ greatly enhanced our sidebar without forcing people to use modal
 dialogs:
 
 ![chooser
-example]({filename}/images/chooser.png)](http://notskool.me/courtlistener/header-chooser.htm)
+example]({static}/images/chooser.png)](http://notskool.me/courtlistener/header-chooser.htm)
 
 Not bad, but it made it very difficult to select lots of jurisdictions,
 which was a problem. We did another iteration of the modal dialog, and
@@ -85,7 +85,7 @@ demo](http://notskool.me/courtlistener/header-chooser.htm) that looks
 like this:
 
 ![filter
-demo]({filename}/images/filter-demo1.png)
+demo]({static}/images/filter-demo1.png)
 
 Our final version is quite similar, but is changed in a couple
 significant ways. It has "Clear" and "Select All" links at the top, and

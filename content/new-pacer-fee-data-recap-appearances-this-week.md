@@ -27,4 +27,4 @@ Progress](http://www.americanprogress.org/events/2010/06/lawgov.html) is
 now posted on their site. You can watch the excerpt of Steve's remarks
 below:
 
-[![Video of Steve]({filename}/images/recap/Stephen_Schultze_law-dot-gov_Remarks.png)](http://recap.s3.amazonaws.com/Stephen_Schultze_law-dot-gov_Remarks.mp4)
+[![Video of Steve]({static}/images/recap/Stephen_Schultze_law-dot-gov_Remarks.png)](http://recap.s3.amazonaws.com/Stephen_Schultze_law-dot-gov_Remarks.mp4)

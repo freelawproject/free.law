@@ -54,7 +54,7 @@ continues).
 ***
 
 <div class="left-image">
-    <img src="{filename}/images/recap/ping-150.jpg"
+    <img src="{static}/images/recap/ping-150.jpg"
          alt="Ka-Ping Yee Headshot"
          class="img-responsive"/>
 </div>
@@ -82,7 +82,7 @@ The appellate version of RECAP was developed by a team of two Italian
 programmers, Filippo Valsorda and Alessio Palmero Aprosio.
 
 <div class="left-image">
-    <img src="{filename}/images/recap/filippo-150.jpg"
+    <img src="{static}/images/recap/filippo-150.jpg"
          alt="Filippo Headshot"
          class="img-responsive"/>
 </div>
@@ -103,7 +103,7 @@ enough to make a search for "Smith" and got billed $25 without any
 warning."
 
 <div class="left-image">
-    <img src="{filename}/images/recap/alessio-150.jpg"
+    <img src="{static}/images/recap/alessio-150.jpg"
          alt="Alessio Head Shot"
          class="img-responsive"/>
 </div>

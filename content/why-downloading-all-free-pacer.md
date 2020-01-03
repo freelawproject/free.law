@@ -5,7 +5,7 @@ Tags: PACER, RECAP, Opinions, Orders, bulk data, crawling
 
 
 <div class="right-image">
-    <img src="{filename}/images/pacer-logo-300w.png"
+    <img src="{static}/images/pacer-logo-300w.png"
          alt="PACER Logo"
          class="img-responsive border">
 </div>

@@ -20,7 +20,7 @@ courts should do:
 
 
 <div class="left-image">
-    <img src="{filename}/images/670px-Uncle_Sam_pointing_finger.jpg" alt="Uncle Sam (pointing finger)" by James Montgomery Flagg - Public Domain via Wikimedia Commons">
+    <img src="{static}/images/670px-Uncle_Sam_pointing_finger.jpg" alt="Uncle Sam (pointing finger)" by James Montgomery Flagg - Public Domain via Wikimedia Commons">
     <p class="caption">By James Montgomery Flagg - Public Domain via Wikimedia Commons</p>
 </div>
 <div class="clearfix"></div>
@@ -87,7 +87,7 @@ local federal court.
 
 <div class="left-image">
     <a href="https://www.pacer.gov/map.html">
-        <img src="{filename}/images/court_map_540x290.png"
+        <img src="{static}/images/court_map_540x290.png"
              alt="court map"
              class="img-responsive">
     </a>
@@ -123,7 +123,7 @@ Another option is to join our crowd-based effort to download PACER documents usi
 
 <div class="left-image">
     <a href="{filename}/pages/recap.md">
-        <img src="{filename}/images/recap_r-150x150.png"
+        <img src="{static}/images/recap_r-150x150.png"
              alt="RECAP Logo"
              class="img-responsive"/>
     </a>
@@ -161,7 +161,7 @@ National Day of PACER Protest. So, whether you're mailing a letter,
 delivering a postcard in person, or downloading $15 worth of PACER
 documents with RECAP, focus your activity on May 1st.
 
-!["Capitol building" by Francisco Anzola - CC-BY 2.0 via Wikimedia Commons]({filename}/images/1200px-Capitol_building_3452037202.jpg)
+!["Capitol building" by Francisco Anzola - CC-BY 2.0 via Wikimedia Commons]({static}/images/1200px-Capitol_building_3452037202.jpg)
 *By Francisco Anzola - CC-BY 2.0 via Wikimedia Commons*
 
 
@@ -220,7 +220,7 @@ and document downloads. Congress already has the authority to receive
 such information and simply needs to ask.
 
 <div class="left-image">
-    <img src="{filename}/images/Inside_the_United_States_Supreme_Court.jpg"
+    <img src="{static}/images/Inside_the_United_States_Supreme_Court.jpg"
          alt="Inside the SCUTOS"
          class="img-responsive">
     <p class="caption">By Phil Roeder. CC-BY 2.0 via Wikimedia Commons.</p>

@@ -7,7 +7,7 @@ When we launched our [judicial database][jdb], we shared our plan to show the ca
 
 <div class="left-image">
     <a href="https://www.courtlistener.com/person/3045/sonia-sotomayor/#authored-opinions">
-        <img src="{filename}/images/sotomayor-authorship.png"
+        <img src="{static}/images/sotomayor-authorship.png"
              alt="Sotomayor's top opinions"
              class="img-responsive border">
     </a>

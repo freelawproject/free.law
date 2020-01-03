@@ -63,5 +63,5 @@ already](https://www.courtlistener.com), and see all that it has to offer!
 
 ### Attachments
 
-[Final Report, Michael Lissner, no Appendix]({filename}/pdf/Final-Report-Michael-Lissner-no-Appendix.pdf)
+[Final Report, Michael Lissner, no Appendix]({static}/pdf/Final-Report-Michael-Lissner-no-Appendix.pdf)
 

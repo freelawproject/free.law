@@ -12,13 +12,13 @@ Private: True/False
 
 An image:
 
-![Alt Text]({filename}/images/han.jpg)
+![Alt Text]({static}/images/han.jpg)
 
 Floated left or right:
 
 <div class="{right-image or left-image}">
     <a href="http://google.com">
-        <img src="{filename}/images/recap/citp-logo.png"
+        <img src="{static}/images/recap/citp-logo.png"
              alt="CITP Logo"
              class="img-responsive border">
     </a>
@@ -31,7 +31,7 @@ Floated left or right:
 Centered:
 
 <div class="text-center">
-    <img src="{filename}/images/recap_r-150x150.png"
+    <img src="{static}/images/recap_r-150x150.png"
          alt="RECAP Logo"
          class="img-responsive border"/>
 </div>

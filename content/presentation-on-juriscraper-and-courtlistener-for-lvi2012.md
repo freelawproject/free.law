@@ -19,5 +19,5 @@ site](http://blog.law.cornell.edu/lvi2012/presentation/wrangling-court-data-on-a
 
 ### Attachments
 
-[LVI-Presentation-Lissner-Juriscraper]({filename}/pdf/LVI-Presentation-Lissner-Juriscraper.pdf)
+[LVI-Presentation-Lissner-Juriscraper]({static}/pdf/LVI-Presentation-Lissner-Juriscraper.pdf)
 

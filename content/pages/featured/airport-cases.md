@@ -97,7 +97,7 @@ These searches are imperfect and underinclusive, but they're a start toward find
 - [Washington v. Trump (No. 17–35105): the Administration’s Attempt to Undo a District Court Stay of the #MuslimBan](https://medium.com/@mattytang/washington-v-trump-no-17-35105-76f235ff6df0#.jvor3b77r) by Matt Tang
 
 
-[eo-pdf]: {filename}/pdf/EO-2017-02281.pdf
+[eo-pdf]: {static}/pdf/EO-2017-02281.pdf
 [recap]: https://www.courtlistener.com/recap/
 [ca9-wa-v-trump]: https://www.courtlistener.com/docket/4580611/state-of-washington-v-donald-j-trump/
 [ca9-wa-v-trump-motion-emergency-stay]: https://www.courtlistener.com/recap/gov.uscourts.ca9.17-35105.14.0.pdf
@@ -126,14 +126,14 @@ These searches are imperfect and underinclusive, but they're a start toward find
 [aziz-motion-to-intervene]: https://ia601507.us.archive.org/13/items/gov.uscourts.vaed.358386/gov.uscourts.vaed.358386.27.0.pdf
 [sarsour]: https://ia801500.us.archive.org/20/items/gov.uscourts.vaed.358422/gov.uscourts.vaed.358422.docket.html
 [sarsour-complaint]: https://ia801500.us.archive.org/20/items/gov.uscourts.vaed.358422/gov.uscourts.vaed.358422.1.0.pdf
-[acrl-complaint]: {filename}/pdf/E.D.Mich._317381_1_0.pdf
-[acrl-tro-motion]: {filename}/pdf/E.D.Mich._317381_5_0.pdf
+[acrl-complaint]: {static}/pdf/E.D.Mich._317381_1_0.pdf
+[acrl-tro-motion]: {static}/pdf/E.D.Mich._317381_5_0.pdf
 [vayeghan]: https://ia601504.us.archive.org/35/items/gov.uscourts.cacd.668830/gov.uscourts.cacd.668830.docket.html
 [vayeghan-amended-tro]: https://ia601504.us.archive.org/35/items/gov.uscourts.cacd.668830/gov.uscourts.cacd.668830.6.0.pdf
 [mohammed]: https://ia801506.us.archive.org/24/items/gov.uscourts.cacd.669123/gov.uscourts.cacd.669123.docket.html
-[mohammed-tro]: {filename}/pdf/C.D.Cal._2-17-cv-00786_7_0.pdf
+[mohammed-tro]: {static}/pdf/C.D.Cal._2-17-cv-00786_7_0.pdf
 [ca-v-trump]: https://www.courtlistener.com/docket/4576141/people-of-the-united-states-of-america-v-trump/
-[mowafak-complaint]: {filename}/pdf/Al-Mowafak-Complaint.pdf
+[mowafak-complaint]: {static}/pdf/Al-Mowafak-Complaint.pdf
 [doe]: https://www.courtlistener.com/docket/4577105/doe-1-v-trump/
 [wa-v-trump]: https://ia601500.us.archive.org/1/items/gov.uscourts.wawd.241761/gov.uscourts.wawd.241761.docket.html
 [wa-v-trump-amended-complaint]: https://ia601500.us.archive.org/1/items/gov.uscourts.wawd.241761/gov.uscourts.wawd.241761.18.0.pdf

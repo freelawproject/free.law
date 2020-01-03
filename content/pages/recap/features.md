@@ -7,7 +7,7 @@ using PACER without changing your workflow.
 ## Automatic Upload
 
 <div class="right-image">
-    <img src="{filename}/images/recap/iaupload.png"
+    <img src="{static}/images/recap/iaupload.png"
          class="img-responsive"/>
 </div>
 
@@ -23,7 +23,7 @@ contributing to this growing public domain legal library.
 ## Free Documents
 
 <div class="right-image">
-    <img src="{filename}/images/recap/free-link.png"
+    <img src="{static}/images/recap/free-link.png"
          class="img-responsive"/>
 </div>
 
@@ -37,7 +37,7 @@ Over time, this can save you considerable fees.
 ## Better Filenames
 
 <div class="right-image">
-    <img src="{filename}/images/recap/better-filename.png"
+    <img src="{static}/images/recap/better-filename.png"
          class="img-responsive"/>
 </div>
 
@@ -53,7 +53,7 @@ style]({filename}/recap-extension-0-6-beta-released.md).
 ## PDF Headers
 
 <div class="right-image">
-    <img src="{filename}/images/recap/include-headers.png"
+    <img src="{static}/images/recap/include-headers.png"
          class="img-responsive"/>
 </div>
 
@@ -72,7 +72,7 @@ case dockets and documents that you have paid for to the public archive,
 and notifying you when free versions of documents are already available.
 
 
-![Diagram showing RECAP flow]({filename}/images/recap/recap-diag.png)
+![Diagram showing RECAP flow]({static}/images/recap/recap-diag.png)
 
 
 [c]: {filename}/pages/contact.md

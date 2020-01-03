@@ -11,9 +11,9 @@ While it was great for the Library of Congress to publish this report, unfortuna
 The second project we have been working on at Free Law Project was to import this data into our system. Because citations in the file are not always unique, we had to device a heuristic algorithm to link up the data in the CSV with the data in our system. Today, we're happy to share that we did that, updating the dates of 6,083 early Supreme Court Cases.
 
 <div class="text-center form-inline">
-<a href="{filename}/csv/date_of_decisions.csv" class="btn btn-primary btn-lg">Download as CSV</a>
-<a href="{filename}/ods/date_of_decisions.ods" class="btn btn-primary btn-lg">Download as ODS</a>
+<a href="{static}/csv/date_of_decisions.csv" class="btn btn-primary btn-lg">Download as CSV</a>
+<a href="{static}/ods/date_of_decisions.ods" class="btn btn-primary btn-lg">Download as ODS</a>
 </div>
 
-[dod]: {filename}/pdf/dates-of-decisions.pdf
+[dod]: {static}/pdf/dates-of-decisions.pdf
 [cl]: https://www.courtlistener.com/

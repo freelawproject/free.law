@@ -9,7 +9,7 @@ We're getting ready to launch a brand new search engine for PACER content. When 
 The big problem with this goal? We have about a million PDFs that consist only of images. Some of these are actually quite beautiful:
  
 <div class="left-image">
-    <img src="{filename}/images/handwritten-motion.png"
+    <img src="{static}/images/handwritten-motion.png"
          alt="Handwritten Motion"
          class="border"/>
      <p class="caption">A beautiful handwritten motion. It goes on like this for 46 pages.</p>
@@ -20,7 +20,7 @@ The big problem with this goal? We have about a million PDFs that consist only o
 But others are hideous:
 
 <div class="left-image">
-    <img src="{filename}/images/horrid-ocr.png"
+    <img src="{static}/images/horrid-ocr.png"
          alt="Log from 1957"
          class="border"/>
      <p class="caption">An 84 page log from 1957. It's come a long ways just to appear on this blog today.</p>
@@ -33,7 +33,7 @@ But no matter how a document looks, we want to extract the text so that we can m
 About a month ago we started working on this using two very powerful computers, which together used 40 CPU cores. The two computers have been working very hard on extracting text from these documents. For example, this is what one of these computers looks like right now:
 
 <div class="left-image">
-    <img src="{filename}/images/htop-ocr.png"
+    <img src="{static}/images/htop-ocr.png"
          alt="A system manager showing lots of cores fully pegged."
          class="border"/>
      <p class="caption">This shows 24 CPUs each at 100% utilization.</p>

@@ -16,7 +16,7 @@ Slug: fundraisers/2018/recap/
 ## Where Your Support Went
 
 <div class="right-image">
-    <img src="{filename}/images/recap_r-150x150.png"
+    <img src="{static}/images/recap_r-150x150.png"
          alt="RECAP Logo"
          class="img-responsive">
 </div>

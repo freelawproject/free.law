@@ -8,7 +8,7 @@ After months of development, we are thrilled to share a from-scratch re-launch o
 
 <div class="left-image">
     <a href="https://www.courtlistener.com/recap/">
-        <img src="{filename}/images/recap-adv-search.png"
+        <img src="{static}/images/recap-adv-search.png"
              alt="RECAP Advanced Search Screen"
              class="img-responsive border"/>
     </a>

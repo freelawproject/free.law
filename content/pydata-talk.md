@@ -21,5 +21,5 @@ Citation networks have recently been a topic of interest to network scientists. 
 Can we determine which cases are the most influential in our legal system? Can we understand how legal doctrine evolves? We will discuss what we learned about how the network of law cases evolves and what this means for legal practitioners.
 
 [1]: http://pydata.org/carolinas2016/
-[slides]: {filename}/pptx/networks-and-the-law.pptx
+[slides]: {static}/pptx/networks-and-the-law.pptx
 [ic]: http://iaincarmichael.web.unc.edu/

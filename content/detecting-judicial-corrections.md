@@ -13,7 +13,7 @@ On some occasions, this results in a slightly confusing search result
 like the following:
 
 ![double
-result]({filename}/images/double-result.png)](https://www.courtlistener.com/?q=epa+v+eme+homer&stat_Precedential=on&order_by=dateFiled+desc&court=scotus)
+result]({static}/images/double-result.png)](https://www.courtlistener.com/?q=epa+v+eme+homer&stat_Precedential=on&order_by=dateFiled+desc&court=scotus)
 
 We realize having an opinion in the system two times can be a bit
 confusing, but the reason this happens is because courts will sometimes

@@ -131,7 +131,7 @@ And that, good friend, is it. Worst process for a human, ever.
 
 ### Attachments
 
-[standard-training-text.txt]({filename}/txt/standard-training-text.txt)
+[standard-training-text.txt]({static}/txt/standard-training-text.txt)
 
-[old-english.doc]({filename}/doc/old-english.doc)
+[old-english.doc]({static}/doc/old-english.doc)
 

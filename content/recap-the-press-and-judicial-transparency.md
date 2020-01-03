@@ -45,7 +45,7 @@ the excerpt below:
 
 <div align="center">
 
-[![]({filename}/images/recap/meyer-law.gov-excerpt.png)](http://recap.s3.amazonaws.com/meyer-law.gov-excerpt.mp4)
+[![]({static}/images/recap/meyer-law.gov-excerpt.png)](http://recap.s3.amazonaws.com/meyer-law.gov-excerpt.mp4)
 
 </div>
 
@@ -61,6 +61,6 @@ the excerpt below:
 
 <div align="center">
 
-[![]({filename}/images/recap/Caroline_Fredrickson_law-dot-gov_Remarks.png)](http://recap.s3.amazonaws.com/Caroline_Fredrickson_law-dot-gov_Remarks.mp4)
+[![]({static}/images/recap/Caroline_Fredrickson_law-dot-gov_Remarks.png)](http://recap.s3.amazonaws.com/Caroline_Fredrickson_law-dot-gov_Remarks.mp4)
 
 </div>

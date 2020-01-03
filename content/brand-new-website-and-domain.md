@@ -10,7 +10,7 @@ In addition to the new homepage being live, we also updated our email, so you ca
 
 We love preserving digital artifacts, so here's a screenshot of the old site:
 
-![Old Homepage]({filename}/images/flp-homepage-v1.png)
+![Old Homepage]({static}/images/flp-homepage-v1.png)
 
 *FreeLawProject.org, v1. You can also browse the old site at [archive.org][ia].*
 

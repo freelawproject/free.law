@@ -97,7 +97,7 @@ The interface also relies heavily on legal jargon, making it difficult
 for citizens to figure our where and how to search (see Figure 1).
 
 ![PACER search
-interface]({filename}/images/recap/recap-figure-1.jpg)
+interface]({static}/images/recap/recap-figure-1.jpg)
 
 *Figure 1. The PACER search interface for the Southern District of New
 York.*
@@ -115,7 +115,7 @@ substantial purpose racks up very quickly. Repeated searching using the
 limited interface can become particularly costly.
 
 ![PACER purchase
-receipt]({filename}/images/recap/recap-figure-2.jpg)
+receipt]({static}/images/recap/recap-figure-2.jpg)
 
 *Figure 2. PACER receipt page for purchasing a court document.*
 
@@ -155,7 +155,7 @@ automatically share their purchases. The extension provides two primary
 functions (see Figure 3).
 
 ![RECAP document sharing
-model]({filename}/images/recap/recap-figure-3.jpg)
+model]({static}/images/recap/recap-figure-3.jpg)
 
 *Figure 3. Diagram of the RECAP document sharing model.*
 
@@ -175,7 +175,7 @@ document for free from our repository, rather than buying it again from
 PACER (see Figure 4).
 
 ![Accessing documents from RECAP while using
-PACER]({filename}/images/recap/recap-figure-4.jpg)
+PACER]({static}/images/recap/recap-figure-4.jpg)
 
 *Figure 4. Accessing documents from RECAP while using PACER.*
 

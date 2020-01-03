@@ -11,186 +11,186 @@ I'm often too busy working to remember to share everything we're working on at F
 
 You can also [download the presentation as a PDF][pdf].
 
-[pdf]: {filename}/pdf/flp-overview-v2018-05-11.pdf
+[pdf]: {static}/pdf/flp-overview-v2018-05-11.pdf
 
 
 <div class="text-center">
-    <p><img src="{filename}/images/flp-overview-presentation/img0.png"
+    <p><img src="{static}/images/flp-overview-presentation/img0.png"
          class="img-responsive border"/>
     </p>
 </div>
 <div class="clearfix"></div>
 
 <div class="text-center">
-    <p><img src="{filename}/images/flp-overview-presentation/img1.png"
+    <p><img src="{static}/images/flp-overview-presentation/img1.png"
          class="img-responsive border"/>
     </p>
 </div>
 <div class="clearfix"></div>
 
 <div class="text-center">
-    <p><img src="{filename}/images/flp-overview-presentation/img2.png"
+    <p><img src="{static}/images/flp-overview-presentation/img2.png"
          class="img-responsive border"/>
     </p>
 </div>
 <div class="clearfix"></div>
 
 <div class="text-center">
-    <p><img src="{filename}/images/flp-overview-presentation/img3.png"
+    <p><img src="{static}/images/flp-overview-presentation/img3.png"
          class="img-responsive border"/>
     </p>
 </div>
 <div class="clearfix"></div>
 
 <div class="text-center">
-    <p><img src="{filename}/images/flp-overview-presentation/img4.png"
+    <p><img src="{static}/images/flp-overview-presentation/img4.png"
          class="img-responsive border"/>
     </p>
 </div>
 <div class="clearfix"></div>
 
 <div class="text-center">
-    <p><img src="{filename}/images/flp-overview-presentation/img5.png"
+    <p><img src="{static}/images/flp-overview-presentation/img5.png"
          class="img-responsive border"/>
     </p>
 </div>
 <div class="clearfix"></div>
 
 <div class="text-center">
-    <p><img src="{filename}/images/flp-overview-presentation/img6.png"
+    <p><img src="{static}/images/flp-overview-presentation/img6.png"
          class="img-responsive border"/>
     </p>
 </div>
 <div class="clearfix"></div>
 
 <div class="text-center">
-    <p><img src="{filename}/images/flp-overview-presentation/img7.png"
+    <p><img src="{static}/images/flp-overview-presentation/img7.png"
          class="img-responsive border"/>
     </p>
 </div>
 <div class="clearfix"></div>
 
 <div class="text-center">
-    <p><img src="{filename}/images/flp-overview-presentation/img8.png"
+    <p><img src="{static}/images/flp-overview-presentation/img8.png"
          class="img-responsive border"/>
     </p>
 </div>
 <div class="clearfix"></div>
 
 <div class="text-center">
-    <p><img src="{filename}/images/flp-overview-presentation/img9.png"
+    <p><img src="{static}/images/flp-overview-presentation/img9.png"
          class="img-responsive border"/>
     </p>
 </div>
 <div class="clearfix"></div>
 
 <div class="text-center">
-    <p><img src="{filename}/images/flp-overview-presentation/img10.png"
+    <p><img src="{static}/images/flp-overview-presentation/img10.png"
          class="img-responsive border"/>
     </p>
 </div>
 <div class="clearfix"></div>
 
 <div class="text-center">
-    <p><img src="{filename}/images/flp-overview-presentation/img11.png"
+    <p><img src="{static}/images/flp-overview-presentation/img11.png"
          class="img-responsive border"/>
     </p>
 </div>
 <div class="clearfix"></div>
 
 <div class="text-center">
-    <p><img src="{filename}/images/flp-overview-presentation/img12.png"
+    <p><img src="{static}/images/flp-overview-presentation/img12.png"
          class="img-responsive border"/>
     </p>
 </div>
 <div class="clearfix"></div>
 
 <div class="text-center">
-    <p><img src="{filename}/images/flp-overview-presentation/img13.png"
+    <p><img src="{static}/images/flp-overview-presentation/img13.png"
          class="img-responsive border"/>
     </p>
 </div>
 <div class="clearfix"></div>
 
 <div class="text-center">
-    <p><img src="{filename}/images/flp-overview-presentation/img14.png"
+    <p><img src="{static}/images/flp-overview-presentation/img14.png"
          class="img-responsive border"/>
     </p>
 </div>
 <div class="clearfix"></div>
 
 <div class="text-center">
-    <p><img src="{filename}/images/flp-overview-presentation/img15.png"
+    <p><img src="{static}/images/flp-overview-presentation/img15.png"
          class="img-responsive border"/>
     </p>
 </div>
 <div class="clearfix"></div>
 
 <div class="text-center">
-    <p><img src="{filename}/images/flp-overview-presentation/img16.png"
+    <p><img src="{static}/images/flp-overview-presentation/img16.png"
          class="img-responsive border"/>
     </p>
 </div>
 <div class="clearfix"></div>
 
 <div class="text-center">
-    <p><img src="{filename}/images/flp-overview-presentation/img17.png"
+    <p><img src="{static}/images/flp-overview-presentation/img17.png"
          class="img-responsive border"/>
     </p>
 </div>
 <div class="clearfix"></div>
 
 <div class="text-center">
-    <p><img src="{filename}/images/flp-overview-presentation/img18.png"
+    <p><img src="{static}/images/flp-overview-presentation/img18.png"
          class="img-responsive border"/>
     </p>
 </div>
 <div class="clearfix"></div>
 
 <div class="text-center">
-    <p><img src="{filename}/images/flp-overview-presentation/img19.png"
+    <p><img src="{static}/images/flp-overview-presentation/img19.png"
          class="img-responsive border"/>
     </p>
 </div>
 <div class="clearfix"></div>
 
 <div class="text-center">
-    <p><img src="{filename}/images/flp-overview-presentation/img20.png"
+    <p><img src="{static}/images/flp-overview-presentation/img20.png"
          class="img-responsive border"/>
     </p>
 </div>
 <div class="clearfix"></div>
 
 <div class="text-center">
-    <p><img src="{filename}/images/flp-overview-presentation/img21.png"
+    <p><img src="{static}/images/flp-overview-presentation/img21.png"
          class="img-responsive border"/>
     </p>
 </div>
 <div class="clearfix"></div>
 
 <div class="text-center">
-    <p><img src="{filename}/images/flp-overview-presentation/img22.png"
+    <p><img src="{static}/images/flp-overview-presentation/img22.png"
          class="img-responsive border"/>
     </p>
 </div>
 <div class="clearfix"></div>
 
 <div class="text-center">
-    <p><img src="{filename}/images/flp-overview-presentation/img23.png"
+    <p><img src="{static}/images/flp-overview-presentation/img23.png"
          class="img-responsive border"/>
     </p>
 </div>
 <div class="clearfix"></div>
 
 <div class="text-center">
-    <p><img src="{filename}/images/flp-overview-presentation/img24.png"
+    <p><img src="{static}/images/flp-overview-presentation/img24.png"
          class="img-responsive border"/>
     </p>
 </div>
 <div class="clearfix"></div>
 
 <div class="text-center">
-    <p><img src="{filename}/images/flp-overview-presentation/img25.png"
+    <p><img src="{static}/images/flp-overview-presentation/img25.png"
          class="img-responsive border"/>
     </p>
 </div>

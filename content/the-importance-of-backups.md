@@ -6,7 +6,7 @@ Slug: the-importance-of-backups
 Status: published
 
 <div class="right-image">
-    <img src="{filename}/images/The_Burning_of_the_Library_at_Alexandria_in_391_AD.jpg"
+    <img src="{static}/images/The_Burning_of_the_Library_at_Alexandria_in_391_AD.jpg"
          alt="Burning of the Library of Alexandria"
          class="img-responsive"/>
 </div>

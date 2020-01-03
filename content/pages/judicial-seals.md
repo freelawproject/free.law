@@ -5,7 +5,7 @@ Slug: judicial-seals
 <p class="lead">The Judicial Seals Repository is a small project to collect and organize all of the judicial seals in use in the United States. At present, it has approximately 250 judicial seals.</p>
 
 <div class="right-image">
-    <img src="{filename}/images/scotus.png"
+    <img src="{static}/images/scotus.png"
          alt="Seal of the Supreme Court"
          class="img-responsive border">
     <p class="caption">The seal of the Supreme Court of the United States</p>

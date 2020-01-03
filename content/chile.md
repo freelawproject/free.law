@@ -5,8 +5,8 @@ Tags: Chile, Modernization, Openness, Government, Docassemble, Agile, Neutral Ci
 
 
 <div class="right-image">
-    <a href="{filename}/images/chile-justice.jpeg">
-      <img src="{filename}/images/chile-justice-thumb.jpeg"
+    <a href="{static}/images/chile-justice.jpeg">
+      <img src="{static}/images/chile-justice-thumb.jpeg"
            alt="Street art reading Justice"
            class="img-responsive border">
     </a>
@@ -47,7 +47,7 @@ Electronic systems are only a small part of what makes a good judicial branch, b
 
 [read]: https://en.wikipedia.org/wiki/Flesch%E2%80%93Kincaid_readability_tests
 [export]: https://www.everycrsreport.com/reports/R41916.html
-[pdf]: {filename}/pdf/chile-modernization.pdf
+[pdf]: {static}/pdf/chile-modernization.pdf
 [service-not-purchase]: https://18f.gsa.gov/2019/08/20/an-agile-software-development-solicitation-guide/
 [da]: https://docassemble.org/
 [ca]: https://www.zdnet.com/article/california-abandons-2-billion-court-management-system/

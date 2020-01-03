@@ -66,4 +66,4 @@ If you have lingering questions, or if he has contacted you, [please feel free t
 [recap-changes]: https://recapchanges.blogspot.com/2018/07/q-with-mike-lissner.html
 [archive]: https://web.archive.org/web/20180721055300/https://recapchanges.blogspot.com/2018/07/q-with-mike-lissner.html
 [c]: {filename}/pages/contact.md
-[rude-email]: {filename}/pdf/fuenchem-email.pdf
+[rude-email]: {static}/pdf/fuenchem-email.pdf

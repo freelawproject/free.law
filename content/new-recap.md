@@ -12,8 +12,8 @@ Tags: recap, recap archive, internet archive, pacer
         </p>
     </div>
     <div class="col-xs-12 col-sm-5 col-md-4 col-lg-3">
-        <a href="https://chrome.google.com/webstore/detail/recap/oiillickanjlaeghobeeknbddaonmjnc" class="btn btn-primary btn-lg btn-block">Add to Chrome&nbsp;<img src="{filename}/images/icons/chrome.svg" height="20" width="20"></a>
-        <a href="https://addons.mozilla.org/en-US/firefox/addon/recap-195534/" class="btn btn-primary btn-lg btn-block">Add to Firefox&nbsp;<img src="{filename}/images/icons/firefox.svg" height="20" width="20"></a>
+        <a href="https://chrome.google.com/webstore/detail/recap/oiillickanjlaeghobeeknbddaonmjnc" class="btn btn-primary btn-lg btn-block">Add to Chrome&nbsp;<img src="{static}/images/icons/chrome.svg" height="20" width="20"></a>
+        <a href="https://addons.mozilla.org/en-US/firefox/addon/recap-195534/" class="btn btn-primary btn-lg btn-block">Add to Firefox&nbsp;<img src="{static}/images/icons/firefox.svg" height="20" width="20"></a>
     </div>
 </div> 
 
@@ -50,7 +50,7 @@ It's an exciting time for RECAP. After many years with little change or improvem
 
 [ra]: https://www.courtlistener.com/recap/
 [ff-die-off]: https://blog.mozilla.org/addons/2016/11/23/add-ons-in-2017/
-[bylaws]: {filename}/pdf/policies/bylaws-amended-2017-11-05.pdf
+[bylaws]: {static}/pdf/policies/bylaws-amended-2017-11-05.pdf
 [c]: {filename}/pages/contact.md
 [apis]: https://www.courtlistener.com/api/
 [cl]: https://www.courtlistener.com/

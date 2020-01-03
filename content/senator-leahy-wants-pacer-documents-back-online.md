@@ -15,7 +15,7 @@ the Courts (AO), urging the AO to put back online the recently-removed PACER
 documents from five courts. I had not seen the full letter posted
 anywhere yet, [so I present it here][1].
 
-[1]: {filename}/pdf/9-12-14-Senator-Leahy-to-Judge-Bates.pdf
+[1]: {static}/pdf/9-12-14-Senator-Leahy-to-Judge-Bates.pdf
 
 Free Law Project agrees with Senator Leahy that taking these documents
 offline represents "a dramatic step backwards" and that the Courts'

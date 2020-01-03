@@ -21,7 +21,7 @@ have on the case as well as links to any documents we may have. Here's
 an example of what you should see:
 
 <div class="text-center">
-    <img src="{filename}/images/recap/DocketPreview-300x203.png"
+    <img src="{static}/images/recap/DocketPreview-300x203.png"
          alt="Visual of new RECAP
               feature">
 </div>

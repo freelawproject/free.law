@@ -5,7 +5,7 @@ Tags: RECAP Archive, PACER, search
 
 <div class="right-image">
     <a href="https://www.courtlistener.com/recap/">
-        <img src="{filename}/images/party-atty-search.png"
+        <img src="{static}/images/party-atty-search.png"
              alt="New UI for party and attorney search"
              class="img-responsive border">
     </a>
@@ -30,7 +30,7 @@ For example, in the main box you can search for [attorney:"eric holder"~2 firm:c
 
 <div class="left-image">
     <a href="https://www.courtlistener.com/?q=attorney%3A%22eric+holder%22~2+firm%3Acovington&type=r&order_by=score+desc">
-       <img src="{filename}/images/holder-at-covington.png"
+       <img src="{static}/images/holder-at-covington.png"
                     alt="Demo of Eric Holder at Covington & Burling"
                    class="img-responsive border"/>
     </a>

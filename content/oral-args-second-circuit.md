@@ -5,7 +5,7 @@ Tags: Oral Arguments, ca2, Second Circuit
 
 
 <div class="right-image">
-    <img src="{filename}/images/ca2-seal.png"
+    <img src="{static}/images/ca2-seal.png"
          alt="Seal for Second Circuit"
          class="img-responsive">
 </div>

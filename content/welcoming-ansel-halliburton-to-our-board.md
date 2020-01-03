@@ -7,7 +7,7 @@ Today we're proud to announce that Ansel Halliburton has joined the [Free Law Pr
 
 <div class="left-image">
     <a href="https://www.krinternetlaw.com/attorneys/ansel-halliburton-profile">
-        <img src="{filename}/images/ansel-150x150.jpg" 
+        <img src="{static}/images/ansel-150x150.jpg" 
              alt="Ansel Halliburton Headshot"
              class="img-responsive border">
     </a>
@@ -21,6 +21,6 @@ Board members are selected for terms lasting two years.
 
 You can [read more on our Board of Directors page][team] and you can learn more about what it means to be a member of the board in [our bylaws][bl].
 
-[bl]: {filename}/pdf/incorporation/Articles_of_Incorporation_and_Bylaws.pdf
+[bl]: {static}/pdf/incorporation/Articles_of_Incorporation_and_Bylaws.pdf
 [l]: https://lawyerist.com/author/ansel-halliburton/
 [team]: {filename}/pages/team.md

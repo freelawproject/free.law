@@ -5,7 +5,7 @@ Tags: Announcements, Awards, CourtListener
 Slug: free-law-project-and-university-of-baltimore-to-collaborate-to-create-supreme-court-doctrinal-maps
 Status: published
 
-![An early prototype of the new version.]({filename}/images/scotus-maps-prototype.png)
+![An early prototype of the new version.]({static}/images/scotus-maps-prototype.png)
 
 *An early prototype of the new version.*
 
@@ -28,7 +28,7 @@ the justices. Using the CourtListener citation API, Colin and his
 partner Darren Kumasawa have done a lot of work in this area already,
 laying a great foundation for this project.
 
-![The current design]({filename}/images/scotus-map-current.jpg)
+![The current design]({static}/images/scotus-map-current.jpg)
 *The current design*
 
 We hope that within a few months our new service will go live, and that

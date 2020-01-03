@@ -27,6 +27,6 @@ remarks below:
 
 <div align="center">
 
-[![]({filename}/images/recap/Harlan_Yu-Transparency_Advisory_Committee.png)](http://recap.s3.amazonaws.com/Harlan_Yu-Transparency_Advisory_Committee.mp4)
+[![]({static}/images/recap/Harlan_Yu-Transparency_Advisory_Committee.png)](http://recap.s3.amazonaws.com/Harlan_Yu-Transparency_Advisory_Committee.mp4)
 
 </div>

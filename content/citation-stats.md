@@ -15,7 +15,7 @@ As you can imagine, looking up every citation in every opinion in CourtListener 
 
 After running the parser, the first stop I like to take is to go and see [the search results ordered by citation count][cited]. In an upset, [*Strickland v. Washington*][svw], the former leader, has been pushed to third place by [*Anderson v. Libby Lobby*][avll] and by [*Celotex v. Catrell*][cvc]:
 
-[![Most Cited Opinions]({filename}/images/most-cited.png)][cited]
+[![Most Cited Opinions]({static}/images/most-cited.png)][cited]
 
 *The Most Cited Opinions in CourtListener*
 

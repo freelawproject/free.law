@@ -4,7 +4,7 @@ Date: 2017-08-09
 Tags: Security, PACER, ECF, Vulnerability, Administrative Office of the Courts
 
 <div class="right-image">
-    <img src="{filename}/images/pacer-logo-300w.png"
+    <img src="{static}/images/pacer-logo-300w.png"
          alt="PACER Logo"
          class="img-responsive border">
 </div>
@@ -30,7 +30,7 @@ Although we believe this vulnerability has likely existed in the PACER/ECF websi
 
 <div class="left-image">
     <a href="https://www.owasp.org/index.php/Cross-Site_Request_Forgery_(CSRF)">
-        <img src="{filename}/images/csrf-table.png"
+        <img src="{static}/images/csrf-table.png"
              alt="CSRF overview from OWASP"
              class="img-responsive border">
     </a>

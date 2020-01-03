@@ -6,7 +6,7 @@ Slug: new-versions-of-recap-extensions-out-now
 Status: published
 
 <div class="left-image">
-    <img src="{filename}/images/recap_r-150x150.png"
+    <img src="{static}/images/recap_r-150x150.png"
          alt="RECAP Logo"
          class="img-responsive"/>
 </div>

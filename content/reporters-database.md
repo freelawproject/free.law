@@ -6,7 +6,7 @@ Slug: reporters-database
 Status: published
 
 <div class="left-image">
-    <img src="{filename}/images/320px-Unitedstatesreports-150x150.jpg"
+    <img src="{static}/images/320px-Unitedstatesreports-150x150.jpg"
          alt="United States Reporters"
          class="img-responsive"/>
 </div>

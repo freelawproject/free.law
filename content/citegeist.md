@@ -6,7 +6,7 @@ Slug: courtlistener-improves-search-results-thanks-to-volunteer-contributor
 Status: published
 
 <div class="left-image">
-    <img src="{filename}/images/simple-graph-150x150.png"
+    <img src="{static}/images/simple-graph-150x150.png"
          alt="demo graph"
          class="img-responsive">
     <p class="caption">The citation graph is made into a network to compute CiteGeist scores.</p>

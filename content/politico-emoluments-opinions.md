@@ -5,7 +5,7 @@ Tags: Attorney General Opinions, Emoluments Clause, Politico
 
 
 <div class="left-image">
-    <img src="{filename}/images/olc-wooden-door-sign.jpg"
+    <img src="{static}/images/olc-wooden-door-sign.jpg"
          alt="Sign at the entrance of the OLC office"
          class="img-responsive border">
 </div>

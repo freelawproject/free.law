@@ -33,5 +33,5 @@ As always, if you enjoy our oral arguments, please [make a donation][d] to suppo
 [1]: {filename}/oral-arguments-on-courtlistener.md
 [pd]: https://www.courtlistener.com/podcasts/
 [cl]: https://www.courtlistener.com/
-[ca11]: {filename}/pdf/letter-to-ca11-re-oral-arguments.pdf
+[ca11]: {static}/pdf/letter-to-ca11-re-oral-arguments.pdf
 [d]: {filename}/pages/donate.md

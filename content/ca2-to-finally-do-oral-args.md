@@ -32,5 +32,5 @@ Once the Court begins placing these recordings online, we will begin collecting 
 [ca2-archive]: http://www.ca2.uscourts.gov/announcements_archive.html
 [change]: http://www.ca2.uscourts.gov/Docs/Order_06_15_16.pdf
 [tw]: https://twitter.com/FreeLawProject/status/739900189176041473
-[letter]: {filename}/pdf/Free%20Law%20Project%20Letter%20to%20CA2%20re%20Oral%20Argument%20Publication.pdf
+[letter]: {static}/pdf/Free%20Law%20Project%20Letter%20to%20CA2%20re%20Oral%20Argument%20Publication.pdf
 [m]: mailto:rulescomments@ca2.uscourts.gov

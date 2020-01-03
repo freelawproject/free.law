@@ -9,7 +9,7 @@ RECAP, and Free Law." Video of the event is below:
 
 <div align="center">
 
-[![]({filename}/images/recap/20110215_Lee_Schultze_RECAP_NYLS.png)
+[![]({static}/images/recap/20110215_Lee_Schultze_RECAP_NYLS.png)
 ](https://recap.s3.amazonaws.com/20110215_Lee_Schultze_RECAP_NYLS.mp4)
 
 </div>

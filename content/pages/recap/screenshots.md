@@ -8,7 +8,7 @@ After you install RECAP and begin using PACER, you'll see a few changes. In gene
 <hr>
 
 <div class="left-image">
-    <img src="{filename}/images/recap/screenshots/docket-report.png"
+    <img src="{static}/images/recap/screenshots/docket-report.png"
          alt="Docket Report for Stormy Daniels case showing link to RECAP"
          class="img-responsive border">
     <p class="caption">On the docket report page, it will show if we have a copy of a that docket, along with the date when we got our latest copy. Going to the docket will give you an option to search every document within it that we have. These links are also great for sharing.</p>
@@ -16,7 +16,7 @@ After you install RECAP and begin using PACER, you'll see a few changes. In gene
 <div class="clearfix"></div>
 
 <div class="left-image">
-    <img src="{filename}/images/recap/screenshots/docket.png"
+    <img src="{static}/images/recap/screenshots/docket.png"
          alt="Docket for Stormy Daniels case showing link to RECAP"
          class="img-responsive border">
     <p class="caption">On dockets, RECAP will show icons for every document we have. Clicking an icon will let you download a document for free.</p>
@@ -24,7 +24,7 @@ After you install RECAP and begin using PACER, you'll see a few changes. In gene
 <div class="clearfix"></div>
 
 <div class="left-image">
-    <img src="{filename}/images/recap/screenshots/attachment-page.png"
+    <img src="{static}/images/recap/screenshots/attachment-page.png"
          alt="Attachment page for Stormy Daniels case showing link to RECAP"
          class="img-responsive border">
     <p class="caption">In the "Document Selection Menu", RECAP will show icons for every document we have. As on dockets, clicking an icon will let you download a document for free.</p>
@@ -36,7 +36,7 @@ After you install RECAP and begin using PACER, you'll see a few changes. In gene
 We keep the RECAP settings very simple. In general, just install it and forget it. But there are a few options.
 
 <div class="left-image">
-    <img src="{filename}/images/recap/screenshots/options.png"
+    <img src="{static}/images/recap/screenshots/options.png"
          alt="Preferences menu for RECAP">
     <p class="caption">In the preferences, you can adjust whether you want to get notifications for you uploads, whether you want confirmations before downloading documents from RECAP, the style of filename you want for PDFs you purchase, and whether you want to temporarily deactivate RECAP.</p>
 </div>

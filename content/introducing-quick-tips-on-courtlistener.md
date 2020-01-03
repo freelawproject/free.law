@@ -9,7 +9,7 @@ Starting today, as you use CourtListener you'll see Quick Tips on the
 bottom of search results. They show up below search pagination and look
 something like this:
 
-![tips]({filename}/images/Screenshot-from-2014-12-10-112916.png)
+![tips]({static}/images/Screenshot-from-2014-12-10-112916.png)
 
 The idea behind this feature is to give people quick bits of information
 about Free Law Project, CourtListener, RECAP and any other projects that

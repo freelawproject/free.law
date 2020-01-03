@@ -33,7 +33,7 @@ CourtListener so that:
     citations items now have:
 
 ![Roe v. Wade
-Citations]({filename}/images/Screenshot-from-2014-12-21-103557.png)
+Citations]({static}/images/Screenshot-from-2014-12-21-103557.png)
 
 -   All Supreme Court Opinions from 1946 to 2013 have a new field that
     can be used by researchers to join them with the SCDB. This will

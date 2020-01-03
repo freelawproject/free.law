@@ -6,7 +6,7 @@ Slug: more-oral-argument-news
 Status: published
 
 <div class="left-image">
-    <img src="{filename}/images/stitcher_400x400.jpg"
+    <img src="{static}/images/stitcher_400x400.jpg"
          alt="Stitcher Logo"
          width="200"
          class="img-responsive border"/>

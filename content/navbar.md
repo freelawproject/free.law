@@ -8,7 +8,7 @@ Today we're launching a new version of [CourtListener.com][cl] that focuses on m
 The big new feature in this version is the addition of a new navigation bar at the top of every screen, as you can see below:
    
 <div class="left-image">
-    <img src="{filename}/images/navbar.png"
+    <img src="{static}/images/navbar.png"
          alt="New Navigation Bar"
          class="img-responsive border">
     <p class="caption">The new navigation bar on every page.</p>
@@ -20,7 +20,7 @@ This should be a big improvement over our old site, making it much easier and in
 The other big feature in this version is new advanced search pages for opinions, oral arguments, and judges. For example, here's a screenshot of [the new judicial advanced search page][1]:
 
 <div class="left-image">
-    <img src="{filename}/images/adv-search-judges.png"
+    <img src="{static}/images/adv-search-judges.png"
          alt="Screenshot of the Judge Advanced Search page"
          class="img-responsive border">
     <p class="caption">The new judicial advanced search page.</p>
@@ -35,7 +35,7 @@ The final enhancement we're excited about is a layer of polish across the entire
 This kind of work doesn't sound like much, but we dug out an old screenshot of the site so you can see where we started and how this kind of polish adds up. Things have come a long ways since 2010 when the site looked like this!
 
 <div class="left-image">
-    <img src="{filename}/images/cl-2010.png"
+    <img src="{static}/images/cl-2010.png"
          alt="Screenshot of CourtListenter from 2010"
          class="img-responsive border">
     <p class="caption">CourtListener.com <a href="https://web.archive.org/web/20100328140211/http://courtlistener.com/">circa 2010</a> -- in the Beta days.</p>

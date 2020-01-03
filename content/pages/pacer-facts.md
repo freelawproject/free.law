@@ -2,7 +2,7 @@ Title: Facts About PACER and CM/ECF
 Slug: pacer-facts
 
 <div class="right-image">
-    <img src="{filename}/images/pacer-logo-300w.png"
+    <img src="{static}/images/pacer-logo-300w.png"
          alt="PACER Logo"
          class="img-responsive border">
 </div>
@@ -44,7 +44,7 @@ There are a few ways to avoid PACER fees, as [described in the PACER fee schedul
 
     <div class="left-image">
         <a href="https://www.pacer.gov/documents/epa_feesched.pdf" rel="nofollow">
-            <img src="{filename}/images/waiver-details.png"
+            <img src="{static}/images/waiver-details.png"
                  alt="Wiaver details"
                  class="img-responsive border"/>
          </a>
@@ -129,8 +129,8 @@ The second source is an article ([webpage][journal-web]/[pdf][journal-pdf]) in t
 After [downloading all of the written opinions][wor], we [completed a brief analysis (xlsx)][wor-charts] and discovered that courts are wildly inconsistent about marking documents as opinions. For example, in our analysis we discovered that the busiest court in the country, NY Southern District (NYSD), has about 10% as many written opinions as California's Central District, and that NYSD comes in 21st place across the country when it should be first in terms of output. 
 
 <div class="left-image">
-    <a href="{filename}/images/chart-of-written-opinions.png">
-        <img src="{filename}/images/chart-of-written-opinions.small.png"
+    <a href="{static}/images/chart-of-written-opinions.png">
+        <img src="{static}/images/chart-of-written-opinions.small.png"
              alt="Chart of Written Opinion Counts by Court"
              class="img-responsive border"/>
     </a>
@@ -155,7 +155,7 @@ Many documents are not marked as opinions that should be. We know of no recourse
 
  - According to an a declaration by the PACER Service Center manager, 63% of PACER users did not pay fees in 2015.
 
-    [![Declaration Screenshot]({filename}/images/63-percent-non-payers.jpeg)][declaration]
+    [![Declaration Screenshot]({static}/images/63-percent-non-payers.jpeg)][declaration]
 
  - 75% of revenue comes from 1% of users, according to Robert Lowney, director of the PACER program. The implication here is that those 1% of users are likely bots.  
  
@@ -250,28 +250,28 @@ Included in that information is the "Go Live Date" for each jurisdiction, but so
 
 
 [c]: {filename}/pages/contact.md
-[api-docs]: {filename}/pdf/PACER-API-Documentation.pdf
-[api-docs-v3]: {filename}/pdf/PCL-legacy-API-v3.pdf
+[api-docs]: {static}/pdf/PACER-API-Documentation.pdf
+[api-docs-v3]: {static}/pdf/PCL-legacy-API-v3.pdf
 [billion]: {filename}/pacer-billion-documents.md
 [scotus-report]: https://www.supremecourt.gov/publicinfo/year-end/2014year-endreport.pdf
 [court-list]: https://www.pacer.gov/psco/cgi-bin/links.pl
 [json]: https://court-version-scraper.herokuapp.com/courts.json
 [html]: https://court-version-scraper.herokuapp.com/
 [earliest]: https://pcl.uscourts.gov/courts
-[earliest-csv]: {filename}/xlsx/pacer-start-end-dates.xlsx
+[earliest-csv]: {static}/xlsx/pacer-start-end-dates.xlsx
 [revenue]: {filename}/pacer-revenue.md
-[journal-pdf]: {filename}/pdf/179-594-1-PB.pdf
+[journal-pdf]: {static}/pdf/179-594-1-PB.pdf
 [journal-web]: http://www.iacajournal.org/articles/abstract/10.18352/ijca.179/
 [bank]: https://www.pacer.gov/documents/case_upload_specs_5_1_1.pdf
 [xml]: https://www.pacer.gov/documents/pacer_xml_apv3.1.pdf
-[nara]: {filename}/pdf/N1-021-10-2.pdf
+[nara]: {static}/pdf/N1-021-10-2.pdf
 [declaration]: https://www.courtlistener.com/docket/4214664/13/2/national-veterans-legal-services-program-v-united-states/
 [train]: https://dcecf.psc.uscourts.gov/cgi-bin/ShowIndex.pl
 [cit-train]: https://ecf-train.cit.uscourts.gov/cgi-bin/login.pl
 [ganb-train]: https://ecf-train.ganb.uscourts.gov/cgi-bin/login.pl
 [wor]: {filename}/why-downloading-all-free-pacer.md
-[wor-charts]: {filename}/xlsx/free-opinions-report-totals-by-court.xlsx
-[wor-policy]: {filename}/pdf/written-opinions-memo.pdf
+[wor-charts]: {static}/xlsx/free-opinions-report-totals-by-court.xlsx
+[wor-policy]: {static}/pdf/written-opinions-memo.pdf
 [js]: {filename}/pages/juriscraper.md
 [miss]: https://courts.ms.gov/mec/mec.html
 [dapuzzo]: https://www.courtlistener.com/docket/4547409/theodore-dapuzzo-pa-v-united-states/
@@ -283,6 +283,6 @@ Included in that information is the "Go Live Date" for each jurisdiction, but so
 [waivers]: https://www.courtlistener.com/?q=pacer+AND+(%22fee+waiver%22+OR+%22fee+exemption%22)&type=r&order_by=score+desc#
 [idb-facts]: {filename}/pages/idb-facts.md
 [cavc-pacer]: https://efiling.uscourts.cavc.gov/cmecf/servlet/TransportRoom?servlet=CaseSearch.jsp 
-[doj]: {filename}/pdf/doj-pacer-totals.pdf
+[doj]: {static}/pdf/doj-pacer-totals.pdf
 [titanous]: https://titanous.com/
 [pcl]: https://pcl.uscourts.gov/

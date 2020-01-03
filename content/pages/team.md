@@ -7,7 +7,7 @@ Status: published
 <div class="media">
   <div class="media-left pull-left">
     <a href="http://michaeljaylissner.com">
-      <img class="media-object" src="{filename}/images/mlissner-bio-150x150.jpg" alt="Michael Lissner Headshot">
+      <img class="media-object" src="{static}/images/mlissner-bio-150x150.jpg" alt="Michael Lissner Headshot">
     </a>
   </div>
   <div class="media-body">
@@ -22,7 +22,7 @@ Status: published
 <div class="media">
   <div class="media-left pull-left">
     <a href="http://www.ischool.berkeley.edu/people/faculty/briancarver">
-      <img class="media-object" src="{filename}/images/brian-150x150.jpeg" alt="Brian Carver Headshot">
+      <img class="media-object" src="{static}/images/brian-150x150.jpeg" alt="Brian Carver Headshot">
     </a>
   </div>
   <div class="media-body">
@@ -42,7 +42,7 @@ Status: published
 
 <div class="media">
   <div class="media-left pull-left">
-    <img class="media-object" src="{filename}/images/ansel-150x150.jpg" alt="Ansel Halliburton Headshot">
+    <img class="media-object" src="{static}/images/ansel-150x150.jpg" alt="Ansel Halliburton Headshot">
   </div>
   <div class="media-body">
     <h4 class="media-heading">Ansel Halliburton &ndash; Director</h4>

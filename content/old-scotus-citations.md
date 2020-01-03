@@ -8,8 +8,8 @@ We have a small update to share today, as we've wrapped up adding thousands of h
 For the unfamiliar, Supreme Court citations were originally named after the [Reporter of Decisions for the Supreme Court][reporter] from the time the opinion was published. For example, the first person to do this was [Alexander Dallas][dall], and his citations start at [1 Dall. 1 (1754)][1d1], and go forward to [4 Dall. 446 (1806)][4d446]. After Dallas came a long line of other reporters, each of whom named their series of books after himself until 1875, when [congress began appropriating money for the full time creation of these reporters][app] and demanded they be called the "United States Reports."
 
 <div class="left-image">
-    <a href="{filename}/pdf/18-Stat-204.pdf">
-        <img src="{filename}/images/printing-approp.png"
+    <a href="{static}/pdf/18-Stat-204.pdf">
+        <img src="{static}/images/printing-approp.png"
                  alt="18 Stat. 204 (1874)"
                  class="img-responsive border"/>
     </a>
@@ -28,5 +28,5 @@ Mapping between these citations is easy to do if you know which historical volum
 [dall]: https://en.wikipedia.org/wiki/Alexander_J._Dallas_(statesman)
 [reporter]: https://en.wikipedia.org/wiki/Reporter_of_Decisions_of_the_Supreme_Court_of_the_United_States
 [otto]: http://www.indianalegalarchive.com/journal/otto
-[app]: {filename}/pdf/18-Stat-204.pdf
+[app]: {static}/pdf/18-Stat-204.pdf
 [cf]: https://en.wikipedia.org/wiki/Christine_Luchok_Fallon

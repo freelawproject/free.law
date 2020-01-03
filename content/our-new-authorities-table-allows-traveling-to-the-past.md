@@ -16,7 +16,7 @@ For example, [*Roe v.
 Wade*](https://www.courtlistener.com/scotus/yjn/roe-v-wade/) looks like
 this:
 
-![authorities-sidebar-example]({filename}/images/authorities-sidebar.png)
+![authorities-sidebar-example]({static}/images/authorities-sidebar.png)
 
 This section shows the top five opinions that were cited by the one you
 are looking at. If you wish to see all of the opinions it cited there is
@@ -25,7 +25,7 @@ Authorities](https://www.courtlistener.com/scotus/yjn/roe-v-wade/authorities/)
 page, which shows everything:
 
 ![authorities
-table]({filename}/images/authorities-table.png)
+table]({static}/images/authorities-table.png)
 
 Now, when you're looking at an opinion, you can easily travel through
 time to either opinions that came later or ones that came before. [Doc

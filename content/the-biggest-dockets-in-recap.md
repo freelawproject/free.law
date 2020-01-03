@@ -34,7 +34,7 @@ At the top of the above list is the Lehman Brothers bankruptcy case from the 200
 For that much money, you can buy a lot of other things. Like a new 2016 Honda Civic:
 
 <div class="left-image">
-    <img src="{filename}/images/2016-Honda-Civic.jpg"
+    <img src="{static}/images/2016-Honda-Civic.jpg"
          alt="2016 Honda Civic"
          class="img-responsive border"/>
      <p class="caption">The 2016 Honda Civic&mdash;MSRP of $18,740</p>

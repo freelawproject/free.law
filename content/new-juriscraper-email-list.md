@@ -23,7 +23,7 @@ this email was only sent privately to maintainers, but by making it
 public, we're hoping to encourage more people to identify and fix the
 day to day problems that arise with so many scrapers.
 
-![Scraper Status Email]({filename}/images/Screenshot-from-2015-08-27-104126.png)
+![Scraper Status Email]({static}/images/Screenshot-from-2015-08-27-104126.png)
 
 *Yesterday's status email*
 

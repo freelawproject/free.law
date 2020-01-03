@@ -6,10 +6,10 @@ Slug: recap
 <div class="text-center">
 <a href="https://chrome.google.com/webstore/detail/recap/oiillickanjlaeghobeeknbddaonmjnc" 
    class="btn btn-primary btn-lg"
-   id="chrome-button">Add to Chrome&nbsp;<img src="{filename}/images/icons/chrome.svg" height="35" width="35"></a>&nbsp;
+   id="chrome-button">Add to Chrome&nbsp;<img src="{static}/images/icons/chrome.svg" height="35" width="35"></a>&nbsp;
 <a href="https://addons.mozilla.org/en-US/firefox/addon/recap-195534/" 
    class="btn btn-primary btn-lg"
-   id="firefox-button">Add to Firefox&nbsp;<img src="{filename}/images/icons/firefox.svg" height="35" width="35"></a>
+   id="firefox-button">Add to Firefox&nbsp;<img src="{static}/images/icons/firefox.svg" height="35" width="35"></a>
 </div>
 <br>
 
@@ -68,7 +68,7 @@ Finally, we make the RECAP Archive available via an API or as bulk data for jour
 ## History
 
 <div class="right-image">
-    <img src="{filename}/images/recap/citp-logo-initials.png"
+    <img src="{static}/images/recap/citp-logo-initials.png"
          alt="CITP Logo"
          class="img-responsive">
 </div>
@@ -95,7 +95,7 @@ document.addEventListener("DOMContentLoaded", function(event) {
   let isSafari = /constructor/i.test(window.HTMLElement) || (function (p) { return p.toString() === "[object SafariRemoteNotification]"; })(!window['safari'] || (typeof safari !== 'undefined' && safari.pushNotification));
   let isIE = /*@cc_on!@*/false || !!document.documentMode;
   let isEdge = !isIE && !!window.StyleMedia;
-  let isChrome = !!window.chrome && (!!window.chrome.webstore || !!window.chrome.runtime);;
+  let isChrome = !!window.chrome && (!!window.chrome.webstore || !!window.chrome.runtime);
   
   // Will need updating if we add more buttons
   if (isChrome) {

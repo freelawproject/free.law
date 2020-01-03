@@ -12,7 +12,7 @@ ranging from the history of Free Law Project and the need for innovation
 in the legal arena to the copyright and trademark issues in the latest
 Deadmou5 brouhaha.
 
-[![YouTube Screenshot]({filename}/images/twil.png)](https://www.youtube.com/watch?v=Ug_enc7XrNQ)
+[![YouTube Screenshot]({static}/images/twil.png)](https://www.youtube.com/watch?v=Ug_enc7XrNQ)
 
 We hope you'll enjoy watching.
 

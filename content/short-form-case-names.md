@@ -24,7 +24,7 @@ With these rules in mind, we made an algorithm that attempts to generate good sh
 
 About 2,500 Supreme Court cases were too complicated for the algorithm. For these cases, we created short form case names by hand. We also know that the program is not perfect, so if you see any errors, as always, feel free to send them to us for correction.
 
-All of these short form case names are now available in our new database, bulk API, and REST API in the field called `case_name_short`. To get a feel for these, you can also look at [the attached spreadsheet]({filename}/csv/short_names.csv), which shows the cases that were completed by hand.
+All of these short form case names are now available in our new database, bulk API, and REST API in the field called `case_name_short`. To get a feel for these, you can also look at [the attached spreadsheet]({static}/csv/short_names.csv), which shows the cases that were completed by hand.
 
 As for the algorithm itself, the process was roughly:
 

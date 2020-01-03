@@ -55,7 +55,7 @@ anonymously such that we should see the right to read anonymously as a
 fundamental constitutional right.
 
 <div class="left-image">
-    <img src="{filename}/images/1984-Big-Brother.jpg"
+    <img src="{static}/images/1984-Big-Brother.jpg"
          alt="1984-Big-Brother"
          class="img-responsive"/>
 </div>

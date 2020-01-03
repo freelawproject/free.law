@@ -5,7 +5,7 @@ Tags: announcements, Oral Arguments, podcasts
 
 
 <div class="left-image">
-    <img src="{filename}/images/play_music_triangle.svg"
+    <img src="{static}/images/play_music_triangle.svg"
          alt="Google Play Logo"
          height="200"
          width="200"

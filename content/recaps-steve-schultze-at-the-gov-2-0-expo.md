@@ -21,7 +21,7 @@ about RECAP. If you're at the expo as well, we hope you're planning to
 go to the talk, which starts at 10:50. If not, you can see a
 pre-recorded version of his talk here:
 
-[![teaser image]({filename}/images/recap/Recap_Gov20key-title.png)](http://www.youtube.com/watch?v=TBmNmK82um4)
+[![teaser image]({static}/images/recap/Recap_Gov20key-title.png)](http://www.youtube.com/watch?v=TBmNmK82um4)
 
 Finally, next week Steve will start his [new
 job](http://www.freedom-to-tinker.com/blog/felten/steve-schultze-join-citp-associate-director)

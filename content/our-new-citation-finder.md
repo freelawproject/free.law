@@ -10,7 +10,7 @@ citation in our system. It's dead simple. There are two ways to use it.
 
 Either simply type in the citation you want to look up:
 
-[![Citation Lookup]({filename}/images/citation-lookup.png)][1]
+[![Citation Lookup]({static}/images/citation-lookup.png)][1]
 
 Or, just make a link with a format like:
 
@@ -54,7 +54,7 @@ When you try to load citations with problems like this, you'll get a
 list of the cases that it might refer to, like so:
 
 ![Several Results
-Found]({filename}/images/Screenshot-from-2015-11-30-102734.png)
+Found]({static}/images/Screenshot-from-2015-11-30-102734.png)
 
 We're very excited about this tool because it's a great example of the
 kind of work that is made possible by open data and open tools. This

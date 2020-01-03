@@ -6,7 +6,7 @@ Tags: pacer, recap, Thomas Bruce, Jonathan Zittrain, House Judiciary Committee
 
 
 <div class="right-image">
-    <img src="{filename}/images/seal-hjc.png"
+    <img src="{static}/images/seal-hjc.png"
          alt="HJC Seal"
          class="img-responsive border">
 </div>

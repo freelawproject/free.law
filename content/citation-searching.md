@@ -8,7 +8,7 @@ One of the great new features that [the new version of CourtListener][1] provide
 
 For example, say you're looking at [*Roe v. Wade*][roe] and you want to analyze the cases that have cited it. In CourtListener, in the sidebar on the left, there's a list of the opinions citing the one you're looking at, in the section called "Cited By". At the bottom of that section, there's a link that says, "Full List of Cited Opinions".
 
-![Sidebar]({filename}/images/cited-by-sidebar.png)
+![Sidebar]({static}/images/cited-by-sidebar.png)
 
 If you click that link, you'll be taken back to the search results page, and you'll see that your query is for `cites:(108713)`. The number in there is the ID of *Roe v. Wade* that you can see in its URL. This is just standard CourtListener search syntax, so you can tweak it however you like.
 
@@ -24,7 +24,7 @@ That brings back about 1,600 results. In this example, we won't do that, so we s
 
 Let's assume that you want to look for opinions citing *Roe v. Wade* that have the phrase "Planned Parenthood". To do that, we'll change the query to `cites:(108713) "planned parenthood"`.
 
-![PP Query]({filename}/images/citing-roe-pp.png)
+![PP Query]({static}/images/citing-roe-pp.png)
 
 That brings the number of opinions that cite *Roe v. Wade* to only 352 cases, but that's still a lot to review. Perhaps you can filter down to only cases in the Ninth Circuit using [the Jurisdiction Picker][picker]. If you do that, you will have 32 opinions remaining, and they'll be sorted by relevancy to show which ones are most important.
 
@@ -33,7 +33,7 @@ That brings the number of opinions that cite *Roe v. Wade* to only 352 cases, bu
 
 Another use of Citation Searching is to tie it in with our alert system. If you're logged into CourtListener, and you're looking at search results, you'll see a sidebar that allows you to create an alert.
 
-![Alert Sidebar]({filename}/images/alert-sidebar.png)
+![Alert Sidebar]({static}/images/alert-sidebar.png)
 
 Now that you have a query that you like (all cases citing *Roe v. Wade* in the Ninth Circuit containing the phrase "Planned Parenthood"), you can create an alert so that whenever a new case fits these criteria you get an email sent to you at the end of the day, week, or even in [real time][rt], if you're a Free Law Project supporter.
 

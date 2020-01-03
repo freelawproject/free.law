@@ -75,7 +75,7 @@ There are several reasons that Congress should care about PACER:
     budget-neutral solution to the unreasonable burdens imposed on the
     public by the current fee structure.[^1]
 
-    ![pacer.gov website]({filename}/images/pacer-gov-2015-03-23-101247.png)
+    ![pacer.gov website]({static}/images/pacer-gov-2015-03-23-101247.png)
 
     *Screenshot of pacer.gov website (March 2015)*
 

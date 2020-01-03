@@ -297,7 +297,7 @@ Lincoln
 
 ### Attachments
 
-[extract\_font\_metadata\_from\_files.py\_.txt]({filename}/txt/extract_font_metadata_from_files.py.txt)
+[extract\_font\_metadata\_from\_files.py\_.txt]({static}/txt/extract_font_metadata_from_files.py.txt)
 
-[font-analysis.ods]({filename}/ods/font-analysis.ods)
+[font-analysis.ods]({static}/ods/font-analysis.ods)
 

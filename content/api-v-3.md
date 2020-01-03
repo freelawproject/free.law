@@ -13,7 +13,7 @@ This post is one with mixed news, so I'll start with the good news, which is tha
 
 The new version of the API is a huge improvement over the old version, and I highly suggest [reading the new documentation][docs] to get a feel for what it's capable of.
 
-![New API Schema]({filename}/images/schema-design-v3-small.png)
+![New API Schema]({static}/images/schema-design-v3-small.png)
 
 *The design of the new database*
 

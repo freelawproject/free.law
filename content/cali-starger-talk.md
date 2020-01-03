@@ -9,7 +9,7 @@ Last week was a busy one for Free Law Project. While I was at the [LTDCA confere
 
 <div class="text-center">
     <a href="https://gsu.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=e7c2d415-2b4e-4cb3-b46f-a3a814731e48">
-        <img src="{filename}/images/cali-vid.png"
+        <img src="{static}/images/cali-vid.png"
                  alt="Starger Video"/>
     </a>
 </div>

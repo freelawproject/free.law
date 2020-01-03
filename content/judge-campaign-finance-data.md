@@ -5,7 +5,7 @@ Tags: judge database, announcements, linkages, courtlistener, elections, campaig
 
 <div class="left-image">
     <a href="https://followthemoney.org">
-        <img src="{filename}/images/ftm-logo.png"
+        <img src="{static}/images/ftm-logo.png"
              alt="FollowTheMoney.org Logo"
              class="img-responsive">
     </a>
@@ -19,7 +19,7 @@ For example, on the page for [Judge Tom Parker][tp], there is a new section that
 
 <div class="left-image">
     <a href="https://www.courtlistener.com/person/3652/tom-parker/">
-        <img src="{filename}/images/ftm-integration.png"
+        <img src="{static}/images/ftm-integration.png"
              alt="Example screenshot"
              class="img-responsive border">
     </a>

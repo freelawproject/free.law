@@ -5,7 +5,7 @@ Tags: announcements, Oral Arguments, podcasts
 
 
 <div class="left-image">
-    <img src="{filename}/images/itunes.png"
+    <img src="{static}/images/itunes.png"
          alt="iTunes Logo"
          height="200"
          width="200"

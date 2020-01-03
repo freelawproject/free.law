@@ -16,7 +16,7 @@ Tags: internet archive, pacer, recap, oral arguments
 </div>
 
 <div class="right-image">
-    <img src="{filename}/images/logos/internet-archive.svg"
+    <img src="{static}/images/logos/internet-archive.svg"
          alt="Internet Archive Logo"
          class="img-responsive"
          height="175"
@@ -81,10 +81,10 @@ The steps we are taking today are hard ones that we have been working on for yea
 [archive-oa]: https://archive.org/details/uscourtsoralarguments
 
 [c]: {filename}/pages/contact.md
-[letter1]: {filename}/pdf/letters/Free%20Law%20Project%20Letter%20to%20CA2%20re%20Oral%20Argument%20Publication.pdf
-[letter2]: {filename}/pdf/letters/letter-to-ca11-re-oral-arguments.pdf
-[letter3]: {filename}/pdf/letters/letter-to-ca11-re-oral-arguments-rule-changes.pdf
-[letter4]: {filename}/pdf/letters/letter-to-tim-tymkovich-re-oral-argument-recordings-at-ca10.pdf
+[letter1]: {static}/pdf/letters/Free%20Law%20Project%20Letter%20to%20CA2%20re%20Oral%20Argument%20Publication.pdf
+[letter2]: {static}/pdf/letters/letter-to-ca11-re-oral-arguments.pdf
+[letter3]: {static}/pdf/letters/letter-to-ca11-re-oral-arguments-rule-changes.pdf
+[letter4]: {static}/pdf/letters/letter-to-tim-tymkovich-re-oral-argument-recordings-at-ca10.pdf
 [mission]: {filename}/pages/mission.md
 [promise]: {filename}/new-recap.md
 [recap]: {filename}/pages/recap.md

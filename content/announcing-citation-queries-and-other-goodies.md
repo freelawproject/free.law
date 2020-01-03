@@ -10,7 +10,7 @@ for a long time. Starting today, you can make citation queries against
 the CourtListener corpus. If you look in the bottom of the left hand
 column, you'll see a new slider:
 
-![sliders]({filename}/images/sliders.png)
+![sliders]({static}/images/sliders.png)
 
 Sliding the handles around, you can easily filter out any documents that
 are too popular or not popular enough -- or both. In addition to this,

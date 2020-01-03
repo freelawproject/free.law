@@ -29,7 +29,7 @@ This brings the number of jurisdictions to more than 400, and it is getting hard
 To address the confusion that is caused by so many jurisdictions (a *good* problem to have), we've identified the courts that are no longer active. For example, in the court picker, you can see that terminated courts are now listed at the bottom and show their date of termination in gray:
 
 <div class="text-center">
-    <img src="{filename}/images/termination-dates.png"
+    <img src="{static}/images/termination-dates.png"
          alt="Jurisdiction picker with termination dates"
          class="border"/>
 </div>

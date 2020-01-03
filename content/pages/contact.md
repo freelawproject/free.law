@@ -17,4 +17,4 @@ If you wish to send encrypted email, [this is our public key][1].
 We endeavor to reply to every message we receive as quickly as possible.
 
 
-[1]: {filename}/keys/flp.gpg
+[1]: {static}/keys/flp.gpg

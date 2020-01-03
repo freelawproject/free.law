@@ -19,7 +19,7 @@ So far we have integrated the IDB civil data set, so when you look at civil dock
 
 <div class="text-center">
     <a href="https://www.courtlistener.com/docket/4214664/idb/national-veterans-legal-services-program-v-united-states/">
-        <img src="{filename}/images/idb/idb-tab-example.png"
+        <img src="{static}/images/idb/idb-tab-example.png"
              alt="An example of the IDB tab in CourtListener"
              class="img-responsive border">
     </a>

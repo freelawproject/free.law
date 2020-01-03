@@ -6,7 +6,7 @@ Tags: pacer, recap, data services, awards, GSU, DoL, recap archive
 
 <div class="right-image">
     <a href="http://robinson.gsu.edu">
-        <img src="{filename}/images/gsu.png"
+        <img src="{static}/images/gsu.png"
              alt="J. Mack Robinson School of Business at Georgia State University logo"
              class="img-responsive border">
     </a>

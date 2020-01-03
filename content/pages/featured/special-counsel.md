@@ -60,9 +60,9 @@ If you would like to add a docket link or suggest another update to this page, p
 [ext]: {filename}/pages/recap.md
 [c]: {filename}/pages/contact.md
 [pr]: https://github.com/freelawproject/free.law/blob/master/content/pages/special-counsel.md
-[opinion-gj-priv]: {filename}/pdf/17-mc-2336_MEM_OP_REDACTED_FOR_UNSEALING_20171030.pdf
-[papadopoulos-unseal-order]: {filename}/pdf/gov.uscourts.dcd.189936.1.0.pdf
-[papadopoulos-plea]: {filename}/pdf/gov.uscourts.dcd.189898.18.0.pdf
-[papadopoulos-statement]: {filename}/pdf/gov.uscourts.dcd.189898.19.0.pdf
+[opinion-gj-priv]: {static}/pdf/17-mc-2336_MEM_OP_REDACTED_FOR_UNSEALING_20171030.pdf
+[papadopoulos-unseal-order]: {static}/pdf/gov.uscourts.dcd.189936.1.0.pdf
+[papadopoulos-plea]: {static}/pdf/gov.uscourts.dcd.189898.18.0.pdf
+[papadopoulos-statement]: {static}/pdf/gov.uscourts.dcd.189898.19.0.pdf
 [flynn-information]: https://www.courtlistener.com/recap/gov.uscourts.dcd.191592/gov.uscourts.dcd.191592.1.0_2.pdf
 [gru-indictment]: https://www.courtlistener.com/recap/gov.uscourts.dcd.198489/gov.uscourts.dcd.198489.1.0.pdf

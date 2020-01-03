@@ -4,7 +4,7 @@ Date: 2017-08-15
 Tags: PACER, RECAP, Opinions, Orders, bulk data, crawling, CourtListener
 
 <div class="right-image">
-    <img src="{filename}/images/free-opinion-dropdown.png"
+    <img src="{static}/images/free-opinion-dropdown.png"
          alt="Free Opinion Report Dropdown"
          class="img-responsive border">
 </div>
@@ -18,7 +18,7 @@ All of the documents amassed are available for search in the [RECAP Archive of P
  
 <div class="left-image">
     <a href="https://www.courtlistener.com/?type=r&q=&order_by=score+desc">
-        <img src="{filename}/images/twenty-million-docs-in-recap.png"
+        <img src="{static}/images/twenty-million-docs-in-recap.png"
              alt="The RECAP Archive now has more than twenty million documents."
              class="img-responsive border">
     </a>

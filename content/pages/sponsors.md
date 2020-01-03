@@ -17,7 +17,7 @@ Thank you to all of our wonderful supporters for making our work possible and he
     <div class="col-xs-4">
         <p><a href="https://archive.org"
            target="_blank">
-            <img src="{filename}/images/services-logos/internet-archive.png"
+            <img src="{static}/images/services-logos/internet-archive.png"
                  alt="Internet Archive Logo"
                  class="img-responsive">
         </a></p>
@@ -32,7 +32,7 @@ Thank you to all of our wonderful supporters for making our work possible and he
     <div class="col-xs-4">
         <p><a href="http://bayandpaulfoundations.org"
            target="_blank">
-            <img src="{filename}/images/services-logos/bay-and-paul.jpg"
+            <img src="{static}/images/services-logos/bay-and-paul.jpg"
                  alt="Bay and Paul Foundations Logo"
                  class="img-responsive">
         </a></p>
@@ -40,7 +40,7 @@ Thank you to all of our wonderful supporters for making our work possible and he
     <div class="col-xs-4">
         <p><a href="https://www.courthousenews.com"
            target="_blank">
-            <img src="{filename}/images/services-logos/courthouse-news.png"
+            <img src="{static}/images/services-logos/courthouse-news.png"
                  alt="Courthouse News Service Logo"
                  class="img-responsive">
         </a></p>
@@ -48,7 +48,7 @@ Thank you to all of our wonderful supporters for making our work possible and he
     <div class="col-xs-4">
         <p><a href="https://www.lawyer.com"
            target="_blank">
-            <img src="{filename}/images/services-logos/lawyer.com.png"
+            <img src="{static}/images/services-logos/lawyer.com.png"
                  alt="Lawyer.com Logo"
                  class="img-responsive">
         </a></p>
@@ -59,7 +59,7 @@ Thank you to all of our wonderful supporters for making our work possible and he
     <div class="col-xs-4">
         <p><a href="https://www.fastcase.com"
            target="_blank">
-            <img src="{filename}/images/services-logos/fastcase.png"
+            <img src="{static}/images/services-logos/fastcase.png"
                  alt="FastCase Logo"
                  class="img-responsive">
         </a></p>
@@ -67,7 +67,7 @@ Thank you to all of our wonderful supporters for making our work possible and he
     <div class="col-xs-4">
         <p><a href="https://www.legalrobot.com"
            target="_blank">
-            <img src="{filename}/images/services-logos/legal-robot.svg"
+            <img src="{static}/images/services-logos/legal-robot.svg"
                  alt="Legal Robot Logo"
                  class="img-responsive">
         </a></p>
@@ -75,7 +75,7 @@ Thank you to all of our wonderful supporters for making our work possible and he
     <div class="col-xs-4">
         <p><a href="https://krebsonsecurity.com/"
            target="_blank">
-            <img src="{filename}/images/services-logos/krebs-on-security.png"
+            <img src="{static}/images/services-logos/krebs-on-security.png"
                  alt="Krebs on Security Logo"
                  class="img-responsive">
         </a></p>
@@ -91,7 +91,7 @@ Thank you to all of our wonderful supporters for making our work possible and he
     <div class="col-xs-4">
         <p><a href="https://www.knightfoundation.org"
            target="_blank">
-            <img src="{filename}/images/services-logos/knight-foundation.png"
+            <img src="{static}/images/services-logos/knight-foundation.png"
                  alt="Knight Foundation Logo"
                  class="img-responsive">
         </a></p>
@@ -99,7 +99,7 @@ Thank you to all of our wonderful supporters for making our work possible and he
     <div class="col-xs-4">
         <p><a href="https://www.justia.com"
            target="_blank">
-            <img src="{filename}/images/services-logos/justia.png"
+            <img src="{static}/images/services-logos/justia.png"
                  alt="Justia Logo"
                  class="img-responsive">
         </a></p>
@@ -107,7 +107,7 @@ Thank you to all of our wonderful supporters for making our work possible and he
     <div class="col-xs-4">
         <p><a href="http://www.komply.co/"
            target="_blank">
-            <img src="{filename}/images/services-logos/komply.png"
+            <img src="{static}/images/services-logos/komply.png"
                  alt="Komply Logo"
                  class="img-responsive">
         </a></p>
@@ -118,7 +118,7 @@ Thank you to all of our wonderful supporters for making our work possible and he
     <div class="col-xs-4">
         <p><a href="https://public.resource.org"
            target="_blank">
-            <img src="{filename}/images/services-logos/pro.png"
+            <img src="{static}/images/services-logos/pro.png"
                  alt="Public.Resources.Org Logo"
                  class="img-responsive">
         </a></p>
@@ -126,7 +126,7 @@ Thank you to all of our wonderful supporters for making our work possible and he
     <div class="col-xs-4">
         <p><a href="https://citp.princeton.org"
            target="_blank">
-            <img src="{filename}/images/recap/citp-logo-compact.png"
+            <img src="{static}/images/recap/citp-logo-compact.png"
                  alt="CITP Logo"
                  class="img-responsive">
         </a></p>
@@ -134,7 +134,7 @@ Thank you to all of our wonderful supporters for making our work possible and he
     <div class="col-xs-4">
         <p><a href="https://www.thinkcomputer.org"
            target="_blank" rel="nofollow">
-            <img src="{filename}/images/services-logos/think-computer-foundation.gif"
+            <img src="{static}/images/services-logos/think-computer-foundation.gif"
                  alt="Think Computer Foundation Logo"
                  class="img-responsive">
         </a></p>

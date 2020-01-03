@@ -10,7 +10,7 @@ For example, on the page for [Ruth Bader Ginsburg][rbg], there is a new section 
 
 <div class="left-image">
     <a href="https://www.courtlistener.com/person/1213/ruth-bader-ginsburg">
-        <img src="{filename}/images/rbg-oa.png"
+        <img src="{static}/images/rbg-oa.png"
              alt="Example screenshot of RBG"
              class="img-responsive border">
     </a>

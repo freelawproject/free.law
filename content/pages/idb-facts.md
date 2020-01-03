@@ -2,7 +2,7 @@ Title: Facts about FJC's Integrated Database
 Slug: idb-facts
 
 <div class="right-image">
-    <img src="{filename}/images/fjc-logo.png"
+    <img src="{static}/images/fjc-logo.png"
          alt="FJC Logo"
          class="img-responsive border">
 </div>
@@ -86,7 +86,7 @@ The FJC receives data from the AO on a quarterly basis around two months after t
 These are blank according to policy set by the Judicial Conference of the U.S. It was originally set in [March of 1995 (pg 21-22)][031995], and it was reaffirmed in [March of 2003][032003] (see page 20).
 
 <div class="text-center">
-    <img src="{filename}/images/judge-specific-data.png"
+    <img src="{static}/images/judge-specific-data.png"
          alt="The 2003 conference notes"
          class="img-responsive border"/>
 </div>
@@ -106,7 +106,7 @@ If you need these values, you *might* be able to obtain unredacted sources of th
 </script>
     
     
-[031995]: {filename}/pdf/judicial-conference-proceedings/1995-03.pdf 
-[032003]: {filename}/pdf/judicial-conference-proceedings/2003-03.pdf
+[031995]: {static}/pdf/judicial-conference-proceedings/1995-03.pdf 
+[032003]: {static}/pdf/judicial-conference-proceedings/2003-03.pdf
 [possible]: https://github.com/freelawproject/juriscraper/blob/master/juriscraper/pacer/hidden_api.py#L13
 [nacjd]: https://www.icpsr.umich.edu/icpsrweb/NACJD/series/72/studies
