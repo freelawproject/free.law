@@ -19,9 +19,9 @@ SITEURL = 'https://free.law'
 RELATIVE_URLS = False
 
 FEED_ALL_ATOM = 'feeds/all.atom.xml'
-CATEGORY_FEED_ATOM = 'feeds/%s.atom.xml'
-TAG_FEED_ATOM = 'feeds/tag/%s'
-AUTHOR_FEED_ATOM = "feeds/%s.atom.xml"
+CATEGORY_FEED_ATOM = 'feeds/{slug}.atom.xml'
+TAG_FEED_ATOM = 'feeds/tag/{slug}'
+AUTHOR_FEED_ATOM = "feeds/{slug}.atom.xml"
 # Do the full RSS feed, not just a summary.
 RSS_FEED_SUMMARY_ONLY = False
 
