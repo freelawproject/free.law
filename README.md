@@ -74,6 +74,34 @@ Once the generation is done, the content is in the `output` directory. If you're
 Feel free to look at the other options the `pelican` command provides. Some, like caching, are pretty useful.
 
 
+### Making it fast
+
+We've got about 150 pages and each of them generates a few pages. Regenerating all of that can be frustrating. There are a few tricks:
+
+1. Pelican 4.2 [is currently broken][bah], but once it's fixed, you should be able to only generate the pages you are working on with something like:
+
+        --write-selected 'output/legal-api-downloader/index.html'
+        
+    or
+    
+        --write-selected 'output/drafts/some-long-slug/index.html'
+         
+    or
+    
+        --writes-selected 'output/2019/12/22/some-long-slug/index.html'
+        
+2. By default we use a couple performance tweaks in our settings
+
+        CACHE_CONTENT = True
+        LOAD_CONTENT_CACHE = True 
+        STATIC_CHECK_IF_MODIFIED = True
+
+    There's also `STATIC_CREATE_LINKS`, which might be worth experimenting with, but it seems buggy.
+
+[bah]: https://github.com/getpelican/pelican/issues/2678
+
+    
+
 ## Running a development server
 
 To see the content in your browser, run your generation command with:

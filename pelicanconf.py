@@ -4,6 +4,7 @@ from __future__ import unicode_literals
 
 CACHE_CONTENT = True
 LOAD_CONTENT_CACHE = True
+STATIC_CHECK_IF_MODIFIED = True
 
 AUTHOR = u'Free Law Project'
 SITENAME = u'Free Law Project'
