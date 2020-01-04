@@ -10,9 +10,6 @@ By using this software, you will use your credentials to gather legal cases from
 Thank you for your interest in joining this effort. When this is complete we will have unlocked centuries of important legal data. Finally, the law will be freely accessible to everybody who needs it.
 
 
-**Note:** By providing these instructions and this software, we neither encourage nor endorse the use of their software, your API, or any related software. Using our docker image is *your* choice, and before making any choice we encourage *you* to evaluate any necessary terms, laws, conditions, or other rules or regulations that may apply. 
-
-
 ## The Short Version
 
 1. Install Legal API Downloader on macOS from the Mac App Store.
@@ -22,35 +19,48 @@ Thank you for your interest in joining this effort. When this is complete we wil
 
 ## The Long Version
 
-Before beginning, you must:
+### Create an account
+
+Start by creating an account at <a href="https://case.law/user/register/" target="_blank" rel="noreferrer">Harvard's website</a>, and verifying your email address.
+
+### Install the app
+
+Search for "Legal API Downloader" on the Mac App Store and install it. If the app does not start automatically, navigate to your application directory and start Legal API Downloader.
 
 
-1. Search for Legal API Downloader on the Mac App Store and install the application.
+<div class="text-center">
+<img src="{static}/images/mac-app-store-page.png"
+     alt="Legal API Downloader Page "
+     class="img-responsive border"/>
+</div>
 
-    <div class="text-center">
-    <img src="{filename}/images/mac-app-store-page.png"
+
+### Configure the app 
+
+You should now see this:
+
+![Mac App Store]({static}/images/mac-app-pref-window.png "Optional title")
+
+First, make sure that "Auto Launch" is enabled. That'll make sure it keeps running even if you reboot your computer.
+
+Next, click the button that says, *Click to find your API Key*. That'll take you to case.law one more time. Log in if you need to, and you should see a page with your "API Key". Copy and paste it into the preferences window and close the window. 
+
+If the API key is correct the app will start working immediately.
+
+
+### You're done! 
+
+When it's running, Legal API Downloader sits in your menu bar, where you can monitor how much you've contributed.   
+
+<div class="text-center">
+    <img src="{static}/images/mac-app-top-bar.png"
          alt="Legal API Downloader Page "
          class="img-responsive border"/>
-    </div>
+</div>
+
+### Good luck and thank you!
+
+That's it! Just let it run and it'll keep doing good work every day until we're done.
 
 
-2. When install is complete, the app should launch automatically. If not navigate to your application directory and start Legal API Downloader.  A preference window will open and an alert asking for permission to start after a reboot.
-
-3. Add your API Key or Select *Click to Register for an API Key* to open the Case.Law user registration.
-
-    ![Mac App Store]({filename}/images/mac-app-pref-window.png "Optional title")
-
-4. Once registration is complete and you have verified your email select *Click to find your API Key* button.  This will take you to login to Case.Law one more time to get your API Key. Copy and paste the key into the API Key textfield and close the window. If the API key is correct the app will start working immediately.
-
-5. FYI, Legal API Downloader is conveniently tucked away in your menu bar, where you can easily monitor your progress.   
-
-    <div class="text-center">
-    <img src="{filename}/images/mac-app-top-bar.png"
-         alt="Legal API Downloader Page "
-         class="img-responsive border"/>
-    </div>
-
-6. Sit back and relax.
-
-Good luck and thank you!
-
+**Note:** By providing these instructions and this software, we neither encourage nor endorse the use of their software, your API, or any related software. Using our docker image is *your* choice, and before making any choice we encourage *you* to evaluate any necessary terms, laws, conditions, or other rules or regulations that may apply. 
