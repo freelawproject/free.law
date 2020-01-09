@@ -25,8 +25,50 @@ We're thrilled you're considering joining us.
 
 # Open Positions
 
-Sadly there are no open positions at this time, but we welcome applications at any time. If you think you'd be a great fit for our mission or our technology, and if you found your way here, we'd love to hear from you. 
+## RECAP Developer (Temp/Contract)
+
+For this contract position, we are seeking an experienced JavaScript and Extension developer to add several distinct features to our RECAP Extensions for Chrome and Firefox. These extensions are used by tens of thousands of people, including journalists, lawyers, and researchers.
+
+The general purpose of the RECAP Extension is to upload content from the PACER electronic court record system to our servers. Normally PDFs, Zips and HTML in the PACER system cost money to download, so our extension builds a mirror of this data to save people money. 
+
+You can learn more about these extensions here:
+
+https://free.law/recap/
+
+The tasks in scope for the successful applicant are the following:
+
+1. Determine why big PDFs and Zip files are not properly uploaded by the extension and fix the underlying issue.
+
+1. Add support to the extension for uploading zipped bundles of PDFs to our server.
+
+1. Use the extension to begin adding a link to every docket on PACER to start watching that docket on CourtListener.
+
+1. Add support to the RECAP extension for uploading PDFs and HTML from appellate courts on PACER. 
+
+Payments for each of the above tasks will be made according to agreed upon amounts and milestones.
+
+A successful candidate for this position will have experience with the following:
+
+ - Modern JavaScript development practices
  
+ - Chrome/Firefox Web extension development
+ 
+ - Excellent communication and analytical skills
+ 
+The following are nice-to-haves:
+
+ - Familiarity with the legal or PACER systems
+
+ - Knowledge of the Github workflow and expertise with git
+
+ - Experience working with open source code and in open-culture organizations
+
+ - A gnawing frustration with the current legal ecosystem
+
+If you think you may be able to help us launch this system, please submit your application above. Don't hesitate to get in touch if you have any questions or comments.
+
+Thank you!
+
 
 # Closed Positions
 
