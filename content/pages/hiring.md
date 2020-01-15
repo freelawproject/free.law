@@ -33,17 +33,17 @@ The general purpose of the RECAP Extension is to upload content from the PACER e
 
 You can learn more about these extensions here:
 
-https://free.law/recap/
+<a href="https://free.law/recap/" class="btn btn-primary">Learn more about RECAP</a>
 
 The tasks in scope for the successful applicant are the following:
 
-1. Determine why big PDFs and Zip files are not properly uploaded by the extension and fix the underlying issue.
+1. Determine why [big PDFs and Zip files are not properly uploaded][big] by the extension and fix the underlying issue.
 
-1. Add support to the extension for uploading zipped bundles of PDFs to our server.
+1. Add support to the extension for [uploading zipped bundles of PDFs][zips] to our server.
 
-1. Use the extension to begin adding a link to every docket on PACER to start watching that docket on CourtListener.
+1. Use the extension to begin [adding a link to every docket on PACER][watch] to start watching that docket on CourtListener.
 
-1. Add support to the RECAP extension for uploading PDFs and HTML from appellate courts on PACER. 
+1. Add support to the RECAP extension for [uploading PDFs and HTML from appellate courts][app] on PACER. 
 
 Payments for each of the above tasks will be made according to agreed upon amounts and milestones.
 
@@ -69,6 +69,10 @@ If you think you may be able to help us launch this system, please submit your a
 
 Thank you!
 
+[big]: https://github.com/freelawproject/recap/issues/235
+[zips]: https://github.com/freelawproject/recap/issues/117
+[watch]: https://github.com/freelawproject/recap/issues/199
+[app]: https://github.com/freelawproject/recap/issues/83
 
 # Closed Positions
 
