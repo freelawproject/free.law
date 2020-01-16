@@ -2,7 +2,6 @@ Title: We've added nearly 1,000 images to our open collection of judge portraits
 Author: Jon Ashley, Michael Lissner
 Date: 2020-01-16
 Tags: judge-pics
-Status: Draft
 
 
 We're thrilled to share today that with the support of Pre/Dicta, our [open collection of judge portraits][judge-git] is substantially updated with nearly 1,000 additional photos. These photos have been gathered from open sources such as Wikipedia, and have been meticulously cropped, edited, and organized so that they can easily be dropped into websites or other applications. For our part, we will be adding them to [our database of judges][judge-db].
