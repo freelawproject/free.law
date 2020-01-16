@@ -1,0 +1,9 @@
+Generated with:
+
+05:22:14::mlissner@gabbro::~/Programming/judge-pics/judge_pics/data/128 
+↪ montage *.jpeg -geometry 72x72\>+0+0 -tile 82x -shadow /tmp/out2.jpeg && o /tmp/out2.jpeg 
+05:22:33::mlissner@gabbro::~/Programming/judge-pics/judge_pics/data/128 
+↪ montage *.jpeg -geometry 11x11\>+0+0 -tile 82x -shadow /tmp/out.jpeg && o /tmp/out.jpeg 
+
+
+And move any extra images out of the directory for a moment to make it square.
