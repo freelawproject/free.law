@@ -121,6 +121,8 @@ We thank the following individuals for their assistance reporting and fixing vul
  - Ankit Thakur - [Open redirect on successful registration][1021] (2019-10-01)
  
  - Ratnadip Gajbhiye - Subdomain takeover attack at mail.courtlistener.com (2019-10-09)
+ 
+ - Vishal Bharad - XSS attack in registration flow
 
 
 [1021]: https://github.com/freelawproject/courtlistener/issues/1021
