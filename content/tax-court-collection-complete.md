@@ -16,7 +16,7 @@ Status: Draft
 <div class="clearfix"></div>
 
 
-A lot of ink has been spilled and opinions shared about income tax since Congress passed the 16th amendment to the U.S. Constitution was ratified in 1913. Here at Free Law Project, we believe few opinions matter as much as the precedential tax opinions produced by the federal courts, first at the Board of Tax Appeals (1924-1942) and later by the United States Tax Court (1942-).  
+A lot of ink has been spilled and opinions shared about income tax since the 16th amendment to the U.S. Constitution was ratified in 1913. Here at Free Law Project, we believe few opinions matter as much as the precedential tax opinions produced by the federal courts, first at the Board of Tax Appeals (1924-1942) and later by the United States Tax Court (1942-).  
 
 That is why we are happy to announce that we have compiled, collected and analyzed the complete collection of precedential federal tax opinions. Our collection of tax cases spans two courts, nearly a century, and comprises nearly twenty-four thousand precedential opinions. We also have over twelve thousand non-precedential opinions in our database. 
 
@@ -24,7 +24,7 @@ All new projects require improvements and enhancements to our code base, and thi
 
 Thank you to the [Caselaw Access Project][cap] at Harvard and [BlueJLegal][bjl] for helping us complete our collection. Thank you also to everyone involved in our open source projects, specifically our world-class scraping platform, [Juriscraper][js], which allows us to continue to maintain an accurate and up to date collection of tax case law every day.
 
-You can get started at [Courtlisteners' Opinion Search][cl], or can also browse decisions of the [Board of Tax Appeals][bta] and the [U.S. Tax Court][tc] by volume and as always explore our [APIs and Bulk Data][api]. 
+You can start reading and researching these opinions on [Courtlistener's Opinion Search][cl], can browse decisions of the [Board of Tax Appeals][bta] and the [U.S. Tax Court][tc] by volume, and as always you can explore these cases via our [APIs and Bulk Data][api]. 
 
 We hope this makes the upcoming tax season just a little easier on everyone, even the tax lawyers out there.
 
