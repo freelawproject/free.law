@@ -101,6 +101,16 @@ Getting started is very easy. Just [send us a brief email][c] with what you need
         </a></p>
     </div>
     <div class="col-xs-4">
+        <p><a href="https://noacri.org/" rel="nofollow"
+           target="_blank">
+            <img src="{static}/images/services-logos/noacri.png"
+                 alt="NOACRI Logo"
+                 class="img-responsive center-block">
+        </a></p>
+    </div>
+</div>
+<div class="row v-offset-above-2 vertical-align">
+    <div class="col-xs-4">
         <p><a href="https://www.edhec.edu" rel="nofollow"
            target="_blank">
             <img src="{static}/images/services-logos/edhec.png"
@@ -108,8 +118,6 @@ Getting started is very easy. Just [send us a brief email][c] with what you need
                  class="img-responsive center-block">
         </a></p>
     </div>
-</div>
-<div class="row v-offset-above-2 vertical-align">
     <div class="col-xs-4">
         <p><a href="https://www.onelegal.com/" rel="nofollow"
            target="_blank">
@@ -125,6 +133,8 @@ Getting started is very easy. Just [send us a brief email][c] with what you need
                  class="img-responsive center-block">
         </p>
     </div>
+</div>
+<div class="row v-offset-above-2 vertical-align">
     <div class="col-xs-4">
         <p>
             <a href="https://imanage.com" rel="nofollow"
@@ -135,8 +145,6 @@ Getting started is very easy. Just [send us a brief email][c] with what you need
             </a>
         </p>
     </div>
-</div>
-<div class="row v-offset-above-2 vertical-align">
     <div class="col-xs-4">
         <p>
             <img src="{static}/images/services-logos/komply.png"
@@ -154,6 +162,8 @@ Getting started is very easy. Just [send us a brief email][c] with what you need
             </a>
         </p>
     </div>
+</div>
+<div class="row v-offset-above-3 vertical-align">
     <div class="col-xs-4">
         <p><a href="https://drugpatentwatch.com/" rel="nofollow"
            target="_blank">
@@ -162,8 +172,6 @@ Getting started is very easy. Just [send us a brief email][c] with what you need
                  class="img-responsive center-block">
         </a></p>
     </div>
-</div>
-<div class="row v-offset-above-3 vertical-align">
     <div class="col-xs-4">
         <p><a href="https://fdd.org/" rel="nofollow"
            target="_blank">
@@ -180,7 +188,9 @@ Getting started is very easy. Just [send us a brief email][c] with what you need
                  class="img-responsive center-block">
         </a></p>
     </div>
-    <div class="col-xs-4">
+</div>
+<div class="row v-offset-above-3 vertical-align">
+    <div class="col-xs-12">
         <p><a href="https://buriedaliveproject.org/" rel="nofollow"
            target="_blank">
             <img src="{static}/images/services-logos/buried-alive-project.png"
