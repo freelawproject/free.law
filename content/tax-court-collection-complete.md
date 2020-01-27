@@ -11,7 +11,7 @@ Status: Draft
              title="The U.S. Tax Court in DC"
              class="img-responsive border">
     </a>
-    <p class="caption">Pictured: The United States Tax Court in Washington D.C.</p>
+    <p class="caption">The United States Tax Court: Photo by GSA.</p>
 </div>
 <div class="clearfix"></div>
 
