@@ -152,7 +152,7 @@ We've been fortunate over the years to have a number of great volunteer contribu
 
  - Phil Ardery for his ongoing support of the Juriscraper framework. Ben Cassidy, Commetric, Inc., Bo Jin (Krist), Deb Linton, Matt Meiske, Andrew McConachie, Taliah B. Mirmalek, David Zvenyach, and others for their new feature work on the Juriscraper scraper framework.
 
- - John Hawkinson for his ongoing advice and contributions to the RECAP project.
+ - John Hawkinson for over a decade of ongoing advice and contributions to the RECAP project.
  
  - Blake Stovall for his support of our legal case scraper and other initiatives.
  
