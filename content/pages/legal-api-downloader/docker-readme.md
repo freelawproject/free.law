@@ -12,7 +12,7 @@ By using this software, you will use your API key to gather items from the Harva
 
 ## The Short Version
 
-1. Get an API key from Harvard. Start here https://case.law.
+1. <a href="https://case.law/user/register/" target="_blank" rel="noreferrer">Create an account with Harvard and get an API key</a>.
 
 2. Run the docker image with:
 
