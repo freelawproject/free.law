@@ -141,4 +141,35 @@ Thank you to all of our wonderful supporters for making our work possible and he
     </div>
 </div>
 
+
+--------------
+
+## Our Volunteers
+
+We've been fortunate over the years to have a number of great volunteer contributors helping design and make our various services. We have deep gratitude for the following organizations and individuals:
+
+ - Elliott Ash for spearheading the judge project and Jon Ashley for picking it up and enhancing it years later.
+
+ - Phil Ardery for his ongoing support of the Juriscraper framework. Ben Cassidy, Commetric, Inc., Bo Jin (Krist), Deb Linton, Matt Meiske, Andrew McConachie, Taliah B. Mirmalek, David Zvenyach, and others for their new feature work on the Juriscraper scraper framework.
+
+ - John Hawkinson for his ongoing advice and contributions to the RECAP project.
+ 
+ - Blake Stovall for his support of our legal case scraper and other initiatives.
+ 
+ - Rebecca Fordon and Zvi Rosen for their indefatigable research and endless expertise.
+
+ - Jason Aller for his work to make CourtListener mobile-friendly and for his enhancements to the coverage page and SCOTUS visualizations project.
+
+ - Sarah Tyler for her research into search relevance and user interfaces.
+ 
+ - Peter Nguyen for his design and UX work for the jurisdiction picker.
+
+ - Karen Rustad and Rowyn McDonald for creating our citator, cross-linker and coverage graphs. Matt Dahl for adding depth of treatment.
+  
+ - Bo Jin (Krist) for creating the heart of our relevance engine. 
+ 
+Thank you all.
+
+<span class="gray small">If you recently volunteered and we haven't yet added you, don't hesitate to remind us or to file a pull request for this file.</span>
+
 [become]: {filename}/pages/become-a-sponsor.md
