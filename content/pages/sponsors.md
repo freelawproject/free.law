@@ -1,4 +1,4 @@
-Title: Current Sponsors and Donors
+Title: Our Sponsors, Donors, and Volunteers
 Tags: fundraiser, sponsorships
 Slug: sponsors/
 Status: published
@@ -170,6 +170,6 @@ We've been fortunate over the years to have a number of great volunteer contribu
  
 Thank you all.
 
-<span class="gray small">If you recently volunteered and we haven't yet added you, don't hesitate to remind us or to file a pull request for this file.</span>
+<span class="gray small">If you recently volunteered and we haven't yet added you, don't hesitate to remind us or to file a pull request for this file. If you want to join this list, send us an email with your résumé and we'll love to have your help.</span>
 
 [become]: {filename}/pages/become-a-sponsor.md
