@@ -18,3 +18,6 @@ Law Project or with data that we have made available:
 If you know of additional materials to include here, please [contact
 us]({filename}/pages/contact.md).
 
+If you want advice on how to cite our data, please [see our citations guidance][cite].
+
+[cite]: {filename}/pages/citing-flp.md
