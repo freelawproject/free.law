@@ -17,7 +17,7 @@ Started in 2010, Free Law Project is a 501(c)(3) non-profit that works to make t
  
  - [Data services and consulting][serv].
  
-Altogether, these projects provide valuable tools and analysis for those that want to access, study, or improve the American legal system.
+All together, these projects provide valuable tools and analysis for those that want to access, study, or improve the American legal system.
 
 We do all of this work on [a shoestring budget][budget] that is supported by a blend of [services][serv], [donations][donate], and [sponsorships][spon].  We occasionally seek and get grants, but we usually lack the resources they require for submission unless grant officers come to us. 
 
@@ -50,7 +50,7 @@ All of our work is open source, creating a rich culture of [staff][who] and volu
 
 [recap]: {filename}/pages/recap.md
 [cl]: https://www.courtlistener.com
-[f-fs]: {filename}/pages/pacer-facts.md
+[p-fs]: {filename}/pages/pacer-facts.md
 [fjc-fs]: {filename}/pages/idb-facts.md
 [rdb]: https://github.com/freelawproject/reporters-db
 [pic-db]: https://github.com/freelawproject/judge-pics
