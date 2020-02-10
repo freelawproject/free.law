@@ -46,10 +46,10 @@ Thank you to all of our wonderful supporters for making our work possible and he
         </a></p>
     </div>
     <div class="col-xs-4">
-        <p><a href="https://www.lawyer.com"
+        <p><a href="https://www.attorney.com"
            target="_blank">
-            <img src="{static}/images/services-logos/lawyer.com.png"
-                 alt="Lawyer.com Logo"
+            <img src="{static}/images/services-logos/attorney_com.jpg"
+                 alt="Attorney.com Logo"
                  class="img-responsive">
         </a></p>
     </div>
@@ -116,6 +116,14 @@ Thank you to all of our wonderful supporters for making our work possible and he
 
 <div class="row vertical-align v-offset-below-3">
     <div class="col-xs-4">
+        <p><a href="https://www.lawyer.com"
+           target="_blank">
+            <img src="{static}/images/services-logos/lawyer.com.png"
+                 alt="Lawyer.com Logo"
+                 class="img-responsive">
+        </a></p>
+    </div>    
+    <div class="col-xs-4">
         <p><a href="https://public.resource.org"
            target="_blank">
             <img src="{static}/images/services-logos/pro.png"
@@ -131,6 +139,8 @@ Thank you to all of our wonderful supporters for making our work possible and he
                  class="img-responsive">
         </a></p>
     </div>
+</div>
+<div class="row vertical-align v-offset-below-3">
     <div class="col-xs-4">
         <p><a href="https://www.thinkcomputer.org"
            target="_blank" rel="nofollow">
