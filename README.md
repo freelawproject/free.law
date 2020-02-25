@@ -145,7 +145,9 @@ This means that there are essentially two parallel set ups for DNS (Route 53), C
 
 SSL is configured in Amazon Certificate Manager (ACM), which will handle auto-renewals and hopefully everything else.
 
-All in all, this is a pretty killer set up. Most clients will get served by CloudFront and it will be incredibly fast. Clients that go to http://www.free.law will suffer three redirections:
+Finally, additional security-related headers are inserted via a lambda@edge CloudFront function, [as described here][lambda].
+
+All in all, this is a pretty killer set up. Most clients will get served by CloudFront and it will be incredibly fast with decent security headers. Clients that go to http://www.free.law will suffer three redirections:
 
  - First they get redirected to https://www.free.law
  - Then they get redirected to http://free.law
@@ -166,3 +168,4 @@ There is another weak point in this configuration. The connection between CloudF
 [ex]: https://github.com/freelawproject/free.law/blob/master/example.md
 [md]: https://courtlistener.com/help/markdown/
 [f]: https://en.wikipedia.org/wiki/Folksonomy
+[lambda]: https://aws.amazon.com/blogs/networking-and-content-delivery/adding-http-security-headers-using-lambdaedge-and-amazon-cloudfront/
