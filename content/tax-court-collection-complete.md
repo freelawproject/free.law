@@ -1,8 +1,8 @@
 Title: Free Law Project now has every reported U.S. Tax opinion
 Author: William E. Palin, Esq.
-Date: 2020-01-22
+Date: 2020-03-03
 Tags: tax, announcements, tax court, courtlistener, case.law, opinions, taxes
-Status: Draft
+
 
 <div class="left-image">
     <a href="https://www.ustaxcourt.gov">
@@ -20,7 +20,7 @@ A lot of ink has been spilled and opinions shared about income tax since the 16t
 
 That is why we are happy to announce that we have compiled, collected and analyzed the complete collection of precedential federal tax opinions. Our collection of tax cases spans two courts, nearly a century, and comprises nearly twenty-four thousand precedential opinions. We also have over twelve thousand non-precedential opinions in our database. 
 
-All new projects require improvements and enhancements to our code base, and this one was no different.  We added new tools to analyze and parse tax opinions.  This enables us to find and extract missing, yet relevant information from tax opinions. This grows our already robust dataset, and we think will make your search queries even easier.
+All new projects require improvements and enhancements to our code base, and this one was no different.  For example, we added new tools to analyze and parse tax opinions.  This enables us to find and extract missing, yet relevant information from tax opinions. This grows our already robust dataset, and we think will make your search queries even easier.
 
 Thank you to the [Caselaw Access Project][cap] at Harvard and [BlueJLegal][bjl] for helping us complete our collection. Thank you also to everyone involved in our open source projects, specifically our world-class scraping platform, [Juriscraper][js], which allows us to continue to maintain an accurate and up to date collection of tax case law every day.
 
