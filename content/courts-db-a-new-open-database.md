@@ -1,13 +1,13 @@
-Title: Courts-db, a new open database
+Title: Announcing a New Open Database of Court Information, IDs, and Parsers
 Author: William E. Palin, Esq.
-Date: 2020-03-04
-Tags: courts, courts-db, courtlistener, github, open data, historical
+Date: 2020-03-10
+Tags: courts, courts-db, courtlistener, open data, history
 Status: Draft
 
 <div class="left-image">
     <a href="https://github.com/freelawproject/courts-db">
         <img src="{static}/images/Aliiolanihale.jpg"
-             alt="X"
+             alt="Hawai'i State Supreme Court"
              title="Hawaiʻi State Supreme Court,"
              class="img-responsive border">
     </a>
@@ -15,71 +15,77 @@ Status: Draft
 </div>
 <div class="clearfix"></div>
  
+ 
+Since 2010 when we launched CourtListener, one of our goals has been to build a complete, accurate, and audited collection of open case law opinions that can compete with West, Lexis, and other major publishers. Today that goal takes a major step forward as we announce a new tool we have built to parse court data.
 
-Our work at Free Law Project often requires us to invent new ways 
-to move mountains of data.  Today, we are excited to announce the launch of our
- latest open source tool, [Courts-db][courts-db].  
+The [tool we have created is called Courts-DB][courts-db] and you can use it to look up the name of nearly any American court with published cases. We have used this functionality to parse nearly 16 million court names we have received from West, Lexis, and [Harvard Law Library][lil]. After doing so, our accuracy at parsing court names stands at 99.998%. (The remaining 0.002% generally requires a human to understand.)
 
-Courts-db is a legal text parsing tool specifically designed around courts in the United States. 
-It consists of over 17,000 lines of code, and spans courts from the 1600 until 
-modern times.  It includes over 2,100 unique regex strings over 300 court websites,
-and provides thousands of examples, variations, typos and court metadata.   
+---
 
-Furthermore every branch of governance from federal, state and territorial courts. 
-Also included are special and limited jurisdiction courts, tribal courts, 
-and even a couple United States Courts of other countries (looking at you 
-United States Court of Berlin).   
+<div class="col-xs-5 pull-right col-sm-3 bg-primary">
+    <h3>The Numbers</h3>
+    <p>Tested against <strong>16M</strong> courts</p>
+    <p><strong>17,000</strong> lines of code</p>
+    <p><strong>xxx</strong> court identifiers</p>
+    <p><strong>2,100</strong> regular expressions</p>    
+    <p><a href="https://pypi.org/project/courts-db/" target="_blank" class="btn btn-info btn-block">Check It Out</a>
+</div>
 
-While courts-db was primarily built as a tool for Courtlistener.com, its
-internal success mandated that we share it with the broader community.  We recently 
-tested Courts-db against a database of over 16 million rows of legal data 
-with 99.998% accuracy.
+Courts-DB consists of over 17,000 lines of code, and has data about American courts from the 1600s until modern times. Generally, if the court ever had a published case &mdash; and often even if it didn't &mdash; then that court will be in Courts-DB. This includes special and limited jurisdiction courts, tribal courts, and even a couple United States Courts of other countries ([looking at you United States Court for Berlin][berlin]). 
 
-We believe this dataset is the largest open database of US courts on the internet,
-and are so proud of it that we've even released a [python package][pypi] to
- make it easier to use.  
+Courts-DB uses over 2,100 regular expressions to match court names, has over 300 court websites available for lookup, and provides thousands of examples, variations, typos and other court metadata. 
 
-To give you a quick taste of what it does, here is one entry in the data.
+Furthermore, the DB contains *identifiers* for all of these courts. Many of these identifiers are already adopted by the [SALI Alliance][sali] and we hope to soon incorporate the rest. If you are developing any sort of legal software, we hope you will consider using these identifiers.   
 
-   
-    [{
-        "regex": [
-            "${sjc} Ma(ss(achusetts)?)?(\b|$)?",
-            "${ma} ${sjc}",
-            "Supreme Court Of ${ma}",
-            "State Of ${ma} Supreme Court"
-        ],
-        "name_abbreviation": "Mass. Sup. Jud. Ct.",
-        "dates": [
-            {
-                "start": "1692-01-01",
-                "end": null
-            }
-        ],
-        "name": "Massachusetts Supreme Judicial Court",
-        "level": "colr",
-        "case_types": ["All"],
-        "system": "state",
-        "examples": [
-            "Supreme Court Of Massachusetts",
-            "Supreme Judicial Court Of Massachusetts",
-            "Massachusetts Supreme Judicial Court"
-        ],
-        "court_url": "http://www.mass.gov/courts/sjc/",
-        "type": "appellate",
-        "id": "mass",
-        "location": "Massachusetts"
-    }]
-     
+Starting now, Courts-DB is available as [open code][courts-db], a [python package][pypi] or as an [extremely long JSON file][json]. 
 
-Courts-db is part of larger initiatives at FLP to organize and provide free and open access 
-to every US court opinion in history and we encourage and invite users to join, 
-research and test our code.
+<div class="alert bg-warning">
+    <p><i class="fa fa-bug"></i> <strong>For the techies:</strong>To give you a quick taste of what the code looks like, here is one entry in the data, for "Massachusetts Supreme Judicial Court". <a data-toggle="collapse" href="#collapse" role="button" aria-expanded="false" aria-controls="collapseExample" class="btn btn-primary btn-sm">Show the code! <i class="fa fa-angle-double-down"></i></a> 
+    </p>
+    
+    <div class="collapse" id="collapse">
+        <!-- Generated by doing ```javascript``` and copy/pasting -->
+      <div class="highlight"><pre><span></span><span class="p">[{</span>
+  <span class="nt">"regex"</span><span class="p">:</span> <span class="p">[</span>
+      <span class="s2">"${sjc} Ma(ss(achusetts)?)?(\b|$)?"</span><span class="p">,</span>
+      <span class="s2">"${ma} ${sjc}"</span><span class="p">,</span>
+      <span class="s2">"Supreme Court Of ${ma}"</span><span class="p">,</span>
+      <span class="s2">"State Of ${ma} Supreme Court"</span>
+  <span class="p">],</span>
+  <span class="nt">"name_abbreviation"</span><span class="p">:</span> <span class="s2">"Mass. Sup. Jud. Ct."</span><span class="p">,</span>
+  <span class="nt">"dates"</span><span class="p">:</span> <span class="p">[</span>
+      <span class="p">{</span>
+          <span class="nt">"start"</span><span class="p">:</span> <span class="s2">"1692-01-01"</span><span class="p">,</span>
+          <span class="nt">"end"</span><span class="p">:</span> <span class="kc">null</span>
+      <span class="p">}</span>
+  <span class="p">],</span>
+  <span class="nt">"name"</span><span class="p">:</span> <span class="s2">"Massachusetts Supreme Judicial Court"</span><span class="p">,</span>
+  <span class="nt">"level"</span><span class="p">:</span> <span class="s2">"colr"</span><span class="p">,</span>
+  <span class="nt">"case_types"</span><span class="p">:</span> <span class="p">[</span><span class="s2">"All"</span><span class="p">],</span>
+  <span class="nt">"system"</span><span class="p">:</span> <span class="s2">"state"</span><span class="p">,</span>
+  <span class="nt">"examples"</span><span class="p">:</span> <span class="p">[</span>
+      <span class="s2">"Supreme Court Of Massachusetts"</span><span class="p">,</span>
+      <span class="s2">"Supreme Judicial Court Of Massachusetts"</span><span class="p">,</span>
+      <span class="s2">"Massachusetts Supreme Judicial Court"</span>
+  <span class="p">],</span>
+  <span class="nt">"court_url"</span><span class="p">:</span> <span class="s2">"http://www.mass.gov/courts/sjc/"</span><span class="p">,</span>
+  <span class="nt">"type"</span><span class="p">:</span> <span class="s2">"appellate"</span><span class="p">,</span>
+  <span class="nt">"id"</span><span class="p">:</span> <span class="s2">"mass"</span><span class="p">,</span>
+  <span class="nt">"location"</span><span class="p">:</span> <span class="s2">"Massachusetts"</span>
+<span class="p">}]</span>
+</pre></div>
+    </div>
+</div>
 
-To learn more about the project, the data and how to use the API please visit [Courts-db on Github][courts-db].  
 
-If you're a librarian or legal researcher, we'd love to have your help 
-gathering this data so we can disseminate it to the world.
+Courts-db is part of larger initiatives at Free Law Project to organize and provide free and open access to every US court opinion in history and we encourage and invite users to join, research and test our code. In particular, we are looking for help adding court start and end dates to Courts-DB. If you're interested in lending a hand, please [get in touch][c].
+
+To learn more about the project, the data and how to use the API please visit [Courts-db on Github][courts-db].
 
 [courts-db]: https://github.com/freelawproject/courts-db
 [pypi]: https://pypi.org/project/courts-db/
+[berlin]: https://en.wikipedia.org/wiki/United_States_Court_for_Berlin
+[json]: https://github.com/freelawproject/courts-db/blob/master/courts_db/data/courts.json
+[c]: {filename}/pages/contact.md
+[lil]: https://case.law/
+[sali]: https://www.sali.org/
