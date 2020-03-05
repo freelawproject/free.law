@@ -51,6 +51,31 @@ A warning:
 
 <p class="bg-danger alert">Oh no!!!!</p>
 
+A sidebar:
+
+---
+
+<div class="col-xs-5 pull-right col-sm-3 bg-primary">
+    <h3>Check It Out</h3>
+    <p>You can find all of our oral argument recordings on the Internet Archive in a new collection we have created for this purpose.
+    </p>
+    <p><a href="https://archive.org/details/uscourtsoralarguments" target="_blank" class="btn btn-info btn-block">Check It Out</a>
+</div>
+
+
+A collapsible section and toggle:
+
+<p>
+  <a data-toggle="collapse" href="#collapse" role="button" aria-expanded="false" aria-controls="collapseExample">
+    Why am I seeing this? <i class="fa fa-angle-double-down"></i>
+  </a>
+</p>
+<div class="collapse" id="collapse">
+  <p class="well">
+    We're sorry to interrupt you. Once per year, the RECAP Extension, which you have installed, will pop-up this tab in your browser to ask for your support. We hope you understand.
+  </p>
+</div>
+
 <!-- JS has to come last or it can wind up in summary text. -->
 <script type="text/javascript"></script>
 
