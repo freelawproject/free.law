@@ -20,7 +20,6 @@ Since 2010 when we launched CourtListener, one of our goals has been to build a 
 
 The [tool we have created is called Courts-DB][courts-db] and you can use it to look up the name of nearly any American court with published cases. We have used this functionality to parse nearly 16 million court names we have received from West, Lexis, and [Harvard Law Library][lil]. After doing so, our accuracy at parsing court names stands at 99.998%. (The remaining 0.002% generally requires a human to understand.)
 
----
 
 <div class="col-xs-5 pull-right col-sm-3 bg-primary">
     <h3>The Numbers</h3>
@@ -40,7 +39,9 @@ Furthermore, the DB contains *identifiers* for all of these courts. Many of thes
 Starting now, Courts-DB is available as [open code][courts-db], a [python package][pypi] or as an [extremely long JSON file][json]. 
 
 <div class="alert bg-warning">
-    <p><i class="fa fa-bug"></i> <strong>For the techies:</strong>To give you a quick taste of what the code looks like, here is one entry in the data, for "Massachusetts Supreme Judicial Court". <a data-toggle="collapse" href="#collapse" role="button" aria-expanded="false" aria-controls="collapseExample" class="btn btn-primary btn-sm">Show the code! <i class="fa fa-angle-double-down"></i></a> 
+    <p><i class="fa fa-bug"></i> <strong>For the techies:</strong> To give you a quick taste of what the code looks like, here is one entry in the data, for "Massachusetts Supreme Judicial Court". 
+    </p>
+    <p><a data-toggle="collapse" href="#collapse" role="button" aria-expanded="false" aria-controls="collapseExample" class="btn btn-primary btn-xs">Show the code! <i class="fa fa-angle-double-down"></i></a> 
     </p>
     
     <div class="collapse" id="collapse">
@@ -78,9 +79,9 @@ Starting now, Courts-DB is available as [open code][courts-db], a [python packag
 </div>
 
 
-Courts-db is part of larger initiatives at Free Law Project to organize and provide free and open access to every US court opinion in history and we encourage and invite users to join, research and test our code. In particular, we are looking for help adding court start and end dates to Courts-DB. If you're interested in lending a hand, please [get in touch][c].
+Courts-db is part of larger initiatives at Free Law Project to organize and provide free and open access to every US court opinion in history. We encourage and invite users to join, research and test our code. In particular, we are looking for help adding court start and end dates to Courts-DB. If you're interested in lending a hand, please [get in touch][c].
 
-To learn more about the project, the data and how to use the API please visit [Courts-db on Github][courts-db].
+To learn more about the project, the data and how to use it please visit [Courts-db on Github][courts-db].
 
 [courts-db]: https://github.com/freelawproject/courts-db
 [pypi]: https://pypi.org/project/courts-db/
