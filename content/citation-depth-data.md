@@ -31,9 +31,13 @@ Unlike those commercial tools, however, CourtListener is fully open-source, and 
 The new citation data is now accessible in several new places:
 
 - **In every opinion page as HTML links.** As before, when CourtListener recognizes any of the above citation types, it will intelligently inject an HTML link to the cited opinion in the appropriate place in the text of the citing opinion.
+
 - **In the top authorities sidebar.** As shown in the image above, you can now see at a glance on an opinion page which authorities the opinion cites most frequently.
+
 - **In the detailed authorities page.** As shown in the image below, when you click through to [the full list of authorities for an opinion][bush-v-gore-authorities], full information about all cited opinions is available.
+
 - **In citation searches.** When you search for [opinions that cite another opinion][citing], the citation depth of each match is displayed within the results.
+
 - **Via download through our Bulk API.** As with much of CourtListener's other data, the citation data can also be downloaded en masse through our [Bulk API][bulk-api].
 
 <div class="text-center v-offset-below-2 v-offset-above-2">
