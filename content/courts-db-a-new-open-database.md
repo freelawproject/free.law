@@ -16,23 +16,30 @@ Status: Draft
 <div class="clearfix"></div>
  
 
-Our work here at Free Law Project often requires us to invent new and creative tools 
-to move mountains of data.  Today, Free Law Project (FLP) is excited to announce the
-launch of our newest open source tool we call [Courts-db][courts-db].  
+Our work at Free Law Project often requires us to invent new ways 
+to move mountains of data.  Today, we are excited to announce the launch of our
+ latest open source tool, [Courts-db][courts-db].  
 
-Courts-db is the largest open source dataset of United States courts known to us. 
-It is over 17,000 lines long, consisting of over 700 unique courts, 
-spanning the early settlement of the United States to today.  
+Courts-db is a legal text parsing tool specifically designed around courts in the United States. 
+It consists of over 17,000 lines of code, and spans courts from the 1600 until 
+modern times.  It includes over 2,100 unique regex strings over 300 court websites,
+and provides thousands of examples, variations, typos and court metadata.   
 
-It consists of over 2,100 unique regexes and includes Federal, State and Territorial courts.  
-It also includes special limited jurisdiction courts, courts set up during times of war, Tribal Courts, 
-and even a couple United States Courts of other Countries (looking at you United States Court of Berlin).   
+Furthermore every branch of governance from federal, state and territorial courts. 
+Also included are special and limited jurisdiction courts, tribal courts, 
+and even a couple United States Courts of other countries (looking at you 
+United States Court of Berlin).   
 
-We believe this dataset is the largest open databse of courts anywhere in the world and are
- so proud of it that we've even built a [python package][pypi] to make it easier to use.  
+While courts-db was primarily built as a tool for Courtlistener.com, its
+internal success mandated that we share it with the broader community.  We recently 
+tested Courts-db against a database of over 16 million rows of legal data 
+with 99.998% accuracy.
 
-To give you a quick taste of what it does, here is one search result 
-for the Supreme Judicial Court of Massachusetts.
+We believe this dataset is the largest open database of US courts on the internet,
+and are so proud of it that we've even released a [python package][pypi] to
+ make it easier to use.  
+
+To give you a quick taste of what it does, here is one entry in the data.
 
    
     [{
@@ -65,8 +72,9 @@ for the Supreme Judicial Court of Massachusetts.
     }]
      
 
-Courts-db is part of a larger initiative of FLP to organize and provide access 
-to every US court opinion in history and we encourage and invite users to join, research and test.
+Courts-db is part of larger initiatives at FLP to organize and provide free and open access 
+to every US court opinion in history and we encourage and invite users to join, 
+research and test our code.
 
 To learn more about the project, the data and how to use the API please visit [Courts-db on Github][courts-db].  
 
