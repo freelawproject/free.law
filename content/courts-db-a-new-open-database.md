@@ -7,8 +7,8 @@ Status: Draft
 <div class="left-image">
     <a href="https://github.com/freelawproject/courts-db">
         <img src="{static}/images/supreme-court-of-mass.jpeg"
-             alt="Massachusetts State Supreme Court"
-             title="Massachusetts State Supreme Court,"
+             alt="John Adams Courthouse"
+             title="John Adams Courthouse"
              class="img-responsive border">
     </a>
     <p class="caption">One court, many names: The "Supreme Court of Massachusetts", the "Supreme Judicial Court of Massachusetts", "The State of Mass. Supreme Court", the "Massachusetts Supreme Judicial Court", and the list goes on. Courtesy of <a href="https://commons.wikimedia.org/wiki/File:2010_AdamsCourthouse_Boston_4765611709.jpg">Wikipedia</a></p>
@@ -29,7 +29,8 @@ Using Courts-DB, you can easily look up the name of nearly any American court wi
     <h3>The Numbers</h3>
     <p>Tested against <strong>16M</strong> courts</p>
     <p><strong>17,000</strong> lines of code</p>
-    <p><strong>xxx</strong> court identifiers</p>
+    <p><strong>718</strong> court identifiers</p>
+    <p><strong>361</strong> court websites</p>
     <p><strong>2,100</strong> regular expressions</p>    
     <p><a href="https://pypi.org/project/courts-db/" target="_blank" class="btn btn-info btn-block">Check It Out</a>
 </div>
