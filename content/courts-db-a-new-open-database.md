@@ -6,12 +6,12 @@ Status: Draft
 
 <div class="left-image">
     <a href="https://github.com/freelawproject/courts-db">
-        <img src="{static}/images/Aliiolanihale.jpg"
-             alt="Hawai'i State Supreme Court"
-             title="Hawaiʻi State Supreme Court,"
+        <img src="{static}/images/supreme-court-of-mass.jpeg"
+             alt="Massachusetts State Supreme Court"
+             title="Massachusetts State Supreme Court,"
              class="img-responsive border">
     </a>
-    <p class="caption">Hawaiʻi State Supreme Court, Courtesy of Wikipedia</p>
+    <p class="caption">One court, many names: The "Supreme Court of Massachusetts", the "Supreme Judicial Court of Massachusetts", "The State of Mass. Supreme Court", the "Massachusetts Supreme Judicial Court", and the list goes on. Courtesy of <a href="https://commons.wikimedia.org/wiki/File:2010_AdamsCourthouse_Boston_4765611709.jpg">Wikipedia</a></p>
 </div>
 <div class="clearfix"></div>
  
