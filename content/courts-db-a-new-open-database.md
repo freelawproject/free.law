@@ -2,7 +2,7 @@ Title: Announcing a New Open Database of Court Information, IDs, and Parsers
 Author: William E. Palin, Esq., Michael Lissner
 Date: 2020-03-10
 Tags: courts, courts-db, courtlistener, open data, history
-Status: Draft
+
 
 <div class="left-image">
     <a href="https://github.com/freelawproject/courts-db">
@@ -28,7 +28,7 @@ Using Courts-DB, you can easily look up the name of nearly any American court wi
 <div class="col-xs-5 pull-right col-sm-3 bg-primary">
     <h3>The Numbers</h3>
     <p>Tested against <strong>16M</strong> courts</p>
-    <p><strong>17,000</strong> lines of code</p>
+    <p><strong>17,887</strong> lines of code</p>
     <p><strong>718</strong> court identifiers</p>
     <p><strong>361</strong> court websites</p>
     <p><strong>2,100</strong> regular expressions</p>    
