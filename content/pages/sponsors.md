@@ -81,6 +81,16 @@ Thank you to all of our wonderful supporters for making our work possible and he
         </a></p>
     </div>
 </div>
+<div class="row vertical-align v-offset-below-3">
+    <div class="col-xs-4">
+        <p><a href="https://warrenlex.com/"
+           target="_blank">
+            <img src="{static}/images/services-logos/warrenlex.png"
+                 alt="Warren Lex Logo"
+                 class="img-responsive">
+        </a></p>
+    </div>
+</div>
 
 
 -------
@@ -142,12 +152,11 @@ Thank you to all of our wonderful supporters for making our work possible and he
 </div>
 <div class="row vertical-align v-offset-below-3">
     <div class="col-xs-4">
-        <p><a href="https://www.thinkcomputer.org"
-           target="_blank" rel="nofollow">
+        <p>
             <img src="{static}/images/services-logos/think-computer-foundation.gif"
                  alt="Think Computer Foundation Logo"
                  class="img-responsive">
-        </a></p>
+        </p>
     </div>
 </div>
 
@@ -167,14 +176,14 @@ We've been fortunate over the years to have a number of great volunteer contribu
  - Blake Stovall for his support of our legal case scraper and other initiatives.
  
  - Rebecca Fordon and Zvi Rosen for their indefatigable research and endless expertise.
-
+ 
  - Jason Aller for his work to make CourtListener mobile-friendly and for his enhancements to the coverage page and SCOTUS visualizations project.
 
  - Sarah Tyler for her research into search relevance and user interfaces.
  
  - Peter Nguyen for his design and UX work for the jurisdiction picker.
 
- - Karen Rustad and Rowyn McDonald for creating our citator, cross-linker and coverage graphs. Matt Dahl for adding depth of treatment.
+ - Karen Rustad and Rowyn McDonald for creating our citator, cross-linker and coverage graphs. Matt Dahl for adding depth of treatment and other enhancements.
   
  - Bo Jin (Krist) for creating the heart of our relevance engine. 
  
