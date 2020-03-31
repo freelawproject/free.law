@@ -25,6 +25,10 @@ We're thrilled you're considering joining us.
 
 # Open Positions
 
+Sorry, no positions at this time.
+
+# Closed Positions
+
 ## RECAP Developer (Temp/Contract)
 
 For this contract position, we are seeking an experienced JavaScript and Extension developer to add several distinct features to our RECAP Extensions for Chrome and Firefox. These extensions are used by tens of thousands of people, including journalists, lawyers, and researchers.
@@ -74,7 +78,6 @@ Thank you!
 [watch]: https://github.com/freelawproject/recap/issues/199
 [app]: https://github.com/freelawproject/recap/issues/83
 
-# Closed Positions
 
 ## Open Data Backend Developer
 
