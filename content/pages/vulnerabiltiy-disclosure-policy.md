@@ -123,9 +123,12 @@ We thank the following individuals for their assistance reporting and fixing vul
  - Ratnadip Gajbhiye - Subdomain takeover attack at mail.courtlistener.com (2019-10-09)
  
  - Vishal Bharad - XSS attack in registration flow
+ 
+ - Deepakkumar Gupta - [Referer header leakage via social links][1257]
 
 
 [1021]: https://github.com/freelawproject/courtlistener/issues/1021
+[1257]: https://github.com/freelawproject/courtlistener/issues/1257
 [recap]: {filename}/pages/recap.md
 [cl]: https://www.courtlistener.com/
 [replication]: https://www.courtlistener.com/api/replication/
