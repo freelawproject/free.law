@@ -118,17 +118,19 @@ The complete history of this document, including unofficial edits, can be found 
 
 We thank the following individuals for their assistance reporting and fixing vulnerabilities in our systems:
 
- - Ankit Thakur - [Open redirect on successful registration][1021] (2019-10-01)
+ - Deepakkumar Gupta - [Referer header leakage via social links][1257] (2020-04-27)
+
+ - Vishal Bharad - [XSS attack in registration flow][xss] (2020-01-22)
  
  - Ratnadip Gajbhiye - Subdomain takeover attack at mail.courtlistener.com (2019-10-09)
  
- - Vishal Bharad - XSS attack in registration flow
+ - Ankit Thakur - [Open redirect on successful registration][1021] (2019-10-01)
  
- - Deepakkumar Gupta - [Referer header leakage via social links][1257]
-
 
 [1021]: https://github.com/freelawproject/courtlistener/issues/1021
 [1257]: https://github.com/freelawproject/courtlistener/issues/1257
+[xss]: https://github.com/freelawproject/courtlistener/commit/fcfe3719a1be550601eda80fec9f8f6e9af5aa3f
+
 [recap]: {filename}/pages/recap.md
 [cl]: https://www.courtlistener.com/
 [replication]: https://www.courtlistener.com/api/replication/
