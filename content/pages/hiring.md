@@ -25,7 +25,30 @@ We're thrilled you're considering joining us.
 
 # Open Positions
 
-Sorry, no positions at this time.
+## Paid Summer Internship
+
+Every year, judges must file financial disclosure reports listing their investments and potential conflicts. For the past several years, we have worked with the federal government to collect these reports, and we now have a groundbreaking collection of thousands of reports that spans nearly a decade. 
+
+We also have a huge collection of judge profiles in our database. The task of our summer intern will be to combine these two collections of data so that judges, their financial disclosures, and their courtroom work are all in one big, transparent database.
+
+To do this, the developer will need to:
+
+1. Convert the financial disclosure reports from TIFF files to PDF.
+
+1. Write a script to merge the new PDFs with the database.
+
+1. Update our website to expose this new resource.
+
+1. Write a blog post advertising the new tool to journalists, lawyers, and the public. 
+
+Our stack is Django, Postgresql, and Bootstrap. 
+
+The successful applicant will be paired with our lead developer, who will provide technical and process mentorship through the summer. 
+
+If you think you may be able to help us create this system, please submit your application as described above. Applications will be accepted until May 29th, and the internship will run until the end of August or your school's start date, if sooner.
+
+Thank you!
+
 
 # Closed Positions
 
