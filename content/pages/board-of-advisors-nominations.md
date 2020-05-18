@@ -36,3 +36,22 @@ After nominations are complete, our Board of Directors will review your recommen
 We enthusiastically welcome emails if there are any questions we can assist with, and we thank you for considering your friends and colleagues for this role.
 
 Thank you!
+
+## Questions & Answers
+
+**Q:** Is outside the USA OK?  
+**A:** Sure. Though timezones can be a challenge, it wouldn't be out of the question. 
+
+**Q:** Can I nominate more than one person?   
+**A:** Sure, that is helpful.
+
+**Q:** How many nominations are you looking for?  
+**A:** Enough that we feel we have a diverse pool of people to consider. 
+
+**Q:** Do I have to tell people I'm nominating them?   
+**A:** It's not required, but it makes our job easier when we reach out to them.
+
+**Q:** Is there a time limit for nominations?  
+**A:** No. We expect to have open nominations on an ongoing basis going forward, with occasional pushes as needed.
+
+
