@@ -23,7 +23,7 @@ We're thrilled you're considering joining us.
 
 --------
 
-# Open Positions
+# Closed Positions
 
 ## Paid Summer Internship
 
@@ -49,8 +49,6 @@ If you think you may be able to help us create this system, please submit your a
 
 Thank you!
 
-
-# Closed Positions
 
 ## RECAP Developer (Temp/Contract)
 
