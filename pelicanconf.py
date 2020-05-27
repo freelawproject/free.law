@@ -59,6 +59,7 @@ LINKS = (
     ("Data Services", '/data-consulting/'),
     ('CourtListener', 'https://www.courtlistener.com/'),
     ('RECAP', '/recap/'),
+    ('Hiring', '/hiring/'),
 )
 
 # Social widget
@@ -66,7 +67,6 @@ SOCIAL = (
     ('Free Law Project', 'https://twitter.com/freelawproject', 'twitter'),
     ('CourtListener', 'https://twitter.com/courtlistener', 'twitter'),
     ('RECAP', 'https://twitter.com/recapthelaw', 'twitter'),
-    ('Facebook', 'https://www.facebook.com/freelawproject', 'facebook'),
     ('Github', 'https://github.com/freelawproject', 'github'),
 )
 
