@@ -90,6 +90,14 @@ Thank you to all of our wonderful supporters for making our work possible and he
                  class="img-responsive">
         </a></p>
     </div>
+    <div class="col-xs-4">
+        <p><a href="https://sentry.com/"
+           target="_blank">
+            <img src="{static}/images/services-logos/sentry-logo.png"
+                 alt="Warren Lex Logo"
+                 class="img-responsive">
+        </a></p>
+    </div>
 </div>
 
 
