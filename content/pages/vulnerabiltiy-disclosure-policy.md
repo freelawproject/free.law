@@ -118,6 +118,8 @@ The complete history of this document, including unofficial edits, can be found 
 
 We thank the following individuals for their assistance reporting and fixing vulnerabilities in our systems:
 
+ - Elumalai Vasan - Absence of throttling on login page (2020-07-13)
+
  - Deepakkumar Gupta - [Referer header leakage via social links][1257] (2020-04-27)
 
  - Vishal Bharad - [XSS attack in registration flow][xss] (2020-01-22)
