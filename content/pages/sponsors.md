@@ -91,10 +91,18 @@ Thank you to all of our wonderful supporters for making our work possible and he
         </a></p>
     </div>
     <div class="col-xs-4">
+        <p><a href="http://1337technologysolutions.com/"
+           target="_blank">
+            <img src="{static}/images/services-logos/1337-technology-solutions.png"
+                 alt="1337 Technology Solutions logo"
+                 class="img-responsive">
+        </a></p>
+    </div>
+    <div class="col-xs-4">
         <p><a href="https://sentry.io/"
            target="_blank">
             <img src="{static}/images/services-logos/sentry-logo.png"
-                 alt="Warren Lex Logo"
+                 alt="Sentry Logo"
                  class="img-responsive">
         </a></p>
     </div>
