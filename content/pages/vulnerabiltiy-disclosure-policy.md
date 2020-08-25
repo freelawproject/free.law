@@ -122,6 +122,8 @@ We thank the following individuals for their assistance reporting and fixing vul
 
  - Deepakkumar Gupta - [Referer header leakage via social links][1257] (2020-04-27)
 
+ - Priya More - Absence of throttling on forgot password page (2020-03-12)
+
  - Vishal Bharad - [XSS attack in registration flow][xss] (2020-01-22)
  
  - Ratnadip Gajbhiye - Subdomain takeover attack at mail.courtlistener.com (2019-10-09)
