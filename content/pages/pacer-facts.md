@@ -263,7 +263,7 @@ Included in that information is the "Go Live Date" for each jurisdiction, but so
 [journal-pdf]: {static}/pdf/179-594-1-PB.pdf
 [journal-web]: http://www.iacajournal.org/articles/abstract/10.18352/ijca.179/
 [bank]: https://www.pacer.gov/documents/case_upload_specs_5_1_1.pdf
-[xml]: https://www.pacer.gov/documents/pacer_xml_apv3.1.pdf
+[xml]: https://web.archive.org/web/20161221203535/https://www.pacer.gov/documents/pacer_xml_apv3.1.pdf
 [nara]: {static}/pdf/N1-021-10-2.pdf
 [declaration]: https://www.courtlistener.com/docket/4214664/13/2/national-veterans-legal-services-program-v-united-states/
 [train]: https://dcecf.psc.uscourts.gov/cgi-bin/ShowIndex.pl
