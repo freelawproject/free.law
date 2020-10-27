@@ -5,7 +5,7 @@ Tags: bulk data, federal-reporter, announcements, API, Bulk Data, Coverage, Data
 Status: published
 
 Over the past few months we have been working on cleaning and importing
-the 2nd series of the Federal Register (F.2d) from
+the 2nd series of the Federal Reporter (F.2d) from
 http://law.resource.org. Today we're excited to share that we've made
 over 12,000 meta data additions, corrections or categorizations, and
 that we've finally added F2 to our corpus.
