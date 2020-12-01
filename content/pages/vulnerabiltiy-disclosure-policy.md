@@ -118,6 +118,8 @@ The complete history of this document, including unofficial edits, can be found 
 
 We thank the following individuals for their assistance reporting and fixing vulnerabilities in our systems:
 
+ - [Muskan Shaikh](https://www.linkedin.com/in/muskan-shaikh-a77b801b2) - [Incorect scheme sent to proxy][1488] (2020-12-01)
+
  - Elumalai Vasan - Absence of throttling on login page (2020-07-13)
 
  - Deepakkumar Gupta - [Referer header leakage via social links][1257] (2020-04-27)
@@ -131,6 +133,7 @@ We thank the following individuals for their assistance reporting and fixing vul
  - Ankit Thakur - [Open redirect on successful registration][1021] (2019-10-01)
  
 
+[1488]: https://github.com/freelawproject/courtlistener/issues/1488
 [1021]: https://github.com/freelawproject/courtlistener/issues/1021
 [1257]: https://github.com/freelawproject/courtlistener/issues/1257
 [xss]: https://github.com/freelawproject/courtlistener/commit/fcfe3719a1be550601eda80fec9f8f6e9af5aa3f
