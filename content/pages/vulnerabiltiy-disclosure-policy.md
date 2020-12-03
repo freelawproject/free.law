@@ -118,6 +118,8 @@ The complete history of this document, including unofficial edits, can be found 
 
 We thank the following individuals for their assistance reporting and fixing vulnerabilities in our systems:
 
+ - [Shubham Panchal](https://www.linkedin.com/in/shubham-panchal-636744161/) - [Weak password policy allowed insufficient passwords][954] (2020-12-02)
+
  - [Muskan Shaikh](https://www.linkedin.com/in/muskan-shaikh-a77b801b2) - [Incorect scheme sent to proxy][1488] (2020-12-01)
 
  - Elumalai Vasan - Absence of throttling on login page (2020-07-13)
@@ -133,6 +135,7 @@ We thank the following individuals for their assistance reporting and fixing vul
  - Ankit Thakur - [Open redirect on successful registration][1021] (2019-10-01)
  
 
+[954]: https://github.com/freelawproject/courtlistener/issues/954
 [1488]: https://github.com/freelawproject/courtlistener/issues/1488
 [1021]: https://github.com/freelawproject/courtlistener/issues/1021
 [1257]: https://github.com/freelawproject/courtlistener/issues/1257
