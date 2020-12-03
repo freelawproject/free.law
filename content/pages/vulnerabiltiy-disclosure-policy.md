@@ -118,6 +118,8 @@ The complete history of this document, including unofficial edits, can be found 
 
 We thank the following individuals for their assistance reporting and fixing vulnerabilities in our systems:
 
+ - [Mohd Asif Khan](https://www.linkedin.com/in/mohd-asif-khan-%E2%9C%AA-5228a9179/) - [Session availability after account deletion][1492] (2020-12-03)
+
  - [Shubham Panchal](https://www.linkedin.com/in/shubham-panchal-636744161/) - [Weak password policy allowed insufficient passwords][954] (2020-12-02)
 
  - [Muskan Shaikh](https://www.linkedin.com/in/muskan-shaikh-a77b801b2) - [Incorect scheme sent to proxy][1488] (2020-12-01)
@@ -135,6 +137,7 @@ We thank the following individuals for their assistance reporting and fixing vul
  - Ankit Thakur - [Open redirect on successful registration][1021] (2019-10-01)
  
 
+[1492]: https://github.com/freelawproject/courtlistener/issues/1492
 [954]: https://github.com/freelawproject/courtlistener/issues/954
 [1488]: https://github.com/freelawproject/courtlistener/issues/1488
 [1021]: https://github.com/freelawproject/courtlistener/issues/1021
