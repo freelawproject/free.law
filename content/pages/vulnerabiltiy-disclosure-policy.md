@@ -95,7 +95,8 @@ We may want to coordinate an advisory with you to be published simultaneously wi
 Not all reported issues may qualify for a reward. Rewards are awarded at Free Law Project's sole discretion. As a small nonprofit we are unable to afford cash bounties (sorry!), but can offer non-cash rewards, including:
 
 * Public acknowledgement
-* Free Law Project gear (stickers, shirts, etc.)
+* Free Law Project stickers, shirts, etc. (for U.S. residents only,
+  sorry)
 * Complimentary Free Law Project services
 * Opportunities to meet with Free Law Project staff
 * Complimentary tickets to Free Law Project events
@@ -117,6 +118,12 @@ The complete history of this document, including unofficial edits, can be found 
 ### Public Acknowledgements
 
 We thank the following individuals for their assistance reporting and fixing vulnerabilities in our systems:
+
+ - [Chirag Agrawal](https://www.linkedin.com/in/chirag-agrawal-770488144) - Password policy allows usernames to match email address [flp](https://github.com/freelawproject/courtlistener/issues/1501), [django](https://code.djangoproject.com/ticket/28127) (2020-12-15)
+
+ - [Kinshuk Kumar](https://www.linkedin.com/in/kinshuk-kumar-4833551a1/) - Absence of (mostly-obsolete) X-XSS-Protection header on free.law (2020-12-08)
+
+ - Mohsin Ali - Absence of throttling on password change page (2020-12-09)
 
  - [Mohd Asif Khan](https://www.linkedin.com/in/mohd-asif-khan-%E2%9C%AA-5228a9179/) - [Session availability after account deletion][1492] (2020-12-03)
 
