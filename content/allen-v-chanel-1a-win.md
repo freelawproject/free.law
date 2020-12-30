@@ -32,7 +32,7 @@ On Monday, the court issued [a thoughtful order unsealing the case and the vario
 Free Law Project is pleased to establish this additional precedent in favor of public access to court documents. We are particularly thankful for the expert counsel provided by the Samuelson Clinic’s Catherine Crump and Megan Graham.
 
 
-[unseal]: https://www.courtlistener.com/docket/5424004/99/allen-v-chanel-inc/
+[unseal]: https://www.courtlistener.com/docket/5424004/99/a-v-chanel-inc/
 [refs]: https://www.courtlistener.com/?q=%22allen%20chanel%22~3&type=r&order_by=score%20desc
 [sam]: https://www.law.berkeley.edu/experiential/clinics/samuelson-law-technology-public-policy-clinic/
 [brief]: {static}/pdf/letters/letter-from-flp-re-removal-order-12cv6758.pdf
