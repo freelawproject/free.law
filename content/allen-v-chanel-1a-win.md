@@ -1,8 +1,7 @@
 Title: Victory For Public Access To Court Documents
 Author: Brian Carver
-Date: 2020-12-29
+Date: 2020-12-30
 Tags: First Amendment, Sealing, Removal Requests, Samuelson Law Clinic, SDNY, Judge Preska
-Status: Draft
 
 
 <p class="lead">Free Law Project fights for the public's right of access to the courts.</p>
