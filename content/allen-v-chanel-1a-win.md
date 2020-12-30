@@ -13,7 +13,7 @@ Tags: First Amendment, Sealing, Removal Requests, Samuelson Law Clinic, SDNY, Ju
     <p><a href="https://www.courtlistener.com/donate/?referrer=1a-victory" class="btn btn-lg btn-danger btn-block">Donate Now</a>
 </div>
 
-In late September, Free Law Project was named in a sealing order out of the Southern District of New York which would have required us to block access to content from CourtListener. We pushed back against this order, and we’re happy to share that earlier this week, the [court reversed course and unsealed the case][unseal] after we and others raised First Amendment concerns about the order’s interference with the public’s right of access to the courts.
+In late September, Free Law Project was named in a [sealing order][seal] out of the Southern District of New York which would have required us to block access to content from CourtListener. We pushed back against this order, and we’re happy to share that earlier this week, the [court reversed course and unsealed the case][unseal] after we and others raised First Amendment concerns about the order’s interference with the public’s right of access to the courts.
 
 We regularly receive removal requests from litigants. This court order was different: It named Free Law Project and ordered us to remove an entire docket and all its filings that had been publicly available for years. It named search engines such as Google, DuckDuckGo, and Bing, and ordered them to remove the case from their search results. It even went so far as to order a prominent international law firm to remove a blog post discussing the case.
 
@@ -32,7 +32,8 @@ On Monday, the court issued [a thoughtful order unsealing the case and the vario
 Free Law Project is pleased to establish this additional precedent in favor of public access to court documents. We are particularly thankful for the expert counsel provided by the Samuelson Clinic’s Catherine Crump and Megan Graham.
 
 
+[seal]: {static}/pdf/12cv6758-sealing-case/sealing-order-12cv6758.pdf
+[brief]: {static}/pdf/12cv6758-sealing-case/letter-from-flp-re-removal-order-12cv6758.pdf
 [unseal]: https://www.courtlistener.com/docket/5424004/99/a-v-chanel-inc/
 [refs]: https://www.courtlistener.com/?q=%22allen%20chanel%22~3&type=r&order_by=score%20desc
 [sam]: https://www.law.berkeley.edu/experiential/clinics/samuelson-law-technology-public-policy-clinic/
-[brief]: {static}/pdf/letters/letter-from-flp-re-removal-order-12cv6758.pdf
