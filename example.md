@@ -55,13 +55,12 @@ A sidebar:
 
 ---
 
-<div class="col-xs-5 pull-right col-sm-3 bg-primary">
-    <h3>Check It Out</h3>
-    <p>You can find all of our oral argument recordings on the Internet Archive in a new collection we have created for this purpose.
+<div class="pull-right col-xs-5 col-sm-4 col-md-3 bg-primary">
+    <h3 class="text-center">Support this Work</h3>
+    <p>Free Law Project is a donor-funded 501(c)(3) that works to make legal information free and accessible.
     </p>
-    <p><a href="https://archive.org/details/uscourtsoralarguments" target="_blank" class="btn btn-info btn-block">Check It Out</a>
+    <p><a href="https://www.courtlistener.com/donate/?referrer=1a-victory" class="btn btn-lg btn-danger btn-block">Donate Now</a>
 </div>
-
 
 A collapsible section and toggle:
 
