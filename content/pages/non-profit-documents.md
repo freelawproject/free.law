@@ -31,13 +31,40 @@ Status: published
 
 ### Tax Documents
 
- - [*2019* --- 990Tax Filing][tax-2019]
- - [*2018* --- 990-EZ Tax Filing][tax-2018]
- - [*2017* --- 990-EZ Tax Filing][tax-2017]
- - [*2016* --- 990-EZ Tax Filing][tax-2016]
- - [*2015* --- 990-EZ Tax Filing][tax-2015]
- - [*2014* --- 990-N Tax Filing][tax-2014]
+#### 2019
+ - [990 Tax Filing][tax-2019]
 
+#### 2018
+ - [990-EZ Tax Filing][tax-2018] 
+ - [Schedule A Amendment][schedule-a-2018]
+ - [Schedule O Amendment][schedule-o-2018]
+
+#### 2017
+- [990-EZ Tax Filing][tax-2017]
+- [Schedule A Amendment][schedule-a-2017]
+- [Schedule O Amendment][schedule-o-2017]
+
+#### 2016
+- [990-EZ Tax Filing][tax-2016]
+- [Schedule A Amendment][schedule-a-2016]
+- [Schedule O Amendment][schedule-o-2016]
+
+#### 2015
+- [990-EZ Tax Filing][tax-2015]
+- [Schedule A Amendment][schedule-a-2015]
+- [Schedule O Amendment][schedule-o-2015]
+
+#### 2014
+ - [990-N Tax Filing][tax-2014]
+
+[schedule-a-2018]: {static}/pdf/taxes/2018-990-EZ-schedule-a-amended.pdf
+[schedule-a-2017]: {static}/pdf/taxes/2017-990-EZ-schedule-a-amended.pdf
+[schedule-a-2016]: {static}/pdf/taxes/2016-990-EZ-schedule-a-amended.pdf
+[schedule-a-2015]: {static}/pdf/taxes/2015-990-EZ-schedule-a-amended.pdf
+[schedule-o-2018]: {static}/pdf/taxes/2018-990-EZ-schedule-o-amended.pdf
+[schedule-o-2017]: {static}/pdf/taxes/2017-990-EZ-schedule-o-amended.pdf
+[schedule-o-2016]: {static}/pdf/taxes/2016-990-EZ-schedule-o-amended.pdf
+[schedule-o-2015]: {static}/pdf/taxes/2015-990-EZ-schedule-o-amended.pdf
 [tax-2019]: {static}/pdf/taxes/2019-990.pdf
 [tax-2018]: {static}/pdf/taxes/2018-990-EZ.pdf
 [tax-2017]: {static}/pdf/taxes/2017-990-EZ.pdf
