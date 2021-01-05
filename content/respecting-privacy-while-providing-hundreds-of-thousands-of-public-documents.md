@@ -97,7 +97,7 @@ sitemap](http://www.sitemaps.org/protocol.html) that search engines can
 understand, and which tells them about every page on the site that they
 should crawl and index.
 
-All of these elements fit together into a complicated mÃ©lange that has
+All of these elements fit together into a complicated melange that has
 absorbed many development hours over the past two years, as different
 search engines interpret these standards in different ways.
 
