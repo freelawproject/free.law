@@ -46,7 +46,6 @@ STATIC_PATHS = [
     'doc',
     'images',
     'keys',
-    'odt',
     'pdf',
     'txt',
     'zip',
