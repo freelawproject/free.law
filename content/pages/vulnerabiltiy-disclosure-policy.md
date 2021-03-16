@@ -119,6 +119,8 @@ The complete history of this document, including unofficial edits, can be found 
 
 We thank the following individuals for their assistance reporting and fixing vulnerabilities in our systems:
 
+ - [Agung Saputra](www.linkedin.com/in/geek-root) — Open redirect with newline-separated scheme [flp](https://github.com/freelawproject/courtlistener/pull/1613) (2021-03-15)
+
  - [Chirag Agrawal](https://www.linkedin.com/in/chirag-agrawal-770488144) - Password policy allows usernames to match email address [flp](https://github.com/freelawproject/courtlistener/issues/1501), [django](https://code.djangoproject.com/ticket/28127) (2020-12-15)
 
  - [Kinshuk Kumar](https://www.linkedin.com/in/kinshuk-kumar-4833551a1/) - Absence of (mostly-obsolete) X-XSS-Protection header on free.law (2020-12-08)
