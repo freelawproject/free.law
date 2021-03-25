@@ -34,7 +34,7 @@ There are a few ways to avoid PACER fees, as [described in the PACER fee schedul
  
 1. Some documents are labeled by clerks as "Opinions" and are free. In theory — and according to the E-Government Act — this would include all of the opinions issued, but in our research this has varied greatly by jurisdiction. These documents can be found by using the "Written Opinions" report.
 
-1. All PACER users are allowed $15 per calendar quarter before they are billed. However, once you hit $15.01 on your bill, you will be billed the entire amount.
+1. All PACER users are allowed $30 per calendar quarter before they are billed. However, once you hit $30.01 on your bill, you will be billed the entire amount.
 
 1. If you are a part of case, you're granted "One free look" at each document filed in that case. These expire after 15 days.
 
