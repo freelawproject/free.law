@@ -9,13 +9,6 @@ excerpt: "With help from the Samuelson Clinic at UC Berkeley, FLP works to keep 
 
 <p className="lead">Free Law Project fights for the public's right of access to the courts.</p>
 
-<div className="pull-right col-xs-5 col-sm-4 col-md-3 bg-primary">
-    <h3 className="text-center">Support this Work</h3>
-    <p>Free Law Project is a donor-funded 501(c)(3) that works to make legal information free and accessible.
-    </p>
-    <p><a href="https://www.courtlistener.com/donate/?referrer=1a-victory" className="btn btn-lg btn-danger btn-block">Donate Now</a></p>
-</div>
-
 In late September, Free Law Project was named in a [sealing order][seal] out of the Southern District of New York which would have required us to block access to content from CourtListener. We pushed back against this order, and we’re happy to share that earlier this week, the [court reversed course and unsealed the case][unseal] after we and others raised First Amendment concerns about the order’s interference with the public’s right of access to the courts.
 
 We regularly receive removal requests from litigants. This court order was different: It named Free Law Project and ordered us to remove an entire docket and all its filings that had been publicly available for years. It named search engines such as Google, DuckDuckGo, and Bing, and ordered them to remove the case from their search results. It even went so far as to order a prominent international law firm to remove a blog post discussing the case.
