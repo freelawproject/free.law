@@ -1,0 +1,81 @@
+---
+title: "Announcing PACER Docket Alerts for Journalists, Lawyers, Researchers, and the Public"
+author: Michael Lissner
+date: "2018-08-21"
+tags: ["alerts", "PACER", "RECAP"]
+---
+
+<a href="https://www.courtlistener.com/help/alerts/#recap-alerts"
+   target="_blank"
+   className="btn btn-primary btn-lg right-image"><i className="fa fa-bell-o"></i>
+   Make Alerts Now
+</a>
+
+Today we are thrilled to announce the general availability of [PACER Docket Alerts][help] on CourtListener.com. Once enabled, a docket alert will send you an email whenever there is a new filing in a case in PACER. We [started CourtListener in 2010][cl] as a circuit court monitoring tool, and we could not be more excited to continue expanding on those roots with this powerful new tool.
+
+<p className="alert bg-warning"><i className="fa fa-lightbulb-o"></i> The best way to get started with Docket Alerts is to just make one. Try loading a popular case like <em><a href="https://www.courtlistener.com/docket/6183591/united-states-v-manafort/?filed_after=&filed_before=&entry_gte=&entry_lte=&order_by=desc">U.S. v. Manafort</a></em> or <em><a href="https://www.courtlistener.com/docket/6072774/the-district-of-columbia-v-trump/?filed_after=&filed_before=&entry_gte=&entry_lte=&order_by=desc">The District of Columbia v. Trump</a></em>. Once the case is open, just press the "Get Alerts" button near the top. Then, just wait for your first alert.
+</p>
+ 
+We believe PACER Docket Alerts will be a valuable resource to journalists, researchers, lawyers, and the public as they grapple with staying up to date with the latest PACER filings.
+
+Our goal with docket alerts is to make them as simple as possible to use. Once you have found a case you are interested in, a single click is all it takes to turn on an alert for that docket. From then on, we will send you an email as soon as we detect a new filing in that case. For more details on how to use docket alerts, [please see our help page][help].
+
+[cl]: {filename}/announcing-courtlistener-com.md
+
+
+## How Docket Alerts Work
+
+A number of sources power these alerts. The primary source — like with most PACER awareness tools — is the RSS data provided by PACER websites. Across the country, these feeds list about 100,000 new filings per day. We collect all this information each day, make it searchable in the [RECAP Archive][archive], and use it to trigger alerts. 
+
+This is a rich source of information, and for many jurisdictions, it provides robust and reliable alerts. Using this alone, we can typically send you an alert within about an hour of when a court filing is available.
+
+Some courts, however, do not have RSS feeds or provide incomplete ones. For these jurisdictions, we supplement the alerting service with three additional sources. These sources make the alerts both faster and more reliable than what you can achieve with RSS alone:
+ 
+ - The first source is docket information contributed by RECAP users. Depending on the case, this can be a great way to stay up to date with a docket. In popular cases, this can be much faster than even the RSS feeds used by other services, providing updates within minutes of a new filing.
+ 
+     This is another reason we encourage you to [install RECAP][recap]. Please do so if you have not already! 
+ 
+ - The second way we supplement RSS feeds is with our opinion scraper. This only runs once per night, but it can run on jurisdictions that do not have RSS feeds, and can catch free opinions in cases that otherwise might not trigger an alert.
+ 
+ - The third way we supplement RSS feeds is via our [client projects][services]. These projects bring in vast amounts of PACER data into the [RECAP Archive][archive]. This is often the slowest way we get data, but we are increasingly checking dockets for clients, so this can sometimes serve as a great trigger for alerts too.
+
+Together, these four sources of PACER data make for a robust alerting service that can keep up with dockets across most of the country. To learn more about how this works, and to learn which jurisdictions we fully support, [please see the help documentation for alerts][help].
+
+[services]: /data-consulting/
+[archive]: https://www.courtlistener.com/recap/
+
+
+## Availability
+
+As part of our effort to strengthen Free Law Project financially, we are putting some limitations on docket alerts:
+
+ - By default, any user of CourtListener can monitor five dockets for free, regardless of how many alerts those dockets generate.
+
+ - Users who [install the RECAP Extension][recap] get a bonus of ten docket alerts, making a total of 15 cases that you can monitor at one time. We want everybody who can to install RECAP, and we hope this will encourage more people to do so. 
+ 
+ - Finally, users who make monthly contributions to Free Law Project can make as many alerts as they need, though we may set some reasonable limits in the future, based on usage. We hope everybody using our tools will help support Free Law Project in return, but for those with the greatest need, we ask for your support. Currently, the minimum monthly donation is five dollars per month.
+
+<a href="https://www.courtlistener.com/donate/?referrer=docket-alerts-announcement"
+   target="_blank"
+   className="btn btn-lg btn-danger"><i className="fa fa-heart-o"></i> Become a Monthly Supporter</a>
+ 
+## What's Next for Docket Alerts?
+
+We have a lot of ambition for our alerting tools, and we are thinking about what should come next:
+ 
+ - As mentioned above, not every district offers an RSS feed. This is a huge problem, and we are actively working with volunteers to lobby courts to enable complete RSS feeds. 
+ 
+     One step in this process is to write a letter to the courts. If you are interested in signing such a letter and think your name or organization might help, please [get in touch][c].
+ 
+ - The four methods we use to trigger alerts are great and make for a robust system, but it could always be better. In the coming months, we hope to begin actively crawling PACER to identify changes to dockets people are signed up for, and to close the gap created by missing RSS feeds.
+ 
+ - Getting alerts based on new filings is great, but what if you could get alerts based on search terms? This is a tough problem, but we're looking into ways to accomplish this, too.
+ 
+We think our PACER Docket Alerts are going to be an important tool, and it's one that has taken us years to put together. We couldn't be more happy to announce this today. If you like these kinds of features, we hope you will support our efforts financially by [making a donation][donate].
+
+If you have questions, ideas, or any other concerns, [our lines are open][c]!
+
+[donate]: https://www.courtlistener.com/donate/?referrer=docket-alerts-announcement2
+[help]: https://www.courtlistener.com/help/alerts/#recap-alerts
+[c]: /contact/
+[recap]: /recap/

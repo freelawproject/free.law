@@ -1,0 +1,61 @@
+---
+title: "CourtListener is Now Integrated with the Supreme Court Database"
+date: "2014-12-21 11:15"
+author: Michael Lissner
+tags: ["Announcements", "API", "Bulk Data", "Citator", "CourtListener", "Data Wrangling", "Supreme Court Database"]
+---
+Slug: courtlistener-is-now-integrated-with-the-supreme-court-database
+status: published
+---
+
+Earlier this week [somebody on the
+Internet](https://github.com/ariddell "https://xkcd.com/386/") pinged us
+with [some
+code](https://github.com/freelawproject/courtlistener/issues/319) and
+asked that we integrate the data from the [Supreme Court Database
+(SCDB)](http://scdb.wustl.edu/about.php). Well, we're happy to share
+that less than a week later we've taken the code they provided and used
+it to upgrade CourtListener's database.
+
+The Supreme Court Database includes data for about 8,500 Supreme Court
+opinions from 1946 to 2013 and this first pass merges that data with
+CourtListener so that:
+
+-   Our copy of these opinions are enhanced with better parallel
+    citations. You can now look these items up by U.S. Reporter (U.S.),
+    The Supreme Court Reporter (S.Ct.), Lawyers' Edition (L.Ed.) or even
+    LEXIS citation (U.S. LEXIS). This should make our citation graph
+    much more robust and should help people like [Colin Starger at
+    University of
+    Baltimore](http://law.ubalt.edu/faculty/profiles/starger.cfm) that
+    are doing [great analyses with this
+    data](http://law.ubalt.edu/faculty/scotus-mapping/index.cfm). Many
+    of these items were screen scraped directly from the Supreme Court
+    website meaning that for these items, this is the first time they
+    have had proper citations. Here's an example of the many parallel
+    citations items now have:
+
+![Roe v. Wade
+Citations](/images/Screenshot-from-2014-12-21-103557.png)
+
+-   All Supreme Court Opinions from 1946 to 2013 have a new field that
+    can be used by researchers to join them with the SCDB. This will
+    allow the opinions from CourtListener to be merged with the items in
+    SCDB to get any fields that we did not yet import ([SCDB has dozens
+    of fields](http://scdb.wustl.edu/documentation.php)!)
+
+So, this first pass at a merge of SCDB and CourtListener accomplishes
+the immediate goals of adding more citations and of making it possible
+to join the two databases, but we have not yet imported all of the many
+fields that are included in the SCDB. We're waiting to hear from the
+community before moving forward with any of the other fields so that we
+can learn which are valuable to our users. Depending on which fields
+people ask for, it should be easy for us to add them as needed. Be in
+touch and we'll be happy to import further data.
+
+Like many of our recent features, this enhancement was possible because
+somebody wanted our data enhanced, gave us a great prototype
+implementation, and asked for us to do the last little bit to deploy it
+on CourtListener. We're happy to do so today and to release the best
+CourtListener data yet.
+

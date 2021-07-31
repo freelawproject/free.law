@@ -1,0 +1,86 @@
+---
+title: RECAP Project — Terms of Use
+type: page
+---
+
+These Terms of Use (the "Terms") govern the following: 
+
+1. the RECAP Extension for Firefox, Chrome or other browsers (the “RECAP Extension” or the “Extension”); and
+2. the RECAP Extension Server, hosted at CourtListener.com, with which the Extension interacts (the “RECAP Extension Server” or the “Extension Server”). 
+
+Collectively, the Extension and the Extension Server form the "RECAP System".
+
+YOUR USE OF THE RECAP SYSTEM CONSTITUTES YOUR AGREEMENT TO THESE TERMS AND ANY SUBSEQUENT CHANGES TO THESE TERMS. DO NOT USE THE RECAP SYSTEM IF YOU DO NOT AGREE WITH ALL OF THESE TERMS.
+
+We reserve the right to change these terms from time to time at our sole discretion. Please periodically check this section to review the current version of the Terms. Your continued use of the RECAP System following the posting of such changes will constitute your assent to all such changes.
+
+
+## Contributions to RECAP
+
+You understand that by using the RECAP Extension you are requesting that public records downloaded by you from PACER are automatically uploaded to IA via the RECAP Extension Server. Your personally-identifiable information will be stripped from the public record, subject to the terms in our [Privacy Policy][privacy], by the RECAP Extension Server and then the record may be forwarded on to IA to be stored in perpetuity.
+
+Free Law Project is not responsible for any contributions from users (including but not limited to public records uploaded to IA) which may be indecent or otherwise objectionable. You understand that, though we will investigate such materials, users bear sole responsibility for their contributions. If you discover indecent or otherwise objectionable materials that we should be aware of, please [let us know][c].
+
+
+## Use of RECAP System
+
+By agreeing to these Terms and using the RECAP System, you affirm that you are at least 18 years of age and are legally capable of entering into the conditions, obligations, affirmations, representations and warranties set forth in these Terms, and that you will comply with all of these Terms.
+
+You agree not to use the RECAP System in a way that may damage nor interfere with with the proper working of the RECAP System. You agree not to intentionally upload false information to the RECAP System. You agree not to infringe the rights of nor restrict anyone else's use or enjoyment of the RECAP System.
+
+
+## Intellectual Property
+
+Free Law Project or its licensors own all right, title and interest in and to the RECAP System, including without limitation, all intellectual property rights.
+
+The source code for the RECAP Extension is included when you download the Extension, and may be modified and redistributed subject to the terms of a GNU General Public License 3.0 (http://www.gnu.org/licenses/gpl-3.0.txt ).
+
+You agree not to misappropriate the RECAP name for any use that is inconsistent with the Intellectual Property Rights of Free Law Project or its licensors, including, without limitation, using the RECAP name to endorse views not adopted by RECAP. You also agree to not remove, obscure, or alter Free Law Project's or its licensors' copyright notice, trademarks, or other proprietary rights notices affixed to or contained within the RECAP System.
+
+
+## Access to the RECAP Extension Server
+
+You may access the RECAP Extension Server APIs only by using an unmodified version of the RECAP Extension, as originally distributed. Any other access to the RECAP Extension Server APIs, whether via a modified RECAP Extension or other means, is strictly prohibited.
+
+
+## Termination
+
+Free Law Project reserves the right to terminate or restrict your access to the RECAP System, in its sole discretion, and without any liability to you.
+
+
+## Privacy
+
+You agree to be bound by our [Privacy Policy][privacy], which is incorporated herein by reference.
+
+
+## Disclaimer of Warranties and Limitation of Liabilities
+
+Free Law Project does not provide any warranty whatsoever relating to the functionality of the RECAP System and/or any risks of harm or damage (including but not limited to legal liability) arising out of your use thereof. If the RECAP System does not work, does not work as well as you would like, and so on, you may not bring a claim against Free Law Project. In addition, while the Free Law Project does not intend that any damage will occur as a result of your use of the RECAP System, you agree to assume the risks of using or misusing the RECAP System. You agree that you do not have any legal claims against the Free Law Project, regardless of what does or does not happen, and regardless of any damage to anyone or anything, as a result of your use or misuse of the RECAP System. Free Law Project disclaims any responsibility for any harm or damage (including but not limited to legal liability) resulting from your use of the RECAP System. In legal terms:
+
+THE RECAP SYSTEM IS PROVIDED ON AN "AS IS" AND "AS AVAILABLE" BASIS. FREE LAW PROJECT MAKES NO REPRESENTATIONS OR WARRANTIES OF ANY KIND, EXPRESS OR IMPLIED, AS TO THE RECAP SYSTEM'S OPERATION OR THE INFORMATION INCLUDED IN THE RECAP SYSTEM. TO THE FULL EXTENT PERMISSIBLE BY APPLICABLE LAW, FREE LAW PROJECT HEREBY DISCLAIMS ALL WARRANTIES, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR ANY PARTICULAR PURPOSE.
+
+FREE LAW PROJECT WILL NOT BE LIABLE FOR ANY DAMAGES OF ANY KIND ARISING FROM THE USE OF OR INABILITY TO USE THE RECAP SYSTEM. YOU EXPRESSLY AGREE THAT YOU USE THE RECAP SYSTEM SOLELY AT YOUR OWN RISK. UNDER NO CIRCUMSTANCES SHALL FREE LAW PROJECT OR ITS SUPPLIERS OR LICENSORS BE LIABLE FOR ANY DIRECT, SPECIAL, INCIDENTAL, INDIRECT, ECONOMIC OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, LOSS OF DATA OR LOSS OF USE DAMAGES OR LOST PROFITS) ARISING OUT OF OR CONNECTED WITH THE RECAP SYSTEM (INCLUDING BUT NOT LIMITED TO ITS OPERATION OR THE INFORMATION OR CONTENT CONTAINED THEREIN, OR THE USE OR INABILITY TO USE ANY OTHER WEBSITE LINKED TO THE RECAP SYSTEM, OR ANY CONTENT CONTAINED IN ANY SUCH WEBSITE, OR THESE TERMS, OR THE PRIVACY POLICY APPLICABLE TO THESE RECAP SYSTEM) EVEN IF FREE LAW PROJECT, ITS SUPPLIERS, OR LICENSORS HAVE BEEN NOTIFIED OF THE POSSIBILITY OF ANY DAMAGES.
+
+BECAUSE SOME STATES DO NOT ALLOW THE EXCLUSION OR LIMITATION OF LIABILITY FOR CONSEQUENTIAL OR INCIDENTAL DAMAGES, THE ABOVE LIMITATION MAY NOT APPLY TO YOU IN SUCH STATES. THE RESPECTIVE LIABILITY OF FREE LAW PROJECT, ITS SUPPLIERS AND LICENSORS SHALL BE LIMITED TO THE GREATEST EXTENT PERMITTED BY APPLICABLE LAW.
+
+
+## Indemnities
+
+You are solely legally liable if your use or misuse of RECAP System leads to legal action brought against you. You acknowledge and agree to indemnify and hold Free Law Project and its affiliates, officers, employees and agents, harmless, including costs and attorneys' fees, from any claim or demand made by any third-party due to or arising out of your use of the RECAP System or your violation of these terms.
+
+
+## General
+
+These terms shall be governed by and interpreted in accordance with the laws of California which shall have exclusive jurisdiction and venue over any disputes of any kind arising from or relating to the RECAP System, or your use or review of the RECAP System.
+
+## Contact Information
+
+If you feel that a record was uploaded to the RECAP Extension Server or to IA in error, or that a public record held within the IA repository contains private information that should have been removed, please contact us at info@free.law.
+
+Last Updated 2015-05-20.
+
+Note: You may also wish to review our [Copyright Infringement Information][dmca].
+
+[privacy]: /recap/privacy-policy/
+[dmca]: /recap/dmca/
+[c]: /contact/

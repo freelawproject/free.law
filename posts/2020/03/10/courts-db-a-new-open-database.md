@@ -1,0 +1,60 @@
+---
+title: "Announcing a New Open Database of Court Information, IDs, and Parsers"
+author: William E. Palin, Esq., Michael Lissner
+date: "2020-03-10"
+tags: ["courts", "courts-db", "courtlistener", "open data", "history"]
+excerpt: "News: FLP releases first of its kind system for parsing court names and giving courts unique identifiers."
+---
+
+
+<div className="left-image">
+    <a href="https://github.com/freelawproject/courts-db">
+        <img src="/images/supreme-court-of-mass.jpeg"
+             alt="John Adams Courthouse"
+             title="John Adams Courthouse"
+             className="img-responsive border"/>
+    </a>
+    <p className="caption">One court, many names: The "Supreme Court of Massachusetts", the "Supreme Judicial Court of Massachusetts", "The State of Mass. Supreme Court", the "Massachusetts Supreme Judicial Court", and the list goes on. Courtesy of <a href="https://commons.wikimedia.org/wiki/File:2010_AdamsCourthouse_Boston_4765611709.jpg">Wikipedia</a></p>
+</div>
+<div className="clearfix"></div>
+ 
+ 
+Since 2010 when we launched CourtListener, one of our goals has been to build a complete, accurate, and audited collection of open case law. Today that goal takes a major step forward as we announce a new tool we have built to parse court data.
+
+A critical step in parsing court opinions is knowing which court produced the opinion. Unfortunately, courts change their names over time and so we encounter opinions from the "Supreme Court of Massachusetts", the "Supreme Judicial Court of Massachusetts", and the "Massachusetts Supreme Judicial Court", among others. These are all names for the very same court of last resort in Massachusetts, so we created a tool that recognizes all these varied names. 
+
+We call our tool the Free Law Project [Courts-DB][courts-db].
+ 
+Using Courts-DB, you can easily look up the name of nearly any American court with published cases going back to 1600. We have used this functionality to parse nearly 16 million court names. After doing so, our accuracy at parsing court names stands at 99.998%. (The remaining 0.002% generally requires a human to understand.)
+
+
+<div className="col-xs-5 pull-right col-sm-3 bg-primary">
+    <h3>The Numbers</h3>
+    <p>Tested against <strong>16M</strong> courts</p>
+    <p><strong>17,887</strong> lines of code</p>
+    <p><strong>718</strong> court identifiers</p>
+    <p><strong>361</strong> court websites</p>
+    <p><strong>2,100</strong> regular expressions</p>    
+    <p><a href="https://pypi.org/project/courts-db/" target="_blank" className="btn btn-info btn-block">Check It Out</a></p>
+</div>
+
+Courts-DB consists of over 17,000 lines of code and has data about American courts from the 1600s until modern times. Generally, if the court ever had a published case &mdash; and often [even if it did not][msc] &mdash; then that court will be available in Courts-DB. This includes special and limited jurisdiction courts, tribal courts, and even a couple of United States Courts of other countries ([looking at you United States Court for Berlin][berlin]). 
+
+Courts-DB uses over 2,100 regular expressions to match court names, has over 300 court websites available for lookup, and provides thousands of examples, variations, typos, and other court metadata. 
+
+Finally, the DB contains *identifiers* for all of these courts. Identifiers are an important part of building any software system, and their absence from the legal industry has been an ongoing challenge to innovation and interoperation. Many of our  identifiers are already adopted by the [SALI Alliance][sali] and we hope to soon incorporate the rest into their standards. If you are developing any sort of legal software, we hope you will consider using these identifiers.
+
+Starting now, Courts-DB is available as [open code][courts-db], a [python package][pypi] or as an [extremely long JSON file][json].
+
+Courts-db is part of larger initiatives at Free Law Project to organize and provide free and open access to every US court opinion in history. We encourage and invite users to join, research and test our code. In particular, we are looking for help adding court start and end dates to Courts-DB. If you're interested in lending a hand, please [get in touch][c].
+
+To learn more about the project, the data and how to use it please visit [Courts-db on Github][courts-db].
+
+[courts-db]: https://github.com/freelawproject/courts-db
+[pypi]: https://pypi.org/project/courts-db/
+[berlin]: https://en.wikipedia.org/wiki/United_States_Court_for_Berlin
+[json]: https://github.com/freelawproject/courts-db/blob/master/courts_db/data/courts.json
+[c]: /contact/
+[lil]: https://case.law/
+[sali]: https://www.sali.org/
+[msc]: https://www.fjc.gov/history/courts/mixed-slave-trade-courts-1862-1870

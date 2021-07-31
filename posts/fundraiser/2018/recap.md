@@ -1,0 +1,75 @@
+---
+title: Sorry to Interrupt You. Please Support the RECAP Extensions
+type: page
+---
+
+
+<div className="row">
+    <div className="col-xs-12 col-sm-8 col-md-9">
+        <p className="lead">The RECAP extensions are hosted by Free Law Project, a non-profit that is dedicated to opening legal data. We apologize for interrupting your day, but once per year we ask for your support so we can continue hosting and enhancing the RECAP extensions.
+        </p>
+    </div>
+    <div className="col-xs-12 col-sm-4 col-md-3">
+        <span className="pull-right"><a href="https://www.courtlistener.com/donate/?referrer=2018-big-button-recap" className="btn btn-lg btn-danger">Donate Now</a></span>
+    </div>
+</div>
+
+## Where Your Support Went
+
+<div className="right-image">
+    <img src="/images/recap_r-150x150.png"
+         alt="RECAP Logo"
+          className="img-responsive"/>
+</div>
+
+2018 was probably the most important year for RECAP since its creation. Our work this year had three themes:
+
+1. Expanding [the ways we get PACER documents and dockets][coverage] beyond just the extensions — thus expanding how much PACER data we can share with you.
+ 
+1. Enhancing and improving the [RECAP Archive][ra] so you can better search, view, and leverage it.
+
+1. Working hard on outreach to continue sharing PACER data with the public and the broader legal ecosystem.
+
+Some of the successes for those themes included:
+
+ - Creating a [robust, powerful, and inexpensive system][alerts] for sending alerts for new PACER filings.
+ 
+ - Increasing the RECAP user base by more than 50%. The odds of you getting crowdsourced documents from PACER are higher than ever.
+ 
+ - A vast expansion in the size of our collection. In 2018, we added more than 25 million [fully searchable docket entries to the RECAP Archive][ra].
+ 
+ - Uploading [nearly our entire collection of PACER data][ia] to the Internet Archive for preservation and dissemination. (This effort is ongoing!)
+ 
+We also just received two spots on [the American Bar Association's list of top legal apps of 2018][aba] — one for RECAP and the other for CourtListener. 
+
+2018 has been busy!
+
+[aba]: http://www.abajournal.com/magazine/article/best_legal_apps_2018/
+[coverage]: https://www.courtlistener.com/coverage/
+[alerts]: https://www.courtlistener.com/help/alerts/
+[ia]: http://free.law/2018/09/11/uploading-pacer-dockets-and-oral-argument-recordings-to-the-internet-archive/
+[ra]: https://www.courtlistener.com/recap/
+
+
+## Please Support RECAP
+
+All of the achievements and initiatives above took considerable effort. Nine years after its creation, RECAP has never had more users, more data to share, or more functionality.
+
+At the same time, we think RECAP has never been more more important. With your uploads, we have been able to host numerous dockets of historical significance. In 2018, the courts became more important than ever, and we were proud to help the public and the press follow these cases as they unfolded. 
+
+If you have benefited from our work this year, or if you find our work valuable, we ask that you **please donate today**. Free Law Project is a California public benefit corporation, and is a federally recognized 501(c)(3) non-profit. 
+
+All donations are tax deductible. 
+
+<p><a href="https://www.courtlistener.com/donate/?referrer=2018-big-button-recap-2" className="btn btn-lg btn-danger">Donate Now</a></p>
+
+
+## Finally, Thank You.
+
+We have benefited immensely from [many sources][thanks] including individuals, organizations, and academic departments, too numerous to list here. 
+
+We are also thankful for all of our RECAP users. You contribute to the public RECAP Archive every day. Without your support and without your willingness to share the documents you purchase, none of this would be possible.
+
+Thank you for all your generous support.
+
+[thanks]: /thanks/

@@ -1,0 +1,49 @@
+---
+title: About Free Law Project
+type: page
+---
+
+Started in 2010, Free Law Project is a 501(c)(3) non-profit that works to make the legal world more fair and efficient. We do this through a number of projects including:
+
+ - [The RECAP Extensions][recap] &mdash; Simple browser extensions for Chrome and Firefox that open up federal court data. If you use PACER, install RECAP to join this initiative. 
+ 
+ - [CourtListener.com][cl] &ndash; Our fully-searchable and accessible archive of court data including growing repositories of opinions, oral arguments, judges, and federal filings.
+ 
+ - Fact sheets for [PACER][p-fs] and the [FJC Integrated Database][fjc-fs] so that the public can better understand these services.
+ 
+ - An extremely detailed [database of reporters][rdb].
+ 
+ - A collection of [hundreds of pictures of federal and state judges][pic-db].
+ 
+ - A [repository of judicial seals][seal-db].
+ 
+ - [Data services and consulting][serv].
+ 
+All together, these projects provide valuable tools and analysis for those that want to access, study, or improve the American legal system.
+
+We do all of this work on [a shoestring budget][budget] that is supported by a blend of [services][serv], [donations][donate], and [sponsorships][spon].  We occasionally seek and get grants, but we usually lack the resources they require for submission unless grant officers come to us. 
+
+All of our work is open source, creating a rich culture of [staff][who] and volunteers.
+ 
+## What next?
+
+<div className="grid grid-cols-2 gap-8">
+    <WideWhiteButton href="/mission/">Read our Mission</WideWhiteButton>
+    <WideWhiteButton href="/team/">See Who We Are</WideWhiteButton>
+    <WideWhiteButton href="/donate/">Support Our Work<span className="hidden md:inline"> with a Donation</span></WideWhiteButton>
+    <WideWhiteButton href="/become-a-sponsor/">Become a Sponsor</WideWhiteButton>
+</div>
+
+
+[recap]: /recap/
+[cl]: https://www.courtlistener.com
+[p-fs]: /pacer-facts/
+[fjc-fs]: /idb-facts/
+[rdb]: https://github.com/freelawproject/reporters-db
+[pic-db]: https://github.com/freelawproject/judge-pics
+[seal-db]: /judicial-seals/
+[serv]: /data-consulting/
+[budget]: /non-profit-documents/
+[donate]: /donate/
+[spon]: /sponsors/
+[who]: /team/

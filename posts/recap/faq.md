@@ -1,0 +1,165 @@
+---
+title: RECAP Project — Frequently Asked Questions
+type: page
+---
+
+## Overview
+
+#### What is PACER?
+[PACER](http://pacer.psc.uscourts.gov/) stands for "Public Access to
+Court Electronic Records." It is the website the federal judiciary uses
+to make public records available to the general public. You can use
+PACER to access legal documents relating to millions of federal court
+cases. You can learn more about PACER in our [PACER FAQ][faq].
+
+#### Should I install RECAP if I'm not a user of PACER? 
+No. RECAP only becomes active when you are accessing PACER and deactivates when you're browsing non-PACER websites. Therefore, non-PACER users won't benefit from installing RECAP &mdash; it won't cause any issues, but it simply won't do anything.
+
+#### Will installing RECAP affect my use of other websites?
+No. RECAP only works on PACER-related sites. When you install RECAP, you'll see that it only has access to uscourts.gov and CourtListener.com. It cannot see your browsing or affect any other websites.
+
+#### Will RECAP interfere with my use of PACER?
+RECAP is designed to improve your PACER experience without getting in your way. To use RECAP, log into PACER and use PACER as you normally do. As you use PACER, you'll see small RECAP icons and other notifications about free versions of PACER content. Click these icons and links to get PACER content for free. 
+
+<PurpleButton size="lg" href="/recap/screenshots/">View Screenshots of RECAP</PurpleButton>
+
+
+#### Can the judiciary tell that I'm a RECAP user?
+We don't think so, no, and we have no reason to believe they've ever tried. From PACER's perspective, a user with RECAP installed behaves exactly like any other user. The only difference is that the RECAP extension simultaneously communicates with the RECAP web site, uploading purchased documents and checking for documents available for free download. 
+
+When a document is available for download, RECAP puts a small, distinctive icon next to the official PACER link. That means users always have a choice between downloading the free RECAP version (if one is available) or paying for the PACER version.
+
+
+#### Can I browse or search the archive directly, or do I need to use PACER to see RECAP files?
+Yes! You can search and browse the entire RECAP Archive on our website, CourtListener.com, where you'll find the largest open repository of PACER cases and documents in the country. 
+
+<PurpleButton size="lg" href="https://www.courtlistener.com/recap/">Visit the RECAP Archive</PurpleButton>
+
+<hr/>
+
+## Technical Questions
+
+#### Why am I not getting any notifications that RECAP is uploading documents, even though the RECAP icon is blue?
+There are a handful of reasons why this could be. First, RECAP has an option to disable alerts. You should make sure the alerts are enabled by checking the box next to: "Notify me when RECAP uploads a file to the Archive." It should be on by default.
+
+If that's checked and things still don't seem to be working, the likely problem is that one of your other extensions is interacting with RECAP in a bad way. Lots of extensions change the way your browser works &mdash; some of them take away important features that RECAP relies on. Unfortunately, there's no way for us to detect which extensions you have installed, but so far we know that these will cause problems:
+
+ - **Drumpfinator** &mdash; This extension changes the word Trump to the word Drumpf in every webpage you see. Accordingly, it changes webpages on PACER, which you subsequently upload to us. We've blocked this extension.
+
+ - **MetaMask** &mdash; This is a bitcoin-related tool and it injects JavaScript into every page you view including those on PACER. That JavaScript causes problems we can't deal with.
+ 
+ - **Fix Url Links Redirect** &mdash; This is a security-related extension that strips referer information that we rely on.
+ 
+ - **Forecastfox (fix version)**  &mdash; Shows the weather in various toolbars.
+
+If you find that RECAP is not working for you, the first step you can take is try to install it in a brand new profile for your browser. If that fixes it, you can use trial and error to add extensions from your original profile until RECAP works breaks again. That'll be your culprit. 
+
+If you discover an extension that causes problems, please let us know so we can update our list. If you've done all of the above and still have problems, don't hesitate to send us a message.
+
+
+#### Can I disable RECAP?
+Yes, in two ways. First, in the RECAP preferences, there is an option to disable uploads. Clicking that box will ensure that you avoid uploading something to the RECAP Archive while allowing you to continue to download items. We do hope you'll contribute though.
+ 
+Second, if you wish to disable RECAP completely, you can do so via Chrome or Firefox's extension settings.
+
+#### What browsers are supported? Why?
+We currently support Firefox and Chrome, with an experimental version for Opera. We would love to also add support for Safari and IE Edge, but we need a maintainer that is willing to help with these platforms when new versions are released. If that might be you, [send us a message][c]!
+
+#### I uploaded a document, but it didn't seem to work &mdash; there's no "R" icon. Why?
+There are a handful of reasons why we can't always work with a PDF that somebody has uploaded.
+
+The main reason that we might not show an "R" icon after receiving a document happens when we receive the document *before* we receive the docket. When this happens, we have a document, but we don't know what case to add it to since we've never seen its docket (or the right part of its docket). This is a bit of a dead end for us because we can't add a PDF to a docket we don't have. In this case, what we do is keep the document, and if we ever get the docket, we immediately add the document to it. So, if you think you might have this problem &mdash; you uploaded a document and it's not showing up properly &mdash; sometimes the solution is to try uploading the docket for that case.
+
+The second reason this can happen is because of a longstanding bug in criminal cases. In PACER, criminal cases can have multiple docket numbers, and this can cause problems for RECAP. If this happens, until we fix this issue, the best thing to do is to try to find the case in [the RECAP Archive][archive], and try to see if you can find the uploaded document that way.
+
+#### How do I report a bug or make a feature suggestion?
+You can report bugs [on our bug tracker][bugs] or by [sending us an email][c] — whatever is comfortable for you.
+
+
+<hr/>
+
+## RECAP and PACER
+
+#### Is RECAP affiliated with PACER?
+RECAP is an independent joint project of the [Center for Information Technology Policy][citp] at Princeton University and Free Law Project. The project is not affiliated with or endorsed by the PACER system or the United States
+judiciary. 
+
+#### How do I know that the documents provided by RECAP are genuine?
+Unfortunately, you don't. We rely on RECAP users to donate documents to the repository. If the courts used a technology called [digital signatures][sigs], we would be able to independently verify the authenticity of documents submitted to us by users. But so far the courts have not done this, so we have no foolproof way to detect forgeries.
+
+That said, RECAP has been running since 2009 without any known forgeries.  We believe that all the documents currently in RECAP are genuine, and we do our best to keep it that way. But we can't guarantee that vandalism or technical glitches won't cause problems in the future. So if you need a guarantee that a document is genuine, we recommend you pay for the PACER version. And if you spot a problem with a RECAP document, [please report it to us][c].
+
+<hr/>
+
+## Privacy and Security
+
+#### Is any of my personal information disclosed as a result of using RECAP?
+We always try not to collect your personal information to the greatest extent possible, and we've specifically designed the RECAP extensions not to require registration or logging in. For more details, see the [RECAP Privacy Policy][privacy].
+
+#### Does RECAP upload files if I am an attorney using ECF?
+Sometimes. If you are an attorney of record, you will have your own "ECF" login. When you use this account (rather than a standard PACER account), you have the ability to see more detailed information about your cases and file documents. If you are only logged into ECF, RECAP will not activate and will not upload any documents at all. If you are logged into both ECF and PACER systems, RECAP will upload PACER documents that you access from within the ECF system. 
+
+At no time will RECAP ever upload any information that is not already publicly
+accessible. ([More Information]({filename}/recap-extension-0-8-beta-released.md))
+
+<hr/>
+
+## RECAP and Internet Archive
+
+#### How often does RECAP upload to the Internet Archive?
+Before November, 2017, when we [rolled out a huge revamp of the RECAP extensions and servers][new-recap], the Internet Archive served as the main document storage and database for RECAP, and documents and docket metadata were uploaded to the Internet Archive on an ongoing basis. This system was slow, but worked fairly well for the first eight years of RECAP.
+
+But with the creation of the new RECAP system, we started getting a lot more PACER data from several new sources. With so much new data, using Internet Archive as our primary database would be very challenging &mdash; it's just not designed to be used as a database like we were. As a result, we now upload PACER documents every night and upload PACER metadata once per quarter.
+
+For those who need faster access to the RECAP Archive, we offer CourtListener as a way to get content as a user, and we offer advanced APIs for programmatic access.
+
+
+#### Do you charge for the new RECAP APIs?
+Sometimes, sort of:
+
+ - Individual documents are always freely available via the CourtListener website and the RECAP Extensions from the moment we get them.
+ 
+ - For individuals or researchers who need access to the RECAP APIs, we are happy to have you use them &mdash; that's one of the reasons we're here.
+ 
+ - For organizations, law firms, or other for-profit ventures that need access to thousands of documents in an organized way, and for whom the Internet Archive uploads are insufficient, we will typically set up a licensing contract to support Free Law Project in exchange for your usage of the APIs. We only ask that you contribute what you can according to a sliding scale. Most contribute between $100&ndash;1000 monthly, depending on needs and means.
+
+This is a tough balance that we're attempting to strike between giving everything away for free and asking for support for our continued success. We welcome feedback and ideas to refine and improve this model.
+
+For those that are interested, [our tax returns][tax] are always available for inspection. 
+
+<hr/>
+
+## Public Records
+
+#### What is RECAP doing to guard against inadvertent disclosure of public records containing private information?
+We take this problem very seriously. Under the [rules][rules] of the federal courts, each party to a case is responsible for redacting personally identifiable information from its own documents, and courthouse personnel are responsible for redacting documents produced by the courts. So in theory, there should not be any sensitive personal information in PACER.
+
+However, two situations can lead to private information appearing in RECAP materials: 1) redaction rules are sometimes not followed, leading to inappropriate information becoming available in public PACER documents, and 2) courts may seal documents after they have been added to the RECAP database.
+
+For the first situation, RECAP servers automatically scan submitted documents for certain personal identification information (including Social Security numbers). Any document in which we detect such information is automatically suppressed. In addition, we rely on you to report privacy problems by [emailing us][c].
+
+For the second situation, Free Law Project's general policy is to suppress a document when we become aware that it has been sealed by a court. If you are aware of a sealed document available on RECAP, please [email us][c] with the sealing order.
+
+
+#### Is sharing court documents a violation of copyright law?
+The court-created documents provided by PACER are works of the federal government, and under [copyright law][copyright-law], are automatically placed in the public domain and may be shared without legal restriction. The question is a little bit more complicated for documents filed by third parties, so we asked a prominent legal scholar about it. He told us that such documents may be under copyright, but he thought redistributing copyrighted court documents was legal under copyright's fair use doctrine. However, there is very little case law in this area (some examples are [here][volokh] and [here][ex2]), so it's impossible to be sure. We certainly believe citizens ought to have the freedom to share public court documents, and we hope RECAP users will help to establish that precedent.
+
+#### The PACER "[policies and procedures][ppp]" prohibit "any attempt to collect data from PACER in a manner which avoids billing." Is this what RECAP is designed to do?
+
+Absolutely not. PACER charges users for the documents they download from PACER. RECAP users pay for every document they download from PACER, just like any other user. RECAP simply gives users a second option: to easily share documents directly with one another, as they're permitted to do under copyright law. When a user downloads a RECAP document, the document comes directly from our server; the process imposes no additional load on PACER's web servers.
+
+
+[c]: /contact/
+[faq]: /pacer-facts/
+[citp]: https://citp.princeton.edu/
+[sigs]: https://en.wikipedia.org/wiki/Digital_signature
+[bugs]: https://github.com/freelawproject/recap/issues/new
+[privacy]: /recap/privacy-policy/
+[rules]: http://www.uscourts.gov/RulesAndPolicies/JudiciaryPrivacyPolicy.aspx
+[copyright-law]: http://www.law.cornell.edu/uscode/17/105.html
+[volokh]: http://www.volokh.com/posts/1248389303.shtml
+[ex2]: https://freedom-to-tinker.com/blog/abridy/fair-use-legal-databases-and-access-to-litigation-inputs/
+[ppp]: https://pacer.psc.uscourts.gov/documents/pacer_policy.pdf
+[archive]: https://www.courtlistener.com/recap/
+[new-recap]: {filename}/new-recap.md
+[tax]: /non-profit-documents/ 

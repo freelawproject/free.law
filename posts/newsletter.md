@@ -1,0 +1,33 @@
+---
+title: Free Law Project Newsletter
+type: page
+---
+
+## Sign up for our newsletter
+
+We send newsletters about once a month to keep our friends and partners up to date on our work. 
+
+It's easy to sign up and you can unsubscribe at any time. 
+
+<form action="https://law.us14.list-manage.com/subscribe/post?u=4ea266fe7d0d074abd3f6a2ae&amp;id=ba547fa86b&amp;ANNOU=TRUE" method="post" target="_blank">
+<div className="grid grid-cols-1 max-w-md gap-6">
+<label for="mce-EMAIL" className="block">Email Address 
+    <span className="text-red-500">*</span>
+    <input type="email" value="" name="EMAIL" className="mt-1 block w-full" id="mce-EMAIL"/>
+</label>
+
+<label for="mce-FNAME" className="block">First Name         
+    <input type="text" value="" name="FNAME" className="mt-1 block w-full" id="mce-FNAME"/>
+</label>
+
+<label for="mce-LNAME" className="block">Last Name 
+    <input type="text" value="" name="LNAME" className="mt-1 block w-full" id="mce-LNAME"/>
+</label>
+
+<div style={{"position": "absolute", "left": "-5000px"}} aria-hidden="true">
+    <input type="text" name="b_4ea266fe7d0d074abd3f6a2ae_ba547fa86b" tabindex="-1" value=""/>
+</div>
+<input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" className="text-center whitespace-nowrap border border-transparent rounded-md shadow-sm text-base font-medium text-sm no-underline px-4 py-2 sm:text-md cursor"/>
+
+</div>
+</form>

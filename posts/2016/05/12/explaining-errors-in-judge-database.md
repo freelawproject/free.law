@@ -1,0 +1,71 @@
+---
+title: "More Information about our Judicial Database and Some Responses to Feedback"
+author: Michael Lissner
+date: "2016-05-12"
+tags: ["judge database", "judges", "api", "courtlistener"]
+---
+
+
+[Robert Ambrogi][bob] recently wrote [an article][r] about our new [judicial database][jdb] for his LawSites blog. In his article, he makes a few concrete observations about our judicial database, and I want to use these observations as a launching point to talk some more about what we have made, why it is useful, and what we are working on next.
+
+The two observations Robert makes are:
+
+1. [Our page for Justice Robert Cordy][jrc] is sparse compared to [the same page on Ballotpedia][baller].
+
+1. Scalia's end date was not set for his time on the Supreme Court, and his education data was not quite correct.
+
+These kinds of observations are really important to us, and it shows that we still have work to do building and explaining our work.
+
+
+## On Sparseness
+
+To the first observation about Robert Cordy, our response is that we're building a *database*, not a more free-form wiki. Unlike the incredible work Ballotpedia is doing, which allows almost any kind of information, our work is focused on gathering specific facts about judges and appointing officials. This approach has pros and cons, and Robert is fair to point out that our data about this important judge is fairly sparse. He's right, we *don't* have all of the narrative and other information that Ballotpedia has, at least, not yet.
+
+On the other hand, one of the advantages of building a database like this is that you can easily have pages like that of [Supreme Court Justice and American President Taft][t]. His page shows not only information about him as a president or Supreme Court justice, but also information about the many appointments he made while president. And, if you click [one of his appointees][app], you can see that they, in turn, were appointed by Taft.
+
+In addition, because this is a database of judges, you can download it and you can do queries on our API or search interface to learn more about different judges or appointors. Like:
+
+ - Give me all judges born in Massachusetts in the 1800s that served on the Supreme Court.
+ - Give me all politicians that were both an appointer and a judge, like Taft.
+ - Give me a count of all female state court justices.
+
+These are things that a narrative-style website simply cannot do, but you can do a lot of these things through [our search interface][psearch]. You can do all of it with [the bulk data][bulk].
+
+Of course, a database is always limited to the kinds of information that you set it up to have, and is always limited by the data that it has. We're working to expand both of these areas, adding in the backlog of data that is already out there on sites like Ballotpedia, but at some point we have to put out a first version of our data. This will get better over time, and we're already close to announcing the next big improvement to this data, linking judges to the opinions they wrote.
+
+
+## On Scalia
+
+The second observation Robert makes is good to hear too. He is totally right that we simply did not have Scalia's end date for his position at the Supreme Court. This was a big omission that we should have caught, but as the saying goes, [with more eyeballs, all bugs are shallow][eyes], and thanks to Robert's feedback we corrected this error.[^1]
+
+
+## In the End
+
+Hopefully, this post helps to explain some of the differences between our [judicial database][jdb] and other sources of judicial information, like Wikipedia and Ballotpedia.
+
+The onus is on us to keep our data up to date and to pull in as much data as we can at the highest resolution possible. At the same time, we are in the early days of building a database, with all of its advantages and disadvantages as compared to a more free-form narrative.
+
+Our hope is that as we add more data to the database, and as more people work on it and with it, it will become a core source of data for academic researchers and legal practitioners. Each will see ways that the database could be more complete, and we will slowly fold in those changes.
+
+Thanks so much to Robert for his support and observations. It's great to hear these observations so that we can respond and improve the service.
+
+[^1]: Robert also points out that the education information for Scalia was not quite right. This seems to be related to [the school data we get from the Department of Education][doe]. According to the [Federal Judiciary Center][fjc], Scalia graduated from Harvard Law School with an LL.B. in 1960. CourtListener, on the other hand, [states that Scalia][scalia]:
+
+      > Attended Harvard University and received a Bachelor of Laws (e.g. LL.B) in 1960.
+
+      The difference here is whether it's "Harvard Law School" or "Harvard University." This difference is because in the DOE's list of post secondary schools, Harvard appears as a single university, without Harvard Law School being called out as a separate entity.
+
+
+[fjc]: http://www.fjc.gov/servlet/nGetInfo?jid=2108&cid=999&ctype=na&instate=na
+[bob]: http://www.lawsitesblog.com/about
+[r]: http://www.lawsitesblog.com/2016/05/free-law-project-nationwide-database-judges.html
+[jdb]: /judge_database/
+[baller]: https://ballotpedia.org
+[t]: https://www.courtlistener.com/person/26/william-howard-taft/
+[app]: https://www.courtlistener.com/person/1990/horace-harmon-lurton/
+[eyes]: https://en.wikipedia.org/wiki/Linus%27s_Law
+[doe]: https://inventory.data.gov/dataset/032e19b4-5a90-41dc-83ff-6e4cd234f565/resource/38625c3d-5388-4c16-a30f-d105432553a4
+[scalia]: https://www.courtlistener.com/person/2852/antonin-scalia/
+[jrc]: https://www.courtlistener.com/person/4722/robert-j-cordy/
+[psearch]: https://www.courtlistener.com/?type=p
+[bulk]: https://www.courtlistener.com/api/bulk-info/#judge-data

@@ -1,8 +1,0 @@
-pelican
-markdown
-BeautifulSoup4
-lxml
-feedparser
-typogrify
-s3cmd
-awscli
