@@ -5,7 +5,6 @@ import Layout, {
   ClientPics,
   MainColumn,
   MainFullBleedColumn,
-  siteTitle
 } from '../components/layout'
 import {getSortedPostsData} from '../lib/posts'
 import Button, {PurpleButton} from "../components/button";
@@ -41,7 +40,7 @@ export default function Home({allPostsData}) {
       <Layout allPosts={allPostsData} home={true}>
         <main>
           <Head>
-            <title>{siteTitle}</title>
+            <title>Free Law Project</title>
           </Head>
 
           <HeroImage/>

@@ -1,7 +1,6 @@
 import Head from 'next/head'
 import Navbar from "./navbar"
 import {Colophon, Footer, JudgeRibbon} from "./footers";
-import {H2, H3} from "./headings";
 import {GridImage} from "./widgets";
 import buzzfeed from "../public/images/services-logos/x256/buzzfeed-news.png";
 import harvardSociology
@@ -14,7 +13,6 @@ import predicta from "../public/images/services-logos/x256/predicta.png";
 import imanage from "../public/images/services-logos/x256/imanage.svg";
 import drugPatentWatch
   from "../public/images/services-logos/x256/drugpatentwatch.png";
-import {PurpleButton} from "./button";
 
 export function MainColumn({children}){
   return (

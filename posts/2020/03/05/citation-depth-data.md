@@ -6,17 +6,14 @@ tags: ["announcements", "citations", "courtlistener"]
 excerpt: "We've added many more types of citations to our system."
 ---
 
-<div className="well">
-  <p style="margin: 0;">This is a guest post by Matt Dahl, a Ph.D. student in political science at the University of Notre Dame.</p>
-</div>
+<RightImage imgProps={{
+"src": "/images/citation-counts.png",
+"alt": "Authorities sidebar with citation counts"
+}} height="h-72" width="w-2/5" />
 
-<div className="right-image">
-    <img src="/images/citation-counts.png"
-         alt="Authorities sidebar with citation counts"
-         className="img-responsive border"/>
-</div>
-
-Citation data is a keystone of legal research--both for understanding a particular judicial decision and for discovering similar ones. However, binary information about whether one opinion cites another can only tell us so much.
+Citation data is a keystone of legal research--both for understanding a
+particular judicial decision and for discovering similar ones. However, binary
+information about whether one opinion cites another can only tell us so much.
 
 Therefore, today I'm excited to announce that CourtListener is now calculating and making available a much richer metric of inter-opinion connectedness. Today we are introducing citation *depth* to indicate *how many times* every opinion cites another.
 
