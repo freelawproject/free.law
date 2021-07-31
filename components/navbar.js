@@ -112,27 +112,27 @@ const datasets = [
 const topPosts = [
   {
     name: 'FLP\'s Victory for Access to Public Documents',
-    href: '2020/12/30/victory-for-public-access-to-court-documents/',
+    href: '/2020/12/30/victory-for-public-access-to-court-documents/',
     id: 1,
   },
   {
     name: 'As Bloomberg Imposes Caps, PACER Must Support Academics',
-    href: '2020/04/04/as-bloomberg-law-imposes-caps-on-pacer-access-pacer-must-support-academics/',
+    href: '/2020/04/04/as-bloomberg-law-imposes-caps-on-pacer-access-pacer-must-support-academics/',
     id: 2,
   },
   {
     name: 'FLP Advises Chilean Judicial Modernization Effort',
-    href: '2019/12/05/free-law-project-participates-in-chilean-judicial-modernization-initiative/',
+    href: '/2019/12/05/free-law-project-participates-in-chilean-judicial-modernization-initiative/',
     id: 3,
   },
   {
     name: 'Announcing PACER Docket Alerts',
-    href: '2018/08/21/announcing-pacer-docket-alerts-for-journalists-lawyers-researchers-and-the-public/',
+    href: '/2018/08/21/announcing-pacer-docket-alerts-for-journalists-lawyers-researchers-and-the-public/',
     id: 4,
   },
   {
     name: "Buying PACER Would Cost a Billion Dollars",
-    href: "2016/10/10/the-cost-of-pacer-data-around-one-billion-dollars/",
+    href: "/2016/10/10/the-cost-of-pacer-data-around-one-billion-dollars/",
     id: 5,
   },
 ]
