@@ -1,7 +1,7 @@
 ---
 title: "RECAP Extension 0.8 Beta Released"
 date: "2010-10-06 08:12"
-tags: RECAP
+tags: ["RECAP"]
 ---
 
 We are proud to announce beta version

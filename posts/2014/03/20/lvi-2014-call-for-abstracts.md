@@ -2,7 +2,7 @@
 title: "LVI 2014 Call for Abstracts"
 date: "2014-03-20 06:25"
 author: Brian Carver
-tags: Announcements
+tags: ["Announcements"]
 ---
 
 The Law via the Internet (LVI) 2014 conference will be held this year

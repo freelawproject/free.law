@@ -2,7 +2,7 @@
 title: "New Juriscraper Email List"
 date: "2015-08-27 06:43"
 author: Michael Lissner
-tags: Juriscraper
+tags: ["Juriscraper"]
 ---
 
 <p className="bg-danger alert"><strong>Update</strong>: We've moved our development conversation over to Slack. If you wish to join us there, please get in touch using our contact form.</p>

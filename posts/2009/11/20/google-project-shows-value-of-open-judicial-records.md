@@ -1,7 +1,7 @@
 ---
 title: "Google Project Shows Value of Open Judicial Records"
 date: "2009-11-20 16:44"
-tags: Google Scholar
+tags: ["Google Scholar"]
 status: published
 ---
 

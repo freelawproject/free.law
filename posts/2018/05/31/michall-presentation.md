@@ -2,7 +2,7 @@
 title: "An Overview of Free Law Project"
 author: Michael Lissner
 date: "2018-05-31"
-tags: presentations
+tags: ["Presentations"]
 excerpt: A few weeks ago I had the privilege and the pleasure of speaking at the Michigan Association of Law Librarians (MichALL) annual conference. The talk I gave was an overview of Free Law Project and all of our projects, initiatives, and advocacy. Here are the slides from that presentation.
 ---
 

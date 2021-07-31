@@ -2,7 +2,7 @@
 title: "AI and Law Call for Papers"
 date: "2015-07-23 15:06"
 author: Brian Carver
-tags: Announcements
+tags: ["Announcements"]
 ---
 
 Passing along this call for papers:
