@@ -69,20 +69,20 @@ export function RightInfoBox({children, width}){
 
 export function RightImage({children, imgProps, width, height}){
   const classes = classNames({
-    "float-right py-5 sm:pl-4 relative": true,
+    "float-right pb-5 sm:pl-4 relative": true,
     "w-1/3": !width,
     "h-12": !height,
   }, width, height)
   return (
     <div className={classes}>
-      <Image {...imgProps} layout="fill"/>
+      <CaptionedImage imgProps={imgProps}>{children}</CaptionedImage>
     </div>
   )
 }
 
 export function CaptionedImage({imgProps, href, children}){
   return (
-    <figure>
+    <figure className="m-0">
       {href
         ? (
           <Link href={href}>
