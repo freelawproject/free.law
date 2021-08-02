@@ -9,21 +9,11 @@ import Layout, {
 import {getSortedPostsData} from '../lib/posts'
 import Button, {PurpleButton} from "../components/button";
 import {H2, H3, HeroHeading} from "../components/headings";
-import {GridImage, GridListItem, SearchButtons} from "../components/widgets";
+import {GridListItem, SearchButtons} from "../components/widgets";
 import HeroImage from "../components/heroImage";
 import {JudgeRibbon} from "../components/footers";
 import {DownloadIcon} from "@heroicons/react/outline";
 
-// Images
-import buzzfeed from "../public/images/services-logos/x256/buzzfeed-news.png"
-import harvardSociology from "../public/images/services-logos/x256/harvard-sociology-logo.png"
-import gsu from "../public/images/services-logos/x256/gsu.png"
-import noacri from "../public/images/services-logos/x256/noacri.png"
-import edhec from "../public/images/services-logos/x256/edhec.png"
-import oneLegal from "../public/images/services-logos/x256/one-legal.png"
-import predicta from "../public/images/services-logos/x256/predicta.png"
-import imanage from "../public/images/services-logos/x256/imanage.svg"
-import drugPatentWatch from "../public/images/services-logos/x256/drugpatentwatch.png"
 
 export async function getStaticProps() {
   const allPostsData = await getSortedPostsData()
