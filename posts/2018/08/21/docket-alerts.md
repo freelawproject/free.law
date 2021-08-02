@@ -20,7 +20,7 @@ We believe PACER Docket Alerts will be a valuable resource to journalists, resea
 
 Our goal with docket alerts is to make them as simple as possible to use. Once you have found a case you are interested in, a single click is all it takes to turn on an alert for that docket. From then on, we will send you an email as soon as we detect a new filing in that case. For more details on how to use docket alerts, [please see our help page][help].
 
-[cl]: {filename}/announcing-courtlistener-com.md
+[cl]: /2010/05/01/announcing-courtlistener-com/
 
 
 ## How Docket Alerts Work

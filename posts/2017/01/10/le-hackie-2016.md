@@ -22,16 +22,23 @@ The "hack" that we received this award for was our series of blog posts about PA
 
 And our older pieces:
 
- - [What is the "PACER Problem"?][wrong]
- 
- - [What Should be Done About the PACER Problem?][what]
+- [What is the "PACER Problem"?][wrong]
 
-D.C. Legal Hackers is an amazing group, and we're really proud to get this award from them.
+- [What Should be Done About the PACER Problem?][what]
+
+D.C. Legal Hackers is an amazing group, and we're really proud to get this
+award from them.
 
 [dclh]: http://dclegalhackers.org/
-[how-much]: {filename}/pacer-revenue.md
-[billion]: {filename}/pacer-billion-documents.md
-[car]: {filename}/the-biggest-dockets-in-recap.md
-[page]: {filename}/what-is-a-pacer-page.md
-[wrong]: {filename}/what-is-the-pacer-problem.md
-[what]: {filename}/what-should-be-done-about-the-pacer-problem.md
+
+[how-much]: /2016/11/14/pacer-revenue/
+
+[billion]: /2016/10/10/pacer-billion-documents/
+
+[car]: /2016/11/17/the-biggest-dockets-in-recap/
+
+[page]: /2016/11/03/what-is-a-pacer-page/
+
+[wrong]: /2015/03/20/what-is-the-pacer-problem/
+
+[what]: /2015/03/24/what-should-be-done-about-the-pacer-problem/

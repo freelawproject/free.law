@@ -82,23 +82,35 @@ Beyond building a culture that values security, we identify several concrete act
 
 We make these suggestions and are providing details about this vulnerability while recognizing two things. First, we are outsiders that are not privy to the internal workings of the AO or PACER/ECF. Second, we recognize that working within the government can be difficult and that the AO has challenging constraints that it must overcome when addressing issues like this one or making changes like those listed above.
 
-We hope that this vulnerability and the discussion of it will encourage the AO to change their approach to security. PACER/ECF is a website used by millions of people who deserve to have a safe environment to do their work. The nature and severity of this bug indicates that the AO likely does not have a culture that properly prioritizes security, or that if they do, their current approach to security is not working. To the extent the concrete steps we have listed above can be implemented by the AO, they would help the AO to provide a secure system and to move towards a security-oriented culture. 
+We hope that this vulnerability and the discussion of it will encourage the AO to change their approach to security. PACER/ECF is a website used by millions of people who deserve to have a safe environment to do their work. The nature and severity of this bug indicates that the AO likely does not have a culture that properly prioritizes security, or that if they do, their current approach to security is not working. To the extent the concrete steps we have listed above can be implemented by the AO, they would help the AO to provide a secure system and to move towards a security-oriented culture.
 
 We hope they do.
 
 
-
 [user-stats]: /pacer-facts/#what-do-we-know-about-pacer%C2%A0users
+
 [owasp-csrf]: https://www.owasp.org/index.php/Cross-Site_Request_Forgery_(CSRF)
+
 [owasp]: https://www.owasp.org/
+
 [owasp-top-10]: https://github.com/OWASP/Top10/raw/master/2017/OWASP%20Top%2010%20-%202017%20RC1-English.pdf
+
 [poc]: /pacer-vulnerability-poc/
-[vuln]: {filename}/pacer-is-vulnerable.md
-[revenue]: {filename}/pacer-revenue.md
+
+[vuln]: /2017/02/20/pacer-is-vulnerable/
+
+[revenue]: /2016/11/14/pacer-revenue/
+
 [bb-p]: https://www.defense.gov/News/News-Releases/News-Release-View/Article/802929/defense-secretary-ash-carter-releases-hack-the-pentagon-results
+
 [bb-a]: https://www.army.mil/article/178473/army_secretary_issues_challenge_with_hack_the_army_program
+
 [bb-gsa]: https://18f.gsa.gov/2017/05/11/the-next-steps-towards-bug-bounty-program-for-technology-transformation-service/
-[chron]: {filename}/pacer-fee-history.md
+
+[chron]: /2017/04/13/pacer-fee-history/
+
 [cand]: https://www.ssllabs.com/ssltest/analyze.html?d=ecf.cand.uscourts.gov
+
 [doj]: https://www.justice.gov/criminal-ccips/page/file/983996/download
+
 [timeline]: /pacer-vulnerability-poc/#timeline

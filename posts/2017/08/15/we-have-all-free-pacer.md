@@ -39,12 +39,19 @@ The initiative to scrape, archive, and share these opinions is one of the most i
 
 [ra]: https://www.courtlistener.com/recap/
 [api]: https://www.courtlistener.com/api/
-[announce]: {filename}why-downloading-all-free-pacer.md
+
+[announce]: /2017/03/27/why-downloading-all-free-pacer/
+
 [dol]: https://www.dol.gov/newsroom/releases/oasp/oasp20170112
-[gsu]: {filename}dol-grant.md
+
+[gsu]: /2017/02/15/dol-grant/
+
 [ia]: https://archive.org
+
 [donate]: /donate/
-[free]: {filename}/pacer-fee-history.md#opinions-made-free
+
+[free]: /2017/04/13/pacer-fee-history/#opinions-made-free
+
 [js]: /juriscraper/
 [cs]: /data-consulting/
 

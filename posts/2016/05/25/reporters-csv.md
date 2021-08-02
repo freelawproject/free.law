@@ -24,5 +24,7 @@ More information about the database [can be found on its page here][rdb]. We hav
 
 [rdb]: https://github.com/freelawproject/reporters-db
 [csv]: https://github.com/freelawproject/reporters-db/blob/master/reporters.csv
-[c]: {filename}pages/contact.md
+
+[c]: /contact/
+
 [cl]: https://www.courtlistener.com

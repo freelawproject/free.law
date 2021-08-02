@@ -61,7 +61,8 @@ If you have lingering questions, or if he has contacted you, [please feel free t
 1. "Fuenchem" has absorbed an incredible amount of people's time. 
 
 
-[changes]: {filename}/new-recap.md
+[changes]: /2017/11/13/new-recap/
+
 [ambrogi]: https://www.lawsitesblog.com/2018/02/invective-intrigue-within-free-law-movement-recap-changes.html
 [log]: https://twitter.com/mlissner/status/965450638099230720
 [recap-changes]: https://recapchanges.blogspot.com/2018/07/q-with-mike-lissner.html

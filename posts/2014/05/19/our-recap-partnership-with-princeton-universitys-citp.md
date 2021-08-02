@@ -29,25 +29,23 @@ made clear that the Judicial Conference "may, only to the extent
 necessary, prescribe reasonable fees... for access to information
 available through automatic data processing equipment" when it has been
 demonstrated time and again that PACER revenues grossly exceed the
-"extent necessary," and by the 2011 *increase* in those prices. I've
-been frustrated by the search interface or lack thereof. I've wanted,
-for a very long time, to be able to conduct free full-text searches
-across the entirety of the PACER database. The research questions I
-could ask and answer with such a system. *Sigh*... But most of all, I've
-been frustrated with PACER for a long time because it creates a wall
-between the public and the law.
+"extent necessary," and by the 2011 *increase* in those prices. I've been
+frustrated by the search interface or lack thereof. I've wanted, for a very
+long time, to be able to conduct free full-text searches across the entirety of
+the PACER database. The research questions I could ask and answer with such a
+system. *Sigh*... But most of all, I've been frustrated with PACER for a long
+time because it creates a wall between the public and the law.
 
-So when [CITP announced the launch of RECAP in August
-2009]({filename}/welcome.md) I was overjoyed
-and I became an early adopter. I reported bugs and suggested
-enhancements on RECAP's now-defunct "getsatisfaction" community. I told
-anyone that would listen what a brilliant idea it was to involve
-everyone in the effort to create a free public archive of these public
-court records. I felt empowered by the idea that my own browser could
-become a tool in the effort for greater public access to the law. I got
-something approximating a crush (techno-crush?) on Steve Schultze,
-Harlan Yu, Timothy Lee, and [Ed
-Felten](https://freedom-to-tinker.com/blog/author/felten/), for the
+So
+when [CITP announced the launch of RECAP in August 2009](/2009/08/14/welcome/)
+I was overjoyed and I became an early adopter. I reported bugs and suggested
+enhancements on RECAP's now-defunct "getsatisfaction" community. I told anyone
+that would listen what a brilliant idea it was to involve everyone in the
+effort to create a free public archive of these public court records. I felt
+empowered by the idea that my own browser could become a tool in the effort for
+greater public access to the law. I got something approximating a crush (
+techno-crush?) on Steve Schultze, Harlan Yu, Timothy Lee,
+and [Ed Felten](https://freedom-to-tinker.com/blog/author/felten/), for the
 brilliance behind this creation. (Please go install the browser
 extensions if you haven't already! For
 [Firefox](https://addons.mozilla.org/firefox/downloads/file/201452/recap-0.9.1-fx.xpi);

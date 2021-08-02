@@ -43,27 +43,50 @@ For that much money, you can buy a lot of other things. Like a new 2016 Honda Ci
 </div>
 <div className="clearfix"></div>
 
-At this point, we have said it many times in many ways, but it bears repeating again: This is not what a public access system looks like. PACER was intended by Congress to be a public access system and its very name is an acronym for **P**ublic **A**ccess to **C**ourt **E**lectronic **R**ecords. And yet somehow, here we are. Somehow, downloading just one of the most important cases in America, like *[Lehman Brothers][4326736]* or *[Deepwater Horizon][4510515]*, costs tens of thousands of dollars.
- 
-This is not what a public access system looks like. Again we ask that public citizens, Congress, journalists, and the courts [work to develop a solution][what-to-do] so that the [PACER problem][problem] can finally be addressed.
+At this point, we have said it many times in many ways, but it bears repeating
+again: This is not what a public access system looks like. PACER was intended
+by Congress to be a public access system and its very name is an acronym for **
+P**ublic **A**ccess to **C**ourt **E**lectronic **R**ecords. And yet somehow,
+here we are. Somehow, downloading just one of the most important cases in
+America, like *[Lehman Brothers][4326736]* or *[Deepwater Horizon][4510515]*,
+costs tens of thousands of dollars.
 
+This is not what a public access system looks like. Again we ask that public
+citizens, Congress, journalists, and the
+courts [work to develop a solution][what-to-do] so that
+the [PACER problem][problem] can finally be addressed.
 
-[^1]: They may have more, but because of the way that RECAP works, we only get content when one of our users downloads it. As a result, it is quite likely that there are even more documents in these cases that we do not yet have.
+[^1]: They may have more, but because of the way that RECAP works, we only get
+content when one of our users downloads it. As a result, it is quite likely
+that there are even more documents in these cases that we do not yet have.
 
-[^2]: This number is based on the length of documents that we have in RECAP and takes the $3/document cap into account.
+[^2]: This number is based on the length of documents that we have in RECAP and
+takes the $3/document cap into account.
 
-[what-to-do]: {filename}/what-should-be-done-about-the-pacer-problem.md
-[revenue]: {filename}/pacer-revenue.md
-[problem]: {filename}/what-is-the-pacer-problem.md
+[what-to-do]: /2015/03/24/what-should-be-done-about-the-pacer-problem/
+
+[revenue]: /2016/11/14/pacer-revenue/
+
+[problem]: /2015/03/20/what-is-the-pacer-problem/
+
 [4326736]: https://www.courtlistener.com/docket/4326736/lehman-brothers-holdings-inc/
+
 [4270961]: https://www.courtlistener.com/docket/4270961/in-re-vioxx-products-liability-litigation/
+
 [4269671]: https://www.courtlistener.com/docket/4269671/in-re-oil-spill-by-the-oil-rig-deepwater-horizon-short-form-joinders/
+
 [4522166]: https://www.courtlistener.com/docket/4522166/worldcom-inc/
+
 [4250538]: https://www.courtlistener.com/docket/4250538/ual-corporation/
+
 [1745095]: https://www.courtlistener.com/docket/1745095/federal-mogul-global-inc-tn-limited/
+
 [4250534]: https://www.courtlistener.com/docket/4250534/kmart-corporation/
+
 [4510502]: https://www.courtlistener.com/docket/4510502/in-re-chinese-manufactured-drywall-products-liability-litigation/
+
 [4216094]: https://www.courtlistener.com/docket/4216094/fleming-companies-inc/
+
 [4517584]: https://www.courtlistener.com/docket/4517584/v/
 [4269221]: https://www.courtlistener.com/docket/4269221/in-re-fema-trailer-formaldehyde-products-liability-litigation/
 [4499201]: https://www.courtlistener.com/docket/4499201/tribune-company/

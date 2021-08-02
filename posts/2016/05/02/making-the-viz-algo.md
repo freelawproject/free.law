@@ -215,12 +215,17 @@ We hope this post has been informative and that you'll [check out the tool][home
 
 
 [home]: https://www.courtlistener.com/visualizations/scotus-mapper/
-[stats]: {filename}/citation-stats.md
+
+[stats]: /2016/02/17/citation-stats/
+
 [2ht]: http://martinfowler.com/bliki/TwoHardThings.html
 [gdb]: https://en.wikipedia.org/wiki/Graph_database
 [bvd]: https://en.wikipedia.org/wiki/Graph_traversal#Graph_traversal_algorithms
+
 [g]: https://www.courtlistener.com/visualizations/gallery/
-[viz]: {filename}/viz.md
+
+[viz]: /2016/02/22/viz/
+
 [ubalt]: http://law.ubalt.edu/
 [cali]: http://2016.calicon.org/node/1/sessions/mapping-supreme-court-doctrine
 [2016]: http://2016.calicon.org/

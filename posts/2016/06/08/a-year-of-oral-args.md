@@ -32,7 +32,8 @@ If you're interested in any of these projects, get in touch. We'd love to have y
 As always, if you enjoy our oral arguments, please [make a donation][d] to support our work.
 
 
-[1]: {filename}/oral-arguments-on-courtlistener.md
+[1]: /2014/10/31/oral-arguments-on-courtlistener/
+
 [pd]: https://www.courtlistener.com/podcasts/
 [cl]: https://www.courtlistener.com/
 [ca11]: /pdf/letter-to-ca11-re-oral-arguments.pdf

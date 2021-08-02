@@ -26,5 +26,7 @@ For those interested in learning more, our complete database of judges can be fo
 [bulk]: https://www.courtlistener.com/api/bulk-data/
 [db]: https://www.courtlistener.com/person/
 [api]: https://www.courtlistener.com/api/rest-info/
-[pics-post]: {filename}/more-judge-images.md
+
+[pics-post]: /2020/01/16/more-judge-images/
+
 [db-product]: /judge_database/

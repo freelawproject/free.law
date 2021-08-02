@@ -10,10 +10,8 @@ status: published
 
 This is the third in a series of posts about PACER:
 
-1.  [What is the "PACER
-    Problem"]({filename}/what-is-the-pacer-problem.md)
-2.  [Why Should Congress Care About
-    PACER?]({filename}/why-should-congress-care-about-pacer.md)
+1. [What is the "PACER Problem"](/2015/03/20/what-is-the-pacer-problem/)
+2. [Why Should Congress Care About PACER?](/2015/03/23/why-should-congress-care-about-pacer/)
 3.  What Should be Done About the PACER Problem?
 
 Let's outline what you should do, what Congress should do, and what the
@@ -31,13 +29,11 @@ courts should do:
 
 ## What you should do about the PACER Problem
 
-As we mentioned in our [first
-post]({filename}/what-is-the-pacer-problem.md),
-Carl Malamud of [Public.Resource.Org](https://public.resource.org) has
-written a [memorandum](https://yo.yourhonor.org/) detailing a
-three-pronged approach that average individuals can take to address the
-PACER Problem: Litigation, Supplication, and Agitation. Let's consider
-each.
+As we mentioned in our [first post](/2015/03/20/what-is-the-pacer-problem/),
+Carl Malamud of [Public.Resource.Org](https://public.resource.org) has written
+a [memorandum](https://yo.yourhonor.org/) detailing a three-pronged approach
+that average individuals can take to address the PACER Problem: Litigation,
+Supplication, and Agitation. Let's consider each.
 
 ### Litigation
 It's probably not fruitful if everyone runs out and sues the courts
@@ -49,17 +45,17 @@ free to [get in touch with us](/contact/) and
 we can direct you to the folks having these conversations.
 
 ### Supplication
-Carl's memorandum also explains that Public.Resource.Org is asking for
-a fee exemption from the courts, focused on receiving all of the
-documents from one district court and one appellate-level Circuit court.
-The courts have the ability to grant such a waiver, and as [discussed in
-our second
-post]({filename}/why-should-congress-care-about-pacer.md),
-Congress wants the courts to move towards making these documents free.
-This request is already in the works, so while individuals could be
-supportive of this request, or pursue their own fee exemptions where
-they believe they have grounds to receive one, most people will find
-something in the next category more useful to pursue.
+
+Carl's memorandum also explains that Public.Resource.Org is asking for a fee
+exemption from the courts, focused on receiving all of the documents from one
+district court and one appellate-level Circuit court. The courts have the
+ability to grant such a waiver, and
+as [discussed in our second post](/2015/03/23/why-should-congress-care-about-pacer/)
+, Congress wants the courts to move towards making these documents free. This
+request is already in the works, so while individuals could be supportive of
+this request, or pursue their own fee exemptions where they believe they have
+grounds to receive one, most people will find something in the next category
+more useful to pursue.
 
 ### Agitation
 There are several polite ways you could raise the profile of this
@@ -100,7 +96,18 @@ local federal court.
 
 #### Write to your members of Congress.
 
-Is one of your Senators on the [Senate Judiciary Committee](http://www.judiciary.senate.gov/about/members)? Is your representative on the [House Judiciary Committee](http://judiciary.house.gov/index.cfm/committee-members)? or is one of your Senators on the [Homeland Security and Governmental Affairs Committee](http://www.hsgac.senate.gov/about)? This was the Committee that wrote [that report]({filename}/why-should-congress-care-about-pacer.md) about the E-Government Act of 2002 that said Congress wanted the Judicial Conference to move to "a fee structure in which this information is freely available to the greatest extent possible." Write your members of Congress, whoever they are, and say something like:
+Is one of your Senators on
+the [Senate Judiciary Committee](http://www.judiciary.senate.gov/about/members)
+? Is your representative on
+the [House Judiciary Committee](http://judiciary.house.gov/index.cfm/committee-members)
+? or is one of your Senators on
+the [Homeland Security and Governmental Affairs Committee](http://www.hsgac.senate.gov/about)
+? This was the Committee that
+wrote [that report](/2015/03/23/why-should-congress-care-about-pacer/) about
+the E-Government Act of 2002 that said Congress wanted the Judicial Conference
+to move to "a fee structure in which this information is freely available to
+the greatest extent possible." Write your members of Congress, whoever they
+are, and say something like:
 
 > Hello. I believe that public access to electronic court records is
 > important, but that the current PACER system is not serving the public
@@ -172,26 +179,25 @@ documents with RECAP, focus your activity on May 1st.
 
 
 ### Congress should amend the E-Government Act of 2002 to forbid the Judicial Council from charging PACER fees.
- 
-While this is something of a "nuclear" option, it is actually the best option because almost
-nothing else would solve every aspect of the [PACER Problem we wrote
-about in part one of this
-series]({filename}/what-is-the-pacer-problem.md).
-The elimination of fees obviously resolves the unreasonably high cost of
-public access, but it would also solve the user-interface,
-document-level search, and accountability problems that make up the
-PACER Problem. These problems would be solved as companies competed to
-innovate with the PACER data. Additionally, when multiple third parties
-have their own copies of the public record, there can finally be
-accountability since the Judicial Council would be unable to
-[arbitrarily take thousands of documents
-offline]({filename}/the-importance-of-backups.md).
 
-A fundamental part of such a change in the law should include a
-commitment to provide the courts with the funding they need directly. It
-is not right for the courts to use a PACER surplus to fund unrelated
-needs. This should stop and Congress should open up the books and figure
-out the appropriate level of direct funding.
+While this is something of a "nuclear" option, it is actually the best option
+because almost nothing else would solve every aspect of
+the [PACER Problem we wrote about in part one of this series](/2015/03/20/what-is-the-pacer-problem/)
+. The elimination of fees obviously resolves the unreasonably high cost of
+public access, but it would also solve the user-interface, document-level
+search, and accountability problems that make up the PACER Problem. These
+problems would be solved as companies competed to innovate with the PACER data.
+Additionally, when multiple third parties have their own copies of the public
+record, there can finally be accountability since the Judicial Council would be
+unable to
+[arbitrarily take thousands of documents offline](/2014/08/28/the-importance-of-backups/)
+.
+
+A fundamental part of such a change in the law should include a commitment to
+provide the courts with the funding they need directly. It is not right for the
+courts to use a PACER surplus to fund unrelated needs. This should stop and
+Congress should open up the books and figure out the appropriate level of
+direct funding.
 
 ### Congress should hold hearings on public access to electronic court records. 
 
@@ -233,19 +239,24 @@ such information and simply needs to ask.
 
 ## What the Courts should do about the PACER Problem
 
-### The Courts should eliminate numerous PACER fees immediately in order to eliminate the PACER surplus. 
+### The Courts should eliminate numerous PACER fees immediately in order to eliminate the PACER surplus.
 
-As described in our [second post]({filename}/why-should-congress-care-about-pacer.md), best evidence suggests that PACER fees generate far more revenue than it costs to operate PACER. This has created a surplus whose existence violates the E-Government Act of 2002 and thwarts clear congressional intent that the Judicial Council move towards making these documents free.
+As described in
+our [second post](/2015/03/23/why-should-congress-care-about-pacer/), best
+evidence suggests that PACER fees generate far more revenue than it costs to
+operate PACER. This has created a surplus whose existence violates the
+E-Government Act of 2002 and thwarts clear congressional intent that the
+Judicial Council move towards making these documents free.
 
-These fees could be dropped to eliminate the surplus: searches should be
-free, docket reports should be free, complaints should be free, and not
-just opinions, but all orders should be free. This would leave in place
-charges for motions, briefs, declarations, transcripts, exhibits, and
-numerous other documents found on court dockets. But removing the fees
-for these other types of documents would enable much greater public
-insight into the workings of our federal judicial system. It would be a
-huge step towards allowing the public and the press to "know what it
-doesn't know." Without a docket, one may not even know of a case, and
+These fees could be dropped to eliminate the surplus: searches should be free,
+docket reports should be free, complaints should be free, and not just
+opinions, but all orders should be free. This would leave in place charges for
+motions, briefs, declarations, transcripts, exhibits, and numerous other
+documents found on court dockets. But removing the fees for these other types
+of documents would enable much greater public insight into the workings of our
+federal judicial system. It would be a huge step towards allowing the public
+and the press to "know what it doesn't know." Without a docket, one may not
+even know of a case, and
 without the complaint, one often does not know the case's subject matter
 sufficiently to know whether it is of interest, and if one could search
 without fear of charge, then these items could be found. Finally, as
@@ -259,7 +270,7 @@ without better reporting from the Judiciary or Congressional oversight,
 we lack detailed statistics on PACER usage, making it impossible to know
 for sure what financial impact this would have. Comments from the
 Administrative Office of the Courts during the
-[PACERocalypse]({filename}/the-importance-of-backups.md)
+[PACERocalypse](/2014/08/28/the-importance-of-backups/)
 certainly suggest that documents in these older closed cases are not
 frequently retrieved and so should not significantly reduce revenue.
 

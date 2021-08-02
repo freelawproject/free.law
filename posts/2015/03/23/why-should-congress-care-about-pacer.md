@@ -10,8 +10,7 @@ status: published
 
 This is the second of three short posts on PACER:
 
--   [What is the "PACER
-    Problem"?]({filename}/what-is-the-pacer-problem.md)
+- [What is the "PACER Problem"?](/2015/03/20/what-is-the-pacer-problem/)
 -   Why Should Congress Care About PACER?
 -   [What Should be Done About the PACER
     Problem?](http://freelawproject.org/2015/03/24/what-should-be-done-about-the-pacer-problem/)

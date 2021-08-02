@@ -24,7 +24,8 @@ Clicking on the button at the bottom takes you back to our [database of oral arg
 
 To our knowledge, a linkage like this has never previously existed on any system, and we hope that it will make research and exploration faster and easier for our users. To get started with this addition, you can browse [the judges in CourtListener][j], or explore our [APIs and Bulk Data][api], where files now include this information. 
 
-[jdb]: {filename}/judge_database.md
+[jdb]: /2016/04/19/judge_database/
+
 [oa]: https://www.courtlistener.com/audio/
 [rbg]: https://www.courtlistener.com/person/1213/ruth-bader-ginsburg
 [j]: https://www.courtlistener.com/?type=p

@@ -8,7 +8,7 @@ status: published
 ---
 
 Last week we did a
-[round-up]({filename}/the-blogosphere-weighs-in-on-recap.md)
+[round-up](/2009/08/14/the-blogosphere-weighs-in-on-recap/)
 of leading technology-focused sites that have covered RECAP. Now, it
 seems that news of RECAP is spreading beyond the "tech blogosphere," as
 more mainstream publications have begun writing about our software.

@@ -8,9 +8,15 @@ Slug: what-is-the-pacer-problem
 status: published
 ---
 
-In January of 2015, Carl Malamud of [Public.Resource.Org](https://public.resource.org) posted a [memorandum](https://yo.yourhonor.org/) detailing problems with the federal [PACER](https://www.pacer.gov/) system that is supposed to provide Public Access to Court Electronic Records and outlining a three-pronged approach for addressing these problems this year.
+In January of 2015, Carl Malamud
+of [Public.Resource.Org](https://public.resource.org) posted
+a [memorandum](https://yo.yourhonor.org/) detailing problems with the
+federal [PACER](https://www.pacer.gov/) system that is supposed to provide
+Public Access to Court Electronic Records and outlining a three-pronged
+approach for addressing these problems this year.
 
-More detail is available in the memorandum or in the video we made last fall, "[Using PACER: What Could Possibly Go Wrong?]({filename}/using-pacer-vid.md)"
+More detail is available in the memorandum or in the video we made last
+fall, "[Using PACER: What Could Possibly Go Wrong?](/2014/08/26/using-pacer-vid/)"
 
 However, this is the first of three shorter posts where we will try to address:
 

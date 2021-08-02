@@ -118,4 +118,5 @@ As it stands, PACER thwarts the ability of the press and the public to ensure th
 [budget]: https://www.gpo.gov/fdsys/pkg/BUDGET-2017-APP/pdf/BUDGET-2017-APP-1-4.pdf
 [s3]: https://aws.amazon.com/govcloud-us/pricing/s3/
 [egov]: https://www.congress.gov/bill/107th-congress/house-bill/02458
-[todo]: {filename}/what-should-be-done-about-the-pacer-problem.md
+
+[todo]: /2015/03/24/what-should-be-done-about-the-pacer-problem/

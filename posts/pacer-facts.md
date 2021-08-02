@@ -233,14 +233,19 @@ Included in that information is the "Go Live Date" for each jurisdiction, but so
 [c]: /contact/
 [api-docs]: /pdf/PACER-API-Documentation.pdf
 [api-docs-v3]: /pdf/PCL-legacy-API-v3.pdf
-[billion]: {filename}/pacer-billion-documents.md
+
+[billion]: /2016/10/10/pacer-billion-documents/
+
 [scotus-report]: https://www.supremecourt.gov/publicinfo/year-end/2014year-endreport.pdf
 [court-list]: https://www.pacer.gov/psco/cgi-bin/links.pl
 [json]: https://court-version-scraper.herokuapp.com/courts.json
 [html]: https://court-version-scraper.herokuapp.com/
 [earliest]: https://pcl.uscourts.gov/courts
+
 [earliest-csv]: /xlsx/pacer-start-end-dates.xlsx
-[revenue]: {filename}/pacer-revenue.md
+
+[revenue]: /2016/11/14/pacer-revenue/
+
 [journal-pdf]: /pdf/179-594-1-PB.pdf
 [journal-web]: http://www.iacajournal.org/articles/abstract/10.18352/ijca.179/
 [bank]: https://www.pacer.gov/documents/case_upload_specs_5_1_1.pdf
@@ -249,8 +254,11 @@ Included in that information is the "Go Live Date" for each jurisdiction, but so
 [declaration]: https://www.courtlistener.com/docket/4214664/13/2/national-veterans-legal-services-program-v-united-states/
 [train]: https://dcecf.psc.uscourts.gov/cgi-bin/ShowIndex.pl
 [cit-train]: https://ecf-train.cit.uscourts.gov/cgi-bin/login.pl
+
 [ganb-train]: https://ecf-train.ganb.uscourts.gov/cgi-bin/login.pl
-[wor]: {filename}/why-downloading-all-free-pacer.md
+
+[wor]: /2017/03/27/why-downloading-all-free-pacer/
+
 [wor-charts]: /xlsx/free-opinions-report-totals-by-court.xlsx
 [wor-policy]: /pdf/written-opinions-memo.pdf
 [js]: /juriscraper/

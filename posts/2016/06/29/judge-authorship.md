@@ -26,9 +26,12 @@ Finally, you can now get an RSS feed for any active judge in our system, enablin
 We consider this to be a beta release of this feature -- it's useful in its present form, but we know it will get better as our metadata improves. This isn't *yet* a perfect listing of judges, but it's a useful tool, so we want to expose it as soon as possible.
 
 
-[jdb]: {filename}/judge_database.md
+[jdb]: /2016/04/19/judge_database/
+
 [ss]: https://www.courtlistener.com/person/3045/sonia-sotomayor/#authored-opinions
-[cg]: {filename}/citegeist.md
+
+[cg]: /2013/11/12/citegeist/
+
 [s2d]: https://www.courtlistener.com/?q=author_id%3A3045+OR+panel_ids%3A3045&type=o&stat_Precedential=on&order_by=score+desc&court=ca2
 [sscotus]: https://www.courtlistener.com/?q=author_id%3A3045+OR+panel_ids%3A3045&type=o&stat_Precedential=on&order_by=score+desc&court=scotus
 [contact]: /contact/

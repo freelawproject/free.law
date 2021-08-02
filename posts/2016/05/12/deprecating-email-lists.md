@@ -19,7 +19,10 @@ The second thing we're winding down today is our mailman list server, which powe
 Thank you for all of your efforts and for being a part of our work!
 
 
-[1]: {filename}/help-agitate-to-open-up-pacer.md
+[1]: /2015/01/21/help-agitate-to-open-up-pacer/
+
 [c]: /contact/
+
 [yo]: http://yo.yourhonor.org/
-[js]: {filename}/new-juriscraper-email-list.md
+
+[js]: /2015/08/27/new-juriscraper-email-list/

@@ -37,16 +37,24 @@ As always, we're proud to offer these citations as a [CSV in our bulk data][bulk
 
 
 [cl]: https://www.courtlistener.com/
-[1]: {filename}/brand-new-courtlistener-a-year-in-the-works.md
+
+[1]: /2016/01/30/brand-new-courtlistener-a-year-in-the-works/
+
 [bulk]: https://www.courtlistener.com/api/bulk-info/
+
 [api]: https://www.courtlistener.com/api/rest-info/
-[2]: {filename}/building-a-citator-on-courtlistener.md
+
+[2]: /2012/05/11/building-a-citator-on-courtlistener/
+
 [c]: https://www.courtlistener.com/c/U.S./410/113/
 [cited]: https://www.courtlistener.com/?q=&order_by=citeCount+desc&stat_Precedential=on
 [svw]: https://www.courtlistener.com/opinion/111170/strickland-v-washington/
 [cvc]: https://www.courtlistener.com/opinion/111722/celotex-corporation-v-myrtle-nell-catrett-administratrix-of-the-estate-of/
+
 [avc]: https://www.courtlistener.com/opinion/107423/anders-v-california/
-[citegeist]: {filename}/citegeist.md
+
+[citegeist]: /2013/11/12/citegeist/
+
 [boyd]: https://www.courtlistener.com/opinion/91573/boyd-v-united-states/
 [weeks]: https://www.courtlistener.com/opinion/98094/weeks-v-united-states/
 [mir]: https://www.courtlistener.com/opinion/107252/miranda-v-arizona/

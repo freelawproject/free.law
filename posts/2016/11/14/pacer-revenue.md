@@ -32,5 +32,6 @@ Something needs to be done to rein in PACER, and again we ask that public citize
 
     You can find the spreadsheet for the above chart [here][ss].
 
-[what-to-do]: {filename}/what-should-be-done-about-the-pacer-problem.md
+[what-to-do]: /2015/03/24/what-should-be-done-about-the-pacer-problem/
+
 [ss]: /xlsx/pacer-revenue-over-time.xlsx

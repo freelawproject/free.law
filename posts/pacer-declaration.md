@@ -16,20 +16,25 @@ These links are to relevant articles with additional details about the costs and
  - [How Much Money Does PACER Make?][how-much]
  
  - [The Cost of PACER Data? Around One Billion Dollars.][billion]
- 
+
  - [Downloading Important Cases on PACER Costs More than a Brand New Car][car]
- 
+
  - [What is the "PACER Problem"?][wrong]
- 
+
  - [What Should be Done About the PACER Problem?][what]
 
  - [What is a "Page" of PACER Content?][page]
 
+[chron]: /2017/04/13/pacer-fee-history/
 
-[chron]: {filename}/pacer-fee-history.md
-[how-much]: {filename}/pacer-revenue.md
-[billion]: {filename}/pacer-billion-documents.md
-[car]: {filename}/the-biggest-dockets-in-recap.md
-[page]: {filename}/what-is-a-pacer-page.md
-[wrong]: {filename}/what-is-the-pacer-problem.md
-[what]: {filename}/what-should-be-done-about-the-pacer-problem.md
+[how-much]: /2016/11/14/pacer-revenue/
+
+[billion]: /2016/10/10/pacer-billion-documents/
+
+[car]: /2016/11/17/the-biggest-dockets-in-recap/
+
+[page]: /2016/11/03/what-is-a-pacer-page/
+
+[wrong]: /2015/03/20/what-is-the-pacer-problem/
+
+[what]: /2015/03/24/what-should-be-done-about-the-pacer-problem/

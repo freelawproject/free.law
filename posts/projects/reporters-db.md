@@ -1,10 +1,7 @@
 ---
-title: Eyecite Citation Extractor type: page
+title: Eyecite Citation Extractor
+type: page
 ---
-
-
-
-
 
 
 Juriscraper is a scraper library written in Python that gathers judicial

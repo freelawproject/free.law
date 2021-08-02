@@ -30,5 +30,7 @@ To learn more about this data, or to get involved, please get in touch or see th
 </div>
 
 [e]: https://www.elliottash.com
-[mag]: {filename}/magistrate-and-bankr-judges.md
+
+[mag]: /2020/06/29/magistrate-and-bankr-judges/
+
 [j]: https://www.justia.com

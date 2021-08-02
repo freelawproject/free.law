@@ -41,7 +41,8 @@ To get started with this addition, you can browse [the judges in CourtListener][
 
 [^1]: This is based on 346 State Supreme Court judges that won their election, raised at least $1, and which have gender information encoded in CourtListener. 
 
-[jdb]: {filename}/judge_database.md
+[jdb]: /2016/04/19/judge_database/
+
 [ftm]: https://followthemoney.org
 [g]: https://www.newschallenge.org/challenge/elections/entries/openjudiciary-org-only-an-informed-electorate-can-participate-meaningfully-in-judicial-elections-open-judiciary-s-judge-profiles-combines-campaign-contributions-and-analysis-of-judicial-records-to-inform-voters-and-enable-investigative-reporting
 [j]: https://www.courtlistener.com/?type=p

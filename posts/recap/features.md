@@ -43,13 +43,12 @@ Over time, this can save you considerable fees.
          className="img-responsive"/>
 </div>
 
-You may have noticed that PDFs from
-PACER often have a default filename like "98723421.pdf". Not very
-informative! You might also occasionally get the even more frustrating
-filename "show\_temp.pl" (which might not even open in your PDF viewer).
-RECAP intelligently names your PDFs in a way that includes the PACER
-court id, PACER case id, and docket entry number -- or in ["Bluebook"
-style]({filename}/recap-extension-0-6-beta-released.md).
+You may have noticed that PDFs from PACER often have a default filename like "
+98723421.pdf". Not very informative! You might also occasionally get the even
+more frustrating filename "show\_temp.pl" (which might not even open in your
+PDF viewer). RECAP intelligently names your PDFs in a way that includes the
+PACER court id, PACER case id, and docket entry number -- or in ["Bluebook"
+style](/2010/01/21/recap-extension-0-6-beta-released/).
 
 
 ### PDF Headers

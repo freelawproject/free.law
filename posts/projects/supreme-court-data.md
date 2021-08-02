@@ -12,7 +12,8 @@ For example, one such automated system is [our Citator][c], which automatically 
 
 We do a number of processes like this to build up the data, and as you can see, we're immensely proud of the result. We hope that you'll use and improve it too. The best way to get started is to check out our bulk data or our APIs, where you'll find lots of documentation.
 
-[Let us know][contact] if you have any ideas for improvement or questions we can help with!
+[Let us know][contact] if you have any ideas for improvement or questions we
+can help with!
 
 <div className="text-center">
     <PurpleButton href="https://www.courtlistener.com/api/" size="lg">Check Out the APIs</PurpleButton>
@@ -20,13 +21,23 @@ We do a number of processes like this to build up the data, and as you can see, 
 
 
 [pro]: https://law.resource.org/pub/us/case/reporter/US/
-[scdb]: {filename}/scdb.md
+
+[scdb]: /2014/12/21/scdb/
+
 [scotus]: http://www.supremecourt.gov/
-[loc]: {filename}/updated-scotus-dates.md
-[c]: {filename}/building-a-citator-on-courtlistener.md
+
+[loc]: /2011/05/25/updated-scotus-dates/
+
+[c]: /2012/05/11/building-a-citator-on-courtlistener/
+
 [csv]: https://www.courtlistener.com/api/bulk-info/#citation-data
+
 [cite-api]: https://www.courtlistener.com/api/rest-info/#cites-endpoint
-[citegeist]: {filename}/citegeist.md
+
+[citegeist]: /2013/11/12/citegeist/
+
 [contact]: /contact/
+
 [js]: https://github.com/freelawproject/juriscraper
+
 [rdb]: https://github.com/freelawproject/reporters-db

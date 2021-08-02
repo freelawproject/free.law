@@ -16,7 +16,8 @@ We are happy to share that as of today, oral argument recordings from the Second
 
 Before today, we were unable to provide these features for the Second Circuit because they [didn't post their oral argument recordings on their website][1], so we're thrilled that they've begun doing so. At this point, only the Tenth and Eleventh Circuits do not post their oral argument recordings, but we are hopeful that they will follow the lead of the other circuits and begin doing so soon.
 
-[1]: {filename}/ca2-to-finally-do-oral-args.md
+[1]: /2016/06/21/ca2-to-finally-do-oral-args/
+
 [2]: https://www.courtlistener.com/podcasts/
 [alerts]: https://www.courtlistener.com/faq/#explain-alerts
 [search]: https://www.courtlistener.com/audio/

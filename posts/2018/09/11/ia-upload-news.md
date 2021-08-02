@@ -88,7 +88,9 @@ The steps we are taking today are hard ones that we have been working on for yea
 [letter3]: /pdf/letters/letter-to-ca11-re-oral-arguments-rule-changes.pdf
 [letter4]: /pdf/letters/letter-to-tim-tymkovich-re-oral-argument-recordings-at-ca10.pdf
 [mission]: /mission/
-[promise]: {filename}/new-recap.md
+
+[promise]: /2017/11/13/new-recap/
+
 [recap]: /recap/
 
 [api]: https://www.courtlistener.com/api/

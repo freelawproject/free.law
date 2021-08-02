@@ -1,5 +1,6 @@
 ---
-title: Eyecite Citation Extractor type: page
+title: Eyecite Citation Extractor 
+type: page
 ---
 
-blah
+blah this is a paragraph

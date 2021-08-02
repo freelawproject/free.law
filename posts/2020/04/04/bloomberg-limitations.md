@@ -41,5 +41,7 @@ We expect Bloomberg Law to do whatever it thinks is best for its business, but w
 
 
 [c]: /contact/
-[car]: {filename}/the-biggest-dockets-in-recap.md
+
+[car]: /2016/11/17/the-biggest-dockets-in-recap/
+
 [consulting]: /data-consulting/

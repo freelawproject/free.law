@@ -18,7 +18,8 @@ This new tool was created by Dave Voutila ([Github][gh], [Twitter][tw]) when he 
 
 <a href="https://github.com/freelawproject/freelawmachine" className="btn btn-primary btn-lg">Get Started Now!</a>
 
-[flvm]: {filename}/free-law-virtual-machine.md
+[flvm]: /2013/10/15/free-law-virtual-machine/
+
 [v]: https://www.vagrantup.com/
 [rm]: https://github.com/freelawproject/freelawmachine
 [gh]: https://github.com/voutilad

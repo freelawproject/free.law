@@ -146,16 +146,23 @@ Going forward, we believe that the AO should consider a few changes:
 
 We hope the AO will consider these changes, and that in the future their pricing will be more transparent.
 
-
-[^1]: Among [other failings][wrong], PACER doesn't provide permalinks, so for the moment, I can't provide a link to this information. What I can do is tell you to go to [the PACER website for the Court of Federal Claims][2]. From there you can look up case number: `1:15-cv-01575-TCW`. 
+[^1]: Among [other failings][wrong], PACER doesn't provide permalinks, so for
+the moment, I can't provide a link to this information. What I can do is tell
+you to go to [the PACER website for the Court of Federal Claims][2]. From there
+you can look up case number: `1:15-cv-01575-TCW`.
 
     Beware: There will be opaque fees.
 
+[b]: https://www.supremecourt.gov/publicinfo/year-end/2014year-endreport.pdf
 
-[b]: https://www.supremecourt.gov/publicinfo/year-end/2014year-endreport.pdf 
 [2]: https://ecf.cofc.uscourts.gov/cgi-bin/ShowIndex.pl
+
 [numbers]: http://business.camden.rutgers.edu/files/Schindler-Yalch-2006.pdf
+
 [avg]: http://filecatalyst.com/todays-media-file-sizes-whats-average/
-[wrong]: {filename}/what-is-the-pacer-problem.md
-[billion]: {filename}/pacer-billion-documents.md
+
+[wrong]: /2015/03/20/what-is-the-pacer-problem/
+
+[billion]: /2016/10/10/pacer-billion-documents/
+
 [goog]: https://www.google.com/search?q=%22original+extraction+file%22&ie=utf-8&oe=utf-8

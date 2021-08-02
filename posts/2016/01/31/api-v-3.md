@@ -56,9 +56,13 @@ If you have questions or ideas about any version of the API or if you need help 
 
 [api]: https://www.courtlistener.com/api/rest/v3/
 [u]: https://github.com/freelawproject/courtlistener/issues/331
-[cs]: {filename}/citation-searching.md
+
+[cs]: /2016/01/30/citation-searching/
+
 [docs]: https://www.courtlistener.com/api/rest-info/
-[ann]: {filename}/brand-new-courtlistener-a-year-in-the-works.md
+
+[ann]: /2016/01/30/brand-new-courtlistener-a-year-in-the-works/
+
 [contact]: /contact/
 [pie]: https://django-tastypie.readthedocs.org/en/latest/
 [drf]: http://www.django-rest-framework.org/

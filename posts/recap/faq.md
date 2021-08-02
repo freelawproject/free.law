@@ -97,10 +97,16 @@ That said, RECAP has been running since 2009 without any known forgeries.  We be
 We always try not to collect your personal information to the greatest extent possible, and we've specifically designed the RECAP extensions not to require registration or logging in. For more details, see the [RECAP Privacy Policy][privacy].
 
 #### Does RECAP upload files if I am an attorney using ECF?
-Sometimes. If you are an attorney of record, you will have your own "ECF" login. When you use this account (rather than a standard PACER account), you have the ability to see more detailed information about your cases and file documents. If you are only logged into ECF, RECAP will not activate and will not upload any documents at all. If you are logged into both ECF and PACER systems, RECAP will upload PACER documents that you access from within the ECF system. 
+Sometimes. If you are an attorney of record, you will have your own "ECF"
+login. When you use this account (rather than a standard PACER account), you
+have the ability to see more detailed information about your cases and file
+documents. If you are only logged into ECF, RECAP will not activate and will
+not upload any documents at all. If you are logged into both ECF and PACER
+systems, RECAP will upload PACER documents that you access from within the ECF
+system.
 
 At no time will RECAP ever upload any information that is not already publicly
-accessible. ([More Information]({filename}/recap-extension-0-8-beta-released.md))
+accessible. ([More Information](/2010/10/06/recap-extension-0-8-beta-released/))
 
 <hr/>
 
@@ -160,6 +166,9 @@ Absolutely not. PACER charges users for the documents they download from PACER. 
 [volokh]: http://www.volokh.com/posts/1248389303.shtml
 [ex2]: https://freedom-to-tinker.com/blog/abridy/fair-use-legal-databases-and-access-to-litigation-inputs/
 [ppp]: https://pacer.psc.uscourts.gov/documents/pacer_policy.pdf
+
 [archive]: https://www.courtlistener.com/recap/
-[new-recap]: {filename}/new-recap.md
+
+[new-recap]: /2017/11/13/new-recap/
+
 [tax]: /non-profit-documents/ 

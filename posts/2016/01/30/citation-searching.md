@@ -37,17 +37,32 @@ Another use of Citation Searching is to tie it in with our alert system. If you'
 
 ![Alert Sidebar](/images/alert-sidebar.png)
 
-Now that you have a query that you like (all cases citing *Roe v. Wade* in the Ninth Circuit containing the phrase "Planned Parenthood"), you can create an alert so that whenever a new case fits these criteria you get an email sent to you at the end of the day, week, or even in [real time][rt], if you're a Free Law Project supporter.
+Now that you have a query that you like (all cases citing *Roe v. Wade* in the
+Ninth Circuit containing the phrase "Planned Parenthood"), you can create an
+alert so that whenever a new case fits these criteria you get an email sent to
+you at the end of the day, week, or even in [real time][rt], if you're a Free
+Law Project supporter.
 
-As always, you can also set up an [RSS feed][feeds] for any query, if you're familiar with that technology, and these queries are also available on our API.
+As always, you can also set up an [RSS feed][feeds] for any query, if you're
+familiar with that technology, and these queries are also available on our API.
 
-Citation searching is a feature that we've wanted to deploy for a long time, ever since we realized it was possible. We're sure it's going to become a valuable part of your research process, and we hope that if you like it, you'll [consider making a donation to support our work][donate]. As always, if you have any ideas for making it better please let us know!
+Citation searching is a feature that we've wanted to deploy for a long time,
+ever since we realized it was possible. We're sure it's going to become a
+valuable part of your research process, and we hope that if you like it,
+you'll [consider making a donation to support our work][donate]. As always, if
+you have any ideas for making it better please let us know!
 
 
-[1]: {filename}/brand-new-courtlistener-a-year-in-the-works.md
+[1]: /2016/01/30/brand-new-courtlistener-a-year-in-the-works/
+
 [roe]: https://www.courtlistener.com/opinion/108713/roe-v-wade/
-[picker]: {filename}/our-new-jurisdiction-picker.md
-[rt]: {filename}/courtlistener-will-now-send-alerts-in-real-time.md
+
+[picker]: /2013/10/31/our-new-jurisdiction-picker/
+
+[rt]: /2015/01/05/courtlistener-will-now-send-alerts-in-real-time/
+
 [feeds]: https://www.courtlistener.com/feeds/
+
 [donate]: /donate/
+
 [pp]: https://courtlistener.com/opinion/112786/planned-parenthood-of-southeastern-pa-v-casey/

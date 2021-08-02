@@ -20,9 +20,14 @@ Last week was a busy one for Free Law Project. While I was at the [LTDCA confere
 While my talk wasn't recorded, Colin's was, and you can [watch it now][video]. He's also got [a great post on his blog][colin-blog] that has lots more information about the talk and his process. Both are a great way to get started with our [Supreme Court visualizations][viz]. Enjoy!
 
 [1]: http://law-and-big-data.org/LTDCA2016.html
-[jdb]: {filename}/judge_database.md
+
+[jdb]: /2016/04/19/judge_database/
+
 [starger]: http://law.ubalt.edu/faculty/profiles/starger.cfm
+
 [cali]: http://2016.calicon.org/
-[viz]: {filename}/viz.md
+
+[viz]: /2016/02/22/viz/
+
 [video]: https://gsu.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=e7c2d415-2b4e-4cb3-b46f-a3a814731e48
 [colin-blog]: http://blogs.ubalt.edu/cstarger/2016/06/20/cali-coding-and-a-network-viewing-experiment/

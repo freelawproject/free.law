@@ -46,22 +46,20 @@ Seventh, Eleventh, or Federal Circuit, is nominated for higher office?
 Unless PACER officials make some accommodation, such as the one [we
 asked for
 yesterday](/2014/08/27/free-law-project-joins-request-for-access-to-offline-pacer-documents/),
-researchers and the public will face the daunting task of requesting
-these materials individually, possibly in person, at excessive expense
-and inconvenience for everyone involved.
+researchers and the public will face the daunting task of requesting these
+materials individually, possibly in person, at excessive expense and
+inconvenience for everyone involved.
 
-And as I told [Common
-Dreams](http://commondreams.org/news/2014/08/28/decade-court-cases-quietly-wiped-online-database),
-the Administrative Office of the Courts (AO) cannot argue that some
-of these cases have been closed for "13 years." Some were closed this
-year! They also cannot argue that "many had not been accessed in several
-years" because as we demonstrated in [a recent
-video]({filename}/using-pacer-vid.md),
-it can be very difficult and expensive to use PACER. Thus, PACER usage
-statistics should tell us nothing about the importance of these files.
-And often, as was the situation with Judge Sotomayor's historical
-record, some cases only become particularly interesting years later and
-for reasons possibly unrelated to the case itself.
+And as I
+told [Common Dreams](http://commondreams.org/news/2014/08/28/decade-court-cases-quietly-wiped-online-database)
+, the Administrative Office of the Courts (AO) cannot argue that some of these
+cases have been closed for "13 years." Some were closed this year! They also
+cannot argue that "many had not been accessed in several years" because as we
+demonstrated in [a recent video](/2014/08/26/using-pacer-vid/), it can be very
+difficult and expensive to use PACER. Thus, PACER usage statistics should tell
+us nothing about the importance of these files. And often, as was the situation
+with Judge Sotomayor's historical record, some cases only become particularly
+interesting years later and for reasons possibly unrelated to the case itself.
 
 Put another way, libraries should hang on to their copy of Plato's
 *Crito*, even if its been a few years since anyone checked it out.

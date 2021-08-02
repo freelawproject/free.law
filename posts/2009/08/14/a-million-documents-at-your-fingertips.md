@@ -6,15 +6,14 @@ status: published
 ---
 
 In our last post, we
-[mentioned]({filename}/welcome.md) that we
-were already working with other organizations that support judicial
-transparency to help us build the public repository that lies at RECAP's
-foundation. Public.resource.org, led by Carl Malamud, has been
-especially helpful in this regard. They have a [vast
-repository](http://bulk.resource.org/courts.gov/pacer/) of court
-documents, weighing in at more than 500 gigabytes in total. Over the
-last few weeks we've been pre-stocking the archive with these documents,
-and we recently crossed the million document threshold.
+[mentioned](/2009/08/14/welcome/) that we were already working with other
+organizations that support judicial transparency to help us build the public
+repository that lies at RECAP's foundation. Public.resource.org, led by Carl
+Malamud, has been especially helpful in this regard. They have
+a [vast repository](http://bulk.resource.org/courts.gov/pacer/) of court
+documents, weighing in at more than 500 gigabytes in total. Over the last few
+weeks we've been pre-stocking the archive with these documents, and we recently
+crossed the million document threshold.
 
 What this means is that installing RECAP will not only help you
 contribute to government transparency, but it's likely to start saving
