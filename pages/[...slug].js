@@ -1,7 +1,7 @@
 import Head from 'next/head'
 
 import Date from '../components/date'
-import Layout, {ClientPics, PostColumn} from '../components/layout'
+import Layout, {ClientPics, PicGrid, PostColumn} from '../components/layout'
 import {MDXRemote} from 'next-mdx-remote'
 import {getAllPostIds, getPostData, getSortedPostsData} from '../lib/posts'
 import Link from "next/link"
@@ -9,7 +9,7 @@ import Image from "next/image"
 import {H1} from "../components/headings";
 import {
   AlertBox,
-  CaptionedImage,
+  CaptionedImage, GridImage,
   RightImage,
   RightInfoBox,
   Tag
@@ -51,6 +51,8 @@ const components = {
   AlertBox,
   CaptionedImage,
   ClientPics,
+  GridImage,
+  PicGrid,
   RightImage,
   RightInfoBox,
 

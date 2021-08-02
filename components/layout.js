@@ -13,6 +13,7 @@ import predicta from "../public/images/services-logos/x256/predicta.png";
 import imanage from "../public/images/services-logos/x256/imanage.svg";
 import drugPatentWatch
   from "../public/images/services-logos/x256/drugpatentwatch.png";
+import classNames from "classnames";
 
 export function MainColumn({children}){
   return (
@@ -63,12 +64,22 @@ export default function Layout({children, home, allPosts}) {
 }
 
 
-export function ClientPics({wide}){
+export function PicGrid({wide, tall, children}){
   return (
     <div
-      className={`grid ${wide ? 
-        `grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-6 sm:gap-8 md:gap-12 lg:gap-16`
-      : `grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 md:gap-6 lg:gap-8`} w-full py-10 items-center`}>
+      className={classNames(
+        "grid grid-cols-2 sm:grid-cols-3",
+        wide ? "md:grid-cols-4 gap-6 sm:gap-8 md:gap-12 lg:gap-16"
+          : "md:grid-cols-3 lg:grid-cols-4 gap-4 md:gap-6  lg:gap-8",
+        tall ? "py-10" : "",
+        "w-full items-center"
+      )}>{children}</div>
+  )
+}
+
+export function ClientPics({wide}){
+  return (
+    <PicGrid wide={wide}>
       <GridImage imgProps={{
         "src": buzzfeed,
         "alt": "BuzzFeed news logo",
@@ -131,6 +142,6 @@ export function ClientPics({wide}){
         "height": "28",
         "placeholder": "blur",
       }}/>
-    </div>
+    </PicGrid>
   )
 }
