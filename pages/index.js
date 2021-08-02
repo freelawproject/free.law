@@ -39,8 +39,8 @@ export default function Home({allPostsData}) {
             <section className="flex flex-wrap items-center pt-8 pb-20"
                      id="recap">
               <div className="w-2/3 sm:w-1/2">
-                <H2>RECAP is our tool to make federal court documents
-                  more&nbsp;accessible.</H2>
+                <H2><Link href="/recap/"><a className="underline">RECAP</a></Link> is our tool to put federal court documents
+                  in your&nbsp;hands.</H2>
               </div>
               <div className="hidden sm:block justify-end sm:w-1/2 pl-8 pt-5">
                 <Image src="/images/homepage/recap.png"
@@ -56,8 +56,7 @@ export default function Home({allPostsData}) {
                        layout="fill"/>
               </div>
               <div className="w-full pt-3 pb-6 text-gray-700">
-                <H3>RECAP is an online archive and browser extension that
-                  improves PACER, the electronic public access system for
+                <H3>Using a searchable archive of documents and browser extensions for Firefox or Chrome, RECAP improves PACER, the electronic public access system for
                   federal court&nbsp;documents.</H3>
               </div>
               <div
@@ -97,7 +96,7 @@ export default function Home({allPostsData}) {
                                bgClasses="bg-gradient-to-b from-gray-200 to-white">
             <div className="flex flex-wrap py-16">
               <div className="w-2/3 lg:w-1/2 pb-4">
-                <H2>CourtListener is our archive of legal opinions, filings,
+                <H2><Link href="https://www.courtlistener.com/"><a className={"underline"}>CourtListener</a></Link> is our archive of legal opinions, filings,
                   and&nbsp;judges.</H2>
                 <div className="hidden md:block">
                   <SearchButtons/>
@@ -123,7 +122,7 @@ export default function Home({allPostsData}) {
                 className="grid grid-cols-1 sm:grid-cols-3 w-full gap-6 sm:gap-8 pt-6"
                 id="cl-factoids">
                 <GridListItem heading="Opinions Database" bg="bg-transparent">
-                  <p>CourtListener.com houses an immense collection of
+                  <p>CourtListener.com houses an <Link href="https://www.courtlistener.com/opinion/"><a className="underline">immense collection</a></Link> of
                     searchable orders and opinions.</p>
                   <p>We gather more opinions from state and federal courts
                     every day, and hope to soon host the first open and
@@ -131,7 +130,7 @@ export default function Home({allPostsData}) {
                 </GridListItem>
                 <GridListItem heading="PACER Filings and Dockets"
                               bg="bg-transparent">
-                  <p>We have the largest free collection of federal court
+                  <p>CourtListener has <Link href="https://www.courtlistener.com/recap/"><a className="underline">the largest free collection</a></Link> of federal court
                     documents and dockets on the Internet and our collection
                     grows every day.</p>
                   <p>Everything we have is fully searchable and accessible on
@@ -160,8 +159,8 @@ export default function Home({allPostsData}) {
                 <GridListItem heading="APIs and Bulk Data" bg="bg-transparent">
                   <p>We provide numerous journalists, researchers, startups,
                     and individuals with automated access to nearly all of our
-                    data via APIs, bulk data files, and
-                    database&nbsp;replication.</p>
+                    data <Link href="https://www.courtlistener.com/api/"><a className="underline">via APIs, bulk data files, and
+                      database&nbsp;replication</a></Link>.</p>
                   <p>This gives innovators, researchers, and the public a jump
                     start on their work.</p>
                 </GridListItem>
@@ -222,11 +221,11 @@ export default function Home({allPostsData}) {
                 <GridListItem border={true}
                               heading="APIs and Replication"
                               imgProps={{
-                                "src": "/images/icons/advocacy.svg",
+                                "src": "/images/icons/replication.svg",
                                 "alt": "Replication logo",
 
                               }}
-                              href="https://www.courtlistener.com/api/replication/">
+                              href="https://www.courtlistener.com/api/">
                   <p>We provide APIs for opinions, filings, judges, financial
                     disclosures, and more. For power users we share our whole
                     database updated in&nbsp;realtime.</p>
@@ -237,7 +236,7 @@ export default function Home({allPostsData}) {
                                 "src": "/images/icons/juriscraper.svg",
                                 "alt": "Juriscraper logo",
                               }}
-                              href="/juriscraper/">
+                              href="/projects/juriscraper/">
                   <p>Juriscraper is a scraping library written in Python that
                     gathers data from hundreds of courts each&nbsp;day.</p>
                 </GridListItem>
@@ -247,7 +246,7 @@ export default function Home({allPostsData}) {
                                 "src": "/images/icons/eyecite.svg",
                                 "alt": "Eyecite logo",
                               }}
-                              href="/eyecite/">
+                              href="/projects/eyecite/">
                   <p>Eyecite uses our database of thousands of reporters to
                     find even the most esoteric legal citations in any block
                     of&nbsp;text.</p>
@@ -277,7 +276,7 @@ export default function Home({allPostsData}) {
                                 "src": "/images/icons/reporters-db.svg",
                                 "alt": "Reporter database logo",
                               }}
-                              href="/reporters-db/">
+                              href="/projects/reporters-db/">
                   <p>Our database of reporters has information about more than
                     700 reporters, with more than 1,400 name variations. Build
                     citators, normalize citations, and&nbsp;more.</p>
@@ -288,7 +287,7 @@ export default function Home({allPostsData}) {
                                 "src": "/images/icons/courts-db.svg",
                                 "alt": "Courts database logo",
                               }}
-                              href="/courts-db/">
+                              href="/projects/courts-db/">
                   <p>Tested on a dataset of 16 million opinions, this tool will
                     help you identify any court by name, past
                     or&nbsp;present.</p>
@@ -299,7 +298,7 @@ export default function Home({allPostsData}) {
                                 "src": "/images/icons/judge-db.svg",
                                 "alt": "Judge database logo",
                               }}
-                              href="/judge-db/">
+                              href="/projects/judge-db/">
                   <p>Financial disclosures, appointors, biographical data,
                     schools, jobs, campaign contributions, and more for
                     thousands of state and federal&nbsp;judges.</p>
@@ -334,11 +333,11 @@ export default function Home({allPostsData}) {
                 <H2>Like what you see? Please support our work.</H2>
               </div>
               <div className="flex justify-center gap-8 pt-8">
-                <Button href="/data-consulting/"
+                <Button href="/become-a-sponsor/"
                         extraClasses="bg-white text-gray-800">
                   Organizational Support
                 </Button>
-                <Button href="/data-consulting/"
+                <Button href="/donate/"
                         extraClasses="w-48 bg-red-600 hover:bg-red-700">
                   Donate Now
                 </Button>
