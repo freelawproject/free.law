@@ -13,7 +13,7 @@ import {
   UserGroupIcon,
   XIcon,
 } from '@heroicons/react/outline'
-import { ChevronDownIcon } from '@heroicons/react/solid'
+import {ChevronDownIcon} from '@heroicons/react/solid'
 import Link from "next/link"
 import Image from "next/image"
 import {RedButton, WhiteButton} from "./button";
@@ -23,7 +23,7 @@ const projects = [
   {
     name: 'CourtListener.com',
     description: 'Our powerful legal research and awareness platform.',
-    href: '/courtlistener/',
+    href: '/projects/courtlistener/',
     imgSrc: '/images/icons/courtlistener.svg',
   },
   {
@@ -40,8 +40,8 @@ const projects = [
   },
 ]
 const callsToAction = [
-  { name: 'Install RECAP', href: '/recao/', icon: DownloadIcon },
-  { name: 'How to Help', href: '/donate/other-ways/', icon: FireIcon },
+  {name: 'Install RECAP', href: '/recap/', icon: DownloadIcon},
+  {name: 'How to Help', href: '/donate/other-ways/', icon: FireIcon},
 ]
 const tools = [
   {
@@ -59,13 +59,13 @@ const tools = [
   {
     name: "Juriscraper",
     description: "Battle-hardened open source code to scrape PACER and state court websites.",
-    href: "/juriscraper/",
+    href: "/projects/juriscraper/",
     imgSrc: "/images/icons/juriscraper.svg"
   },
   {
     name: "Eyecite",
     description: "A robust and performant open source library to find and annotate citations in any legal text.",
-    href: "/eyecite/",
+    href: "/projects/eyecite/",
     imgSrc: "/images/icons/eyecite.svg",
   },
 ]
@@ -76,37 +76,37 @@ const datasets = [
   {
     name: "Reporter Database",
     description: "The metadata and abbreviations for nearly every written reporter in American history. The heart of any citation parser.",
-    href: "/reporters-db/",
+    href: "/projects/reporters-db/",
     imgSrc: '/images/icons/reporters-db.svg',
   },
   {
     name: "Court Data",
     description: "A collection of court metadata, standardized IDs, and parsers.",
-    href: "/courts-db/",
+    href: "/projects/courts-db/",
     imgSrc: '/images/icons/courts-db.svg',
   },
   {
     name: "Judge Portraits",
     description: "Thousands of portraits of judges you can use in your projects.",
-    href: "/judge-pics/",
+    href: "/projects/judge-pics/",
     icon: UserGroupIcon,
   },
   {
     name: "Judge Profiles",
     description: "A rich structured database of judicial information.",
-    href: "/judge-db/",
+    href: "/projects/judge-db/",
     imgSrc: '/images/icons/judge-db.svg',
   },
   {
     name: "Supreme Court Data",
     description: "High quality data about Supreme Court opinions.",
-    href: "/supreme-court-data/",
+    href: "/projects/supreme-court-data/",
     icon: LibraryIcon,
   },
   {
     name: "Court Seals",
     description: "Seals of various courts.",
-    href: "/seal-rookery/",
+    href: "/projects/seal-rookery/",
     icon: BadgeCheckIcon,
   },
 ]
@@ -147,13 +147,15 @@ export default function Navbar({allPosts}) {
             <div className="flex justify-between items-center py-6 md:justify-start md:space-x-6 lg:space-x-10">
               <div className="flex justify-start font-extralight text-xl lg:w-0 lg:flex-1 text-white whitespace-nowrap">
                 <Link href="/">
-                  <a className="font-display tracking-wide font-normal">Free Law Project</a>
+                  <a className="font-display tracking-wide font-normal">Free
+                    Law Project</a>
                 </Link>
               </div>
               <div className="hidden md:flex">
                 <Link href="/about/">
 
-                  <a className="text-xs font-medium uppercase text-gray-100 hover:text-gray-300">About</a>
+                  <a
+                    className="text-xs font-medium uppercase text-gray-100 hover:text-gray-300">About</a>
                 </Link>
               </div>
               <div className="-mr-2 -my-2 md:hidden">
@@ -519,50 +521,65 @@ export default function Navbar({allPosts}) {
                 <div className="py-6 px-5 space-y-6">
                   <div className="grid grid-cols-2 gap-x-6 sm:gap-x-8">
                     <div className="grid grid-cols-1 gap-y-4">
-                      <a href="#" className="text-base font-medium text-gray-900 hover:text-gray-700">
+                      <a href="/about/"
+                         className="text-base font-medium text-gray-900 hover:text-gray-700">
                         About
                       </a>
-                      <a href="#" className="text-base font-medium text-gray-900 hover:text-gray-700">
+                      <a href="/blog/"
+                         className="text-base font-medium text-gray-900 hover:text-gray-700">
                         Blog
                       </a>
 
-                      <a href="#" className="text-base font-medium text-gray-900 hover:text-gray-700">
+                      <a href="/projects/courtlistener/"
+                         className="text-base font-medium text-gray-900 hover:text-gray-700">
                         CourtListener
                       </a>
-                      <a href="#" className="text-base font-medium text-gray-900 hover:text-gray-700">
+                      <a href="/recap/"
+                         className="text-base font-medium text-gray-900 hover:text-gray-700">
                         RECAP Project
                       </a>
-                      <a href="#" className="text-base font-medium text-gray-900 hover:text-gray-700">
-                        <span className="hidden sm:inline">Services &amp; </span>Consulting
+                      <a href="/data-consulting/"
+                         className="text-base font-medium text-gray-900 hover:text-gray-700">
+                        <span
+                          className="hidden sm:inline">Services &amp; </span>Consulting
                       </a>
-                      <a href="#" className="text-base font-medium text-gray-900 hover:text-gray-700">
+                      <a href="https://www.courtlistener.com/api/"
+                         className="text-base font-medium text-gray-900 hover:text-gray-700">
                         APIs and Bulk Data
                       </a>
-                      <a href="#" className="text-base font-medium text-gray-900 hover:text-gray-700">
-                        Data<span className="hidden sm:inline">base</span> Replication
+                      <a href="https://www.courtlistener.com/api/replication/"
+                         className="text-base font-medium text-gray-900 hover:text-gray-700">
+                        Data<span
+                        className="hidden sm:inline">base</span> Replication
                       </a>
                     </div>
                     <div className="grid grid-cols-1 gap-y-4">
-
-                      <a href="#" className="text-base font-medium text-gray-900 hover:text-gray-700">
+                      <a href="/projects/juriscraper/"
+                         className="text-base font-medium text-gray-900 hover:text-gray-700">
                         Juriscraper
                       </a>
-                      <a href="#" className="text-base font-medium text-gray-900 hover:text-gray-700">
+                      <a href="/projects/eyecite/"
+                         className="text-base font-medium text-gray-900 hover:text-gray-700">
                         Eyecite
                       </a>
-                      <a href="#" className="text-base font-medium text-gray-900 hover:text-gray-700">
+                      <a href="/projects/reporters-db/"
+                         className="text-base font-medium text-gray-900 hover:text-gray-700">
                         Reporters DB
                       </a>
-                      <a href="#" className="text-base font-medium text-gray-900 hover:text-gray-700">
+                      <a href="/projects/courts-db/"
+                         className="text-base font-medium text-gray-900 hover:text-gray-700">
                         Court Data
                       </a>
-                      <a href="#" className="text-base font-medium text-gray-900 hover:text-gray-700">
+                      <a href="/projects/judge-pics/"
+                         className="text-base font-medium text-gray-900 hover:text-gray-700">
                         Judge Portraits
                       </a>
-                      <a href="#" className="text-base font-medium text-gray-900 hover:text-gray-700">
+                      <a href="/projects/judge-db/"
+                         className="text-base font-medium text-gray-900 hover:text-gray-700">
                         Judge Profiles
                       </a>
-                      <a href="#" className="text-base font-medium text-gray-900 hover:text-gray-700">
+                      <a href="/projects/supreme-court-data/"
+                         className="text-base font-medium text-gray-900 hover:text-gray-700">
                         SCOTUS Data
                       </a>
                     </div>

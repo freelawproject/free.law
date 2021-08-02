@@ -37,41 +37,50 @@ export function Footer({recentPost}){
 
       <div className="w-full">
         <div className="pb-3">
-            <H5>Tools</H5>
-            <FooterLink href="https://www.courtlistener.com/api/">Legal APIs</FooterLink>
-            <FooterLink href="https://www.courtlistener.com/api/replication/">Database Replication</FooterLink>
-            <FooterLink href="/juriscraper/">Juriscraper</FooterLink>
-            <FooterLink href="#">Eyecite</FooterLink>
-          <FooterLink href="#"><span className="hidden lg:inline">Other </span> Projects on Github</FooterLink>
-          </div>
-          <div className="pb-3">
-            <H5>Datasets</H5>
-            <FooterLink href="#">Reporters</FooterLink>
-            <FooterLink href="#">Courts</FooterLink>
-            <FooterLink href="#">Court Seals</FooterLink>
-            <FooterLink href="#">Judge Portraits</FooterLink>
-            <FooterLink href="#">Judge Profiles</FooterLink>
-            <FooterLink href="#">Oral Argument Audio</FooterLink>
-            <FooterLink href="#">Supreme Court Data</FooterLink>
-          </div>
+          <H5>Tools</H5>
+          <FooterLink href="https://www.courtlistener.com/api/">Legal
+            APIs</FooterLink>
+          <FooterLink href="https://www.courtlistener.com/api/replication/">Database
+            Replication</FooterLink>
+          <FooterLink href="/projects/juriscraper/">Juriscraper</FooterLink>
+          <FooterLink href="/projects/eyecite/">Eyecite</FooterLink>
+          <FooterLink href="https://github.com/freelawproject/"><span
+            className="hidden lg:inline">Other </span> Projects on
+            Github</FooterLink>
+        </div>
+        <div className="pb-3">
+          <H5>Datasets</H5>
+          <FooterLink href="/projects/reporters-db/">Reporters</FooterLink>
+          <FooterLink href="/projects/courts-db/">Courts</FooterLink>
+          <FooterLink href="/projects/seal-rookery/">Court Seals</FooterLink>
+          <FooterLink href="/projects/judge-pics/">Judge Portraits</FooterLink>
+          <FooterLink href="/projects/judge-db/">Judge Profiles</FooterLink>
+          <FooterLink href="/projects/oral-arguments/">Oral Argument
+            Audio</FooterLink>
+          <FooterLink href="/projects/supreme-court-data/">Supreme Court
+            Data</FooterLink>
+        </div>
         </div>
 
         <div className="w-full">
           <div className="pb-3">
             <H5>Our Work</H5>
-            <FooterLink href="#">CourtListener.com</FooterLink>
-            <FooterLink href="#">RECAP Project</FooterLink>
-            <FooterLink href="#">Data <span className="hidden lg:inline">Services and </span>Consulting</FooterLink>
-            <FooterLink href="#">PACER Fact Sheet</FooterLink>
-            <FooterLink href="#">FJC IDB Fact Sheet</FooterLink>
+            <FooterLink
+              href="https://www.courtlistener.com/">CourtListener.com</FooterLink>
+            <FooterLink href="/recap/">RECAP Project</FooterLink>
+            <FooterLink href="/data-consulting/">Data <span
+              className="hidden lg:inline">Services and </span>Consulting</FooterLink>
+            <FooterLink href="/pacer-facts/">PACER Fact Sheet</FooterLink>
+            <FooterLink href="/idb-facts/">FJC IDB Fact Sheet</FooterLink>
           </div>
           <div className="pb-3">
             <H5>Support FLP</H5>
-            <FooterLink href="#">Donate Now</FooterLink>
-            <FooterLink href="#">Current Sponsors</FooterLink>
-            <FooterLink href="#">Become a Sponsor</FooterLink>
-            <FooterLink href="#">Other Ways to Help</FooterLink>
-            <FooterLink href="#">Stickers!</FooterLink>
+            <FooterLink href="/donate/">Donate Now</FooterLink>
+            <FooterLink href="/sponsors/">Current Sponsors</FooterLink>
+            <FooterLink href="/become-a-sponsor/">Become a Sponsor</FooterLink>
+            <FooterLink href="/donate/other-ways/">Other Ways to
+              Help</FooterLink>
+            <FooterLink href="/stickers/">Stickers!</FooterLink>
           </div>
         </div>
       </section>
@@ -122,7 +131,7 @@ export function Colophon(){
 
 export function JudgeRibbon(){
   return (
-    <Link href="https://github.com/freelawproject/judge-pics/">
+    <Link href="/projects/judge-pics/">
       <a title="Check out our database of judge portraits">
         <MainFullBleedColumn bgClasses="bg-imgJudgeHr h-36px"/>
       </a>
