@@ -16,7 +16,8 @@ import {
 import { ChevronDownIcon } from '@heroicons/react/solid'
 import Link from "next/link"
 import Image from "next/image"
-import Button, {RedButton, WhiteButton} from "./button";
+import {RedButton, WhiteButton} from "./button";
+import classNames from "classnames";
 
 const projects = [
   {
@@ -136,10 +137,6 @@ const topPosts = [
     id: 5,
   },
 ]
-
-function classNames(...classes) {
-  return classes.filter(Boolean).join(' ')
-}
 
 export default function Navbar({allPosts}) {
   return (
