@@ -144,8 +144,10 @@ export default function Navbar({allPosts}) {
       {({ open }) => (
         <>
           <div className="max-w-7xl mx-auto px-4 sm:px-6">
-            <div className="flex justify-between items-center py-6 md:justify-start md:space-x-6 lg:space-x-10">
-              <div className="flex justify-start font-extralight text-xl lg:w-0 lg:flex-1 text-white whitespace-nowrap">
+            <div
+              className="flex justify-between items-center py-6 md:justify-start md:space-x-6 lg:space-x-10">
+              <div
+                className="flex justify-start font-extralight text-2xl lg:w-0 lg:flex-1 text-white whitespace-nowrap">
                 <Link href="/">
                   <a className="font-display tracking-wide font-normal">Free
                     Law Project</a>
