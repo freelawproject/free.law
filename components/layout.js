@@ -1,5 +1,6 @@
 import Head from 'next/head'
 import Link from "next/link"
+import Script from "next/script";
 import Navbar from "./navbar"
 import {Colophon, Footer, JudgeRibbon} from "./footers";
 import {GridImage} from "./widgets";
@@ -19,7 +20,7 @@ import Button from "./button";
 import {H1} from "./headings";
 import Date from "./date";
 
-export function MainColumn({children}){
+export function MainColumn({children}) {
   return (
     <div className="max-w-7xl mx-auto px-4 sm:px-6 md:px-10">
       {children}
@@ -41,7 +42,7 @@ export function MainFullBleedColumn({bgClasses, children}) {
 }
 
 
-export function PostColumn({children}){
+export function PostColumn({children}) {
   return (
     <div className="max-w-3xl mx-auto px-4 sm:px-6 md:px-10 prose">
       {children}
@@ -53,7 +54,8 @@ export function PostSummary({post}) {
   return (
     <article key={post.id} className="py-8">
       <Link href={post.id}>
-        <a className="no-underline text-lg"><H1 extraClasses="text-2xl">{post.title}</H1></a>
+        <a className="no-underline text-lg">
+          <H1 extraClasses="text-2xl">{post.title}</H1></a>
       </Link>
       <p>{post.excerpt}</p>
       <p className="space-x-4">
@@ -61,7 +63,9 @@ export function PostSummary({post}) {
         <span className="text-gray-500 text-sm"><Date dateString={post.date}/></span>
       </p>
       <p>
-        <Button href={post.id} extraClasses="text-gray-800 bg-white border border-gray-400">Read More</Button>
+        <Button href={post.id}
+                extraClasses="text-gray-800 bg-white border border-gray-400">Read
+          More</Button>
       </p>
     </article>
   )
@@ -81,12 +85,16 @@ export default function Layout({children, home, allPosts}) {
       <Footer recentPost={allPosts[0]}/>
       <Colophon/>
       <JudgeRibbon/>
+
+      {/*Matomo*/}
+      <Script src="/js/tracking.js"/>
+      <Script src="https://matomo.courtlistener.com/matomo.js"/>
     </div>
   )
 }
 
 
-export function PicGrid({wide, tall, children}){
+export function PicGrid({wide, tall, children}) {
   return (
     <div
       className={classNames(
@@ -99,7 +107,7 @@ export function PicGrid({wide, tall, children}){
   )
 }
 
-export function ClientPics({wide}){
+export function ClientPics({wide}) {
   return (
     <PicGrid wide={wide}>
       <GridImage imgProps={{
