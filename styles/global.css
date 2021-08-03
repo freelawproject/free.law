@@ -17,3 +17,28 @@
 }
 
 @tailwind utilities;
+
+.left-image {
+    float:left;
+    display: table;
+    margin: 0 15px 10px 0;
+}
+.left-image p {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.left-image img {
+    margin-bottom: 0;
+}
+.right-image {
+    float: right;
+    display: table;
+    margin: 0 0 10px 15px;
+}
+.right-image p {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.right-image img {
+    margin-bottom: 0;
+}

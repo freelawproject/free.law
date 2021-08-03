@@ -4,8 +4,6 @@ date: "2011-05-25 13:41"
 author: Michael Lissner
 tags: ["Announcements", "API", "Bulk Data", "CourtListener", "Data Wrangling"]
 ---
-status: published
----
 
 A few years ago, the Library of Congress [released a PDF][dod] that listed the exact dates that the early Supreme Court Cases were decided. Since the written record only contained the month and year of the decision, this list served as the official record for the cases.
 
@@ -14,8 +12,8 @@ While it was great for the Library of Congress to publish this report, unfortuna
 The second project we have been working on at Free Law Project was to import this data into our system. Because citations in the file are not always unique, we had to device a heuristic algorithm to link up the data in the CSV with the data in our system. Today, we're happy to share that we did that, updating the dates of 6,083 early Supreme Court Cases.
 
 <div className="text-center form-inline">
-<a href="/csv/date_of_decisions.csv" className="btn btn-primary btn-lg">Download as CSV</a>
-<a href="/ods/date_of_decisions.ods" className="btn btn-primary btn-lg">Download as ODS</a>
+<PurpleButton href="/csv/date_of_decisions.csv">Download as CSV</PurpleButton>
+<PurpleButton href="/ods/date_of_decisions.ods">Download as ODS</PurpleButton>
 </div>
 
 [dod]: /pdf/dates-of-decisions.pdf
