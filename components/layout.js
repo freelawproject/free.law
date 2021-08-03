@@ -1,4 +1,5 @@
 import Head from 'next/head'
+import Link from "next/link"
 import Navbar from "./navbar"
 import {Colophon, Footer, JudgeRibbon} from "./footers";
 import {GridImage} from "./widgets";
@@ -14,6 +15,8 @@ import imanage from "../public/images/services-logos/x256/imanage.svg";
 import drugPatentWatch
   from "../public/images/services-logos/x256/drugpatentwatch.png";
 import classNames from "classnames";
+import Button from "./button";
+import {H1} from "./headings";
 
 export function MainColumn({children}){
   return (
@@ -42,6 +45,24 @@ export function PostColumn({children}){
     <div className="max-w-3xl mx-auto px-4 sm:px-6 md:px-10 prose">
       {children}
     </div>
+  )
+}
+
+export function PostSummary({post}) {
+  return (
+    <article key={post.id} className="py-8">
+      <Link href={post.id}>
+        <a className="no-underline text-lg"><H1 extraClasses="text-2xl">{post.title}</H1></a>
+      </Link>
+      <p>{post.excerpt}</p>
+      <p className="space-x-4">
+        <span className="text-black font-semibold">{post.author}</span>
+        <span className="text-gray-500 text-sm"><Date dateString={post.date}/></span>
+      </p>
+      <p>
+        <Button href={post.id} extraClasses="text-gray-800 bg-white border border-gray-400">Read More</Button>
+      </p>
+    </article>
   )
 }
 
