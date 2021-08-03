@@ -1,5 +1,5 @@
-import { Fragment } from 'react'
-import { Popover, Transition } from '@headlessui/react'
+import { Fragment } from 'react';
+import { Popover, Transition } from '@headlessui/react';
 import {
   ArrowCircleRightIcon,
   BadgeCheckIcon,
@@ -12,12 +12,12 @@ import {
   MenuIcon,
   UserGroupIcon,
   XIcon,
-} from '@heroicons/react/outline'
-import {ChevronDownIcon} from '@heroicons/react/solid'
-import Link from "next/link"
-import Image from "next/image"
-import {RedButton, WhiteButton} from "./button";
-import classNames from "classnames";
+} from '@heroicons/react/outline';
+import { ChevronDownIcon } from '@heroicons/react/solid';
+import Link from 'next/link';
+import Image from 'next/image';
+import { RedButton, WhiteButton } from './button';
+import classNames from 'classnames';
 
 const projects = [
   {
@@ -28,91 +28,99 @@ const projects = [
   },
   {
     name: 'The RECAP Extension',
-    description: 'Help build the world\'s largest open collection of PACER filings. Save money too.',
+    description: "Help build the world's largest open collection of PACER filings. Save money too.",
     href: '/recap/',
     imgSrc: '/images/icons/recap.svg',
   },
   {
     name: 'Data Services and Consulting',
-    description: "We can help you gather, analyze, and understand legal information.",
+    description: 'We can help you gather, analyze, and understand legal information.',
     href: '/data-consulting/',
     icon: LightBulbIcon,
   },
-]
+];
 const callsToAction = [
-  {name: 'Install RECAP', href: '/recap/', icon: DownloadIcon},
-  {name: 'How to Help', href: '/donate/other-ways/', icon: FireIcon},
-]
+  { name: 'Install RECAP', href: '/recap/', icon: DownloadIcon },
+  { name: 'How to Help', href: '/donate/other-ways/', icon: FireIcon },
+];
 const tools = [
   {
     name: 'Legal APIs and Bulk Data',
-    description: "Gather, monitor, and search state and federal court data, bankruptcy information, parties, opinions, judges, and more.",
-    href: "https://www.courtlistener.com/api/",
+    description:
+      'Gather, monitor, and search state and federal court data, bankruptcy information, parties, opinions, judges, and more.',
+    href: 'https://www.courtlistener.com/api/',
     icon: CodeIcon,
   },
   {
     name: 'Database Replication',
-    description: 'Our complete database updated in realtime to your server — All of our work under your roof.',
-    href: "https://www.courtlistener.com/api/replication/",
-    imgSrc: "/images/icons/replication.svg"
+    description:
+      'Our complete database updated in realtime to your server — All of our work under your roof.',
+    href: 'https://www.courtlistener.com/api/replication/',
+    imgSrc: '/images/icons/replication.svg',
   },
   {
-    name: "Juriscraper",
-    description: "Battle-hardened open source code to scrape PACER and state court websites.",
-    href: "/projects/juriscraper/",
-    imgSrc: "/images/icons/juriscraper.svg"
+    name: 'Juriscraper',
+    description: 'Battle-hardened open source code to scrape PACER and state court websites.',
+    href: '/projects/juriscraper/',
+    imgSrc: '/images/icons/juriscraper.svg',
   },
   {
-    name: "Eyecite",
-    description: "A robust and performant open source library to find and annotate citations in any legal text.",
-    href: "/projects/eyecite/",
-    imgSrc: "/images/icons/eyecite.svg",
+    name: 'Eyecite',
+    description:
+      'A robust and performant open source library to find and annotate citations in any legal text.',
+    href: '/projects/eyecite/',
+    imgSrc: '/images/icons/eyecite.svg',
   },
-]
+];
 const toolCallsToAction = [
-  { name: 'View More Projects on Github', href: 'https://github.com/freelawproject/', icon: ArrowCircleRightIcon }
-]
+  {
+    name: 'View More Projects on Github',
+    href: 'https://github.com/freelawproject/',
+    icon: ArrowCircleRightIcon,
+  },
+];
 const datasets = [
   {
-    name: "Reporter Database",
-    description: "The metadata and abbreviations for nearly every written reporter in American history. The heart of any citation parser.",
-    href: "/projects/reporters-db/",
+    name: 'Reporter Database',
+    description:
+      'The metadata and abbreviations for nearly every written reporter in American history. The heart of any citation parser.',
+    href: '/projects/reporters-db/',
     imgSrc: '/images/icons/reporters-db.svg',
   },
   {
-    name: "Court Data",
-    description: "A collection of court metadata, standardized IDs, and parsers.",
-    href: "/projects/courts-db/",
+    name: 'Court Data',
+    description: 'A collection of court metadata, standardized IDs, and parsers.',
+    href: '/projects/courts-db/',
     imgSrc: '/images/icons/courts-db.svg',
   },
   {
-    name: "Judge Portraits",
-    description: "Thousands of portraits of judges you can use in your projects.",
-    href: "/projects/judge-pics/",
+    name: 'Judge Portraits',
+    description: 'Thousands of portraits of judges you can use in your projects.',
+    href: '/projects/judge-pics/',
     icon: UserGroupIcon,
   },
   {
-    name: "Judge Profiles",
-    description: "A rich structured database of judicial information.",
-    href: "/projects/judge-db/",
+    name: 'Judge Profiles',
+    description: 'A rich structured database of judicial information.',
+    href: '/projects/judge-db/',
     imgSrc: '/images/icons/judge-db.svg',
   },
   {
-    name: "Supreme Court Data",
-    description: "High quality data about Supreme Court opinions.",
-    href: "/projects/supreme-court-data/",
+    name: 'Supreme Court Data',
+    description: 'High quality data about Supreme Court opinions.',
+    href: '/projects/supreme-court-data/',
     icon: LibraryIcon,
   },
   {
-    name: "Court Seals",
-    description: "Seals of various courts.",
-    href: "/projects/seal-rookery/",
+    name: 'Court Seals',
+    description: 'Seals of various courts.',
+    href: '/projects/seal-rookery/',
     icon: BadgeCheckIcon,
   },
-]
+];
 const topPosts = [
   {
-    name: 'FLP\'s Victory for Access to Public Documents',
+    name: "FLP's Victory for Access to Public Documents",
     href: '/2020/12/30/victory-for-public-access-to-court-documents/',
     id: 1,
   },
@@ -132,32 +140,29 @@ const topPosts = [
     id: 4,
   },
   {
-    name: "Buying PACER Would Cost a Billion Dollars",
-    href: "/2016/10/10/the-cost-of-pacer-data-around-one-billion-dollars/",
+    name: 'Buying PACER Would Cost a Billion Dollars',
+    href: '/2016/10/10/the-cost-of-pacer-data-around-one-billion-dollars/',
     id: 5,
   },
-]
+];
 
-export default function Navbar({allPosts}) {
+export default function Navbar({ allPosts }) {
   return (
     <Popover className="relative bg-purple-900">
       {({ open }) => (
         <>
           <div className="max-w-7xl mx-auto px-4 sm:px-6">
-            <div
-              className="flex justify-between items-center py-6 md:justify-start md:space-x-6 lg:space-x-10">
-              <div
-                className="flex justify-start font-extralight text-2xl lg:w-0 lg:flex-1 text-white whitespace-nowrap">
+            <div className="flex justify-between items-center py-6 md:justify-start md:space-x-6 lg:space-x-10">
+              <div className="flex justify-start font-extralight text-2xl lg:w-0 lg:flex-1 text-white whitespace-nowrap">
                 <Link href="/">
-                  <a className="font-display tracking-wide font-normal">Free
-                    Law Project</a>
+                  <a className="font-display tracking-wide font-normal">Free Law Project</a>
                 </Link>
               </div>
               <div className="hidden md:flex">
                 <Link href="/about/">
-
-                  <a
-                    className="text-xs font-medium uppercase text-gray-100 hover:text-gray-300">About</a>
+                  <a className="text-xs font-medium uppercase text-gray-100 hover:text-gray-300">
+                    About
+                  </a>
                 </Link>
               </div>
               <div className="-mr-2 -my-2 md:hidden">
@@ -210,17 +215,21 @@ export default function Navbar({allPosts}) {
                                   href={item.href}
                                   className="-m-3 p-3 flex items-start rounded-lg hover:bg-gray-50"
                                 >
-                                  {
-                                    item.icon ?
-                                      <item.icon className="flex-shrink-0 h-6 w-6 text-indigo-600" aria-hidden="true" />
-                                    :
-                                      <div className="h-6 w-6 relative flex-shrink-0">
-                                        <Image src={item.imgSrc} layout="fill" aria-hidden="true"/>
-                                      </div>
-                                  }
+                                  {item.icon ? (
+                                    <item.icon
+                                      className="flex-shrink-0 h-6 w-6 text-indigo-600"
+                                      aria-hidden="true"
+                                    />
+                                  ) : (
+                                    <div className="h-6 w-6 relative flex-shrink-0">
+                                      <Image src={item.imgSrc} layout="fill" aria-hidden="true" />
+                                    </div>
+                                  )}
 
                                   <div className="ml-4">
-                                    <p className="text-base font-medium text-gray-900">{item.name}</p>
+                                    <p className="text-base font-medium text-gray-900">
+                                      {item.name}
+                                    </p>
                                     <p className="mt-1 text-sm text-gray-500">{item.description}</p>
                                   </div>
                                 </a>
@@ -233,7 +242,10 @@ export default function Navbar({allPosts}) {
                                     href={item.href}
                                     className="-m-3 p-3 flex items-center rounded-md text-base font-medium text-gray-900 hover:bg-gray-100"
                                   >
-                                    <item.icon className="flex-shrink-0 h-6 w-6 text-gray-400" aria-hidden="true" />
+                                    <item.icon
+                                      className="flex-shrink-0 h-6 w-6 text-gray-400"
+                                      aria-hidden="true"
+                                    />
                                     <span className="ml-3">{item.name}</span>
                                   </a>
                                 </div>
@@ -289,16 +301,20 @@ export default function Navbar({allPosts}) {
                                   href={item.href}
                                   className="-m-3 p-3 flex items-start rounded-lg hover:bg-gray-50"
                                 >
-                                  {
-                                    item.icon ?
-                                      <item.icon className="flex-shrink-0 h-6 w-6 text-gray-400" aria-hidden="true" />
-                                      :
-                                      <div className="h-6 w-6 relative flex-shrink-0">
-                                        <Image src={item.imgSrc} layout="fill" aria-hidden="true"/>
-                                      </div>
-                                  }
+                                  {item.icon ? (
+                                    <item.icon
+                                      className="flex-shrink-0 h-6 w-6 text-gray-400"
+                                      aria-hidden="true"
+                                    />
+                                  ) : (
+                                    <div className="h-6 w-6 relative flex-shrink-0">
+                                      <Image src={item.imgSrc} layout="fill" aria-hidden="true" />
+                                    </div>
+                                  )}
                                   <div className="ml-4">
-                                    <p className="text-base font-medium text-gray-900">{item.name}</p>
+                                    <p className="text-base font-medium text-gray-900">
+                                      {item.name}
+                                    </p>
                                     <p className="mt-1 text-sm text-gray-500">{item.description}</p>
                                   </div>
                                 </a>
@@ -311,7 +327,10 @@ export default function Navbar({allPosts}) {
                                     href={item.href}
                                     className="-m-3 p-3 flex items-center rounded-md text-base font-medium text-gray-900 hover:bg-gray-100"
                                   >
-                                    <item.icon className="flex-shrink-0 h-7 w-7 text-gray-400" aria-hidden="true" />
+                                    <item.icon
+                                      className="flex-shrink-0 h-7 w-7 text-gray-400"
+                                      aria-hidden="true"
+                                    />
                                     <span className="ml-3">{item.name}</span>
                                   </a>
                                 </div>
@@ -367,16 +386,20 @@ export default function Navbar({allPosts}) {
                                   href={item.href}
                                   className="-m-3 p-3 flex items-start rounded-lg hover:bg-gray-50"
                                 >
-                                  {
-                                    item.icon ?
-                                      <item.icon className="flex-shrink-0 h-6 w-6 text-purple-800" aria-hidden="true" />
-                                      :
-                                      <div className="h-6 w-6 relative flex-shrink-0">
-                                        <Image src={item.imgSrc} layout="fill" aria-hidden="true"/>
-                                      </div>
-                                  }
+                                  {item.icon ? (
+                                    <item.icon
+                                      className="flex-shrink-0 h-6 w-6 text-purple-800"
+                                      aria-hidden="true"
+                                    />
+                                  ) : (
+                                    <div className="h-6 w-6 relative flex-shrink-0">
+                                      <Image src={item.imgSrc} layout="fill" aria-hidden="true" />
+                                    </div>
+                                  )}
                                   <div className="ml-4">
-                                    <p className="text-base font-medium text-gray-900">{item.name}</p>
+                                    <p className="text-base font-medium text-gray-900">
+                                      {item.name}
+                                    </p>
                                     <p className="mt-1 text-sm text-gray-500">{item.description}</p>
                                   </div>
                                 </a>
@@ -433,7 +456,10 @@ export default function Navbar({allPosts}) {
                                 <ul className="mt-4 space-y-4">
                                   {topPosts.map((post) => (
                                     <li key={post.id} className="text-base">
-                                      <a href={post.href} className="font-medium text-gray-900 hover:text-gray-700">
+                                      <a
+                                        href={post.href}
+                                        className="font-medium text-gray-900 hover:text-gray-700"
+                                      >
                                         {post.name}
                                       </a>
                                     </li>
@@ -448,9 +474,12 @@ export default function Navbar({allPosts}) {
                                   Recent Posts
                                 </h3>
                                 <ul className="mt-4 space-y-4">
-                                  {allPosts.slice(0, 5).map(({id, date, title}) => (
+                                  {allPosts.slice(0, 5).map(({ id, date, title }) => (
                                     <li key={id} className="text-base">
-                                      <a href={`${id}`} className="font-medium text-gray-900 hover:text-gray-700">
+                                      <a
+                                        href={`${id}`}
+                                        className="font-medium text-gray-900 hover:text-gray-700"
+                                      >
                                         {title}
                                       </a>
                                     </li>
@@ -460,8 +489,8 @@ export default function Navbar({allPosts}) {
                               <div className="mt-5 text-sm">
                                 <Link href="/blog/">
                                   <a className="font-medium text-indigo-600 hover:text-indigo-500">
-                                  {' '}
-                                  View all posts <span aria-hidden="true">&rarr;</span>
+                                    {' '}
+                                    View all posts <span aria-hidden="true">&rarr;</span>
                                   </a>
                                 </Link>
                               </div>
@@ -476,10 +505,12 @@ export default function Navbar({allPosts}) {
 
               <div className="hidden md:flex items-center justify-end md:flex-1 gap-2">
                 <RedButton href="/donate/" extraClasses="inline-flex">
-                  <HeartIcon className="flex-shrink-0 h-5 w-5" aria-hidden="true"/>&nbsp;Donate
+                  <HeartIcon className="flex-shrink-0 h-5 w-5" aria-hidden="true" />
+                  &nbsp;Donate
                 </RedButton>
                 <WhiteButton href="/recap/" extraClasses="hidden lg:inline-flex">
-                  <DownloadIcon className="flex-shrink-0 h-5 w-5" aria-hidden="true"/>&nbsp;Install RECAP
+                  <DownloadIcon className="flex-shrink-0 h-5 w-5" aria-hidden="true" />
+                  &nbsp;Install RECAP
                 </WhiteButton>
               </div>
             </div>
@@ -523,65 +554,91 @@ export default function Navbar({allPosts}) {
                 <div className="py-6 px-5 space-y-6">
                   <div className="grid grid-cols-2 gap-x-6 sm:gap-x-8">
                     <div className="grid grid-cols-1 gap-y-4">
-                      <a href="/about/"
-                         className="text-base font-medium text-gray-900 hover:text-gray-700">
+                      <a
+                        href="/about/"
+                        className="text-base font-medium text-gray-900 hover:text-gray-700"
+                      >
                         About
                       </a>
-                      <a href="/blog/"
-                         className="text-base font-medium text-gray-900 hover:text-gray-700">
+                      <a
+                        href="/blog/"
+                        className="text-base font-medium text-gray-900 hover:text-gray-700"
+                      >
                         Blog
                       </a>
 
-                      <a href="/projects/courtlistener/"
-                         className="text-base font-medium text-gray-900 hover:text-gray-700">
+                      <a
+                        href="/projects/courtlistener/"
+                        className="text-base font-medium text-gray-900 hover:text-gray-700"
+                      >
                         CourtListener
                       </a>
-                      <a href="/recap/"
-                         className="text-base font-medium text-gray-900 hover:text-gray-700">
+                      <a
+                        href="/recap/"
+                        className="text-base font-medium text-gray-900 hover:text-gray-700"
+                      >
                         RECAP Project
                       </a>
-                      <a href="/data-consulting/"
-                         className="text-base font-medium text-gray-900 hover:text-gray-700">
-                        <span
-                          className="hidden sm:inline">Services &amp; </span>Consulting
+                      <a
+                        href="/data-consulting/"
+                        className="text-base font-medium text-gray-900 hover:text-gray-700"
+                      >
+                        <span className="hidden sm:inline">Services &amp; </span>Consulting
                       </a>
-                      <a href="https://www.courtlistener.com/api/"
-                         className="text-base font-medium text-gray-900 hover:text-gray-700">
+                      <a
+                        href="https://www.courtlistener.com/api/"
+                        className="text-base font-medium text-gray-900 hover:text-gray-700"
+                      >
                         APIs and Bulk Data
                       </a>
-                      <a href="https://www.courtlistener.com/api/replication/"
-                         className="text-base font-medium text-gray-900 hover:text-gray-700">
-                        Data<span
-                        className="hidden sm:inline">base</span> Replication
+                      <a
+                        href="https://www.courtlistener.com/api/replication/"
+                        className="text-base font-medium text-gray-900 hover:text-gray-700"
+                      >
+                        Data<span className="hidden sm:inline">base</span> Replication
                       </a>
                     </div>
                     <div className="grid grid-cols-1 gap-y-4">
-                      <a href="/projects/juriscraper/"
-                         className="text-base font-medium text-gray-900 hover:text-gray-700">
+                      <a
+                        href="/projects/juriscraper/"
+                        className="text-base font-medium text-gray-900 hover:text-gray-700"
+                      >
                         Juriscraper
                       </a>
-                      <a href="/projects/eyecite/"
-                         className="text-base font-medium text-gray-900 hover:text-gray-700">
+                      <a
+                        href="/projects/eyecite/"
+                        className="text-base font-medium text-gray-900 hover:text-gray-700"
+                      >
                         Eyecite
                       </a>
-                      <a href="/projects/reporters-db/"
-                         className="text-base font-medium text-gray-900 hover:text-gray-700">
+                      <a
+                        href="/projects/reporters-db/"
+                        className="text-base font-medium text-gray-900 hover:text-gray-700"
+                      >
                         Reporters DB
                       </a>
-                      <a href="/projects/courts-db/"
-                         className="text-base font-medium text-gray-900 hover:text-gray-700">
+                      <a
+                        href="/projects/courts-db/"
+                        className="text-base font-medium text-gray-900 hover:text-gray-700"
+                      >
                         Court Data
                       </a>
-                      <a href="/projects/judge-pics/"
-                         className="text-base font-medium text-gray-900 hover:text-gray-700">
+                      <a
+                        href="/projects/judge-pics/"
+                        className="text-base font-medium text-gray-900 hover:text-gray-700"
+                      >
                         Judge Portraits
                       </a>
-                      <a href="/projects/judge-db/"
-                         className="text-base font-medium text-gray-900 hover:text-gray-700">
+                      <a
+                        href="/projects/judge-db/"
+                        className="text-base font-medium text-gray-900 hover:text-gray-700"
+                      >
                         Judge Profiles
                       </a>
-                      <a href="/projects/supreme-court-data/"
-                         className="text-base font-medium text-gray-900 hover:text-gray-700">
+                      <a
+                        href="/projects/supreme-court-data/"
+                        className="text-base font-medium text-gray-900 hover:text-gray-700"
+                      >
                         SCOTUS Data
                       </a>
                     </div>
@@ -591,13 +648,15 @@ export default function Navbar({allPosts}) {
                       href="/donate/"
                       className="w-full flex items-center justify-center px-4 py-2 border border-transparent rounded-md shadow-sm text-base font-medium text-white bg-red-600 hover:bg-red-700"
                     >
-                      <HeartIcon className="flex-shrink-0 h-5 w-5" aria-hidden="true"/>&nbsp;Support Our Work
+                      <HeartIcon className="flex-shrink-0 h-5 w-5" aria-hidden="true" />
+                      &nbsp;Support Our Work
                     </a>
                     <a
                       href="/recap/"
                       className="w-full flex items-center justify-center px-4 py-2 border border-transparent rounded-md shadow-sm text-base font-medium text-gray-800 bg-white border-gray-500 border"
                     >
-                      <DownloadIcon className="flex-shrink-0 h-5 w-5" aria-hidden="true"/>&nbsp;Install RECAP
+                      <DownloadIcon className="flex-shrink-0 h-5 w-5" aria-hidden="true" />
+                      &nbsp;Install RECAP
                     </a>
                   </div>
                 </div>
@@ -607,5 +666,5 @@ export default function Navbar({allPosts}) {
         </>
       )}
     </Popover>
-  )
+  );
 }

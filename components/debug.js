@@ -1,4 +1,4 @@
-export function Debug({print}) {
-  console.log(print)
+export function Debug({ print }) {
+  console.log(print);
   return null;
 }
