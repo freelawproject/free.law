@@ -51,7 +51,7 @@ export function SearchButtons() {
 
 export function Tag({id, name}) {
   return (
-    <Link id={id} href={`/tag/${slugify(name)}/`}>
+    <Link id={id} href={`/tag/${slugify(name.toLowerCase())}/`}>
       <a>{name}</a>
     </Link>
   )
