@@ -30,7 +30,7 @@ export default function Home({allPostsData}) {
       <Layout allPosts={allPostsData} home={true}>
         <main>
           <Head>
-            <title>Free Law Project</title>
+            <title>Free Law Project — A non-profit making the legal ecosystem more equitable and competitive.</title>
           </Head>
 
           <HeroImage/>
