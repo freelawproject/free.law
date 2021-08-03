@@ -1,7 +1,7 @@
-import Head from 'next/head';
 import Layout, { PostColumn, PostSummary } from '../components/layout';
 import { getSortedPostsData } from '../lib/posts';
 import { H1 } from '../components/headings';
+import { NextSeo } from 'next-seo';
 
 export async function getStaticProps() {
   const allPostsData = await getSortedPostsData(true);
@@ -15,9 +15,13 @@ export async function getStaticProps() {
 export default function Blog({ allPostsData }) {
   return (
     <Layout allPosts={allPostsData} home={false}>
-      <Head>
-        <title>The Blog | Free Law Project</title>
-      </Head>
+      <NextSeo
+        title="The Blog"
+        openGraph={{
+          type: 'website',
+          url: 'https://free.law/blog/',
+        }}
+      />
       <PostColumn>
         <div className="pt-10">
           <H1>The Free Law Project Blog</H1>

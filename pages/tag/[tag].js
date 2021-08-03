@@ -1,9 +1,8 @@
-import Head from 'next/head';
-
 import Layout, { PostColumn, PostSummary } from '../../components/layout';
 import { H1 } from '../../components/headings';
 import { getAllPostTags, getPostDataForTag } from '../../lib/tags';
 import { getSortedPostsData } from '../../lib/posts';
+import { NextSeo } from 'next-seo';
 
 export async function getStaticProps({ params }) {
   const taggedPostsData = await getPostDataForTag(params.tag);
@@ -28,9 +27,13 @@ export async function getStaticPaths() {
 export default function TagPage({ taggedPostsData, allPostsData, tag }) {
   return (
     <Layout allPosts={allPostsData} home={false}>
-      <Head>
-        <title>Posts tagged with "{tag}" | Free Law Project</title>
-      </Head>
+      <NextSeo
+        title={`Posts tagged with "${tag}"`}
+        openGraph={{
+          type: 'website',
+          url: 'https://free.law/' + tag + '/',
+        }}
+      />
       <PostColumn>
         <div className="pt-10">
           <H1>Posts Tagged with "{tag}"</H1>

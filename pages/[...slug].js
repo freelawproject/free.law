@@ -1,5 +1,3 @@
-import Head from 'next/head';
-
 import Date from '../components/date';
 import Layout, { ClientPics, PicGrid, PostColumn } from '../components/layout';
 import { MDXRemote } from 'next-mdx-remote';
@@ -23,6 +21,7 @@ import Button, {
   WideWhiteButton,
 } from '../components/button';
 import { CheckIcon, DownloadIcon, HeartIcon } from '@heroicons/react/outline';
+import { NextSeo } from 'next-seo';
 
 export async function getStaticProps({ params }) {
   const postData = await getPostData(params.slug);
@@ -73,16 +72,29 @@ const components = {
 };
 
 export default function Post({ postData, allPostsData }) {
+  console.log(postData);
   return (
     <Layout allPosts={allPostsData} home={false}>
-      <Head>
-        <title>{postData.title} | Free Law Project</title>
-        {postData.private ? (
-          <meta name="robots" content="noindex, noodp, noarchive, noimageindex" />
-        ) : (
-          ''
-        )}
-      </Head>
+      <NextSeo
+        title={postData.title}
+        noindex={postData.private}
+        robotsProps={{
+          noarchive: postData.private,
+          nosnippet: postData.private,
+        }}
+        description={postData.excerpt}
+        openGraph={{
+          title: postData.title,
+          url: 'https://free.law/' + postData.slug.join('/') + '/',
+          type: 'article',
+          article: {
+            publishedTime: postData.date,
+            modifiedTime: postData.updated,
+            tags: postData.tags,
+          },
+        }}
+      />
+
       <PostColumn>
         <article className="pt-8">
           <H1>{postData.title}</H1>
