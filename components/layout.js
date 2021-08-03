@@ -17,6 +17,7 @@ import drugPatentWatch
 import classNames from "classnames";
 import Button from "./button";
 import {H1} from "./headings";
+import Date from "./date";
 
 export function MainColumn({children}){
   return (
