@@ -131,7 +131,7 @@ const topPosts = [
   },
   {
     name: 'FLP Advises Chilean Judicial Modernization Effort',
-    href: '/2019/12/05/free-law-project-participates-in-chilean-judicial-modernization-initiative/',
+    href: '/2019/12/05/chile/',
     id: 3,
   },
   {
@@ -141,7 +141,7 @@ const topPosts = [
   },
   {
     name: 'Buying PACER Would Cost a Billion Dollars',
-    href: '/2016/10/10/the-cost-of-pacer-data-around-one-billion-dollars/',
+    href: '/2016/10/10/pacer-costs-a-billion-dollars/',
     id: 5,
   },
 ];
