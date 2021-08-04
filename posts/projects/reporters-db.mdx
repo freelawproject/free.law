@@ -1,30 +1,25 @@
 ---
-title: Eyecite Citation Extractor
+title: Reporters Database
 type: page
 ---
 
+<RightImage imgProps={{
+  src: "/images/icons/reporters-db.svg",
+  alt: "Reporters Database logo"
+  }} height="h-32" width="w-1/4"/>
 
-Juriscraper is a scraper library written in Python that gathers judicial
-opinions, PACER content, and oral arguments from the American court system. It
-is currently able to scrape:
+<p className="lead">Our Reporters Database is a Python library or JSON file that provides structured information about nearly every American legal reporter.</p>
 
-- Opinions from all major appellate Federal courts
+The database can be used in a variety of tools. For example, we use the Reporters Database to [extract citations from text][e], and to look them up in our database.
 
-- Opinions from all state courts of last resort (typically their "Supreme
-  Court")
+In the Reporters Database, you will find information about nearly 1,000 different reporters dating from 1754 to today. For each reporter, we have researched and provide structured information such as the date it began and ended, its official abbreviation, and any other variations that we've found while parsing over fifty million legal citations.
 
-- Oral arguments from all appellate federal courts that offer them
+We believe that with the exception of niche, small, regional reporters, this database is complete and ready for production.
 
-- A variety of content from PACER
-
-Jursicraper has a robust test suite and underpins much of the functionality of
-the CourtListener system. It's no exaggeration to say that Juriscraper has
-scraped tens of millions of court records.
-
-Juriscraper aims to be a unified scraper framework that organizations can use
-to get the latest content from American courts. We hope this tool will be an
-asset to your scraping work and that you'll join us in using it.
+The Reporters Database is written in Python, but is available as JSON or can easily be extended to other languages.
 
 <div className="text-center">
-    <PurpleButton href="https://github.com/freelawproject/eyecite" size="lg">Read More on Github</PurpleButton>
+    <PurpleButton href="https://github.com/freelawproject/reporters-db" size="lg">Read More on Github</PurpleButton>
 </div>
+
+[e]: /projets/eyecite/

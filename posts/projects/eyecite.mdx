@@ -3,25 +3,33 @@ title: Eyecite Citation Extractor
 type: page
 ---
 
+<RightImage imgProps={{
+  src: "/images/icons/eyecite.svg",
+  alt: "Eyecite logo"
+}} height="h-24"/>
 
+Eyecite is a high performance, robust, open source tool for extracting legal citations from text. It has been tested against more than fifty million citations, and is used, among other things, to annotate millions of legal documents in the collections of <Link href="/projects/courtlistener/"><a>CourtListener</a></Link> and the <a href="https://case.law">Caselaw Access Project</a>.
 
+Eyecite was developed in collaboration with the <a href="https://lil.law.harvard.edu/">Harvard Library Innovation Lab</a>.
 
+Eyecite recognizes a wide variety of citations commonly appearing in American legal decisions, including:
 
+Type | Example
+-----|--
+**Full** | Bush v. Gore, 531 U.S. 98, 99-100 (2000)
+**Short** | 531 U.S., at 99
+**Statutory** | Mass. Gen. Laws ch. 1, § 2
+**Law Journal** | 1 Minn. L. Rev. 1
+**Supra** | Bush, supra, at 100
+**id** | Id., at 101
 
-Juriscraper is a scraper library written in Python that gathers judicial opinions, PACER content, and oral arguments from the American court system. It is currently able to scrape:
+Eyecite is powered by our [database of reporters][rdb].
 
-- Opinions from all major appellate Federal courts
-  
-- Opinions from all state courts of last resort (typically their "Supreme Court")
-  
-- Oral arguments from all appellate federal courts that offer them
-  
-- A variety of content from PACER
-
-Jursicraper has a robust test suite and underpins much of the functionality of the CourtListener system. It's no exaggeration to say that Juriscraper has scraped tens of millions of court records. 
-
-Juriscraper aims to be a unified scraper framework that organizations can use to get the latest content from American courts. We hope this tool will be an asset to your scraping work and that you'll join us in using it.
+To learn more about eyecite, read the [whitepaper describing its features in detail][wp] or check it out on Github.
 
 <div className="text-center">
     <PurpleButton href="https://github.com/freelawproject/eyecite" size="lg">Read More on Github</PurpleButton>
 </div>
+
+[rdb]: /projects/reporters-db/
+[wp]: /pdf/eyecite-whitepaper.pdf

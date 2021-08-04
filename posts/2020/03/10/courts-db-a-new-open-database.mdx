@@ -6,18 +6,11 @@ tags: ["courts", "courts-db", "courtlistener", "open data", "history"]
 excerpt: "News: FLP releases first of its kind system for parsing court names and giving courts unique identifiers."
 ---
 
+<CaptionedImage imgProps={{
+  src: "/images/supreme-court-of-mass.jpeg",
+  alt: "John Adams Courthouse"
+}}>One court, many names: The "Supreme Court of Massachusetts", the "Supreme Judicial Court of Massachusetts", "The State of Mass. Supreme Court", the "Massachusetts Supreme Judicial Court", and the list goes on. Courtesy of <a href="https://commons.wikimedia.org/wiki/File:2010_AdamsCourthouse_Boston_4765611709.jpg">Wikipedia</a></CaptionedImage>
 
-<div className="left-image">
-    <a href="https://github.com/freelawproject/courts-db">
-        <img src="/images/supreme-court-of-mass.jpeg"
-             alt="John Adams Courthouse"
-             title="John Adams Courthouse"
-             className="img-responsive border"/>
-    </a>
-    <p className="caption">One court, many names: The "Supreme Court of Massachusetts", the "Supreme Judicial Court of Massachusetts", "The State of Mass. Supreme Court", the "Massachusetts Supreme Judicial Court", and the list goes on. Courtesy of <a href="https://commons.wikimedia.org/wiki/File:2010_AdamsCourthouse_Boston_4765611709.jpg">Wikipedia</a></p>
-</div>
-<div className="clearfix"></div>
- 
  
 Since 2010 when we launched CourtListener, one of our goals has been to build a complete, accurate, and audited collection of open case law. Today that goal takes a major step forward as we announce a new tool we have built to parse court data.
 
@@ -28,14 +21,14 @@ We call our tool the Free Law Project [Courts-DB][courts-db].
 Using Courts-DB, you can easily look up the name of nearly any American court with published cases going back to 1600. We have used this functionality to parse nearly 16 million court names. After doing so, our accuracy at parsing court names stands at 99.998%. (The remaining 0.002% generally requires a human to understand.)
 
 
-<div className="col-xs-5 pull-right col-sm-3 bg-primary">
-    <h3>The Numbers</h3>
-    <p>Tested against <strong>16M</strong> courts</p>
-    <p><strong>17,887</strong> lines of code</p>
-    <p><strong>718</strong> court identifiers</p>
-    <p><strong>361</strong> court websites</p>
-    <p><strong>2,100</strong> regular expressions</p>    
-</div>
+<RightInfoBox border={true}>
+  <h3 className="mt-0 mb-2">The Numbers</h3>
+  <p className="my-0">Tested against <strong>16M</strong> courts</p>
+  <p className="my-0"><strong>17,887</strong> lines of code</p>
+  <p className="my-0"><strong>718</strong> court identifiers</p>
+  <p className="my-0"><strong>361</strong> court websites</p>
+  <p className="my-0"><strong>2,100</strong> regular expressions</p>
+</RightInfoBox>
 
 Courts-DB consists of over 17,000 lines of code and has data about American courts from the 1600s until modern times. Generally, if the court ever had a published case &mdash; and often [even if it did not][msc] &mdash; then that court will be available in Courts-DB. This includes special and limited jurisdiction courts, tribal courts, and even a couple of United States Courts of other countries ([looking at you United States Court for Berlin][berlin]). 
 

@@ -1,27 +1,23 @@
 ---
-title: Eyecite Citation Extractor
+title: Courts Database
 type: page
 ---
 
+<RightImage imgProps={{
+  src: "/images/icons/courts-db.svg",
+  alt: "Court Database logo"
+}} height="h-32" width="w-1/4"/>
 
+<p className="lead">Our Courts Database is a Python library or JSON file that provides structured information about nearly every American court, past or present.</p>
 
+The database has two main purposes. The first is to provide a unified list of court names and identifiers to make legal tools more interoperable. Second, is to use regular expressions to normalize court names into those identifiers.
 
+Using this tool, you can take an unstructured string describing a court and convert it to an identifier you can trust.
 
+The Courts Database was tested against sixteen million court strings, has over 700 court identifiers, and uses over 2,100 hand-crafted regular expressions to do its work.
 
-Juriscraper is a scraper library written in Python that gathers judicial opinions, PACER content, and oral arguments from the American court system. It is currently able to scrape:
-
-- Opinions from all major appellate Federal courts
-  
-- Opinions from all state courts of last resort (typically their "Supreme Court")
-  
-- Oral arguments from all appellate federal courts that offer them
-  
-- A variety of content from PACER
-
-Jursicraper has a robust test suite and underpins much of the functionality of the CourtListener system. It's no exaggeration to say that Juriscraper has scraped tens of millions of court records. 
-
-Juriscraper aims to be a unified scraper framework that organizations can use to get the latest content from American courts. We hope this tool will be an asset to your scraping work and that you'll join us in using it.
+The Courts Database is written in Python, but is available as JSON or can easily be extended to other languages.
 
 <div className="text-center">
-    <PurpleButton href="https://github.com/freelawproject/eyecite" size="lg">Read More on Github</PurpleButton>
+  <PurpleButton href="https://github.com/freelawproject/courts-db" size="lg">Read More on Github</PurpleButton>
 </div>
