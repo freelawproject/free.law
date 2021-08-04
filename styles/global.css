@@ -4,17 +4,25 @@
 @font-face {
     font-family: 'CooperHewitt';
     src: url(/fonts/CooperHewitt-Light.woff) format('woff'),
-    url(/fonts/CooperHewitt-Light.eot) format('embedded-opentype'),
-    url(/fonts/CooperHewitt-Light.svg) format('svg');
+         url(/fonts/CooperHewitt-Light.eot) format('embedded-opentype'),
+         url(/fonts/CooperHewitt-Light.svg) format('svg');
     font-weight: 300;
 }
 
 @font-face {
     font-family: 'CooperHewitt';
     src: url(/fonts/CooperHewitt-Book.woff) format('woff'),
-    url(/fonts/CooperHewitt-Book.eot) format('embedded-opentype'),
-    url(/fonts/CooperHewitt-Book.svg) format('svg');
+         url(/fonts/CooperHewitt-Book.eot) format('embedded-opentype'),
+         url(/fonts/CooperHewitt-Book.svg) format('svg');
     font-weight: 400;
+}
+
+@font-face {
+    font-family: "CooperHewitt";
+    src: url(/fonts/CooperHewitt-Bold.woff) format('woff'),
+         url(/fonts/CooperHewitt-Bold.eot) format('embedded-opentype'),
+         url(/fonts/CooperHewitt-Bold.svg) format('svg');
+    font-weight: 600;
 }
 
 @tailwind utilities;
