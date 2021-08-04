@@ -1,27 +1,11 @@
 import Date from '../components/date';
-import Layout, { ClientPics, PicGrid, PostColumn } from '../components/layout';
+import Layout, { PostColumn } from '../components/layout';
 import { MDXRemote } from 'next-mdx-remote';
 import { getAllPostIds, getPostData, getSortedPostsData } from '../lib/posts';
-import Link from 'next/link';
-import Image from 'next/image';
 import { H1 } from '../components/headings';
-import {
-  AlertBox,
-  CaptionedImage,
-  GridImage,
-  RightImage,
-  RightInfoBox,
-  Tag,
-} from '../components/widgets';
-import Button, {
-  PurpleButton,
-  RedButton,
-  WhiteButton,
-  WideButton,
-  WideWhiteButton,
-} from '../components/button';
-import { CheckIcon, DownloadIcon, HeartIcon } from '@heroicons/react/outline';
+import { Tag } from '../components/widgets';
 import { NextSeo } from 'next-seo';
+import { mdxComponents } from '../lib/mdx';
 
 export async function getStaticProps({ params }) {
   const postData = await getPostData(params.slug);
@@ -42,37 +26,7 @@ export async function getStaticPaths() {
   };
 }
 
-// Any custom components you want rendered from markdown files go here.
-const components = {
-  // NextJS Stuff
-  Image,
-  Link,
-
-  // Blog/page widgets
-  AlertBox,
-  CaptionedImage,
-  ClientPics,
-  GridImage,
-  PicGrid,
-  RightImage,
-  RightInfoBox,
-
-  // Buttons
-  Button,
-  RedButton,
-  PurpleButton,
-  WhiteButton,
-  WideWhiteButton,
-  WideButton,
-
-  // Icons
-  CheckIcon,
-  DownloadIcon,
-  HeartIcon,
-};
-
 export default function Post({ postData, allPostsData }) {
-  console.log(postData);
   return (
     <Layout allPosts={allPostsData} home={false}>
       <NextSeo
@@ -114,7 +68,7 @@ export default function Post({ postData, allPostsData }) {
             ''
           )}
 
-          <MDXRemote {...postData.content} components={components} />
+          <MDXRemote {...postData.content} components={mdxComponents} />
           {postData.tags ? (
             <div className="flex flex-wrap gap-1.5 pt-5">
               <span className="text-gray-500">Tagged:</span>
