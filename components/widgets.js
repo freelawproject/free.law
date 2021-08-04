@@ -14,7 +14,7 @@ export function GridListItem({ heading, imgProps, border, bg, href, children }) 
     >
       <div className={border ? 'p-5' : ''}>
         {imgProps ? (
-          <div className="m-5 mb-10 w-full h-32 relative">
+          <div className="mt-5 mb-10 w-full h-32 relative">
             <Image {...imgProps} layout="fill" />
           </div>
         ) : (
