@@ -148,7 +148,7 @@ const topPosts = [
 
 export default function Navbar({ allPosts }) {
   return (
-    <Popover className="relative bg-purple-900 border-b-2 border-indigo-400">
+    <Popover className="relative bg-purple-900 border-b-2 border-indigo-700">
       {({ open }) => (
         <>
           <div className="max-w-7xl mx-auto px-4 sm:px-6">

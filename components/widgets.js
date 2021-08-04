@@ -111,7 +111,7 @@ export function CaptionedImage({ imgProps, href, border, children }) {
       {href ? (
         <Link href={href}>
           <a>
-            <img {...imgProps} className="border" />
+            <img {...imgProps} className={classNames({ border: border }, 'mb-0')} />
           </a>
         </Link>
       ) : (

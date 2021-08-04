@@ -22,10 +22,6 @@ export function MainColumn({ children }) {
 }
 
 export function MainFullBleedColumn({ bgClasses, children }) {
-  // let classes = "-ml-4 sm:-ml-6 md:-ml-10 w-full-bleed-4 sm:w-full-bleed-6 md:w-full-bleed-10 "
-  // if (bgClasses) {
-  //   classes += bgClasses
-  // }
   return (
     <section className={bgClasses}>
       <MainColumn>{children}</MainColumn>
