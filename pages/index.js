@@ -42,7 +42,7 @@ export default function Home({ allPostsData }) {
                 is our tool to put federal court documents in your&nbsp;hands.
               </H2>
             </div>
-            <div className="hidden sm:block justify-end sm:w-1/2 pl-8 pt-5">
+            <div className="hidden sm:flex justify-end sm:w-1/2 pl-8 pt-5">
               <Image
                 src="/images/homepage/recap.png"
                 alt="The RECAP logo"
