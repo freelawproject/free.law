@@ -1,27 +1,46 @@
 ---
-title: Eyecite Citation Extractor
+title: CourtListener Research and Awareness Website
 type: page
 ---
 
+<RightImage imgProps={{
+  src: "/images/homepage/courtlistener-stacked.svg",
+  alt: "The CourtListener logo"
+}} height="h-12" border={false}/>
 
+[CourtListener.com][cl] is our flagship project, and is the home of many of our other projects, including:
 
+ - [**Eyecite**][eye] and [**Reporters Database**][rdb] our tools for pulling citations out of text;
 
+ - [**Juriscraper**][js], our tool for gathering opinions and filings from court websites;
 
+ - [**The RECAP Archive**][recap], a collection of tens of millions of searchable federal court documents;
 
-Juriscraper is a scraper library written in Python that gathers judicial opinions, PACER content, and oral arguments from the American court system. It is currently able to scrape:
+ - [**The Judge DB**][jdb], where we have structured data about thousands of judges; and
 
-- Opinions from all major appellate Federal courts
-  
-- Opinions from all state courts of last resort (typically their "Supreme Court")
-  
-- Oral arguments from all appellate federal courts that offer them
-  
-- A variety of content from PACER
+ - [**Our Oral Argument Database**][oa], the largest collection of court recordings online.
 
-Jursicraper has a robust test suite and underpins much of the functionality of the CourtListener system. It's no exaggeration to say that Juriscraper has scraped tens of millions of court records. 
+CourtListener is fully searchable and can be used to research [opinions][op], [federal court filings][cl-recap], [judges][cl-jdb], or [oral argument recordings][audio].
 
-Juriscraper aims to be a unified scraper framework that organizations can use to get the latest content from American courts. We hope this tool will be an asset to your scraping work and that you'll join us in using it.
+On a good day, CourtListener gets tens of thousands of new items added to it, it sends hundreds of [alerts][alerts] to users monitoring cases or search terms, and it serves over a million people.
+
+Finally, for developers, CourtListener is where we have our [APIs and database replication][api]. These powerful tools help journalists, researchers, and organizations our data to build the next generation of technology.
 
 <div className="text-center">
-    <PurpleButton href="https://github.com/freelawproject/eyecite" size="lg">Read More on Github</PurpleButton>
+  <PurpleButton href="https://www.courtlistener.com/" size="lg">Visit CourtListener.com</PurpleButton>
 </div>
+
+
+[audio]: https://www.courtlistener.com/audio/
+[alerts]: https://www.courtlistener.com/help/alerts/
+[api]: https://www.courtlistener.com/api/
+[op]: https://www.courtlistener.com/opinion/
+[cl-jdb]: https://www.courtlistener.com/person/
+[cl-recap]: https://www.courtlistener.com/recap/
+[cl]: https://www.courtlistener.com/
+[jdb]: /projects/judge-db/
+[recap]: /recap/
+[oa]:  /projects/oral-arguments/
+[rdb]:  /projects/reporters-db/
+[eye]:  /projects/eyecite/
+[js]: /projects/juriscraper/
