@@ -19,6 +19,7 @@
     "@tailwindcss/typography": "^0.4.1",
     "classnames": "^2.3.1",
     "date-fns": "^2.22.1",
+    "feed": "^4.2.2",
     "glob": "^7.1.7",
     "gray-matter": "^4.0.3",
     "next": "^11.0.1",
