@@ -94,6 +94,14 @@ export default function App({ Component, pageProps }) {
             href: '/safari-pinned-tab.svg',
             color: '#1d333a',
           },
+
+          // RSS
+          {
+            rel: 'alternate',
+            href: 'https://free.law/feeds/all.atom.xml',
+            type: 'application/atom+xml',
+            title: 'Free Law Project Atom Feed',
+          },
         ]}
         additionalMetaTags={[
           {

@@ -1,4 +1,3 @@
-import Head from 'next/head';
 import Link from 'next/link';
 import Script from 'next/script';
 import Navbar from './navbar';
@@ -65,10 +64,6 @@ export function PostSummary({ post }) {
 export default function Layout({ children, home, allPosts }) {
   return (
     <div className="text-gray-800 font-display">
-      <Head>
-        <link rel="icon" href="/favicon.ico"/>
-      </Head>
-
       <Navbar allPosts={allPosts} />
 
       {children}
