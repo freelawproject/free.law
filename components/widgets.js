@@ -83,24 +83,24 @@ export function RightInfoBox({ children, width }) {
   );
 }
 
-export function RightImage({ children, imgProps, width, height }) {
+export function RightImage({ children, imgProps, width, height, border }) {
   const classes = classNames(
     {
       'float-right pb-5 sm:pl-4 relative': true,
-      'w-1/3': !width,
-      'h-12': !height,
     },
-    width,
-    height
+    width ? width : ' w-1/3',
+    height ? height : 'h-12'
   );
   return (
     <div className={classes}>
-      <CaptionedImage imgProps={imgProps}>{children}</CaptionedImage>
+      <CaptionedImage imgProps={imgProps} border={border}>
+        {children}
+      </CaptionedImage>
     </div>
   );
 }
 
-export function CaptionedImage({ imgProps, href, children }) {
+export function CaptionedImage({ imgProps, href, border, children }) {
   return (
     <figure className="m-0">
       {href ? (
@@ -110,7 +110,7 @@ export function CaptionedImage({ imgProps, href, children }) {
           </a>
         </Link>
       ) : (
-        <img {...imgProps} className="border" />
+        <img {...imgProps} className={classNames({ border: border })} />
       )}
       <figcaption>
         {children} {href ? '(Click for more detail.)' : ''}
