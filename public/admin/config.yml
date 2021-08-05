@@ -4,13 +4,13 @@ backend:
 publish_mode: editorial_workflow
 media_folder: "public/images/uploads"
 public_folder: "/images/uploads"
-extension: mdx
-format: frontmatter
 
 collections:
  - name: "post"
    label: "Blog post"
    folder: "posts"
+   extension: mdx
+   format: frontmatter
    create: true
    slug: "{{year}}/{{month}}/{{day}}/{{slug}}"
    fields:
@@ -25,6 +25,8 @@ collections:
  - name: "page"
    label: "Static page"
    folder: "posts"
+   extension: mdx
+   format: frontmatter
    create: true
    slug: "{{slug}}"
    fields:
