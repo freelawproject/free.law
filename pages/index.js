@@ -374,7 +374,7 @@ export default function Home({ allPostsData }) {
 
             <ClientPics wide={true} />
 
-            <div className="justify-center flex">
+            <div className="justify-center flex pt-8">
               <PurpleButton size="lg" href="/data-consulting/">
                 Learn about our Data Services
               </PurpleButton>

@@ -217,7 +217,7 @@ export default function Navbar({ allPosts }) {
                                 >
                                   {item.icon ? (
                                     <item.icon
-                                      className="flex-shrink-0 h-6 w-6 text-indigo-600"
+                                      className="flex-shrink-0 h-6 w-6 text-gray-400"
                                       aria-hidden="true"
                                     />
                                   ) : (
