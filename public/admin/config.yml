@@ -1,0 +1,36 @@
+backend:
+  name: git-gateway
+  branch: main
+publish_mode: editorial_workflow
+media_folder: "public/images/uploads"
+public_folder: "/images/uploads"
+
+collections:
+ - name: "post"
+   label: "Blog post"
+   folder: "posts"
+   create: true
+   slug: "{{year}}/{{month}}/{{day}}/{{slug}}
+   fields:
+    - {label: "Title", name: "title", widget: "string", hint: "The title of your blog post"}
+    - {label: "Date", name: "date", widget: "datetime", time_format: false,
+       date_format: "YYYY-MM-DD", hint: "When you published it"}
+    - {label: "Updated", name: "updated", widget: "datetime", required: false,
+       date_format: "YYYY-MM-DD", time_format: false,
+       hint: "When you last updated it\, if applicable"}
+    - {label: "Private", name: "private", widget: "boolean", required: false, hint: "Set to true if you want this page to not be in Google results."}
+    - {label: "Tags", name: "tags", widget: "list", default: "", min: 3, max: 10}
+    - {label: "Excerpt", name: "excerpt", widget: "string", hint: "A summary of the post"}
+    - {label: "Body", name: "body", widget: "markdown"}
+
+ - name: "page"
+   label: "Static page"
+   folder: "posts"
+   create: true
+   slug: {{slug}}
+   fields:
+    - {label: "Type": name: "type", default: "page", widget: "hidden"}
+    - {label: "Title", name: "title", widget: "string", hint: "The title of your blog post"}
+    - {label: "Private", name: "private", widget: "boolean", required: false, hint: "Set to true if you want this page to not be in Google results."}
+    - {label: "Excerpt", name: "excerpt", widget: "string", hint: "A summary of the post"}
+    - {label: "Body", name: "body", widget: "markdown"}
