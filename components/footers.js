@@ -76,7 +76,7 @@ export function Footer({ recentPost }) {
               Data <span className="hidden lg:inline">Services and </span>Consulting
             </FooterLink>
             <FooterLink href="/pacer-facts/">PACER Fact Sheet</FooterLink>
-            <FooterLink href="/idb-facts/">FJC IDB Fact Sheet</FooterLink>
+            <FooterLink href="/idb-facts/">Integrated Database Fact Sheet</FooterLink>
           </div>
           <div className="pb-3">
             <H5>Support FLP</H5>

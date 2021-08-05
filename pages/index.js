@@ -141,7 +141,7 @@ export default function Home({ allPostsData }) {
                 </p>
                 <p>
                   We gather more opinions from state and federal courts every day, and hope to soon
-                  host the first open and complete collection of American case&nbsp;law.
+                  host the first open and comprehensive collection of American case&nbsp;law.
                 </p>
               </GridListItem>
               <GridListItem heading="PACER Filings and Dockets" bg="bg-transparent">
@@ -150,8 +150,8 @@ export default function Home({ allPostsData }) {
                   <Link href="https://www.courtlistener.com/recap/">
                     <a className="underline">the largest free collection</a>
                   </Link>{' '}
-                  of federal court documents and dockets on the Internet and our collection grows
-                  every day.
+                  of federal court documents and dockets on the Internet. Our collection grows every
+                  day.
                 </p>
                 <p>Everything we have is fully searchable and accessible on CourtListener.</p>
               </GridListItem>
@@ -187,8 +187,8 @@ export default function Home({ allPostsData }) {
               </GridListItem>
               <GridListItem heading="APIs and Bulk Data" bg="bg-transparent">
                 <p>
-                  We provide numerous journalists, researchers, startups, and individuals with
-                  automated access to nearly all of our data{' '}
+                  We provide journalists, researchers, startups, and individuals with automated
+                  access to nearly all of our data{' '}
                   <Link href="https://www.courtlistener.com/api/">
                     <a className="underline">
                       via APIs, bulk data files, and database&nbsp;replication
@@ -196,9 +196,7 @@ export default function Home({ allPostsData }) {
                   </Link>
                   .
                 </p>
-                <p>
-                  This gives innovators, researchers, and the public a jump start on their work.
-                </p>
+                <p>This gives innovators, researchers, and the public a jumpstart on their work.</p>
               </GridListItem>
               <GridListItem heading="Permanent Preservation" bg="bg-transparent">
                 <p>
@@ -206,7 +204,7 @@ export default function Home({ allPostsData }) {
                   <Link href="https://archive.org">
                     <a className="underline">Internet Archive</a>
                   </Link>{' '}
-                  around the clock so that no matter what happens, important court records will
+                  around the clock, so that no matter what happens, important court records will
                   always be&nbsp;available.
                 </p>
               </GridListItem>
@@ -233,9 +231,9 @@ export default function Home({ allPostsData }) {
               <H2>Legal Advocacy</H2>
               <p className="text-left pt-5">
                 We work to make the legal system better by changing it from within. Among our
-                initiatives is legislation to make PACER free, early research into a FOIA-like law
-                for the federal judicial branch, court-by-court efforts to open up legal data, and
-                several pushes to support public access to court&nbsp;records.
+                initiatives are legislation to make PACER free, early research into a FOIA-like law
+                for the federal judicial branch, court-by-court efforts to open legal data, and
+                pushes to support public access to court&nbsp;records.
               </p>
             </div>
           </section>
@@ -246,11 +244,11 @@ export default function Home({ allPostsData }) {
             </div>
             <div className="w-full pt-3 pb-5 text-gray-700">
               <H3>
-                To spur innovation in the legal ecosystem, all of our work is open source and freely
+                To spur innovation in the legal ecosystem, our work is open source and freely
                 available. These tools give organizations and researchers a launchpad for
                 their&nbsp;innovation.{' '}
                 <Link href="https://github.com/freelawproject/">
-                  <a className="underline">View all of our tools on Github</a>
+                  <a className="underline">View our tools on Github</a>
                 </Link>
                 .
               </H3>
@@ -267,7 +265,7 @@ export default function Home({ allPostsData }) {
               >
                 <p>
                   We provide APIs for opinions, filings, judges, financial disclosures, and more.
-                  For power users we share our whole database updated in&nbsp;realtime.
+                  For power users, we share our entire database, updated in&nbsp;realtime.
                 </p>
               </GridListItem>
               <GridListItem
@@ -346,10 +344,10 @@ export default function Home({ allPostsData }) {
               </GridListItem>
               <GridListItem
                 border={true}
-                heading="Judge Database"
+                heading="Judges Database"
                 imgProps={{
                   src: '/images/icons/judge-db.svg',
-                  alt: 'Judge database logo',
+                  alt: 'Judges database logo',
                 }}
                 href="/projects/judge-db/"
               >
