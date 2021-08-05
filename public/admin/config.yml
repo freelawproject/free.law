@@ -15,7 +15,7 @@ collections:
    fields:
     - {label: "Title", name: "title", widget: "string", hint: "The title of your blog post"}
     - {label: "Date", name: "date", widget: "datetime", time_format: false, date_format: "YYYY-MM-DD", hint: "When you published it"}
-    - {label: "Updated", name: "updated", widget: "datetime", required: false, date_format: "YYYY-MM-DD", time_format: false, hint: "When you last updated it\, if applicable"}
+    - {label: "Updated", name: "updated", widget: "datetime", required: false, date_format: "YYYY-MM-DD", time_format: false, hint: "When you last updated it if applicable"}
     - {label: "Private", name: "private", widget: "boolean", required: false, hint: "Set to true if you want this page to not be in Google results."}
     - {label: "Tags", name: "tags", widget: "list", default: "", min: 3, max: 10}
     - {label: "Excerpt", name: "excerpt", widget: "string", hint: "A summary of the post"}
