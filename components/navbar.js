@@ -180,7 +180,7 @@ export default function Navbar({ allPosts }) {
                       <Popover.Button
                         className={classNames(
                           open ? 'text-gray-300' : 'text-gray-100',
-                          'group rounded-md inline-flex items-center text-xs uppercase font-medium hover:text-gray-300 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500'
+                          'group rounded-md inline-flex items-center text-xs uppercase font-medium hover:text-gray-300 focus:outline-none focus:ring-2 focus:ring-offset-4 focus:ring-offset-purple-900 focus:ring-indigo-500'
                         )}
                       >
                         <span>Projects</span>
@@ -266,7 +266,7 @@ export default function Navbar({ allPosts }) {
                       <Popover.Button
                         className={classNames(
                           open ? 'text-gray-300' : 'text-gray-100',
-                          'group rounded-md inline-flex items-center text-xs uppercase font-medium hover:text-gray-300 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500'
+                          'group rounded-md inline-flex items-center text-xs uppercase font-medium hover:text-gray-300 focus:outline-none focus:ring-2 focus:ring-offset-4 focus:ring-offset-purple-900 focus:ring-indigo-500'
                         )}
                       >
                         <span>Tools</span>
@@ -351,7 +351,7 @@ export default function Navbar({ allPosts }) {
                       <Popover.Button
                         className={classNames(
                           open ? 'text-gray-300' : 'text-gray-100',
-                          'group rounded-md inline-flex items-center text-xs uppercase font-medium hover:text-gray-300 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500'
+                          'group rounded-md inline-flex items-center text-xs uppercase font-medium hover:text-gray-300 focus:outline-none focus:ring-2 focus:ring-offset-4 focus:ring-offset-purple-900 focus:ring-indigo-500'
                         )}
                       >
                         <span>Datasets</span>
@@ -420,7 +420,7 @@ export default function Navbar({ allPosts }) {
                       <Popover.Button
                         className={classNames(
                           open ? 'text-gray-300' : 'text-gray-100',
-                          'group rounded-md inline-flex items-center text-xs uppercase hover:text-gray-300 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500'
+                          'group rounded-md inline-flex items-center text-xs uppercase hover:text-gray-300 focus:outline-none focus:ring-2 focus:ring-offset-4 focus:ring-offset-purple-900 focus:ring-indigo-500'
                         )}
                       >
                         <span>Blog</span>
