@@ -8,7 +8,7 @@ public_folder: "/images/uploads"
 collections:
  - name: "post"
    label: "Blog post"
-   filter: {field: "type", value: ""}
+   filter: {field: "type", value: null}
    folder: "posts"
    extension: mdx
    format: frontmatter
