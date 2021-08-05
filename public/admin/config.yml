@@ -15,13 +15,14 @@ collections:
    slug: "{{year}}/{{month}}/{{day}}/{{slug}}"
    preview_path: "{{slug}}"
    fields:
-    - {label: "Title", name: "title", widget: "string", hint: "The title of your blog post"}
+    - {label: "Title", name: "title", widget: "string", hint: "The title of your blog post (use title case)"}
     - {label: "Date", name: "date", widget: "datetime", time_format: false, date_format: "YYYY-MM-DD", hint: "When you published it", default: ""}
     - {label: "Updated", name: "updated", widget: "datetime", required: false, date_format: "YYYY-MM-DD", time_format: false, default: "", hint: "When you last updated it if applicable"}
     - {label: "Private", name: "private", widget: "boolean", required: false, hint: "Set to true if you want this page to not be in Google results."}
+    - {label: "Author", name: "author", widget: "string", hint: "Your full name or a comma-separated list of full names"}
     - {label: "Tags", name: "tags", widget: "list", default: "", min: 3, max: 10, hint: "Add tags as CSV's"}
-    - {label: "Excerpt", name: "excerpt", widget: "string", hint: "A one-sentence summary of the post to appear in various places."}
     - {label: "Body", name: "body", widget: "markdown"}
+    - {label: "Excerpt", name: "excerpt", widget: "string", hint: "A one-sentence summary of the post to appear in various places."}
 
  - name: "page"
    label: "Static page"
@@ -34,7 +35,7 @@ collections:
    preview_path: "{{slug}}"
    fields:
     - {label: "Type", name: "type", default: "page", widget: "hidden"}
-    - {label: "Title", name: "title", widget: "string", hint: "The title of your blog post"}
+    - {label: "Title", name: "title", widget: "string", hint: "The title of your page (use title case)"}
     - {label: "Private", name: "private", widget: "boolean", required: false, hint: "Set to true if you want this page to not be in Google results."}
-    - {label: "Excerpt", name: "excerpt", widget: "string", hint: "A one-sentence summary of the post to appear in various places."}
     - {label: "Body", name: "body", widget: "markdown"}
+    - {label: "Excerpt", name: "excerpt", widget: "string", hint: "A one-sentence summary of the post to appear in various places."}
