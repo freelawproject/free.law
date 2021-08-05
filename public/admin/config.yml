@@ -27,7 +27,7 @@ collections:
    create: true
    slug: "{{slug}}"
    fields:
-    - {label: "Type": name: "type", default: "page", widget: "hidden"}
+    - {label: "Type", name: "type", default: "page", widget: "hidden"}
     - {label: "Title", name: "title", widget: "string", hint: "The title of your blog post"}
     - {label: "Private", name: "private", widget: "boolean", required: false, hint: "Set to true if you want this page to not be in Google results."}
     - {label: "Excerpt", name: "excerpt", widget: "string", hint: "A summary of the post"}
