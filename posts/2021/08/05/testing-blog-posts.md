@@ -11,4 +11,4 @@ excerpt: This is a test post to see hwo this hwhole thing works
 ---
 I'm really not sure...does it work?
 
-![an elephant](https://upload.wikimedia.org/wikipedia/commons/1/1a/Elephant_Diversity.jpg "from Wikipedia")
+![an elephant](/images/uploads/selection_001.png "from Wikipedia")
