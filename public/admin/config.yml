@@ -1,5 +1,6 @@
 backend:
-  name: git-gateway
+  name: github
+  repo: freelawproject/free.law
   branch: main
 publish_mode: editorial_workflow
 media_folder: "public/images/uploads"
