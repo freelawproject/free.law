@@ -1,171 +1,53 @@
+[![Netlify Status](https://api.netlify.com/api/v1/badges/5db38bce-71a3-4c1f-b744-fa69bc93637f/deploy-status)](https://app.netlify.com/sites/freelaw/deploys)
+
 # Free Law Project Website
 
 This is [the website for Free Law Project][fl]. Like the rest of our work, it is developed in the open and can be edited by other people, like you. See a typo? Fix it! Want to make the site look better? Go for it!
 
-This site uses the [Pelican static site generator][pelican], which means that there is no database, no dynamic code on the site, aside from what JavaScript can do in your browser. The entire site is here -- in Github -- and you can render it yourself, work on it locally, and even host it on your own server if you wanted to (though we'd send our shark lawyers after you).
+This is the third version of our homepage. The first was built with WordPress and hosted on one of our servers. The second was made with the [Pelican static site generator][pelican],and was hosted in AWS S3. This version uses NextJS + Tailwind and is hosted on Netlify. There's no clear trend here. WordPress was too heavy and full of vulnerabilities, leading to its demise. Pelican was fine, but we never got past the templates. NextJS on Netlify should give us a beautiful, fast static site.
+
+NextJS is a JavaScript-based static site generator. This means that there is no database, and back end for the site. The entire site is here -- in Github -- and you can render it yourself, work on it locally, and even host it on your own server if you wanted to (though we'd send our shark lawyers after you).
+
+We encourage you to edit and enhance the site! 
 
 
 ## Installation
 
-If you want to work on the site, the thing to do is install the dependencies. All of them are Python dependencies, so if you have Python installed, you can probably do this pretty quickly.
-
-1. Optional but recommended: Make a virtualenv and activate it.
-
-    If you don't know how to do this or why you'd want to, it's something that you'll want to learn eventually, but you can probably skip this step if you just want to get to blogging. Skipping this step may cause problems, but probably won't. If you want to learn more about virtualenv and its virtues, [it's a pretty quick read][venv]. I also recommend [virtualenvwrapper][wrap], which makes virtualenv easier to use. It's not essential though.
-
-1. Download this repository:
-
-    If you don't have [Git][g], install it, then run:
-
-        git clone https://github.com/freelawproject/free.law.git
-
-1. Install the requirements file:
-
-    If you're using virtualenv, make sure it's activated, then:
-
-        cd free.law
-        pip install -r requirements.txt
-
-1. Install the `pelican-plugins` in a directory next to your current directory.
-
-        cd ..
-        git clone https://github.com/getpelican/pelican-plugins.git
-
-    You will now have all the dependencies installed.
-
-1. Most people can skip this step, but if you're somebody that has permission to push the content to Amazon, configure the two Amazon tools by running:
-
-        s3cmd --configure
-
-    This will ask for your Access Key and Secret key, [which are at this link][keys].
-
-    Configure the second tool with:
-
-        aws configure
-
-    Tell it your access and secret keys as well, and leave the region and output format blank. Then enable preview features by running:
-
-        aws configure set preview.cloudfront true
-
-You're done!
+    npm install
+    npm run dev
 
 
 ## Writing a post or a page
 
-Posts are easy to write, but to make it even easier, there's [a template called example.md][ex]. Make a copy of that file with a descriptive name and put it in the `content` directory &mdash; If you're doing a blog post, you can usually just put it directly in the `content` directory; pages go in the `pages` directory. Pages usually get a custom slug instead of having it auto-generated from their title (see other examples). 
- 
-With that in place, write your post [in markdown][md] in that file and generate the HTML when you think your post is ready (read on for how to do that).
+Pages are stored in the `posts` directory as `.mdx` files. `.mdx` files are basically markdown, but with support for react components as well as HTML. This lets you do neat things like embed sidebars or warnings or other things into your posts. We have a number of components available to you, which are listed in `lib/mdx.js`. Others are pretty easy to make, but most folks can ignore this stuff anyway and just write markdown posts.
 
-You should put some tags on your post. Unfortunately there's no easy way to skim our existing tags, but you can grep the code for ideas or just go for it and we'll just live with it being a messy [folksonomy][f]. After you've created the content once, you can look in the `output/tag` directory, where all the existing tags are listed, if you care. Not a big deal here.
+There are three options for editing or creating new pages, listed below. For each of these, after you make your edits, you'll wind up with a pull request in Github. Whenever you create a pull request, Netlify will create a deploy of the site showing your change. Watch Github for it to chime in on your pull request. It's pretty slick.
 
 Finally, it should go without saying, but if you see something on the live site that you want to replicate, just search through this repository for words in the post and you'll find the markdown file that made that page.
 
 
-## Generating HTML Content from Markdown Files
+### 1. On Github
 
-If you want to see your work, activate your virtualenv if you're using one, get yourself into the root of this repository, then run a command like:
+To edit on github, pull up a file and edit it. When you're done, make a pull request and let Netlify make a deploy.
 
-    pelican content -s pelicanconf.py -d -r
+Choose this if you want to make small changes and are technical.
 
-This will use the development settings (`-s pelicanconf.py`) to delete the output directory before recreating it (`-d`), and will automatically regenerate the content whenever it changes (`-r`).
+### 2. Via Netlify CMS
 
-Once the generation is done, the content is in the `output` directory. If you're writing a draft, it will be in the `output/drafts` folder.
+We have Netlify CMS set up here:
 
-Feel free to look at the other options the `pelican` command provides. Some, like caching, are pretty useful.
+https://free.law/admin/index.html
 
+Go there, if you like, and log in using Github. Once there, you can edit and create pages using a GUI, and it will generate pull requests for you. It's neat.
 
-### Making it fast
+Use this if you're less technical or don't want to see the guts.
 
-We've got about 150 pages and each of them generates a few pages. Regenerating all of that can be frustrating. There are a few tricks:
+### 3. On your computer
 
-1. Pelican 4.2 [is currently broken][bah], but once it's fixed, you should be able to only generate the pages you are working on with something like:
+If you're working on your computer, there's a file called example.js. Make a copy of it, edit it, and you're off to the races.
 
-        --write-selected 'output/legal-api-downloader/index.html'
-        
-    or
-    
-        --write-selected 'output/drafts/some-long-slug/index.html'
-         
-    or
-    
-        --writes-selected 'output/2019/12/22/some-long-slug/index.html'
-        
-2. By default we use a couple performance tweaks in our settings
-
-        CACHE_CONTENT = True
-        LOAD_CONTENT_CACHE = True 
-        STATIC_CHECK_IF_MODIFIED = True
-
-    There's also `STATIC_CREATE_LINKS`, which might be worth experimenting with, but it seems buggy.
-
-[bah]: https://github.com/getpelican/pelican/issues/2678
-
-    
-
-## Running a development server
-
-To see the content in your browser, run your generation command with:
-
-    --listen --port 8080
-
-That will run a little server on your computer that you can visit at http://localhost:8080. When you do, it should look pretty much exactly like what's on https://free.law. 
+Use this if you want to get serious. 
 
 
-## Tweaking the default theme
-
-All of its code is in the `themes` directory. Go for it.
-
-
-## Pushing content to Amazon (Publishing Your Work)
-
-To publish your post, simply run:
-
-    make s3_upload
-
-This will regenerate the site using the `publishconf.py` file, then will sync it with Amazon, pushing anything new and deleting anything old.
-
-Note that if you're updating an item, you may have to wait for cache invalidation to occur before you'll see your changes. The cache is cleared automatically when you run `s3_upload`, but it can take a few minutes (sometimes up to ten) for the cache to clear everywhere.
-
-
-# Infrastructure
-
-There are a lot of pieces in this puzzle, so this is where they are documented. The set up that we have was [inspired greatly by the post here][1].
-
-Requests to the naked domain do this:
-
-    Route 53 (DNS) --> CloudFront Distribution --> S3 Bucket (free.law)
-
-Requests to the www subdomain (hopefully a corner case) do this:
-
-    Route 53 (DNS) --> CloudFront WWW Distribution -->
-    S3 Bucket (www.free.law) --> Redirects to naked domain --> Route 53 -->
-    CloudFront Distribution (Redirects HTTP to HTTPS) --> S3 Bucket (free.law)
-
-This means that there are essentially two parallel set ups for DNS (Route 53), Content Distribution (CloudFront) and File Serving (S3). Redirections from HTTP to HTTPS are configured in CloudFront. Redirections from www happen in an empty S3 bucket specifically for this purpose.
-
-SSL is configured in Amazon Certificate Manager (ACM), which will handle auto-renewals and hopefully everything else.
-
-Finally, additional security-related headers are inserted via a lambda@edge CloudFront function, [as described here][lambda].
-
-All in all, this is a pretty killer set up. Most clients will get served by CloudFront and it will be incredibly fast with decent security headers. Clients that go to http://www.free.law will suffer three redirections:
-
- - First they get redirected to https://www.free.law
- - Then they get redirected to http://free.law
- - Finally, they get redirected to https://free.law
-
-Life is hard for these people.
-
-There is another weak point in this configuration. The connection between CloudFront and S3 is *not* encrypted. Pretty lame, but the reason for this is that you have to use the Static Site URL as the Origin that feeds into CloudFront, and that URL doesn't support SSL even though the S3 URLs do.
-
-
-[1]: https://olivermak.es/2016/01/aws-tls-certificate-with-jekyll/
 [fl]: https://free.law
-[keys]: https://console.aws.amazon.com/iam/home?region=us-west-2#security_credential
 [pelican]: https://github.com/getpelican/pelican/
-[venv]: https://virtualenv.pypa.io/en/latest/
-[wrap]: https://virtualenvwrapper.readthedocs.org/en/latest/
-[g]: https://git-scm.com/
-[ex]: https://github.com/freelawproject/free.law/blob/master/example.md
-[md]: https://courtlistener.com/help/markdown/
-[f]: https://en.wikipedia.org/wiki/Folksonomy
-[lambda]: https://aws.amazon.com/blogs/networking-and-content-delivery/adding-http-security-headers-using-lambdaedge-and-amazon-cloudfront/
