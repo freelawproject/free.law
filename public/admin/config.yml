@@ -8,12 +8,12 @@ public_folder: "/images/uploads"
 collections:
  - name: "post"
    label: "Blog post"
-   filter: {field: "type", value: null}
    folder: "posts"
    extension: mdx
    format: frontmatter
    create: true
    slug: "{{year}}/{{month}}/{{day}}/{{slug}}"
+   preview_path: "{{slug}}"
    fields:
     - {label: "Title", name: "title", widget: "string", hint: "The title of your blog post"}
     - {label: "Date", name: "date", widget: "datetime", time_format: false, date_format: "YYYY-MM-DD", hint: "When you published it", default: ""}
@@ -31,6 +31,7 @@ collections:
    format: frontmatter
    create: true
    slug: "{{slug}}"
+   preview_path: "{{slug}}"
    fields:
     - {label: "Type", name: "type", default: "page", widget: "hidden"}
     - {label: "Title", name: "title", widget: "string", hint: "The title of your blog post"}
