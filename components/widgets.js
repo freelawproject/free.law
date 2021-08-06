@@ -4,6 +4,7 @@ import { H4 } from './headings';
 import Button, { PurpleButton } from './button';
 import slugify from 'slugify';
 import classNames from 'classnames';
+import { ArrowCircleRightIcon } from '@heroicons/react/outline';
 
 export function GridListItem({ heading, imgProps, border, bg, href, children }) {
   return (
@@ -121,5 +122,24 @@ export function CaptionedImage({ imgProps, href, border, children }) {
         {children} {href ? '(Click for more detail.)' : ''}
       </figcaption>
     </figure>
+  );
+}
+
+export function DropDownCallToAction({ href, children }) {
+  return (
+    <div className="px-5 py-5 bg-gray-50 space-y-6 sm:flex sm:space-y-0 sm:space-x-10 sm:px-8">
+      <div className="flow-root">
+        <a
+          href={href}
+          className="-m-3 p-3 flex items-center rounded-md text-base font-medium text-gray-900 hover:bg-gray-100"
+        >
+          <ArrowCircleRightIcon
+            className="flex-shrink-0 h-7 w-7 text-gray-400"
+            aria-hidden="true"
+          />
+          <span className="ml-3">{children}</span>
+        </a>
+      </div>
+    </div>
   );
 }

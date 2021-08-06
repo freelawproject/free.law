@@ -1,7 +1,6 @@
 import { Fragment } from 'react';
 import { Popover, Transition } from '@headlessui/react';
 import {
-  ArrowCircleRightIcon,
   BadgeCheckIcon,
   CodeIcon,
   DownloadIcon,
@@ -18,6 +17,7 @@ import Link from 'next/link';
 import Image from 'next/image';
 import { RedButton, WhiteButton } from './button';
 import classNames from 'classnames';
+import { DropDownCallToAction } from './widgets';
 
 const projects = [
   {
@@ -70,13 +70,6 @@ const tools = [
       'A robust and performant open source library to find and annotate citations in any legal text.',
     href: '/projects/eyecite/',
     imgSrc: '/images/icons/eyecite.svg',
-  },
-];
-const toolCallsToAction = [
-  {
-    name: 'View More Projects on Github',
-    href: 'https://github.com/freelawproject/',
-    icon: ArrowCircleRightIcon,
   },
 ];
 const datasets = [
@@ -322,22 +315,9 @@ export default function Navbar({ allPosts }) {
                                 </a>
                               ))}
                             </div>
-                            <div className="px-5 py-5 bg-gray-50 space-y-6 sm:flex sm:space-y-0 sm:space-x-10 sm:px-8">
-                              {toolCallsToAction.map((item) => (
-                                <div key={item.name} className="flow-root">
-                                  <a
-                                    href={item.href}
-                                    className="-m-3 p-3 flex items-center rounded-md text-base font-medium text-gray-900 hover:bg-gray-100"
-                                  >
-                                    <item.icon
-                                      className="flex-shrink-0 h-7 w-7 text-gray-400"
-                                      aria-hidden="true"
-                                    />
-                                    <span className="ml-3">{item.name}</span>
-                                  </a>
-                                </div>
-                              ))}
-                            </div>
+                            <DropDownCallToAction href="https://github.com/freelawproject/">
+                              View More Projects on Github
+                            </DropDownCallToAction>
                           </div>
                         </Popover.Panel>
                       </Transition>
@@ -488,15 +468,10 @@ export default function Navbar({ allPosts }) {
                                   ))}
                                 </ul>
                               </div>
-                              <div className="mt-5 text-sm">
-                                <Link href="/blog/">
-                                  <a className="font-medium text-indigo-600 hover:text-indigo-500">
-                                    {' '}
-                                    View all posts <span aria-hidden="true">&rarr;</span>
-                                  </a>
-                                </Link>
-                              </div>
                             </div>
+                            <DropDownCallToAction href="/blog">
+                              Read the Full Blog
+                            </DropDownCallToAction>
                           </div>
                         </Popover.Panel>
                       </Transition>
