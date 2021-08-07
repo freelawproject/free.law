@@ -5,7 +5,7 @@ module.exports = {
   // Needed for tailwind's typography plugin See:
   // https://github.com/tailwindlabs/tailwindcss-typography/issues/26
   important: true,
-  purge: ['./pages/**/*.js', './components/**/*.js'],
+  purge: ['./components/**/*.js', './lib/**/*.js', './pages/**/*.js', './posts/**/*.mdx'],
   plugins: [require('@tailwindcss/typography'), require('@tailwindcss/forms')],
   theme: {
     colors: {
