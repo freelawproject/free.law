@@ -66,9 +66,10 @@ export default function Home({ allPostsData }) {
             >
               <GridListItem heading="Automatic Sharing">
                 <p>
-                  Install the RECAP extension into Firefox or Chrome to automatically share your
-                  PACER&nbsp;purchases.
+                  Install the RECAP extension into Firefox or Chrome to automatically contribute
+                  your PACER&nbsp;purchases to our public archive.
                 </p>
+                <p>No account needed and it only takes a minute or two.</p>
               </GridListItem>
               <GridListItem heading="Get Free Documents">
                 <p>
@@ -79,7 +80,7 @@ export default function Home({ allPostsData }) {
               </GridListItem>
               <GridListItem heading="A Searchable Database">
                 <p>
-                  Every docket and PDF you share is OCR’ed and is made searchable in the{' '}
+                  Every docket and PDF you contribute is made searchable in the{' '}
                   <Link href="https://www.courtlistener.com/recap/">
                     <a className="underline">RECAP Archive</a>
                   </Link>{' '}
