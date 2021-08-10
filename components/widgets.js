@@ -1,7 +1,7 @@
 import Image from 'next/image';
 import Link from 'next/link';
 import { H4 } from './headings';
-import Button, { PurpleButton } from './button';
+import Button from './button';
 import slugify from 'slugify';
 import classNames from 'classnames';
 import { ArrowCircleRightIcon } from '@heroicons/react/outline';
@@ -44,18 +44,6 @@ export function GridImage({ imgProps }) {
   return (
     <div className="relative w-full">
       <Image {...imgProps} layout="responsive" />
-    </div>
-  );
-}
-
-export function SearchButtons() {
-  return (
-    <div className="flex justify-around gap-2 pt-4 sm:pt-8">
-      <PurpleButton href="https://www.courtlistener.com/opinion/">Search Opinions</PurpleButton>
-      <PurpleButton href="https://www.courtlistener.com/recap/">Search Filings</PurpleButton>
-      <PurpleButton href="https://www.courtlistener.com/person/" extraClasses="hidden sm:block">
-        Search Judges
-      </PurpleButton>
     </div>
   );
 }

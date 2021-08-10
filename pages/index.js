@@ -4,7 +4,7 @@ import Layout, { ClientPics, MainColumn, MainFullBleedColumn } from '../componen
 import { getSortedPostsData } from '../lib/posts';
 import Button, { PurpleButton } from '../components/button';
 import { H2, H3, HeroHeading } from '../components/headings';
-import { GridListItem, SearchButtons } from '../components/widgets';
+import { GridListItem } from '../components/widgets';
 import HeroImage from '../components/heroImage';
 import { JudgeRibbon } from '../components/footers';
 import { DownloadIcon } from '@heroicons/react/outline';
@@ -106,17 +106,18 @@ export default function Home({ allPostsData }) {
                 </Link>{' '}
                 is our archive of legal opinions, filings, and&nbsp;judges.
               </H2>
-              <div className="hidden md:block">
-                <SearchButtons />
-              </div>
             </div>
-            <div className="hidden sm:flex w-1/3 lg:w-1/2 pl-8 justify-end">
-              <Image
-                src="/images/homepage/courtlistener-stacked.svg"
-                alt="The CourtListener logo"
-                width="400"
-                height="141"
-              />
+            <div className="hidden sm:block w-1/3 lg:w-1/2 pl-4 justify-end">
+              <div className="w-full lg:w-2/3 float-right">
+                <Image
+                  src="/images/homepage/courtlistener-stacked.png"
+                  alt="The CourtListener logo"
+                  width="400"
+                  height="141"
+                  layout="responsive"
+                  quality="100"
+                />
+              </div>
             </div>
             <div className="flex sm:hidden justify-end w-1/3 pl-4 relative h-24">
               <Image
@@ -125,14 +126,16 @@ export default function Home({ allPostsData }) {
                 layout="fill"
               />
             </div>
-            <div className="w-full md:hidden">
-              <SearchButtons />
-            </div>
             <div
               className="grid grid-cols-1 sm:grid-cols-3 w-full gap-6 sm:gap-8 pt-6"
               id="cl-factoids"
             >
-              <GridListItem heading="Opinions Database" bg="bg-transparent">
+              <GridListItem
+                heading="Opinions Database"
+                bg="bg-transparent"
+                href="https://www.courtlistener.com/opinion/"
+                btnText="Search Opinions"
+              >
                 <p>
                   CourtListener.com houses an{' '}
                   <Link href="https://www.courtlistener.com/opinion/">
@@ -145,7 +148,12 @@ export default function Home({ allPostsData }) {
                   host the first open and comprehensive collection of American case&nbsp;law.
                 </p>
               </GridListItem>
-              <GridListItem heading="PACER Filings and Dockets" bg="bg-transparent">
+              <GridListItem
+                heading="PACER Filings and Dockets"
+                bg="bg-transparent"
+                href="https://www.courtlistener.com/recap/"
+                btnText="Search Federal Filings"
+              >
                 <p>
                   CourtListener has{' '}
                   <Link href="https://www.courtlistener.com/recap/">
@@ -156,7 +164,11 @@ export default function Home({ allPostsData }) {
                 </p>
                 <p>Everything we have is fully searchable and accessible on CourtListener.</p>
               </GridListItem>
-              <GridListItem heading="Docket Alerts" bg="bg-transparent">
+              <GridListItem
+                heading="Docket Alerts"
+                bg="bg-transparent"
+                href="https://www.courtlistener.com/help/alerts/"
+              >
                 <p>
                   Beyond the RECAP extension, CourtListener uses{' '}
                   <Link href="https://www.courtlistener.com/coverage/#recap-archive">
@@ -169,7 +181,12 @@ export default function Home({ allPostsData }) {
                   gathering&nbsp;systems.
                 </p>
               </GridListItem>
-              <GridListItem heading="The Most Oral Arguments" bg="bg-transparent">
+              <GridListItem
+                heading="The Most Oral Arguments"
+                bg="bg-transparent"
+                href="https://www.courtlistener.com/audio/"
+                btnText="Search Recordings"
+              >
                 <p>
                   When courts said they couldn't host oral argument files, we started doing it for
                   them. We now have{' '}
@@ -186,7 +203,12 @@ export default function Home({ allPostsData }) {
                   .
                 </p>
               </GridListItem>
-              <GridListItem heading="APIs and Bulk Data" bg="bg-transparent">
+              <GridListItem
+                heading="APIs and Bulk Data"
+                bg="bg-transparent"
+                href="https://www.courtlistener.com/api/"
+                btnText="Read the Docs"
+              >
                 <p>
                   We provide journalists, researchers, startups, and individuals with automated
                   access to nearly all of our data{' '}
@@ -199,7 +221,11 @@ export default function Home({ allPostsData }) {
                 </p>
                 <p>This gives innovators, researchers, and the public a jumpstart on their work.</p>
               </GridListItem>
-              <GridListItem heading="Permanent Preservation" bg="bg-transparent">
+              <GridListItem
+                heading="Permanent Preservation"
+                bg="bg-transparent"
+                href="/2018/09/11/ia-upload-news/"
+              >
                 <p>
                   We upload information to the{' '}
                   <Link href="https://archive.org">
