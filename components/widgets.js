@@ -6,7 +6,7 @@ import slugify from 'slugify';
 import classNames from 'classnames';
 import { ArrowCircleRightIcon } from '@heroicons/react/outline';
 
-export function GridListItem({ heading, imgProps, border, bg, href, children }) {
+export function GridListItem({ heading, imgProps, border, bg, href, btnText, children }) {
   return (
     <div
       className={`pb-5 ${bg ? bg : `bg-white`} ${
@@ -29,7 +29,7 @@ export function GridListItem({ heading, imgProps, border, bg, href, children }) 
               href={href}
               extraClasses="text-gray-800 border-gray-700 hover:border-gray-900 hover:text-gray-900"
             >
-              Learn More
+              {btnText ? btnText : 'Learn More'}
             </Button>
           </div>
         ) : (
