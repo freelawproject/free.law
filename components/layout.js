@@ -10,7 +10,7 @@ import noacri from '../public/images/services-logos/x256/noacri.png';
 import edhec from '../public/images/services-logos/x256/edhec.png';
 import oneLegal from '../public/images/services-logos/x256/one-legal.png';
 import predicta from '../public/images/services-logos/x256/predicta.png';
-import imanage from '../public/images/services-logos/x256/imanage.svg';
+import imanage from '../public/images/services-logos/x256/imanage.png';
 import drugPatentWatch from '../public/images/services-logos/x256/drugpatentwatch.png';
 import classNames from 'classnames';
 import Button from './button';
