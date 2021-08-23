@@ -4,28 +4,38 @@ type: page
 ---
 
 
+<p className="lead">Launched in 2014, our archive of oral argument recordings is the largest open collection of legal audio on the Internet.</p>
 
-<RightImage imgProps={{
-  src: "/images/icons/juriscraper.svg",
-  alt: "Juriscraper logo"
-}} height="h-24"/>
+This collection was created when we learned that Federal Circuit Courts were deleting oral argument recordings from their websites due to lack of space. At the time, nobody was collecting this information, and it was going down a digital black hole.
 
-<p className="lead">Juriscraper is a data gathering library written in Python that collects legal opinions, PACER content, and oral arguments from the American court system.</p>
+Federal Circuit Court oral arguments are historical documents that should not be deleted from the Internet. That's why in addition to collecting these files and saving them in our database, we also [upload them to the Internet Archive][ia].
 
-Juriscraper is currently able to scrape:
+In addition:
 
-- Opinions from all major appellate Federal courts
+ - [We make every oral argument fully searchable][audio].
 
-- Opinions from all state courts of last resort (typically their "Supreme Court")
+ - [We make podcasts for every court and allow you to make custom podcasts][pods].
 
-- Oral arguments from all appellate federal courts that offer them
+ - We convert each audio file to an MP3, and we add good metadata and album art to the file.
 
-- A variety of content from PACER
+ - We support [alerts for oral argument files][alerts].
 
-Jursicraper has a robust test suite, and it underpins much of the functionality of the CourtListener system. It's no exaggeration to say that Juriscraper has scraped tens of millions of court records.
+ - The recordings are [available in our APIs][apis].
 
-Juriscraper aims to be a unified scraper framework that organizations can use to get the latest content from American courts. We hope this tool will be an asset to your scraping work and that you'll join us in using it.
+Our collection of SCOTUS recordings goes back to 2013. Before that, we recommend the wonderful [Oyez Project][oyez], which has SCOTUS audio going back to 1955.
+
+This work has been possible in part thanks to a grant from Columbia University Library. If you find this work valuable, [please consider making a donation][donate] so that it may continue to thrive.
+
 
 <div className="text-center">
-  <PurpleButton href="https://github.com/freelawproject/juriscraper" size="lg">Learn More on Github</PurpleButton>
+  <PurpleButton href="https://www.courtlistener.com/audio/" size="lg">Learn More</PurpleButton>
 </div>
+
+
+[ia]: /2018/09/11/ia-upload-news
+[audio]: https://www.courtlistener.com/audio/
+[pods]: https://www.courtlistener.com/podcasts/
+[apis]: https://www.courtlistener.com/api/rest-info/
+[alerts]: https://www.courtlistener.com/help/alerts/
+[oyez]: https://www.oyez.org
+[donate]: /donate/
