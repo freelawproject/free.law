@@ -12,6 +12,7 @@ import oneLegal from '../public/images/services-logos/x256/one-legal.png';
 import predicta from '../public/images/services-logos/x256/predicta.png';
 import imanage from '../public/images/services-logos/x256/imanage.png';
 import drugPatentWatch from '../public/images/services-logos/x256/drugpatentwatch.png';
+import clearBrief from '../public/images/services-logos/x256/clearbrief.png';
 import classNames from 'classnames';
 import Button from './button';
 import { H1 } from './headings';
@@ -155,6 +156,15 @@ export function ClientPics({ wide }) {
           alt: 'Pre/Dicta logo',
           width: '256',
           height: '80',
+          placeholder: 'blur',
+        }}
+      />
+      <GridImage
+        imgProps={{
+          src: clearBrief,
+          alt: 'ClearBrief logo',
+          width: '256',
+          height: '85',
           placeholder: 'blur',
         }}
       />

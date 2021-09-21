@@ -152,7 +152,7 @@ export default function Navbar({ allPosts }) {
                 </Link>
               </div>
               <div className="hidden md:flex">
-                <div class="relative">
+                <div className="relative">
                   <Link href="/about/">
                     <a className="text-xs font-medium uppercase text-gray-100 hover:text-gray-300">
                       About
