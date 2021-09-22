@@ -13,6 +13,7 @@ import predicta from '../public/images/services-logos/x256/predicta.png';
 import imanage from '../public/images/services-logos/x256/imanage.png';
 import drugPatentWatch from '../public/images/services-logos/x256/drugpatentwatch.png';
 import clearBrief from '../public/images/services-logos/x256/clearbrief.png';
+import bookLawyer from '../public/images/services-logos/x256/booklawyer.png';
 import classNames from 'classnames';
 import Button from './button';
 import { H1 } from './headings';
@@ -165,6 +166,15 @@ export function ClientPics({ wide }) {
           alt: 'ClearBrief logo',
           width: '256',
           height: '85',
+          placeholder: 'blur',
+        }}
+      />
+      <GridImage
+        imgProps={{
+          src: bookLawyer,
+          alt: 'BookLawyer logo',
+          width: '256',
+          height: '',
           placeholder: 'blur',
         }}
       />
