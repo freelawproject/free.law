@@ -1,0 +1,88 @@
+---
+title: PACER and CM/ECF are a Threat to National Security and Must be Urgently Overhauled
+date: "2021-09-27"
+private: True
+tags: ["PACER", "National Security", "Open Courts Act"]
+author: "Michael Lissner"
+excerpt: "Why Congress must finally act to urgently and properly fix PACER."
+---
+
+
+For more than a decade, we and others have been writing about the many reasons that the PACER and CM/ECF systems must be overhauled. We have laid out the numerous reasons why Congress needs to act so that the Judicial Branch will to do something about the [PACER Problem][problem].
+
+Unfortunately, today we are writing about a new reason. Today we are writing to share the ample evidence that the continued reliance on PACER and CM/ECF is a risk to Amercans' privacy and national security. In 2017, we discovered [a frighteningly basic vulnerability][vuln] in PACER that indicated there were likely larger problems in the system, but we were not ready to call it a threat to national security at the time. Now we are.
+
+<AlertBox>
+  <h4>What are PACER and CM/ECF?</h4>
+  <p>PACER and CM/ECF are the online systems used by the public and the judiciary to manage cases and file documents in the federal courts. Every day, these systems are used by court staff and the public to do everything from uploading a document into a case to scheduling courtrooms.
+  </p>
+</AlertBox>
+
+## The SolarWinds Cyberattack
+
+The first evidence that there was a problem came earlier this year, after [the SolarWinds cyberattack][sw]. At that time, a group, suspected to be backed by the Russian government, penetrated into thousands of organizations around the world. One victim of this attack was the Federal Judiciary, which [quickly announced they had a problem][announce] and noted that "vulnerabilities" in CM/ECF:
+
+<blockquote>
+  greatly risk compromising highly sensitive non-public documents [...] particularly sealed filings.
+</blockquote>
+
+Although the Judiciary's announcement didn't go into detail about which sealed filings were potentially accessed by a foreign adversary, we can guess. Sealed documents contain business secrets, arrest warrants and criminal indictments, the names of minors, refugee applicants, and sexual assault victims — the list goes on.
+
+In speaking with the courts around this time, we heard some frightening stories. One story involved a clerk that was working around the clock to pull sealed documents from PACER. The implication was that they didn't know if an adversary was *still* in the Judiciary's network and they felt that they had to do something to pull content offline.
+
+Unfortunately, since we [lack a public records law for the judiciary][foia], the public may never know the depth of this incident.
+
+
+## The Judiciary's Own Analysis
+
+The second piece of evidence that PACER needs to be urgently replaced comes from [an analysis of PACER and CM/ECF][path] that the Judiciary commissioned itself and, to their immense credit, shared with the public. The analysis was completed by a team within the GSA, who "carried out an 11-week Path Analysis" of the system. Although the public version of this analysis is tweaked to remove information about the "security posture" of the system, there are still lots of details in this report that are cause for concern.
+
+Here are a few choice quotes (emphasis added):
+
+<blockquote>
+  Decentralization and complexity are causing system instability, high
+  maintenance costs and <strong>security risks</strong>.
+</blockquote>
+<blockquote>
+  Dated technology, decentralized deployments, and heavy customization are
+  leading to long feature lead times, unhappy users, unstable systems, and <strong>security
+  and reliability risks</strong>
+</blockquote>
+<blockquote>
+  Many courts have developed “local mods” [...] which has created problems ranging from <strong>high cybersecurity risks</strong> to high operational costs.
+</blockquote>
+
+From a section entitled, "High cybersecurity risks":
+<blockquote>
+  There is the potential for <strong>many cybersecurity vulnerabilities</strong> resulting from the way
+  CM/ECF software is built, deployed, and maintained. Security and compliance are
+  monumental tasks for courts and the AO’s visibility into courts’ security posture is
+  limited due to the decentralized nature of the application.
+</blockquote>
+
+And finally, and, ironically in hindsight:
+
+<blockquote>a headline of a successful cyberattack on CM/ECF will weaken the public’s trust in the judiciary.</blockquote>
+
+If you are following this issue, [the whole report][path] is a very good read.
+
+
+## What to do?
+
+Last year, before the SolarWinds hack and before the analysis by 18f, the House of Representatives passed [the Open Courts Act][oca] by unanimous consent. The bi-partisan Act called for the creation of a new, centralized, modern and secure PACER/CM/ECF system and created a budget-neutral approach to developing and maintaining it. Unfortunately, the bill didn't make it through the Senate.
+
+Last year, we didn't know that PACER and CM/ECF were a danger to national security, but we do now. Now that we do, Congress needs to act again. The House and Senate need to pass and reconcile versions of the Open Courts Act, and President Biden needs to sign the Act into law.
+
+A new version of PACER and CM/ECF is no longer just good government. It's now a national security mandate.
+
+
+
+
+
+[problem]: /2015/03/20/what-is-the-pacer-problem/
+[path]: /pdf/pacer-path-analysis.pdf
+[sw]: https://en.wikipedia.org/wiki/2020_United_States_federal_government_data_breach
+[vuln]: /2017/08/09/pacer-vuln-resolved/
+[announce]: https://www.uscourts.gov/news/2021/01/06/judiciary-addresses-cybersecurity-breach-extra-safeguards-protect-sensitive-court
+[foia]: /2021/03/04/judicial-foia-presentation
+[oca]: https://www.congress.gov/bill/116th-congress/house-bill/8235
