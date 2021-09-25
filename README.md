@@ -44,7 +44,7 @@ Use this if you're less technical or don't want to see the guts.
 
 ### 3. On your computer
 
-If you're working on your computer, there's a file called example.js. Make a copy of it, edit it, and you're off to the races.
+If you're working on your computer, there's a file called example.mdx. Make a copy of it, edit it, and you're off to the races.
 
 Use this if you want to get serious. 
 
