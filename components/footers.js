@@ -51,6 +51,7 @@ export function Footer({ recentPost }) {
             </FooterLink>
             <FooterLink href="/projects/juriscraper/">Juriscraper</FooterLink>
             <FooterLink href="/projects/eyecite/">Eyecite</FooterLink>
+            <FooterLink href="/projects/x-ray/">X-Ray</FooterLink>
             <FooterLink href="https://github.com/freelawproject/">
               <span className="hidden lg:inline">Other </span> Projects on Github
             </FooterLink>
