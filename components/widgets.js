@@ -68,7 +68,7 @@ export function RightInfoBox({ children, width, border }) {
   return (
     <div
       className={classNames(
-        'float-right grid grid-cols-2 sm:grid-cols-1 w-full sm:w-1/3 gap-2 py-5 sm:pl-4',
+        'float-right grid grid-cols-1 w-full sm:w-1/3 gap-2 pt-0 pb-3 sm:pl-4',
         { border: border }
       )}
     >
