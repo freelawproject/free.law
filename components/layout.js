@@ -14,6 +14,7 @@ import imanage from '../public/images/services-logos/x256/imanage.png';
 import drugPatentWatch from '../public/images/services-logos/x256/drugpatentwatch.png';
 import clearBrief from '../public/images/services-logos/x256/clearbrief.png';
 import bookLawyer from '../public/images/services-logos/x256/booklawyer.png';
+import wsj from '../public/images/services-logos/x256/wsj.png';
 import classNames from 'classnames';
 import Button from './button';
 import { H1 } from './headings';
@@ -97,6 +98,15 @@ export function PicGrid({ wide, tall, children }) {
 export function ClientPics({ wide }) {
   return (
     <PicGrid wide={wide}>
+      <GridImage
+        imgProps={{
+          src: wsj,
+          alt: 'Wall Street Journal logo',
+          width: '256',
+          height: '26',
+          placeholder: 'blur',
+        }}
+      />
       <GridImage
         imgProps={{
           src: buzzfeed,

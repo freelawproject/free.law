@@ -1,0 +1,24 @@
+---
+title: X-Ray Bad Redaction Detector
+type: page
+---
+
+<p className="lead">X-Ray is a fast and robost tool to identify bad redactions in PDF files.</p>
+
+An ongoing problem we encounter as we gather court data is that people routinely fail to properly redact documents. Instead of doing it the right way, people draw a black rectangle or a black highlight on top of black text.
+
+When this happens it is trivial to reveal the badly redacted text under the rectangle. To do so, you simply select the text that remains in the document and copy/paste it somewhere else.
+
+In light of this problem, X-Ray serves two goals:
+
+1. We have run X-Ray across millions of PDFs in our system and are using the results of that research to educate the public about the prevalence of this problem.
+
+2. By releasing this tool as a well-maintained open source utility, we are making it as easy as possible for law firms, courts, and others to get ahead of this problem, before yet another badly-redacted document is made public.
+
+At present, X-Ray supports only the most basic (and most common) type of bad redaction, rectangles on top of text. There are a variety of other types of bad redaction though, and we hope to add additional features as this tool gains more usage.
+
+We have built X-Ray to be fast — so it can process millions of PDFs — and we have used a full test suite to make sure it will only get better over time.
+
+<div className="text-center">
+    <PurpleButton href="https://github.com/freelawproject/x-ray" size="lg">Learn More on Github</PurpleButton>
+</div>

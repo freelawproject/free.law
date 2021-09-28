@@ -182,6 +182,20 @@ export default function Home({ allPostsData }) {
                 </p>
               </GridListItem>
               <GridListItem
+                heading="Deep Judge Data"
+                bg="bg-transparent"
+                href="/projects/judge-db/"
+              >
+                <p>
+                  We are creating a detailed database of American magistrates, judges, and justices.
+                </p>
+                <p>
+                  Included in the database is biographical information, over a million financial
+                  disclosure records, roles they have held before and after their time in the
+                  judiciary, and much&nbsp;more.
+                </p>
+              </GridListItem>
+              <GridListItem
                 heading="The Most Oral Arguments"
                 bg="bg-transparent"
                 href="https://www.courtlistener.com/audio/"
@@ -220,20 +234,6 @@ export default function Home({ allPostsData }) {
                   .
                 </p>
                 <p>This gives innovators, researchers, and the public a jumpstart on their work.</p>
-              </GridListItem>
-              <GridListItem
-                heading="Permanent Preservation"
-                bg="bg-transparent"
-                href="/2018/09/11/ia-upload-news/"
-              >
-                <p>
-                  We upload information to the{' '}
-                  <Link href="https://archive.org">
-                    <a className="underline">Internet Archive</a>
-                  </Link>{' '}
-                  around the clock, so that no matter what happens, important court records will
-                  always be&nbsp;available.
-                </p>
               </GridListItem>
             </div>
           </div>

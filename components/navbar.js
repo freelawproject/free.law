@@ -113,8 +113,8 @@ const datasets = [
 ];
 const topPosts = [
   {
-    name: "FLP's Victory for Access to Public Documents",
-    href: '/2020/12/30/victory-for-public-access-to-court-documents/',
+    name: 'Announcing our Database of Financial Disclosure Data',
+    href: '/2021/09/28/announcing-federal-financial-disclosures/',
     id: 1,
   },
   {
