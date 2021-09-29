@@ -23,7 +23,7 @@ export function Footer({ recentPost }) {
             <H5>About</H5>
             <FooterLink href="/about/">Overview</FooterLink>
             <FooterLink href="/mission/">Mission</FooterLink>
-            <FooterLink href="/team/">Board of Directors</FooterLink>
+            <FooterLink href="/team/">Team</FooterLink>
             <FooterLink href="/non-profit-documents/">Non-Profit Documents</FooterLink>
             <FooterLink href="/hiring/">Hiring</FooterLink>
             <FooterLink href="/press-assets/">
