@@ -71,6 +71,12 @@ const tools = [
     href: '/projects/eyecite/',
     imgSrc: '/images/icons/eyecite.svg',
   },
+  {
+    name: 'X-Ray',
+    description: 'A fast and accuratetool to find worthless redactions in PDF files.',
+    href: '/projects/x-ray/',
+    imgSrc: '/images/icons/x-ray.svg',
+  },
 ];
 const datasets = [
   {
@@ -589,11 +595,18 @@ export default function Navbar({ allPosts }) {
                         Eyecite
                       </a>
                       <a
-                        href="/projects/reporters-db/"
+                        href="/projects/x-ray/"
                         className="text-base font-medium text-gray-900 hover:text-gray-700"
                       >
-                        Reporters DB
+                        X-Ray
                       </a>
+                      {/* Restore this when balance can be created in the small screen navbar columns */}
+                      {/*<a*/}
+                      {/*  href="/projects/reporters-db/"*/}
+                      {/*  className="text-base font-medium text-gray-900 hover:text-gray-700"*/}
+                      {/*>*/}
+                      {/*  Reporters DB*/}
+                      {/*</a>*/}
                       <a
                         href="/projects/courts-db/"
                         className="text-base font-medium text-gray-900 hover:text-gray-700"

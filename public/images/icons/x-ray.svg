@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns="http://www.w3.org/2000/svg"
+   width="172.56456mm"
+   height="64.110283mm"
+   viewBox="0 0 172.56456 64.110283"
+   version="1.1"
+   id="svg842"
+   inkscape:version="0.92.5 (2060ec1f9f, 2020-04-08)"
+   sodipodi:docname="x-ray.svg">
+  <defs
+     id="defs836" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="2.8"
+     inkscape:cx="199.60613"
+     inkscape:cy="111.19786"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:window-width="3840"
+     inkscape:window-height="2048"
+     inkscape:window-x="2560"
+     inkscape:window-y="38"
+     inkscape:window-maximized="1"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0"
+     showguides="true"
+     inkscape:guide-bbox="true" />
+  <metadata
+     id="metadata839">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-25.463599,-139.95719)">
+    <g
+       transform="matrix(0.14847558,0,0,0.14847558,-38.595893,23.536003)"
+       id="g10"
+       inkscape:export-xdpi="225.37"
+       inkscape:export-ydpi="225.37">
+      <path
+         class="st1"
+         d="m 688.818,836.1 h -79.17 l -49.74,109.11 -49.29,-109.11 h -79.17 l 80.04,156.3 -80.04,172.31 h 75.38 l 53.07,-122.57 53.12,122.57 h 75.79 L 608.778,992.4 Z"
+         id="path6"
+         inkscape:connector-curvature="0"
+         style="fill:#2c3e50"
+         sodipodi:nodetypes="ccccccccccccc" />
+      <path
+         class="st1"
+         d="M 937.85,895.11 V 836.1 h -93.81 v 332.184 l 68.22,-0.01 V 1046.75 h 25.59 v -58.96 h -25.59 v -92.68 z"
+         id="path8"
+         inkscape:connector-curvature="0"
+         style="fill:#2c3e50"
+         sodipodi:nodetypes="ccccccccccc" />
+    </g>
+    <path
+       class="st1"
+       d="m 103.17454,170.1987 h -2.5226 v -13.76072 h 2.5226 c 2.75125,0 6.25379,1.05567 6.25379,6.5656 v 0.62359 c 0,5.50845 -3.50403,6.57153 -6.25379,6.57153 z"
+       id="path12"
+       inkscape:connector-curvature="0"
+       style="fill:#2c3e50;stroke-width:0.14847557"
+       inkscape:export-xdpi="225.37"
+       inkscape:export-ydpi="225.37" />
+    <polygon
+       transform="matrix(0.14847558,0,0,0.14847558,-38.595893,23.536003)"
+       class="st1"
+       points="1240.46,1034.98 1186.52,1034.98 1213.49,914.05 "
+       id="polygon14"
+       style="fill:#2c3e50"
+       inkscape:export-xdpi="225.37"
+       inkscape:export-ydpi="225.37" />
+    <path
+       class="st1"
+       d="m 100.65194,139.95719 v 7.72073 h 2.08162 c 7.9479,0 16.95294,2.06678 16.95294,15.01534 v 1.24571 c 0,7.88702 -3.31248,11.76223 -7.69697,13.57809 l 7.69697,18.95142 h -10.95007 l -6.69476,-17.51418 h -1.38973 v 25.11317 h 97.37622 v -64.11028 z m 49.30577,56.50981 -2.37858,-10.5091 h -11.94486 l -2.31771,10.5091 h -10.88177 l 12.19578,-48.91231 h 13.95077 l 12.19578,48.91231 z m 27.41007,-14.94555 v 14.94703 h -10.129 v -14.94703 l -12.41405,-33.96528 h 9.42375 l 8.05926,21.45027 7.99095,-21.45027 h 11.07183 z"
+       id="path16"
+       inkscape:connector-curvature="0"
+       style="fill:#2c3e50;stroke-width:0.14847557"
+       sodipodi:nodetypes="ccssscccccccccccccccccccccccccccc"
+       inkscape:export-xdpi="225.37"
+       inkscape:export-ydpi="225.37" />
+    <g
+       transform="matrix(0.14847558,0,0,0.14847558,-38.595893,23.536003)"
+       id="g22"
+       inkscape:export-xdpi="225.37"
+       inkscape:export-ydpi="225.37">
+      <path
+         style="fill:#2c3e50"
+         inkscape:connector-curvature="0"
+         id="path20"
+         d="m 688.56,970.93 v 58.14 h 115 v -58.14 z"
+         class="st1" />
+    </g>
+  </g>
+</svg>
