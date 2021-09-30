@@ -3,11 +3,24 @@ title: X-Ray Bad Redaction Detector
 type: page
 ---
 
+<RightImage imgProps={{
+  src: "/images/icons/x-ray.svg",
+  alt: "X-Ray logo"
+}} height="h-24"/>
+
 <p className="lead">X-Ray is a fast and robost tool to identify bad redactions in PDF files.</p>
 
 An ongoing problem we encounter as we gather court data is that people routinely fail to properly redact documents. Instead of doing it the right way, people draw a black rectangle or a black highlight on top of black text.
 
 When this happens it is trivial to reveal the badly redacted text under the rectangle. To do so, you simply select the text that remains in the document and copy/paste it somewhere else.
+
+<CaptionedImage
+  imgProps={{
+    "src": "/images/bad-redaction.gif",
+    "alt": "A gif of a bad redaction rectangle being selected by the mouse"
+  }}
+>It looks like redacted text, but it's very easy to reveal.</CaptionedImage>
+
 
 In light of this problem, X-Ray serves two goals:
 
