@@ -15,6 +15,9 @@ cases. You can learn more about PACER in our [PACER FAQ][faq].
 #### Should I install RECAP if I'm not a user of PACER? 
 No. RECAP only becomes active when you are accessing PACER and deactivates when you're browsing non-PACER websites. Therefore, non-PACER users won't benefit from installing RECAP &mdash; it won't cause any issues, but it simply won't do anything.
 
+#### Will RECAP work on *any* PACER site?
+No. Due to technical limitations, RECAP does not currently upload appellate case dockets or documents purchased from US Courts of Appeal PACER sites. *(While we hope to restore this feature in the future, no timeline for doing so is available.)*
+
 #### Will installing RECAP affect my use of other websites?
 No. RECAP only works on PACER-related sites. When you install RECAP, you'll see that it only has access to uscourts.gov and CourtListener.com. It cannot see your browsing or affect any other websites.
 
@@ -63,7 +66,7 @@ Yes, in two ways. First, in the RECAP preferences, there is an option to disable
 Second, if you wish to disable RECAP completely, you can do so via Chrome or Firefox's extension settings.
 
 #### What browsers are supported? Why?
-We currently support Firefox and Chrome, with an experimental version for Opera. We would love to also add support for Safari and IE Edge, but we need a maintainer that is willing to help with these platforms when new versions are released. If that might be you, [send us a message][c]!
+We currently support Firefox and Chrome, with an experimental version for Opera. We would love to also add support for Safari and *(chromium-based)* Edge, but we need a maintainer that is willing to help with these platforms when new versions are released. If that might be you, [send us a message][c]!
 
 #### I uploaded a document, but it didn't seem to work &mdash; there's no "R" icon. Why?
 There are a handful of reasons why we can't always work with a PDF that somebody has uploaded.
@@ -71,6 +74,9 @@ There are a handful of reasons why we can't always work with a PDF that somebody
 The main reason that we might not show an "R" icon after receiving a document happens when we receive the document *before* we receive the docket. When this happens, we have a document, but we don't know what case to add it to since we've never seen its docket (or the right part of its docket). This is a bit of a dead end for us because we can't add a PDF to a docket we don't have. In this case, what we do is keep the document, and if we ever get the docket, we immediately add the document to it. So, if you think you might have this problem &mdash; you uploaded a document and it's not showing up properly &mdash; sometimes the solution is to try uploading the docket for that case.
 
 The second reason this can happen is because of a longstanding bug in criminal cases. In PACER, criminal cases can have multiple docket numbers, and this can cause problems for RECAP. If this happens, until we fix this issue, the best thing to do is to try to find the case in [the RECAP Archive][archive], and try to see if you can find the uploaded document that way.
+
+Finally, as noted above, RECAP has not supported the US Courts of Appeal [since late 2017][new-recap]. When using one of their PACER sites with RECAP, dockets and documents are currently unable to be contributed to *(or downloaded from)* our archive.
+Note: Some case data from 2017 and earlier, in addition to more recent information that we have obtained from other sources, *may* be available by manually searching that archive.
 
 #### How do I report a bug or make a feature suggestion?
 You can report bugs [on our bug tracker][bugs] or by [sending us an email][c] — whatever is comfortable for you.
