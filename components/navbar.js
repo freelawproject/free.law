@@ -117,20 +117,20 @@ const datasets = [
     icon: BadgeCheckIcon,
   },
 ];
-const topPosts = [
+const featuredPosts = [
   {
-    name: 'Announcing our Database of Financial Disclosure Data',
-    href: '/2021/09/28/announcing-federal-financial-disclosures/',
+    name: 'Our Congressional Testimony on Financial Disclosures and Ethics Violations',
+    href: '/2021/10/25/flp-congressional-testimony-on-financial-disclosures/',
     id: 1,
+  },
+  {
+    name: 'The Need for a Public Access Law for the Judiciary',
+    href: '/2021/03/04/judicial-foia-presentation',
+    id: 2,
   },
   {
     name: 'As Bloomberg Imposes Caps, PACER Must Support Academics',
     href: '/2020/04/04/as-bloomberg-law-imposes-caps-on-pacer-access-pacer-must-support-academics/',
-    id: 2,
-  },
-  {
-    name: 'FLP Advises Chilean Judicial Modernization Effort',
-    href: '/2019/12/05/chile/',
     id: 3,
   },
   {
@@ -142,6 +142,11 @@ const topPosts = [
     name: 'Buying PACER Would Cost a Billion Dollars',
     href: '/2016/10/10/pacer-costs-a-billion-dollars/',
     id: 5,
+  },
+  {
+    name: 'FLP Advises Chilean Judicial Modernization Effort',
+    href: '/2019/12/05/chile/',
+    id: 6,
   },
 ];
 
@@ -442,7 +447,7 @@ export default function Navbar({ allPosts }) {
                                   Featured Posts
                                 </h3>
                                 <ul className="mt-4 space-y-4">
-                                  {topPosts.map((post) => (
+                                  {featuredPosts.map((post) => (
                                     <li key={post.id} className="text-base">
                                       <a
                                         href={post.href}
