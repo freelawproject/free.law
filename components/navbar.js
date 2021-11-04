@@ -80,6 +80,13 @@ const tools = [
 ];
 const datasets = [
   {
+    name: 'Judges and Disclosures',
+    description:
+      'A rich structured database of judges, their backgrounds, and their financial entanglements.',
+    href: '/projects/judge-db/',
+    imgSrc: '/images/icons/judge-db.svg',
+  },
+  {
     name: 'Reporter Database',
     description:
       'The metadata and abbreviations for nearly every written reporter in American history. The heart of any citation parser.',
@@ -97,12 +104,6 @@ const datasets = [
     description: 'Thousands of portraits of judges you can use in your projects.',
     href: '/projects/judge-pics/',
     icon: UserGroupIcon,
-  },
-  {
-    name: 'Judge Profiles',
-    description: 'A rich structured database of judicial information.',
-    href: '/projects/judge-db/',
-    imgSrc: '/images/icons/judge-db.svg',
   },
   {
     name: 'Supreme Court Data',
@@ -347,7 +348,7 @@ export default function Navbar({ allPosts }) {
                           'group rounded-md inline-flex items-center text-xs uppercase font-medium hover:text-gray-300 focus:outline-none focus:ring-2 focus:ring-offset-4 focus:ring-offset-purple-900 focus:ring-indigo-500'
                         )}
                       >
-                        <span>Datasets</span>
+                        <span>Data</span>
                         <ChevronDownIcon
                           className={classNames(
                             open ? 'text-gray-300' : 'text-gray-100',

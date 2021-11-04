@@ -104,7 +104,8 @@ export default function Home({ allPostsData }) {
                 <Link href="https://www.courtlistener.com/">
                   <a className={'underline'}>CourtListener</a>
                 </Link>{' '}
-                is our archive of legal opinions, filings, and&nbsp;judges.
+                is our archive of legal opinions, filings, judges, and judicial
+                financial&nbsp;records.
               </H2>
             </div>
             <div className="hidden sm:block w-1/3 lg:w-1/2 pl-4 justify-end">
@@ -131,6 +132,22 @@ export default function Home({ allPostsData }) {
               id="cl-factoids"
             >
               <GridListItem
+                heading="PACER Filings and Dockets"
+                bg="bg-transparent"
+                href="https://www.courtlistener.com/recap/"
+                btnText="Search Federal Filings"
+              >
+                <p>
+                  CourtListener has{' '}
+                  <Link href="https://www.courtlistener.com/recap/">
+                    <a className="underline">the largest free collection</a>
+                  </Link>{' '}
+                  of federal court documents and dockets on the Internet. Our collection grows every
+                  day.
+                </p>
+                <p>Everything we have is fully searchable and accessible on CourtListener.</p>
+              </GridListItem>
+              <GridListItem
                 heading="Opinions Database"
                 bg="bg-transparent"
                 href="https://www.courtlistener.com/opinion/"
@@ -149,20 +166,25 @@ export default function Home({ allPostsData }) {
                 </p>
               </GridListItem>
               <GridListItem
-                heading="PACER Filings and Dockets"
+                heading="Deep Judge Data"
                 bg="bg-transparent"
-                href="https://www.courtlistener.com/recap/"
-                btnText="Search Federal Filings"
+                href="/projects/judge-db/"
               >
                 <p>
-                  CourtListener has{' '}
-                  <Link href="https://www.courtlistener.com/recap/">
-                    <a className="underline">the largest free collection</a>
-                  </Link>{' '}
-                  of federal court documents and dockets on the Internet. Our collection grows every
-                  day.
+                  We are creating a groundbreaking database of American magistrates, judges, and
+                  justices.
                 </p>
-                <p>Everything we have is fully searchable and accessible on CourtListener.</p>
+                <p>
+                  Included in the database is{' '}
+                  <Link href="https://www.courtlistener.com/person/">
+                    <a className="underline">detailed biographical information</a>
+                  </Link>
+                  , over a million{' '}
+                  <Link href="https://www.courtlistener.com/financial-disclosures/">
+                    <a className="underline">disclosure records</a>
+                  </Link>
+                  , and much&nbsp;more.
+                </p>
               </GridListItem>
               <GridListItem
                 heading="Docket Alerts"
@@ -181,20 +203,7 @@ export default function Home({ allPostsData }) {
                   gathering&nbsp;systems.
                 </p>
               </GridListItem>
-              <GridListItem
-                heading="Deep Judge Data"
-                bg="bg-transparent"
-                href="/projects/judge-db/"
-              >
-                <p>
-                  We are creating a detailed database of American magistrates, judges, and justices.
-                </p>
-                <p>
-                  Included in the database is biographical information, over a million financial
-                  disclosure records, roles they have held before and after their time in the
-                  judiciary, and much&nbsp;more.
-                </p>
-              </GridListItem>
+
               <GridListItem
                 heading="The Most Oral Arguments"
                 bg="bg-transparent"

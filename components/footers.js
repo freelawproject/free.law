@@ -58,11 +58,11 @@ export function Footer({ recentPost }) {
           </div>
           <div className="pb-3">
             <H5>Datasets</H5>
+            <FooterLink href="/projects/judge-db/">Judges and Disclosures</FooterLink>
             <FooterLink href="/projects/reporters-db/">Reporters</FooterLink>
             <FooterLink href="/projects/courts-db/">Courts</FooterLink>
             <FooterLink href="/projects/seal-rookery/">Court Seals</FooterLink>
             <FooterLink href="/projects/judge-pics/">Judge Portraits</FooterLink>
-            <FooterLink href="/projects/judge-db/">Judge Profiles</FooterLink>
             <FooterLink href="/projects/oral-arguments/">Oral Argument Audio</FooterLink>
             <FooterLink href="/projects/supreme-court-data/">Supreme Court Data</FooterLink>
           </div>
