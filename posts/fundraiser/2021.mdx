@@ -1,0 +1,211 @@
+---
+title: Our 2021 Annual Letter
+type: page
+---
+
+
+
+<p className="lead">Your support helps us to make a more innovative and equitable legal sector and helps us provide services to thousands of people. Today we're asking for your support so that 2022 &mdash; our twelfth year! &mdash; can be the best year ever for RECAP, CourtListener, and all we do.
+</p>
+
+
+Read on to learn more about what we've been up to or click below to give us your support.
+
+<RedButton href="https://www.courtlistener.com/donate/?referrer=2020-first-button" size="lg" extraClasses="inline-flex">
+  <HeartIcon className="flex-shrink-0 h-5 w-5" aria-hidden="true"/>&nbsp;Donate Now
+</RedButton>
+
+
+## FLP's Year in Review
+
+2021 has been a momentous year for Free Law Project. The highlight of the year came in September and October, when our work supported a series of front-page articles in the Wall Street Journal. These articles exposed over 100 judges with financial conflicts that had failed to recuse from over 600 cases. We submitted [written testimony to Congress][testimony] and expect Congress to soon pass [a bill][ethics] to prevent such failings in the future (the House is voting this week!).
+
+In the PACER world, the [bill to make PACER free][oca] is finally gaining momentum again, after [we labeled PACER a national security concern][pacer-sec]. We expect updates on this very soon. We are also continuing our crusade to add recent filing information to every federal court. We'll be sending a letter about this to about 50 courts early next year.
+
+A new project we're working on is [a tool][xray] to find badly-made redactions in PDF documents. Soon, we will run it across millions of legal filings so that we can identify which organizations are failing to redact information. This will be another blockbuster report, when we reveal dire redaction failures in numerous federal filings.
+
+We will spend time next year promoting this tool so that bad redactions will become a thing of the past.
+
+In addition to our advocacy work, we have, as always, continued expanding and supporting RECAP and CourtListener.
+
+In 2021, we:
+
+ - Added a [new tagging feature][tagging] to dockets so that cases can be tagged and shared
+ - Launched a new [legal citation extractor][eye] that can find thousands of kinds of legal citations
+ - Greatly expanded our collection of opinions in several states
+
+Behind the scenes, we were proud to:
+
+ - Rebuild [our homepage][home] so that it finally shows what we're all about
+ - Receive [a PAGI award][pagi] from the American Association of Law Librarians
+ - Add several new security protections to CourtListener that can rapidly detect and deter hackers
+ - Transition to storage.courtlistener.com so viral documents can be downloaded by millions of people without a hitch
+ - Move our servers to [a more reliable provider][lmi]
+ - Identify and report [a security bug][python] in the Python programming language (this makes the Internet itself more secure)
+
+We've been growing and it's been busy!
+
+[testimony]: /2021/10/25/flp-congressional-testimony-on-financial-disclosures/
+[pacer-sec]: /2021/10/05/pacer-is-a-national-security-problem/
+[pagi]: /2021/08/05/free-law-project-gets-pagi/
+[ethics]: https://www.govtrack.us/congress/bills/117/s3059
+[tagging]: https://twitter.com/FreeLawProject/status/1397353827385315333
+[home]: /
+[lmi]: https://lmi.net
+[python]: https://bugs.python.org/issue43882
+
+
+## Looking Forward to 2022
+
+Next year is going to be a very big one. As always, we plan to expand on our current projects while starting a few new ones.
+
+We plan to:
+
+ - Continue pushing for feeds of new filings in all federal courts
+ - Pass [the bill][ethics] to tamp down judicial conflicts
+ - Pass [the bill][oca] to make PACER free
+ - [Continue pushing][foia] for a FOIA-like bill for the judicial branch
+ - Increase awareness of [problematic redactions][xray]
+ - Vastly expand our collection of opinions so it is one of the best online
+ - Finally add appellate support to the RECAP extension
+
+And of course, we'll continue supporting our thousands of users of CourtListener.com and the RECAP Extensions.
+
+[oca]: https://www.govtrack.us/congress/bills/116/hr8235
+[foia]: https://free.law/2021/03/04/judicial-foia-presentation
+
+
+## Please Support Our Work
+
+As you can imagine, all the achievements and initiatives above took considerable effort. We believe this work will lead to a more open, transparent, and innovative judicial system. In 2022, with your support, we hope to do even more.
+
+If you have benefited from our work this year or if you find our work valuable, we ask that you **please donate today**. 
+
+Free Law Project is a federally recognized 501(c)(3) non-profit. Donations are tax deductible. 
+
+
+<RedButton href="https://www.courtlistener.com/donate/?referrer=2020-first-button" size="lg" extraClasses="inline-flex">
+  <HeartIcon className="flex-shrink-0 h-5 w-5" aria-hidden="true"/>&nbsp;Donate Now
+</RedButton>
+
+
+## The 2021 Free Law Project Index
+
+31 million — the number of times computers used our APIs
+
+<!--
+In [10]: from datetime import date, timedelta
+
+In [11]: dates = ['api:v3.d:%s.count' %
+                     (date(2021, 12, 31) - timedelta(days=x)).isoformat()
+                     for x in range(0, 365)]
+
+In [13]: from cl.lib.redis_utils import make_redis_interface
+
+In [14]:     r = make_redis_interface('STATS')
+
+In [16]: sum(
+            [int(result) for result in
+             r.mget(*dates) if result is not None]
+        )
+Out[16]: 34367665
+-->
+
+
+5.1 million — the number of those requests that were from the RECAP Extensions (thank you!)
+
+<!--
+from cl.api.utils import invert_user_logs
+out = invert_user_logs('2021-01-01', '2021-12-31')
+out['recap']
+-->
+
+---
+
+148,590 — the number of minutes of oral arguments we added to our oral argument archive
+
+<!--
+from cl.audio.models import Audio
+from django.db.models import Sum
+
+
+Audio.objects.filter(date_created__gt='2021-01-01').aggregate(Sum('duration'))
+{'duration__sum': 11903785}
+
+11903785 / 60
+198396
+-->
+
+5.3 — the number of times you could watch every [Law & Order episode ever made][landw] instead of listening to all the oral argument we added
+
+[landw]: https://www.bingeclock.com/s/law-and-order/
+
+----
+
+95 million — the number of pages of legal filings we have in the RECAP Archive
+
+475 tons — how much the entire RECAP Archive would weigh, if printed
+
+8,000 tons — the weight of the books in the Library of Congress if they average one pound each
+
+<!--
+In [1]: from django.db.models import Sum
+
+In [3]: from cl.search.models import RECAPDocument
+
+In [4]: RECAPDocument.objects.filter(is_available=True).aggregate(Sum('page_count'))
+Out[4]: {'page_count__sum': 80712422}
+
+100 pages = 1 pounds
+2000 pounds = 1 ton
+-->
+
+---
+
+33 million — the number of PACER dockets added to the RECAP Archive in 2021
+
+<!--
+from cl.search.models import Docket
+Docket.objects.filter(date_created__gte='2021-01-01', source__in=Docket.RECAP_SOURCES).count()
+-->
+
+30 million — the number of docket entries added
+
+<!--
+In [57]: from cl.search.models import DocketEntry
+
+In [58]: DocketEntry.objects.filter(date_created__gte='2021-01-01').count()
+Out[58]: 61495215
+-->
+
+150,000 — the number of entries added per work day in 2021
+
+<!-- Above divided by 200 -->
+
+<!--
+593,000 — the number of PACER documents added
+-->
+<!--
+In [6]: RECAPDocument.objects.filter(is_available=True, date_created__gte='2021-01-01').count()
+Out[6]: 1352515
+-->
+
+5.8 million — the number of pages in those documents
+
+<!--
+In [5]: RECAPDocument.objects.filter(is_available=True, date_created__gte='2021-01-01').aggregate(Sum('page_count'))
+Out[5]: {'page_count__sum': 30241846}
+-->
+
+
+## Thank You <i className="fa fa-heart-o"></i>
+
+This past year we have had [support from many sources][thanks] including individuals, organizations, and academic departments, too numerous to list here. 
+
+Thank you all for your generous support as we head into the next year.
+
+[thanks]: /thanks/
+
+
+[xray]: /projects/x-ray/
+[eye]: /projects/eyecite/
