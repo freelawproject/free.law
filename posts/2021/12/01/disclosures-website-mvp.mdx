@@ -1,0 +1,76 @@
+---
+title: Could You Satisfy the Courthouse Ethics and Transparency Act with a Google Form? Almost.
+date: "2021-12-01"
+tags:
+ - "Courthouse Ethics and Transparency Act"
+ - "Financial Disclosures"
+ - "Minimum Viable Product"
+author: "Michael Lissner"
+excerpt: "No, you couldn't use just a Google Form, but it's close. Let's keep things simple."
+---
+
+<p class="lead">The <a href="https://www.govtrack.us/congress/bills/117/s3059">Courthouse Ethics and Transparency Act</a> is on this week's "<a href="https://docs.house.gov/floor/">Suspension Calendar</a>." This <a href="https://en.wikipedia.org/wiki/Suspension_of_the_rules_in_the_United_States_Congress">means</a> that the bill is so uncontroversial that the House will suspend the normal rules that govern the passage of bills and streamline its passage.
+</p>
+
+Unfortunately, suspending the normal rules like this only works if a bill is particularly uncontroversial, and lately we've heard that representatives are worried about the cost of establishing a new website as required by the bill.
+
+This post serves to dispel such worries by way of two thought exercises. First, what is the simplest website that would satisfy the bill, and how hard would be to build? Second, how is the required website different from [the one we've already built][fds], and how long did it take to build ours?
+
+Let's start by looking at the important parts of the bill. It's a short bill, and it says roughly two things:
+
+> (1) Establishment of database
+>
+> Not later than 180 days after the date of enactment of the [Act], the Administrative Office of the United States Courts shall establish a **searchable internet database** to enable public access to **any report** required to be filed by a judicial officer under this title.
+
+(Emphasis added.)
+
+Put more simply, build a searchable website and put disclosures in it. Got it.
+
+## What's the minimal tool for doing this?
+
+It's often a good thought exercise to consider whether a website could be replaced with a very simple (and free) Google Form. By doing so, you learn what features you'd need to build beyond the bare minimum.
+
+In this case, if the AO decided to use a Google Form, you could imagine something that looked a little like this:
+
+<CaptionedImage imgProps={{
+  src: "/images/google-form-mvp.png",
+  alt: "A screenshot of a Google Form showing three fields, one for the judge's name, one to upload a PDF and a third to upload XML"
+}}>A simple Google Form, as a thought exercise.</CaptionedImage>
+
+In fact, we [built the form][form], just for kicks. When you do this, the results are presented as a Google Spreadsheet that you can share publicly.
+
+And so, without further ado, here's our new financial disclosures website that we built in ten minutes at zero cost (it's a spreadsheet):
+
+<p><PurpleButton href="https://docs.google.com/spreadsheets/d/1YymSS2u_6sRweAKQ4RvK0mGlYte3PqEAI5kCHDUYurc/edit?usp=sharing" size="lg">View our Disclosures Website</PurpleButton></p>
+
+It already has disclosures for two judges!
+
+A few things to notice:
+
+1. It's not searchable, but you can use `CTRL+F` to find judges by name. Shoot, we'll miss that part of the bill.
+
+2. This would otherwise kind of work? It's actually a **monumental** improvement over the status quo.
+
+So maybe a Google Form isn't enough, but it's not bad for the time invested.
+
+Let's change gears to our second thought exercise, the challenge of building a real website for this, like the one we built for CourtListener.com.
+
+[form]: https://forms.gle/4BKeSJRyx5gqtWrb9
+
+
+## How hard was it to build a similar system in CourtListener?
+
+A few months ago, we made a splash by [announcing][launch] that we had launched a [first-of-its-kind database][fds] of thousands of judicial financial disclosures. How hard was this?
+
+Well, it took one developer **about two months to build.** That accounts for designing the database, building the front and back ends, and launching everything.
+
+The bill gives the AO about six months to do the same. We hear they say it will take two years.
+
+If a Google Form can almost satisfy the bill, and if a non-profit can do it in about two months, the AO can do it in the time allotted in the bill.
+
+Congress should ask for nothing less.
+
+
+
+[fds]: https://www.courtlistener.com/financial-disclosures/
+[launch]: /2021/10/15/financial-disclosures-now-available-to-all-on-courtlistener/
