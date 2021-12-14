@@ -5,6 +5,8 @@ import Button from './button';
 import slugify from 'slugify';
 import classNames from 'classnames';
 import { ArrowCircleRightIcon } from '@heroicons/react/outline';
+import { Disclosure } from '@headlessui/react';
+import { ChevronUpIcon } from '@heroicons/react/solid';
 
 export function GridListItem({ heading, imgProps, border, bg, href, btnText, children }) {
   return (
@@ -127,6 +129,30 @@ export function DropDownCallToAction({ href, children }) {
           />
           <span className="ml-3">{children}</span>
         </a>
+      </div>
+    </div>
+  );
+}
+
+export function SimpleDisclosure({ buttonText, children }) {
+  return (
+    <div className="w-full">
+      <div className="w-full max-w-lg bg-purple-100 rounded-xl">
+        <Disclosure>
+          {({ open }) => (
+            <>
+              <Disclosure.Button className="flex justify-between w-full px-4 py-2 font-medium text-left text-gray-900 bg-purple-100 rounded-2xl focus:outline-none focus-visible:ring focus-visible:ring-purple-500 focus-visible:ring-opacity-75">
+                <span>{buttonText}</span>
+                <ChevronUpIcon
+                  className={`${open ? 'transform rotate-180' : ''} w-5 h-5 text-purple-500`}
+                />
+              </Disclosure.Button>
+              <Disclosure.Panel className="px-4 pt-1 pb-0.5 text-sm text-gray-600">
+                {children}
+              </Disclosure.Panel>
+            </>
+          )}
+        </Disclosure>
       </div>
     </div>
   );
