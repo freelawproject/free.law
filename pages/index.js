@@ -55,8 +55,8 @@ export default function Home({ allPostsData }) {
             </div>
             <div className="w-full pt-3 pb-6 text-gray-700">
               <H3>
-                Using a searchable archive of documents and browser extensions for Firefox or
-                Chrome, RECAP improves PACER, the electronic public access system for federal
+                Using a searchable archive of documents and browser extensions for Firefox,
+                Chrome or Safari, RECAP improves PACER, the electronic public access system for federal
                 court&nbsp;documents.
               </H3>
             </div>
@@ -66,7 +66,7 @@ export default function Home({ allPostsData }) {
             >
               <GridListItem heading="Automatic Sharing">
                 <p>
-                  Install the RECAP extension into Firefox or Chrome to automatically contribute
+                  Install the RECAP extension into Firefox, Chrome or Safari to automatically contribute
                   your PACER&nbsp;purchases to our public archive.
                 </p>
                 <p>No account needed and it only takes a minute or two.</p>
