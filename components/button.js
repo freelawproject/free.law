@@ -6,7 +6,9 @@ export default function Button({ children, href, extraClasses, size }) {
   if (extraClasses) {
     classes += ' ' + extraClasses;
   }
-  if (size === 'lg') {
+  if (size === 'sm') {
+    classes += ' px-2 pt-2 pb-2 sm:text-md';
+  } else if (size === 'lg') {
     classes += ' px-6 py-4 text-lg';
   } else {
     classes += ' px-4 py-2 sm:text-md';
