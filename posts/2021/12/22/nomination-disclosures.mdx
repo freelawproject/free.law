@@ -1,5 +1,5 @@
 ---
-title: Our Financial Disclosure Database has added disclosures
+title: OK, *Now* We Have All the Financial Conflict Information for Judges, Right?
 date: "2021-12-22"
 tags:
  - "Financial Disclosures"
@@ -7,89 +7,78 @@ tags:
  - "Nomination Disclosures"
  - "CourtListener"
 author: "William E. Palin, Esq."
-excerpt: "Our Financial Disclosures Database now covers 34 years 1987."
+excerpt: "Our Financial Disclosures Database now includes hundreds of nomination disclosures and covers 34 years going back to 1987."
 ---
 
-<p class="lead">Financial Disclosure Database Now Spans 34 Years</p>
+<p className="lead">Our Financial Disclosures Database now includes hundreds of nomination disclosures and covers 34 years going back to 1987.</p>
+
+We've been collecting financial conflicts of judges for many years, but a law on the books has hindered our work. By law, disclosures are only available from the government for six years before they must be destroyed. This means that while we have been able to build [a huge database of judicial conflicts from 2011-2019][fd-home], getting older records has been [almost impossible][apbnews].
+
+[apbnews]: https://twitter.com/FreeLawProject/status/1093612415185350656
 
 
-Our financial disclosure database now includes disclosures spanning 34 years (1987-2020). We found judicial
- nomination financial disclosures of 874 judges stretching back to the Reagan Administration in 1987.
+Until now.
+
+Today we are very happy to share that we were able to add 874 additional disclosure records going back to 1987 that were previously only available in Congressional archives. We were able to accomplish this with a combination of a machine learning algorithm and volunteer data entry.
+
+<AlertBox><p>Do you know of judicial financial records we don't have? Do you know somebody that might have some tucked away in a drawer or a box? We are building the most complete collection possible and will work to scan or import conflict records. We want them all.</p>
+  <p><PurpleButton href="/contact/" size="sm">Get in Touch</PurpleButton></p>
+</AlertBox>
+
 
 ## Why it matters
 
-We began collecting financial disclosures in an effort to preserve them from being thrown away in 2017.
-Unfortunately, the laws around financial disclosures only make them available for six (6) years.
+Even though disclosures older than six years are regularly destroyed, we were able to build a first-of-its-kind [financial disclosure database][fd-home] with over a million investment transactions and roughly 250,000 pages of disclosures.
 
-<div className="right-image">
-    <img src="/images/nominations.svg"
-         alt="Senate Nomination Records"
-         height="400"
-         width="400"
-         className="img-responsive"/>
-</div>
+<RightImage imgProps={{
+  src: "/images/nominations.svg",
+  alt: "A chart showing per year bars of how many nominations happened in each year, sting with a few in the late 80's, then just getting generally bumpy all teh way to 2013, with the bars in the 2010's the highest."
+}} height="h-auto" width="w-1/2"/>
 
-Even with that limitation in place our work on financial disclosures culminated in a first-of-its-kind database with
-over a million investment transactions, and roughly 250,000 pages of disclosures. This database was used
- by the WSJ to engage in ground breaking investigations into ethics violations of the judiciary. Despite our best
-  efforts that database did not include any disclosures prior to 2003.
+This database was used by the <em>Wall Street Journal</em> to engage in ground-breaking investigations into ethics violations of the judiciary. Despite [our best efforts][h2o], that database did not include any disclosures prior to 2003 since older disclosures have been almost impossible to obtain.
 
-Today we add disclosures for 874 judicial nominees and expands our database further. This expansion includes nearly
-every nominee to the federal bench since the end of the Reagan Administration. We hope this expansion helps provide
-researchers, journalists and attorneys greater insight into the federal judiciary.
+[h2o]: https://twitter.com/FreeLawProject/status/1093612415185350656
+
+Today we add disclosures for 874 judicial nominees and expand our database further.
+
+We *think* we might finally have all of the disclosures that are out there.
+
+This expansion includes nearly every nominee to the federal bench since the end of the Reagan Administration. We hope this expansion helps provide researchers, journalists and attorneys greater insight into the federal judiciary.
+
 
 ## How we did it
 
-We knew that judicial nominees filed financial disclosures with the Senate Judiciary Committee as part of the nomination
- process. So we began researching Senate hearing records earlier this year.
+We knew that judicial nominees filed financial disclosure documents with the Senate Judiciary Committee, so earlier this year we began digging through old Senate hearing records to see what we could find.
 
-This lead us to discover that nomination disclosures are in fact available in
- the <a href="https://www.govinfo.gov/app/collection/chrg/115/senate/Committee%20on%20the%20Judiciary">Congressional Archives</a>.
- These disclosures are combined with with the resumes, questionnaires, litigation histories and letters of
- recommendation for judicial nominees. Unfortunately these disclosures were included with roughly 250,000 pages of
-  Senate records.
+This led us to discover that nomination disclosures are available in the <a href="https://www.govinfo.gov/app/collection/chrg/115/senate/Committee%20on%20the%20Judiciary">Congressional Archives</a>, and that they contain the disclosure records we were looking for.
+
+This is great, but unfortunately the disclosure records we needed were tucked away in extremely long documents that also contained the resumes, questionnaires, litigation histories, and letters of recommendation of judicial nominees. Making matters worse, there are about 250,000 pages of relevant Congressional records to somehow analyze.
 
 <div className="left-image">
     <img src="/images/senate-records.png"
-         alt="Senate Nomination Records"
+         alt="A green cover page to a Senate Nomination Record document, reading Confirmation Hearings on Federal Appointments - Hearings before the Committee on the Judiciary - United States Senate..."
          height="200"
          width="250"
          className="img-responsive"/>
 </div>
 
-Normally sifting through such a high volume of data by hand would be too much for a small organization like ours.
+Sifting through this many pages by hand is impossible for a small organization like ours, but as experts in data processing, we were able to build <a href="https://github.com/freelawproject/nomination-extractor">a machine learning model</a> to identify pages in the record that looked like financial disclosure documents. This method worked exceptionally well and was able to accurately identify disclosures that were handwritten, typed on typewriters, or printed from a computer.
 
-But Free Law Project is as unique as it is creative. As experts in data processing and documents
-we built and <a href="https://github.com/freelawproject/nomination-extractor"> trained a machine learning model</a> to
-identify financial disclosures based on how they look as images.  The model once trained can
-identify a page in the Senate records as a financial disclosure based on the unique design of the disclosure form.
-In fact, it can identify the what page of the form we are looking at with a high degree of accuarcy.
+In total, we found 874 financial disclosures, and with the help of dedicated volunteers, we were able to match these disclosures up to the judges in our database. Beginning today you can find these disclosures in our <a href="https://www.courtlistener.com/financial-disclosures/">Financial Disclosures database</a>.
 
-We took our model and applied it to our collection of Senate records and extracted out the nomination disclosures. The
-model was even able to accurately identify disclosures that were handwritten, typed on typewriters or printed
-from a computer.
+You can learn more about how we built and used the machine learning model by looking at our <a href="https://github.com/freelawproject/nomination-extractor">Nomination Extactor</a>.
 
-You can learn more about how we built and used the machine learning with
-our <a href="https://github.com/freelawproject/nomination-extractor"> Nomination Extactor</a>
+<RightImage imgProps={{
+  src: "/images/judge-fern-1987.png",
+  alt: "An example of a Senate Nomination Record",
+}} height="h-auto" width="w-1/2" border={true} href="https://storage.courtlistener.com/us/federal/judicial/financial-disclosures/3006/fern-m-smith-disclosure.1987.pdf">An example of a handwritten financal disclosure document.</RightImage>
 
-In total we found 874 financial disclosures, and with the help of dedicated volunteers, we were able to identify and
-add these disclosures to our database. Beginning today you can find these disclosures alongside the annual financial
-disclosures in our <a href="https://www.courtlistener.com/financial-disclosures/">Financial Disclosures</a> database.
-
-<div className="right-image" href="https://storage.courtlistener.com/us/federal/judicial/financial-disclosures/3006/fern-m-smith-disclosure.1987.pdf">
-     <img src="/images/judge-fern-1987.png"
-          alt="Senate Nomination Records"
-          height="400"
-          width="400"
-          className="img-responsive"/>
-</div>
 
 ## Of Note
 
 - Our expansion includes disclosures for 30 judges in which we had no prior financial disclosure.
 
-- Many nomination disclosures from the 1980 and 1990s are handwritten.  They have been added to our database but have not been extracted. This means that the
-   data is not searchable in our API.
+- Many nomination disclosures from the 1980 and 1990s are handwritten. They have been added to our database but have not been extracted. Some are barely legible. This means that the data is not searchable in our API.
 
 - Financial disclosures for failed judicial nominees are not included in our database.
 
@@ -102,7 +91,7 @@ disclosures in our <a href="https://www.courtlistener.com/financial-disclosures/
 ## A Thank You
 
 We want to thank all of our volunteers who have helped us with this project.  We are grateful for your time and effort.
-And could not have done it without you.
+We could not have done it without you.
 
 Special thanks to:
 
@@ -110,10 +99,12 @@ Special thanks to:
 
 2. xxx
 
-And all of the volunteers who have helped us with this project.
+And all the other volunteers who have helped us with this project.
 
 As always, we appreciate your feedback and suggestions and if you have a secret stash of financial disclosures you would
-like added to our database, get in touch.
+like added to our database, [get in touch][c].
 
 <p><PurpleButton href="https://www.courtlistener.com/financial-disclosures/" size="lg">Visit the Disclosure Homepage</PurpleButton></p>
 
+[fd-home]: https://www.courtlistener.com/financial-disclosures/
+[c]: /contact/
