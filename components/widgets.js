@@ -79,7 +79,7 @@ export function RightInfoBox({ children, width, border }) {
   );
 }
 
-export function RightImage({ children, imgProps, width, height, border }) {
+export function RightImage({ children, imgProps, width, height, border, href }) {
   const classes = classNames(
     {
       'float-right pb-5 sm:pl-4 relative': true,
@@ -89,7 +89,7 @@ export function RightImage({ children, imgProps, width, height, border }) {
   );
   return (
     <div className={classes}>
-      <CaptionedImage imgProps={imgProps} border={border}>
+      <CaptionedImage imgProps={imgProps} border={border} href={href}>
         {children}
       </CaptionedImage>
     </div>
