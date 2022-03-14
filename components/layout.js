@@ -1,5 +1,4 @@
 import Link from 'next/link';
-import Script from 'next/script';
 import Navbar from './navbar';
 import { Colophon, Footer, JudgeRibbon } from './footers';
 import { GridImage } from './widgets';
@@ -71,9 +70,12 @@ export default function Layout({ children, home, allPosts }) {
       <Colophon />
       <JudgeRibbon />
 
-      {/*Matomo*/}
-      <Script src="/js/tracking.js" />
-      <Script src="https://matomo.courtlistener.com/matomo.js" />
+      {/* Plausible */}
+      <script
+        defer
+        data-domain="free.law"
+        src="https://plausible.io/js/plausible.outbound-links.js"
+      />
     </div>
   );
 }
