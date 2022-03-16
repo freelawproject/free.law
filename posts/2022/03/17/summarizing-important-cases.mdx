@@ -1,6 +1,6 @@
 ---
 title: Important Opinions on CourtListener are Now Summarized by the Top Experts — Judges
-date: "2022-03-17"
+date: "2022-03-16"
 tags:
  - "Opinions"
  - "Summarization"
@@ -16,7 +16,7 @@ excerpt: "By identifying, filtering, ranking and grouping parentheticals, we hav
 
 Before we explain how it works, let's look at a few examples.
 
-The most cited opinion in CourtListener is *[Strickland v. Washington][strickland]*. For this case, our new system has 1,732 summaries that are [organized into 214 high-level groups][strickland].
+The most-cited opinion in CourtListener is *[Strickland v. Washington][strickland]*. For this case, our new system has 1,732 summaries that are [organized into 214 high-level groups][strickland].
 
 The top summary says the case is about:
 
@@ -41,7 +41,7 @@ Altogether, we've gathered over a million summaries like the ones above, and we'
 
 ## How is this possible?
 
-This system works by identifying legal citations followed by court-written summaries in parentheses.
+This system works by finding citations that have been summarized by a court.
 
 For example, the first summary above is drawn from a 9th Circuit case that has the following footnote:
 
@@ -50,11 +50,11 @@ For example, the first summary above is drawn from a 9th Circuit case that has t
   alt: "A screenshot of a summary Strickland, as quoted above."
 }}><em>Strickland</em> is summarized as above in a footnote of <a href="https://www.courtlistener.com/opinion/4474583/joseph-rice-v-w-montgomery/">this 9th Circuit case</a>.</CaptionedImage>
 
-Our process begins by using our [citation parser, eyecite][e], to identify these summaries. Once that's completed, we filter out bad ones, organize good ones into semantically similar groups, and rank the groups from best to worst.
+Our process begins by using our [citation parser][e], eyecite, to identify these summaries. Once that's completed, we filter out bad ones, organize good ones into meaningful groups, and rank the groups from best to worst.
 
 <PurpleButton href="https://www.courtlistener.com/opinion/107252/miranda-v-arizona/summaries/" size="lg">Check out Miranda v. Arizona</PurpleButton>
 
-The way we group and rank summaries takes into account a number of factors including the size of the semantic group, the importance of the summarizing opinion, and the text of the summary itself. Between all this, we're able to identify the top summary for each group and the top groups for each opinion.
+The way we group and rank summaries takes into account a number of factors including the size of the group, the importance of the summarizing opinion, and the text of the summary itself. Between all this, we're able to identify the top summary for each group and the top groups for each opinion.
 
 As you can see above, because these summaries are written by the courts, they tend to be exceptionally accurate. With this feature launched, hundreds of thousands of opinions in CourtListener now have expertly-written summaries.
 
@@ -63,13 +63,13 @@ So that's how we did it, but no project like this happens in a vacuum. We could 
 
 ## What's next?
 
-This new feature is so powerful this has to be just the beginning. We have two more major components in the works.
+This new feature is so powerful, today has to be just the beginning. We have two more major components in the works.
 
-First, we plan to export this data into a CSV so that researchers can work with it. That unique new legal resource should be available in the coming days.
+First, we plan to export this data into a CSV so that researchers can work with it. This unique new legal dataset should be available in the coming days.
 
-Second, we're working on making this data searchable. Instead of searching the full text of opinions, just search their summaries and find the ones that are on point!
+Second, we're working on making this data searchable. Instead of searching the full text of opinions, just search their summaries and find the ones that are on point.
 
-If you think you might have ideas for how to use this data or how to make it searchable — or something else we haven't thought of — please get in touch! We're thrilled to take the next step on this journey.
+If you think you might have ideas for how to use this data or how to make it searchable — or something else we haven't thought of — please get in touch. We're thrilled to take the next step on this journey.
 
 
 [cu]: https://www.courtlistener.com/opinion/1741/citizens-united-v-federal-election-comn/summaries/
