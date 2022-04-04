@@ -1,0 +1,52 @@
+---
+title: Huge Enhancements to our Database of California Judges
+date: "2022-04-07"
+tags:
+ - "Judge database"
+ - "California"
+ - "Pre/Dicta"
+author: "Michael Lissner"
+excerpt: "It wasn't easy, but we added 1,400 judges from California to our database."
+---
+
+
+<p className={"lead"}>One of the many resources we host at Free Law Project is an extensive <a href="/projects/judge-db/">database of state and federal judges</a>.
+  </p>
+
+Unlike most other judge databases, ours is all about structured, machine-readable data. Rather than having paragraphs of biographical information about judges, our data is available via our <a href="https://www.courtlistener.com/api/">bulk data files and judge APIs</a>, which you can use to look up judges by positions they've held in public or private practice, where they went to school, who appointed them, and much more.
+
+Today, we're excited to announce that, in partnership with Pre/Dicta, we have added nearly 1,400 California judges to this dataset. California is one of the largest economies in the world, and to our knowledge, this is the first time this type of open database has been created for research or innovation.
+
+This process began nearly two years ago, when we placed a California Public Records Act request to the Judicial Council of California, stating that:
+
+> We're looking for information about every judge, past and present, that has ever worked in California, including:
+> - Their full name (preferably separated into first, last, middle, suffix, etc)
+> - Their titles (including dates of promotion and demotion)
+> - Their appointer
+> - When they started at each location
+
+As we'd hoped, the Judicial Council came through with [a beautiful spreadsheet][gh] listing judges and their judicial positions going back to the 1950's. Using this spreadsheet we wrote code to add these judges and their courts to our database.
+
+But we didn't stop there. The spreadsheet from California listed the names and titles of the judges, but lacked the kind of biographical information that is essential to judicial analytics companies and researchers. The last step in our process was to go through each of the judges and add as much information about them as possible, including their education, birthdate, political affiliations, and much more.
+
+We're currently working on another Public Records Act request to get photos of California judges, but [so far it isn't going well][deny].
+
+"XXX", says Dan Rabinowitz, CEO of Pre/Dicta.
+
+We believe this is a unique collection of judicial data we encourage others to take it and use it in their own work. To get started and learn more, click below.
+
+<PurpleButton href="/projects/judge-db/" size="lg">Learn More</PurpleButton>
+
+From here, we aim to expand this database into more states. Up next is New York, then we hope to do Texas after that. Let us know if you want to sponsor a state or help expand the data in new directions.
+
+
+## Thanks
+
+This was a huge project spanning several years that took a lot of work to get done. In addition to the heaps of support from Pre/Dicta, this project is also a success thanks to Nick Sethi and Heliya Izadpanah.
+
+Thank you all!
+
+
+[clp]: https://www.courtlistener.com/person/
+[gh]: https://github.com/freelawproject/courtlistener/issues/1328
+[deny]: https://twitter.com/FreeLawProject/status/1507443253657755649
