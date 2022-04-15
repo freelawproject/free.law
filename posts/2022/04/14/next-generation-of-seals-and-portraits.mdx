@@ -1,0 +1,106 @@
+---
+title: The Next Generation of Our Seal and Portrait Collections are Launched
+date: "2022-04-15"
+tags:
+ - "judges"
+ - "portraits"
+ - "seals"
+ - "service"
+author: "Michael Lissner"
+excerpt: "It's now easier than ever to take these pictures and put them in your applications."
+---
+
+
+<p className="lead">
+  We have collected over <a href="/projects/judge-pics/">1,000 portraits of judges</a> and over <a href="/projects/seal-rookery/">250 court seals</a>. We have always made these available as raw data, but today we are excited to announce two new services that make using these images easier than ever.
+</p>
+
+In the past, to use these images, you had to install a large Python library that contained all the images and then link your web server up with the images in that library. This was terribly cumbersome — particularly as we added more and more photos — and we hated doing it even in our own systems.
+
+To fix this, we're releasing a new version of the Python library that only has metadata about the photos. In tandem, we're launching a new free service that hosts the photos on your behalf. Now, instead of asking you to host the images via your server, you simply look up the judge you want, and we give you a hosted link to that image that you can drop into your website or application.
+
+For example, here's how you'd find Justice Ketanji Jackson's photo:
+
+```python3
+In[0]: from judge_pics.search import portrait, ImageSizes
+In[1]: portrait("ketanji jackson", ImageSizes.SMALL)
+Out[1]: 'https://portraits.free.law/v2/128/jackson-ketanji-1970.jpeg'
+```
+
+Or, if you know the CourtListener ID for the judge, you could do:
+
+```python3
+In[0]: from judge_pics.search import portrait, ImageSizes
+In[1]: portrait(1609, ImageSizes.SMALL)  # <-- Justice Jackson is number 1609
+Out[1]: 'https://portraits.free.law/v2/128/jackson-ketanji-1970.jpeg'
+```
+
+Finally, if you want to just see a judge's picture, you can use `show()` like this:
+
+<CaptionedImage imgProps={{
+  "src": "/images/judges/climage-jackson.png",
+  "alt": "A screenshot of the Python shell. In the shell the show() function was imported from judge_pics.search. Then, the command print(show(1609, ImageSizes.SMALL) was run. The output of that command is an extremely low resolution but colorful representation of the judge that no blind person would find the least bit useful. Sorry."
+}} height="h-16" width="w-16">A picture of Judge Jackson rendered as ANSI escape codes</CaptionedImage>
+
+It works the same for seals too but you import from the `seal_rookery` instead of from `judge_pics`, and instead of getting links at `portraits.free.law`, you get them at `seals.free.law`.
+
+As of today, we use these services in CourtListener, to show pictures of judges in our judge database and to add nice album art to oral argument audio files.
+
+[Here's an example of Justice Jackson](https://www.courtlistener.com/person/1609/ketanji-brown-jackson/).
+
+Read on for more details, and click below to skip to the code:
+
+<PurpleButton href="https://github.com/freelawproject/judge-pics" size="lg">Learn more about Judge Pics</PurpleButton>
+&nbsp;
+<PurpleButton href="https://github.com/freelawproject/seal-rookery" size="lg">Learn more about Court Seals</PurpleButton>
+
+## On Scalability and Performance
+
+These pictures are hosted via AWS S3, making them incredibly scalable and reliable. To make them even faster, they are distributed by AWS's CloudFront CDN, which means that (y)our users will get these pictures from the AWS data canter nearest them.
+
+
+## On Versioning
+
+Over time, we will be adding more photos to these collections. These will arrive as updates to the Python package and as new photos in the service. We expect these to be generally backwards compatible, but if we need to break compatibility, we will do so by bumping the Python package to version 3.x, and changing the URL of the images to contain v3 instead of v2.
+
+We see no reason why the URLs we are launching today will ever change.
+
+
+## On Sustainability
+
+For the most part, hosting this service is cheap, so we're just going to do it. That said, collecting the images for this service and developing it is extremely expensive. Donations help offset these costs. Please consider donating if this is useful to you.
+
+
+## On Security
+
+If you use this service, you may wonder if it is safe and secure. Here is our analysis.
+
+**1. What prevents the images from being replaced with malicious ones?**
+
+The short answer is that our incentives are aligned with yours. Because our website uses this same service, it would be difficult for an attacker to put malicious photos on your website without them also appearing on ours. This service is included in our [vulnerability disclosure policy][vdp], and we use process and technical measures to prevent incidents.
+
+
+**2. What private information would we share with Free Law Project by using these services?**
+
+Two pieces of data are shared with us:
+
+1. The IP address of your users.
+
+2. The URL or domain of your website via `referer` headers.
+
+Ideally, we wouldn't get either of these pieces of information, but we at least need the IP so we can serve the request. We do not log it.
+
+For the referrer, you can avoid sharing it with us by setting the [`Referrer-Policy`](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Referrer-Policy) header on your website. You should probably do this anyway.
+
+
+**3. What if Free Law Project is hacked? Could that hack me too?**
+
+The short answer is "not really." If you're using the `<img>` tag to put judge portraits or court seals on your website, the worst a hacker can do is change those photos. That's not great — some photos can't be unseen — but the hacker couldn't deliver malicious javascript to your users, couldn't access private information from your website, etc. Hotlinking photos is as old as the Web itself and remains generally secure.
+
+If the above is to your satisfaction, you can learn more below:
+
+<PurpleButton href="https://github.com/freelawproject/judge-pics" size="lg">Learn more about Judge Pics</PurpleButton>
+&nbsp;
+<PurpleButton href="https://github.com/freelawproject/seal-rookery" size="lg">Learn more about Court Seals</PurpleButton>
+
+[vdp]: /vulnerability-disclosure-policy/
