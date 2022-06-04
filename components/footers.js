@@ -1,11 +1,11 @@
 import Image from 'next/image';
 import Link from 'next/link';
-import { H5 } from './headings';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faGithub, faTwitter } from '@fortawesome/free-brands-svg-icons';
-import { FooterLink } from './button';
-import { faCircle, faNewspaper } from '@fortawesome/free-solid-svg-icons';
-import { MainFullBleedColumn } from './layout';
+import {H5} from './headings';
+import {FontAwesomeIcon} from '@fortawesome/react-fontawesome';
+import {faGithub, faTwitter} from '@fortawesome/free-brands-svg-icons';
+import {FooterLink} from './button';
+import {faCircle, faNewspaper} from '@fortawesome/free-solid-svg-icons';
+import {MainFullBleedColumn} from './layout';
 
 export function Footer({ recentPost }) {
   return (
@@ -52,6 +52,7 @@ export function Footer({ recentPost }) {
             <FooterLink href="/projects/juriscraper/">Juriscraper</FooterLink>
             <FooterLink href="/projects/eyecite/">Eyecite</FooterLink>
             <FooterLink href="/projects/x-ray/">X-Ray</FooterLink>
+            <FooterLink href="/projects/doctor/">Doctor</FooterLink>
             <FooterLink href="https://github.com/freelawproject/">
               <span className="hidden lg:inline">Other </span> Projects on Github
             </FooterLink>

@@ -1,5 +1,5 @@
-import { Fragment } from 'react';
-import { Popover, Transition } from '@headlessui/react';
+import {Fragment} from 'react';
+import {Popover, Transition} from '@headlessui/react';
 import {
   BadgeCheckIcon,
   CodeIcon,
@@ -12,12 +12,12 @@ import {
   UserGroupIcon,
   XIcon,
 } from '@heroicons/react/outline';
-import { ChevronDownIcon } from '@heroicons/react/solid';
+import {ChevronDownIcon} from '@heroicons/react/solid';
 import Link from 'next/link';
 import Image from 'next/image';
-import { RedButton, WhiteButton } from './button';
+import {RedButton, WhiteButton} from './button';
 import classNames from 'classnames';
-import { DropDownCallToAction } from './widgets';
+import {DropDownCallToAction} from './widgets';
 
 const projects = [
   {
@@ -76,6 +76,13 @@ const tools = [
     description: 'A fast and accuratetool to find worthless redactions in PDF files.',
     href: '/projects/x-ray/',
     imgSrc: '/images/icons/x-ray.svg',
+  },
+  {
+    name: 'Doctor',
+    description: 'Convert and extract documents and audio files at scale.',
+    href: '/projects/doctor/',
+    imgSrc: '/images/icons/doctor-icon.png',
+    icon_height: 'h-4',
   },
 ];
 const datasets = [
@@ -314,8 +321,8 @@ export default function Navbar({ allPosts }) {
                                       aria-hidden="true"
                                     />
                                   ) : (
-                                    <div className="h-6 w-6 relative flex-shrink-0">
-                                      <Image src={item.imgSrc} layout="fill" aria-hidden="true" />
+                                    <div className={`${item.icon_height ? item.icon_height : "h-6"} w-6 relative flex-shrink-0`}>
+                                      <img src={item.imgSrc} aria-hidden="true" />
                                     </div>
                                   )}
                                   <div className="ml-4">
