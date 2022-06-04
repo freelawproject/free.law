@@ -1,0 +1,30 @@
+---
+title: "Doctor: Document Conversion at Scale"
+type: page
+---
+
+<RightImage imgProps={{
+  src: "/images/icons/doctor.png",
+  alt: "Doctor logo: An infinity symbol mixed with a snake eating its tail, except the mouth of the snake is the ear parts of a stethoscope and the tail is the part you put on your heart."
+}} height="h-24"/>
+
+<p className="lead">Doctor is a microservice for converting and extracting documents and audio files.</p>
+
+As a part of building CourtListener, we have spent years optimizing our document extraction and audio conversion pipelines. Doctor is the culmination of this work and has functionality like:
+
+ - Extracting text from documents, including WPD, PDF, DOC, DOCX, RTF, and more.
+ - Completing optimized OCR extraction on image-based PDFs.
+ - Getting page counts from different document types.
+ - Converting audio files from WMA, OGG, WAV, and others to MP3.
+ - Making a PDF from images.
+ - Creating thumbnails from PDFs.
+
+Doctor is designed to scale while providing performant high-quality results. It can be scaled horizontally via a multi-worker or orchestrated single-worker model.
+
+The code in Doctor has processed tens of millions of documents and over 2.5 million minutes of audio.
+
+We hope you will try Doctor in your project and that it can be a powerful tool for your work.
+
+<div className="text-center">
+    <PurpleButton href="https://github.com/freelawproject/doctor" size="lg">Learn More on Github</PurpleButton>
+</div>
