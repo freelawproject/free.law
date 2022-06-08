@@ -4,7 +4,7 @@ import generateRssFeed from '../../lib/rss';
 export async function getServerSideProps({ res }) {
   res.setHeader('Content-Type', 'text/xml');
   const feed = await generateRssFeed();
-  res.write(feed.xml({ indent: true }));
+  res.write(feed.atom1());
   res.end();
   return {
     props: {},
