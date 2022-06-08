@@ -9,11 +9,9 @@ import HeroImage from '../components/heroImage';
 import { JudgeRibbon } from '../components/footers';
 import { DownloadIcon } from '@heroicons/react/outline';
 import { NextSeo } from 'next-seo';
-import generateRssFeed from "../lib/rss";
 
 export async function getStaticProps() {
   const allPostsData = await getSortedPostsData();
-  await generateRssFeed();
   return {
     props: {
       allPostsData,
