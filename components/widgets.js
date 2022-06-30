@@ -1,12 +1,11 @@
 import Image from 'next/image';
 import Link from 'next/link';
-import { H4 } from './headings';
+import {H4} from './headings';
 import Button from './button';
-import slugify from 'slugify';
 import classNames from 'classnames';
-import { ArrowCircleRightIcon } from '@heroicons/react/outline';
-import { Disclosure } from '@headlessui/react';
-import { ChevronUpIcon } from '@heroicons/react/solid';
+import {ArrowCircleRightIcon} from '@heroicons/react/outline';
+import {Disclosure} from '@headlessui/react';
+import {ChevronUpIcon} from '@heroicons/react/solid';
 
 export function GridListItem({ heading, imgProps, border, bg, href, btnText, children }) {
   return (
@@ -50,11 +49,17 @@ export function GridImage({ imgProps }) {
   );
 }
 
-export function Tag({ id, name }) {
+export function Tag({ id, href, name }) {
+  const classes = "font-semibold text-gray-800 no-underline";
   return (
-    <Link id={id} href={`/tag/${slugify(name.toLowerCase())}/`}>
-      <a>{name}</a>
-    </Link>
+    <span className="text-xs inline-flex items-center leading-sm uppercase px-3 py-1 bg-purple-200 rounded-full">
+      {
+        href ?
+        <Link id={id} href={href}>
+          <a className={classes}>{name}</a>
+        </Link> : <span className={classes}>{name}</span>
+      }
+    </span>
   );
 }
 

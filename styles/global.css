@@ -56,3 +56,10 @@
 .right-image img {
     margin-bottom: 0;
 }
+
+.prose code::after {
+  content: "";
+}
+.prose code::before {
+  content: "";
+}

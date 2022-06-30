@@ -1,12 +1,13 @@
 import Date from '../components/date';
-import Layout, { PostColumn } from '../components/layout';
-import { MDXRemote } from 'next-mdx-remote';
-import { getAllPostIds, getPostData, getSortedPostsData } from '../lib/posts';
-import { H1 } from '../components/headings';
-import { AlertBox, Tag } from '../components/widgets';
-import { NextSeo } from 'next-seo';
-import { mdxComponents } from '../lib/mdx';
-import { RedButton } from '../components/button';
+import Layout, {PostColumn} from '../components/layout';
+import {MDXRemote} from 'next-mdx-remote';
+import {getAllPostIds, getPostData, getSortedPostsData} from '../lib/posts';
+import {H1} from '../components/headings';
+import {AlertBox, Tag} from '../components/widgets';
+import {NextSeo} from 'next-seo';
+import {mdxComponents} from '../lib/mdx';
+import {RedButton} from '../components/button';
+import slugify from "slugify";
 
 export async function getStaticProps({ params }) {
   const postData = await getPostData(params.slug);
@@ -74,7 +75,7 @@ export default function Post({ postData, allPostsData }) {
             <div className="flex flex-wrap gap-1.5 pt-5">
               <span className="text-gray-500">Tagged:</span>
               {postData.tags.map((item) => (
-                <Tag id={item} name={item} />
+                <Tag id={item} href={`/tag/${slugify(item.toLowerCase())}/`} name={item}/>
               ))}
             </div>
           ) : (
