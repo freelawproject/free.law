@@ -1,10 +1,15 @@
-import Layout, { PostColumn, PostSummary } from '../components/layout';
-import { getSortedPostsData } from '../lib/posts';
-import { H1 } from '../components/headings';
-import { NextSeo } from 'next-seo';
+import Layout, {PostColumn, PostSummary} from '../components/layout';
+import {getSortedPostsData} from '../lib/posts';
+import {H1} from '../components/headings';
+import {NextSeo} from 'next-seo';
+import generateRssFeed from "../lib/rss";
 
 export async function getStaticProps() {
   const allPostsData = await getSortedPostsData(true);
+
+  // Write the RSS feed to disk when we generate the blog index
+  await generateRssFeed(allPostsData);
+
   return {
     props: {
       allPostsData,
