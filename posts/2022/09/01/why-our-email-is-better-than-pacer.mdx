@@ -42,9 +42,11 @@ Using SES is a great way to send emails, but we take it further:
 
     While we wait for your inbox to be fixed, we save any new emails we'd normally send to you. Once we detect that your inbox is fixed, we send you the emails you would have normally missed.
 
-2. CourtListener alerts you via side channel if you have an issue. If we find that your email address no longer works, we pop up a huge banner in CourtListener and strongly encourage you to fix the issue. Once you fix it, we resend the things you missed (within reason).
+2. CourtListener alerts you via side channel if you have an issue. If we find that your email address is experiencing a temporary problem we pop up a huge banner in CourtListener letting you know that there is an issue with your inbox and we'll continue trying again. Once your inbox is fixed, we resend the things you missed (within reason).
 
-On top of this, we carefully monitor our bounce notifications. This ensures that we don't send messages to inboxes that are truly dead, preventing CourtListener from getting marked as a spammer.
+    If we find that your email address no longer works, we also pop up the huge banner in CourtListener and strongly encourage you to update your email address to continue receiving emails.
+
+3. We carefully monitor our bounce notifications, sometimes AWS Simple Email Service (SES) sends us permanent bounce notifications that indicate the email address we tried sending a message to is totally broken and we shouldn't continue sending messages to these inboxes. So then we flag these email addresses to avoid sending them new emails preventing CourtListener from getting marked as a spammer and keeping our sender's reputation healthy.
 
 
 # And so this is why....
