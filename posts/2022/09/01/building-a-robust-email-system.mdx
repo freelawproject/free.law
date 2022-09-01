@@ -1,0 +1,75 @@
+---
+title: "Building a Robust Email System for CourtListener Alerts and Emails"
+date: "2022-09-01"
+tags:
+ - "Email"
+ - "AWS"
+ - "@recap.email"
+ - "Reliability Engineering"
+author: "Alberto Islas, Michael Lissner"
+excerpt: "In this post, we explain how we've designed our email system to be as robust and reliable as possible."
+---
+
+<p class="lead">Earlier this week, <a href="/2022/08/26/personal-recap-dot-email-addresses/">we announced personalized @recap.email addresses</a> for all our users. In the announcement, we noted that one reason to use @recap.email is that it can increase the odds that your firm will get notifications about filings than if you use CM/ECF notifications alone.
+</p>
+
+While that may seem hard to believe, this post explains the two biggest hurdles to an email landing in an inbox and explains how we go above and beyond to make our emails reliable.
+
+
+## Why Emails Fail to Arrive
+
+There are two broad reasons why an email might not arrive in an inbox. First, if any email server is down or misconfigured, messages will struggle to go through. Second, if the recipient thinks that the sender is a spammer, the email can be dropped completely or can wind up in a spam folder.
+
+Either way, the message is as good as gone.
+
+We address these problems in a few ways:
+
+1. **We resend failed emails.** If we discover that your inbox is full, your server is offline, or has another issue, we use [an exponential backoff algorithm][algo] to try again later.
+
+    While we wait for your inbox to be fixed, we save any new emails we'd normally send you. As soon as we detect that your inbox is fixed, we send you the emails you would have normally missed.
+
+    This means that unlike other services that might give up, we keep trying until you get our emails.
+
+2. **We alert you if your account has an issue.** If we find that your email address is experiencing a temporary problem, we pop up a banner in CourtListener letting you know that there is an issue with your inbox and that we'll continue trying until it's fixed.
+
+    If we find that your email address no longer works, the banner in CourtListener strongly encourages you to update your email address to continue receiving emails from us:
+
+    ![A screenshot showing a warrning banner that reads, "We are currently unable to send emails to you. Please update your email address to continue receiving emails."](/images/flagged-email.png)
+
+    These notifications make it more likely that you'll know if you have an issue getting emails. We're considering adding secondary email addresses too, so we can notify a secondary address if the primary one is failing, but we haven't found this to be necessary yet.
+
+Between these two interventions, we drastically increase the odds that if your server goes offline, changes, or has another problem, you'll still get our emails. (If it's offline for too long, we *do* eventually give up, but at that point you have bigger problems.)
+
+
+## Sending Ham Instead of Spam
+
+The other issue to avoid is having emails marked as spam. We take a number of steps to avoid this:
+
+1. **We carefully monitor emails that bounce.** When emails to a particular address start bouncing, we have to stop sending emails to that address or else our reputation gets damaged. By monitoring our bounce notifications, we can flag bad addresses and stop sending messages to those recipients.
+
+1. **We include unsubscribe links in our messages.** This ensures that if somebody no longer wants our emails, they can unsubscribe instead of marking our emails as spam. If too many people mark our emails as spam, our reputation could be damaged.
+
+1. **We use the latest anti-spam technologies.** To avoid spam filters, we [use a number of technologies][atwood] to prove we're legit. These include a mishmash of technologies like SPF, DKIM, DMARC, and rDNS. Getting these right is hard, but our email service, [AWS Simple Email Service (SES)][ses], helps us ensure we get it right.
+
+That should take care of us *sending* emails. If we want to work with your notifications from CM/ECF, we also have to make sure we *get* emails. Luckily, getting emails is fairly easy — We use [AWS SES][ses], which has [a 99.9% uptime SLA][sla].
+
+
+## Better than the Original
+
+Email is a deceptively complicated topic. Since we [first launched CourtListener in 2010][cl], we have sent millions of [legal alerts][alerts] to our users, and we have invested heavily in our email infrastructure so it is robust and reliable.
+
+By taking these steps, we believe we've created an email system that's so reliable, it can outperform the CM/ECF system, even as it adds more complexity in the middle.
+
+We hope that by sharing our experience and the features of our design, other organizations can improve and innovate their systems too. As always, [our code is available][cl-code], and for this project, we even spent time [upgrading the performance and cryptography of the Django-SES library][dses] that many organizations rely on.
+
+It's always important that email works well, but when legal alerts are involved, there's no room for errors or shortcuts.
+
+
+[atwood]: https://blog.codinghorror.com/so-youd-like-to-send-some-email-through-code/
+[ses]: https://aws.amazon.com/ses/
+[cl]: /2010/05/01/announcing-courtlistener-com/
+[dses]: https://github.com/django-ses/django-ses/pull/239
+[cl-code]: https://github.com/freelawproject/courtlistener/blob/main/cl/lib/email_backends.py
+[algo]: https://en.wikipedia.org/wiki/Exponential_backoff
+[sla]: https://aws.amazon.com/pinpoint/sla/?did=sla_card&trk=sla_card
+[alerts]: https://www.courtlistener.com/help/alerts/
