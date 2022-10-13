@@ -5,8 +5,17 @@ import { getSortedPostsData } from '../../lib/posts';
 import { NextSeo } from 'next-seo';
 
 export async function getStaticProps({ params }) {
-  const taggedPostsData = await getPostDataForTag(params.tag);
-  const allPostsData = await getSortedPostsData();
+  let taggedPostsData, allPostsData;
+  try {
+    taggedPostsData = await getPostDataForTag(params.tag);
+    allPostsData = await getSortedPostsData();
+  } catch (e) {
+    console.error(e);
+    return {
+      notFound: true,
+    };
+  }
+
   return {
     props: {
       taggedPostsData,

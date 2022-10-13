@@ -5,7 +5,16 @@ import Link from 'next/link';
 import { getSortedPostsData } from '../lib/posts';
 
 export async function getStaticProps() {
-  const allPostsData = await getSortedPostsData(true);
+  let allPostsData;
+  try {
+    allPostsData = await getSortedPostsData(true);
+  } catch (e) {
+    console.error(e);
+    return {
+      notFound: true,
+    };
+  }
+
   return {
     props: {
       allPostsData,

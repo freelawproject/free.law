@@ -11,7 +11,16 @@ import { DownloadIcon } from '@heroicons/react/outline';
 import { NextSeo } from 'next-seo';
 
 export async function getStaticProps() {
-  const allPostsData = await getSortedPostsData();
+  let allPostsData;
+  try {
+    allPostsData = await getSortedPostsData();
+  } catch (e) {
+    console.error(e);
+    return {
+      notFound: true,
+    };
+  }
+
   return {
     props: {
       allPostsData,
@@ -55,8 +64,8 @@ export default function Home({ allPostsData }) {
             </div>
             <div className="w-full pt-3 pb-6 text-gray-700">
               <H3>
-                Using a searchable archive of documents and browser extensions for Firefox,
-                Chrome or Safari, RECAP improves PACER, the electronic public access system for federal
+                Using a searchable archive of documents and browser extensions for Firefox, Chrome
+                or Safari, RECAP improves PACER, the electronic public access system for federal
                 court&nbsp;documents.
               </H3>
             </div>
@@ -66,8 +75,8 @@ export default function Home({ allPostsData }) {
             >
               <GridListItem heading="Automatic Sharing">
                 <p>
-                  Install the RECAP extension into Firefox, Chrome or Safari to automatically contribute
-                  your PACER&nbsp;purchases to our public archive.
+                  Install the RECAP extension into Firefox, Chrome or Safari to automatically
+                  contribute your PACER&nbsp;purchases to our public archive.
                 </p>
                 <p>No account needed and it only takes a minute or two.</p>
               </GridListItem>
