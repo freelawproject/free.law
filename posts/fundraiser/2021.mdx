@@ -5,8 +5,7 @@ type: page
 
 
 
-<p className="lead">Free Law Project is a non-profit that uses advocacy, software, and data to improve the justice system. Today we're asking for your support so that 2022 can be the best year ever for RECAP, CourtListener, and all we do.
-</p>
+<p className="lead">Free Law Project is a non-profit that uses advocacy, software, and data to improve the justice system. Today we're asking for your support so that 2022 can be the best year ever for RECAP, CourtListener, and all we do.</p>
 
 
 Read on to learn more about what we've been up to or click below to give us your support.
@@ -93,48 +92,35 @@ Free Law Project is a federally recognized 501(c)(3) non-profit. Donations are t
 
 31 million — the number of times computers used our APIs this year
 
-<!--
-In [10]: from datetime import date, timedelta
-
-In [11]: dates = ['api:v3.d:%s.count' %
-                     (date(2021, 12, 31) - timedelta(days=x)).isoformat()
-                     for x in range(0, 365)]
-
-In [13]: from cl.lib.redis_utils import make_redis_interface
-
-In [14]:     r = make_redis_interface('STATS')
-
-In [16]: sum(
-            [int(result) for result in
-             r.mget(*dates) if result is not None]
-        )
-Out[16]: 34367665
--->
-
+[//]: # (In [10]: from datetime import date, timedelta)
+[//]: # (In [11]: dates = ['api:v3.d:%s.count' %)
+[//]: # (                     &#40;date&#40;2021, 12, 31&#41; - timedelta&#40;days=x&#41;&#41;.isoformat&#40;&#41;)
+[//]: # (                     for x in range&#40;0, 365&#41;])
+[//]: # (In [13]: from cl.lib.redis_utils import make_redis_interface)
+[//]: # (In [14]:     r = make_redis_interface&#40;'STATS'&#41;)
+[//]: # (In [16]: sum&#40;)
+[//]: # (            [int&#40;result&#41; for result in)
+[//]: # (             r.mget&#40;*dates&#41; if result is not None])
+[//]: # (        &#41;)
+[//]: # (Out[16]: 34367665)
 
 5.1 million — the number of those requests that were from the RECAP Extensions (thank you!)
 
-<!--
-from cl.api.utils import invert_user_logs
-out = invert_user_logs('2021-01-01', '2021-12-31')
-out['recap']
--->
+[//]: # (from cl.api.utils import invert_user_logs)
+[//]: # (out = invert_user_logs&#40;'2021-01-01', '2021-12-31'&#41;)
+[//]: # (out['recap'])
 
 ---
 
-148,590 — the number of minutes of oral arguments we added to our oral argument archive this year
 
-<!--
-from cl.audio.models import Audio
-from django.db.models import Sum
+[//]: # (148,590 — the number of minutes of oral arguments we added to our oral argument archive this year)
+[//]: # (from cl.audio.models import Audio)
+[//]: # (from django.db.models import Sum)
+[//]: # (Audio.objects.filter&#40;date_created__gt='2021-01-01'&#41;.aggregate&#40;Sum&#40;'duration'&#41;&#41;)
+[//]: # ({'duration__sum': 11903785})
+[//]: # (11903785 / 60)
+[//]: # (198396)
 
-
-Audio.objects.filter(date_created__gt='2021-01-01').aggregate(Sum('duration'))
-{'duration__sum': 11903785}
-
-11903785 / 60
-198396
--->
 
 5.3 — the number of times you could watch every [Law & Order episode ever made][landw] instead of listening to all the oral argument we added
 
@@ -148,62 +134,87 @@ Audio.objects.filter(date_created__gt='2021-01-01').aggregate(Sum('duration'))
 
 8,000 tons — the weight of the books in the Library of Congress if they average one pound each
 
-<!--
-In [1]: from django.db.models import Sum
 
-In [3]: from cl.search.models import RECAPDocument
+[//]: # (In [1]: from django.db.models import Sum)
 
-In [4]: RECAPDocument.objects.filter(is_available=True).aggregate(Sum('page_count'))
-Out[4]: {'page_count__sum': 80712422}
+[//]: # ()
+[//]: # (In [3]: from cl.search.models import RECAPDocument)
 
-100 pages = 1 pounds
-2000 pounds = 1 ton
+[//]: # ()
+[//]: # (In [4]: RECAPDocument.objects.filter&#40;is_available=True&#41;.aggregate&#40;Sum&#40;'page_count'&#41;&#41;)
 
-500 pages = 5.2cm
-1 page = 0.0104cm
+[//]: # (Out[4]: {'page_count__sum': 80712422})
 
-80712422 pages = 839,409.1888 cm = 8394.09m
+[//]: # ()
+[//]: # (100 pages = 1 pounds)
 
-Burj Kalifa is 829.8m high.
+[//]: # (2000 pounds = 1 ton)
 
--->
+[//]: # ()
+[//]: # (500 pages = 5.2cm)
+
+[//]: # (1 page = 0.0104cm)
+
+[//]: # ()
+[//]: # (80712422 pages = 839,409.1888 cm = 8394.09m)
+
+[//]: # ()
+[//]: # (Burj Kalifa is 829.8m high.)
+
 
 ---
 
 33 million — the number of PACER dockets added to the RECAP Archive in 2021
 
-<!--
-from cl.search.models import Docket
-Docket.objects.filter(date_created__gte='2021-01-01', source__in=Docket.RECAP_SOURCES).count()
--->
+[//]: # (<!--)
+
+[//]: # (from cl.search.models import Docket)
+
+[//]: # (Docket.objects.filter&#40;date_created__gte='2021-01-01', source__in=Docket.RECAP_SOURCES&#41;.count&#40;&#41;)
+
+[//]: # (-->)
 
 30 million — the number of docket entries added
 
-<!--
-In [57]: from cl.search.models import DocketEntry
+[//]: # (<!--)
 
-In [58]: DocketEntry.objects.filter(date_created__gte='2021-01-01').count()
-Out[58]: 61495215
--->
+[//]: # (In [57]: from cl.search.models import DocketEntry)
+
+[//]: # ()
+[//]: # (In [58]: DocketEntry.objects.filter&#40;date_created__gte='2021-01-01'&#41;.count&#40;&#41;)
+
+[//]: # (Out[58]: 61495215)
+
+[//]: # (-->)
 
 150,000 — the number of entries added per work day in 2021
 
-<!-- Above divided by 200 -->
+[//]: # (<!-- Above divided by 200 -->)
 
-<!--
-593,000 — the number of PACER documents added
--->
-<!--
-In [6]: RECAPDocument.objects.filter(is_available=True, date_created__gte='2021-01-01').count()
-Out[6]: 1352515
--->
+[//]: # ()
+[//]: # (<!--)
+
+[//]: # (593,000 — the number of PACER documents added)
+
+[//]: # (-->)
+
+[//]: # (<!--)
+
+[//]: # (In [6]: RECAPDocument.objects.filter&#40;is_available=True, date_created__gte='2021-01-01'&#41;.count&#40;&#41;)
+
+[//]: # (Out[6]: 1352515)
+
+[//]: # (-->)
 
 5.8 million — the number of pages in those documents
 
-<!--
-In [5]: RECAPDocument.objects.filter(is_available=True, date_created__gte='2021-01-01').aggregate(Sum('page_count'))
-Out[5]: {'page_count__sum': 30241846}
--->
+[//]: # (<!--)
+
+[//]: # (In [5]: RECAPDocument.objects.filter&#40;is_available=True, date_created__gte='2021-01-01'&#41;.aggregate&#40;Sum&#40;'page_count'&#41;&#41;)
+
+[//]: # (Out[5]: {'page_count__sum': 30241846})
+
+[//]: # (-->)
 
 
 ## Thank You <i className="fa fa-heart-o"></i>

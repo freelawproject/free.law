@@ -14,8 +14,7 @@ Recently, we started a new project to analyze a few million PACER documents that
 This is a really interesting statistic. Another is that there are more than one billion documents in in PACER:
 
 <blockquote>
-    <p>CM/ECF currently contains, in aggregate, more than one billion retrievable documents spread among the 13 courts of appeals, 94 district courts, 90 bankruptcy courts, and other specialized tribunals.
-    </p>
+    <p>CM/ECF currently contains, in aggregate, more than one billion retrievable documents spread among the 13 courts of appeals, 94 district courts, 90 bankruptcy courts, and other specialized tribunals.</p>
     <footer><a href="https://www.supremecourt.gov/publicinfo/year-end/2014year-endreport.pdf">2014 Supreme Court Annual Report</a></footer>
 </blockquote>
 
@@ -43,20 +42,15 @@ However, whenever you create monopolies, oversight becomes important. How do we 
 
 <div className="row">
     <div className="col-sm-7">
-        <p>Oversight comes in a few forms. It can be performed by journalists, by the public, or by other government bodies, like Inspectors General. To its credit, the AO <a href="http://www.uscourts.gov/about-federal-courts/judicial-administration/administrative-oversight-and-accountability">has a page on this topic on its website</a> that lists the various auditing and accountability mechanisms that are in place, but the fact is that none of these mechanisms have been successful in reviewing the excessive costs of the PACER system.
-        </p>
-        <p>The next tool is Congressional oversight. The AO is required to file <a href="http://www.uscourts.gov/statistics-reports/analysis-reports/directors-annual-report">annual reports to Congress</a> but so far those reports have said that PACER is a resounding success and that surveys report great satisfaction among users. So far, Congress hasn't questioned these assertions, and so this oversight has failed.
-        </p>
-        <p>Unlike most other parts of the federal government, the AO and the judicial branch do not have Inspectors General. That's out too.
-        </p>
+        <p>Oversight comes in a few forms. It can be performed by journalists, by the public, or by other government bodies, like Inspectors General. To its credit, the AO <a href="http://www.uscourts.gov/about-federal-courts/judicial-administration/administrative-oversight-and-accountability">has a page on this topic on its website</a> that lists the various auditing and accountability mechanisms that are in place, but the fact is that none of these mechanisms have been successful in reviewing the excessive costs of the PACER system.</p>
+        <p>The next tool is Congressional oversight. The AO is required to file <a href="http://www.uscourts.gov/statistics-reports/analysis-reports/directors-annual-report">annual reports to Congress</a> but so far those reports have said that PACER is a resounding success and that surveys report great satisfaction among users. So far, Congress hasn't questioned these assertions, and so this oversight has failed.</p>
+        <p>Unlike most other parts of the federal government, the AO and the judicial branch do not have Inspectors General. That's out too.</p>
     </div>
     
     <div className="col-sm-5 bg-primary">
         <h3>What about FOIA?</h3>
-        <p>One especially powerful tool that is worth mentioning is a Freedom of Information Act (FOIA) request. These can be sent by members of the public to request records of various kinds from the government. Journalists and the public rely on FOIA requests to learn about the inner workings of the government, and have used them to uncover all manner of malfeasance.
-        </p>
-        <p>Unfortunately, because FOIA applies only to executive branch agencies, the AO, which is part of the judicial branch, is not subject to FOIA requests.
-        </p>
+        <p>One especially powerful tool that is worth mentioning is a Freedom of Information Act (FOIA) request. These can be sent by members of the public to request records of various kinds from the government. Journalists and the public rely on FOIA requests to learn about the inner workings of the government, and have used them to uncover all manner of malfeasance.</p>
+        <p>Unfortunately, because FOIA applies only to executive branch agencies, the AO, which is part of the judicial branch, is not subject to FOIA requests.</p>
     </div>
 </div>
 
@@ -81,32 +75,25 @@ As it stands, PACER thwarts the ability of the press and the public to ensure th
 
     The revenue of PACER in 2015, the last year that's available, was $145M (see item #1130 on page 51 of the [2016 Judicial Budget][budget]). Running PACER has other costs, but that revenue is 1,133 times more than what storing the documents in the cloud would cost.
 
-<!--
-  Backup data:
-  
-  # Number of bytes of PDF data
-  ↪ find . -name "*.pdf" -ls | awk '{total += $7} END {print total}'
-  1010353255231
-  
-  # Number of PDFs
-  ↪ find . -name "*.pdf" -ls | wc
-  3630604 39936644 381368741
-  
-  # Average size of an item
-  (1010353255231 bytes / 3630604 items) = 278287 bytes/item
-  
-  # Total size:
-  278287 X 1,000,000,000 = 278287925400000 bytes
-  # ...in TB and GB...
-  Google: 278287925400000 bytes in terabytes = 278 TB, 278000GB
-  
-  # Cost per month, year
-  278287GB X $0.0383 / GB / Month = $10658/month
-  $10658/month * 12 months/year = $127,901/year
-    
-  # Multiplier
-  PACER revenue of $145,000,000 / $127,901/year = 1133.6
--->
+
+[//]: # (  Backup data:)
+[//]: # (  # Number of bytes of PDF data)
+[//]: # (  ↪ find . -name "*.pdf" -ls | awk '{total += $7} END {print total}')
+[//]: # (  1010353255231)
+[//]: # (  # Number of PDFs)
+[//]: # (  ↪ find . -name "*.pdf" -ls | wc)
+[//]: # (  3630604 39936644 381368741)
+[//]: # (  # Average size of an item)
+[//]: # (  &#40;1010353255231 bytes / 3630604 items&#41; = 278287 bytes/item)
+[//]: # (  # Total size:)
+[//]: # (  278287 X 1,000,000,000 = 278287925400000 bytes)
+[//]: # (  # ...in TB and GB...)
+[//]: # (  Google: 278287925400000 bytes in terabytes = 278 TB, 278000GB)
+[//]: # (  # Cost per month, year)
+[//]: # (  278287GB X $0.0383 / GB / Month = $10658/month)
+[//]: # (  $10658/month * 12 months/year = $127,901/year)
+[//]: # (  # Multiplier)
+[//]: # (  PACER revenue of $145,000,000 / $127,901/year = 1133.6)
 
 [^4]: A petabyte is about 1,000 terabytes, which in turn is about 1,000 gigabytes. A gigabyte can hold thousands of documents. So, 15 petabytes is probably trillions of documents.
 

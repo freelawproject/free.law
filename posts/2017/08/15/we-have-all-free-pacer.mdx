@@ -55,21 +55,15 @@ The initiative to scrape, archive, and share these opinions is one of the most i
 [js]: /projects/juriscraper/
 [cs]: /data-consulting/
 
-<!--
-RECAPDocument.objects.filter(is_free_on_pacer=True).order_by().count()
-3437674
 
-Docket.objects.filter(docket_entries__recap_documents__is_free_on_pacer=True).distinct().count()
-1520836
-
-RECAPDocument.objects.filter(is_free_on_pacer=True, ocr_status=RECAPDocument.OCR_COMPLETE).order_by().count()
-417479
-
-RECAPDocument.objects.filter(is_free_on_pacer=True, ocr_status=RECAPDocument.OCR_COMPLETE).order_by().aggregate(Sum('page_count'))
-{'page_count__sum': 1989332}
-
-first = RECAPDocument.objects.filter(is_free_on_pacer=True).earliest('docket_entry__date_filed')
-
-first.docket_entry.date_filed
-datetime.date(1960, 4, 29)
--->
+[//]: # (RECAPDocument.objects.filter&#40;is_free_on_pacer=True&#41;.order_by&#40;&#41;.count&#40;&#41;)
+[//]: # (3437674)
+[//]: # (Docket.objects.filter&#40;docket_entries__recap_documents__is_free_on_pacer=True&#41;.distinct&#40;&#41;.count&#40;&#41;)
+[//]: # (1520836)
+[//]: # (RECAPDocument.objects.filter&#40;is_free_on_pacer=True, ocr_status=RECAPDocument.OCR_COMPLETE&#41;.order_by&#40;&#41;.count&#40;&#41;)
+[//]: # (417479)
+[//]: # (RECAPDocument.objects.filter&#40;is_free_on_pacer=True, ocr_status=RECAPDocument.OCR_COMPLETE&#41;.order_by&#40;&#41;.aggregate&#40;Sum&#40;'page_count'&#41;&#41;)
+[//]: # ({'page_count__sum': 1989332})
+[//]: # (first = RECAPDocument.objects.filter&#40;is_free_on_pacer=True&#41;.earliest&#40;'docket_entry__date_filed'&#41;)
+[//]: # (first.docket_entry.date_filed)
+[//]: # (datetime.date&#40;1960, 4, 29&#41;)

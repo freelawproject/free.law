@@ -12,7 +12,7 @@
 # GNU General Public License for more details.
 #
 # You should have received a copy of the GNU Affero General Public License
-# along with this program.  If not, see <http://www.gnu.org/licenses/>.
+# along with this program.  If not, see [http://www.gnu.org/licenses/](http://www.gnu.org/licenses/).
 #
 #  Under Sections 7(a) and 7(b) of version 3 of the GNU Affero General Public
 #  License, that license is supplemented by the following terms:

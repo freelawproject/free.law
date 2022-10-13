@@ -5,8 +5,7 @@ type: page
 
 
 
-<p className="lead">Your support helps us to make a more competitive and innovative legal ecosystem and helps us provide services to hundreds of thousands of users. Today we're asking for your support so that 2020 &mdash; our tenth year! &mdash; can be the best year ever for RECAP, CourtListener, and all we do.
-        </p>
+<p className="lead">Your support helps us to make a more competitive and innovative legal ecosystem and helps us provide services to hundreds of thousands of users. Today we're asking for your support so that 2020 &mdash; our tenth year! &mdash; can be the best year ever for RECAP, CourtListener, and all we do.</p>
 
 
 Read on to learn more about what we've been up to this year or click above to give us your support.
@@ -50,45 +49,13 @@ Free Law Project is a federally recognized 501(c)(3) non-profit. Donations are t
 
 34 million — the number of times computers used our APIs
 
-<!--
-In [10]: from datetime import date, timedelta
-
-In [11]: dates = ['api:v3.d:%s.count' %
-                     (date(2019, 12, 31) - timedelta(days=x)).isoformat()
-                     for x in range(0, 365)]
-
-In [13]: from cl.lib.redis_utils import make_redis_interface
-
-In [14]:     r = make_redis_interface('STATS')
-
-In [16]: sum(
-            [int(result) for result in
-             r.mget(*dates) if result is not None]
-        )
-Out[16]: 34367665
--->
-
-
 4.1 million — how many of those requests were from the RECAP Extensions (thank you!)
 
-<!--
-out = invert_user_logs('2019-01-01', '2019-12-31')
-out['recap']
--->
 
 ---
 
 198,000 — how many minutes of oral arguments we added to our Oral Argument archive
 
-<!--
-from cl.audio.models import Audio
-
-Audio.objects.filter(date_created__gt='2019-01-01').aggregate(Sum('duration'))
-{'duration__sum': 11903785}
-
-11903785 / 60
-198396
--->
 
 7.2 — how many times you could watch every [Law & Order episode][landw] instead of listening to all the oral argument we added this year
 
@@ -102,56 +69,18 @@ Audio.objects.filter(date_created__gt='2019-01-01').aggregate(Sum('duration'))
 
 8,000 tons - the weight of the books in the Library of Congress if they average one pound each
 
-<!--
-In [1]: from django.db.models import Sum
 
-In [3]: from cl.search.models import RECAPDocument
-
-In [4]: RECAPDocument.objects.filter(is_available=True).aggregate(Sum('page_count'))
-Out[4]: {'page_count__sum': 80712422}
-
-1000 pages = 10 pounds
-2000 pounds = 1 ton
--->
 
 ---
 
 2.1 million — the number of PACER dockets added to the RECAP Archive in 2019
 
-<!--
-In[56]: Docket.objects.filter(date_created__gte='2019-01-01', source__in=Docket.RECAP_SOURCES).count()
-Out[56]: 2090964
--->
 
 61 million - the number of docket entries added
 
-<!--
-In [57]: from cl.search.models import DocketEntry
-
-In [58]: DocketEntry.objects.filter(date_created__gte='2019-01-01').count()
-Out[58]: 61495215
--->
-
 305,000 - the number of entries added per work day in 2019
 
-<!-- Above divided by 200 -->
-
 ---
-
-<!--
-1.3 million — the number of PACER documents added
--->
-<!--
-In [6]: RECAPDocument.objects.filter(is_available=True, date_created__gte='2019-01-01').count()
-Out[6]: 1352515
--->
-
-<!--30 million — the number of pages from those documents-->
-
-<!--
-In [5]: RECAPDocument.objects.filter(is_available=True, date_created__gte='2019-01-01').aggregate(Sum('page_count'))
-Out[5]: {'page_count__sum': 30241846}
--->
 
 100% — the percent increase we saw in RECAP Extension users in 2019
 
