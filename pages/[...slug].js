@@ -10,17 +10,8 @@ import {RedButton} from '../components/button';
 import slugify from "slugify";
 
 export async function getStaticProps({ params }) {
-  let postData, allPostsData;
-  try {
-    postData = await getPostData(params.slug);
-    allPostsData = await getSortedPostsData();
-  } catch (e) {
-    console.error(e);
-    return {
-      notFound: true,
-    };
-  }
-
+  const postData = await getPostData(params.slug);
+  const allPostsData = await getSortedPostsData();
   return {
     props: {
       postData,
