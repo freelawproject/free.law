@@ -1,0 +1,5 @@
+# Allow everything by everything
+User-agent: *
+Disallow:
+
+Sitemap: https://free.law/sitemap.xml
