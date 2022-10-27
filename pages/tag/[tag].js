@@ -29,9 +29,10 @@ export default function TagPage({ taggedPostsData, allPostsData, tag }) {
     <Layout allPosts={allPostsData} home={false}>
       <NextSeo
         title={`Posts tagged with "${tag}"`}
+        canonical={`https://free.law/tag/` + tag + '/'}
         openGraph={{
           type: 'website',
-          url: 'https://free.law/' + tag + '/',
+          url: 'https://free.law/tag/' + tag + '/',
         }}
       />
       <PostColumn>
