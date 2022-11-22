@@ -2,7 +2,7 @@ import Image from 'next/image';
 import Link from 'next/link';
 import {H5} from './headings';
 import {FontAwesomeIcon} from '@fortawesome/react-fontawesome';
-import {faGithub, faTwitter} from '@fortawesome/free-brands-svg-icons';
+import {faGithub, faTwitter, faMastodon} from '@fortawesome/free-brands-svg-icons';
 import {FooterLink} from './button';
 import {faCircle, faNewspaper} from '@fortawesome/free-solid-svg-icons';
 import {MainFullBleedColumn} from './layout';
@@ -110,6 +110,17 @@ export function Colophon() {
               <a>
                 <FontAwesomeIcon
                   icon={faTwitter}
+                  className="w-8 text-gray-400"
+                  mask={faCircle}
+                  inverse
+                  transform="shrink-6"
+                />
+              </a>
+            </Link>
+            <Link href="https://law.builders/@flp">
+              <a rel="me">
+                <FontAwesomeIcon
+                  icon={faMastodon}
                   className="w-8 text-gray-400"
                   mask={faCircle}
                   inverse
