@@ -14,6 +14,7 @@ import drugPatentWatch from '../public/images/services-logos/x256/drugpatentwatc
 import clearBrief from '../public/images/services-logos/x256/clearbrief.png';
 import bookLawyer from '../public/images/services-logos/x256/booklawyer.png';
 import wsj from '../public/images/services-logos/x256/wsj.png';
+import vlex from '../public/images/services-logos/x256/vlex.png';
 import classNames from 'classnames';
 import Button from './button';
 import { H1 } from './headings';
@@ -100,6 +101,15 @@ export function PicGrid({ wide, tall, children }) {
 export function ClientPics({ wide }) {
   return (
     <PicGrid wide={wide}>
+      <GridImage
+        imgProps={{
+          src: vlex,
+          alt: 'v|lex logo',
+          width: '256',
+          height: '128',
+          placeholder: 'blur',
+        }}
+      />
       <GridImage
         imgProps={{
           src: wsj,
