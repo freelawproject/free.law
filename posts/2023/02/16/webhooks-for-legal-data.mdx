@@ -1,0 +1,63 @@
+---
+title: Launching Webhooks to Finally Automate Legal Data
+date: "2023-02-16"
+tags:
+ - "API"
+ - "Data"
+ - "Webhooks"
+ - "Alerts"
+ - "Real Time"
+author: "Michael Lissner"
+excerpt: "Plumbing your next legal API has never been easier."
+---
+
+<p class="lead">APIs can be powerful tools for accessing and working with data, but they require that you "poll and pull" to get regular updates. The only way you can find out if there's new data in an API is to rapidly poll it over and over again — around the clock, every day.</p>
+
+Polling APIs this way is wasteful, inefficient, and one-directional. Why should your server constantly ask ours for updates when there's no good reason our servers can't just _tell yours_ when something has changed?
+
+Enter webhooks.
+
+Using webhooks, our servers can immediately broadcast events as they happen. If you set up your server to listen to ours, we will send you an HTTP POST event whenever there is an update that you care about. It's that simple.
+
+Out of the gate, we can send you updates about a [number of events][wbe]:
+
+1. **Docket Alerts** — This type of update allows your server to automatically take action when a case is updated. This is a super-powered version of our [docket alert system][da]. Combine this with [@recap.email][rde] to automatically and immediately take action when there are new filings in your cases.
+
+2. **Search Alerts** — Automatically learn when there are new results for [search queries][sa] you have configured in CourtListener.
+
+3. **RECAP Fetch** — If you are using our [APIs to download content from PACER][fetch], this tells you when your download tasks are complete.
+
+4. **Expired Alerts** — Manage alerts on very old cases that may no longer need tracking.
+
+On our end, we are using webhooks to [relaunch][bcb2] the @big_cases bot on [Twitter][bcbt] and [Mastodon][bcbm], but that's just a small sample of what's possible.
+
+We'd love to see companies using these webhooks to do things like:
+
+ - Automatically post messages in [Microsoft Teams][ms], [Discord][d], or [Slack][s] when particular cases get updates (this is on our roadmap, but we welcome others).
+
+ - A [Zapier][z] or [IFTTT][ifttt] integration that automatically keeps Sharepoint or iManage up to date with new filings from federal cases.
+
+There are nearly infinite combinations of how webhooks can work with different systems. The question to ask yourself is which systems would benefit from automatic data integrations and processes.
+
+Webhooks are a wildly useful technology that took considerable resources to build. We're thrilled to be launching it today. We believe webhooks will close the legal data circle, making legal data actionable in ways we have never seen before.
+
+To get started with our webhooks read, the documentation or the "Getting Started" guides:
+
+<p className="text-center">
+  <PurpleButton href="https://www.courtlistener.com/help/api/webhooks/" size="lg">Learn More</PurpleButton>
+  <PurpleButton href="https://www.courtlistener.com/help/api/webhooks/getting-started/" size="lg">Get Started</PurpleButton>
+</p>
+
+[ifttt]: https://ifttt.com/explore/what-is-a-webhook
+[d]: https://support.discord.com/hc/en-us/articles/228383668-Intro-to-Webhooks
+[z]: https://zapier.com/features/webhooks
+[wbe]: https://www.courtlistener.com/help/api/webhooks/#event-types
+[fetch]: https://www.courtlistener.com/help/api/rest/#pacer-fetch
+[da]:https://www.courtlistener.com/help/alerts/#recap-alerts
+[rde]: https://www.courtlistener.com/help/recap/email/
+[s]: https://api.slack.com/messaging/webhooks
+[ms]: https://learn.microsoft.com/en-us/microsoftteams/platform/webhooks-and-connectors/what-are-webhooks-and-connectors
+[bcb2]: https://law.builders/@flp/109757265751958882
+[bcbt]: https://twitter.com/big_cases
+[bcbm]: https://law.builders/@bigcases
+[sa]: https://www.courtlistener.com/help/alerts/#search-alerts
