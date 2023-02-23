@@ -14,22 +14,22 @@ excerpt: "It only took a couple hours to connect PACER to Google Drive. What els
 
 Today I thought I'd show what webhooks can do by building a connector to automatically purchase PACER documents and save them to Google Drive whenever there is a new filing in a federal case.
 
-It took  me longer to write this blog post than it did to set up everything I just described.
+It took  me longer to write this blog post than it did to build the connector.
 
 This demo uses a website called Zapier, which lets you stitch together hundreds of different APIs, including Google Drive and CourtListener. For example, you can use it send a tweet when it rains, turn on a smart light when you get home from work, save an event to your database when something else happens, etc — If you have two APIs, you can probably stitch them together to do interesting things.
 
-Zapier flows always start with an event and then take an action. In this case, I created two.
+Zapier flows always start with an event and then take an action. In this case, I created two Zapier flows.
 
-1. The first flow is triggered when CourtListener learns about a new filing in a case, and notifies Zapier by sending a webhook event with that information. At that point, we know there's a new filing, but we won't have the PDF, so the flow purchases the PDF from PACER, using [CourtListener's Fetch API][fetch].
+1. The first flow is triggered when CourtListener learns about a new filing in a case, and notifies Zapier by sending a webhook event about that filing. At that point, Zapier knows there's a new filing, but we don't have the PDF, so the flow purchases the PDF from PACER, using [CourtListener's Fetch API][fetch].
 
-The PACER fees can add up fast, but getting it set up couldn't get any easier. It looks like this:
+When you turn this on, the PACER fees add up fast, but getting it set up couldn't be much easier. The flow looks like this:
 
-    <CaptionedImage imgProps={{
+<CaptionedImage imgProps={{
   "src": "/images/zapier/flow-1.png",
   "alt": "A screenshot of the first flow on Zapier.com"
 }}>A screenshot of the first flow on Zapier.com.</CaptionedImage>
 
-2. The second flow is triggered when CourtListener finishes purchasing the PDF and sends another webhook event to Zapier with that information. Upon learning this, Zapier downloads the document and saves it to Google Drive.
+2. The second Zapier flow is triggered when CourtListener finishes purchasing the PDF from the first flow and sends another webhook event to Zapier saying so. At that point, Zapier downloads the newly-purchased document and saves it to Google Drive.
 
 It's almost too easy. The second flow looks like this:
 
@@ -38,9 +38,9 @@ It's almost too easy. The second flow looks like this:
   "alt": "A screenshot of the second flow on Zapier.com"
 }}>A screenshot of the second flow on Zapier.com.</CaptionedImage>
 
-Altogether, it's five simple steps that run whenever there are new filings in cases I'm following. It's really as simple as that, and of course you're not limited to Google Drive.
+Altogether, the two flows have five simple steps that run whenever there are new filings in cases I'm following. It's really as simple as that, and of course you're not limited to Google Drive.
 
-When it comes to automating your workflows, it's easy to do whatever you can imagine. You could save to Dropbox, build this into your internal filing system, send an email, or do any number of other things.
+When it comes to automating your workflows, it's easy to do whatever you can imagine. You could save to Dropbox, build the webhooks into your internal filing system, use them to send an email, or do any number of other things.
 
 Just be careful if you're automatically buying documents from PACER!
 
