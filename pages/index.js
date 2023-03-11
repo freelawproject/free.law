@@ -35,12 +35,7 @@ export default function Home({ allPostsData }) {
         <MainColumn>
           <section className="flex flex-wrap items-center pt-8 pb-20" id="recap">
             <div className="w-2/3 sm:w-1/2">
-              <H2>
-                <Link href="/recap/">
-                  <a className="underline">RECAP</a>
-                </Link>{' '}
-                is our tool to put federal court documents in your&nbsp;hands.
-              </H2>
+              <H2>The RECAP Suite helps you liberate and work with court documents.</H2>
             </div>
             <div className="hidden sm:flex justify-end sm:w-1/2 pl-8 pt-5">
               <Image
@@ -53,38 +48,74 @@ export default function Home({ allPostsData }) {
             <div className="flex sm:hidden justify-end w-1/3 pl-4 relative h-24">
               <Image src="/images/icons/recap.svg" alt="The RECAP logo" layout="fill" />
             </div>
-            <div className="w-full pt-3 pb-6 text-gray-700">
-              <H3>
-                Using a searchable archive of documents and browser extensions for Firefox,
-                Chrome or Safari, RECAP improves PACER, the electronic public access system for federal
-                court&nbsp;documents.
-              </H3>
-            </div>
             <div
               className="grid grid-cols-1 sm:grid-cols-3 w-full gap-6 sm:gap-8"
               id="recap-factoids"
             >
-              <GridListItem heading="Automatic Sharing">
+              <GridListItem
+                border={true}
+                heading="RECAP Extensions"
+                btnText={'Install RECAP'}
+                href="/recap/"
+              >
                 <p>
-                  Install the RECAP extension into Firefox, Chrome or Safari to automatically contribute
-                  your PACER&nbsp;purchases to our public archive.
-                </p>
-                <p>No account needed and it only takes a minute or two.</p>
-              </GridListItem>
-              <GridListItem heading="Get Free Documents">
-                <p>
-                  Once installed, millions of PACER documents contributed by others become freely
-                  available right in PACER as you use&nbsp;it.
-                </p>
-                <p className="hidden sm:block">Thousands more are contributed every day.</p>
-              </GridListItem>
-              <GridListItem heading="A Searchable Database">
-                <p>
-                  Every docket and PDF you contribute is made searchable in the{' '}
+                  If you use PACER, install RECAP into your browser. Anything you buy from PACER
+                  goes into the{' '}
                   <Link href="https://www.courtlistener.com/recap/">
                     <a className="underline">RECAP Archive</a>
-                  </Link>{' '}
-                  on&nbsp;CourtListener.
+                  </Link>
+                  .
+                </p>
+                <p>Anything somebody else buys is yours free, directly in PACER.</p>
+              </GridListItem>
+              <GridListItem
+                heading="Docket Alerts"
+                href="https://www.courtlistener.com/help/alerts/"
+                border={true}
+              >
+                <p>Get alerts when federal dockets are updated by our data gathering systems.</p>
+              </GridListItem>
+              <GridListItem
+                heading="@recap.email Email Hook"
+                border={true}
+                href="https://www.courtlistener.com/help/recap/email/"
+                btnText={'Get Started'}
+              >
+                <p>
+                  Automatically send us a copy of your CM/ECF notifications so they're part of the
+                  searchable public record.
+                </p>
+                <p>If you get NEF notifications, it only takes a minute to set up.</p>
+              </GridListItem>
+              <GridListItem
+                heading="PACER Fetch"
+                href="/2019/11/05/pacer-fetch-api/"
+                border={true}
+                btnText="Read the Docs"
+              >
+                <p>
+                  Do you need to gather dockets, PDFs or more from PACER? Use our APIs instead of
+                  building your own scraper framework.
+                </p>
+              </GridListItem>
+              <GridListItem
+                border={true}
+                heading="X-Ray Redaction Detector"
+                href="/projects/x-ray/"
+              >
+                <p>
+                  Bad redactions reveal client secrets. X-Ray can help find bad redactions at scale,
+                  before they wreck havoc on your firm's reputation.
+                </p>
+              </GridListItem>
+              <GridListItem
+                border={true}
+                heading="Webhooks for PACER"
+                btnText="Get Started"
+                href="https://www.courtlistener.com/help/api/webhooks/"
+              >
+                <p>
+                  Automate your workflow by listening to notifications from PACER and CourtListener.
                 </p>
               </GridListItem>
             </div>
@@ -187,20 +218,17 @@ export default function Home({ allPostsData }) {
                 </p>
               </GridListItem>
               <GridListItem
-                heading="Docket Alerts"
+                href="https://www.courtlistener.com/recap/"
+                btnText="Search Federal Filings"
+                heading="Home of the RECAP Archive"
                 bg="bg-transparent"
-                href="https://www.courtlistener.com/help/alerts/"
               >
                 <p>
-                  Beyond the RECAP extension, CourtListener uses{' '}
-                  <Link href="https://www.courtlistener.com/coverage/#recap-archive">
-                    <a className="underline">a number of sources</a>
+                  Every docket and PDF we have is full-text searchable in the{' '}
+                  <Link href="https://www.courtlistener.com/recap/">
+                    <a className="underline">RECAP Archive</a>
                   </Link>{' '}
-                  to gather new content from PACER.
-                </p>
-                <p>
-                  Sign up to get alerts when dockets are updated by other users or one of our data
-                  gathering&nbsp;systems.
+                  on CourtListener.
                 </p>
               </GridListItem>
 
@@ -211,10 +239,10 @@ export default function Home({ allPostsData }) {
                 btnText="Search Recordings"
               >
                 <p>
-                  When courts said they couldn't host oral argument files, we started doing it for
-                  them. We now have{' '}
+                  Courts said they couldn't host oral argument files so we started doing it for
+                  them. Now we host{' '}
                   <Link href="https://www.courtlistener.com/audio/">
-                    <a className="underline">the biggest open collection of oral argument audio</a>
+                    <a className="underline">the biggest collection of oral argument audio</a>
                   </Link>{' '}
                   in the world.
                 </p>
@@ -233,8 +261,7 @@ export default function Home({ allPostsData }) {
                 btnText="Read the Docs"
               >
                 <p>
-                  We provide journalists, researchers, startups, and individuals with automated
-                  access to nearly all of our data{' '}
+                  We provide automated access to nearly all of the data we host{' '}
                   <Link href="https://www.courtlistener.com/api/">
                     <a className="underline">
                       via APIs, bulk data files, and database&nbsp;replication
