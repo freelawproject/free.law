@@ -76,7 +76,7 @@ export default function Home({ allPostsData }) {
                 <p>Get alerts when federal dockets are updated by our data gathering systems.</p>
               </GridListItem>
               <GridListItem
-                heading="@recap.email Email Hook"
+                heading="@recap.email Notification Handler"
                 border={true}
                 href="https://www.courtlistener.com/help/recap/email/"
                 btnText={'Get Started'}
