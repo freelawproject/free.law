@@ -1,11 +1,11 @@
 import Image from 'next/image';
 import Link from 'next/link';
-import {H5} from './headings';
-import {FontAwesomeIcon} from '@fortawesome/react-fontawesome';
-import {faGithub, faTwitter, faMastodon} from '@fortawesome/free-brands-svg-icons';
-import {FooterLink} from './button';
-import {faCircle, faNewspaper} from '@fortawesome/free-solid-svg-icons';
-import {MainFullBleedColumn} from './layout';
+import { H5 } from './headings';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faGithub, faMastodon, faTwitter } from '@fortawesome/free-brands-svg-icons';
+import { FooterLink } from './button';
+import { faCircle, faNewspaper } from '@fortawesome/free-solid-svg-icons';
+import { MainFullBleedColumn } from './layout';
 
 export function Footer({ recentPost }) {
   return (
@@ -22,7 +22,6 @@ export function Footer({ recentPost }) {
           <div className="pb-3">
             <H5>About</H5>
             <FooterLink href="/about/">Overview</FooterLink>
-            <FooterLink href="/mission/">Mission</FooterLink>
             <FooterLink href="/team/">Team</FooterLink>
             <FooterLink href="/non-profit-documents/">Non-Profit Documents</FooterLink>
             <FooterLink href="/hiring/">Hiring</FooterLink>
@@ -74,6 +73,7 @@ export function Footer({ recentPost }) {
             <H5>Our Work</H5>
             <FooterLink href="https://www.courtlistener.com/">CourtListener.com</FooterLink>
             <FooterLink href="/recap/">RECAP Project</FooterLink>
+            <FooterLink href="https://bots.law/">Bots.law</FooterLink>
             <FooterLink href="/data-consulting/">
               Data <span className="hidden lg:inline">Services and </span>Consulting
             </FooterLink>
