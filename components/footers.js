@@ -44,8 +44,8 @@ export function Footer({ recentPost }) {
         <div className="w-full">
           <div className="pb-3">
             <H5>Tools</H5>
-            <FooterLink href="https://www.courtlistener.com/api/">Legal APIs</FooterLink>
-            <FooterLink href="https://www.courtlistener.com/api/replication/">
+            <FooterLink href="https://www.courtlistener.com/help/api/">Legal APIs</FooterLink>
+            <FooterLink href="https://www.courtlistener.com/help/api/replication/">
               Database Replication
             </FooterLink>
             <FooterLink href="/projects/juriscraper/">Juriscraper</FooterLink>
