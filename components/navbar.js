@@ -7,7 +7,6 @@ import {
   FireIcon,
   HeartIcon,
   LibraryIcon,
-  LightBulbIcon,
   MenuIcon,
   UserGroupIcon,
   XIcon,
@@ -33,10 +32,11 @@ const projects = [
     imgSrc: '/images/icons/recap.svg',
   },
   {
-    name: 'Data Services and Consulting',
-    description: 'We can help you gather, analyze, and understand legal information.',
-    href: '/data-consulting/',
-    icon: LightBulbIcon,
+    name: 'Bots.law',
+    description:
+      'Home of the Big Cases bot, Little Cases bot and bots to keep you updated wherever you chat.',
+    href: 'https://bots.law/',
+    imgSrc: '/images/icons/bot.svg',
   },
 ];
 const callsToAction = [
