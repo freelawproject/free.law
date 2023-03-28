@@ -14,6 +14,14 @@ export function HeroHeading({ children }) {
   );
 }
 
+export function HeroHeadingMono({ children }) {
+  return (
+    <h1 className="text-4xl sm:text-5xml md:text-6xl lg:text-7xl leading-relaxed tracking-widest font-mono">
+      {children}
+    </h1>
+  );
+}
+
 export function H1({ children, extraClasses }) {
   let classes = 'font-display font-light tracking-wide';
   if (extraClasses) {
