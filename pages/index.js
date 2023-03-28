@@ -3,7 +3,7 @@ import Image from 'next/image';
 import Layout, { ClientPics, MainColumn, MainFullBleedColumn } from '../components/layout';
 import { getSortedPostsData } from '../lib/posts';
 import Button, { PurpleButton } from '../components/button';
-import { H2, H3, HeroHeading } from '../components/headings';
+import { H2, H3, HeroHeading, HeroHeadingMono } from '../components/headings';
 import { GridListItem } from '../components/widgets';
 import HeroImage from '../components/heroImage';
 import { JudgeRibbon } from '../components/footers';
@@ -270,6 +270,55 @@ export default function Home({ allPostsData }) {
                   .
                 </p>
                 <p>This gives innovators, researchers, and the public a jumpstart on their work.</p>
+              </GridListItem>
+            </div>
+          </div>
+        </MainFullBleedColumn>
+
+        <MainFullBleedColumn bgClasses="bg-purple-800">
+          <div className="pt-16 pb-24  text-gray-100" id="bots">
+            <div className="w-full text-center">
+              <HeroHeadingMono>Case Bots</HeroHeadingMono>
+            </div>
+            <div className="w-full pt-3 pb-5">
+              <H3 textColor="text-gray-100">
+                Our bots will send case updates to Slack, Discord, MS Teams, Google Chat, Twitter or
+                Mastodon. You choose the cases. The bots keep you posted.
+              </H3>
+            </div>
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-8 w-full">
+              <GridListItem
+                border={true}
+                heading="Chat Apps"
+                href="https://bots.law/collaboration/"
+                btnText="Join the Waitlist"
+              >
+                <p>
+                  We are building bots for all the popular chat platforms so you can get updates and
+                  do research right where you work.
+                </p>
+              </GridListItem>
+              <GridListItem
+                border={true}
+                heading="Big Cases Bot"
+                href="https://bots.law/big-cases/about/"
+                btnText="Follow the Bot"
+              >
+                <p>
+                  The Big Cases bot follows the most important cases in the country and posts
+                  updates on Twitter and Mastodon.
+                </p>
+              </GridListItem>
+              <GridListItem
+                border={true}
+                heading="Little Cases Bot"
+                btnText="Suggest a Bot"
+                href="https://bots.law/little-cases/"
+              >
+                <p>
+                  Create and maintain your own bot for Twitter or Mastodon that sends updates about
+                  cases you think the public should be following.
+                </p>
               </GridListItem>
             </div>
           </div>
