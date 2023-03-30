@@ -17,26 +17,27 @@ author: "Michael Lissner"
 excerpt: "It took some work, but Big Cases is alive again and better than ever (we hope!)"
 ---
 
-<p class="lead">If you're not familiar with it, the <a href="https://twitter.com/big_cases/" target="_blank">Big Cases Bot</a> on Twitter is a popular account that sends tweets whenever the most important cases in the country are updated.</p>
+<p class="lead">If you're not familiar with it, the <a href="https://twitter.com/big_cases/" target="_blank">Big Cases Bot</a> is a popular Twitter account that sends tweets whenever the most important cases in the country are updated.</p>
 
-The account was originally created by Brad Heath while he was working at USA Today, and it gained popularity and charm over the years thanks to the care he put into it.
+The account was originally created by [Brad Heath][bh] while he was working at USA Today, and it gained popularity and charm over the years thanks to the care he put into it.
 
-Unfortunately, when Brad left USA Today, the folks there found it difficult to continue maintaining the account. Court watchers on Twitter began to see the bot slowly fail in ways small and large, and it was clear a change was needed.
+Unfortunately, when Brad left USA Today, the folks there found it difficult to continue maintaining the bot. Court watchers on Twitter began to see the bot slowly fail in ways small and large, and it was clear a change was needed.
 
-I'm pleased to announce today that USA Today has kindly given the bot to Free Law Project, and we are its new maintainers. We have completely rewritten the bot [to use the CourtListener infrastructure][tech], built [a new website for the bot][bots], and have exciting plans for the bot's future.
+I'm pleased to announce today that USA Today has kindly given the bot to Free Law Project, and we are its new maintainers. We have completely rewritten the bot [to use the CourtListener infrastructure][tech], built a new website at [bots.law][bots], and have exciting plans for the bot's future.
 
 <p className="text-center py-6">
   <PurpleButton href="https://twitter.com/big_cases" size="lg">Follow on Twitter</PurpleButton>
-  <PurpleButton href="https://law.builders/bigcases" size="lg">Follow on Mastodon</PurpleButton>
+  <PurpleButton href="https://law.builders/@bigcases" size="lg">Follow on Mastodon</PurpleButton>
 </p>
 
 [tech]: https://bots.law/big-cases/my-code/
 [bots]: https://bots.law
+[bh]: https://twitter.com/bradheath
 
 
 ## The Bot Goes Live
 
-We have been running the bot on Mastodon for a few weeks to shake out the bugs. Last week it went live on Twitter:
+We have been running the bot [on Mastodon][masto] for a few weeks to shake out the bugs. Last week it went live on Twitter:
 
 <CaptionedImage imgProps={{
   "src": "/images/the-bot-lives.png",
@@ -44,9 +45,10 @@ We have been running the bot on Mastodon for a few weeks to shake out the bugs. 
 }} href="https://twitter.com/big_cases/status/1638996255463583746"
 ></CaptionedImage>
 
-The bot is signed up to [follow 38 federal cases][cases]. We plan to slowly add more as important cases develop.
+The bot is signed up to [follow 39 federal cases][cases]. We plan to slowly add more as important cases develop.
 
 [cases]: https://bots.law/big-cases/about/
+[masto]: https://law.builders/@bigcases
 
 
 ## Looking for Sponsorships
@@ -59,7 +61,7 @@ To help bring the most important cases in the country to an audience of more tha
   <PurpleButton href="https://bots.law/big-cases/sponsors/" size="lg">Sponsor the Bot</PurpleButton>
 </p>
 
-Free Law Project will help sponsor the bot, but cannot do so forever. Without sponsorship, the bot is able to function, but it doesn't share actual documents and can't share thumbnails either — It isn't half as good.
+In the near term, Free Law Project will help sponsor the bot, but we cannot do so forever. Without sponsorship, the bot is still functional, but it doesn't share actual documents and can't share thumbnails either — It isn't half as good. We need sponsors to make it great. Please help!
 
 
 ## The Future Bots
@@ -68,7 +70,7 @@ In the coming months, we will be focused on three things:
 
 1. **Enhancing the Bot**
 
-    The Big Cases Bot is launched and doing great, but it still needs a few enhancements. First, it needs curators to manage the bot's caseload, and second, it needs sponsors to help purchase documents. We'll be working hard on these two things.
+    The Big Cases Bot is launched and doing great, but it still needs a few enhancements. First, it needs curators to manage the bot's caseload, and second, [it needs sponsors][spon] to help purchase documents. We'll be working hard on these two things.
 
 2. **Little Cases Bots**
 
@@ -82,7 +84,7 @@ In the coming months, we will be focused on three things:
 
     We send [case alert emails][ca] all day long, but we've heard that people want alerts in Slack, Discord, MS Teams, and Google Chat too. We're working to make this happen, as paid service.
 
-    To join the waitlist and to help us gauge demand for the various chat platforms, please join our waitlist:
+    To get started and to help us gauge demand for the various chat platforms, please join our waitlist:
 
     <WhiteButton href="https://bots.law/collaboration/">Join the Waitlist</WhiteButton>
 
@@ -95,3 +97,4 @@ We couldn't be more thrilled to be officially launching and announcing these pro
 [ca]: https://www.courtlistener.com/help/alerts/
 [ra]: https://www.courtlistener.com/recap/
 [ia]: https://archive.org/details/usfederalcourts
+[spon]: https://bots.law/big-cases/sponsors/
