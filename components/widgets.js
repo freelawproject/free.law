@@ -1,11 +1,11 @@
 import Image from 'next/image';
 import Link from 'next/link';
-import {H4} from './headings';
+import { H4 } from './headings';
 import Button from './button';
 import classNames from 'classnames';
-import {ArrowCircleRightIcon} from '@heroicons/react/outline';
-import {Disclosure} from '@headlessui/react';
-import {ChevronUpIcon} from '@heroicons/react/solid';
+import { ArrowCircleRightIcon } from '@heroicons/react/outline';
+import { Disclosure } from '@headlessui/react';
+import { ChevronUpIcon } from '@heroicons/react/solid';
 
 export function GridListItem({ heading, imgProps, border, bg, href, btnText, children }) {
   return (
@@ -50,15 +50,16 @@ export function GridImage({ imgProps }) {
 }
 
 export function Tag({ id, href, name }) {
-  const classes = "font-semibold text-gray-800 no-underline";
+  const classes = 'font-semibold text-gray-800 no-underline';
   return (
     <span className="text-xs inline-flex items-center leading-sm uppercase px-3 py-1 bg-purple-200 rounded-full">
-      {
-        href ?
+      {href ? (
         <Link id={id} href={href}>
           <a className={classes}>{name}</a>
-        </Link> : <span className={classes}>{name}</span>
-      }
+        </Link>
+      ) : (
+        <span className={classes}>{name}</span>
+      )}
     </span>
   );
 }
@@ -113,9 +114,13 @@ export function CaptionedImage({ imgProps, href, border, children }) {
       ) : (
         <img {...imgProps} className={classNames({ border: border })} />
       )}
-      <figcaption>
-        {children} {href ? '(Click for more detail.)' : ''}
-      </figcaption>
+      {children ? (
+        <figcaption>
+          {children} {href ? '(Click for more detail.)' : ''}
+        </figcaption>
+      ) : (
+        ''
+      )}
     </figure>
   );
 }
