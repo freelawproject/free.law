@@ -14,11 +14,11 @@ excerpt: "Courts are right to take sealed content seriously. We do too."
 
 <p class="lead">Over the past decade, legal innovation has surged and society has reaped huge benefits from open legal information.</p>
 
-At Free Law Project, our mission is to facilitate and accelerate this trend, but it can be difficult. The latest challenge came earlier this week, when a number of federal courts sent a memo implying that systems like ours had access to restricted documents.
+At Free Law Project, our mission is to facilitate and accelerate these trends, but it can be difficult. The latest challenge came earlier this week, when a number of federal courts sent a memo implying that systems like ours had access to restricted documents.
 
-As we explain below, we deeply respect the concern and the vigilance the courts express in their memo. Indeed, we work hard to achieve the same goals in our systems and processes, and even work to make the CM/ECF system itself more secure by [identifying vulnerabilities in it][vuln], and [highlighting the dire need][adv] for a new modern and secure system.
+As we explain below, we deeply respect the concern and the vigilance the courts express in their memo. Indeed, we work hard to achieve the same goals, and even work to make the CM/ECF system itself more secure by [reporting vulnerabilities in it][vuln], and [highlighting the dire need][adv] for a new, modern, and secure system.
 
-The memo states that:
+The court memo states that:
 
 > Sharing your PACER account credentials with a third-party service provider or designating that provider as a secondary recipient of [email notifications] will give it access to sealed or restricted case information and documents in violation of court order.
 
@@ -45,16 +45,21 @@ That should address the concerns explicitly raised by the courts in their memo, 
 
 The RECAP extension automatically uploads publicly accessible documents from PACER as you buy them, liberating them to the public while lowering your PACER bill. To prevent this tool from uploading restricted documents, we take three steps. First, we encourage filers to use PACER accounts (not filing accounts) whenever using RECAP. That way, the extension will never have access to restricted content. Second, the extension automatically detects sealed filings and does not upload them.
 
-Third, accidents do happen. From time to time content is filed publicly in PACER despite the intention of it being sealed. This rarely happens, but when it does, we work diligently to remove such content from our systems as quickly as possible. This is often completed within a few minutes.
+Third, accidents do happen. From time to time content is filed publicly in PACER despite the intention of it being sealed. Sometimes items are sealed days or weeks later when an error is identified. This rarely happens, but when it does, we work diligently to remove such content from our systems as quickly as possible. This is often completed within a few minutes.
+
+In addition to the above, we are also developing [a system called X-Ray][x] to identify false redactions in PDF files. We are hoping to integrate this tool into popular CMS's, e-filing systems, and the RECAP extension, so that badly redacted documents are identified before they are shared publicly. This forthcoming project demonstrates how seriously we take these issues and how our non-profit is investing to enhance the entire legal ecosystem.
 
 [r]: https://free.law/recap/
 [rde]: https://recap.email
+[x]: /projects/x-ray/
 
 
 ## Legal Data Should be Free
 
 To wrap up this post, we'll note that we wish the court had initiated a dialog with us  and the other impacted organizations. We know courts are busy, but memos of this sort negatively impact economists, journalists, researchers, litigants, and the public at large, all of whom deserve open legal information. Congress will soon make PACER free. When it does, such issues, and how we work together to address them, will become more important than ever.
 
-We work hard to keep sealed information secure, including working to make CM/ECF itself more secure. If any member of the court or user of our systems has further questions or concerns, we would be pleased at the opportunity to [discuss the issue further][c].
+We work hard to keep sealed information secure, including designing our systems to not have access to sealed information in the first place, working to make CM/ECF itself more secure, and developing [tools like X-Ray][x] that enhance the entire legal ecosystem.
+
+If any member of the court or user of our systems has further questions or concerns, we would be pleased at the opportunity to [discuss the issue further][c].
 
 [c]: /contact/
