@@ -89,8 +89,8 @@ export default function Post({ postData, allPostsData }) {
         {postData.type !== 'page' ? (
           <AlertBox>
             <p>
-              Started in 2010, Free Law Project is the leading non-profit using software, data, and
-              advocacy to make the legal ecosystem more equitable and competitive. We host major
+              Started in 2010, Free Law Project is the leading non-profit using technology, data,
+              and advocacy to make the legal ecosystem more equitable and competitive. We host major
               open databases of <a href="https://www.courtlistener.com/opinion/">opinions</a>,{' '}
               <a href="https://www.courtlistener.com/recap/">federal filings</a>,{' '}
               <a href="https://www.courtlistener.com/person/">judges</a>,{' '}
