@@ -101,7 +101,11 @@ export function Colophon() {
         <div className="w-full sm:w-2/5 text-gray-400">
           <p className="text-sm">
             © {new Date().getFullYear()} Free Law Project. Content licensed under a Creative Commons
-            BY-ND international 4.0, license, except where indicated.
+            BY-ND international 4.0, license, except where indicated.{' '}
+            <a className="hover:underline" href="https://www.netlify.com/">
+              Site powered by Netlify
+            </a>
+            .
           </p>
         </div>
         <div className="w-full sm:w-3/5">

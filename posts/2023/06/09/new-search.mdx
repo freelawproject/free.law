@@ -1,0 +1,50 @@
+---
+title: New Search Now in Place
+date: "2023-07-30"
+updated: "2021-07-30"
+private: True
+status: Draft
+tags:
+ - "Disclosures"
+ - "Ethics"
+author: "Michael Lissner"
+excerpt: "This is used in the main list of blogs and also in the open graph previews."
+imagePath: "/some/path/to/a/png/for/opengraph.png (aim for 1200×630)"
+---
+
+
+# Enhancements
+
+ - Speed?
+ - More accurately has all updates (a change to the docket properly shows up in the audio search, etc.)
+ - A new search operator can disable stemming. Surround any term in quotes and we will search against just that term. "Deposit" vs. "Deposition."
+ - Emojis are now searchable.
+ - No more stop words
+ - 300 synonyms for agencies, acts, and other abbreviations in legal documents since 1975 (https://github.com/freelawproject/courtlistener/issues/2791, https://github.com/freelawproject/courtlistener/pull/2765)
+ - Multi-case words now work. ("WikiLeaks", "McDonalds")
+
+# Changes
+
+ - The snippet field of the oral arguments search results in the API is now designated for transcript text. We do not currently have any transcripts, therefore the field is always blank. Previously, it held a grab bag of data from other fields. That data is now searchable directly, so the snippet field is no longer useful and will be empty until we have transcript text.
+ - All search alert webhooks are now sent in real time, rather than on a schedule.
+
+------
+
+
+<p class="lead">Some stuff here</p>
+
+Then just write markdown
+
+<CaptionedImage imgProps={{
+  "src": "/images/zapier/flow-1.png",
+  "alt": "A screenshot of the first flow on Zapier.com"
+}}>A screenshot of the first flow on Zapier.com.</CaptionedImage>
+
+
+<p className="text-center">
+  <PurpleButton href="https://www.courtlistener.com/help/api/webhooks/" size="lg">Learn More</PurpleButton>
+  <PurpleButton href="https://www.courtlistener.com/help/api/webhooks/getting-started/" size="lg">Get Started</PurpleButton>
+</p>
+
+
+Some useful bits can be found in widgets.js or buttons.js.
