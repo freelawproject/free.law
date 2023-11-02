@@ -1,0 +1,58 @@
+---
+title: New Search Is Now In Beta
+date: "2023-11-02"
+private: True
+tags:
+ - "Search"
+ - "Elastic"
+ - "Solr"
+author: "Michael Lissner"
+excerpt: "Months in the making, our new search engine makes RECAP better than ever."
+---
+
+<p class="lead">In 2016, <a href="/2016/11/22/launching-a-new-recap-archive">we launched a major new search engine for the RECAP Archive</a>. Since then, it has grown in usage and size, measuring in at around three hundred million items and receiving about 30,000 queries per day.</p>
+
+Today we're accepting beta testers for the next major version of the RECAP search engine. See below for how to sign up. 
+
+We will be announcing this fully soon, but in the meantime, beta testers can look forward to:
+
+ - All cases now appear in results, even if we don't have their filing records. Previously if we had a case in RECAP, but didn't have any of its filings, it wouldn't show up in search results. That was bad. Now it's fixed.
+
+ - There is a new search operator that allows you to distinguish between different versions of similar words. Surround any word in double quotes, and we will search against just that term and not any variations of it. Think: "[Deposit" vs. "Deposition][dminusd]" or "McDonald" the last name vs. "McDonalds" the restaurant (plural).
+
+ - We have added over 800 legal synonyms culled from legal documents and the Blue Book. This includes about 300 for the most common legal acronyms. Try search for things like ["IRS" or "Internal Revenue Service"][irs]. 
+ 
+ - Emojis and unicode characters are now searchable. Try criminal cases with: [💣 OR 🔫 OR 💰][bomb].
+ 
+ - Many more fields are searchable, including things like the bankruptcy chapter, trustee, and many more (we'll have a full list soon).
+
+ - You can now search on every word, whereas previously small words could cause bugs and issues.
+ 
+ - Words with both upper and lower case letters, like [McDonalds][md] or [WikiLeaks][w], now work properly.
+
+ - Highlighting is improved and more consistent.
+
+ - Docket number and other fielded searches are more robust.
+
+ - Timezone bugs are now fixed and dates are consistent between the search results and the dockets.
+
+
+But, there are a few things to know:
+
+1. The new system does not have all of our content yet. It is getting the latest updates as they happen, but right now it only has about 75% of the RECAP Archive. 
+
+1. The speed of the new system will be a bit slower at first. This is because we are adding so much content to the system. 
+
+That said, if you're a beta tester, and you like old system better, you can still use it by logging out or using a private window (or we can take you off the list).
+
+If you are interested in joining the beta, [please send us your CourtListener username][c] and we will get back to you. The first applications we receive will be prioritized until we have enough testers. 
+
+Thank you!
+
+
+[irs]: https://www.courtlistener.com/?q=IRS&type=r&order_by=score%20desc
+[bomb]: https://www.courtlistener.com/?q=%F0%9F%92%A3%20OR%20%F0%9F%94%AB%20OR%20%F0%9F%92%B0&type=r&order_by=score%20desc
+[dminusd]: https://www.courtlistener.com/?q=%22Deposit%22%20-%22Deposition%22&type=r&order_by=score%20desc
+[w]: https://www.courtlistener.com/?q=WikiLeaks&type=r&order_by=score%20desc
+[md]: https://www.courtlistener.com/?q=McDonalds&type=r&order_by=score%20desc
+[c]: /contact/
