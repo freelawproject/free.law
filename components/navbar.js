@@ -110,7 +110,7 @@ const datasets = [
   },
   {
     name: 'Oral Argument Recording Archive',
-    description: 'The largest open collection of legal audio on the Internet..',
+    description: 'The largest open collection of legal audio on the Internet.',
     href: '/projects/oral-arguments/',
     icon: MicrophoneIcon,
   },
