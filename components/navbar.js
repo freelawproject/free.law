@@ -87,19 +87,6 @@ const tools = [
 ];
 
 
-import {
-  MicrophoneIcon,
-  CodeIcon,
-  DownloadIcon,
-  FireIcon,
-  HeartIcon,
-  LibraryIcon,
-  MenuIcon,
-  UserGroupIcon,
-  XIcon,
-} from '@heroicons/react/outline';
-
-
 const datasets = [
   {
     name: 'Judges and Disclosures',
