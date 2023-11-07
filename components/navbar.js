@@ -1,7 +1,7 @@
 import { Fragment } from 'react';
 import { Popover, Transition } from '@headlessui/react';
 import {
-  BadgeCheckIcon,
+  MicrophoneIcon,
   CodeIcon,
   DownloadIcon,
   FireIcon,
@@ -85,6 +85,8 @@ const tools = [
     icon_height: 'h-4',
   },
 ];
+
+
 const datasets = [
   {
     name: 'Judges and Disclosures',
@@ -107,6 +109,12 @@ const datasets = [
     imgSrc: '/images/icons/courts-db.svg',
   },
   {
+    name: 'Oral Argument Recording Archive',
+    description: 'The largest open collection of legal audio on the Internet.',
+    href: '/projects/oral-arguments/',
+    icon: MicrophoneIcon,
+  },
+  {
     name: 'Judge Portraits',
     description: 'Thousands of portraits of judges you can use in your projects.',
     href: '/projects/judge-pics/',
@@ -118,13 +126,9 @@ const datasets = [
     href: '/projects/supreme-court-data/',
     icon: LibraryIcon,
   },
-  {
-    name: 'Court Seals',
-    description: 'Seals of various courts.',
-    href: '/projects/seal-rookery/',
-    icon: BadgeCheckIcon,
-  },
+
 ];
+
 const featuredPosts = [
   {
     name: 'Our Congressional Testimony on Financial Disclosures and Ethics Violations',
