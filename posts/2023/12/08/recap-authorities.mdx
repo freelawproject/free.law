@@ -1,0 +1,51 @@
+---
+title: Dockets and Filings Now Show What They Cite 
+date: "2023-12-08"
+tags:
+ - "Citations"
+ - "Authorites"
+ - "Open Source"
+ - "Eyecite"
+ - "RECAP"
+author: "Michael Lissner"
+excerpt: "This new feature lets you see a list of all the decisions a case or filing has cited."
+imagePath: "/images/authorities-banner.png"
+---
+
+<p class="lead">For years, we've used <a href="/projects/eyecite">our citation extractor</a> to find the citations in <a href="https://www.courtlistener.com/opinion/">our database of legal decisions</a>. Today we're announcing that we've done the same for every document in the RECAP Archive of federal court filings.</p>
+
+Starting today, when you're looking at a case in the [RECAP Archive][ra], you can see all the legal decisions that case cited.
+
+For example, in one case 668 different opinions were cited:
+
+<CaptionedImage imgProps={{
+  "src": "/images/authorities/docket.png",
+  "alt": "A screenshot of the first several authorities for a docket"
+}}></CaptionedImage>
+
+When you're looking a filing in a case, you can see the same:
+
+<CaptionedImage imgProps={{
+  "src": "/images/authorities/document.png",
+  "alt": "A screenshot of the first authorities for a filing"
+}}></CaptionedImage>
+
+These are the so-called "Authorities," because they are the decisions that the filing or case depends on to win. 
+
+Altogether, we identified approximately twenty-two-million citations using this system, and we get more every minute, as we get new documents.
+
+In the coming months, we hope to enhance this with even more functionality. Things we're considering include: 
+
+ - "Authority Search," so you can find filings that cite certain opinions. For example, imagine searching for every filing that cites *[Citizens United v. FEC][1]*.
+ - A new "Cited By" sidebar in our case law database that shows filings that cite a given decision.
+ - Bulk data and API access.
+ - And more! 
+ 
+Let us know your ideas and dreams and we'll keep building like we always do. Our further investment in this feature will directly depend on suggestions and ideas we get from our users.    
+
+This work was completed by a volunteer contributor, Samier Saeed, who did the lion's work of building an extractor, adding it to the front end, and so much more. This is a big feature for a volunteer to build and we're thrilled to have Samier's help. 
+
+Thank you Samier!
+
+[1]: https://www.courtlistener.com/opinion/1741/citizens-united-v-federal-election-commission/
+[ra]: https://www.courtlistener.com/recap/
