@@ -11,3 +11,5 @@
         # It is superceded by CSP headers, but still useful in old browsers.
         X-XSS-Protection = "1; mode=block"
 
+        # Block Chrome's "Privacy Sandbox"
+        permissions-policy = "browsing-topics=()"
