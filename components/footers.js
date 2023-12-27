@@ -83,6 +83,7 @@ export function Footer({ recentPost }) {
           <div className="pb-3">
             <H5>Support FLP</H5>
             <FooterLink href="/donate/">Donate Now</FooterLink>
+            <FooterLink href="/donate/help/">Donations FAQ</FooterLink>
             <FooterLink href="/sponsors/">Current Sponsors</FooterLink>
             <FooterLink href="/become-a-sponsor/">Become a Sponsor</FooterLink>
             <FooterLink href="/donate/other-ways/">Other Ways to Help</FooterLink>
