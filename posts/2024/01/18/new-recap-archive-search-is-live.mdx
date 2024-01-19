@@ -10,9 +10,9 @@ author: "Michael Lissner"
 excerpt: "Today we lay the groundwork for the next generation of search."
 ---
 
-<p class="lead">In 2016, <a href="/2016/11/22/launching-a-new-recap-archive">we launched a major new search engine for the RECAP Archive</a>. Since then, it has grown in usage and size, measuring in at over four-hundred-million items and receiving about thirty-thousand queries per day.</p>
+<p class="lead">In 2016, we <a href="/2016/11/22/launching-a-new-recap-archive">launched</a> a major new search engine for the <a href="https://www.courtlistener.com/recap/">RECAP Archive</a>. Since then, it has grown in usage and size, measuring in at over four hundred million items and receiving about thirty thousand queries per day.</p>
 
-Today after nearly a year of work, and [several months in beta][beta], we're launching a brand-new search engine for the [RECAP Archive][archive], switching the underlying system to be more accurate, scalable, and functional. 
+Today, after nearly a year of work, and [several months in beta][beta], we're launching a brand-new search engine for the RECAP Archive, switching the underlying system to be more accurate, scalable, and functional. 
 
 This new system fixes a number of longstanding issues and adds a variety of new features.
 
@@ -20,30 +20,30 @@ Among the improvements:
 
 1. **All Cases Are Now Searchable.** 
 
-    The old search system primarily searched *filings,* instead of *cases.* But unfortunately, due to the [PACER paywall][paywall], many cases in our system don't have any filings, meaning that such cases could not show up in search results. 
+    The old search system primarily searched *filings,* instead of *cases*, but, due to the [PACER paywall][paywall], many cases in our system don't get filings. When this happened, such cases simply would not show up in search results. 
 
-    That was a big problem that is now fixed. Now, if you search the name of a case that lacks filings, you'll see something like this:
+    That was a big problem that is now fixed. Now, if you search the name of a case that lacks filings, you'll see the case name and metadata, like this:
 
     <CaptionedImage imgProps={{
      "src": "/images/new-search/no-filings.png",
      "alt": "A screenshot showing case names as results, demonstrating that they lack any indented filings below."
-    }}>Search results with no filings in the new system.</CaptionedImage>
+    }}>Search results with no filings as presented in the new system.</CaptionedImage>
 
     This is an important fix that allows you to search the metadata for a case while we wait for filings to be added to the system.
 
 2. **You can search for *exactly* the words you want.**
 
-    In general, people want searches to be broadly interpreted. For example, if you search for `immigration`, you probably want to also get results for `immigrate`, `immigrates`, `immigrated`, etc. But sometimes that can be annoying, and people have often asked if it could be disabled. 
+    In general, people want searches to be broadly interpreted. For example, if you search for `immigration`, you probably want to also get results for `immigrate`, `immigrates`, `immigrated`, etc. But sometimes that can be annoying, and people have often asked if it could be turned off. 
 
-    In the new search engine, surround any word in double quotes, and we will use just that term and not any variation of it. Think: "[Deposit" vs. "Deposition][dminusd]" or "McDonald" the last name vs. "McDonalds" the restaurant (plural).
+    In the new search engine it can. Simply surround any word in double quotes, and we will use just that word and not any variation of it. Think: "[Deposit" vs. "Deposition][dminusd]" or "McDonald" the last name vs. "McDonalds" the restaurant (plural).
 
 3. **Acronyms!**
 
-   It's frustrating when searches for common acronyms and abbreviations don't bring back their longer forms. To fix this, we have searched our data and the Blue Book to find the top 800 legal abbreviations and acronyms. Try search for things like ["IRS"][irs] to see this in action. 
+   It's frustrating when searches for common acronyms and abbreviations don't bring back their longer forms. To fix this, we have searched our data and the Blue Book to find the top 800 legal abbreviations and acronyms. Try a search for something like ["IRS"][irs] to see this in action. 
 
 4. **Emojis**
  
-    Call it the [Eric Goldman][eg] feature: You can now search emojis and unicore characters. 
+    Call it the [Eric Goldman][eg] feature: You can now search emojis and unicode characters. 
  
     Try searching criminal cases with: [💣 OR 🔫 OR 💰][bomb].
  
@@ -71,9 +71,9 @@ Among the improvements:
      - Docket number and other fielded searches are more robust.
      - Timezone bugs are now fixed and dates are more consistent.
 
-In short, we've attempted to fix every bug and feature request people have sent us. 
+In short, we've attempted to fix every bug and feature request people have sent us in order to make the most powerful and accurate boolean search engine we could.
 
-This makes it the best search engine we've ever released. 
+We think it's the best search engine we've ever released. 
 
 
 ### What's Next
@@ -102,7 +102,6 @@ This new system has been a huge undertaking, and we're thrilled to be launching 
 [c]: /contact/
 [help]: https://www.courtlistener.com/help/search-operators/#fielded-queries-fieldname-term
 [beta]: /2023/11/02/new-search/
-[archive]: https://www.courtlistener.com/recap/
 [paywall]: https://www.uscourts.gov/services-forms/fees/electronic-public-access-fee-schedule
 [eg]: https://blog.ericgoldman.org/archives/2022/01/2021-emoji-law-year-in-review.htm
 [ocr]: /2016/09/26/extracting-text-millions-of-pacer-documents.mdx
