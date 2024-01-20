@@ -46,6 +46,22 @@ export function H3({ children }) {
   );
 }
 
+function computeId(text) {
+  return text
+    .toLowerCase()
+    .replace(/[^a-z0-9 ]/g, '')
+    .replace(/[ ]/g, '-');
+}
+
+export function H3ForNavigation({ children }) {
+  const id = computeId(children);
+  return (
+    <h3 id={id}>
+      {children}
+    </h3>
+  );
+}
+
 export function H4({ children }) {
   return <h4 className="text-md md:text-l lg:text-xl font-bold text-black">{children}</h4>;
 }
