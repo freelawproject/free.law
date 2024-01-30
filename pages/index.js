@@ -142,7 +142,7 @@ export default function Home({ allPostsData }) {
             <div className="hidden sm:block w-1/3 lg:w-1/2 pl-4 justify-end">
               <div className="w-full lg:w-2/3 float-right">
                 <Image
-                  src="/images/homepage/courtlistener-stacked.png"
+                  src="/images/homepage/courtlistener-stacked.svg"
                   alt="The CourtListener logo"
                   width="400"
                   height="141"

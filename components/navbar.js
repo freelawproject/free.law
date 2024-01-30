@@ -23,7 +23,7 @@ const projects = [
     name: 'CourtListener.com',
     description: 'Our powerful legal research and awareness platform.',
     href: '/projects/courtlistener/',
-    imgSrc: '/images/icons/courtlistener.svg',
+    imgSrc: '/images/icons/courtlistener-small.svg',
   },
   {
     name: 'The RECAP Extension',
