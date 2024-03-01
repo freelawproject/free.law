@@ -133,7 +133,7 @@ export function Colophon() {
                 />
               </a>
             </Link>
-            <Link href="/newsletter/">
+            <Link href="https://donate.free.law/np/clients/freelawproject/subscribe.jsp?subscription=9">
               <a>
                 <FontAwesomeIcon
                   icon={faNewspaper}
