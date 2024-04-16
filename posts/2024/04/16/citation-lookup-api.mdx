@@ -1,0 +1,72 @@
+---
+title: Combat Hallucinations and Look Up Citations with our New API
+date: "2024-04-16"
+tags:
+ - "AI"
+ - "Guardrail"
+ - "Hallucination"
+ - "API"
+ - "Citation"
+ - "Case Law"
+author: "Michael Lissner"
+excerpt: "Our new API can help prevent hallucinationed citations and can look up citations."
+imagePath: "/images/banners/hallucinated-case.png"
+---
+
+<p className="lead">One of the biggest <a href="https://www.nytimes.com/2023/05/27/nyregion/avianca-airline-lawsuit-chatgpt.html">recent stories</a> in legal tech is about the lawyer that used ChatGPT to generate <a href="https://www.courtlistener.com/docket/63107798/21/mata-v-avianca-inc/authorities/">his brief</a>.</p>
+
+It didn’t go well. His brief contained citations that ChatGPT hallucinated, and when he asked ChatGPT whether it made things up, it insisted it did not. Ultimately, after the case made international news, the lawyer was sanctioned, and that was that.
+
+But unfortunately, the problem was not solved, and hallucinations have been an ongoing problem for generative AI systems. 
+
+Today we’re launching a new API to combat this problem and provide a guardrail for those that are using AI to generate legal content. Built on our database of nearly ten million citations, we are proud to share a new [Citation Lookup and Verification API][api].
+
+Here's how it works. Blocks of text up to approximately fifty pages in length (64,000 characters) can be sent to this API, and citations will be extracted from it in response. Invalid and ambiguous citations will be identified, and good citations will be matched to opinions in our [database of case law][cl].
+
+For example, this uses curl to send a sentence to the API, and it gets back the case that is cited:
+
+```txt
+curl -X POST "https://www.courtlistener.com/api/rest/v3/citation-lookup/" \
+  --data 'text=Obergefell v. Hodges (576 US 644) established the right to marriage among same-sex couples'
+[
+  {
+    "citation": "576 US 644",
+    "normalized_citations": [
+      "576 U.S. 644"       ①
+    ],
+    "start_index": 22,     ②
+    "end_index": 32,
+    "status": 200,         ③
+    "error_message": "",
+    "clusters": [...an opinion object here...] ④
+  }
+]
+```
+
+1. We spent months analyzing over 50 million citations from American case law to identify every known reporter and its variations. In the example above, the lookup was for the “US” reporter, but it should have been “U.S.” The API returns the corrected version in the `normalized_citations` key.
+
+2. The start and end locations of the citation text are provided in the response so that you can wrap the citation in a hyperlink or other markup.
+
+3. HTTP status numbers are used to explain the result (200 is OK, 404 is not found, and so on).
+
+4. When the citation is found in our system, the found object is returned in the `clusters` key.
+
+## Look Up Citations Too
+
+Today’s announcement also aims to replace an [unofficial citation lookup API][u] that we have hosted for many years at https://www.courtlistener.com/c/. 
+
+Using the unofficial API, a human can look up one citation at a time and get back a result in HTML format. This was never great for automated systems, but many organizations use it as the easiest way to look up citations in CourtListener.
+
+We will continue supporting our old unofficial lookup API (it’s still great for humans!), but we hope that those using it will transition to our new API instead. It offers a number of advantages and should be a better tool for most purposes.
+
+## Get Started
+
+If you’re an organization that’s generating citations or looking them up, we hope you’ll put our new API to work. This API combines the strength of our data with the power of our APIs, and we hope it will empower your innovation as well.
+
+<p className="text-center">
+  <PurpleButton href="https://www.courtlistener.com/help/api/rest/v3/citation-lookup/" size="lg">Read the Documentation</PurpleButton>
+</p>
+
+[api]: https://www.courtlistener.com/help/api/rest/v3/citation-lookup/
+[cl]: https://www.courtlistener.com/opinion/
+[u]: https://www.courtlistener.com/c/
