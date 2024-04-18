@@ -15,7 +15,12 @@ export function Footer({ recentPost }) {
         id="footer"
       >
         <div className="w-1/2 hidden md:block row-span-2">
-          <Image src="/images/homepage/flip.svg" width="204" height="113" layout="responsive" />
+          <Image
+            src="/images/logos/flp/flp-medium-black.svg"
+            width="204"
+            height="113"
+            layout="responsive"
+          />
         </div>
 
         <div className="w-full">
@@ -35,9 +40,12 @@ export function Footer({ recentPost }) {
           </div>
 
           <div className="pb-3">
-            <H5>Blog</H5>
-            <FooterLink href={recentPost.id}>Latest</FooterLink>
-            <FooterLink href="/blog/">Full Archive</FooterLink>
+            <H5>Engage</H5>
+            <FooterLink href="/blog/">Read the Blog</FooterLink>
+            <FooterLink href={recentPost.id}>Our Latest Post</FooterLink>
+            <FooterLink href="https://donate.free.law/np/clients/freelawproject/subscribe.jsp?subscription=9">
+              Join our Newsletter
+            </FooterLink>
           </div>
         </div>
 
