@@ -15,7 +15,12 @@ export function Footer({ recentPost }) {
         id="footer"
       >
         <div className="w-1/2 hidden md:block row-span-2">
-          <Image src="/images/homepage/flip.svg" width="204" height="113" layout="responsive" />
+          <Image
+            src="/images/logos/flp/flp-medium-black.svg"
+            width="204"
+            height="113"
+            layout="responsive"
+          />
         </div>
 
         <div className="w-full">
