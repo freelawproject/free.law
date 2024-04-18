@@ -168,9 +168,22 @@ export default function Navbar({ allPosts }) {
           <div className="max-w-7xl mx-auto px-4 sm:px-6">
             <div className="flex justify-between items-center py-6 md:justify-start md:space-x-6 lg:space-x-10">
               <div className="flex justify-start font-extralight text-2xl lg:w-0 lg:flex-1 text-white whitespace-nowrap">
-                <Link href="/">
-                  <a className="font-display tracking-wide font-normal">Free Law Project</a>
-                </Link>
+                <a href="/" className=" hidden md:flex xl:hidden">
+                  <Image
+                    src="/images/logos/flp/flp-medium-white.svg"
+                    alt="FLP logo"
+                    width="64"
+                    height="79"
+                  />
+                </a>
+                <a href="/" className="md:hidden xl:flex">
+                  <Image
+                    src="/images/logos/flp/full-logo-white.svg"
+                    alt="FLP logo"
+                    width="190"
+                    height="79"
+                  />
+                </a>
               </div>
               <div className="hidden md:flex">
                 <div className="relative">
@@ -539,10 +552,10 @@ export default function Navbar({ allPosts }) {
                     <div>
                       <Image
                         className="h-8 w-auto"
-                        src="/images/homepage/flip.svg"
+                        src="/images/logos/flp/flp-medium-black.svg"
                         alt="FLP logo"
-                        width="64"
-                        height="64"
+                        width="79"
+                        height="79"
                       />
                     </div>
                     <div className="-mr-2">
