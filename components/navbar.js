@@ -1,13 +1,13 @@
 import { Fragment } from 'react';
 import { Popover, Transition } from '@headlessui/react';
 import {
-  MicrophoneIcon,
   CodeIcon,
   DownloadIcon,
   FireIcon,
   HeartIcon,
   LibraryIcon,
   MenuIcon,
+  MicrophoneIcon,
   UserGroupIcon,
   XIcon,
 } from '@heroicons/react/outline';
@@ -86,7 +86,6 @@ const tools = [
   },
 ];
 
-
 const datasets = [
   {
     name: 'Judges and Disclosures',
@@ -126,28 +125,27 @@ const datasets = [
     href: '/projects/supreme-court-data/',
     icon: LibraryIcon,
   },
-
 ];
 
 const featuredPosts = [
   {
-    name: 'Our Congressional Testimony on Financial Disclosures and Ethics Violations',
-    href: '/2021/10/25/flp-congressional-testimony-on-financial-disclosures/',
+    name: 'All the Case Law.',
+    href: '/2024/03/26/all-the-case-law',
     id: 1,
   },
   {
-    name: 'The Need for a Public Access Law for the Judiciary',
+    name: 'We Need a Public Access Law for the Judiciary',
     href: '/2021/03/04/judicial-foia-presentation',
     id: 2,
   },
   {
-    name: 'As Bloomberg Imposes Caps, PACER Must Support Academics',
-    href: '/2020/04/04/as-bloomberg-law-imposes-caps-on-pacer-access-pacer-must-support-academics/',
+    name: "FLP's Testimony on Financial Disclosures and Ethics Violations",
+    href: '/2021/10/25/flp-congressional-testimony-on-financial-disclosures/',
     id: 3,
   },
   {
-    name: 'Announcing PACER Docket Alerts',
-    href: '/2018/08/21/announcing-pacer-docket-alerts-for-journalists-lawyers-researchers-and-the-public/',
+    name: 'Combat AI Hallucinations with our New API',
+    href: '/2024/04/16/citation-lookup-api/',
     id: 4,
   },
   {
@@ -156,8 +154,8 @@ const featuredPosts = [
     id: 5,
   },
   {
-    name: 'FLP Advises Chilean Judicial Modernization Effort',
-    href: '/2019/12/05/chile/',
+    name: 'PACER Must Support Academics',
+    href: '/2020/04/04/as-bloomberg-law-imposes-caps-on-pacer-access-pacer-must-support-academics/',
     id: 6,
   },
 ];
