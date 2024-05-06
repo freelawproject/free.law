@@ -87,6 +87,7 @@ export function Footer({ recentPost }) {
             </FooterLink>
             <FooterLink href="/pacer-facts/">PACER Fact Sheet</FooterLink>
             <FooterLink href="/idb-facts/">Integrated Database Fact Sheet</FooterLink>
+            <FooterLink href="/projects/filing-and-case-management/">Filing and Case Management System Research</FooterLink>
           </div>
           <div className="pb-3">
             <H5>Support FLP</H5>
