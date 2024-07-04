@@ -42,6 +42,7 @@ export function Footer({ recentPost }) {
           <div className="pb-3">
             <H5>Engage</H5>
             <FooterLink href="/blog/">Read the Blog</FooterLink>
+            <FooterLink href="/startups/">How We Work with Startups</FooterLink>
             <FooterLink href={recentPost.id}>Our Latest Post</FooterLink>
             <FooterLink href="https://donate.free.law/np/clients/freelawproject/subscribe.jsp?subscription=9">
               Join our Newsletter
@@ -96,7 +97,16 @@ export function Footer({ recentPost }) {
             <FooterLink href="/sponsors/">Current Sponsors</FooterLink>
             <FooterLink href="/become-a-sponsor/">Become a Sponsor</FooterLink>
             <FooterLink href="/donate/other-ways/">Other Ways to Help</FooterLink>
-            <FooterLink href="/stickers/">Stickers!</FooterLink>
+            <p className="pb-2 sm:pb-3 md:pb-4 text-gray-500">
+              <Link href="/stickers/">
+                <a className="hover:underline">Stickers</a>
+              </Link>{' '}
+              &amp;{' '}
+              <Link href="https://shop.printyourcause.com/campaigns/free-law-project---for-sales">
+                <a className="hover:underline">Store</a>
+              </Link>
+              !
+            </p>
           </div>
         </div>
       </section>
