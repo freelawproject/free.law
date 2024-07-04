@@ -97,7 +97,16 @@ export function Footer({ recentPost }) {
             <FooterLink href="/sponsors/">Current Sponsors</FooterLink>
             <FooterLink href="/become-a-sponsor/">Become a Sponsor</FooterLink>
             <FooterLink href="/donate/other-ways/">Other Ways to Help</FooterLink>
-            <FooterLink href="/stickers/">Stickers!</FooterLink>
+            <p className="pb-2 sm:pb-3 md:pb-4 text-gray-500">
+              <Link href="/stickers/">
+                <a className="hover:underline">Stickers</a>
+              </Link>{' '}
+              &amp;{' '}
+              <Link href="https://shop.printyourcause.com/campaigns/free-law-project---for-sales">
+                <a className="hover:underline">Store</a>
+              </Link>
+              !
+            </p>
           </div>
         </div>
       </section>
