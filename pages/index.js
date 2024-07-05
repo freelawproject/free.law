@@ -39,14 +39,14 @@ export default function Home({ allPostsData }) {
             </div>
             <div className="hidden sm:flex justify-end sm:w-1/2 pl-8 pt-5">
               <Image
-                src="/images/homepage/recap.png"
+                src="/images/homepage/recap.svg"
                 alt="The RECAP logo"
                 width="350"
                 height="207"
               />
             </div>
             <div className="flex sm:hidden justify-end w-1/3 pl-4 relative h-24">
-              <Image src="/images/icons/recap.svg" alt="The RECAP logo" layout="fill" />
+              <Image src="/images/icons/medium-color.svg" alt="The RECAP logo" layout="fill" />
             </div>
             <div
               className="grid grid-cols-1 sm:grid-cols-3 w-full gap-6 sm:gap-8"
@@ -142,7 +142,7 @@ export default function Home({ allPostsData }) {
             <div className="hidden sm:block w-1/3 lg:w-1/2 pl-4 justify-end">
               <div className="w-full lg:w-2/3 float-right">
                 <Image
-                  src="/images/homepage/courtlistener-stacked.svg"
+                  src="/images/homepage/full-color-no-free-dot-law.svg"
                   alt="The CourtListener logo"
                   width="400"
                   height="141"
@@ -153,7 +153,7 @@ export default function Home({ allPostsData }) {
             </div>
             <div className="flex sm:hidden justify-end w-1/3 pl-4 relative h-24">
               <Image
-                src="/images/icons/courtlistener.svg"
+                src="/images/icons/medicum-color-cl.svg"
                 alt="The CourtListener logo"
                 layout="fill"
               />
