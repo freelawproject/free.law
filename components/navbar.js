@@ -23,20 +23,20 @@ const projects = [
     name: 'CourtListener.com',
     description: 'Our powerful legal research and awareness platform.',
     href: '/projects/courtlistener/',
-    imgSrc: '/images/icons/courtlistener-small.svg',
+    imgSrc: '/images/icons/medium-color-cl.svg',
   },
   {
     name: 'The RECAP Extension',
     description: "Help build the world's largest open collection of PACER filings. Save money too.",
     href: '/recap/',
-    imgSrc: '/images/icons/recap.svg',
+    imgSrc: '/images/icons/medium-color-recap.svg',
   },
   {
     name: 'Bots.law',
     description:
       'Home of the Big Cases bot, Little Cases bot and bots to keep you updated wherever you chat.',
     href: 'https://bots.law/',
-    imgSrc: '/images/icons/bot.svg',
+    imgSrc: '/images/icons/medium-color-bots.svg',
   },
 ];
 const callsToAction = [
@@ -49,7 +49,7 @@ const tools = [
     description:
       'Gather, monitor, and search state and federal court data, bankruptcy information, parties, opinions, judges, and more.',
     href: 'https://www.courtlistener.com/api/',
-    icon: CodeIcon,
+    imgSrc: '/images/icons/apis.svg',
   },
   {
     name: 'Database Replication',
@@ -81,7 +81,7 @@ const tools = [
     name: 'Doctor',
     description: 'Convert and extract documents and audio files at scale.',
     href: '/projects/doctor/',
-    imgSrc: '/images/icons/doctor-icon.png',
+    imgSrc: '/images/icons/doctor.svg',
     icon_height: 'h-4',
   },
 ];
@@ -111,19 +111,19 @@ const datasets = [
     name: 'Oral Argument Recording Archive',
     description: 'The largest open collection of legal audio on the Internet.',
     href: '/projects/oral-arguments/',
-    icon: MicrophoneIcon,
+    imgSrc: '/images/icons/oral-arguments.svg',
   },
   {
     name: 'Judge Portraits',
     description: 'Thousands of portraits of judges you can use in your projects.',
     href: '/projects/judge-pics/',
-    icon: UserGroupIcon,
+    imgSrc: '/images/icons/judge-pics.svg',
   },
   {
     name: 'Supreme Court Data',
     description: 'High quality data about Supreme Court opinions.',
     href: '/projects/supreme-court-data/',
-    icon: LibraryIcon,
+    imgSrc: '/images/icons/scotus-data.svg',
   },
 ];
 
@@ -250,7 +250,7 @@ export default function Navbar({ allPosts }) {
                                       aria-hidden="true"
                                     />
                                   ) : (
-                                    <div className="h-6 w-6 relative flex-shrink-0">
+                                    <div className="h-8 w-8 relative flex-shrink-0">
                                       <Image src={item.imgSrc} layout="fill" aria-hidden="true" />
                                     </div>
                                   )}
