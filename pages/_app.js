@@ -7,7 +7,7 @@ export default function App({ Component, pageProps }) {
       <DefaultSeo
         titleTemplate="%s | Free Law Project | Making the legal ecosystem more equitable and competitive."
         defaultTitle="Free Law Project"
-        description="Free Law Project is the leading nonprofit using technology and data to make the legal ecosystem more equitable and competitive. Creators of the CourtListener and RECAP projects."
+        description="Free Law Project is the leading nonprofit using technology and data to make the legal ecosystem more equitable and competitive. Creators of the CourtListener, RECAP, and Bots.law projects."
         additionalLinkTags={[
           // Images
           {
