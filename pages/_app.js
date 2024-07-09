@@ -42,11 +42,11 @@ export default function App({ Component, pageProps }) {
         additionalMetaTags={[
           {
             name: 'msapplication-TileColor',
-            content: '#da532c',
+            content: '#663367',
           },
           {
             name: 'theme-color',
-            content: '#180040',
+            content: '#663367',
           },
           {
             name: 'author',
@@ -75,9 +75,9 @@ export default function App({ Component, pageProps }) {
           site_name: 'Free Law Project',
           images: [
             {
-              url: 'https://free.law/android-chrome-192x192.png',
-              width: 192,
-              height: 192,
+              url: 'https://free.law/og-image-1280x640.png',
+              width: 1280,
+              height: 640,
             },
           ],
           dnt: 'on',
