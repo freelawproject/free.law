@@ -46,7 +46,7 @@ export default function Home({ allPostsData }) {
               />
             </div>
             <div className="flex sm:hidden justify-end w-1/3 pl-4 relative h-24">
-              <Image src="/images/icons/medium-color.svg" alt="The RECAP logo" layout="fill" />
+              <Image src="/images/icons/medium-color-recap.svg" alt="The RECAP logo" layout="fill" />
             </div>
             <div
               className="grid grid-cols-1 sm:grid-cols-3 w-full gap-6 sm:gap-8"
@@ -153,7 +153,7 @@ export default function Home({ allPostsData }) {
             </div>
             <div className="flex sm:hidden justify-end w-1/3 pl-4 relative h-24">
               <Image
-                src="/images/icons/medicum-color-cl.svg"
+                src="/images/icons/medium-color-cl.svg"
                 alt="The CourtListener logo"
                 layout="fill"
               />
