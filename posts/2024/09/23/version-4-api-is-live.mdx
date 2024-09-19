@@ -1,40 +1,56 @@
 ---
-title: Some Title in Title Case
-date: "2021-07-30"
-updated: "2021-07-30"
-private: True
-status: Draft
+title: v4 APIs are Now Live
+date: "2024-09-23"
 tags:
  - "Disclosures"
  - "Ethics"
-author: "Michael Lissner"
-excerpt: "This is used in the main list of blogs and also in the open graph previews."
-imagePath: "/images/banners/blue-sky.jpeg (aim for 1200×630)"
+author: "Stephanie Taube"
+excerpt: "We have released v4 of our APIs, which should be much better for our users — faster, more featureful, more scalable, and more accurate."
 ---
 
-<p className="lead">Some stuff here</p>
+<p className="lead">After several years of planning and development, we have released v4 of our APIs.</p>
 
-Then just write markdown
+v4 of the API responds to feedback we have received over the years, and should be much better for our users — faster, more featureful, more scalable, and more accurate.
 
-<CaptionedImage 
-  imgProps={{
-    "src": "/images/zapier/flow-1.png",
-    "alt": "A screenshot of the first flow on Zapier.com",
-  }}
-  href="/some-link-to-somewhere/"
->A screenshot of the first flow on Zapier.com.</CaptionedImage>
-
-
-<div className="left-image or right-image">
-    <img src="/images/recap_r-150x150.png"
-         alt="RECAP Logo"
-         className="img-responsive"/>
-</div>
+Our existing v3 APIs will be maintained as best as possible, but the search API will be changing in a few small ways that could affect existing implementations. Please read on for more information or check out our migration guide to learn more.
 
 <p className="text-center">
-  <PurpleButton href="https://www.courtlistener.com/help/api/webhooks/" size="lg">Learn More</PurpleButton>
-  <PurpleButton href="https://www.courtlistener.com/help/api/webhooks/getting-started/" size="lg">Get Started</PurpleButton>
+  <PurpleButton href="https://www.courtlistener.com/help/api/v4/migration-guide/" size="lg">Learn More</PurpleButton>
 </p>
 
+## Improvements and New Features
 
-Some useful bits can be found in widgets.js or buttons.js.
+**Deep Pagination**
+
+Our database-powered APIs now support cursor-based pagination. This allows you to crawl very deeply in the API. In v3, any page past 100 was blocked.
+
+**Improved Search**
+
+v4 of the Search API is powered by ElasticSearch instead of Solr. This is a huge upgrade to our API and search engine that provides new search parameters, better scaling, more features, and more accurate results. Check out the [migration guide][1] to learn more about the enhancements.
+
+## What’s Next
+
+v4 of the API is available now in parallel with v3, and is the default version for anybody creating new systems. Before its full release, a number of organizations beta tested it. 
+
+All of our APIs except for our search API are powered by our database. We do not have plans at present to deprecate any of these APIs, but we’d like to remove them someday and urge you to migrate to v4 as soon as possible so we can do that.
+
+The [v3 Search API][2] is currently powered by Solr. The new v4 version is powered by ElasticSearch. We cannot keep both search engines running forever, so we’re taking the following steps:
+
+1. We are contacting all API users today to communicate these changes and to discuss timelines around the migration to v4.
+
+2. In **nine weeks**, we will begin making v3 use ElasticSearch instead of Solr. This will break v3 in small backwards-incompatible ways as described in the migration document. 
+
+3. If all users have migrated to v4 of the search API, we will simply make the swap. If not, we will evaluate doing the swap as a “brown-out,” which would slowly start using ElasticSearch for an increasing number of requests over a period of weeks, until the swap is complete. Such an approach should provide time for any problems to slowly emerge.
+
+This is a complicated migration on our end, but should be a fairly small lift for most organizations. We’re dedicated to making this migration a success and we are available to discuss changes with anybody using our APIs. We’ll be in touch by email to get this going.
+
+## Try it Now
+
+To get started with v4, check out the migration guide to learn more about the updates.
+
+<p className="text-center">
+  <PurpleButton href="https://www.courtlistener.com/help/api/v4/migration-guide/" size="lg">Learn More</PurpleButton>
+</p>
+
+[1]: https://www.courtlistener.com/help/api/v4/migration-guide/
+[2]: https://www.courtlistener.com/help/api/rest/v3/search/
