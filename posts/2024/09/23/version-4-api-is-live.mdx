@@ -1,0 +1,40 @@
+---
+title: Some Title in Title Case
+date: "2021-07-30"
+updated: "2021-07-30"
+private: True
+status: Draft
+tags:
+ - "Disclosures"
+ - "Ethics"
+author: "Michael Lissner"
+excerpt: "This is used in the main list of blogs and also in the open graph previews."
+imagePath: "/images/banners/blue-sky.jpeg (aim for 1200×630)"
+---
+
+<p className="lead">Some stuff here</p>
+
+Then just write markdown
+
+<CaptionedImage 
+  imgProps={{
+    "src": "/images/zapier/flow-1.png",
+    "alt": "A screenshot of the first flow on Zapier.com",
+  }}
+  href="/some-link-to-somewhere/"
+>A screenshot of the first flow on Zapier.com.</CaptionedImage>
+
+
+<div className="left-image or right-image">
+    <img src="/images/recap_r-150x150.png"
+         alt="RECAP Logo"
+         className="img-responsive"/>
+</div>
+
+<p className="text-center">
+  <PurpleButton href="https://www.courtlistener.com/help/api/webhooks/" size="lg">Learn More</PurpleButton>
+  <PurpleButton href="https://www.courtlistener.com/help/api/webhooks/getting-started/" size="lg">Get Started</PurpleButton>
+</p>
+
+
+Some useful bits can be found in widgets.js or buttons.js.
