@@ -1,5 +1,5 @@
 ---
-title: Exciting News! The RECAP Extension is Now Available for Microsoft Edge
+title: "Tell the Firms! RECAP is Now Available for Microsoft Edge"
 date: "2024-09-20"
 tags:
  - "RECAP"
@@ -7,21 +7,27 @@ tags:
  - "Manifest V3"
  - "MS Edge"
 author: "Eduardo Rosendo"
-excerpt: "After years of anticipation, we're thrilled to announce that our web browser extension is finally available for Microsoft Edge."
-imagePath: "/images/banners/flp-logo-full-1200x539.png"
+excerpt: "Over a decade of waiting, RECAP is finally supported on Microsoft's default browser, Edge. Whew!"
 ---
 
-<p className="lead">We're thrilled to announce that our web browser extension is now officially available on the Microsoft Edge Add-ons store! This marks a significant milestone for our team, as we've long aspired to bring our extension to a wider audience of users.</p>
+<p className="lead">After a decade-long journey, RECAP has finally arrived on <a href="https://microsoftedge.microsoft.com/addons/detail/recap/ckkpjgceaenndjdjpbaoaociikjpfdjg">the Microsoft Edge store</a>, bringing our tool for enhancing PACER to a whole new audience of users. Edge is the only browser many attorneys are allowed to use, so this marks a major milestone in our mission to make public records more accessible to everyone.</p>
 
-For years, we've heard countless requests from our users for an Internet Explorer version of our extension. While we've made numerous attempts to achieve this in the past, the technical challenges and limitations of the IE platform have always presented significant hurdles.
+This story begins in 2013, when we announced the [Aaron Swartz Memorial Grant][g] to develop an Internet Explorer version of the extension. At the time, IE supported extensions, in theory, but they relied on proprietary APIs and a different programming language than either the Firefox or Chrome version. Already, Chrome used JavaScript and Firefox used "XUL," so a third language seemed daunting, but we tried to make this work. Ultimately though, despite the grant, we failed — the technical challenges and limitations of the IE platform were simply too much for us.
 
-With the introduction of Manifest V3, we finally had the tools and capabilities we needed to create a compatible version of our extension for Microsoft Edge. This major update to the web extension manifest format brought about a number of improvements that made it possible for us to bridge the gap between our existing codebase and the requirements of IE.
+That all changed a few years ago when Microsoft finally ditched Internet Explorer and built Edge on top of the Chrome browser platform. That opened the possibility of making some tweaks to RECAP and having it work on Edge. Amazing! The only problem? Edge only supports version three of Chrome's extension APIs, and until recently Firefox only supported version 2. 
 
-It's worth noting that the idea of creating an IE version of our extension isn't entirely new. In fact, one of the original creators of our extension was urging us to do so over a decade ago. However, at the time, the technical challenges involved were simply too daunting.
+And so we waited for Firefox to join the other browsers. 
 
-We're excited to see what the future holds for our extension on Microsoft Edge. With the support of Manifest V3, we're confident that we can continue to provide our users with a high-quality, reliable experience.
+That finally happened a few months ago, and [we upgraded RECAP to use version three of the APIs][r]. This was the biggest overhaul in RECAP's history, but the return justifies the work. As of today, RECAP works on Chrome, Edge, Safari, and Firefox.
+
+We're excited to see what the future holds for our extension on Microsoft Edge. With the support of version three of the APIs, we're confident that we can continue to provide our users with a high-quality, reliable experience.
+
+The only piece left now is getting the word out to the firms and corporations that can only use Edge. If you're a believer in our mission of bringing legal information to all, please help us spread the word!  
 
 
 <p className="text-center">
   <PurpleButton href="/recap" size="lg">Get the extension today!</PurpleButton>
 </p>
+
+[g]: /2013/01/20/announcing-the-aaron-swartz-memorial-grants/
+[r]: https://github.com/freelawproject/recap-chrome/releases/tag/2.8.0
