@@ -63,7 +63,3 @@
 .prose code::before {
   content: "";
 }
-
-.team-container img {
-  margin-bottom: 0;
-}
