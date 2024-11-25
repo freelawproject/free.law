@@ -1,0 +1,62 @@
+---
+title: Our New Search Engine for Case Law is More Powerful, Accurate, and Performant
+date: "2024-11-25"
+tags:
+ - "Search"
+ - "Elastic"
+ - "Solr"
+ - "Opinions"
+ - "Case Law"
+author: "Stephanie Taube"
+excerpt: "Years in the making, today we are launching the next generation of our case law search engine."
+---
+
+
+<p className="lead">Earlier this year, we <a href="/2024/01/18/new-recap-archive-search-is-live">launched</a> a brand-new search engine for RECAP. Today, after many months of work, we're launching a similar upgrade to our case law search engine.</p>
+
+This new version responds to feedback we have received over the years, and is much better for our users — faster, more featureful, more scalable, and more accurate.
+
+## What's New
+
+This new search engine has been in development and testing for several years. Among the many updates it delivers are the following highlights:
+
+1. **You can search for *exactly* the words you want.**
+
+   In general, people want searches to be broadly interpreted. For example, if you search for _settlement_, you probably want to also get results for _settle_, _settling_, _settled_, etc. But sometimes that can be annoying, and users have often asked if it could be turned off.
+
+   In the new search engine, it can. Surround any word in double quotes, and we will use just that word and not any variation of it. Think: "[Deposit" vs. "Deposition](https://www.courtlistener.com/?q=%22Deposit%22%20-%22Deposition%22&type=o&order_by=score%20desc)" or "McDonald" the last name vs. "McDonalds" the restaurant (plural).
+
+2. **Acronyms!**
+
+   It can be frustrating when searches for common acronyms and abbreviations don't bring back their longer forms. To fix this, we have searched our data and the Blue Book to identify the top 800 legal abbreviations and acronyms. Try a search for something like ["IRS"](https://www.courtlistener.com/?q=IRS&type=o&order_by=score%20desc) to see this in action.
+
+3. **Better search, generally**
+
+   We’ve implemented a handful of other fixes:
+
+   1. Small words (such as "to", "the", etc.) are now searchable. This makes certain [tricky queries](https://www.courtlistener.com/?q=%22to%20be%20or%20not%20to%20be%22&type=o&order_by=score%20desc&stat_Published=on) possible.  
+   2. Queries with upper and lower case letters now work better. Try: [McDonalds](https://www.courtlistener.com/?q=McDonalds&type=o&order_by=score%20desc) or [WikiLeaks](https://www.courtlistener.com/?q=WikiLeaks&type=o&order_by=score%20desc).  
+   3. Highlighting in search results is improved and more consistent.  
+   4. Docket number and other fielded searches are more robust.  
+   5. Timezone bugs are now fixed and dates are more consistent.
+
+4. **Improved performance and scalability**
+
+    We’ve made updates to improve search performance as well as scalability. As a user, this means your searches will be faster, including for complex queries.
+
+## What’s Next
+
+* We are creating a semantic search system so that those without deep legal expertise can choose the current system, which favors precise legal terminology, or to search using common words and phrases.
+
+* We will continue to make updates that improve the relevancy of search results.
+
+* We plan to add additional search operators, like `/s`, `/p`, and `/n`, to help you construct more powerful and precise search queries.
+
+* The input we are collecting from users will help inform even more enhancements to the user experience.
+
+
+## Try it Now
+
+We're thrilled to be launching these updates today. We hope you'll send us your feedback and thoughts!
+
+<PurpleButton href="https://www.courtlistener.com/opinion/" size="lg">Try the New Case Law Search Now</PurpleButton>
