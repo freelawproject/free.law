@@ -16,9 +16,10 @@ import bookLawyer from '../public/images/services-logos/x256/booklawyer.png';
 import wsj from '../public/images/services-logos/x256/wsj.png';
 import vlex from '../public/images/services-logos/x256/vlex.png';
 import classNames from 'classnames';
-import Button from './button';
-import { H1 } from './headings';
+import Button, {RedButton} from './button';
+import {H1} from './headings';
 import Date from './date';
+import {HeartIcon} from "@heroicons/react/outline";
 
 export function MainColumn({ children }) {
   return <div className="max-w-7xl mx-auto px-4 sm:px-6 md:px-10">{children}</div>;
@@ -63,6 +64,28 @@ export function PostSummary({ post }) {
 export default function Layout({ children, home, allPosts }) {
   return (
     <div className="text-gray-800 font-display">
+
+      {/* Giving Tuesday Banner */}
+      <section className="bg-gradient-to-b from-gray-300 to-gray-100">
+        <div className="flex lg:flex-row flex-col justify-center items-center p-3 text-center">
+          <strong className="pr-2">Today is GivingTuesday.</strong>
+          <span className="text-sm pr-2 mb-2 md:mb-1 lg:mb-0">
+            Your support of Free Law Project helps make the justice system more transparent and
+            accessible to all.
+          </span>
+          <RedButton
+            href="https://donate.free.law/forms/givingtuesday"
+            extraClasses="inline-flex px-1 py-1 md:hidden"
+          >
+            <HeartIcon className="flex-shrink-0 h-5 w-5" aria-hidden="true" />
+            <div className="items-center flex">&nbsp;Donate Today!</div>
+          </RedButton>
+          <a href="https://donate.free.law/forms/givingtuesday" className="underline hidden md:block">
+            Donate Today!
+          </a>
+        </div>
+      </section>
+
       <Navbar allPosts={allPosts} />
 
       {children}
