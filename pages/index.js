@@ -3,14 +3,13 @@ import Image from 'next/image';
 import Layout, { ClientPics, MainColumn, MainFullBleedColumn } from '../components/layout';
 import { getSortedPostsData } from '../lib/posts';
 import Button, { PurpleButton } from '../components/button';
-import Dialog from "../components/dialog";
-import { H1, H2, H3, HeroHeading, HeroHeadingMono } from '../components/headings';
+import {EOYDialog} from "../components/dialog";
+import { H2, H3, HeroHeading, HeroHeadingMono } from '../components/headings';
 import { GridListItem } from '../components/widgets';
 import HeroImage from '../components/heroImage';
 import { JudgeRibbon } from '../components/footers';
 import { DownloadIcon } from '@heroicons/react/outline';
 import { NextSeo } from 'next-seo';
-import { useState } from "react";
 
 export async function getStaticProps() {
   const allPostsData = await getSortedPostsData();
@@ -22,7 +21,6 @@ export async function getStaticProps() {
 }
 
 export default function Home({ allPostsData }) {
-  let [isOpen, setIsOpen] = useState(true);
   return (
     <Layout allPosts={allPostsData} home={true}>
       <NextSeo
@@ -33,40 +31,7 @@ export default function Home({ allPostsData }) {
         }}
       />
       <main>
-        <Dialog
-          extraClasses="bg-EOYBanner bg-center bg-cover bg-no-repeat border-purple-800 border-4 flex flex-col justify-between items-center"
-          isOpen={isOpen}
-          setIsOpen={setIsOpen}
-        >
-          <div className="flex justify-between items-start w-full">
-            <img
-              src="/images/logos/flp/full-logo-white.svg"
-              alt="FLP logo"
-              width="190"
-              height="79"
-              className="place-self-start relative mb-8"
-            />
-            <div onClick={() => setIsOpen(false)}>x</div>
-          </div>
-          <div className="flex flex-col items-center mb-4">
-            <H1 extraClasses="font-bold text-gray-300 text-3xl text-center max-w-lg mb-3">
-              You can help preserve free public access to the law.
-            </H1>
-            <p className="text-gray-300 text-xl text-center">
-              Your monthly recurring donation helps Free Law Project bring new, innovative,
-              open-source technology to the legal ecosystem and expand free legal resources
-              available to the public.
-            </p>
-          </div>
-          <div className="my-6 w-full flex justify-end">
-            <Button
-              href="https://donate.free.law/forms/supportflp"
-              extraClasses="bg-yellow-600 hover:bg-yellow-700 uppercase shadow-lg shadow-gray-800 font-bold text-purple-900"
-            >
-              Make your donation today
-            </Button>
-          </div>
-        </Dialog>
+        <EOYDialog />
 
         <HeroImage />
 
