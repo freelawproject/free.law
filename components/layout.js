@@ -61,6 +61,21 @@ export function PostSummary({ post }) {
   );
 }
 
+export function SmallBanner({ title, text, children, hidden }) {
+  if (hidden) return;
+  return (
+    <section className="bg-gradient-to-b from-gray-300 to-gray-100">
+      <div className="flex lg:flex-row flex-col justify-center items-center p-3 text-center">
+        <strong className="pr-2">{title}</strong>
+        <span className="text-sm pr-2 mb-2 md:mb-1 lg:mb-0">
+          {text}
+        </span>
+        {children}
+      </div>
+    </section>
+  );
+}
+
 export default function Layout({ children, home, allPosts }) {
   return (
     <div className="text-gray-800 font-display">
