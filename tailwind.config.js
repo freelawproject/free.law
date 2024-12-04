@@ -49,6 +49,13 @@ module.exports = {
         'full-bleed-6': 'calc(100% + 3rem)', // Use with -ml-6
         'full-bleed-10': 'calc(100% + 5rem)', // Use with -ml-10
       },
+      minWidth: {
+        '700px': '700px',
+      },
+      minHeight: {
+        '700px': '700px',
+        '450px': '450px',
+      },
     },
   },
 };
