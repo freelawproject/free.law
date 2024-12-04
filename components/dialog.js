@@ -4,6 +4,25 @@ import { XIcon } from '@heroicons/react/outline';
 import { H1 } from './headings';
 import Button from './button';
 
+const EOY_MODE = true;
+
+// EOY dialog dates
+const FIRST_EOY_DIALOG_END_MONTH = 12; // December
+const FIRST_EOY_DIALOG_END_DAY = 20;
+const SECOND_EOY_DIALOG_END_MONTH = 12; // December
+const SECOND_EOY_DIALOG_END_DAY = 31;
+
+// TEXT COPIES
+const FIRST_EOY_TITLE = 'You can help preserve free public access to the law.';
+const SECOND_EOY_TITLE = "Don't miss your opportunity to make an impact in 2024!";
+const FIRST_EOY_TEXT =
+  'Your monthly recurring donation helps Free Law Project bring new, innovative,' +
+  ' open-source technology to the legal ecosystem and expand free legal resources available to the public.';
+const SECOND_EOY_TEXT =
+  "Free Law Project hosts some of the world's largest open legal databases to" +
+  ' ensure that you can access, study, and improve the American legal system. We count on your support' +
+  ' for the continued growth and improved accessibility of this important legal resource.';
+
 export default function Dialog({
   children,
   extraClasses,
@@ -36,6 +55,8 @@ export default function Dialog({
 }
 
 export function EOYDialog() {
+  if (!EOY_MODE) return;
+
   // DIALOG CLASSES
   const dialogBaseClasses =
     'bg-center bg-cover bg-no-repeat flex flex-col justify-between' +
@@ -49,17 +70,6 @@ export function EOYDialog() {
   const firstButtonClasses = 'bg-yellow-600 hover:bg-yellow-700 text-purple-900';
   const secondButtonClasses = 'bg-gray-300 hover:bg-gray-400 text-purple-700';
 
-  // TEXT COPIES
-  const firstTitle = 'You can help preserve free public access to the law.';
-  const secondTitle = "Don't miss your opportunity to make an impact in 2024!";
-  const firstText =
-    'Your monthly recurring donation helps Free Law Project bring new, innovative,' +
-    ' open-source technology to the legal ecosystem and expand free legal resources available to the public.';
-  const secondText =
-    "Free Law Project hosts some of the world's largest open legal databases to" +
-    ' ensure that you can access, study, and improve the American legal system. We count on your support' +
-    ' for the continued growth and improved accessibility of this important legal resource.';
-
   const [isOpen, setIsOpen] = useState(false);
   const [dialogVersion, setDialogVersion] = useState(null);
   const [closeButtonPressed, setCloseButtonPressed] = useState(false);
@@ -67,8 +77,11 @@ export function EOYDialog() {
   // Determine version and visibility depending on current date and dismissal state
   useEffect(() => {
     const today = new Date();
-    const firstDialogEnd = new Date('2024-12-20T23:59:59');
-    const secondDialogEnd = new Date('2024-12-31T23:59:59');
+    const currentYear = today.getFullYear();
+    const getDate = (month, day) => new Date(currentYear, month, day, 23, 59, 59);
+
+    const firstDialogEnd = getDate(FIRST_EOY_DIALOG_END_MONTH - 1, FIRST_EOY_DIALOG_END_DAY);
+    const secondDialogEnd = getDate(SECOND_EOY_DIALOG_END_MONTH - 1, SECOND_EOY_DIALOG_END_DAY);
 
     const firstEOYDialogDismissalDate = localStorage.getItem('firstEOYDialogDismissalDate');
     const firstDismissed = dismissedWithinWeek(firstEOYDialogDismissalDate);
@@ -120,8 +133,8 @@ export function EOYDialog() {
     isFirst ? firstButtonClasses : secondButtonClasses
   }`;
 
-  const title = isFirst ? firstTitle : secondTitle;
-  const text = isFirst ? firstText : secondText;
+  const title = isFirst ? FIRST_EOY_TITLE : SECOND_EOY_TITLE;
+  const text = isFirst ? FIRST_EOY_TEXT : SECOND_EOY_TEXT;
 
   return (
     <Dialog extraClasses={dialogClasses} isOpen={isOpen} setIsOpen={setIsOpen}>
