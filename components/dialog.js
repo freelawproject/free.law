@@ -1,10 +1,15 @@
-import {useEffect, useId, useState} from 'react';
+import { useEffect, useId, useState } from 'react';
 import { Dialog as HeadlessDialog } from '@headlessui/react';
 import { XIcon } from '@heroicons/react/outline';
 import { H1 } from './headings';
 import Button from './button';
 
-export default function Dialog({ children, extraClasses, isOpen: isOpenProp, setIsOpen: setIsOpenProp }) {
+export default function Dialog({
+  children,
+  extraClasses,
+  isOpen: isOpenProp,
+  setIsOpen: setIsOpenProp,
+}) {
   const dialogId = useId();
   const [isOpenLocal, setIsOpenLocal] = useState(true);
   let isOpen, setIsOpen;
@@ -25,36 +30,35 @@ export default function Dialog({ children, extraClasses, isOpen: isOpenProp, set
       id={dialogId}
     >
       <HeadlessDialog.Overlay className="fixed inset-0 bg-black opacity-60" />
-      <div
-        className={classes}
-      >
-        {children}
-      </div>
+      <div className={classes}>{children}</div>
     </HeadlessDialog>
   );
 }
 
 export function EOYDialog() {
   // DIALOG CLASSES
-  const dialogBaseClasses = "bg-center bg-cover bg-no-repeat flex flex-col justify-between" +
-    " items-center max-w-screen-md w-full min-h-450px max-h-screen border-purple-800";
-  const firstDialogClasses = "bg-EOYBanner1";
-  const secondDialogClasses = "bg-EOYBanner2";
+  const dialogBaseClasses =
+    'bg-center bg-cover bg-no-repeat flex flex-col justify-between' +
+    ' items-center max-w-screen-md w-full min-h-450px max-h-screen border-purple-800';
+  const firstDialogClasses = 'bg-EOYBanner1';
+  const secondDialogClasses = 'bg-EOYBanner2';
 
   // BUTTON CLASSES
-  const buttonBaseClasses = "uppercase shadow-lg shadow-gray-800" +
-    " rounded-br-none rounded-tr-none relative -right-6";
-  const firstButtonClasses = "bg-yellow-600 hover:bg-yellow-700 text-purple-900";
-  const secondButtonClasses = "bg-gray-300 hover:bg-gray-400 text-purple-700";
+  const buttonBaseClasses =
+    'uppercase shadow-lg shadow-gray-800 rounded-br-none rounded-tr-none relative -right-6';
+  const firstButtonClasses = 'bg-yellow-600 hover:bg-yellow-700 text-purple-900';
+  const secondButtonClasses = 'bg-gray-300 hover:bg-gray-400 text-purple-700';
 
   // TEXT COPIES
-  const firstTitle = "You can help preserve free public access to the law."
-  const secondTitle = "Don't miss your opportunity to make an impact in 2024!"
-  const firstText = "Your monthly recurring donation helps Free Law Project bring new, innovative," +
-    " open-source technology to the legal ecosystem and expand free legal resources available to the public."
-  const secondText = "Free Law Project hosts some of the world's largest open legal databases to" +
-    " ensure that you can access, study, and improve the American legal system. We count on your support" +
-    " for the continued growth and improved accessibility of this important legal resource."
+  const firstTitle = 'You can help preserve free public access to the law.';
+  const secondTitle = "Don't miss your opportunity to make an impact in 2024!";
+  const firstText =
+    'Your monthly recurring donation helps Free Law Project bring new, innovative,' +
+    ' open-source technology to the legal ecosystem and expand free legal resources available to the public.';
+  const secondText =
+    "Free Law Project hosts some of the world's largest open legal databases to" +
+    ' ensure that you can access, study, and improve the American legal system. We count on your support' +
+    ' for the continued growth and improved accessibility of this important legal resource.';
 
   const [isOpen, setIsOpen] = useState(false);
   const [dialogVersion, setDialogVersion] = useState(null);
@@ -133,12 +137,12 @@ export function EOYDialog() {
           <XIcon className="h-8 w-8 text-purple-900" />
         </div>
       </div>
-      <div
-        className={`flex flex-col mb-4 ${
-          isFirst ? 'items-center' : 'items-start'
-        }`}
-      >
-        <H1 extraClasses={`font-extrabold text-gray-300 text-3xl max-w-lg mb-3 ${isFirst ? 'text-center' : 'text-start'}`}>
+      <div className={`flex flex-col mb-4 ${isFirst ? 'items-center' : 'items-start'}`}>
+        <H1
+          extraClasses={`font-extrabold text-gray-300 text-3xl max-w-lg mb-3 ${
+            isFirst ? 'text-center' : 'text-start'
+          }`}
+        >
           {title}
         </H1>
         <p className={`text-gray-300 text-xl font-bold ${isFirst ? 'text-center' : 'text-start'}`}>
