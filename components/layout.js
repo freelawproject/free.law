@@ -79,27 +79,23 @@ export function SmallBanner({ title, text, children, hidden }) {
 export default function Layout({ children, home, allPosts }) {
   return (
     <div className="text-gray-800 font-display">
-
       {/* Giving Tuesday Banner */}
-      <section className="bg-gradient-to-b from-gray-300 to-gray-100">
-        <div className="flex lg:flex-row flex-col justify-center items-center p-3 text-center">
-          <strong className="pr-2">Today is GivingTuesday.</strong>
-          <span className="text-sm pr-2 mb-2 md:mb-1 lg:mb-0">
-            Your support of Free Law Project helps make the justice system more transparent and
-            accessible to all.
-          </span>
-          <RedButton
-            href="https://donate.free.law/forms/givingtuesday"
-            extraClasses="inline-flex px-1 py-1 md:hidden"
-          >
-            <HeartIcon className="flex-shrink-0 h-5 w-5" aria-hidden="true" />
-            <div className="items-center flex">&nbsp;Donate Today!</div>
-          </RedButton>
-          <a href="https://donate.free.law/forms/givingtuesday" className="underline hidden md:block">
-            Donate Today!
-          </a>
-        </div>
-      </section>
+      <SmallBanner
+        title="Today is GivingTuesday."
+        text="Your support of Free Law Project helps make the justice system more transparent and accessible to all."
+        hidden={true}
+      >
+        <RedButton
+          href="https://donate.free.law/forms/givingtuesday"
+          extraClasses="inline-flex px-1 py-1 md:hidden"
+        >
+          <HeartIcon className="flex-shrink-0 h-5 w-5" aria-hidden="true" />
+          <div className="items-center flex">&nbsp;Donate Today!</div>
+        </RedButton>
+        <a href="https://donate.free.law/forms/givingtuesday" className="underline hidden md:block">
+          Donate Today!
+        </a>
+      </SmallBanner>
 
       <Navbar allPosts={allPosts} />
 
