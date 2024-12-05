@@ -23,37 +23,21 @@ const SECOND_EOY_TEXT =
   ' ensure that you can access, study, and improve the American legal system. We count on your support' +
   ' for the continued growth and improved accessibility of this important legal resource.';
 
-export default function Dialog({
-  children,
-  extraClasses,
-  isOpen: isOpenProp,
-  setIsOpen: setIsOpenProp,
-}) {
-  const dialogId = useId();
-  const [isOpenLocal, setIsOpenLocal] = useState(true);
-  let isOpen, setIsOpen;
-  if (isOpenProp == null || setIsOpenProp == null) {
-    [isOpen, setIsOpen] = [isOpenLocal, setIsOpenLocal];
-  } else {
-    [isOpen, setIsOpen] = [isOpenProp, setIsOpenProp];
-  }
-  let classes = 'fixed p-6 bg-purple-900 border-4';
-  if (extraClasses) {
-    classes += ' ' + extraClasses;
-  }
-  return (
-    <HeadlessDialog
-      onClose={() => setIsOpen(false)}
-      open={isOpen}
-      className="w-full h-full inset-0 fixed z-50 flex justify-center items-center"
-      id={dialogId}
-    >
-      <HeadlessDialog.Overlay className="fixed inset-0 bg-black opacity-60" />
-      <div className={classes}>{children}</div>
-    </HeadlessDialog>
-  );
-}
-
+/**
+ * Displays an End-of-Year (EOY) modal dialog that switches between two content
+ * versions based on specified date ranges within the current year.
+ *
+ * Features:
+ * - **Dismissal Logic**: When dismissed, each dialog version hides for one week.
+ * - **Customization**: Dates, titles, and texts can be adjusted via constants at the top of the file.
+ * - **Enable/Disable**: Use the `EOY_MODE` flag to toggle the dialog.
+ *
+ * Notes:
+ * - Uses `localStorage` to store dismissal timestamps; ensure this code runs on the client side.
+ * - Time comparisons are based on the user's local time zone.
+ *
+ * @returns {JSX.Element|null} The EOYDialog component or null if not displayed.
+ */
 export function EOYDialog() {
   if (!EOY_MODE) return;
 
@@ -168,5 +152,44 @@ export function EOYDialog() {
         </Button>
       </div>
     </Dialog>
+  );
+}
+
+/**
+ * A reusable modal dialog built on top of Headless UI's Dialog component.
+ *
+ * Features:
+ * - **Controlled and Uncontrolled Modes**: Can manage its own open state internally or accept
+ * `isOpen` and `setIsOpen` props to control it externally.
+ * - **Customization**: Accepts `extraClasses` to apply additional styling to the dialog container.
+ */
+export default function Dialog({
+  children,
+  extraClasses,
+  isOpen: isOpenProp,
+  setIsOpen: setIsOpenProp,
+}) {
+  const dialogId = useId();
+  const [isOpenLocal, setIsOpenLocal] = useState(true);
+  let isOpen, setIsOpen;
+  if (isOpenProp == null || setIsOpenProp == null) {
+    [isOpen, setIsOpen] = [isOpenLocal, setIsOpenLocal];
+  } else {
+    [isOpen, setIsOpen] = [isOpenProp, setIsOpenProp];
+  }
+  let classes = 'fixed p-6 bg-purple-900 border-4';
+  if (extraClasses) {
+    classes += ' ' + extraClasses;
+  }
+  return (
+    <HeadlessDialog
+      onClose={() => setIsOpen(false)}
+      open={isOpen}
+      className="w-full h-full inset-0 fixed z-50 flex justify-center items-center"
+      id={dialogId}
+    >
+      <HeadlessDialog.Overlay className="fixed inset-0 bg-black opacity-60" />
+      <div className={classes}>{children}</div>
+    </HeadlessDialog>
   );
 }
