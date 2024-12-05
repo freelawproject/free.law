@@ -35,6 +35,8 @@ module.exports = {
       backgroundImage: {
         imgScotus: "url('/images/homepage/scotus-hero.jpeg')",
         imgJudgeHr: "url('/images/homepage/judge-hr.jpeg')",
+        EOYBanner1: "url('/images/homepage/eOYBanner1.jpg')",
+        EOYBanner2: "url('/images/homepage/eOYBanner2.jpg')",
         smile: 'radial-gradient(ellipse 80% 100% at 50% 10%, #180040 90%, transparent 90%)',
       },
       fontFamily: {
@@ -48,6 +50,9 @@ module.exports = {
         'full-bleed-4': 'calc(100% + 2rem)', // Use with -ml-4
         'full-bleed-6': 'calc(100% + 3rem)', // Use with -ml-6
         'full-bleed-10': 'calc(100% + 5rem)', // Use with -ml-10
+      },
+      minHeight: {
+        '450px': '450px',
       },
     },
   },
