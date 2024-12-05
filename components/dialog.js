@@ -46,7 +46,7 @@ export function EOYDialog() {
   // DIALOG CLASSES
   const dialogBaseClasses =
     'bg-center bg-cover bg-no-repeat flex flex-col justify-between' +
-    ' items-center max-w-screen-md w-full min-h-450px max-h-screen border-purple-800';
+    ' items-center max-w-screen-md w-full min-h-450px max-h-screen';
   const firstDialogClasses = 'bg-EOYBanner1';
   const secondDialogClasses = 'bg-EOYBanner2';
 
@@ -180,7 +180,7 @@ export default function Dialog({
   } else {
     [isOpen, setIsOpen] = [isOpenProp, setIsOpenProp];
   }
-  let classes = 'fixed p-6 bg-purple-900 border-4';
+  let classes = 'fixed p-6';
   if (extraClasses) {
     classes += ' ' + extraClasses;
   }
