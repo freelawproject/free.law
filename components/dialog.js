@@ -7,6 +7,8 @@ import Button from './button';
 const EOY_MODE = true;
 
 // EOY dialog dates
+const EOY_DIALOG_START_MONTH = 12; // December
+const EOY_DIALOG_START_DAY = 4;
 const FIRST_EOY_DIALOG_END_MONTH = 12; // December
 const FIRST_EOY_DIALOG_END_DAY = 20;
 const SECOND_EOY_DIALOG_END_MONTH = 12; // December
@@ -64,6 +66,7 @@ export function EOYDialog() {
     const currentYear = today.getFullYear();
     const getDate = (month, day) => new Date(currentYear, month, day, 23, 59, 59);
 
+    const dialogStart = getDate(EOY_DIALOG_START_MONTH - 1, EOY_DIALOG_START_DAY);
     const firstDialogEnd = getDate(FIRST_EOY_DIALOG_END_MONTH - 1, FIRST_EOY_DIALOG_END_DAY);
     const secondDialogEnd = getDate(SECOND_EOY_DIALOG_END_MONTH - 1, SECOND_EOY_DIALOG_END_DAY);
 
@@ -72,10 +75,10 @@ export function EOYDialog() {
     const secondEOYDialogDismissalDate = localStorage.getItem('secondEOYDialogDismissalDate');
     const secondDismissed = dismissedWithinWeek(secondEOYDialogDismissalDate);
 
-    if (!firstDismissed && today <= firstDialogEnd) {
+    if (!firstDismissed && dialogStart <= today <= firstDialogEnd) {
       setDialogVersion('first');
       setIsOpen(true);
-    } else if (!secondDismissed && today >= firstDialogEnd && today <= secondDialogEnd) {
+    } else if (!secondDismissed && firstDialogEnd <= today <= secondDialogEnd) {
       setDialogVersion('second');
       setIsOpen(true);
     } else {
