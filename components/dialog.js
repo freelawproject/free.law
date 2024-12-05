@@ -78,7 +78,7 @@ export function EOYDialog() {
     if (!firstDismissed && dialogStart <= today <= firstDialogEnd) {
       setDialogVersion('first');
       setIsOpen(true);
-    } else if (!secondDismissed && firstDialogEnd <= today <= secondDialogEnd) {
+    } else if (!secondDismissed && firstDialogEnd <= today && today <= secondDialogEnd) {
       setDialogVersion('second');
       setIsOpen(true);
     } else {
