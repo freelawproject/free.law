@@ -131,13 +131,16 @@ export function EOYDialog() {
 
   return (
     <Dialog extraClasses={dialogClasses} isOpen={isOpen} setIsOpen={setIsOpen}>
-      <img src="/images/homepage/eOYBanner1.jpg" alt="Background" className="hidden" onLoad={handleImageLoad}/>
+      {/* Hidden image that tracks bg-image loading */}
+      <img src={`/images/homepage/${isFirst ? 'eOYBanner1' : 'eOYBanner2'}.jpg`} alt="Background" className="hidden" onLoad={handleImageLoad}/>
+      {/* SPINNER that waits for the background image to load: */}
       {!bgImageIsLoaded && (
         <div className="absolute inset-0 flex flex-col items-center justify-center bg-gray-600 h-full w-full">
           <div className="w-12 h-12 rounded-full border-4 border-t-4 !border-t-gray-200 border-gray-700 animate-spin"></div>
           <p className="mt-4 text-gray-300">Loading...</p>
         </div>
       )}
+      {/* Actual dialog content: */}
       {bgImageIsLoaded && (
         <div>
           <div className="flex justify-between items-start w-full">
