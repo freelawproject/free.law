@@ -123,37 +123,61 @@ export function EOYDialog() {
   const title = isFirst ? FIRST_EOY_TITLE : SECOND_EOY_TITLE;
   const text = isFirst ? FIRST_EOY_TEXT : SECOND_EOY_TEXT;
 
+  const [bgImageIsLoaded, setBgImageIsLoaded] = useState(false);
+
+  const handleImageLoad = () => {
+    setBgImageIsLoaded(true);
+  };
+
   return (
     <Dialog extraClasses={dialogClasses} isOpen={isOpen} setIsOpen={setIsOpen}>
-      <div className="flex justify-between items-start w-full">
-        <img
-          src="/images/logos/flp/full-logo-white.svg"
-          alt="FLP logo"
-          width="190"
-          height="79"
-          className="place-self-start relative mb-8"
-        />
-        <div onClick={handleClose} className="cursor-pointer">
-          <XIcon className="h-8 w-8 text-purple-900" />
+      {/* Hidden image that tracks bg-image loading */}
+      <img src={`/images/homepage/${isFirst ? 'eOYBanner1' : 'eOYBanner2'}.jpg`} alt="Background" className="hidden" onLoad={handleImageLoad}/>
+      {/* SPINNER that waits for the background image to load: */}
+      {!bgImageIsLoaded && (
+        <div className="absolute inset-0 flex flex-col items-center justify-center bg-gray-600 h-full w-full">
+          <div className="w-12 h-12 rounded-full border-4 border-t-4 !border-t-gray-200 border-gray-700 animate-spin"></div>
+          <p className="mt-4 text-gray-300">Loading...</p>
         </div>
-      </div>
-      <div className={`flex flex-col mb-4 ${isFirst ? 'items-center' : 'items-start'}`}>
-        <H1
-          extraClasses={`font-extrabold text-gray-300 text-3xl max-w-lg mb-3 ${
-            isFirst ? 'text-center' : 'text-start'
-          }`}
-        >
-          {title}
-        </H1>
-        <p className={`text-gray-300 text-xl font-bold ${isFirst ? 'text-center' : 'text-start'}`}>
-          {text}
-        </p>
-      </div>
-      <div className="my-6 w-full flex justify-end">
-        <Button href="https://donate.free.law/forms/supportflp" extraClasses={buttonClasses}>
-          <H1 extraClasses="font-extrabold">Make your donation today</H1>
-        </Button>
-      </div>
+      )}
+      {/* Actual dialog content: */}
+      {bgImageIsLoaded && (
+        <div>
+          <div className="flex justify-between items-start w-full">
+            <img
+              src="/images/logos/flp/full-logo-white.svg"
+              alt="FLP logo"
+              width="190"
+              height="79"
+              className="place-self-start relative mb-8"
+            />
+            <div onClick={handleClose} className="cursor-pointer">
+              <XIcon className="h-8 w-8 text-purple-900" />
+            </div>
+          </div>
+          <div className={`flex flex-col mb-4 ${isFirst ? 'items-center' : 'items-start'}`}>
+            <H1
+              extraClasses={`font-extrabold text-gray-300 text-3xl max-w-lg mb-3 ${
+                isFirst ? 'text-center' : 'text-start'
+              }`}
+            >
+              {title}
+            </H1>
+            <p
+              className={`text-gray-300 text-xl font-bold ${
+                isFirst ? 'text-center' : 'text-start'
+              }`}
+            >
+              {text}
+            </p>
+          </div>
+          <div className="my-6 w-full flex justify-end">
+            <Button href="https://donate.free.law/forms/supportflp" extraClasses={buttonClasses}>
+              <H1 extraClasses="font-extrabold">Make your donation today</H1>
+            </Button>
+          </div>
+        </div>
+      )}
     </Dialog>
   );
 }
