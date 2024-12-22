@@ -112,7 +112,7 @@ export default function Home({ allPostsData }) {
               >
                 <p>
                   Bad redactions reveal client secrets. X-Ray can help find bad redactions at scale,
-                  before they wreck havoc on your firm's reputation.
+                  before they wreak havoc on your firm's reputation.
                 </p>
               </GridListItem>
               <GridListItem
