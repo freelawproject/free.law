@@ -94,6 +94,7 @@ export function Footer({ recentPost }) {
             <H5>Support FLP</H5>
             <FooterLink href="/donate/">Donate Now</FooterLink>
             <FooterLink href="/donate/help/">Donations FAQ</FooterLink>
+            <FooterLink href="/donate/matching-gifts/">Double Your Donation</FooterLink>
             <FooterLink href="/sponsors/">Current Sponsors</FooterLink>
             <FooterLink href="/become-a-sponsor/">Become a Sponsor</FooterLink>
             <FooterLink href="/donate/other-ways/">Other Ways to Help</FooterLink>
