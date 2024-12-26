@@ -3,6 +3,7 @@ import { Dialog as HeadlessDialog } from '@headlessui/react';
 import { XIcon } from '@heroicons/react/outline';
 import { H1 } from './headings';
 import Button from './button';
+import {Spinner} from "./widgets";
 
 const EOY_MODE = true;
 
@@ -136,7 +137,7 @@ export function EOYDialog() {
       {/* SPINNER that waits for the background image to load: */}
       {!bgImageIsLoaded && (
         <div className="absolute inset-0 flex flex-col items-center justify-center bg-gray-600 h-full w-full">
-          <div className="w-12 h-12 rounded-full border-4 border-t-4 !border-t-gray-200 border-gray-700 animate-spin"></div>
+          <Spinner extraClasses="border-t-gray-400 border-gray-700" />
           <p className="mt-4 text-gray-300">Loading...</p>
         </div>
       )}
