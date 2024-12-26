@@ -2,10 +2,12 @@ import Script from "next/script";
 
 
 export default function DoubleTheDonationPlugin() {
-  var DDCONF = {API_KEY: "z1OmNNTB97cVWfz8"};
   return (
     <div id="dd-container">
-      <Script src="https://doublethedonation.com/api/js/ddplugin.js" strategy="lazyOnload"/>
+      <Script strategy="beforeInteractive">
+        {`window.DDCONF = {API_KEY: "z1OmNNTB97cVWfz8"}`}
+      </Script>
+      <Script src="https://doublethedonation.com/api/js/ddplugin.js" strategy="afterInteractive"/>
       <a href="https://doublethedonation.com/matching-grant-resources/matching-gift-basics/">
         Matching Gift
       </a>
