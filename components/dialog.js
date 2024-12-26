@@ -76,7 +76,7 @@ export function EOYDialog() {
     const secondEOYDialogDismissalDate = localStorage.getItem('secondEOYDialogDismissalDate');
     const secondDismissed = dismissedWithinWeek(secondEOYDialogDismissalDate);
 
-    if (!firstDismissed && dialogStart <= today <= firstDialogEnd) {
+    if (!firstDismissed && dialogStart <= today && today <= firstDialogEnd) {
       setDialogVersion('first');
       setIsOpen(true);
     } else if (!secondDismissed && firstDialogEnd <= today && today <= secondDialogEnd) {
