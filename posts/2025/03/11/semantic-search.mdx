@@ -7,27 +7,38 @@ tags:
  - "Elastic"
  - "Opinions"
  - "Case Law"
+ - "Artificial Intelligence"
+ - "Semantic Search"
+ - "AI"
 author: "Rachel Gao"
 excerpt: "Latest developments in semantic search: our embedding generation tool Inception and our domain-adapted semantic search machine learning model."
 ---
 
-<p className="lead">At Free Law Project, we believe in transparency and sharing our innovations. We're excited to announce our latest development in semantic search: our embedding generation tool and the underlying machine learning model that makes it all possible.</p>
+<p className="lead">At Free Law Project, we believe in transparency and sharing our innovations. Today we're excited to announce our latest development in semantic search: our embedding generation tool and the underlying machine learning model that makes it all possible.</p>
 
-While semantic search might sound complex, we've focused on making it intuitive and accessible. In addition to developing semantic search as an API and for users at CourtListener, we're opening up the entire ecosystem of tools, data, and models that power it.
+While semantic search might sound complex, we've focused on making it intuitive and accessible. In the coming weeks we will be releasing semantic search first as an API and then as a new feature of CourtListener. As we develop these features, we are making our technology publicly available. This approach gives you visibility into our process and allows us to better adapt to your specific needs. 
 
-This approach gives you visibility into our process and allows us to better adapt to your specific needs. In this post, we'll walk you through our technical approach and introduce you to our embedding generation microservice [Inception](https://github.com/freelawproject/inception/tree/main) and our very own [machine learning model](https://huggingface.co/Free-Law-Project/modernbert-embed-base_finetune_512).
+In this post, we walk you through our technical approach, introduce you to our microservice for generating embeddings, named ["Inception"](https://github.com/freelawproject/inception/), and we announce our very own [finetuned model for semantic search](https://huggingface.co/Free-Law-Project/modernbert-embed-base_finetune_512).
 
 ## Why semantic search?
-For legal professionals, keyword search has been the gold standard since the dawn of computerized legal research. However, traditional keyword search often falls short when legal concepts appear in varied terminology across cases. This is where semantic search becomes transformative. By looking beyond exact matches to understand meaning and intent, semantic search empowers both experienced attorneys and legal novices to uncover relevant precedents that keyword searches might miss.
+For legal professionals, keyword search has been the gold standard since the dawn of computerized legal research. However, traditional keyword search often falls short when legal concepts appear in varied terminology across cases. This is where semantic search becomes transformative. By looking beyond exact matches to understand the meaning and intent of a query, semantic search uncovers relevant precedents that keyword searches might miss. 
+
+This is a powerful tool for both experienced attorneys and legal novices alike, but we are particularly excited at the impact this will make on self-represented litigants, who often are not trained in particular legalese.
 
 ## Encoder models for semantic search
-While Large Language Models dominate recent headlines, encoder models efficiently transform text into dense vector representations that capture semantic relationships. Unlike LLMs which generate text in a conversational manner, encoder models specialize in converting text into numerical vectors that preserve meaning, making them faster and more efficient for semantic search applications. However, using these models out-of-the-box presents key limitations:
+While [Large Language Models (LLMs)](https://en.wikipedia.org/wiki/Large_language_model) dominate recent headlines, encoder models efficiently transform text into dense vector representations that capture semantic relationships. Unlike LLMs which generate text in a conversational manner, encoder models specialize in converting text into numerical vectors that preserve meaning, making them faster and more efficient for semantic search applications. 
 
-1. **Query-answer alignment:** Encoder models trained with self-supervision can't naturally associate queries with answers. For example, they might group similar statement types together ("My name is Jane" with "I am John") rather than matching questions to their answers ("What is your name?" with "My name is Jane"). Finetuning with query-context pairs or triplets teaches the model to perform semantic search effectively. These models are often known as the "Two-Tower Model" or "Bi-Encoder Model". Take a look at the Bi-Encoder image [here](https://www.sbert.net/examples/applications/cross-encoder/README.html), don't the two columns look like two towers?
+Encoder models are available from a number of sources, but using these models out-of-the-box presents key limitations:
 
-2. **Legal domain expertise:** General-purpose encoders miss crucial legal nuances. Terms like "consideration" or "standing" carry specific technical meanings in law that differ from everyday usage. Domain adaptation teaches models to recognize legal terminology, understand precedent relationships, and navigate legal reasoning structures.
+1. **Query-answer alignment:** Encoder models trained with self-supervision can't naturally associate queries with answers. For example, they might group similar statement types together ("My name is Jane" with "I am John") rather than matching questions to their answers ("What is your name?" with "My name is Jane"). Finetuning with query-context pairs or triplets teaches the model to perform semantic search effectively. 
+
+    These models are often known as the "Two-Tower Model" or "Bi-Encoder Model". Take a look at the Bi-Encoder image [here](https://www.sbert.net/examples/applications/cross-encoder/README.html), where you can see that the architecture resembles two towers.
+
+2. **Legal domain expertise:** General-purpose encoders miss crucial legal nuances. Terms like "consideration" or "standing" carry specific technical meanings in law that differ from everyday usage. ~Domain adaptation teaches models to recognize legal terminology, understand precedent relationships, and navigate legal reasoning structures.
 
 ## Data Preparation for Finetuning
+
+Finetuning an off-the-shelf model is the process of giving it additional examples and information so that it understands a particular kind of data. This section explains how we generated this data and how we used it to finetune the model.
 
 ### Selecting the Right Training Approach
 
@@ -36,13 +47,13 @@ The first step to finetuning a model is obtaining appropriate data for our task.
 1. **Paired Dataset**: Using "query-context" pairs
 2. **Triplet Dataset**: Using "anchor-positive-negative" triplets
 
-Either approach works for semantic search, with the main difference being the loss function. Training with triplets often yields better performance as providing both positive and negative examples helps the model better distinguish relevant from irrelevant content, so we chose the triplet approach.
+Either approach works for semantic search, with the main difference being the loss function, [mjl: which does what and is what??]. Training with triplets often yields better performance as providing both positive and negative examples helps the model better distinguish relevant from irrelevant content, so we chose the triplet approach.
 
 ### Data Sampling and Preparation
 
 We began by sampling approximately 1,000 records spanning various courts and jurisdictions from our [Case Law database](https://www.courtlistener.com/). This diverse sampling is crucial because:
 
-- Our target population spans the entire US judicial system
+- Our target population spans the entire U.S. legal system
 - Different courts and jurisdictions have distinct styles and preferences in their opinions
 - A robust model needs to understand these varied writing patterns
 
@@ -72,8 +83,8 @@ This limitation creates a challenge for legal opinions, which are often lengthy 
 To address this issue, we need to preprocess opinions by chunking them into context-window-sized segments. Although we could create larger chunks for models with longer context windows, we deliberately chose smaller chunks to maximize the number of training examples.
 
 Our chunking approach considers sentence boundaries and includes sentence overlaps to provide context continuity. We used the `bert-base-cased` tokenizer with:
-- max_tokens set to 480 (allowing some buffer for tokenization variations)
-- num_overlap_sentences set to 2 sentences (providing each chunk with additional prior context)
+- `max_tokens` set to 480 (allowing some buffer for tokenization variations)
+- `num_overlap_sentences` set to 2 sentences (providing each chunk with additional prior context)
 
 This preprocessing ensures our model can learn from the full content of legal opinions rather than just their opening paragraphs.
 
@@ -158,7 +169,7 @@ def split_text_into_chunks(
 
 ### Generating Training Triplets
 
-Since our dataset only contains the opinions/context, we need to create queries for each opinion chunk. When forming triplets for training, we have two potential approaches:
+Since our dataset only contains the opinions/context, the next step is to create queries for each opinion chunk. When forming triplets for training, we have two potential approaches:
 
 1. **Query-Focused Triplets:** "relevant query : irrelevant query : context"
 2. **Context-Focused Triplets:** "query : relevant context : irrelevant context"
@@ -170,10 +181,10 @@ We chose the **query-focused** approach for several reasons:
 
 For those interested in the context-focused approach, the [`mine_hard_negatives()` method from `sentence_transformers`](https://sbert.net/docs/package_reference/util.html#sentence_transformers.util.mine_hard_negatives) provides an excellent way to generate negative contexts. 
 
-To synthetically generate relevant and irrelevant query pairs for each opinion chunk, I selected GPT-4o as the generative model. This choice was based on several factors:
+To synthetically generate relevant and irrelevant query pairs for each opinion chunk, we selected GPT-4o as a generative model. This choice was based on several factors:
 - Superior intelligence for understanding legal nuance
 - Easy implementation through API calls
-- Json output format forcing for straightforward parsing
+- JSON output format forcing for straightforward parsing
 
 For each opinion chunk (which serves as the context), GPT-4o generated:
 - A relevant query that matches with the context
@@ -522,7 +533,7 @@ We've walked through the complete process of finetuning an encoder model specifi
 2. **Impressive performance gains**: With minimal training time, we improved accuracy from 96.3% to 99.8% on our evaluation set.
 3. **Practical implementation**: The SentenceTransformer framework makes both training and inference straightforward, with just a few lines of code needed to train and use the model.
 
-As you're probably already aware, we're in the process of adding semantic search functionality to the Case Law search within CourtListener and it will be available through an API. This will enhance your ability and experience to find relevant legal precedents and information.
+As we shared above, we're in the process of adding semantic search functionality to the case law search within CourtListener and it will be available through an API. This will enhance your ability and experience to find relevant legal precedents and information.
 
 To support this initiative, we've developed two key resources:
 
@@ -533,4 +544,6 @@ We encourage you to try both the model and the microservice for your legal resea
 
 ## Looking Ahead
 
-We have made great progress in launching semantic search functionality in CourtListener and in our API, stay tuned for an update in the near future!
+We have made great progress in launching semantic search functionality in CourtListener and in our API. Our next step is to use Inception to vectorize the case law in CourtListener. We'll make those vectors available on S3, and then we'll be launching semantic search. 
+
+Stay tuned for an update in the near future!
