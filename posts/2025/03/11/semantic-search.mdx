@@ -47,7 +47,7 @@ The first step to finetuning a model is obtaining appropriate data for our task.
 1. **Paired Dataset**: Using "query-context" pairs
 2. **Triplet Dataset**: Using "anchor-positive-negative" triplets
 
-Either approach works for semantic search, with the main difference being the loss function, [mjl: which does what and is what??]. Training with triplets often yields better performance as providing both positive and negative examples helps the model better distinguish relevant from irrelevant content, so we chose the triplet approach.
+Either approach works for semantic search, with the main difference being the loss function. The loss function calculates the difference between the model's prediction and the ground truth, the goal of our model is to minimize this difference (loss). Training with triplets often yields better performance as providing both positive and negative examples helps the model better distinguish relevant from irrelevant content, so we chose the triplet approach.
 
 ### Data Sampling and Preparation
 
