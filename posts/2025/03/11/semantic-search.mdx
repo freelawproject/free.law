@@ -14,7 +14,7 @@ author: "Rachel Gao"
 excerpt: "Latest developments in semantic search: our embedding generation tool Inception and our domain-adapted semantic search machine learning model."
 ---
 
-<p className="lead">At Free Law Project, we believe in transparency and sharing our innovations. Today we're excited to announce our latest development in semantic search: our embedding generation tool and the underlying machine learning model that makes it all possible.</p>
+<p className="lead">At Free Law Project, we believe in transparency and sharing our innovations. Today we're excited to announce our latest development in semantic search: our embedding generation tool and the underlying machine learning model that we will be using in our new semantic search engine.</p>
 
 While semantic search might sound complex, we've focused on making it intuitive and accessible. In the coming weeks we will be releasing semantic search first as an API and then as a new feature of CourtListener. As we develop these features, we are making our technology publicly available. This approach gives you visibility into our process and allows us to better adapt to your specific needs. 
 
@@ -34,7 +34,7 @@ Encoder models are available from a number of sources, but using these models ou
 
     These models are often known as the "Two-Tower Model" or "Bi-Encoder Model". Take a look at the Bi-Encoder image [here](https://www.sbert.net/examples/applications/cross-encoder/README.html), where you can see that the architecture resembles two towers.
 
-2. **Legal domain expertise:** General-purpose encoders miss crucial legal nuances. Terms like "consideration" or "standing" carry specific technical meanings in law that differ from everyday usage. ~Domain adaptation teaches models to recognize legal terminology, understand precedent relationships, and navigate legal reasoning structures.
+2. **Legal domain expertise:** General-purpose encoders miss crucial legal nuances. Terms like "consideration" or "standing" carry specific technical meanings in law that differ from everyday usage. Domain adaptation teaches models to recognize legal terminology, understand precedent relationships, and navigate legal reasoning structures.
 
 ## Data Preparation for Finetuning
 
@@ -533,12 +533,12 @@ We've walked through the complete process of finetuning an encoder model specifi
 2. **Impressive performance gains**: With minimal training time, we improved accuracy from 96.3% to 99.8% on our evaluation set.
 3. **Practical implementation**: The SentenceTransformer framework makes both training and inference straightforward, with just a few lines of code needed to train and use the model.
 
-As we shared above, we're in the process of adding semantic search functionality to the case law search within CourtListener and it will be available through an API. This will enhance your ability and experience to find relevant legal precedents and information.
+As we shared above, we're in the process of adding semantic search functionality to the case law search within CourtListener and it will be available through our APIs soon. This will enhance your ability and experience to find relevant legal precedents and information.
 
 To support this initiative, we've developed two key resources:
 
-1. **[Inception](https://github.com/freelawproject/inception/tree/main)**: A microservice we've created to seamlessly generate embeddings for legal documents and queries. This tool is entirely open-source, allowing you to use it out of the box or integrate it into your own applications.
-2. **[Domain-Adapted Semantic Search Model](https://huggingface.co/Free-Law-Project/modernbert-embed-base_finetune_512)**: Using the exact steps illustrated in this blog post, we've published our very own domain-adapted semantic search model. This model is finetuned on top of the `nomic-ai/modernbert-embed-base` model to specifically understand legal terminology and concepts.
+1. **[Inception](https://github.com/freelawproject/inception/tree/main)**: A high-performance microservice to seamlessly generate embeddings for legal documents and queries. This tool is entirely open-source, allowing you to use it out of the box or integrate it into your own applications.
+2. **[Domain-Adapted Semantic Search Model](https://huggingface.co/Free-Law-Project/modernbert-embed-base_finetune_512)**: Using the exact steps illustrated in this blog post, we published our very own domain-adapted semantic search model. This model is finetuned on top of the `nomic-ai/modernbert-embed-base` model to specifically understand legal terminology and concepts.
 
 We encourage you to try both the model and the microservice for your legal research needs! Your feedback will help us continue to improve these tools as we work to make legal information more accessible to everyone.
 
