@@ -1,0 +1,549 @@
+---
+title: Enhancing Legal Research with Domain-Adapted Semantic Search
+date: "2025-03-11"
+tags:
+ - "Free Law Project"
+ - "Search"
+ - "Elastic"
+ - "Opinions"
+ - "Case Law"
+ - "Artificial Intelligence"
+ - "Semantic Search"
+ - "AI"
+author: "Rachel Gao"
+excerpt: "Latest developments in semantic search: our embedding generation tool Inception and our domain-adapted semantic search machine learning model."
+---
+
+<p className="lead">At Free Law Project, we believe in transparency and sharing our innovations. Today we're excited to announce our latest development in semantic search: our embedding generation tool and the underlying machine learning model that we will be using in our new semantic search engine.</p>
+
+While semantic search might sound complex, we've focused on making it intuitive and accessible. In the coming weeks we will be releasing semantic search first as an API and then as a new feature of CourtListener. As we develop these features, we are making our technology publicly available. This approach gives you visibility into our process and allows us to better adapt to your specific needs. 
+
+In this post, we walk you through our technical approach, introduce you to our microservice for generating embeddings, named ["Inception"](https://github.com/freelawproject/inception/), and we announce our very own [finetuned model for semantic search](https://huggingface.co/Free-Law-Project/modernbert-embed-base_finetune_512).
+
+## Why semantic search?
+For legal professionals, keyword search has been the gold standard since the dawn of computerized legal research. However, traditional keyword search often falls short when legal concepts appear in varied terminology across cases. This is where semantic search becomes transformative. By looking beyond exact matches to understand the meaning and intent of a query, semantic search uncovers relevant precedents that keyword searches might miss. 
+
+This is a powerful tool for both experienced attorneys and legal novices alike, but we are particularly excited at the impact this will make on self-represented litigants, who often are not trained in particular legalese.
+
+## Encoder models for semantic search
+While [Large Language Models (LLMs)](https://en.wikipedia.org/wiki/Large_language_model) dominate recent headlines, encoder models efficiently transform text into dense vector representations that capture semantic relationships. Unlike LLMs which generate text in a conversational manner, encoder models specialize in converting text into numerical vectors that preserve meaning, making them faster and more efficient for semantic search applications. 
+
+Encoder models are available from a number of sources, but using these models out-of-the-box presents key limitations:
+
+1. **Query-answer alignment:** Encoder models trained with self-supervision can't naturally associate queries with answers. For example, they might group similar statement types together ("My name is Jane" with "I am John") rather than matching questions to their answers ("What is your name?" with "My name is Jane"). Finetuning with query-context pairs or triplets teaches the model to perform semantic search effectively. 
+
+    These models are often known as the "Two-Tower Model" or "Bi-Encoder Model". Take a look at the Bi-Encoder image [here](https://www.sbert.net/examples/applications/cross-encoder/README.html), where you can see that the architecture resembles two towers.
+
+2. **Legal domain expertise:** General-purpose encoders miss crucial legal nuances. Terms like "consideration" or "standing" carry specific technical meanings in law that differ from everyday usage. Domain adaptation teaches models to recognize legal terminology, understand precedent relationships, and navigate legal reasoning structures.
+
+## Data Preparation for Finetuning
+
+Finetuning an off-the-shelf model is the process of giving it additional examples and information so that it understands a particular kind of data. This section explains how we generated this data and how we used it to finetune the model.
+
+### Selecting the Right Training Approach
+
+The first step to finetuning a model is obtaining appropriate data for our task. We have two options:
+
+1. **Paired Dataset**: Using "query-context" pairs
+2. **Triplet Dataset**: Using "anchor-positive-negative" triplets
+
+Either approach works for semantic search, with the main difference being the loss function. The loss function calculates the difference between the model's prediction and the ground truth, the goal of our model is to minimize this difference (loss). Training with triplets often yields better performance as providing both positive and negative examples helps the model better distinguish relevant from irrelevant content, so we chose the triplet approach.
+
+### Data Sampling and Preparation
+
+We began by sampling approximately 1,000 records spanning various courts and jurisdictions from our [Case Law database](https://www.courtlistener.com/). This diverse sampling is crucial because:
+
+- Our target population spans the entire U.S. legal system
+- Different courts and jurisdictions have distinct styles and preferences in their opinions
+- A robust model needs to understand these varied writing patterns
+
+The dataset was split into train/test sets with careful attention to preventing data leakage by ensuring no overlap in:
+- `opinion_id`
+- `cluster_id`
+- `docket_id`
+- `docket_number`
+
+This guarantees opinions in the test set are truly out-of-sample and not present in the training data. The complete dataset with associated metadata is available [on HuggingFace](https://huggingface.co/datasets/Free-Law-Project/opinions-metadata).
+
+During the training process, we further divided the train set into train/dev sets to monitor the model performance.
+
+### Handling Context Window Limitations
+
+When finetuning encoder models, we must consider their context window limitations. Different models have different maximum input lengths:
+
+- Traditional [BERT](https://huggingface.co/google-bert/bert-base-cased) models: ~512 tokens
+- Newer models like [ModernBERT](https://huggingface.co/answerdotai/ModernBERT-base): ~8,192 tokens
+
+For perspective, one page of English text contains approximately 300 words (roughly 600 tokens). This means:
+- 512 tokens ≈ 1 page
+- 8,192 tokens ≈ 16 pages (equivalent to a short story)
+
+This limitation creates a challenge for legal opinions, which are often lengthy documents. If an input exceeds the maximum context window, the model simply truncates the text, discarding everything beyond the limit. This can result in losing the majority of an opinion's substance.
+
+To address this issue, we need to preprocess opinions by chunking them into context-window-sized segments. Although we could create larger chunks for models with longer context windows, we deliberately chose smaller chunks to maximize the number of training examples.
+
+Our chunking approach considers sentence boundaries and includes sentence overlaps to provide context continuity. We used the `bert-base-cased` tokenizer with:
+- `max_tokens` set to 480 (allowing some buffer for tokenization variations)
+- `num_overlap_sentences` set to 2 sentences (providing each chunk with additional prior context)
+
+This preprocessing ensures our model can learn from the full content of legal opinions rather than just their opening paragraphs.
+
+```python
+from transformers import AutoTokenizer
+
+nltk.download("punkt_tab", quiet=True)
+from nltk.tokenize import sent_tokenize
+
+TOKENIZER = AutoTokenizer.from_pretrained("google-bert/bert-base-cased")
+MAX_TOKENS = 480
+NUM_OVERLAP_SENTENCES = 2
+
+def split_text_into_chunks(
+    text,
+    tokenizer=TOKENIZER,
+    max_tokens=MAX_TOKENS,
+    num_overlap_sentences=NUM_OVERLAP_SENTENCES,
+):
+    """Split text into chunks based on sentences, not exceeding max_tokens, with sentence overlap"""
+
+    # Split the text to sentences & encode sentences with tokenizer
+    sentences = sent_tokenize(text)
+    encoded_sentences = [
+        tokenizer.encode(sentence, add_special_tokens=False) for sentence in sentences
+    ]
+    lead_text = "search_document: "
+    lead_tokens = tokenizer.encode(lead_text)
+    lead_len = len(lead_tokens)
+    chunks = []
+    current_chunks: list[str] = []
+    current_token_counts = len(lead_tokens)
+
+    for sentence_tokens in encoded_sentences:
+        sentence_len = len(sentence_tokens)
+        # if the current sentence itself is above max_tokens
+        if lead_len + sentence_len > max_tokens:
+            # store the previous chunk
+            if current_chunks:
+                chunks.append(lead_text + " ".join(current_chunks))
+            # truncate the sentence and store the truncated sentence as its own chunk
+            truncated_sentence = tokenizer.decode(
+                sentence_tokens[: (max_tokens - len(lead_tokens))]
+            )
+            chunks.append(lead_text + truncated_sentence)
+
+            # start a new chunk with no overlap (because adding the current sentence will exceed the max_tokens)
+            current_chunks = []
+            current_token_counts = lead_len
+            continue
+
+        # if adding the new sentence will cause the chunk to exceed max_tokens
+        if current_token_counts + sentence_len > max_tokens:
+            overlap_sentences = current_chunks[-max(0, num_overlap_sentences) :]
+            # store the previous chunk
+            if current_chunks:
+                chunks.append(lead_text + " ".join(current_chunks))
+
+            overlap_token_counts = tokenizer.encode(
+                " ".join(overlap_sentences), add_special_tokens=False
+            )
+            # If the sentence with the overlap exceeds the limit, start a new chunk without overlap.
+            if lead_len + len(overlap_token_counts) + sentence_len > max_tokens:
+                current_chunks = [tokenizer.decode(sentence_tokens)]
+                current_token_counts = lead_len + sentence_len
+            else:
+                current_chunks = overlap_sentences + [tokenizer.decode(sentence_tokens)]
+                current_token_counts = (
+                    lead_len + len(overlap_token_counts) + sentence_len
+                )
+            continue
+
+        # if within max_tokens, continue to add the new sentence to the current chunk
+        current_chunks.append(tokenizer.decode(sentence_tokens))
+        current_token_counts += len(sentence_tokens)
+
+    # store the last chunk if it has any content
+    if current_chunks:
+        chunks.append(lead_text + " ".join(current_chunks))
+    return chunks
+```
+
+### Generating Training Triplets
+
+Since our dataset only contains the opinions/context, the next step is to create queries for each opinion chunk. When forming triplets for training, we have two potential approaches:
+
+1. **Query-Focused Triplets:** "relevant query : irrelevant query : context"
+2. **Context-Focused Triplets:** "query : relevant context : irrelevant context"
+
+We chose the **query-focused** approach for several reasons:
+- It simplifies the review process for ensuring query relevance
+- It aligns with [recent research from Google]((https://research.google/pubs/its-all-relative-a-synthetic-query-generation-approach-for-improving-zero-shot-relevance-prediction/)) on generating high-quality synthetic query pairs
+- It allows for faster generation of training data
+
+For those interested in the context-focused approach, the [`mine_hard_negatives()` method from `sentence_transformers`](https://sbert.net/docs/package_reference/util.html#sentence_transformers.util.mine_hard_negatives) provides an excellent way to generate negative contexts. 
+
+To synthetically generate relevant and irrelevant query pairs for each opinion chunk, we selected GPT-4o as a generative model. This choice was based on several factors:
+- Superior intelligence for understanding legal nuance
+- Easy implementation through API calls
+- JSON output format forcing for straightforward parsing
+
+For each opinion chunk (which serves as the context), GPT-4o generated:
+- A relevant query that matches with the context
+- An irrelevant query that appears similar but does not match the context
+
+This approach creates the contrastive examples needed for the model to learn meaningful semantic distinctions in the legal domain.
+
+```python
+import json
+
+from openai import OpenAI
+
+API_KEY = "<YOUR_API_KEY>"
+MODEL = "gpt-4o-2024-11-20"
+SYSTEM_PROMPT = """
+Given a case law opinion, generate two search queries. Both queries should be phrased as natural language questions that a user might enter into a search engine.
+
+- The **user does not have prior access** to the opinion, so the queries should be **general** rather than referring to specific case details.  
+- The opinion should be the **best possible answer** to the **relevant** query.  
+- The opinion should be **insufficient** or **unrelated** to answering the **irrelevant** query.  
+
+### Query Types:  
+1. **Relevant Query**: A question where the given opinion is both **highly relevant** and **sufficient** to provide an answer.  
+2. **Irrelevant Query**: A question where the given opinion is **not relevant** and **not sufficient** to provide an answer.  
+
+### Output Format:
+Return the queries in JSON format:
+json
+{
+"relevant": "What are the legal standards for self-defense in criminal cases?",
+"irrelevant": "How does bankruptcy law apply to small businesses?"
+}
+"""
+
+def gpt_completion(
+    user_prompt, api_key=API_KEY, system_prompt=SYSTEM_PROMPT, model=MODEL
+):
+
+    client = OpenAI(api_key=api_key)
+
+    response = client.chat.completions.create(
+        model=model,
+        response_format={"type": "json_object"},
+        messages=[
+            {"role": "system", "content": f"{system_prompt}"},
+            {"role": "user", "content": f"{user_prompt}"},
+        ],
+    )
+    results = json.loads(response.choices[0].message.content)
+
+    completion = {
+        "model": response.model,
+        "input_tokens": response.usage.prompt_tokens,
+        "output_tokens": response.usage.completion_tokens,
+        "relevant": results.get("relevant", ""),
+        "irrelevant": results.get("irrelevant", ""),
+    }
+
+    return completion
+```
+
+### Publishing and Using the Dataset
+
+After the train/dev dataset has been generated, we cleaned up the column names such that the chunked opinions are now the `anchor`, the relevant queries are now the `positives` and the irrelevant queries are now the `negatives`. 
+
+We published this dataset to HuggingFace: 
+[Free-Law-Project/opinions-synthetic-query-512](https://huggingface.co/datasets/Free-Law-Project/opinions-synthetic-query-512) so you can simply load the dataset from HuggingFace to finetune your own semantic search models!
+
+```python
+from datasets import load_dataset
+
+ds = load_dataset("Free-Law-Project/opinions-synthetic-query-512")
+```
+
+## Finetuning ModernBERT for Legal Semantic Search
+
+Now that our dataset is ready for use, let's finally get to the heart of this process and perform the actual finetuning!
+
+For this example, we've selected ModernBERT, the latest BERT architecture, to demonstrate the finetuning process.
+
+We've also created a comprehensive notebook so you can follow along with each step of the finetuning process. The notebook includes:
+
+1. Loading and preprocessing the triplet dataset
+2. Setting up the ModernBERT model with appropriate configuration
+3. Implementing the contrastive loss function for triplet learning
+4. Configuring training parameters and optimization settings
+5. Training the model with evaluation on the dev set
+6. Saving and exporting the finetuned model for inference
+7. Running inference with the finetuned model
+
+[![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://drive.google.com/file/d/14wfRRw4GlxDTxFuvhkEFoJof8xR1Oycz/view?usp=sharing)
+
+
+### Setting up the Environment
+
+Let's first import all the packages we need for the finetuning process:
+
+```python
+import pandas as pd
+
+%pip install datasets -q
+from datasets import load_dataset
+
+from sentence_transformers import (
+    SentenceTransformer,
+    SentenceTransformerTrainer,
+    SentenceTransformerTrainingArguments,
+    SentenceTransformerModelCardData,
+)
+from sentence_transformers.losses import MultipleNegativesRankingLoss
+from sentence_transformers.training_args import BatchSamplers
+from sentence_transformers.evaluation import TripletEvaluator
+```
+
+You may also want to [log in to HuggingFace](https://huggingface.co/docs/huggingface_hub/en/quick-start) using your access token to access the dataset and push your finetuned model to the hub:
+
+```python
+!huggingface-cli login
+```
+
+### Loading the Dataset
+
+Since we already did all the hard work of preparing the dataset, all we need to do now is load it from the HuggingFace hub:
+
+```python
+ds = load_dataset("Free-Law-Project/opinions-synthetic-query-512")
+```
+
+Our dataset has both train and dev splits, with nearly 3K training samples and around 500 dev samples. The `chunk_id` serves as the unique identifier for each chunked opinion:
+
+```
+DatasetDict({
+    train: Dataset({
+        features: ['chunk_id', 'anchor', 'positive', 'negative'],
+        num_rows: 2828
+    })
+    dev: Dataset({
+        features: ['chunk_id', 'anchor', 'positive', 'negative'],
+        num_rows: 489
+    })
+})
+```
+
+Let's extract the train and dev splits and remove the `chunk_id` column, keeping only the columns required for training:
+
+```python
+train_dataset = ds["train"].remove_columns(["chunk_id"])
+eval_dataset = ds["dev"].remove_columns(["chunk_id"])
+```
+
+Remember:
+- `anchor`: The chunked opinion text
+- `positive`: A relevant query for the associated anchor
+- `negative`: An irrelevant query for the associated anchor
+
+### Setting Up the Model
+
+We'll now define the base model to train on. For this illustration, we'll use `ModernBERT`, but you are welcome to use any encoder model, you could also use an already finetuned encoder model like `microsoft/mpnet-base` for improved performance. Models such as `microsoft/mpnet-base` have already been finetuned with Contrastive Loss to perform the semantic search task, which gives it a bit of a headstart!
+
+```python
+BASE_MODEL = "answerdotai/ModernBERT-base"
+BASE_MODEL_NAME = BASE_MODEL.split("/")[-1]
+```
+
+Now we'll load the model using `SentenceTransformer`, which efficiently creates a new model designed for semantic search by building on top of the base foundation model:
+
+```python
+model = SentenceTransformer(
+    BASE_MODEL,
+    model_card_data=SentenceTransformerModelCardData(
+        language="en",
+        license="apache-2.0",
+        model_name=f"{BASE_MODEL_NAME} trained on triplets",
+    )
+)
+```
+
+### Defining the Loss Function
+
+There are [many loss functions to choose from in SentenceTransformer](https://sbert.net/docs/package_reference/sentence_transformer/losses.html). The optimal choice depends on your dataset's characteristics. For this project, I'm using `MultipleNegativesRankingLoss` which works well with our "anchor-positive-negative" triplets:
+
+```python
+loss = MultipleNegativesRankingLoss(model)
+```
+
+### Training Configuration
+
+Next, we'll specify the training arguments. These hyperparameters can be tuned to optimize performance and GPU utilization:
+
+```python
+args = SentenceTransformerTrainingArguments(
+    output_dir=f"models/{BASE_MODEL_NAME}",
+    num_train_epochs=1,
+    per_device_train_batch_size=16,
+    per_device_eval_batch_size=16,
+    learning_rate=2e-5,
+    warmup_ratio=0.1,
+    fp16=True,
+    bf16=False,
+    batch_sampler=BatchSamplers.NO_DUPLICATES,
+    # Optional tracking/debugging parameters:
+    eval_strategy="steps",
+    eval_steps=100,
+    save_strategy="steps",
+    save_steps=100,
+    save_total_limit=2,
+    report_to="none"
+)
+```
+
+We'll also define an evaluator to measure the model's performance:
+
+```python
+dev_evaluator = TripletEvaluator(
+    anchors=eval_dataset["anchor"],
+    positives=eval_dataset["positive"],
+    negatives=eval_dataset["negative"],
+    name="dev",
+)
+```
+
+### Establishing a Baseline
+
+Let's run the evaluator on our model before training to establish a baseline:
+
+```python
+dev_evaluator(model)
+```
+
+```
+{'dev_cosine_accuracy': 0.9631901979446411}
+```
+
+This high initial accuracy suggests that even before finetuning, the model already performs reasonably well on our task.
+
+### Training the Model
+
+Now we're ready to train our model:
+
+```python
+trainer = SentenceTransformerTrainer(
+    model=model,
+    args=args,
+    train_dataset=train_dataset,
+    eval_dataset=eval_dataset,
+    loss=loss,
+    evaluator=dev_evaluator,
+)
+trainer.train()
+```
+
+Our model finished training in ~3 minutes on a T4 GPU:
+
+```
+TrainOutput(global_step=177, 
+            training_loss=0.6694546284648658, 
+            metrics={'train_runtime': 175.6501, 
+                     'train_samples_per_second': 16.1, 
+                     'train_steps_per_second': 1.008, 
+                     'total_flos': 0.0, 
+                     'train_loss': 0.6694546284648658, 
+                     'epoch': 1.0})
+```
+
+The fast speed is attributed to:
+- A relatively lightweight model
+- A dataset with small context windows (512 tokens)
+- A modest dataset size
+
+For larger context windows or more extensive datasets, you may need a GPU with more memory.
+
+### Evaluating the Finetuned Model
+
+Let's evaluate our model on the dev dataset again:
+
+```python
+dev_evaluator(model)
+```
+
+```
+{'dev_cosine_accuracy': 0.9979550242424011}
+```
+
+Our cosine accuracy has improved from 96.3% to 99.8%, an improvement indeed!
+
+You can experiment with different hyperparameters to see if you can improve these results further, or to determine when performance plateaus or begins to decline.
+
+### Saving and Sharing the Model
+
+Finally, we can save the model locally and/or push it to the HuggingFace hub for inference:
+
+```python
+model.save_pretrained(f"models/{BASE_MODEL_NAME}/final")
+model.push_to_hub(f"{BASE_MODEL_NAME}_finetune_512")
+```
+
+### Run Inference on the Model
+
+Now that our encoder model has been finetuned, we can use it for semantic search in the legal domain.
+
+The easiest way to run inference on our finetuned model is to load it directly from the HuggingFace hub:
+
+```python
+from sentence_transformers import SentenceTransformer
+
+model = SentenceTransformer("Free-Law-Project/modernbert-embed-base_finetune_512")
+```
+
+We can then generate embeddings for both our document contexts and search queries:
+
+```python
+contexts = [
+    "search_document: The first respects the interest in which the litigation is being prosecuted, and the second is the failure of the plaintiff to either plead or prove a cause of action on his behalf as a stockholder. If this litigation had been honestly instituted by a stockholder for the protection of his and other stockholders' rights, and was not so evidently a suit instigated by a rival company for its own interests, we should strive to be astute to discover some remedy for a very evident wrong. The far reaching and flexible nature of equitable powers might, with proper proof and under other circumstances, enable us to do justice as between the stockholders of the Grey Creek Company and Chappell, its officer and director. But we have no inclination to struggle for this result, because it is a well settled principle that whenever it is made to appear that the suit was not begun in good faith by a shareholder for the protection of his rights, but was in reality originated and prosecuted by another corporation for its own benefit, the court will consider what led the plaintiff to institute his suit, and, finding some other reason than a desire to protect stockholders' rights, will refuse to entertain the bill. Forrest v. Manchester, etc., R'way Co., 4 De G., F. & J. 19 (65 Eng. Chan., 125); Filder v. London, etc., R'way Co., 1 H. & M. 489; Belmont v. Erie R'way Co. et al., 52 Barb. 637; Waterbury v. The Merchants' Union Express Co., 50 Barb. 157; Camblos v. The P. & R. R. R. Co., 4 Brewster, 563. Naturally, the cases respecting this proposition are limited, since the question could not often arise. It seldom happens that shareholders, otherwise than for the protection of their own interests, come into courts of equity to seek redress for wrongs done the corporation of which they are *331members. But wherever it is apparent that this has been done, the courts have never hesitated to send the plaintiff out of court and refuse him relief.",
+]
+context_embeddings = model.encode(contexts)
+
+queries = [
+    "search_query: When can a shareholder's lawsuit be dismissed for lack of good faith?",
+    "search_query: What are the requirements for filing a patent application in the United States?",
+    "search_query: How are disputes over partnership assets and liabilities resolved in court?"
+]
+
+query_embeddings = model.encode(queries)
+```
+
+With our embeddings generated, we can calculate the semantic similarity between the context and each query:
+
+```python
+similarities = model.similarity(context_embeddings, query_embeddings)
+similarities
+```
+
+```
+tensor([[ 0.4897, -0.0807,  0.2341]])
+```
+
+The similarity scores show that the first query is closest to our context and that our model is working as expected!
+
+For a production system, we would set a similarity threshold (e.g., 0.9) to determine which documents to return for a given query and rank the documents by their similarity scores and return the top k results.
+
+# Conclusion
+
+We've walked through the complete process of finetuning an encoder model specifically for legal semantic search, from data preparation to training and inference. This approach offers several advantages over using general-purpose models:
+
+1. **Domain-specific understanding**: Our finetuned model correctly identifies the semantic relationships between legal queries and documents, understanding specialized terminology and concepts that general models often miss.
+2. **Impressive performance gains**: With minimal training time, we improved accuracy from 96.3% to 99.8% on our evaluation set.
+3. **Practical implementation**: The SentenceTransformer framework makes both training and inference straightforward, with just a few lines of code needed to train and use the model.
+
+As we shared above, we're in the process of adding semantic search functionality to the case law search within CourtListener and it will be available through our APIs soon. This will enhance your ability and experience to find relevant legal precedents and information.
+
+To support this initiative, we've developed two key resources:
+
+1. **[Inception](https://github.com/freelawproject/inception/tree/main)**: A high-performance microservice to seamlessly generate embeddings for legal documents and queries. This tool is entirely open-source, allowing you to use it out of the box or integrate it into your own applications.
+2. **[Domain-Adapted Semantic Search Model](https://huggingface.co/Free-Law-Project/modernbert-embed-base_finetune_512)**: Using the exact steps illustrated in this blog post, we published our very own domain-adapted semantic search model. This model is finetuned on top of the `nomic-ai/modernbert-embed-base` model to specifically understand legal terminology and concepts.
+
+We encourage you to try both the model and the microservice for your legal research needs! Your feedback will help us continue to improve these tools as we work to make legal information more accessible to everyone.
+
+## Looking Ahead
+
+We have made great progress in launching semantic search functionality in CourtListener and in our API. Our next step is to use Inception to vectorize the case law in CourtListener. We'll make those vectors available on S3, and then we'll be launching semantic search. 
+
+Stay tuned for an update in the near future!
