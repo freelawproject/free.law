@@ -1,5 +1,5 @@
 ---
-title: Good Law Bad Law Citator with AI
+title: Good Law Bad Law Citator with AI, A Progress Report
 date: "2025-04-30"
 tags:
  - "Free Law Project"
@@ -9,32 +9,123 @@ tags:
  - "Artificial Intelligence"
  - "AI"
 author: "Rachel Gao"
-excerpt: "Democratizing access to legal citation analysis through AI, collaborative partnerships, and a methodical approach to determine the status of case law—transforming what was once a painstaking manual process into an accessible tool for all legal stakeholders."
+excerpt: "Democratizing access to legal citation analysis through AI, collaborative partnerships, and a methodical approach to determine the status of case law."
 ---
 
-<p className="lead">In a legal landscape where access to reliable citation information has long been restricted to those who can afford premium services, our AI-powered open source citator marks the first step toward democratizing case law research for everyone—from seasoned attorneys to self-represented litigants.</p>
+<p className="lead">In a legal landscape where access to reliable citation information has long been restricted to those who can afford premium services, the AI-powered open source citator we are working on marks the first step toward democratizing case law research for everyone—from seasoned attorneys to self-represented litigants.</p>
 
-## Breaking Legal Barriers: An AI-Powered Citator for All
-Knowing whether a case remains "good law" can make or break an argument in the complex world of legal research. Traditionally, legal professionals spent countless hours manually tracking case citations, judicial opinions, and subsequent treatments to verify the current standing of legal precedents. Today, given the advancements in AI, we are building an AI-powered legal citator designed to transform this process. While commercial citators exist, they remain locked behind expensive paywalls, effectively creating a two-tiered system of legal access. Our mission at Free Law is to not only reduce the manual burden on legal professionals but also democratize access to this crucial information for small law firms, independent researchers, self-represented litigants, and anyone interested in understanding the evolution of legal precedent. By breaking down these barriers, we aim to create a more equitable legal landscape where reliable citation information isn't just a privilege for those who can afford it.
 
-## Building the Foundation: A Methodical Approach
-Anyone who has used a citator—or attempted to build one—understands the formidable complexity of this undertaking. Like Rome, a comprehensive legal citator cannot be built in a day. We've approached this challenge by breaking it down into manageable, strategic phases. Our initial focus is on identifying AI systems with the capability to understand complex legal language and the often subtle indicators of how one case treats another. To establish a foundational proof of concept, we've started with a deceptively simple question: can AI accurately identify when a Supreme Court opinion overrules another Supreme Court opinion? We leveraged the [Congress.gov decisions overruled dataset](https://constitution.congress.gov/resources/decisions-overruled/) as our starting point, which provided us with 149 confirmed overruled opinions. Recognizing that overruled opinions represent only a small fraction of the total case law, we randomly sampled non-overruled opinions from CourtListener to create a more balanced experimental dataset of approximately 1,000 records, maintaining a realistic overruled to non-overruled ratio of 15:100. This approach allows us to test AI capabilities against a representative sample of the legal citation landscape, providing crucial insights into the feasibility of our broader vision.
+## Building a Legal Citator is No Easy Task
+For the past months, we've worked diligently in prototyping our AI-powered good law bad law legal citator. This progress report outlines what we've accomplished so far, the challenges we've faced, and our early results. 
 
-Once we have the list of opinions and their target treatment, we need to identify the location of the cited opinion within the citing opinion. To a human, this might seem easy, but often, the same opinion can be referred by many variations, they could be referred to as the full citation, or simply the case name, or the short case name, or supra, or other variations. To make things even more complex, there are often numerous opinions with similar case names, leading to confusion. Luckily, we have just the tool to do this. Using our very own open source tool [Eyecite](https://free.law/projects/eyecite), we are able to identify the exact location of the cited opinion within the citing opinion, so we can extract passages surrounding the cited opinion. For experimental purpose, we identified the 6 sentences before and after the cited opinion to construct the passages. The opinions are often constructed with numerous types of opinions, combined, lead, concurrent, and dissenting opinions. As legal researchers know from experience, identifying which type of the opinion often assists in understanding the treatment of a cited case, sometimes the lead opinion may not be so explicit in how a cited case is treated, but the concurrent or dissenting opinion assists us in better understanding the intention of the lead opinion. To do this, we identified the different opinion types in Courtlistener and extracted the passages surrounding each opinion types, prepending the opinion types to each extracted passage.
+There is still significant work ahead, but we believe our initial findings demonstrate promising potential for using AI to democratize access to legal citation information!
+
+## Breaking Legal Barriers: What Sets us Apart
+Traditionally, legal professionals spent countless hours manually tracking citations, judicial opinions, and subsequent treatments. While commercial citators exist, they remain locked behind expensive paywalls, effectively creating a two-tiered system of legal access. 
+
+Our mission is to not only reduce the manual burden on legal professionals but also democratize access to this crucial information for small law firms, independent researchers, self-represented litigants, and anyone interested in understanding legal precedent. 
+
+*By breaking down these barriers, we aim to create a more equitable legal landscape where reliable citation information isn't just a privilege for those who can afford it.*
+
+
+## A Methodical Approach
+Anyone who has used a citator—or attempted to build one—understands the formidable complexity of this undertaking. Like Rome, a comprehensive legal citator cannot be built in a day.
+
+We've approached this challenge by breaking it down into manageable, strategic phases. Our initial focus is on identifying AI systems capable of understanding complex legal language and the often subtle indicators of how one case law treats another.
+
+To establish a foundational proof of concept, we started with a deceptively simple question: 
+
+*Can AI accurately identify when a Supreme Court opinion overrules another Supreme Court opinion?*
+
+
+## Starting with the Foundation: Data
+To do this, we leveraged the [Congress.gov decisions overruled dataset](https://constitution.congress.gov/resources/decisions-overruled/) as our starting point, which provided us with 149 confirmed overruled opinions.
+
+Recognizing that overruled opinions represent only a small fraction of the total case law, we randomly sampled non-overruled opinions from CourtListener to create a more balanced experimental dataset of approximately 1,000 records, maintaining a realistic overruled to non-overruled ratio of 15:100.
+
+This approach allows us to test AI capabilities against a representative sample of the legal citation landscape, providing crucial insights into the feasibility of our broader vision.
+
+
+## Identifying Citations with EyeCite
+Once we had our list of opinions and their target treatment, we needed to identify the location of the cited opinion within the citing opinion. 
+To a human, this might seem easy, but often, the same opinion can be referred to by many variations—the full citation, simply the decision name, the short decision name, supra, or other variations. 
+To make things even more complex, there are often numerous opinions with similar decision names, leading to confusion.
+
+Luckily, we have just the tool to do this. Using our very own open source tool [Eyecite](https://free.law/projects/eyecite), we are able to identify the exact location of the cited opinion within the citing opinion.
+For experimental purposes, we identified the 6 sentences before and after the cited opinion to construct the passages surrounding the cited opinion.
+
+## Opinion Types Provides Meaningful Clues
+Legal opinions are often constructed with numerous types of opinions—combined, lead, concurrent, and dissenting opinions. As legal researchers know from experience, identifying the opinion type often assists in understanding the treatment of a cited case.
+Sometimes the lead opinion may not be explicit in how a cited opinion is treated, but the concurrent or dissenting opinion assists us in better understanding the intention of the lead opinion.
+
+To account for this, we identified the different opinion types in Courtlistener and extracted the passages surrounding each opinion type, prepending the opinion types to each extracted passage.
+
 
 ## Selecting the Right AI Technology
-With the data preparation groundwork established, let's turn our attention to the AI technology powering our citator. After careful evaluation, we determined that generative AI represents the optimal approach for this complex legal task. Generative AI excels at interpreting nuanced legal language, applying sophisticated reasoning to infer relationships between opinions, and deciphering the often implicit ways courts treat precedent—capabilities essential for accurate citation analysis. Our experimentation was comprehensive, testing a wide spectrum of market-leading models including Gemini 1.5 Flash, GPT-4o, GPT-4o mini, Claude 3.5 Haiku, Claude 3.5 Sonnet, Claude 3.7 Sonnet, Cohere Command R, Cohere Command R+, Llama 3.1 405B Instruct, Llama 3.2 3B Instruct, Llama 3.3 70B Instruct, Mistral 7B Instruct, Mistral 8x7B instruct, Mistral Large, Amazon Nova Micro, Amazon Nova Lite, and Amazon Nova Pro. We also tried OpenAI's reasoning models o1-Mini and o3-Mini to test the reasoning capabilities of these models. 
+With the data preparation groundwork established, let's now talk about the AI technology for a minute.
+
+After careful evaluation, we determined that generative AI represents the optimal approach for this complex legal task. Generative AI excels at interpreting nuanced legal language, applying sophisticated reasoning to infer relationships between opinions, and deciphering the often implicit ways courts treat precedent.
+
+Our experimentation was comprehensive, testing a wide spectrum of market-leading models including:
+
+- Gemini 1.5 Flash
+- GPT-4o and GPT-4o mini
+- Claude 3.5 Haiku and Claude 3.5 Sonnet
+- Claude 3.7 Sonnet
+- Cohere Command R and Command R+
+- Various Llama models (3.1, 3.2, 3.3)
+- Mistral models (7B, 8x7B, Large)
+- Amazon Nova models (Micro, Lite, Pro)
+- OpenAI's reasoning models (o1-Mini and o3-Mini)
+
 
 ## Optimizing Performance Through Advanced Prompting
-We implemented sophisticated prompt engineering techniques to maximize model performance on this specialized legal task. Our methodology incorporated structured chain-of-thought reasoning, comprehensive step-by-step analysis guidelines, and precise legal definitions. To address citation variability, we explicitly provided models with both the citing and cited case names along with all potential reference variations. We carefully differentiated between opinion types, offering specific guidance on how to interpret relationships between majority, concurring, and dissenting opinions. To minimize hallucination and prevent case confusion—common challenges in legal AI applications—we implemented strategic repetition of key elements, having models restate both their analytical objective and the specific cited case name throughout their reasoning process. The prompting framework was further enhanced with carefully selected few-shot examples featuring both positive and negative citation relationships, along with structured output templates to ensure consistent and interpretable results across all evaluations. The model is also instructed to output its rationale and a confidence score in addition to the outcome, to assist human in reviewing the predictions.
+To get the best results from our models, we developed special prompting techniques that help understand legal language better. Here's what we did:
 
-## Superior Performance of Leading Models
+- **Guided Reasoning Process**: We asked the model to "think step-by-step" through each citation analysis, breaking down complex legal reasoning into manageable chunks.
+- **Clear Definitions**: We provided simple, precise definitions of legal terms like "overruling" so the model could accurately identify these relationships.
+- **Citation Variants**: We gave the model all possible ways a decision might be referenced (full name, short name, etc.) to help it recognize citations regardless of format.
+- **Opinion Type Guidance**: We taught the model to distinguish between majority, concurring, and dissenting opinions and how each type might signal different relationships.
+- **Repeat After Me**: To prevent confusion between similar decisions, we had the model repeat key decision names throughout its analysis to stay on track.
+- **Learning from Examples**: We showed the model several examples of both overruled and non-overruled decisions to help it recognize patterns.
+- **Structured Output**: We created a simple template for the model to follow when reporting its findings, making results consistent and easy to review.
+- **Confidence Scoring**: We asked the model to rate how confident it was in each prediction and explain its reasoning, making it easier for humans to check its work.
+
+
+## Early Results: Superior Performance of Leading Models
 Our evaluation metrics were multifaceted, balancing prediction quality (measured through precision, recall, and F1 scores) against practical considerations like latency and token pricing. This balanced approach was critical given our intention to scale across an extensive corpus of case law—we needed not just accuracy but also efficiency and cost-effectiveness to make our open-source vision viable.
 
-Our comprehensive evaluation revealed clear performance leaders among the tested models. Claude 3.5 Sonnet demonstrated exceptional prediction quality, distinguishing itself as the only model to achieve over 90% recall while maintaining an F1 score exceeding 80%. This superior recall capability is particularly valuable for legal citation work, where missing an overruled precedent could have significant consequences. Meanwhile, Mistral Large exhibited remarkable precision, being the sole contender to surpass the 80% precision threshold—a critical metric when accuracy of citation status determination is paramount. The remaining models, despite their capabilities in other domains, could not match these benchmarks in our initial experiments. Beyond prediction quality, both Claude 3.5 Sonnet and Mistral Large delivered impressive processing speeds, significantly outpacing models like Llama in throughput capacity. While these top-performing models do command premium pricing due to their higher per-token costs, their superior accuracy and efficiency present a compelling value proposition for this specialized legal application where correctness cannot be compromised.
+Our comprehensive evaluation revealed clear performance leaders among the tested models:
+- **Claude 3.5 Sonnet** demonstrated exceptional prediction quality, distinguishing itself as the only model to achieve over 90% recall while maintaining an F1 score exceeding 80%. This superior recall capability is particularly valuable for legal citation work, where missing an overruled precedent could have significant consequences.
+- **Mistral Large** exhibited remarkable precision, being the sole contender to surpass the 80% precision threshold—a critical metric when accuracy of citation status determination is paramount.
+- The remaining models, despite their capabilities in other domains, could not match these benchmarks in our initial experiments.
 
-## Building Toward a Comprehensive Open-Source Citator
-This initial phase represents merely the first step in our ambitious journey toward building a comprehensive legal citator. Future iterations will expand our scope to address more complex aspects of legal citation analysis, including court authority relationships (determining which courts can overrule decisions from other jurisdictions) and tracking complete appellate chains from lower courts through final dispositions. These advanced features will require not only sophisticated AI implementation but also carefully designed algorithms to accurately represent the complex hierarchical structure of our legal system. Throughout this development process, our mission remains unwavering: we will make our AI citator fully open-source, enabling the entire legal technology community to build upon our foundation and accelerate innovation in this critical area. The practical culmination of this work will be direct integration into CourtListener's case law search platform, making citation treatment information readily accessible to attorneys, law firms, and the general public alike. As we move forward, we continue to explore more scalable alternatives that maintain our high quality standards, and we enthusiastically welcome community discussions, recommendations, and collaborations to help realize our vision of democratized access to legal citation information.
+Beyond prediction quality, both Claude 3.5 Sonnet and Mistral Large delivered impressive processing speeds, significantly outpacing models like Llama in throughput capacity.
+
+While these top-performing models do command premium pricing due to their higher per-token costs, their superior accuracy and efficiency present a compelling value proposition for this specialized legal application where correctness cannot be compromised.
+
+
+## The Road Ahead: Building Towards a Comprehensive Open-Source Citator
+This progress report represents merely the first step in our ambitious journey toward building a comprehensive legal citator.
+
+Future iterations will expand our scope to address more complex aspects of legal citation analysis, including *court authority* relationships (determining which courts can overrule decisions from other jurisdictions) and tracking complete *appellate chains* from lower courts through final dispositions.
+
+These advanced features will require not only sophisticated AI implementation but also carefully designed algorithms to accurately represent the complex hierarchical structure of our legal system.
+
+Throughout this development process, our mission remains unwavering: we will make our AI citator **open-source**, enabling the entire legal technology community to build upon our foundation and accelerate innovation in this critical area.
+
+The practical culmination of this work will be direct integration into CourtListener's case law search platform, *making citation treatment information readily accessible to all CourtListener users*.
+
+As we move forward, we continue to explore more scalable alternatives that maintain our high quality standards, and we enthusiastically welcome community discussions, recommendations, and collaborations to help realize our vision of democratized access to legal citation information!
+
 
 ## Acknowledgments
-This work would not be possible without our collaborative partners. We extend our sincere gratitude to the teams at CicerAI, Descrybe, and researcher from The George Washington University, for their technical contributions and intellectual exchange. We are particularly indebted to our subject matter expert and legal librarian Rebecca Fordon from Moritz College of Law and The Ohio State University, whose invaluable guidance has ensured our work remains grounded in practical legal research needs and scholarly rigor. These partnerships exemplify the collaborative spirit that will ultimately make democratized legal citation analysis a reality.
+This work would not be possible without our collaborative partners. 
+
+We extend our sincere gratitude to the teams at CicerAI, Descrybe, and researchers from The George Washington University, for their technical contributions and intellectual exchange.
+
+We are particularly indebted to our subject matter expert and legal librarian Rebecca Fordon from Moritz College of Law and The Ohio State University, whose invaluable guidance has ensured our work remains grounded in practical legal research needs and scholarly rigor.
+
+These partnerships exemplify the collaborative spirit that will ultimately make democratized legal citation analysis a reality.
+
+**Stay tuned as we continue working on this exciting project towards a full open-source legal citator solution!**
