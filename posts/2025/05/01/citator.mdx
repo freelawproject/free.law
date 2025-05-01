@@ -1,6 +1,6 @@
 ---
 title: Building a Citator with AI, A Progress Report
-date: "2025-04-30"
+date: "2025-05-01"
 tags:
  - "Free Law Project"
  - "Citator"
@@ -46,9 +46,29 @@ Once we had our list of opinions and their target treatment, we needed to identi
 
 To a human, this seems straightforward, but in the text of a decision, a citation can take many forms. For example:
 
- - **A complete citation:** XXX
- - **Just by a "short name":** XXX
- - **By *id* or *supra*: XXX
+ - **Full citation:**  
+    ```text
+    Miranda v. Arizona, 384 U. S. 436
+    ```
+
+ - **Short name reference:**  
+    ```text
+    the Miranda case
+    ```
+    ```text
+    in Miranda
+    ```
+    ```text
+    Miranda involved ...
+    ```
+
+ - **Using *id.* or *supra*:**  
+    ```text
+    id., at 508
+    ```
+    ```text
+    Miranda v. Arizona, supra
+    ```
 
 Making things even more complex, there are often numerous opinions with similar decision names, leading to confusion.
 
@@ -56,12 +76,11 @@ Luckily, we have just the tool to do this. Using our very own open source tool [
 
 ## Opinion Types Provides Meaningful Clues
 
-When a panel of judges hears a case, like at the Supreme Court, you wind up with several opinions that go together, such as the lead decision, a concurence, and a dissent. As legal researchers know from experience, identifying the opinion type is important for analyzing it's precedential status.
+When a panel of judges hears a case, like at the Supreme Court, you wind up with several opinions that go together, such as the lead decision, a concurrence, and a dissent. As legal researchers know from experience, identifying the opinion type is important for analyzing the cited opinion's precedential status.
 
 For example, sometimes the lead opinion may not be explicit in how a cited opinion is treated, but the concurrent or dissenting opinion assists us in better understanding the intention of the lead opinion.
 
-<!-- I don't understand this next sentence -->
-To account for this, we identify the different opinion types in Courtlistener and extract the passages surrounding each opinion type, prepending the opinion types to each extracted passage.
+To account for this, we also provide the opinion types in addition to the body of the opinion itself to the LLM to provide an additional clue in its analysis.
 
 
 ## Selecting the Right AI Technology
@@ -82,12 +101,12 @@ Our experimentation was comprehensive, testing a wide spectrum of market-leading
 - Amazon Nova models (Micro, Lite, Pro)
 - OpenAI's reasoning models (o1-Mini and o3-Mini)
 
-<!-- say what we did for each model here, right? -->
+We provide the model with the opinion excerpts surrounding the cited opinion, in addition to carefully crafted prompts based on each model's prompt preferences.
 
 
 ## Optimizing Performance Through Advanced Prompting
 
-Finally, to get the best results from our models, we developed special prompting techniques that help understand legal language better. Here's what we did:
+We went through several iterations of prompts, evaluating the model prediction after each iteration to identify the best language and techniques to include. Ultimately, we identified the key elements below that led to improved results:
 
 - **Guided Reasoning Process**: We asked the model to "think step-by-step" through each citation analysis, breaking down complex legal reasoning into manageable chunks.
 - **Clear Definitions**: We provided simple, precise definitions of legal terms like "overruling" so the model could accurately identify these relationships.
@@ -131,13 +150,11 @@ As we move forward, we continue to explore more scalable alternatives that maint
 
 ## Acknowledgments
 
-XXX Some links in here, please?
-
 This work would not be possible without our collaborative partners. 
 
-We extend our sincere gratitude to the teams at CicerAI, Descrybe, and researchers from The George Washington University, for their technical contributions and intellectual exchange.
+We extend our sincere gratitude to the teams at [CICERAI](https://www.cicerai.com/), [descrybe.ai](https://descrybe.ai/), and researchers from [The George Washington University](https://www.gwu.edu/), for their technical contributions and intellectual exchange.
 
-We are particularly indebted to our board member, subject matter expert, and legal librarian Rebecca Fordon from Moritz College of Law and The Ohio State University, whose invaluable guidance has ensured our work remains grounded in practical legal research needs and scholarly rigor.
+We are particularly indebted to our board member, subject matter expert, and legal librarian [Rebecca Fordon](https://free.law/team#:~:text=Rebecca%20Fordon%20%E2%80%93%20Board%20Member) from Moritz College of Law and The Ohio State University, whose invaluable guidance has ensured our work remains grounded in practical legal research needs and scholarly rigor.
 
 These partnerships exemplify the collaborative spirit that will ultimately make democratized legal citation analysis a reality.
 
