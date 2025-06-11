@@ -2,19 +2,19 @@ import Link from 'next/link';
 import Navbar from './navbar';
 import { Colophon, Footer, JudgeRibbon } from './footers';
 import { GridImage } from './widgets';
-import buzzfeed from '../public/images/services-logos/x256/buzzfeed-news.png';
+import proPublica from '../public/images/services-logos/x256/proPublica.png';
 import harvardSociology from '../public/images/services-logos/x256/harvard-sociology-logo.png';
 import gsu from '../public/images/services-logos/x256/gsu.png';
 import noacri from '../public/images/services-logos/x256/noacri.png';
 import edhec from '../public/images/services-logos/x256/edhec.png';
-import oneLegal from '../public/images/services-logos/x256/one-legal.png';
+import midpage from '../public/images/services-logos/x256/midpage.png';
 import predicta from '../public/images/services-logos/x256/predicta.png';
-import imanage from '../public/images/services-logos/x256/imanage.png';
-import drugPatentWatch from '../public/images/services-logos/x256/drugpatentwatch.png';
+import darrow from '../public/images/services-logos/x256/darrow.png';
+import smithsonian from '../public/images/services-logos/x256/smithsonian.png';
 import clearBrief from '../public/images/services-logos/x256/clearbrief.png';
-import bookLawyer from '../public/images/services-logos/x256/booklawyer.png';
+import openAI from '../public/images/services-logos/x256/openAI.png';
 import wsj from '../public/images/services-logos/x256/wsj.png';
-import vlex from '../public/images/services-logos/x256/vlex.png';
+import washingtonPost from '../public/images/services-logos/x256/washingtonpost-wordmark.png';
 import classNames from 'classnames';
 import Button, {RedButton} from './button';
 import {H1} from './headings';
@@ -137,10 +137,10 @@ export function ClientPics({ wide }) {
     <PicGrid wide={wide}>
       <GridImage
         imgProps={{
-          src: vlex,
-          alt: 'v|lex logo',
+          src: washingtonPost,
+          alt: 'Washington Post logo',
           width: '256',
-          height: '128',
+          height: '53',
           placeholder: 'blur',
         }}
       />
@@ -155,10 +155,10 @@ export function ClientPics({ wide }) {
       />
       <GridImage
         imgProps={{
-          src: buzzfeed,
-          alt: 'BuzzFeed news logo',
+          src: proPublica,
+          alt: 'ProPublica news logo',
           width: '256',
-          height: '32',
+          height: '34',
           placeholder: 'blur',
         }}
       />
@@ -200,10 +200,10 @@ export function ClientPics({ wide }) {
       />
       <GridImage
         imgProps={{
-          src: oneLegal,
-          alt: "One Legal's logo",
+          src: midpage,
+          alt: "Midpage logo",
           width: '256',
-          height: '52',
+          height: '51',
           placeholder: 'blur',
         }}
       />
@@ -227,27 +227,27 @@ export function ClientPics({ wide }) {
       />
       <GridImage
         imgProps={{
-          src: bookLawyer,
-          alt: 'BookLawyer logo',
+          src: openAI,
+          alt: 'OpenAI logo',
           width: '256',
-          height: '',
+          height: '70',
           placeholder: 'blur',
         }}
       />
       <GridImage
         imgProps={{
-          src: imanage,
-          alt: 'iManage logo',
+          src: darrow,
+          alt: 'Darrow logo',
           width: '256',
-          height: '75',
+          height: '55',
         }}
       />
       <GridImage
         imgProps={{
-          src: drugPatentWatch,
-          alt: 'Drug Patent Watch logo',
+          src: smithsonian,
+          alt: 'Smithsonian Institution logo',
           width: '256',
-          height: '28',
+          height: '114',
           placeholder: 'blur',
         }}
       />
