@@ -8,12 +8,12 @@ tags:
  - "Search"
  - "Alerts"
 author: "Stephanie Taube"
-excerpt: "You can now get automatic updates anytime new content hits the RECAP Archive that matches your saved search.Follow people, organizations, topics, and more!"
+excerpt: "You can now get automatic updates any time new content that matches a saved search hits the RECAP Archive. Follow people, organizations, topics, and more!"
 ---
 
 <p className="lead">We’re excited to officially launch RECAP Search Alerts for PACER—a powerful new way to stay on top of the federal court system.</p>
 
-With this new feature, CourtListener will automatically notify you whenever there’s a new match in our PACER archive for any saved search you might have. You can follow topics, people, organizations, types of cases—anything you can search for, you can now get alerts on.
+With this new feature, CourtListener will automatically notify you whenever there’s a new match in our PACER archive for any saved search you might have. You can follow topics, people, organizations, types of cases—anything you can search for, you can now monitor.
 
 Case law alerts were [the first feature](https://free.law/2010/05/01/announcing-courtlistener-com/) we launched on CourtListener in 2010, and we’ve had PACER alerts on our roadmap since 2016! After six months in private beta, this feature is now live for everyone.
 
@@ -60,22 +60,28 @@ For example, let’s say you want to monitor initial complaints that mention Tru
 
 Once you’ve run your query, click the alert bell 🛎️ in the search bar:
 
-<CaptionedImage imgProps={{
-  src: "/images/recap-search.png",
-  alt: "A screenshot of RECAP search"
-}}>Conduct a search on the RECAP Archive.</CaptionedImage>
+<CaptionedImage 
+  imgProps={{
+    src: "/images/recap-search.png",
+    alt: "A screenshot of RECAP search"
+  }}
+  border="border border-gray-400"
+>Conduct a search on the RECAP Archive.</CaptionedImage>
 
 You’ll be prompted to:
 - Name your alert
 - Choose how often to receive notifications (real-time, daily, weekly, or monthly)
 - Pick between notifications for cases only, or for both cases and filings
 
-  <CaptionedImage imgProps={{
-  src: "/images/recap-search-alert-details.png",
-  alt: "A screenshot of RECAP search alerts"
-}}>Edit your search details, then "Create Alert."</CaptionedImage>
+  <CaptionedImage 
+    imgProps={{
+      src: "/images/recap-search-alert-details.png",
+      alt: "A screenshot of RECAP search alerts"
+    }}
+    border="border border-gray-400"
+  >Edit your search details, then "Create Alert."</CaptionedImage>
 
-  Hit **“Create Alert”**—and that’s it. You’ll get emails that include the case name, docket number, document details, and more. 
+Hit **“Create Alert”**—and that’s it. You’ll get emails that include the case name, docket number, document details, and more. 
 
 
 ## 📉 Limitations of PACER Data
@@ -94,12 +100,13 @@ Want more? Join as an [FLP Member](https://donate.free.law/forms/membership) and
 
 Here’s how the tiers break down:
 
-| Tier | Monthly | Real-Time Alerts | Daily Alerts |
-| :-: | :-: | :-: | :-: |
-| 1 | $10 | 5 | 10 |
-| 2 | $25 | 10 | 25 |
-| 3 | $50 | 25 | 50 |
-| 4 | $100 | 50 | 100 |
+|    Tier     | Monthly | Real-Time Alerts | Daily Alerts |
+|:-----------:|:-------:|:----------------:|:------------:|
+| Non-members |   $0    |        0         |      5       |
+|      1      |   $10   |        5         |      10      |
+|      2      |   $25   |        10        |      25      |
+|      3      |   $50   |        25        |      50      |
+|      4      |  $100   |        50        |     100      |
 
 We also offer **commercial licensing** for organizations that need large-scale monitoring.
 
@@ -110,8 +117,8 @@ We’re currently testing organizational-level alerts powered by our API and web
 
 We’re also building and researching:
 - **New alert destinations:** Slack, SMS, Discord, and more
-- **“Bad word” alerts:** Get notified when restricted or sensitive terms (like sealed minors’ identities) appear in filings
-- **Streamlined citation alerts:** Know when your followed case law is cited in new filings
+- **“Bad word” alerts:** Get notified when restricted or sensitive terms appear in filings (think trade secrets or the identities if minors)
+- **Streamlined citation alerts:** Know when your certain case law is cited in new filings
 - **Docket alert upgrades:** We’re expanding features for our most popular alert type
 
 15 years after our first alert system, it feels like we’re just getting started. Thanks for being part of this journey to open up PACER—and the courts!
