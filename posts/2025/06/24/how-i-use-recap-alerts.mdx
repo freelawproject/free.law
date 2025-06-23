@@ -1,0 +1,69 @@
+---
+title: How I use RECAP Search Alerts for PACER Data
+date: "2025-06-23"
+tags:
+ - "Free Law Project"
+ - "CourtListener"
+ - "RECAP"
+ - "Search"
+ - "Alerts"
+author: "Michael Lissner"
+excerpt: "RECAP Search Alerts make it easy to monitor the federal courts. This is how our director uses the system."
+---
+
+<p className="lead">Michael Lissner is the director of Free Law Project, and has been using RECAP Search Alerts for several months while they were in beta.</p>
+
+Last week, after several years of work, we [launched RECAP Search Alerts][launch]. This is a particularly satisfying launch for me personally, since case law alerts were the [first feature][first] I developed on CourtListener back in 2009, and we've wanted to launch search alerts for PACER data ever since. 
+
+Over the years, users and organizations have asked for this feature over and over, and we're really proud to finally have it. I'm excited about how it is both a powerful tool for high-end legal monitoring and also a simple tool you can use as an average American. Already, nearly 150 people are using the system.  
+
+RECAP Search Alerts have been in beta for the past six months, and I've been using them during this time. 
+
+I'm neither a lawyer nor a legal researcher, but here are some ways that I've added it to my workflow. 
+
+[first]: /2010/05/01/announcing-courtlistener-com/
+
+### 1. To monitor FLP
+
+As the director of Free Law Project, one thing I want to know is, *Has my organization been sued?* So far, this alert hasn't triggered, but by creating a real-time alert for case names that include `Free Law Project`, I'll know within minutes if it ever happens.
+
+### 2. To monitor CourtListener's impact
+
+Every week, many people reference CourtListener in their filings. By creating a weekly alert for `CourtListener OR "Court Listener"`, I'm able to keep up with these references and see how system is being used.
+
+### 3. To watch for litigation
+
+The FBI is investigating the mayor of Oakland. A security researcher's home [was searched][ars] and the reason remains murky. I want to know when there are new cases about these topics, so I created daily alerts for the mayor's name and the researcher's name, both filtered to the jurisdiction where more information will be filed.
+
+[ars]: https://arstechnica.com/security/2025/03/computer-scientist-goes-silent-after-fbi-raid-and-purging-from-university-website/
+
+### 4. To monitor SCOTUS citations
+
+In 2019, Public.Resource.Org had [a landmark win][pro] related to public access to statutes. I want to know whenever that case is cited in a federal filing, so I have [an alert][a] for that purpose.
+
+[a]: https://www.courtlistener.com/?type=r&q=cites%3A(4529362)&type=r&order_by=score%20desc&show_alert_modal=yes
+[pro]: https://www.courtlistener.com/opinion/4749015/georgia-v-public-resourceorg-inc
+
+### 5. To monitor particular cases for topics
+
+The [American Bar Association sued the Trump administration][aba]. I want to know if any amicus briefs get filed in that case, so I [created an alert][amicus] for the word `amicus` appearing in the case. 
+
+CourtListener has [docket alerts][da], so I could have used those to monitor the entire case, but a search alert lets me ignore the case until a particular topic comes up.
+
+[aba]: https://www.courtlistener.com/docket/70551899/american-bar-association-v-executive-office-of-the-president/
+[amicus]: https://www.courtlistener.com/?type=r&q=docket_id%3A70551899%20amicus
+[da]: https://www.courtlistener.com/help/alerts/#recap-alerts
+
+
+### And that's just the beginning
+
+So those are my favorite ways to use this new feature as an average Joe. There's even more it can do for organizations, and we'll be talking about that soon. 
+
+To learn more about it or to get started, I recommend reading our [blog post][launch], checking out [the documentation][docs], or watching [our YouTube video][yt]. 
+
+The other way to learn more is to just try it! Make a search in the [RECAP Archive][ra] and hit the bell icon in the query bar. That's it!  You'll start getting alert emails as soon as there are new hits.
+
+[launch]: /2025/06/18/recap-search-alerts-for-pacer
+[docs]: https://www.courtlistener.com/help/alerts/#search-alerts
+[yt]: https://www.youtube.com/watch?v=Jh9wbxMZGe4
+[ra]: https://www.courtlistener.com/recap/
