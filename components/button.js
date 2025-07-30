@@ -103,7 +103,7 @@ export function InstallRECAPButtons() {
       <PurpleButton size="lg" href="https://chrome.google.com/webstore/detail/recap/oiillickanjlaeghobeeknbddaonmjnc"
         extraClasses="inline-flex md:px-4 sm:text-md md:py-2"><DownloadIcon className="flex-shrink-0 h-4 w-4" aria-hidden="true"/>&nbsp;Add to Chrome</PurpleButton>);
   const addToEdgeButton = (
-      <PurpleButton size="lg" href="https://microsoftedge.microsoft.com/addons/detail/ckkpjgceaenndjdjpbaoaociikjpfdjg"
+      <PurpleButton size="lg" href="/recap/edge/"
         extraClasses="inline-flex md:px-4 sm:text-md md:py-2"><DownloadIcon className="flex-shrink-0 h-4 w-4" aria-hidden="true"/>&nbsp;Add to Edge</PurpleButton>);
   const addToSafariButton = (
       <PurpleButton size="lg" href="https://apps.apple.com/us/app/recap/id1600281788"
