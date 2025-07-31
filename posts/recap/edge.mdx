@@ -1,0 +1,62 @@
+---
+title: Adding the RECAP Extension to Edge
+type: page
+---
+
+<p className="lead">Installing the RECAP Extension on Microsoft Edge is easy and only takes a few seconds, just follow the steps below. <strong>Heads up</strong>: Edge may show a warning after install, scroll down if you see it.</p>
+
+<div className="flex justify-center">
+  <PurpleButton
+    size="lg"
+    href="https://microsoftedge.microsoft.com/addons/detail/ckkpjgceaenndjdjpbaoaociikjpfdjg"
+    extraClasses="inline-flex md:px-4 sm:text-md md:py-2"
+  ><DownloadIcon className="flex-shrink-0 h-4 w-4" aria-hidden="true"/>&nbsp;Add to Edge</PurpleButton>
+</div>
+
+When you click the button, you will be directed to the Edge Add-ons site. Once there, simply click "Get":
+
+<div className="flex justify-center">
+  <Image width="688" height="92" alt="Screenshot of RECAP installation page" src="/images/edge/recap.png" />
+</div>
+
+Then click "Add Extension":
+
+<div className="flex justify-center">
+  <Image width="450" height="263" src="/images/edge/install.png"/>
+</div>
+
+And that's it, you've installed RECAP! 🎉
+
+However, Edge may automatically turn the extension off, and you may see a warning like this:
+
+<div className="flex justify-center">
+  <Image width="300" height="261" alt="Screenshot of Edge warning" src="/images/edge/warning.png" />
+</div>
+
+## Why does Edge disable RECAP?
+
+If you see this warning, do not worry: <a href="https://github.com/freelawproject/recap/issues/396#issuecomment-3024752068">it's incorrect</a>.
+What happens is the extension introduces the RECAP Archive to the browser, which Edge mistakenly interprets as the extension changing the default search engine.
+This is <a href="https://github.com/microsoft/MicrosoftEdge-Extensions/issues/324">a known issue</a> and is why the browser flags the extension and requires you to re-enable it manually.
+
+Don't let a mistaken warning stop you from enjoying the benefits of using our extension, as well as contributing to the public good! Rest assured, you can safely re-enable it.
+
+## How do I re-enable RECAP?
+
+1. Click "Turn on" or go to <code>edge://extensions</code>.
+
+<div className="flex justify-center">
+  <Image width="688" height="94" alt="Screenshot of RECAP installation page" src="/images/edge/reenable.png" />
+</div>
+
+2. Click the toggle button next to RECAP on.
+
+<div className="flex justify-center">
+  <Image width="688" height="155" alt="Screenshot of installed extensions" src="/images/edge/extensions.png" />
+</div>
+
+3. You've re-enabled RECAP and can now use PACER like a pro!
+
+<div className="flex justify-center">
+  <Image width="688" height="94" alt="Screenshot of RECAP extension installed" src="/images/edge/installed.png" />
+</div>
