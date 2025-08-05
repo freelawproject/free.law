@@ -293,16 +293,12 @@ export function YouTubeVideo({src, title = 'YouTube video player'}) {
     ? `https://www.youtube.com/embed/${videoID}`
     : src;
   return (
-    <div className="w-full aspect-video">
-      <iframe
-        className="w-full h-full"
-        src={embedUrl}
-        title={title}
-        frameBorder="0"
-        referrerPolicy="strict-origin-when-cross-origin"
-        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-        allowFullScreen
-      />
-    </div>
+    <ResponsiveIFrame
+      src={embedUrl}
+      title={title}
+      referrerPolicy="strict-origin-when-cross-origin"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+    >
+    </ResponsiveIFrame>
   );
 }
