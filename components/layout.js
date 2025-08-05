@@ -255,6 +255,25 @@ export function ClientPics({ wide }) {
   );
 }
 
+export function ResponsiveIFrame({
+  src,
+  allow,
+  referrer,
+  className = 'w-full aspect-video',
+  title = 'Embedded content',
+}) {
+  return (
+    <iframe
+      className={className}
+      src={src}
+      title={title}
+      referrerPolicy={referrer}
+      allow={allow}
+      allowFullScreen
+    />
+  );
+}
+
 /**
  * Extract a YouTube video ID from any of these formats:
  *  - https://www.youtube.com/watch?v=VIDEO_ID
