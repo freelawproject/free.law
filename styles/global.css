@@ -27,6 +27,12 @@
 
 @tailwind utilities;
 
+@layer utilities {
+    .centered-row {
+        @apply flex justify-center items-center gap-2 flex-wrap;
+    }
+}
+
 .left-image {
     float: left;
     display: table;

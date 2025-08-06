@@ -14,9 +14,11 @@ imagePath: "/images/banners/blue-sky.jpeg (aim for 1200×630)"
 
 <p className="lead">Some stuff here</p>
 
-Then just write markdown
+Then just write markdown. You can learn more about it [here][markdown-help].
 
-<CaptionedImage 
+[markdown-help]: https://www.courtlistener.com/help/markdown/
+
+<CaptionedImage
   imgProps={{
     "src": "/images/zapier/flow-1.png",
     "alt": "A screenshot of the first flow on Zapier.com",
@@ -28,14 +30,47 @@ Then just write markdown
 
 <div className="left-image or right-image">
     <img src="/images/recap_r-150x150.png"
-         alt="RECAP Logo"
-         className="img-responsive"/>
+         alt="RECAP Logo"/>
 </div>
 
-<p className="text-center">
+Use the `centered-row` class to include multiple elements in a row:
+
+<p className="centered-row">
   <PurpleButton href="https://www.courtlistener.com/help/api/webhooks/" size="lg">Learn More</PurpleButton>
   <PurpleButton href="https://www.courtlistener.com/help/api/webhooks/getting-started/" size="lg">Get Started</PurpleButton>
 </p>
 
+## Need more?
 
-Some useful bits can be found in widgets.js or buttons.js.
+Some useful bits can be found in `widgets.js`, `layout.js` or `buttons.js` to spruce up your posts.
+
+### Embedding YouTube videos
+
+For example, easily embed YouTube videos using a standard link like this:
+
+<YouTubeVideo src="https://www.youtube.com/watch?v=NdfuLlcL1CU"/>
+
+**Please note**: To ensure the video looks good in any screen size, always use `<YouTubeVideo ... />` instead of the code provided by YouTube in **Share > Embed**.
+
+If you need the video to start at a given time, you will need to use the URL provided by YouTube's embed feature,
+but instead of copying the full `<iframe ...` code snippet, simply copy the full URL that comes after `src=`
+
+<p className="centered-row">
+  <img src="/images/example/youtube-embed-link.png"
+       alt="Screenshot of embed link"
+       className="w-96"/>
+</p>
+
+The video now starts at 00:42
+
+<YouTubeVideo src="https://www.youtube.com/embed/NdfuLlcL1CU?si=ybZWg1Bce_W34IXo&amp;start=42"/>
+
+### Embedding other content
+
+<ResponsiveIFrame
+  className="h-[560px] w-full"
+  src="https://www.courtlistener.com/visualizations/scotus-mapper/962/embed/?dos=2&type=spaeth&xaxis=time"
+></ResponsiveIFrame>
+
+**Pro tip**: You can tweak the height by changing `h-[560px]` to whatever value you need.
+Likewise, `w-full` makes it span the entire width, but you can change this to `w-[100px]` or any other value to resize the embedded content.

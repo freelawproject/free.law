@@ -32,6 +32,9 @@ module.exports = {
       },
     },
     extend: {
+      spacing: {
+        140: '560px',
+      },
       backgroundImage: {
         imgScotus: "url('/images/homepage/scotus-hero.jpeg')",
         imgJudgeHr: "url('/images/homepage/judge-hr.jpeg')",

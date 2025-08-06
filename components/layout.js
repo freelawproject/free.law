@@ -254,3 +254,51 @@ export function ClientPics({ wide }) {
     </PicGrid>
   );
 }
+
+export function ResponsiveIFrame({
+  src,
+  allow,
+  referrer,
+  className = 'w-full aspect-video',
+  title = 'Embedded content',
+}) {
+  return (
+    <iframe
+      className={className}
+      src={src}
+      title={title}
+      referrerPolicy={referrer}
+      allow={allow}
+      allowFullScreen
+    />
+  );
+}
+
+/**
+ * Extract a YouTube video ID from any of these formats:
+ *  - https://www.youtube.com/watch?v=VIDEO_ID
+ *  - https://youtu.be/VIDEO_ID
+ *  - https://www.youtube.com/VIDEO_ID
+ */
+function extractYouTubeID(url) {
+  const regex =
+    /https?:\/\/(?:www\.)?youtu(?:be\.com\/watch\?v=|\.be\/)([\w\-_]*)(&(amp;)?[\w?=]*)?/;
+  const match = url.match(regex);
+  return match ? match[1] : null;
+}
+
+export function YouTubeVideo({src, title = 'YouTube video player'}) {
+  const videoID = extractYouTubeID(src);
+  const embedUrl = videoID
+    ? `https://www.youtube.com/embed/${videoID}`
+    : src;
+  return (
+    <ResponsiveIFrame
+      src={embedUrl}
+      title={title}
+      referrerPolicy="strict-origin-when-cross-origin"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+    >
+    </ResponsiveIFrame>
+  );
+}
