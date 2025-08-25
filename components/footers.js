@@ -46,7 +46,7 @@ export function Footer({ recentPost }) {
             <FooterLink href={recentPost.id}>Our Latest Post</FooterLink>
             <FooterLink href="https://donate.free.law/np/clients/freelawproject/subscribe.jsp?subscription=9">
               Join our Newsletter</FooterLink>
-            <FooterLink href="/librarians/">CourtListener Feature Guide
+            <FooterLink href="/librarians/">Librarian Guide
             </FooterLink>
           </div>
         </div>
