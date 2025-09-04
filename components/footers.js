@@ -43,11 +43,10 @@ export function Footer({ recentPost }) {
             <H5>Engage</H5>
             <FooterLink href="/blog/">Read the Blog</FooterLink>
             <FooterLink href="/startups/">How We Work with Startups</FooterLink>
+            <FooterLink href="/librarians/">Librarian Guide</FooterLink>
             <FooterLink href={recentPost.id}>Our Latest Post</FooterLink>
             <FooterLink href="https://donate.free.law/np/clients/freelawproject/subscribe.jsp?subscription=9">
               Join our Newsletter</FooterLink>
-            <FooterLink href="/librarians/">Librarian Guide
-            </FooterLink>
           </div>
         </div>
 
