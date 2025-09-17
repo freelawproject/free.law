@@ -289,7 +289,7 @@ export default function Home({ allPostsData }) {
             </div>
             <div className="w-full pt-3 pb-5">
               <H3 textColor="text-gray-100">
-                Our bots will send case updates to Slack, Discord, MS Teams, Google Chat, Twitter or
+                Our bots will send case updates to Slack, Discord, MS Teams, Google Chat, Bluesky or
                 Mastodon. You choose the cases. The bots keep you posted.
               </H3>
             </div>
@@ -313,7 +313,7 @@ export default function Home({ allPostsData }) {
               >
                 <p>
                   The Big Cases bot follows the most important cases in the country and posts
-                  updates on Twitter and Mastodon.
+                  updates on Bluesky and Mastodon.
                 </p>
               </GridListItem>
               <GridListItem
@@ -323,7 +323,7 @@ export default function Home({ allPostsData }) {
                 href="https://bots.law/little-cases/"
               >
                 <p>
-                  Create and maintain your own bot for Twitter or Mastodon that sends updates about
+                  Create and maintain your own bot for Bluesky or Mastodon that sends updates about
                   cases you think the public should be following.
                 </p>
               </GridListItem>
