@@ -1,5 +1,5 @@
 ---
-title: "Citator Expert Annotation Project: A Status Update"
+title: "Citator Expert Annotation Project: A Status Update and Call for Help"
 date: "2025-09-30"
 tags:
  - "Free Law Project"
@@ -13,11 +13,27 @@ excerpt: "With an overwhelming response from the legal community, we're in the h
 
 ---
 
-<p className="lead">A few months ago, we put out a call for help with the Citator Expert Annotation Project—asking legal experts to contribute their knowledge in creating the dataset that will power the first open-source AI legal citator and create the first open-source benchmark dataset of its kind. The response blew us away! Legal professionals from all over have contributed their expertise, and thanks to this incredible support from the community, we're now in the home stretch to get this exciting project over its finish line.</p>
+<p className="lead">A few months ago, we put out <a href="/2025/06/04/citator-annotation-volunteer/">a call for volunteers</a> with the Citator Expert Annotation Project. We asked legal experts to contribute their knowledge so that we can create a benchmark dataset to grade AI citators.</p>
+
+The response blew us away! Legal professionals from all over have contributed their expertise, and thanks to this incredible support from the community, we're now in the home stretch to get this exciting project over the finish line.
+
+
+## Annotation Status Update
+
+Since we put out the call, nearly 80 legal professionals have reached out wanting to help and we are extremely lucky to have 30 highly experienced experts diligently reading case laws and identifying negative treatments. These legal experts are legal librarians, practicing lawyers, and court clerks with extensive legal research and analysis experience, and we cannot thank them enough!
+
+We kicked things off with Supreme Court cases. This seemed like the logical place to start given SCOTUS's authority and the likelihood of finding negative treatments in their opinions. So far, our volunteers have worked through more than 180 SCOTUS cases, analyzing over 7,600 citations spanning different years and areas of law.
+
+Here's where we stand: For the benchmark to be reliable, we need each case to be read at least twice to ensure that the two reviewers are in agreement. We're about 70% done with the second round of annotations for SCOTUS cases. A third round to break ties is already underway. A tie is broken when the first two experts disagree on a treatment and a third expert steps in to make the final call. 
+
+To date, we've got close to 4,000 citations from nearly 100 SCOTUS cases that have been through multiple rounds of expert review and now have final treatments assigned.
+
+But we're not stopping at SCOTUS. We've expanded into federal appellate and district courts, state courts, and bankruptcy courts. About 1,000 citations from over 30 federal court cases have completed their first round of annotations, along with nearly 300 citations from 10 state court cases. The rest are in progress, with second-round reviews moving forward as we speak.
+
 
 ## Defining the Treatment
 
-When defining the treatments, we dug into academic research, looked at the existing commercial Citators in the market, and connected with legal researchers who specialized in this exact area. 
+When defining the treatments, we dug into academic research, looked at the existing commercial Citators in the market, and connected with legal researchers who specialized in this area. 
 
 We ultimately created the below treatment matrix, breaking the treatments down by severity and by case history. Direct history are for cases that belong to the same appellate chain while citing references are for those do not belong to the same appellate chain.
 
@@ -31,21 +47,10 @@ We ultimately created the below treatment matrix, breaking the treatments down b
 >**Image:** Free Law Project Citator Treatments.</CaptionedImage>
 </span>
 
-We intentionally focused exclusively on negative treatments as our citator is designed to flag the stuff you really want to be cautious about—the cases that have been questioned, criticized, or overruled. But here's the thing: legal analysis isn't always black and white. Two lawyers can look at the same citation and disagree on how to characterize it. That's why we added an "Ambiguous" category for those edge cases where even our experts couldn't reach consensus. Furthermore, every citation is reviewed by at least two volunteers to minimize bias.
+We intentionally focused exclusively on negative treatments, as our citator is designed to flag cases you really want to be cautious about—those that have been questioned, criticized, or overruled. But here's the thing: legal analysis isn't always black and white. Two lawyers can look at the same citation and disagree on how to characterize it. That's why we added an "Ambiguous" category for those edge cases where even our experts couldn't reach consensus. Furthermore, every citation is reviewed by at least two volunteer attorneys to minimize bias.
 
-We also included an "Unverifiable" category for situations where our AI model can't make a confident call or when its prediction lacks solid supporting evidence. We want to flag uncertainty than to mislead!
+We also included an "Unverifiable" category for situations where our AI model can't make a confident call or when its prediction lacks solid supporting evidence. We want to flag uncertainty, rathat than mislead.
 
-## Annotation Status Update
-
-Since we put out the call, nearly 80 legal professionals have reached out wanting to help and we are extremely lucky to have 30 highly experienced experts diligently reading case laws and identifying negative treatments within for the past few months. These legal experts are legal librarians, lawyers, counsels, and court clerks with extensive legal research and analysis experience, and we cannot thank them enough!
-
-We kicked things off with Supreme Court cases—seemed like the logical place to start given SCOTUS's authority and the likelihood of finding negative treatments in their opinions. So far, our volunteers have worked through more than 180 SCOTUS cases, analyzing over 7,600 citations spanning different years and areas of law.
-
-Here's where we stand: We're about 70% done with the second round of annotations for these SCOTUS cases, and the third tie-breaker round is already underway. The tie-breaker round happens when the first two experts disagree on a treatment and a third expert steps in to make the final call. 
-
-To date, we've got close to 4,000 citations from nearly 100 SCOTUS cases that have been through multiple rounds of expert review and now have final treatments assigned.
-
-And we're not stopping at SCOTUS. We've expanded into federal appellate and district courts, state courts, and bankruptcy courts. About 1,000 citations from over 30 federal court cases have completed their first round of annotations, along with nearly 300 citations from 10 state court cases. The rest are in progress, with second-round reviews moving forward as we speak.
 
 ## Looking Ahead to the Finish Line
 
@@ -53,7 +58,7 @@ We're now in the final stretch, and we couldn't have gotten here without the inc
 
 This isn't just about powering the first open-source AI legal citator (though that's pretty huge and we are very excited about it), this will also create the first open-source benchmark dataset of its kind—a resource that will benefit researchers, developers, and legal tech innovators for years to come.
 
-But we're not quite there yet. We need your help to cross the finish line.
+**But we're not quite there yet. We need your help to cross the finish line.**
 
 If you're a legal professional with research experience and want to be part of this groundbreaking project, we'd love to have you. Fill out our [Google form]((https://docs.google.com/forms/d/1DBtOGFmhfuPn7BixAvuzlqo7h3Gbb5P8Z9nOTDJD2PU/edit)) and let us know your availability—we're happy to work with your schedule. Whether you can contribute a few hours or a few dozen, every bit helps. And as a small token of our appreciation, we're raffling off merch credits to our volunteers throughout the project!
 
