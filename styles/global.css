@@ -31,6 +31,9 @@
     .centered-row {
         @apply flex justify-center items-center gap-2 flex-wrap;
     }
+    .prose :where(blockquote):not(:where([class~="not-prose"] *)) {
+        font-style: normal;
+    }
 }
 
 .left-image {
