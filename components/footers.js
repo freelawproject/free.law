@@ -2,10 +2,11 @@ import Image from 'next/image';
 import Link from 'next/link';
 import { H5 } from './headings';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faGithub, faMastodon, faTwitter } from '@fortawesome/free-brands-svg-icons';
+import { faGithub, faMastodon } from '@fortawesome/free-brands-svg-icons';
 import { FooterLink } from './button';
 import { faCircle, faNewspaper } from '@fortawesome/free-solid-svg-icons';
 import { MainFullBleedColumn } from './layout';
+import { BlueskyLogo } from './widgets';
 
 export function Footer({ recentPost }) {
   return (
@@ -131,15 +132,9 @@ export function Colophon() {
         </div>
         <div className="w-full sm:w-3/5">
           <p className="flex flex-row justify-center sm:justify-end gap-6 pt-6 sm:pt-0">
-            <Link href="https://twitter.com/freelawproject">
-              <a>
-                <FontAwesomeIcon
-                  icon={faTwitter}
-                  className="w-8 text-gray-400"
-                  mask={faCircle}
-                  inverse
-                  transform="shrink-6"
-                />
+            <Link href="https://bsky.app/profile/free.law">
+              <a className="text-gray-400 w-8 h-8">
+                <BlueskyLogo></BlueskyLogo>
               </a>
             </Link>
             <Link href="https://law.builders/@flp">

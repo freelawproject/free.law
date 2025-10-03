@@ -176,3 +176,22 @@ export function Spinner({ extraClasses }) {
   return (
     <div className={classes}></div>);
 }
+
+/**
+ *  FontAwesome doesn't have an official Bluesky Logo, so we use a React component to
+ *  insert the svg directly without an `<img>` tag, thus enabling color customization.
+ *  */
+export function BlueskyLogo() {
+  return (<svg
+    xmlns="http://www.w3.org/2000/svg"
+    shapeRendering="geometricPrecision"
+    textRendering="geometricPrecision"
+    imageRendering="optimizeQuality"
+    fillRule="evenodd"
+    clipRule="evenodd"
+    viewBox="0 0 512 512"
+    fill="currentColor"
+  >
+    <path d="M256 0c141.385 0 256 114.615 256 256S397.385 512 256 512 0 397.385 0 256 114.615 0 256 0zm-72.224 158.537c29.233 22.022 60.681 66.666 72.223 90.624 11.543-23.958 42.993-68.602 72.225-90.624 21.097-15.886 55.276-28.181 55.276 10.937 0 7.809-4.464 65.631-7.084 75.02-9.1 32.629-42.271 40.953-71.774 35.917 51.572 8.805 64.69 37.97 36.357 67.136-53.809 55.394-77.341-13.898-83.366-31.653-1.737-5.111-1.489-5.228-3.267 0-6.026 17.755-29.555 87.047-83.364 31.653-28.334-29.166-15.216-58.331 36.356-67.136-29.503 5.036-62.674-3.288-71.774-35.917-2.62-9.389-7.084-67.211-7.084-75.02 0-39.118 34.183-26.823 55.276-10.937z" fill="currentColor"/>
+  </svg>);
+}
