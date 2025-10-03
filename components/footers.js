@@ -42,6 +42,7 @@ export function Footer({ recentPost }) {
 
           <div className="pb-3">
             <H5>Engage</H5>
+            <FooterLink href="/membership/">Membership</FooterLink>
             <FooterLink href="/blog/">Read the Blog</FooterLink>
             <FooterLink href="/startups/">How We Work with Startups</FooterLink>
             <FooterLink href="/librarians/">Librarian Guide</FooterLink>
