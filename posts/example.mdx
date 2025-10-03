@@ -18,6 +18,10 @@ Then just write markdown. You can learn more about it [here][markdown-help].
 
 [markdown-help]: https://www.courtlistener.com/help/markdown/
 
+### Adding an image
+
+The syntax for adding an image is:
+
 <CaptionedImage
   imgProps={{
     "src": "/images/zapier/flow-1.png",
@@ -27,22 +31,27 @@ Then just write markdown. You can learn more about it [here][markdown-help].
   border="border border-gray-400"
 >A screenshot of the first flow on Zapier.com.</CaptionedImage>
 
+Or:
 
 <div className="left-image or right-image">
     <img src="/images/recap_r-150x150.png"
          alt="RECAP Logo"/>
 </div>
 
-Use the `centered-row` class to include multiple elements in a row:
+Images should always be scaled to at most 688px wide. Any more than that will just make them bigger and slower to download. 
+
+After an image is merged, there's a bot that comes around eventually and optimizes it to make it download even faster.
+
+
+### Centering buttons and other things
+
+You can use the `centered-row` class to include multiple elements in a row:
 
 <p className="centered-row">
   <PurpleButton href="https://www.courtlistener.com/help/api/webhooks/" size="lg">Learn More</PurpleButton>
   <PurpleButton href="https://www.courtlistener.com/help/api/webhooks/getting-started/" size="lg">Get Started</PurpleButton>
 </p>
 
-## Need more?
-
-Some useful bits can be found in `widgets.js`, `layout.js` or `buttons.js` to spruce up your posts.
 
 ### Embedding YouTube videos
 
@@ -65,6 +74,7 @@ The video now starts at 00:42
 
 <YouTubeVideo src="https://www.youtube.com/embed/NdfuLlcL1CU?si=ybZWg1Bce_W34IXo&amp;start=42"/>
 
+
 ### Embedding other content
 
 <ResponsiveIFrame
@@ -74,3 +84,8 @@ The video now starts at 00:42
 
 **Pro tip**: You can tweak the height by changing `h-[560px]` to whatever value you need.
 Likewise, `w-full` makes it span the entire width, but you can change this to `w-[100px]` or any other value to resize the embedded content.
+
+
+### Need more?
+
+Some useful bits can be found in `widgets.js`, `layout.js` or `buttons.js` to spruce up your posts.
