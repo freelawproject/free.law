@@ -133,7 +133,7 @@ export function Colophon() {
         <div className="w-full sm:w-3/5">
           <p className="flex flex-row justify-center sm:justify-end gap-6 pt-6 sm:pt-0">
             <Link href="https://bsky.app/profile/free.law">
-              <a className="text-gray-400 w-8 h-8">
+              <a className="text-gray-400 hover:text-gray-500 w-8 h-8">
                 <BlueskyLogo></BlueskyLogo>
               </a>
             </Link>
@@ -141,7 +141,7 @@ export function Colophon() {
               <a rel="me">
                 <FontAwesomeIcon
                   icon={faMastodon}
-                  className="w-8 text-gray-400"
+                  className="w-8 text-gray-400 hover:text-gray-500"
                   mask={faCircle}
                   inverse
                   transform="shrink-6"
@@ -152,7 +152,7 @@ export function Colophon() {
               <a>
                 <FontAwesomeIcon
                   icon={faNewspaper}
-                  className="w-8 text-gray-400"
+                  className="w-8 text-gray-400 hover:text-gray-500"
                   mask={faCircle}
                   inverse
                   transform="shrink-6"
@@ -161,7 +161,7 @@ export function Colophon() {
             </Link>
             <Link href="https://github.com/freelawproject/">
               <a>
-                <FontAwesomeIcon icon={faGithub} className="w-8 text-gray-400" />
+                <FontAwesomeIcon icon={faGithub} className="w-8 text-gray-400 hover:text-gray-500" />
               </a>
             </Link>
           </p>
