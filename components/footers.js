@@ -98,6 +98,7 @@ export function Footer({ recentPost }) {
             <FooterLink href="/donate/matching-gifts/">Double Your Donation</FooterLink>
             <FooterLink href="/sponsors/">Current Sponsors</FooterLink>
             <FooterLink href="/become-a-sponsor/">Become a Sponsor</FooterLink>
+            <FooterLink href="/volunteer/">Volunteer</FooterLink>
             <FooterLink href="/donate/other-ways/">Other Ways to Help</FooterLink>
             <p className="pb-2 sm:pb-3 md:pb-4 text-gray-500">
               <Link href="/stickers/">
