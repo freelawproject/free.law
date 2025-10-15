@@ -58,7 +58,7 @@ export function Footer({ recentPost }) {
             <FooterLink href="https://www.courtlistener.com/help/api/replication/">
               Database Replication
             </FooterLink>
-            <FooterLink href="/open-source-tools/">Open Source Tools</FooterLink>
+            <FooterLink href="/open-source-tools">Open Source Tools</FooterLink>
             <FooterLink href="https://github.com/freelawproject/">
               <span className="hidden lg:inline">Other </span> Projects on Github
             </FooterLink>
