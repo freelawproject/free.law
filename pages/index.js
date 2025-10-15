@@ -108,7 +108,7 @@ export default function Home({ allPostsData }) {
               <GridListItem
                 border={true}
                 heading="X-Ray Redaction Detector"
-                href="/open-source-tools#x-ray/"
+                href="/open-source-tools#x-ray"
               >
                 <p>
                   Bad redactions reveal client secrets. X-Ray can help find bad redactions at scale,
