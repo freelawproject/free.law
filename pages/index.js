@@ -408,7 +408,7 @@ export default function Home({ allPostsData }) {
                   src: '/images/icons/eyecite.svg',
                   alt: 'Eyecite logo',
                 }}
-                href="/open-source-tools#eyecite/"
+                href="/open-source-tools#eyecite"
               >
                 <p>
                   Eyecite uses our database of thousands of reporters to find even the most esoteric
