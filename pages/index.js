@@ -394,7 +394,7 @@ export default function Home({ allPostsData }) {
                   src: '/images/icons/juriscraper.svg',
                   alt: 'Juriscraper logo',
                 }}
-                href="/open-source-tools#juriscraper/"
+                href="/open-source-tools#juriscraper"
               >
                 <p>
                   Juriscraper is a scraping library written in Python that gathers data from
