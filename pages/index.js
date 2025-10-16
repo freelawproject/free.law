@@ -108,7 +108,7 @@ export default function Home({ allPostsData }) {
               <GridListItem
                 border={true}
                 heading="X-Ray Redaction Detector"
-                href="/projects/x-ray/"
+                href="/open-source-tools#x-ray"
               >
                 <p>
                   Bad redactions reveal client secrets. X-Ray can help find bad redactions at scale,
@@ -394,7 +394,7 @@ export default function Home({ allPostsData }) {
                   src: '/images/icons/juriscraper.svg',
                   alt: 'Juriscraper logo',
                 }}
-                href="/projects/juriscraper/"
+                href="/open-source-tools#juriscraper"
               >
                 <p>
                   Juriscraper is a scraping library written in Python that gathers data from
@@ -408,7 +408,7 @@ export default function Home({ allPostsData }) {
                   src: '/images/icons/eyecite.svg',
                   alt: 'Eyecite logo',
                 }}
-                href="/projects/eyecite/"
+                href="/open-source-tools#eyecite"
               >
                 <p>
                   Eyecite uses our database of thousands of reporters to find even the most esoteric

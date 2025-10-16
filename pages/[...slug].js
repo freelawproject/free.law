@@ -98,9 +98,7 @@ export default function Post({ postData, allPostsData }) {
                 financial disclosures
               </a>
               , and <a href="https://www.courtlistener.com/audio/">oral arguments</a>. We build
-              open‑source tools like <a href="/projects/eyecite">eyecite</a>,{' '}
-              <a href="/projects/juriscraper/">juriscraper</a>, and{' '}
-              <a href="/projects/x-ray/">x-ray</a>.
+              <a href="/open-source-tools">open source tools</a> like eyecite, juriscraper, and x-ray.
             </p>
             <p>We rely on your donations for our continued success.</p>
             <p>
