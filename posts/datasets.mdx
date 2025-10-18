@@ -1,0 +1,263 @@
+---
+title: Legal Data Resources
+type: page
+---
+
+
+<p className="lead">We are committed to building complete, reliable, and permanent sources of legal data. In service to this mission, we have a large and growing archive of datasets.</p>
+
+<h2 id="case-law-db">Case Law Database</h2>
+
+<RightImage imgProps={{
+    "src": "/images/homepage/full-color-no-free-dot-law.svg",
+    "alt": "CourtListener logo",
+}} height="h-auto"/>
+
+<p className="lead">Courtlistener has one of the most [comprehensive collections][clc] of American legal jurisprudence on the Internet.</p>
+
+Our database encompasses more than 99% of all precedential legal case law published in the United States. We have over nine million decisions from over 2,000 courts, and we gather more opinions from state and federal courts every day.
+
+Our data is sourced from a wide range of institutions and organizations, including Resource.org, the [Supreme Court Database][scdb], Columbia, Harvard, and the Law Library of Congress, among others. We also [partner with courts][part] to enable direct publishing of case law.
+
+To ensure that our users have access to the most recent case law, we collect case law as it is released by the courts. This technology allows us to continuously update and expand our database, providing users with the most current legal case law available the moment it happens.
+
+While we emphasize quantity, we also prioritize quality. Our team constantly is working to improve each and every decision, and has used machine learning and human resources to make over a million corrections and enhancements to other datasets.
+
+<div className="text-center">
+<PurpleButton href="https://www.courtlistener.com/help/coverage/opinions/" size="lg">Learn More</PurpleButton>
+</div>
+
+
+<h2 id="recap-archive-db">RECAP Archive Database</h2>
+
+<RightImage imgProps={{
+    "src": "/images/icons/recap.svg",
+    "alt": "RECAP logo",
+}} height="h-auto"/>
+
+<p className="lead">The RECAP Archive is the biggest open collection of federal court data on the Internet.</p>
+
+It contains hundreds of millions of docket entries, nearly every federal case, and millions of documents. It grows by thousands of documents each day.
+
+The data in RECAP is collected from many different sources. A significant source is more than 30,000 people that have installed the [RECAP Extension][r] in their browser. As they use PACER, the extension sends copies of their purchases to RECAP.
+
+People that receive ECF notification emails from PACER can use the [@recap.email system][res] to seamlessly add documents to the RECAP Archive.
+
+We host a [free API that organizations use to gather content from PACER][fetch]. We also scrape PACER documents, crawl federal district court RSS feeds, and scrape metadata for District and Bankruptcy cases.
+
+Additionally, Free Law Project consults with organizations to gather PACER data. In these arrangements, we purchase thousands of items from PACER, which we add to the archive for all to access.
+
+<div className="text-center">
+<PurpleButton href="https://www.courtlistener.com/help/coverage/recap/" size="lg">Learn More</PurpleButton>
+</div>
+
+
+<h2 id="judges-db">Judge and Disclosure Database</h2>
+
+<RightImage imgProps={{
+    "src": "/images/icons/judge-db.svg",
+    "alt": "Judge database logo",
+}} height="h-auto"/>
+
+<p className="lead">For the benefit of researchers, practitioners, and the public we are proud to host a comprehensive structured database of judges and their financial interests.</p>
+
+The database contains information about more than sixteen thousand state and federal judges, making it a treasure trove for those wishing to do judicial analytics. This data has been sourced from books, court websites, commercial data sources, public records requests, and federal financial disclosure forms.
+
+Information currently includes biographical data about each person, their financial disclosure records, the roles they have held before, during and after their time in the judicial branch, their political affiliations, their education, and any retention events that kept them in a judicial position (such as a reappointment).
+
+The financial disclosure information is a one-of-a-kind resource that we built by processing over 250,000 pages of disclosure forms. It has information about:
+
+ - Over 1.7 million investment records.
+
+ - Around 14,000 sources of income outside of regular investments.
+
+ - More than 1,900 gifts received by federal judges.
+
+This collection was used by the *Wall Street Journal* in their [groundbreaking series on judicial conflicts of interest][wsj].
+
+In 2023, ProPublica utilized this dataset for an investigation into the Supreme Court, which led to their winning the Pulitzer Prize. The Pulitzer committee [praised][propublica] ProPublica's "groundbreaking and ambitious reporting that pierced the thick wall of secrecy surrounding the Supreme Court." 
+
+We hope this database, its APIs, and its bulk data will be valuable tools for practitioners and researchers across the country.
+
+Free Law Project created this project with support from and in collaboration with [Pre/Dicta][pd], [Justia][j], [Elliott Ash][e] of Princeton University, the National Science Foundation, and the John S. and James L. Knight Foundation.
+
+
+### What's next?
+
+The database is a constant work in progress, and we are regularly adding more judges and financial information. [We need your support to do more of this work][d].
+
+To learn more about this data, or to get involved, please get in touch or see the related blog posts.
+
+<div className="grid grid-cols-1 sm:grid-cols-3 gap-4">
+    <PurpleButton href="https://www.courtlistener.com/person/">Search for a Judge</PurpleButton>
+    <PurpleButton href="https://www.courtlistener.com/financial-disclosures/">Search Financial Records</PurpleButton>
+    <PurpleButton href="https://www.courtlistener.com/api/bulk-info/">Download Bulk Data</PurpleButton>
+</div>
+
+
+<h2 id="reporters-db">Reporters Database</h2>
+
+<RightImage imgProps={{
+  src: "/images/icons/reporters-db.svg",
+  alt: "Reporters Database logo"
+  }} height="h-32" width="w-1/4"/>
+
+<p className="lead">Our Reporters Database is a Python library or JSON file that provides structured information about nearly every American legal reporter.</p>
+
+The database can be used in a variety of tools. For example, we use the Reporters Database to [extract citations from text][ec], and to look them up in our database.
+
+In the Reporters Database, you will find information about nearly 1,000 different reporters dating from 1754 to today. For each reporter, we have researched and provide structured information such as the date it began and ended, its official abbreviation, and any other variations that we've found while parsing over fifty million legal citations.
+
+We believe that with the exception of niche, small, regional reporters, this database is complete and ready for production.
+
+The Reporters Database is written in Python, but is available as JSON or can easily be extended to other languages.
+
+<div className="text-center">
+    <PurpleButton href="https://github.com/freelawproject/reporters-db" size="lg">Read More on Github</PurpleButton>
+</div>
+
+<h2 id="courts-db">Courts Database</h2>
+
+<RightImage imgProps={{
+  src: "/images/icons/courts-db.svg",
+  alt: "Court Database logo"
+}} height="h-32" width="w-1/4"/>
+
+<p className="lead">Our Courts Database is a Python library or JSON file that provides structured information about nearly every American court, past or present.</p>
+
+The database has two main purposes. The first is to provide a unified list of court names and identifiers to make legal tools more interoperable. Second, is to use regular expressions to normalize court names into those identifiers.
+
+Using this tool, you can take an unstructured string describing a court and convert it to an identifier you can trust.
+
+The Courts Database was tested against sixteen million court strings, has over 700 court identifiers, and uses over 2,100 hand-crafted regular expressions to do its work.
+
+The Courts Database is written in Python, but is available as JSON or can easily be extended to other languages.
+
+<div className="text-center">
+  <PurpleButton href="https://github.com/freelawproject/courts-db" size="lg">Read More on Github</PurpleButton>
+</div>
+
+<h2 id="court-seals-db">Court Seals Database and Service</h2>
+
+<RightImage imgProps={{
+  "src": "/images/scotus.png",
+  "alt": "Seal of the Supreme Court"
+}} height="h-24" width="w-24"/>
+
+<p className="lead">The Judicial Seals Repository is a small project to collect and organize all of the court seals in use in the United States. At present, it has approximately 250 seals.</p>
+
+This project can be useful if you need to display or look up the seal of a court. For example, at right you can see the seal of the Supreme Court.
+
+As of version 2.0, we provide these photos via a free scalable service. This saves you the trouble of hosting or maintaining the photos yourself. Of course, if you prefer to build your own system, the raw data is available in our git repository.
+
+To learn more about these seals, see their page on the [Python Package Index (PyPi)][pypi] or on Github.
+
+<div className="text-center">
+  <PurpleButton href="https://github.com/freelawproject/seal-rookery" size="lg">Read More on Github</PurpleButton>
+</div>
+
+<h2 id="judges-portraits">Judicial Portraits Database and Service</h2>
+
+<RightImage imgProps={{
+    "src": "/images/icons/judge-pics.svg",
+    "alt": "Judge portraits logo",
+}} height="h-auto"/>
+
+<p className="lead">Our database of judicial portraits is an open collection of meticulously cropped, edited, and organized photos of judges that can be dropped into websites or other applications.</p>
+
+With over 1,000 portraits of state and federal judges, this collection adds a visual element to many applications that straight data lacks.
+
+As of version 2.0, we provide these photos via a free scalable service. This saves you the trouble of hosting or maintaining the photos yourself. Of course, if you prefer to build your own system, the raw data is available in our git repository.
+
+This project has been supported by NSF Grant SES-1260875 and Pre/Dicta.
+
+<div className="text-center">
+    <PurpleButton href="https://github.com/freelawproject/judge-pics" size="lg">Read More on Github</PurpleButton>
+</div>
+
+<h2 id="oral-argument-db">Oral Argument Recording Archive</h2>
+
+<RightImage imgProps={{
+    "src": "/images/icons/oral-arguments.svg",
+    "alt": "Oral Arguments logo",
+}} height="h-auto"/>
+
+<p className="lead">Launched in 2014, our archive of oral argument recordings is the largest open collection of legal audio on the Internet.</p>
+
+This collection was created when we learned that federal circuit courts were deleting oral argument recordings from their websites due to lack of space. At the time, nobody was collecting this information, and it was going down a digital black hole.
+
+Federal circuit court oral arguments are historical documents that should not be deleted from the Internet. That's why in addition to collecting these files and saving them in our database, we also [upload them to the Internet Archive][ia].
+
+We also use AI to generate transcripts for all federal circuit court arguments just minutes after the audio is released by the courts, allowing users to search and set alerts for anything said in court including statutes, citations, and keywords.
+
+In addition:
+
+ - [We make every oral argument fully searchable][audio].
+
+ - [We make podcasts for every court and allow you to make custom podcasts][pods].
+
+ - We convert each audio file to an MP3, and we add good metadata and album art to the file.
+
+ - We support [alerts for oral argument files][alerts].
+
+ - The recordings are [available in our APIs][apis].
+
+Our collection of SCOTUS recordings goes back to 2013. Before that, we recommend the wonderful [Oyez Project][oyez], which has SCOTUS audio going back to 1955.
+
+This work has been possible in part thanks to a grant from Columbia University Library. If you find this work valuable, [please consider making a donation][d] so that it may continue to thrive.
+
+
+<div className="text-center">
+  <PurpleButton href="https://www.courtlistener.com/audio/" size="lg">Learn More</PurpleButton>
+</div>
+
+<h2 id="supreme-court-data">Supreme Court Data in Bulk and Via a REST API</h2>
+
+<RightImage imgProps={{
+    "src": "/images/icons/scotus-data.svg",
+    "alt": "Supreme Court Data logo",
+}} height="h-auto"/>
+
+<p className="lead">The Supreme Court is the most important court in the United States and for many years, we have worked to create the most complete and detailed collection of Supreme Court data possible.</p>
+
+In this task, we have combined many sources of data including the [Supreme Court Database][scb], the [opinions available on Resource.org][pro], [Library of Congress][loc], and downloads that we have [collected directly][js] from the [Supreme Court website][scotus]. All of this data has been carefully combined, fixing innumerable errors both manually and with automated systems.
+
+Some examples of the work we have completed so far includes:
+
+ - [We've Added Thousands More Citations to Historical Supreme Court Opinions](/2017/03/27/old-scotus-citations/)
+ - [CourtListener's SCOTUS Data Gets Even Better with Legacy Data from the Supreme Court Database](/2016/09/06/legacy-scdb/)
+ - [Updated Supreme Court Case Dates and The First Release of Early SCOTUS Data in Machine-Readable Form](/2011/05/25/updated-scotus-dates/)
+
+[Let us know][contact] if you have any ideas for improvement or questions we can help with.
+
+<div className="text-center">
+    <PurpleButton href="https://www.courtlistener.com/help/api/" size="lg">Check Out the Data</PurpleButton>
+</div>
+
+[alerts]: https://www.courtlistener.com/help/alerts/
+[apis]: https://www.courtlistener.com/api/rest-info/
+[audio]: https://www.courtlistener.com/audio/
+[clc]: https://www.courtlistener.com/help/coverage/opinions/
+[contact]: /contact/
+[d]: /donate/
+[e]: https://www.elliottash.com
+[ec]: /open-source-tools#eyecite
+[ia]: /2018/09/11/ia-upload-news
+[j]: https://www.justia.com
+[js]: /open-source-tools#juriscraper
+[loc]: /2011/05/25/updated-scotus-dates/
+[mag]: /2020/06/29/magistrate-and-bankr-judges/
+[oyez]: https://www.oyez.org
+[part]: https://free.law/2022/08/02/maine-supreme-and-tennessee-workers-comp/
+[pd]: https://www.pre-dicta.com/
+[pods]: https://www.courtlistener.com/podcasts/
+[pro]: https://law.resource.org/pub/us/case/reporter/US/
+[propublica]: https://www.propublica.org/article/pulitzer-prize-announcement-propublica-supreme-court
+[pypi]: https://pypi.python.org/pypi/seal_rookery
+[r]: https://free.law/recap/
+[res]: https://recap.email 
+[scdb]: http://scdb.wustl.edu/
+[scb]: /2014/12/21/scdb/
+[scotus]: http://www.supremecourt.gov/
+[wsj]: https://www.wsj.com/articles/131-federal-judges-broke-the-law-by-hearing-cases-where-they-had-a-financial-interest-11632834421/
+[fetch]: https://www.courtlistener.com/help/api/rest/v4/recap/#pacer-fetch
