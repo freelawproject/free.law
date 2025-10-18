@@ -13,9 +13,11 @@ type: page
     "alt": "CourtListener logo",
 }} height="h-auto"/>
 
-<p className="lead">Courtlistener has one of the most [comprehensive collections][clc] of American legal jurisprudence on the Internet. Our database encompasses more than 99% of all precedential legal case law published in the United States. We have over nine million decisions from over 2000 courts, and we gather more opinions from state and federal courts every day.</p>
+<p className="lead">Courtlistener has one of the most [comprehensive collections][clc] of American legal jurisprudence on the Internet.</p>
 
-Our data is sourced from a wide range of institutions and organizations, including Resource.org, the [Supreme Court Database][scdb], Columbia, Harvard, and the Law Library of Congress, among others. We also [partner with courts][part] throughout the United States to enable direct publishing of case law.
+Our database encompasses more than 99% of all precedential legal case law published in the United States. We have over nine million decisions from over 2,000 courts, and we gather more opinions from state and federal courts every day.
+
+Our data is sourced from a wide range of institutions and organizations, including Resource.org, the [Supreme Court Database][scdb], Columbia, Harvard, and the Law Library of Congress, among others. We also [partner with courts][part] to enable direct publishing of case law.
 
 To ensure that our users have access to the most recent case law, we collect case law as it is released by the courts. This technology allows us to continuously update and expand our database, providing users with the most current legal case law available the moment it happens.
 
@@ -25,6 +27,7 @@ While we emphasize quantity, we also prioritize quality. Our team constantly is 
 <PurpleButton href="https://www.courtlistener.com/help/coverage/opinions/" size="lg">Learn More</PurpleButton>
 </div>
 
+
 <h2 id="recap-archive-db">RECAP Archive Database</h2>
 
 <RightImage imgProps={{
@@ -32,19 +35,22 @@ While we emphasize quantity, we also prioritize quality. Our team constantly is 
     "alt": "RECAP logo",
 }} height="h-auto"/>
 
-<p className="lead">The RECAP Archive is the biggest open collection of federal court data on the Internet. It contains hundreds of millions of docket entries, nearly every federal case, and millions of documents. It grows by thousands of documents each day.</p>
+<p className="lead">The RECAP Archive is the biggest open collection of federal court data on the Internet.</p>
 
-The data in RECAP is collected from many different sources. A significant source of PACER data in CourtListener is the [RECAP Extension][r]. The RECAP Extension is a tool for your browser that is used by around 30,000 people. As you use PACER, the extension will send copies of your purchases to the RECAP Archive.
+It contains hundreds of millions of docket entries, nearly every federal case, and millions of documents. It grows by thousands of documents each day.
+
+The data in RECAP is collected from many different sources. A significant source is more than 30,000 people that have installed the [RECAP Extension][r] in their browser. As they use PACER, the extension sends copies of their purchases to RECAP.
 
 People that receive ECF notification emails from PACER can use the [@recap.email system][res] to seamlessly add documents to the RECAP Archive.
 
-We host free APIs that many organizations use to gather cases and documents from PACER. We also scrape PACER documents, crawl federal district court RSS feeds, and scrape metadata for District and Bankruptcy cases.
+We host a [free API that organizations use to gather content from PACER][fetch]. We also scrape PACER documents, crawl federal district court RSS feeds, and scrape metadata for District and Bankruptcy cases.
 
-Additionally, Free Law Project consults with organizations to gather PACER data. In these arrangements, we purchase thousands of items from PACER, which we add to the RECAP Archive.
+Additionally, Free Law Project consults with organizations to gather PACER data. In these arrangements, we purchase thousands of items from PACER, which we add to the archive for all to access.
 
 <div className="text-center">
 <PurpleButton href="https://www.courtlistener.com/help/coverage/recap/" size="lg">Learn More</PurpleButton>
 </div>
+
 
 <h2 id="judges-db">Judge and Disclosure Database</h2>
 
@@ -53,7 +59,7 @@ Additionally, Free Law Project consults with organizations to gather PACER data.
     "alt": "Judge database logo",
 }} height="h-auto"/>
 
-<p className="lead">For the benefit of researchers, practitioners, and the public we are proud to host a comprehensive and growing structured database of judges and their financial interests.</p>
+<p className="lead">For the benefit of researchers, practitioners, and the public we are proud to host a comprehensive structured database of judges and their financial interests.</p>
 
 The database contains information about more than sixteen thousand state and federal judges, making it a treasure trove for those wishing to do judicial analytics. This data has been sourced from books, court websites, commercial data sources, public records requests, and federal financial disclosure forms.
 
@@ -69,14 +75,14 @@ The financial disclosure information is a one-of-a-kind resource that we built b
 
 This collection was used by the *Wall Street Journal* in their [groundbreaking series on judicial conflicts of interest][wsj].
 
-In 2023, ProPublica utilized our dataset for an ambitious investigation into the Supreme Court, which led to their winning the prestigious public service Pulitzer Prize in 2024. The Pulitzer committee [praised][propublica] ProPublica's "groundbreaking and ambitious reporting that pierced the thick wall of secrecy surrounding the Supreme Court." This recognition underscores the critical importance of judicial transparency and the impact of our database in supporting investigative journalism.
+In 2023, ProPublica utilized this dataset for an investigation into the Supreme Court, which led to their winning the Pulitzer Prize. The Pulitzer committee [praised][propublica] ProPublica's "groundbreaking and ambitious reporting that pierced the thick wall of secrecy surrounding the Supreme Court." 
 
 We hope this database, its APIs, and its bulk data will be valuable tools for practitioners and researchers across the country.
 
 Free Law Project created this project with support from and in collaboration with [Pre/Dicta][pd], [Justia][j], [Elliott Ash][e] of Princeton University, the National Science Foundation, and the John S. and James L. Knight Foundation.
 
 
-## What's next?
+### What's next?
 
 The database is a constant work in progress, and we are regularly adding more judges and financial information. [We need your support to do more of this work][d].
 
@@ -87,6 +93,7 @@ To learn more about this data, or to get involved, please get in touch or see th
     <PurpleButton href="https://www.courtlistener.com/financial-disclosures/">Search Financial Records</PurpleButton>
     <PurpleButton href="https://www.courtlistener.com/api/bulk-info/">Download Bulk Data</PurpleButton>
 </div>
+
 
 <h2 id="reporters-db">Reporters Database</h2>
 
@@ -253,3 +260,4 @@ Some examples of the work we have completed so far includes:
 [scb]: /2014/12/21/scdb/
 [scotus]: http://www.supremecourt.gov/
 [wsj]: https://www.wsj.com/articles/131-federal-judges-broke-the-law-by-hearing-cases-where-they-had-a-financial-interest-11632834421/
+[fetch]: https://www.courtlistener.com/help/api/rest/v4/recap/#pacer-fetch
