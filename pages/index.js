@@ -206,7 +206,7 @@ export default function Home({ allPostsData }) {
               <GridListItem
                 heading="Deep Judge Data"
                 bg="bg-transparent"
-                href="/projects/judge-db/"
+                href="/datasets#judges-db"
               >
                 <p>
                   We are creating a groundbreaking database of American magistrates, judges, and
@@ -440,7 +440,7 @@ export default function Home({ allPostsData }) {
                   src: '/images/icons/reporters-db.svg',
                   alt: 'Reporter database logo',
                 }}
-                href="/projects/reporters-db/"
+                href="/datasets#reporters-db"
               >
                 <p>
                   Our database of reporters has information about more than 700 reporters, with more
@@ -454,7 +454,7 @@ export default function Home({ allPostsData }) {
                   src: '/images/icons/courts-db.svg',
                   alt: 'Courts database logo',
                 }}
-                href="/projects/courts-db/"
+                href="/datasets#courts-db"
               >
                 <p>
                   Tested on a dataset of 16 million opinions, this tool will help you identify any
@@ -468,7 +468,7 @@ export default function Home({ allPostsData }) {
                   src: '/images/icons/judge-db.svg',
                   alt: 'Judges database logo',
                 }}
-                href="/projects/judge-db/"
+                href="/datasets#judges-db"
               >
                 <p>
                   Financial disclosures, appointors, biographical data, schools, jobs, campaign
