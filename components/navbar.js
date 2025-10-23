@@ -18,7 +18,22 @@ import { RedButton, WhiteButton } from './button';
 import classNames from 'classnames';
 import { DropDownCallToAction } from './widgets';
 
-const projects = [
+const about = [
+  {
+    name: 'About Free Law Project',
+    href: '/about/',
+  },
+  {
+    name: 'Team',
+    href: '/team/',
+  },
+  {
+    name: 'Non-Profit Documents',
+    href: '/non-profit-documents/',
+  },
+];
+
+const tools = [
   {
     name: 'CourtListener.com',
     description: 'Our powerful legal research and awareness platform.',
@@ -26,8 +41,8 @@ const projects = [
     imgSrc: '/images/icons/medium-color-cl.svg',
   },
   {
-    name: 'The RECAP Extension',
-    description: "Help build the world's largest open collection of PACER filings. Save money too.",
+    name: 'RECAP Suite',
+    description: 'Help build the world's largest open collection of PACER filings. Save money too.',
     href: '/recap/',
     imgSrc: '/images/icons/medium-color-recap.svg',
   },
@@ -38,92 +53,72 @@ const projects = [
     href: 'https://bots.law/',
     imgSrc: '/images/icons/medium-color-bots.svg',
   },
+  {
+    name: 'Open Source Tools',
+    description:
+      'Our collection of open source tools for legal data and research needs.',
+    href: '/open-source-tools/',
+    imgSrc: 'placeholder',
+  },
 ];
 const callsToAction = [
   { name: 'Install RECAP', href: '/recap/', icon: DownloadIcon },
   { name: 'How to Help', href: '/donate/other-ways/', icon: FireIcon },
 ];
-const tools = [
+const data = [
   {
-    name: 'Legal APIs and Bulk Data',
+    name: 'Our Data Services',
     description:
       'Gather, monitor, and search state and federal court data, bankruptcy information, parties, opinions, judges, and more.',
-    href: 'https://www.courtlistener.com/api/',
+    href: 'https://www.courtlistener.com/help/api/',
+    imgSrc: '/logos/projects/v2/data-services.svg',
+  },
+  {
+    name: 'Legal APIs',
+    description:
+      'We have APIs for opinions, filings, judges, financial disclosures, and more.',
+    href: 'https://www.courtlistener.com/help/api/rest/',
     imgSrc: '/images/icons/apis.svg',
+  },
+    {
+    name: 'Bulk Data',
+    description:
+      'Our bulk data files provide large quantities of data from our case law, judge, financial disclosure, and oral argument databases.',
+    href: 'https://www.courtlistener.com/help/api/bulk-data/',
+    imgSrc: 'placeholder',
   },
   {
     name: 'Database Replication',
     description:
       'Our complete database updated in realtime to your server — All of our work under your roof.',
     href: 'https://www.courtlistener.com/api/replication/',
-    imgSrc: '/images/icons/replication.svg',
+    imgSrc: 'placeholder',
   },
-  {
-    name: 'Juriscraper',
-    description: 'Battle-hardened open source code to scrape PACER and state court websites.',
-    href: '/projects/juriscraper/',
-    imgSrc: '/images/icons/juriscraper.svg',
-  },
-  {
-    name: 'Eyecite',
+    {
+    name: 'Datasets',
     description:
-      'A robust and performant open source library to find and annotate citations in any legal text.',
-    href: '/projects/eyecite/',
-    imgSrc: '/images/icons/eyecite.svg',
-  },
-  {
-    name: 'X-Ray',
-    description: 'A fast and accuratetool to find worthless redactions in PDF files.',
-    href: '/projects/x-ray/',
-    imgSrc: '/images/icons/x-ray.svg',
-  },
-  {
-    name: 'Doctor',
-    description: 'Convert and extract documents and audio files at scale.',
-    href: '/projects/doctor/',
-    imgSrc: '/images/icons/doctor.svg',
-    icon_height: 'h-4',
+      'Our open datasets are some of the largest on the internet.',
+    href: '/datasets/',
+    imgSrc: 'placeholder',
   },
 ];
 
-const datasets = [
+const engage = [
   {
-    name: 'Judges and Disclosures',
-    description:
-      'A rich structured database of judges, their backgrounds, and their financial entanglements.',
-    href: '/projects/judge-db/',
-    imgSrc: '/images/icons/judge-db.svg',
+    name: 'How We Work with Startups',
+    href: '/startups/',
   },
   {
-    name: 'Reporter Database',
-    description:
-      'The metadata and abbreviations for nearly every written reporter in American history. The heart of any citation parser.',
-    href: '/projects/reporters-db/',
-    imgSrc: '/images/icons/reporters-db.svg',
+    name: 'Librarian Guide',
+    href: '/librarians/',
   },
   {
-    name: 'Court Data',
-    description: 'A collection of court metadata, standardized IDs, and parsers.',
-    href: '/projects/courts-db/',
-    imgSrc: '/images/icons/courts-db.svg',
+    name: 'Volunteer',
+    href: '/volunteer/',
   },
   {
-    name: 'Oral Argument Recording Archive',
-    description: 'The largest open collection of legal audio on the Internet.',
-    href: '/projects/oral-arguments/',
-    imgSrc: '/images/icons/oral-arguments.svg',
-  },
-  {
-    name: 'Judge Portraits',
-    description: 'Thousands of portraits of judges you can use in your projects.',
-    href: '/projects/judge-pics/',
-    imgSrc: '/images/icons/judge-pics.svg',
-  },
-  {
-    name: 'Supreme Court Data',
-    description: 'High quality data about Supreme Court opinions.',
-    href: '/projects/supreme-court-data/',
-    imgSrc: '/images/icons/scotus-data.svg',
+    name: 'Join our Newsletter',
+    href: 'https://donate.free.law/np/clients/freelawproject/subscribe.jsp?subscription=9',
   },
 ];
 
