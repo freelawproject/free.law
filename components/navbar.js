@@ -670,50 +670,50 @@ export default function Navbar({ allPosts }) {
                     </div>
                     <div className="grid grid-cols-1 gap-y-4">
                       <a
-                        href="/projects/juriscraper/"
+                        href="/open-source-tools#juriscraper"
                         className="text-base font-medium text-gray-900 hover:text-gray-700"
                       >
                         Juriscraper
                       </a>
                       <a
-                        href="/projects/eyecite/"
+                        href="/open-source-tools#eyecite"
                         className="text-base font-medium text-gray-900 hover:text-gray-700"
                       >
                         Eyecite
                       </a>
                       <a
-                        href="/projects/x-ray/"
+                        href="/open-source-tools#x-ray"
                         className="text-base font-medium text-gray-900 hover:text-gray-700"
                       >
                         X-Ray
                       </a>
                       {/* Restore this when balance can be created in the small screen navbar columns */}
                       {/*<a*/}
-                      {/*  href="/projects/reporters-db/"*/}
+                      {/*  href="/datasets#reporters-db"*/}
                       {/*  className="text-base font-medium text-gray-900 hover:text-gray-700"*/}
                       {/*>*/}
                       {/*  Reporters DB*/}
                       {/*</a>*/}
                       <a
-                        href="/projects/courts-db/"
+                        href="/datasets#courts-db"
                         className="text-base font-medium text-gray-900 hover:text-gray-700"
                       >
                         Court Data
                       </a>
                       <a
-                        href="/projects/judge-pics/"
+                        href="/datasets#judges-portraits"
                         className="text-base font-medium text-gray-900 hover:text-gray-700"
                       >
                         Judge Portraits
                       </a>
                       <a
-                        href="/projects/judge-db/"
+                        href="/datasets#judges-db"
                         className="text-base font-medium text-gray-900 hover:text-gray-700"
                       >
                         Judge Profiles
                       </a>
                       <a
-                        href="/projects/supreme-court-data/"
+                        href="/datasets#supreme-court-data"
                         className="text-base font-medium text-gray-900 hover:text-gray-700"
                       >
                         SCOTUS Data
