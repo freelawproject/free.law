@@ -20,6 +20,7 @@ import Button, {RedButton} from './button';
 import {H1} from './headings';
 import Date from './date';
 import {HeartIcon} from "@heroicons/react/outline";
+import presentations from '../lib/presentations.json';
 
 export function MainColumn({ children }) {
   return <div className="max-w-7xl mx-auto px-4 sm:px-6 md:px-10">{children}</div>;
@@ -58,6 +59,40 @@ export function PostSummary({ post }) {
         </Button>
       </p>
     </article>
+  );
+}
+
+export function PresentationList() {
+  return (
+    <>
+      {presentations.map((presentation) => (
+          <article className="py-8">
+            <p className="space-x-4 mb-3 uppercase text-sm font-semibold text-gray-500">
+              <Date dateString={presentation.date}/>
+            </p>
+            <H1 extraClasses="text-2xl mb-3 text-black">{presentation.title}</H1>
+            <ul>
+              {presentation.presenters.map((presenter) => (
+                <li className="space-x-2">
+                  <span className="text-black font-semibold">{presenter.name}</span>
+                  <span className="text-gray-500 text-sm">
+                      {presenter.role}
+                  </span>
+                </li>
+              ))}
+            </ul>
+            <p className="mt-1">{presentation.location}</p>
+            <p className="flex gap-2 flex-wrap sm:flex-row flex-col">
+              {presentation.buttons.map((button) => (
+                <Button href={button.url} extraClasses="text-gray-800 bg-white border border-gray-400">
+                  {button.label}
+                </Button>
+              ))}
+            </p>
+          </article>
+        ))
+      }
+    </>
   );
 }
 

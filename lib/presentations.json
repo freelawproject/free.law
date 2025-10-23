@@ -1,0 +1,505 @@
+[
+  {
+    "title": "From Citations to Citators: How AI is Reshaping Legal Research",
+    "location": "CALICon, Atlanta, GA",
+    "date": "2025-06",
+    "presenters": [
+      {
+        "name": "William Palin",
+        "role": "Case Law Lead"
+      },
+      {
+        "name": "Rachel Gao",
+        "role": "AI Developer"
+      },
+      {
+        "name": "Rebecca Fordon",
+        "role": "Moritz Law Library, The Ohio State University, and Free Law Project Board Member"
+      },
+      {
+        "name": "Jessica Frank",
+        "role": "Project Manager"
+      }
+    ],
+    "buttons": [
+      {
+        "url": "https://youtu.be/7EhZ8_w7l0Q",
+        "label": "Watch the video"
+      },
+      {
+        "url": "https://free.law/2025/06/24/calicon-2025",
+        "label": "Read the blog post"
+      }
+    ]
+  },
+  {
+    "title": "Open Law: How Open Source Technology, Neutral Citations, and PACER Reform Can Transform Access to Justice",
+    "location": "CALICon, Atlanta, GA",
+    "date": "2025-06",
+    "presenters": [
+      {
+        "name": "Jessica Frank",
+        "role": "Project Manager"
+      }
+    ],
+    "buttons": [
+      {
+        "url": "https://youtu.be/Sx2u44l01nQ",
+        "label": "Watch the video"
+      },
+      {
+        "url": "https://free.law/2025/06/24/calicon-2025",
+        "label": "Read the blog post"
+      }
+    ]
+  },
+  {
+    "title": "Meet the Absolute Heroes Behind CourtListener.com",
+    "location": "Opening Arguments Podcast",
+    "date": "2025-04",
+    "presenters": [
+      {
+        "name": "Michael Lissner",
+        "role": "Executive Director"
+      },
+      {
+        "name": "Thomas Smith",
+        "role": "Opening Arguments"
+      }
+    ],
+    "buttons": [
+      {
+        "url": "https://podcasts.apple.com/us/podcast/meet-the-absolute-heroes-behind-courtlistener-com/id1147092464?i=1000704422926",
+        "label": "Listen to the podcast"
+      }
+    ]
+  },
+  {
+    "title": "Harnessing AI for Smarter Case Tracking and Legal Research",
+    "location": "LITCon, Boston, MA",
+    "date": "2025-04",
+    "presenters": [
+      {
+        "name": "Rachel Gao",
+        "role": "AI Developer"
+      }
+    ],
+    "buttons": [
+      {
+        "url": "https://www.youtube.com/live/qHzcfhhvSVk?si=VJn1gvBleuMv47lg&t=1079",
+        "label": "Watch the video"
+      },
+      {
+        "url": "https://free.law/2025/04/10/litcon",
+        "label": "Read the blog post"
+      }
+    ]
+  },
+  {
+    "title": "Justice Through Collaboration: Why Courts Should Partner with NonProfits & Use Open Source",
+    "location": "LITCon, Boston, MA",
+    "date": "2025-04",
+    "presenters": [
+      {
+        "name": "Jessica Frank",
+        "role": "Project Manager"
+      }
+    ],
+    "buttons": [
+      {
+        "url": "https://www.youtube.com/live/qHzcfhhvSVk?si=vamAjGFZ_b46GMhM&t=722",
+        "label": "Watch the video"
+      },
+      {
+        "url": "https://free.law/2025/04/10/litcon",
+        "label": "Read the blog post"
+      }
+    ]
+  },
+  {
+    "title": "Closing the Justice Gap with Technology: Discover Free Tech Tools to Support Advocates and Pro Bono Volunteers",
+    "location": "Legal Services Corporation Innovations in Technology Conference, Phoenix, AZ",
+    "date": "2025-01",
+    "presenters": [
+      {
+        "name": "Jenifer Whiston",
+        "role": "Director of Philanthropy"
+      },
+      {
+        "name": "Kara Peterson",
+        "role": "Descrybe"
+      },
+      {
+        "name": "Mallory Gibson",
+        "role": "Legal Aid Society of Northeastern New York"
+      }
+    ],
+    "buttons": [
+      {
+        "url": "https://github.com/user-attachments/files/18772049/LSC.ITC.25_.Free.Legal.Tech.Tools.-.slides.pdf",
+        "label": "View the slides"
+      },
+      {
+        "url": "https://free.law/2025/02/26/free-law-project-at-itc",
+        "label": "Read the blog post"
+      }
+    ]
+  },
+  {
+    "title": "E-Filing: Bridging the Gap Between Guided Interviews and Court Dockets",
+    "location": "Legal Services Corporation  Innovations in Technology Conference, Phoenix, AZ",
+    "date": "2025-01",
+    "presenters": [
+      {
+        "name": "Jessica Frank",
+        "role": "Project Manager"
+      },
+      {
+        "name": "Sam Glover",
+        "role": "Suffolk LITLab"
+      },
+      {
+        "name": "Vivian McNaughton",
+        "role": "Illinois Legal Aid Online"
+      },
+      {
+        "name": "Sarah Song",
+        "role": "Illinois Administrative Office of the Courts"
+      }
+    ],
+    "buttons": [
+      {
+        "url": "https://slides.samglover.net/presentations/2025-01-13-itc25",
+        "label": "View the slides"
+      },
+      {
+        "url": "https://free.law/2025/02/26/free-law-project-at-itc",
+        "label": "Read the blog post"
+      }
+    ]
+  },
+  {
+    "title": "Building Access to Justice Infrastructure",
+    "location": "National Center for State Courts eCourts Conference, Las Vegas, NV",
+    "date": "2024-12",
+    "presenters": [
+      {
+        "name": "Jessica Frank",
+        "role": "Project Manager"
+      },
+      {
+        "name": "Sam Glover",
+        "role": "Suffolk LITLab"
+      }
+    ],
+    "buttons": [
+      {
+        "url": "https://youtu.be/hEXl4rjlN7g",
+        "label": "Watch the video"
+      },
+      {
+        "url": "https://free.law/2024/12/23/bridging-the-justice-gap-ecourts/",
+        "label": "Read the blog post"
+      }
+    ]
+  },
+  {
+    "title": "Access to Justice Requires Access to Law",
+    "location": "Berkeley Judicial Institute, Berkeley, CA",
+    "date": "2024-10",
+    "presenters": [
+      {
+        "name": "Michael Lissner",
+        "role": "Executive Director"
+      },
+      {
+        "name": "Brian Carver",
+        "role": "Google and Free Law Project Board Member"
+      },
+      {
+        "name": "Anna Russell",
+        "role": "Cornell Law School"
+      }
+    ],
+    "buttons": [
+      {
+        "url": "https://vimeo.com/1029813068",
+        "label": "Watch the video"
+      },
+      {
+        "url": "https://github.com/user-attachments/files/19349453/BJI.Access.to.Justice.pdf",
+        "label": "View the slides"
+      }
+    ]
+  },
+  {
+    "title": "Free PACER, Free the Law: The Past, Present, and Future of Public Access to Court Electronic Records",
+    "location": "American Association of Law Librarians Conference, Chicago, IL",
+    "date": "2024-07",
+    "presenters": [
+      {
+        "name": "Michael Lissner",
+        "role": "Executive Director"
+      },
+      {
+        "name": "Rebecca Fordon",
+        "role": "Moritz Law Library, The Ohio State University, and Free Law Project Board Member"
+      },
+      {
+        "name": "Jonah B. Gelbach",
+        "role": "Berkeley Law"
+      }
+    ],
+    "buttons": [
+      {
+        "url": "https://youtu.be/PPriTbhvwr4",
+        "label": "Watch the video"
+      },
+      {
+        "url": "https://github.com/user-attachments/files/18771954/2024-aall-pacer-presentation.pdf",
+        "label": "View the slides"
+      },
+      {
+        "url": "https://free.law/2024/08/09/aall-presentation",
+        "label": "Read the blog post"
+      }
+    ]
+  },
+  {
+    "title": "Open Legal Data and AI: Past, Present, & Future",
+    "location": "LITCon, Boston, MA",
+    "date": "2024-04",
+    "presenters": [
+      {
+        "name": "William Palin",
+        "role": "Case Law Lead"
+      }
+    ],
+    "buttons": [
+      {
+        "url": "https://www.youtube.com/live/EKf88kiE2jc?si=YLiroAMs_1HF_Fag&t=758",
+        "label": "Watch the video"
+      },
+      {
+        "url": "https://github.com/user-attachments/files/18528243/LIT.Bit.-.Open.Legal.Data.and.AI.pdf",
+        "label": "View the slides"
+      },
+      {
+        "url": "https://free.law/2024/04/18/suffolk-litcon/",
+        "label": "Read the blog post"
+      }
+    ]
+  },
+  {
+    "title": "E-filing & Public Infrastructure",
+    "location": "LITCon, Boston, MA",
+    "date": "2024-04",
+    "presenters": [
+      {
+        "name": "Colin MacArthur",
+        "role": "User Researcher"
+      },
+      {
+        "name": "Sam Glover",
+        "role": "Suffolk LITLab"
+      },
+      {
+        "name": "Sara Hoskinson",
+        "role": "Kansas Judicial Branch"
+      },
+      {
+        "name": "Lisa Colpoys",
+        "role": "Stanford University"
+      },
+      {
+        "name": "Bryce Wiley",
+        "role": "Suffolk LITLab"
+      }
+    ],
+    "buttons": [
+      {
+        "url": "https://www.youtube.com/live/uxC00CKFesQ?si=U1AIbtVWd4z-xvfg&t=2298",
+        "label": "Watch the video"
+      },
+      {
+        "url": "https://free.law/2024/04/18/suffolk-litcon/",
+        "label": "Read the blog post"
+      }
+    ]
+  },
+  {
+    "title": "The Future of Open Legal Data",
+    "location": "Harvard Law School Library Innovation Lab’s Transform Justice Conference, Cambridge, MA",
+    "date": "2024-03",
+    "presenters": [
+      {
+        "name": "Michael Lissner",
+        "role": "Executive Director"
+      },
+      {
+        "name": "Sara Frug",
+        "role": "Legal Information Institute"
+      },
+      {
+        "name": "Angela Jaffee",
+        "role": "vLex"
+      }
+    ],
+    "buttons": [
+      {
+        "url": "https://www.youtube.com/watch?v=9Mgudip09sc",
+        "label": "Watch the video"
+      },
+      {
+        "url": "https://hls.harvard.edu/today/caselaw-access-project-conference-marks-full-release-of-digitized-decisions/",
+        "label": "Read about it"
+      }
+    ]
+  },
+  {
+    "title": "Cracking the Courts with Data",
+    "location": "NICAR24 Conference, Baltimore, MD",
+    "date": "2024-03",
+    "presenters": [
+      {
+        "name": "William Palin",
+        "role": "Case Law Lead"
+      },
+      {
+        "name": "James V. Grimaldi",
+        "role": "The Wall Street Journal"
+      }
+    ],
+    "buttons": [
+      {
+        "url": "https://github.com/user-attachments/files/18528408/NICAR_.Cracking.the.courts.with.data.pdf",
+        "label": "View the slides"
+      }
+    ]
+  },
+  {
+    "title": "How to be a Court Listener",
+    "location": "NICAR24 Conference, Baltimore, MD",
+    "date": "2024-03",
+    "presenters": [
+      {
+        "name": "Michael Lissner",
+        "role": "Executive Director"
+      },
+      {
+        "name": "William Palin",
+        "role": "Case Law Lead"
+      },
+      {
+        "name": "Mollie Simon",
+        "role": "ProPublica"
+      },
+      {
+        "name": "Coulter Jones",
+        "role": "The Wall Street Journal"
+      }
+    ],
+    "buttons": [
+      {
+        "url": "https://github.com/user-attachments/files/18528384/How.to.be.a.Court.Listener.-.NICAR24.pdf",
+        "label": "View the slides"
+      },
+      {
+        "url": "https://docs.google.com/document/d/1aYpL9qQxMEw2VaNMo7JaaY5zOuCRJ_QR03sRn_FG8WE/edit?tab=t.0#heading=h.y3kcq65z7miy",
+        "label": "Read the tip sheet"
+      }
+    ]
+  },
+  {
+    "title": "Leveraging the RECAP Suite to Support Litigation",
+    "location": "Legal Services Corporation’s Innovations in Technology Conference, Charlotte, NC",
+    "date": "2024-01",
+    "presenters": [
+      {
+        "name": "Michael Lissner",
+        "role": "Executive Director"
+      },
+      {
+        "name": "Erica Zimny",
+        "role": "Legal Aid Society of Northeastern New York"
+      },
+      {
+        "name": "Michael Telfer",
+        "role": "Legal Aid Society of Northeastern New York"
+      }
+    ],
+    "buttons": [
+      {
+        "url": "https://github.com/user-attachments/files/18528354/Leveraging.the.RECAP.Suite.to.Support.Litigation.pdf",
+        "label": "View the slides"
+      }
+    ]
+  },
+  {
+    "title": "XRay Bad Redaction Tool",
+    "location": "Legal Services Corporation’s Innovations in Technology Conference, Charlotte, NC",
+    "date": "2024-01",
+    "presenters": [
+      {
+        "name": "Michael Lissner",
+        "role": "Executive Director"
+      }
+    ],
+    "buttons": [
+      {
+        "url": "https://github.com/user-attachments/files/18528327/x-ray-quick-presentation.pdf",
+        "label": "View the slides"
+      }
+    ]
+  },
+  {
+    "title": "Corporate Bullsh*t/Legal Bullsh*t",
+    "location": "Ralph Nader Radio Hour",
+    "date": "2023-11",
+    "presenters": [
+      {
+        "name": "Michael Lissner",
+        "role": "Executive Director"
+      },
+      {
+        "name": "Ralph Nader",
+        "role": "Ralph Nader Radio Hour"
+      },
+      {
+        "name": "David Cohen",
+        "role": "In the Public Interest"
+      }
+    ],
+    "buttons": [
+      {
+        "url": "https://www.ralphnaderradiohour.com/p/corporate-bullsht-legal-bullsht",
+        "label": "Listen to the interview"
+      }
+    ]
+  },
+  {
+    "title": "Free Law Project & the PACER Litigation",
+    "location": "Lawyerist Podcast",
+    "date": "2019-03",
+    "presenters": [
+      {
+        "name": "Michael Lissner",
+        "role": "Executive Director"
+      },
+      {
+        "name": "Sam Glover",
+        "role": "Lawyerist"
+      },
+      {
+        "name": "Aaron Street",
+        "role": "Lawyerist"
+      }
+    ],
+    "buttons": [
+      {
+        "url": "https://legaltalknetwork.com/podcasts/lawyerist-podcast/2019/03/216-free-law-project-the-pacer-litigation-with-mike-lissner/",
+        "label": "Listen to the podcast"
+      }
+    ]
+  }
+]
