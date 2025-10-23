@@ -18,7 +18,22 @@ import { RedButton, WhiteButton } from './button';
 import classNames from 'classnames';
 import { DropDownCallToAction } from './widgets';
 
-const projects = [
+const about = [
+  {
+    name: 'About Free Law Project',
+    href: '/about/',
+  },
+  {
+    name: 'Team',
+    href: '/team/',
+  },
+  {
+    name: 'Non-Profit Documents',
+    href: '/non-profit-documents/',
+  },
+];
+
+const tools = [
   {
     name: 'CourtListener.com',
     description: 'Our powerful legal research and awareness platform.',
@@ -26,8 +41,8 @@ const projects = [
     imgSrc: '/images/icons/medium-color-cl.svg',
   },
   {
-    name: 'The RECAP Extension',
-    description: "Help build the world's largest open collection of PACER filings. Save money too.",
+    name: 'RECAP Suite',
+    description: 'Help build the world's largest open collection of PACER filings. Save money too.',
     href: '/recap/',
     imgSrc: '/images/icons/medium-color-recap.svg',
   },
@@ -38,92 +53,72 @@ const projects = [
     href: 'https://bots.law/',
     imgSrc: '/images/icons/medium-color-bots.svg',
   },
+  {
+    name: 'Open Source Tools',
+    description:
+      'Our collection of open source tools for legal data and research needs.',
+    href: '/open-source-tools/',
+    imgSrc: 'images/icons/placeholder-black-circle.svg',
+  },
 ];
 const callsToAction = [
   { name: 'Install RECAP', href: '/recap/', icon: DownloadIcon },
   { name: 'How to Help', href: '/donate/other-ways/', icon: FireIcon },
 ];
-const tools = [
+const data = [
   {
-    name: 'Legal APIs and Bulk Data',
+    name: 'Our Data Services',
     description:
       'Gather, monitor, and search state and federal court data, bankruptcy information, parties, opinions, judges, and more.',
-    href: 'https://www.courtlistener.com/api/',
+    href: 'https://www.courtlistener.com/help/api/',
+    imgSrc: '/logos/projects/v2/data-services.svg',
+  },
+  {
+    name: 'Legal APIs',
+    description:
+      'We have APIs for opinions, filings, judges, financial disclosures, and more.',
+    href: 'https://www.courtlistener.com/help/api/rest/',
     imgSrc: '/images/icons/apis.svg',
+  },
+    {
+    name: 'Bulk Data',
+    description:
+      'Our bulk data files provide large quantities of data from our case law, judge, financial disclosure, and oral argument databases.',
+    href: 'https://www.courtlistener.com/help/api/bulk-data/',
+    imgSrc: 'images/icons/placeholder-black-circle.svg',
   },
   {
     name: 'Database Replication',
     description:
       'Our complete database updated in realtime to your server — All of our work under your roof.',
     href: 'https://www.courtlistener.com/api/replication/',
-    imgSrc: '/images/icons/replication.svg',
+    imgSrc: 'images/icons/placeholder-black-circle.svg',
   },
-  {
-    name: 'Juriscraper',
-    description: 'Battle-hardened open source code to scrape PACER and state court websites.',
-    href: '/projects/juriscraper/',
-    imgSrc: '/images/icons/juriscraper.svg',
-  },
-  {
-    name: 'Eyecite',
+    {
+    name: 'Datasets',
     description:
-      'A robust and performant open source library to find and annotate citations in any legal text.',
-    href: '/projects/eyecite/',
-    imgSrc: '/images/icons/eyecite.svg',
-  },
-  {
-    name: 'X-Ray',
-    description: 'A fast and accuratetool to find worthless redactions in PDF files.',
-    href: '/projects/x-ray/',
-    imgSrc: '/images/icons/x-ray.svg',
-  },
-  {
-    name: 'Doctor',
-    description: 'Convert and extract documents and audio files at scale.',
-    href: '/projects/doctor/',
-    imgSrc: '/images/icons/doctor.svg',
-    icon_height: 'h-4',
+      'Our open datasets are some of the largest on the internet.',
+    href: '/datasets/',
+    imgSrc: 'images/icons/placeholder-black-circle.svg',
   },
 ];
 
-const datasets = [
+const engage = [
   {
-    name: 'Judges and Disclosures',
-    description:
-      'A rich structured database of judges, their backgrounds, and their financial entanglements.',
-    href: '/projects/judge-db/',
-    imgSrc: '/images/icons/judge-db.svg',
+    name: 'How We Work with Startups',
+    href: '/startups/',
   },
   {
-    name: 'Reporter Database',
-    description:
-      'The metadata and abbreviations for nearly every written reporter in American history. The heart of any citation parser.',
-    href: '/projects/reporters-db/',
-    imgSrc: '/images/icons/reporters-db.svg',
+    name: 'Librarian Guide',
+    href: '/librarians/',
   },
   {
-    name: 'Court Data',
-    description: 'A collection of court metadata, standardized IDs, and parsers.',
-    href: '/projects/courts-db/',
-    imgSrc: '/images/icons/courts-db.svg',
+    name: 'Volunteer',
+    href: '/volunteer/',
   },
   {
-    name: 'Oral Argument Recording Archive',
-    description: 'The largest open collection of legal audio on the Internet.',
-    href: '/projects/oral-arguments/',
-    imgSrc: '/images/icons/oral-arguments.svg',
-  },
-  {
-    name: 'Judge Portraits',
-    description: 'Thousands of portraits of judges you can use in your projects.',
-    href: '/projects/judge-pics/',
-    imgSrc: '/images/icons/judge-pics.svg',
-  },
-  {
-    name: 'Supreme Court Data',
-    description: 'High quality data about Supreme Court opinions.',
-    href: '/projects/supreme-court-data/',
-    imgSrc: '/images/icons/scotus-data.svg',
+    name: 'Join our Newsletter',
+    href: 'https://donate.free.law/np/clients/freelawproject/subscribe.jsp?subscription=9',
   },
 ];
 
@@ -184,16 +179,6 @@ export default function Navbar({ allPosts }) {
                     height="79"
                   />
                 </a>
-              </div>
-              <div className="hidden md:flex">
-                <div className="relative">
-                  <Link href="/about/">
-                    <a className="text-xs font-medium uppercase text-gray-100 hover:text-gray-300">
-                      About
-                    </a>
-                  </Link>
-                </div>
-              </div>
               <div className="-mr-2 -my-2 md:hidden">
                 <Popover.Button className="bg-white rounded-md p-2 inline-flex items-center justify-end text-gray-500 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500">
                   <span className="sr-only">Open menu</span>
@@ -202,7 +187,7 @@ export default function Navbar({ allPosts }) {
               </div>
 
               <Popover.Group as="nav" className="hidden md:flex md:space-x-6 lg:space-x-10">
-                {/* Projects */}
+                {/* About */}
                 <Popover className="relative">
                   {({ open }) => (
                     <>
@@ -212,7 +197,7 @@ export default function Navbar({ allPosts }) {
                           'group rounded-md inline-flex items-center text-xs uppercase font-medium hover:text-gray-300 focus:outline-none focus:ring-2 focus:ring-offset-4 focus:ring-offset-purple-900 focus:ring-indigo-500'
                         )}
                       >
-                        <span>Projects</span>
+                        <span>About</span>
                         <ChevronDownIcon
                           className={classNames(
                             open ? 'text-gray-300' : 'text-gray-100',
@@ -238,7 +223,7 @@ export default function Navbar({ allPosts }) {
                         >
                           <div className="rounded-lg shadow-lg ring-1 ring-black ring-opacity-5 overflow-hidden">
                             <div className="relative grid gap-6 bg-white px-5 py-6 sm:gap-8 sm:p-8">
-                              {projects.map((item) => (
+                              {about.map((item) => (
                                 <a
                                   key={item.name}
                                   href={item.href}
@@ -264,29 +249,13 @@ export default function Navbar({ allPosts }) {
                                 </a>
                               ))}
                             </div>
-                            <div className="px-5 py-5 bg-gray-50 space-y-6 sm:flex sm:space-y-0 sm:space-x-10 sm:px-8">
-                              {callsToAction.map((item) => (
-                                <div key={item.name} className="flow-root">
-                                  <a
-                                    href={item.href}
-                                    className="-m-3 p-3 flex items-center rounded-md text-base font-medium text-gray-900 hover:bg-gray-100"
-                                  >
-                                    <item.icon
-                                      className="flex-shrink-0 h-6 w-6 text-gray-400"
-                                      aria-hidden="true"
-                                    />
-                                    <span className="ml-3">{item.name}</span>
-                                  </a>
-                                </div>
-                              ))}
-                            </div>
                           </div>
                         </Popover.Panel>
                       </Transition>
                     </>
                   )}
                 </Popover>
-                {/* End Projects */}
+                {/* End About */}
 
                 {/* Tools */}
                 <Popover className="relative">
@@ -336,14 +305,11 @@ export default function Navbar({ allPosts }) {
                                       aria-hidden="true"
                                     />
                                   ) : (
-                                    <div
-                                      className={`${
-                                        item.icon_height ? item.icon_height : 'h-6'
-                                      } w-6 relative flex-shrink-0`}
-                                    >
-                                      <img src={item.imgSrc} aria-hidden="true" />
+                                    <div className="h-8 w-8 relative flex-shrink-0">
+                                      <Image src={item.imgSrc} layout="fill" aria-hidden="true" />
                                     </div>
                                   )}
+
                                   <div className="ml-4">
                                     <p className="text-base font-medium text-gray-900">
                                       {item.name}
@@ -353,9 +319,22 @@ export default function Navbar({ allPosts }) {
                                 </a>
                               ))}
                             </div>
-                            <DropDownCallToAction href="https://github.com/freelawproject/">
-                              View More Projects on Github
-                            </DropDownCallToAction>
+                            <div className="px-5 py-5 bg-gray-50 space-y-6 sm:flex sm:space-y-0 sm:space-x-10 sm:px-8">
+                              {callsToAction.map((item) => (
+                                <div key={item.name} className="flow-root">
+                                  <a
+                                    href={item.href}
+                                    className="-m-3 p-3 flex items-center rounded-md text-base font-medium text-gray-900 hover:bg-gray-100"
+                                  >
+                                    <item.icon
+                                      className="flex-shrink-0 h-6 w-6 text-gray-400"
+                                      aria-hidden="true"
+                                    />
+                                    <span className="ml-3">{item.name}</span>
+                                  </a>
+                                </div>
+                              ))}
+                            </div>
                           </div>
                         </Popover.Panel>
                       </Transition>
@@ -364,7 +343,7 @@ export default function Navbar({ allPosts }) {
                 </Popover>
                 {/* End Tools */}
 
-                {/* Datasets */}
+                {/* Data */}
                 <Popover className="relative">
                   {({ open }) => (
                     <>
@@ -400,7 +379,83 @@ export default function Navbar({ allPosts }) {
                         >
                           <div className="rounded-lg shadow-lg ring-1 ring-black ring-opacity-5 overflow-hidden">
                             <div className="relative grid gap-6 bg-white px-5 py-6 sm:gap-8 sm:p-8">
-                              {datasets.map((item) => (
+                              {data.map((item) => (
+                                <a
+                                  key={item.name}
+                                  href={item.href}
+                                  className="-m-3 p-3 flex items-start rounded-lg hover:bg-gray-50"
+                                >
+                                  {item.icon ? (
+                                    <item.icon
+                                      className="flex-shrink-0 h-6 w-6 text-gray-400"
+                                      aria-hidden="true"
+                                    />
+                                  ) : (
+                                    <div
+                                      className={`${
+                                        item.icon_height ? item.icon_height : 'h-6'
+                                      } w-6 relative flex-shrink-0`}
+                                    >
+                                      <img src={item.imgSrc} aria-hidden="true" />
+                                    </div>
+                                  )}
+                                  <div className="ml-4">
+                                    <p className="text-base font-medium text-gray-900">
+                                      {item.name}
+                                    </p>
+                                    <p className="mt-1 text-sm text-gray-500">{item.description}</p>
+                                  </div>
+                                </a>
+                              ))}
+                            </div>
+                            <DropDownCallToAction href="https://github.com/freelawproject/">
+                              View More Projects on Github
+                            </DropDownCallToAction>
+                          </div>
+                        </Popover.Panel>
+                      </Transition>
+                    </>
+                  )}
+                </Popover>
+                {/* End Data */}
+
+                {/* Engage */}
+                <Popover className="relative">
+                  {({ open }) => (
+                    <>
+                      <Popover.Button
+                        className={classNames(
+                          open ? 'text-gray-300' : 'text-gray-100',
+                          'group rounded-md inline-flex items-center text-xs uppercase font-medium hover:text-gray-300 focus:outline-none focus:ring-2 focus:ring-offset-4 focus:ring-offset-purple-900 focus:ring-indigo-500'
+                        )}
+                      >
+                        <span>Data</span>
+                        <ChevronDownIcon
+                          className={classNames(
+                            open ? 'text-gray-300' : 'text-gray-100',
+                            'ml-1 h-4 w-4 group-hover:text-gray-200'
+                          )}
+                          aria-hidden="true"
+                        />
+                      </Popover.Button>
+
+                      <Transition
+                        show={open}
+                        as={Fragment}
+                        enter="transition ease-out duration-200"
+                        enterFrom="opacity-0 translate-y-1"
+                        enterTo="opacity-100 translate-y-0"
+                        leave="transition ease-in duration-150"
+                        leaveFrom="opacity-100 translate-y-0"
+                        leaveTo="opacity-0 translate-y-1"
+                      >
+                        <Popover.Panel
+                          static
+                          className="absolute z-10 -ml-4 mt-3 transform px-2 w-screen max-w-md sm:px-0 lg:ml-0 left-1/2 -translate-x-1/2"
+                        >
+                          <div className="rounded-lg shadow-lg ring-1 ring-black ring-opacity-5 overflow-hidden">
+                            <div className="relative grid gap-6 bg-white px-5 py-6 sm:gap-8 sm:p-8">
+                              {engage.map((item) => (
                                 <a
                                   key={item.name}
                                   href={item.href}
@@ -431,7 +486,7 @@ export default function Navbar({ allPosts }) {
                     </>
                   )}
                 </Popover>
-                {/* End Datasets */}
+                {/* End Engage */}
 
                 {/* Blog */}
                 <Popover className="relative">
@@ -615,50 +670,50 @@ export default function Navbar({ allPosts }) {
                     </div>
                     <div className="grid grid-cols-1 gap-y-4">
                       <a
-                        href="/projects/juriscraper/"
+                        href="/open-source-tools#juriscraper"
                         className="text-base font-medium text-gray-900 hover:text-gray-700"
                       >
                         Juriscraper
                       </a>
                       <a
-                        href="/projects/eyecite/"
+                        href="/open-source-tools#eyecite"
                         className="text-base font-medium text-gray-900 hover:text-gray-700"
                       >
                         Eyecite
                       </a>
                       <a
-                        href="/projects/x-ray/"
+                        href="/open-source-tools#x-ray"
                         className="text-base font-medium text-gray-900 hover:text-gray-700"
                       >
                         X-Ray
                       </a>
                       {/* Restore this when balance can be created in the small screen navbar columns */}
                       {/*<a*/}
-                      {/*  href="/projects/reporters-db/"*/}
+                      {/*  href="/datasets#reporters-db"*/}
                       {/*  className="text-base font-medium text-gray-900 hover:text-gray-700"*/}
                       {/*>*/}
                       {/*  Reporters DB*/}
                       {/*</a>*/}
                       <a
-                        href="/projects/courts-db/"
+                        href="/datasets#courts-db"
                         className="text-base font-medium text-gray-900 hover:text-gray-700"
                       >
                         Court Data
                       </a>
                       <a
-                        href="/projects/judge-pics/"
+                        href="/datasets#judges-portraits"
                         className="text-base font-medium text-gray-900 hover:text-gray-700"
                       >
                         Judge Portraits
                       </a>
                       <a
-                        href="/projects/judge-db/"
+                        href="/datasets#judges-db"
                         className="text-base font-medium text-gray-900 hover:text-gray-700"
                       >
                         Judge Profiles
                       </a>
                       <a
-                        href="/projects/supreme-court-data/"
+                        href="/datasets#supreme-court-data"
                         className="text-base font-medium text-gray-900 hover:text-gray-700"
                       >
                         SCOTUS Data
