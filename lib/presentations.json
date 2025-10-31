@@ -1,5 +1,22 @@
 [
   {
+    "title": "This is a test",
+    "location": "Somewhere",
+    "date": "2025-10",
+    "presenters": [
+      {
+        "name": "Someone",
+        "role": "Speaker"
+      }
+    ],
+    "buttons": [
+      {
+        "url": "/pdf/some-doc.pdf",
+        "label": "Some doc"
+      }
+    ]
+  },
+  {
     "title": "From Citations to Citators: How AI is Reshaping Legal Research",
     "location": "CALICon, Atlanta, GA",
     "date": "2025-06",
