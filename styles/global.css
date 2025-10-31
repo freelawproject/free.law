@@ -34,6 +34,9 @@
     .prose :where(blockquote):not(:where([class~="not-prose"] *)) {
         font-style: normal;
     }
+    .callout-box {
+        @apply px-10 py-8 border border-gray-500;
+    }
 }
 
 .left-image {
