@@ -84,7 +84,7 @@ export function PresentationList() {
             <p className="mt-1">{presentation.location}</p>
             <p className="flex gap-2 flex-wrap sm:flex-row flex-col">
               {presentation.buttons.map((button) => (
-                <Button href={button.url} extraClasses="text-gray-800 bg-white border border-gray-400">
+                <Button noRouting={true} href={button.url} extraClasses="text-gray-800 bg-white border border-gray-400">
                   {button.label}
                 </Button>
               ))}
