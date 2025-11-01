@@ -6,7 +6,7 @@ import {DownloadIcon} from "@heroicons/react/outline";
 
 const BASE_BUTTON_CLASSES = 'text-center whitespace-nowrap border border-transparent rounded-md shadow-sm text-base font-medium text-white text-sm no-underline';
 
-export default function Button({ children, href, extraClasses, size }) {
+export default function Button({ children, href, extraClasses, size, noRouting }) {
   let classes = BASE_BUTTON_CLASSES;
   if (extraClasses) {
     classes += ' ' + extraClasses;
@@ -18,11 +18,9 @@ export default function Button({ children, href, extraClasses, size }) {
   } else {
     classes += ' px-4 py-2 sm:text-md';
   }
-  return (
-    <Link href={href}>
-      <a className={classes}>{children}</a>
-    </Link>
-  );
+  return noRouting // Don't use Next.js routing for local file paths like PDFs, but keep consistent styling
+    ? (<a href={href} className={classes}>{children}</a>)
+    : (<Link href={href}><a className={classes}>{children}</a></Link>);
 }
 
 export function WideButton({ children, href, extraClasses }) {
