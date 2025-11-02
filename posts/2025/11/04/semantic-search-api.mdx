@@ -1,0 +1,41 @@
+---
+title: "Semantic Search API Now Live!"
+date: "2025-11-04"
+tags:
+ - "Free Law Project"
+ - "CourtListener"
+ - "Case Law"
+ - "Artificial Intelligence"
+ - "Semantic Search"
+ - "AI"
+author: "Rachel Gao"
+excerpt: "Try out our Semantic Search API in CourtListener, a big step forward in case law search!"
+---
+
+<p className="lead">Announcing the launch of our [Semantic Search API](https://www.courtlistener.com/help/api/rest/search/#semantic-search) in CourtListener—a major leap forward in how you search legal data.</p>
+
+We've been working diligently to bring semantic search to our case law database for quite some time. Back in March, we shared a [status update](https://free.law/2025/03/11/semantic-search/) with extensive details on the machine learning techniques and models powering this feature. Since then, we've completed many rounds of testing and generated embeddings for all our case law data. The functionality is **now live** through our [API](https://www.courtlistener.com/help/api/rest/search/#semantic-search), complementing the keyword search you already know and love!
+## Key Features
+
+Unlike keyword search, semantic search lets you search using natural language, it looks beyond exact matches to understand the **meaning and intent** behind your query. This means it can surface relevant precedents even when they're phrased differently—something keyword searches often miss.
+
+Here's how it works: an encoder machine learning model, fine-tuned for information retrieval, represents legal opinions as embeddings (high-dimensional numbers) that capture their semantic meaning. When you submit a query, the same model translates it into embeddings, and an approximate nearest neighbor algorithm identifies opinions with the most semantically similar meanings. For a detailed comparison of keyword versus semantic search, check out our help page on [Citegeist](https://www.courtlistener.com/help/citegeist/).
+
+Beyond natural language queries, we've also implemented **hybrid search**. This powerful feature lets you combine keyword phrases with natural language, allowing the search algorithm to query by both keywords and semantic meaning simultaneously. To use hybrid search, simply enclose your keywords in quotation marks.
+
+All your favorite **filters**—dates, courts, and other parameters—work seamlessly with semantic search, just like with keyword search. And like keyword search, results are intelligently **boosted** by date recency and jurisdiction to ensure the most relevant opinions appear at the top.
+
+We've put this feature through rigorous testing. Our alpha users have consistently praised the retrieval quality, and we've completed numerous machine learning benchmarks to ensure accuracy. Given the massive volume of case law data, we've also run countless rounds of speed and performance testing to guarantee fast retrieval times—something we'll continue monitoring as usage grows.
+
+True to our mission, we've also made the **case law embeddings** fully open and available for download through S3. Learn more on our [bulk data](https://www.courtlistener.com/help/api/bulk-data/#embeddings) page. As you might imagine, generating these embeddings is no small feat, and each download incurs about $200 in AWS fees for Free Law Project. If you find this valuable, please consider [becoming a member](https://donate.free.law/forms/membership) or [making a donation](https://donate.free.law/forms/supportflp) to support our work!
+
+<p>
+<PurpleButton href="https://donate.free.law/forms/membership" size="lg">Become a Member Today</PurpleButton> <PurpleButton href="https://donate.free.law/forms/supportflp" size="lg">Make a One Time Donation</PurpleButton>
+</p>
+
+## What's Next?
+
+Semantic search is currently available through our API, but we're already working to bring it to the website—stay tuned! And don't worry, keyword search isn't going anywhere. You'll have full access to both.
+
+If you're as excited about semantic search as we are, [**give it a try**](https://www.courtlistener.com/help/api/rest/search/#semantic-search)! We can't wait to see what you'll build with it!
+
