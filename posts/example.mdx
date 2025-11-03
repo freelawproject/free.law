@@ -12,7 +12,9 @@ excerpt: "This is used in the main list of blogs and also in the open graph prev
 imagePath: "/images/banners/blue-sky.jpeg (aim for 1200×630)"
 ---
 
+```
 <p className="lead">Some stuff here</p>
+```
 
 Then just write markdown. You can learn more about it [here][markdown-help].
 
@@ -22,6 +24,7 @@ Then just write markdown. You can learn more about it [here][markdown-help].
 
 The syntax for adding an image is:
 
+```
 <CaptionedImage
   imgProps={{
     "src": "/images/zapier/flow-1.png",
@@ -30,13 +33,16 @@ The syntax for adding an image is:
   href="/some-link-to-somewhere/"
   border="border border-gray-400"
 >A screenshot of the first flow on Zapier.com.</CaptionedImage>
+```
 
 Or:
 
+```
 <div className="left-image or right-image">
     <img src="/images/recap_r-150x150.png"
          alt="RECAP Logo"/>
 </div>
+```
 
 Images should always be scaled to at most 688px wide. Any more than that will just make them bigger and slower to download. 
 
@@ -47,11 +53,12 @@ After an image is merged, there's a bot that comes around eventually and optimiz
 
 You can use the `centered-row` class to include multiple elements in a row:
 
+```
 <p className="centered-row">
   <PurpleButton href="https://www.courtlistener.com/help/api/webhooks/" size="lg">Learn More</PurpleButton>
   <PurpleButton href="https://www.courtlistener.com/help/api/webhooks/getting-started/" size="lg">Get Started</PurpleButton>
 </p>
-
+```
 
 ### Embedding YouTube videos
 
@@ -64,11 +71,13 @@ For example, easily embed YouTube videos using a standard link like this:
 If you need the video to start at a given time, you will need to use the URL provided by YouTube's embed feature,
 but instead of copying the full `<iframe ...` code snippet, simply copy the full URL that comes after `src=`
 
+```
 <p className="centered-row">
   <img src="/images/example/youtube-embed-link.png"
        alt="Screenshot of embed link"
        className="w-96"/>
 </p>
+```
 
 The video now starts at 00:42
 
@@ -77,14 +86,29 @@ The video now starts at 00:42
 
 ### Embedding other content
 
+```
 <ResponsiveIFrame
   className="h-[560px] w-full"
   src="https://www.courtlistener.com/visualizations/scotus-mapper/962/embed/?dos=2&type=spaeth&xaxis=time"
 ></ResponsiveIFrame>
+```
 
 **Pro tip**: You can tweak the height by changing `h-[560px]` to whatever value you need.
 Likewise, `w-full` makes it span the entire width, but you can change this to `w-[100px]` or any other value to resize the embedded content.
 
+
+### Do a sidebar (beta)
+
+Try something like this: 
+
+```
+<RightInfoBox border={true}>
+  <h3 className="mt-2 mb-2">How It Works</h3>
+  <p className="my-0">An encoder machine learning model, fine-tuned for information retrieval, represents legal opinions as embeddings (high-dimensional numbers) that capture their semantic meaning. When you submit a query, the same model translates it into embeddings, and an approximate nearest neighbor algorithm identifies opinions with the most semantically similar meanings.</p>
+  <p className="my-0">For a detailed comparison of keyword versus semantic search, check out our help page on [Citegeist][cg].</p>
+  <PurpleButton href="https://www.courtlistener.com/help/api/rest/search/#semantic-search">Try It Now</PurpleButton>
+</RightInfoBox>
+```
 
 ### Need more?
 
