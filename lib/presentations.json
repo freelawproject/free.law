@@ -1,5 +1,38 @@
 [
   {
+  "title": "The Accidental Project Manager: Charting Uncharted Waters",
+  "location": "ILTACon 2025, Washington, D.C.",
+  "date": "2025-08",
+  "presenters": [
+    {
+      "name": "Jessica Frank",
+      "role": "Director of Justice Initiatives"
+    },
+    {
+      "name": "Stephanie Clerkin",
+      "role": "Korein Tillery LLC"
+    },
+    {
+      "name": "Ashley Gibbs",
+      "role": "Litera"
+    },
+    {
+      "name": "Amanda Miller",
+      "role": "Nissenbaum Law Group"
+    },
+    {
+      "name": "Stephen Reale",
+      "role": "Ropes & Gray"
+    }
+  ],
+  "buttons": [
+    {
+      "url": "/2025/08/27/iltacon-2025",
+      "label": "Read the blog post"
+    }
+  ]
+}, 
+  {
     "title": "From Citations to Citators: How AI is Reshaping Legal Research",
     "location": "CALICon, Atlanta, GA",
     "date": "2025-06",
