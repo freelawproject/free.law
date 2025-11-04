@@ -24,6 +24,10 @@ const about = [
     href: '/team/',
   },
   {
+    name: 'Conference Presentations & Press',
+    href: '/presentations/',
+  },
+  {
     name: 'Non-Profit Documents',
     href: '/non-profit-documents/',
   },
