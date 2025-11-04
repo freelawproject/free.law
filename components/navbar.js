@@ -42,7 +42,7 @@ const tools = [
   },
   {
     name: 'RECAP Suite',
-    description: 'Help build the world's largest open collection of PACER filings. Save money too.',
+    description: "Help build the world's largest open collection of PACER filings. Save money too.",
     href: '/recap/',
     imgSrc: '/images/icons/medium-color-recap.svg',
   },
@@ -58,7 +58,7 @@ const tools = [
     description:
       'Our collection of open source tools for legal data and research needs.',
     href: '/open-source-tools/',
-    imgSrc: 'images/icons/placeholder-black-circle.svg',
+    imgSrc: '/images/icons/placeholder-black-circle.svg',
   },
 ];
 const callsToAction = [
