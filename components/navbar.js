@@ -155,7 +155,7 @@ const featuredPosts = [
   },
 ];
 
-function PopoverMenu({title, items}) {
+function PopoverMenu({children, title, items, width}) {
   return (
     <Popover className="relative">
     {({ open }) => (
@@ -188,18 +188,39 @@ function PopoverMenu({title, items}) {
         >
           <Popover.Panel
             static
-            className="absolute lg:left-1/2 lg:-translate-x-1/2 z-10 mt-3 transform w-screen max-w-xs rounded-lg shadow-lg ring-1 ring-black ring-opacity-5 grid bg-white gap-2 py-5 px-4"
+            className={classNames(
+              width ? `max-w-${width}` : 'max-w-md',
+              "absolute lg:left-1/2 lg:-translate-x-1/2 z-10 mt-3 transform w-screen rounded-lg shadow-lg ring-1 ring-black ring-opacity-5 bg-white"
+            )}
           >
-            {items.map((item) => (
-              <Link
-                href={item.href}
-                key={item.name}
-              >
-                <a className="rounded-lg py-3 px-4 hover:bg-gray-50 text-base font-medium text-gray-900">
-                  {item.name}
-                </a>
-              </Link>
-            ))}
+            <div className="grid gap-2 py-6 px-4">
+              {items.map((item) => (
+                <Link
+                  href={item.href}
+                  key={item.name}
+                >
+                  <a className="rounded-lg py-3 px-4 hover:bg-gray-50 text-base font-medium text-gray-900 flex flex-row flex-nowrap gap-4">
+                    {item.icon ? (
+                      <item.icon
+                        className="flex-shrink-0 h-6 w-6 text-gray-400"
+                        aria-hidden="true"
+                      />
+                    ) : item.imgSrc ? (
+                      <div className="h-8 w-8 relative flex-shrink-0">
+                        <Image src={item.imgSrc} layout="fill" aria-hidden="true" />
+                      </div>
+                    ) : <></>}
+                    <span className="flex flex-col gap-1 justify-start">
+                      <p className="text-base font-medium text-gray-900">
+                        {item.name}
+                      </p>
+                      <p className="text-sm text-gray-500">{item.description}</p>
+                    </span>
+                  </a>
+                </Link>
+              ))}
+            </div>
+            {children}
           </Popover.Panel>
         </Transition>
       </>
