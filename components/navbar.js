@@ -92,9 +92,9 @@ const data = [
     description:
       'Our complete database updated in realtime to your server — All of our work under your roof.',
     href: 'https://www.courtlistener.com/api/replication/',
-    imgSrc: '/images/icons/placeholder-black-circle.svg',
+    imgSrc: '/images/icons/replication.svg',
   },
-    {
+  {
     name: 'Datasets',
     description:
       'Our open datasets are some of the largest on the internet.',
