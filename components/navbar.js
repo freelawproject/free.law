@@ -155,6 +155,59 @@ const featuredPosts = [
   },
 ];
 
+function PopoverMenu({title, items}) {
+  return (
+    <Popover className="relative">
+    {({ open }) => (
+      <>
+        <Popover.Button
+          className={classNames(
+            open ? 'text-gray-300' : 'text-gray-100',
+            'group rounded-md inline-flex items-center text-xs uppercase font-medium hover:text-gray-300 focus:outline-none focus:ring-2 focus:ring-offset-4 focus:ring-offset-purple-900 focus:ring-indigo-500'
+          )}
+        >
+          <span>{title}</span>
+          <ChevronDownIcon
+            className={classNames(
+              open ? 'text-gray-300' : 'text-gray-100',
+              'ml-1 h-4 w-4 group-hover:text-gray-200'
+            )}
+            aria-hidden="true"
+          />
+        </Popover.Button>
+
+        <Transition
+          show={open}
+          as={Fragment}
+          enter="transition ease-out duration-200"
+          enterFrom="opacity-0 translate-y-1"
+          enterTo="opacity-100 translate-y-0"
+          leave="transition ease-in duration-150"
+          leaveFrom="opacity-100 translate-y-0"
+          leaveTo="opacity-0 translate-y-1"
+        >
+          <Popover.Panel
+            static
+            className="absolute lg:left-1/2 lg:-translate-x-1/2 z-10 mt-3 transform w-screen max-w-xs rounded-lg shadow-lg ring-1 ring-black ring-opacity-5 grid bg-white gap-2 py-5 px-4"
+          >
+            {items.map((item) => (
+              <Link
+                href={item.href}
+                key={item.name}
+              >
+                <a className="rounded-lg py-3 px-4 hover:bg-gray-50 text-base font-medium text-gray-900">
+                  {item.name}
+                </a>
+              </Link>
+            ))}
+          </Popover.Panel>
+        </Transition>
+      </>
+    )}
+  </Popover>);
+}
+
+
 export default function Navbar({ allPosts }) {
   return (
     <Popover className="relative bg-purple-900 border-b-2 border-indigo-700">
@@ -193,54 +246,7 @@ export default function Navbar({ allPosts }) {
               {/* Desktop Toolbar */}
               <Popover.Group as="nav" className="hidden md:flex md:space-x-6 lg:space-x-10">
                 {/* About */}
-                <Popover className="relative">
-                  {({ open }) => (
-                    <>
-                      <Popover.Button
-                        className={classNames(
-                          open ? 'text-gray-300' : 'text-gray-100',
-                          'group rounded-md inline-flex items-center text-xs uppercase font-medium hover:text-gray-300 focus:outline-none focus:ring-2 focus:ring-offset-4 focus:ring-offset-purple-900 focus:ring-indigo-500'
-                        )}
-                      >
-                        <span>About</span>
-                        <ChevronDownIcon
-                          className={classNames(
-                            open ? 'text-gray-300' : 'text-gray-100',
-                            'ml-1 h-4 w-4 group-hover:text-gray-200'
-                          )}
-                          aria-hidden="true"
-                        />
-                      </Popover.Button>
-
-                      <Transition
-                        show={open}
-                        as={Fragment}
-                        enter="transition ease-out duration-200"
-                        enterFrom="opacity-0 translate-y-1"
-                        enterTo="opacity-100 translate-y-0"
-                        leave="transition ease-in duration-150"
-                        leaveFrom="opacity-100 translate-y-0"
-                        leaveTo="opacity-0 translate-y-1"
-                      >
-                        <Popover.Panel
-                          static
-                          className="absolute lg:left-1/2 lg:-translate-x-1/2 z-10 mt-3 transform w-screen max-w-xs rounded-lg shadow-lg ring-1 ring-black ring-opacity-5 grid bg-white gap-2 py-5 px-4"
-                        >
-                          {about.map((item) => (
-                            <Link
-                              href={item.href}
-                              key={item.name}
-                            >
-                              <a className="rounded-lg py-3 px-4 hover:bg-gray-50 text-base font-medium text-gray-900">
-                                {item.name}
-                              </a>
-                            </Link>
-                          ))}
-                        </Popover.Panel>
-                      </Transition>
-                    </>
-                  )}
-                </Popover>
+                <PopoverMenu items={about} title="About"></PopoverMenu>
                 {/* End About */}
 
                 {/* Tools */}
