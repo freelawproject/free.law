@@ -97,7 +97,7 @@ export default function Post({ postData, allPostsData }) {
               <a href="https://www.courtlistener.com/financial-disclosures/">
                 financial disclosures
               </a>
-              , and <a href="https://www.courtlistener.com/audio/">oral arguments</a>. We build
+              , and <a href="https://www.courtlistener.com/audio/">oral arguments</a>. We build{' '}
               <a href="/open-source-tools">open source tools</a> like eyecite, juriscraper, and x-ray.
             </p>
             <p>We rely on your donations for our continued success.</p>
