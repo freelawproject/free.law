@@ -181,13 +181,16 @@ export default function Navbar({ allPosts }) {
                 </a>
               </div>
 
+              {/* Mobile Popover Menu Trigger Button */}
               <div className="-mr-2 -my-2 md:hidden">
                 <Popover.Button className="bg-white rounded-md p-2 inline-flex items-center justify-end text-gray-500 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500">
                   <span className="sr-only">Open menu</span>
                   <MenuIcon className="h-6 w-6" aria-hidden="true" />
                 </Popover.Button>
               </div>
+              {/* End Mobile Popover Menu Trigger Button */}
 
+              {/* Desktop Toolbar */}
               <Popover.Group as="nav" className="hidden md:flex md:space-x-6 lg:space-x-10">
                 {/* About */}
                 <Popover className="relative">
@@ -585,9 +588,11 @@ export default function Navbar({ allPosts }) {
                   &nbsp;Install RECAP
                 </WhiteButton>
               </div>
+              {/* End Desktop Toolbar */}
             </div>
           </div>
 
+          {/* Mobile Popover Menu */}
           <Transition
             show={open}
             as={Fragment}
@@ -742,6 +747,7 @@ export default function Navbar({ allPosts }) {
               </div>
             </Popover.Panel>
           </Transition>
+          {/* End Mobile Popover Menu */}
         </>
       )}
     </Popover>
