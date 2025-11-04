@@ -71,7 +71,7 @@ const data = [
     description:
       'Gather, monitor, and search state and federal court data, bankruptcy information, parties, opinions, judges, and more.',
     href: 'https://www.courtlistener.com/help/api/',
-    imgSrc: '/logos/projects/v2/data-services.svg',
+    imgSrc: '/images/icons/data-services.svg',
   },
   {
     name: 'Legal APIs',
@@ -85,21 +85,21 @@ const data = [
     description:
       'Our bulk data files provide large quantities of data from our case law, judge, financial disclosure, and oral argument databases.',
     href: 'https://www.courtlistener.com/help/api/bulk-data/',
-    imgSrc: 'images/icons/placeholder-black-circle.svg',
+    imgSrc: '/images/icons/placeholder-black-circle.svg',
   },
   {
     name: 'Database Replication',
     description:
       'Our complete database updated in realtime to your server — All of our work under your roof.',
     href: 'https://www.courtlistener.com/api/replication/',
-    imgSrc: 'images/icons/placeholder-black-circle.svg',
+    imgSrc: '/images/icons/placeholder-black-circle.svg',
   },
     {
     name: 'Datasets',
     description:
       'Our open datasets are some of the largest on the internet.',
     href: '/datasets/',
-    imgSrc: 'images/icons/placeholder-black-circle.svg',
+    imgSrc: '/images/icons/placeholder-black-circle.svg',
   },
 ];
 
