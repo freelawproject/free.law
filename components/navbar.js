@@ -155,7 +155,7 @@ const featuredPosts = [
   },
 ];
 
-function PopoverMenu({children, title, items, width}) {
+function PopoverMenu({children, title, items, panelClasses}) {
   return (
     <Popover className="relative">
     {({ open }) => (
@@ -189,7 +189,7 @@ function PopoverMenu({children, title, items, width}) {
           <Popover.Panel
             static
             className={classNames(
-              width ? `max-w-${width}` : 'max-w-md',
+              panelClasses,
               "absolute lg:left-1/2 lg:-translate-x-1/2 z-10 mt-3 transform w-screen rounded-lg shadow-lg ring-1 ring-black ring-opacity-5 bg-white"
             )}
           >
@@ -267,11 +267,11 @@ export default function Navbar({ allPosts }) {
               {/* Desktop Toolbar */}
               <Popover.Group as="nav" className="hidden md:flex md:space-x-6 lg:space-x-10">
                 {/* About */}
-                <PopoverMenu items={about} title="About" width="xs"></PopoverMenu>
+                <PopoverMenu items={about} title="About" panelClasses="max-w-xs"></PopoverMenu>
                 {/* End About */}
 
                 {/* Tools */}
-                <PopoverMenu items={tools} title="Tools">
+                <PopoverMenu items={tools} title="Tools" panelClasses="max-w-md">
                   <div className="rounded-b-lg px-5 py-5 bg-gray-50 space-y-6 sm:flex sm:space-y-0 sm:space-x-10 sm:px-8">
                     {callsToAction.map((item) => (
                       <div key={item.name} className="flow-root">
@@ -292,7 +292,7 @@ export default function Navbar({ allPosts }) {
                 {/* End Tools */}
 
                 {/* Data */}
-                <PopoverMenu items={data} title="Data">
+                <PopoverMenu items={data} title="Data" panelClasses="max-w-md">
                   <DropDownCallToAction href="https://github.com/freelawproject/">
                     View More Projects on Github
                   </DropDownCallToAction>
@@ -300,7 +300,7 @@ export default function Navbar({ allPosts }) {
                 {/* End Data */}
 
                 {/* Engage */}
-                <PopoverMenu items={engage} title="Engage" width="xs"></PopoverMenu>
+                <PopoverMenu items={engage} title="Engage" panelClasses="max-w-xs"></PopoverMenu>
                 {/* End Engage */}
 
                 {/* Blog */}
