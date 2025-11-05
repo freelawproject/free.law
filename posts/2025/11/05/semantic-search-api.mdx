@@ -1,0 +1,66 @@
+---
+title: "Semantic Search API Now Live!"
+date: "2025-11-05"
+tags:
+ - "Free Law Project"
+ - "CourtListener"
+ - "Case Law"
+ - "Artificial Intelligence"
+ - "Semantic Search"
+ - "AI"
+author: "Rachel Gao"
+excerpt: "Try out our Semantic Search API in CourtListener, a big step forward in case law search!"
+---
+
+
+<p className="lead">Announcing the launch of our [Semantic Search API][api] in CourtListener—a major leap forward in how you search legal data.</p>
+
+We've been working diligently to bring semantic search to our case law database for quite some time. Back in March, we shared a [status update][update] with extensive details on the machine learning techniques and models powering this feature. Since then, we've completed many rounds of testing and generated embeddings for all our case law data. The functionality is [**now live** through our API][api], complementing the keyword search you already know and love!
+
+[update]: https://free.law/2025/03/11/semantic-search/
+
+
+## Key Features
+
+Unlike keyword search, semantic search lets you search using natural language. It looks beyond exact matches to understand the **meaning and intent** behind your query. This means it can surface relevant precedents even when they're phrased differently—something keyword searches often miss.
+
+<RightInfoBox border={true}>
+  <h3 className="mt-2 mb-2">How It Works</h3>
+  <p className="my-0">An encoder machine learning model, fine-tuned for information retrieval, represents legal opinions as embeddings (high-dimensional numbers) that capture their semantic meaning. When you submit a query, the same model translates it into embeddings, and an approximate nearest neighbor algorithm identifies opinions with the most semantically similar meanings.</p>
+  <p className="my-0">For a detailed comparison of keyword versus semantic search, check out our help page on [Citegeist][cg].</p>
+  <PurpleButton href="https://www.courtlistener.com/help/api/rest/search/#semantic-search">Try It Now</PurpleButton>
+</RightInfoBox>
+
+Semantic search can be frustrating when it ignores words that **must** be in the results. To address this, we've implemented **hybrid search**. This feature lets you combine keyword phrases with natural language, so you can query by both keywords and semantic meaning simultaneously. To ensure keywords are in the results, enclose your keywords in quotation marks.
+
+All your favorite **filters**—dates, courts, and other parameters—work seamlessly with semantic search, just like with keyword search. And like keyword search, results are intelligently **boosted** by our [Citegeist][cg] relevancy algorithm.
+
+We've put this feature through rigorous testing. Our alpha users have consistently praised the retrieval quality, and we've completed numerous machine learning benchmarks to ensure accuracy. Given the massive volume of case law data, we've also run countless rounds of speed and performance testing to guarantee fast retrieval times—something we'll continue monitoring as usage grows.
+
+True to our mission, we've also made the **case law embeddings** fully open and available for download. Learn more on our [bulk data][bd] page. As you might imagine, generating these embeddings is no small feat, and each download incurs about $200 in AWS fees for Free Law Project. If you find this valuable, please consider [becoming a member](https://donate.free.law/forms/membership) or [making a donation](https://donate.free.law/forms/supportflp) to support our work!
+
+<p className="flex gap-2 flex-wrap">
+<PurpleButton href="https://donate.free.law/forms/membership">Become a Member Today</PurpleButton> <PurpleButton href="https://donate.free.law/forms/supportflp">Make a One-Time Donation</PurpleButton>
+</p>
+
+
+## With Thanks
+
+Launching semantic search at this scale has taken a considerable amount of work and collaboration by—among others!—the Free Law Project dev and AI teams; a number of volunteers including [LegalTextAI](https://github.com/legaltextai), [Nina Shamsi at Northeastern University](https://scholar.google.com/citations?user=uIrOBY8AAAAJ&hl=en), and [Dominik Stammbach at Princeton University](https://citp.princeton.edu/people/dominik-stammbach); and our alpha and beta testers.
+
+Thank you all for your contributions, help, and wisdom!
+
+
+## What's Next?
+
+Semantic search is currently available through our API, but we're already working to bring it to the website—stay tuned! And don't worry, keyword search isn't going anywhere. You'll have full access to both.
+
+If you're as excited about semantic search as we are, [**give it a try**][api]! We can't wait to see what you'll build!
+
+<p>
+<PurpleButton size="lg" href="https://www.courtlistener.com/help/api/rest/search/#semantic-search">Try It Now</PurpleButton>
+</p>
+
+[api]: https://www.courtlistener.com/help/api/rest/search/#semantic-search
+[cg]: https://www.courtlistener.com/help/citegeist/
+[bd]: https://www.courtlistener.com/help/api/bulk-data/#embeddings
