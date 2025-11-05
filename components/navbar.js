@@ -190,7 +190,7 @@ function PopoverMenu({children, title, items, panelClasses}) {
             static
             className={classNames(
               panelClasses,
-              "absolute lg:left-1/2 lg:-translate-x-1/2 z-10 mt-3 transform w-screen rounded-lg shadow-lg ring-1 ring-black ring-opacity-5 bg-white"
+              "absolute lg:left-1/2 lg:-translate-x-1/2 z-10 mt-3 transform w-screen rounded-lg overflow-hidden shadow-lg ring-1 ring-black ring-opacity-5 bg-white"
             )}
           >
             <div className="grid gap-2 py-6 px-4">
@@ -272,7 +272,7 @@ export default function Navbar({ allPosts }) {
 
                 {/* Tools */}
                 <PopoverMenu items={tools} title="Tools" panelClasses="max-w-md">
-                  <div className="rounded-b-lg px-5 py-5 bg-gray-50 space-y-6 sm:flex sm:space-y-0 sm:space-x-10 sm:px-8">
+                  <div className="px-5 py-5 bg-gray-50 space-y-6 sm:flex sm:space-y-0 sm:space-x-10 sm:px-8">
                     {callsToAction.map((item) => (
                       <div key={item.name} className="flow-root">
                         <a
