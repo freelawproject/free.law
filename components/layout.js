@@ -293,7 +293,7 @@ export function ClientPics({ wide }) {
 export function ResponsiveIFrame({
   src,
   allow,
-  referrer,
+  referrerPolicy,
   className = 'w-full aspect-video',
   title = 'Embedded content',
 }) {
@@ -302,7 +302,7 @@ export function ResponsiveIFrame({
       className={className}
       src={src}
       title={title}
-      referrerPolicy={referrer}
+      referrerPolicy={referrerPolicy}
       allow={allow}
       allowFullScreen
     />
