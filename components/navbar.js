@@ -322,7 +322,7 @@ export default function Navbar({ allPosts }) {
 
                 {/* Blog */}
                 <Popover className="relative">
-                  {({ open }) => (
+                  {({ open, close }) => (
                     <>
                       <Popover.Button
                         className={classNames(
@@ -363,12 +363,13 @@ export default function Navbar({ allPosts }) {
                                 <ul className="mt-4 space-y-4">
                                   {featuredPosts.map((post) => (
                                     <li key={post.id} className="text-base">
-                                      <a
-                                        href={post.href}
-                                        className="font-medium text-gray-900 hover:text-gray-700"
-                                      >
-                                        {post.name}
-                                      </a>
+                                      <Link href={post.href} key={post.id}>
+                                        <a onClick={close}
+                                          className="font-medium text-gray-900 hover:text-gray-700"
+                                        >
+                                          {post.name}
+                                        </a>
+                                      </Link>
                                     </li>
                                   ))}
                                 </ul>
@@ -383,12 +384,14 @@ export default function Navbar({ allPosts }) {
                                 <ul className="mt-4 space-y-4">
                                   {allPosts.slice(0, 5).map(({ id, date, title }) => (
                                     <li key={id} className="text-base">
-                                      <a
-                                        href={`${id}`}
-                                        className="font-medium text-gray-900 hover:text-gray-700"
-                                      >
-                                        {title}
-                                      </a>
+                                      <Link href={id} key={id}>
+                                        <a
+                                          onClick={close}
+                                          className="font-medium text-gray-900 hover:text-gray-700"
+                                        >
+                                          {title}
+                                        </a>
+                                      </Link>
                                     </li>
                                   ))}
                                 </ul>
