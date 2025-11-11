@@ -158,7 +158,7 @@ const featuredPosts = [
 function PopoverMenu({children, title, items, panelClasses}) {
   return (
     <Popover className="relative">
-    {({ open }) => (
+    {({ open, close }) => (
       <>
         <Popover.Button
           className={classNames(
@@ -187,7 +187,6 @@ function PopoverMenu({children, title, items, panelClasses}) {
           leaveTo="opacity-0 translate-y-1"
         >
           <Popover.Panel
-            static
             className={classNames(
               panelClasses,
               "absolute lg:left-1/2 lg:-translate-x-1/2 z-10 mt-3 transform w-screen rounded-lg overflow-hidden shadow-lg ring-1 ring-black ring-opacity-5 bg-white"
@@ -199,7 +198,7 @@ function PopoverMenu({children, title, items, panelClasses}) {
                   href={item.href}
                   key={item.name}
                 >
-                  <a className="rounded-lg py-3 px-4 hover:bg-gray-50 text-base font-medium text-gray-900 flex flex-row flex-nowrap gap-4">
+                  <a onClick={close} className="rounded-lg py-3 px-4 hover:bg-gray-50 text-base font-medium text-gray-900 flex flex-row flex-nowrap gap-4">
                     {item.icon ? (
                       <item.icon
                         className="flex-shrink-0 h-6 w-6 text-gray-400"
