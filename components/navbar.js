@@ -155,6 +155,24 @@ const featuredPosts = [
   },
 ];
 
+const mobileLinks = [
+  { label: (<>About</>), href: '/about/'},
+  { label: (<>Blog</>), href: '/blog/'},
+  { label: (<>Presentations</>), href: '/presentations/'},
+  { label: (<>CourtListener</>), href: '/projects/courtlistener/'},
+  { label: (<>RECAP Project</>), href: '/recap/'},
+  { label: (<><span className="hidden sm:inline">Services &amp; </span>Consulting</>), href: '/data-consulting/'},
+  { label: (<>APIs and Bulk Data</>), href: 'https://www.courtlistener.com/api/'},
+  { label: (<>Data<span className="hidden sm:inline">base</span> Replication</>), href: 'https://www.courtlistener.com/api/replication/'},
+  { label: (<>Juriscraper</>), href: '/open-source-tools#juriscraper'},
+  { label: (<>Eyecite</>), href: '/open-source-tools#eyecite'},
+  { label: (<>X-Ray</>), href: '/open-source-tools#x-ray'},
+  { label: (<>Court Data</>), href: '/datasets#courts-db'},
+  { label: (<>Judge Portraits</>), href: '/datasets#judges-portraits'},
+  { label: (<>Judge Profiles</>), href: '/datasets#judges-db'},
+  { label: (<>SCOTUS Data</>), href: '/datasets#supreme-court-data'},
+];
+
 function PopoverMenu({children, title, items, panelClasses}) {
   return (
     <Popover className="relative">
@@ -437,103 +455,31 @@ export default function Navbar({ allPosts }) {
                     </div>
                   </div>
                 </div>
-                <div className="py-6 px-5 space-y-6">
-                  <div className="grid grid-cols-2 gap-x-6 sm:gap-x-8">
-                    <div className="grid grid-cols-1 gap-y-4">
-                      <a
-                        href="/about/"
-                        className="text-base font-medium text-gray-900 hover:text-gray-700"
-                      >
-                        About
-                      </a>
-                      <a
-                        href="/blog/"
-                        className="text-base font-medium text-gray-900 hover:text-gray-700"
-                      >
-                        Blog
-                      </a>
-
-                      <a
-                        href="/projects/courtlistener/"
-                        className="text-base font-medium text-gray-900 hover:text-gray-700"
-                      >
-                        CourtListener
-                      </a>
-                      <a
-                        href="/recap/"
-                        className="text-base font-medium text-gray-900 hover:text-gray-700"
-                      >
-                        RECAP Project
-                      </a>
-                      <a
-                        href="/data-consulting/"
-                        className="text-base font-medium text-gray-900 hover:text-gray-700"
-                      >
-                        <span className="hidden sm:inline">Services &amp; </span>Consulting
-                      </a>
-                      <a
-                        href="https://www.courtlistener.com/api/"
-                        className="text-base font-medium text-gray-900 hover:text-gray-700"
-                      >
-                        APIs and Bulk Data
-                      </a>
-                      <a
-                        href="https://www.courtlistener.com/api/replication/"
-                        className="text-base font-medium text-gray-900 hover:text-gray-700"
-                      >
-                        Data<span className="hidden sm:inline">base</span> Replication
-                      </a>
+                <div className="pb-6 pt-4 px-5 space-y-6">
+                  <div className="grid grid-cols-2 max-w-full gap-x-6 sm:gap-x-8">
+                    <div className="flex flex-col justify-between">
+                      {mobileLinks.filter((_, index) => (
+                        index < Math.ceil(mobileLinks.length / 2)
+                      )).map((item) => (
+                        <a
+                          href={item.href}
+                          className="text-base font-medium text-gray-900 hover:text-gray-700 py-2"
+                        >
+                          {item.label}
+                        </a>
+                      ))}
                     </div>
-                    <div className="grid grid-cols-1 gap-y-4">
-                      <a
-                        href="/open-source-tools#juriscraper"
-                        className="text-base font-medium text-gray-900 hover:text-gray-700"
-                      >
-                        Juriscraper
-                      </a>
-                      <a
-                        href="/open-source-tools#eyecite"
-                        className="text-base font-medium text-gray-900 hover:text-gray-700"
-                      >
-                        Eyecite
-                      </a>
-                      <a
-                        href="/open-source-tools#x-ray"
-                        className="text-base font-medium text-gray-900 hover:text-gray-700"
-                      >
-                        X-Ray
-                      </a>
-                      {/* Restore this when balance can be created in the small screen navbar columns */}
-                      {/*<a*/}
-                      {/*  href="/datasets#reporters-db"*/}
-                      {/*  className="text-base font-medium text-gray-900 hover:text-gray-700"*/}
-                      {/*>*/}
-                      {/*  Reporters DB*/}
-                      {/*</a>*/}
-                      <a
-                        href="/datasets#courts-db"
-                        className="text-base font-medium text-gray-900 hover:text-gray-700"
-                      >
-                        Court Data
-                      </a>
-                      <a
-                        href="/datasets#judges-portraits"
-                        className="text-base font-medium text-gray-900 hover:text-gray-700"
-                      >
-                        Judge Portraits
-                      </a>
-                      <a
-                        href="/datasets#judges-db"
-                        className="text-base font-medium text-gray-900 hover:text-gray-700"
-                      >
-                        Judge Profiles
-                      </a>
-                      <a
-                        href="/datasets#supreme-court-data"
-                        className="text-base font-medium text-gray-900 hover:text-gray-700"
-                      >
-                        SCOTUS Data
-                      </a>
+                    <div className="flex flex-col justify-between">
+                      {mobileLinks.filter((_, index) => (
+                        index >= Math.ceil(mobileLinks.length / 2)
+                      )).map((item) => (
+                        <a
+                          href={item.href}
+                          className="text-base font-medium text-gray-900 hover:text-gray-700 py-2"
+                        >
+                          {item.label}
+                        </a>
+                      ))}
                     </div>
                   </div>
                   <div className="grid grid-cols-1 sm:grid-cols-2 gap-2">
