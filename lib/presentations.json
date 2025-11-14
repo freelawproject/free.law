@@ -1,5 +1,22 @@
 [
   {
+  "title": "Building Justice Through Legal Technology: A Career Beyond the Classroom",
+  "location": "University of Oklahoma College of Law Digital Initiatives Class",
+  "date": "2025-11",
+  "presenters": [
+    {
+      "name": "Jessica Frank",
+      "role": "Director of Justice Initiatives"
+    }
+  ],
+  "buttons": [
+    {
+      "url": "/pdf/presentations/Building.Justice.Through.Legal.Technology.A.Career.Beyond.the.Classroom.pdf",
+      "label": "View the Slides"
+    }
+  ] 
+   },
+  {
   "title": "The Accidental Project Manager: Charting Uncharted Waters",
   "location": "ILTACon 2025, Washington, D.C.",
   "date": "2025-08",
