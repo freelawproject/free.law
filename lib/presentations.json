@@ -1,5 +1,59 @@
 [
   {
+  "title": "American Legal Technology Award Winners",
+  "location": "On the Road Podcast for Legal Talk Network",
+  "date": "2025-11",
+  "presenters": [
+    {
+      "name": "Jenifer Whiston",
+      "role": "Director of Philanthropy"
+    },
+    {
+      "name": "Patrick Palace",
+      "role": "Host of On the Road"
+    },
+    {
+      "name": "Jim Calloway",
+      "role": "Oklahoma Bar Association"
+    },
+    {
+      "name": "Susan Choe",
+      "role": "Ohio Legal Help"
+    }
+  ],
+  "buttons": [
+    {
+      "url": "https://legaltalknetwork.com/podcasts/on-the-road/2025/11/american-legal-technology-award-winners-cliocon2025/",
+      "label": "Listen to the podcast"
+    }
+  ]
+},
+  {
+  "title": "Rethinking Access to Justice: Technology, Equity, and the Role of the Courts",
+  "location": "Legal Innovation Spotlight Podcast",
+  "date": "2025-11",
+  "presenters": [
+    {
+      "name": "Jessica Frank",
+      "role": "Director of Justice Initiatives"
+    },
+    {
+      "name": "Ted Theodoropoulos",
+      "role": "Host, Legal Innovation Spotlight"
+    }
+  ],
+  "buttons": [
+    {
+      "url": "https://youtu.be/_VKXBcwEcR8",
+      "label": "Watch the video"
+    },
+    {
+      "url": "https://open.spotify.com/episode/3a3seRVvqIMaq7PmC12NKQ?go=1&sp_cid=1dfaa49c96e69352f33f6bcd4be3945a&utm_source=embed_player_p&utm_medium=desktop",
+      "label": "Listen to the podcast"
+    }
+  ]
+}, 
+  {
   "title": "Building Justice Through Legal Technology: A Career Beyond the Classroom",
   "location": "University of Oklahoma College of Law Digital Initiatives Class",
   "date": "2025-11",
