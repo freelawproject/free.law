@@ -58,7 +58,7 @@ const tools = [
     description:
       'Our collection of open source tools for legal data and research needs.',
     href: '/open-source-tools/',
-    imgSrc: '/images/icons/placeholder-black-circle.svg',
+    imgSrc: '/images/icons/open-source-tools.svg',
   },
 ];
 const callsToAction = [
@@ -85,7 +85,7 @@ const data = [
     description:
       'Our bulk data files provide large quantities of data from our case law, judge, financial disclosure, and oral argument databases.',
     href: 'https://www.courtlistener.com/help/api/bulk-data/',
-    imgSrc: '/images/icons/placeholder-black-circle.svg',
+    imgSrc: '/images/icons/bulk-data.svg',
   },
   {
     name: 'Database Replication',
@@ -99,7 +99,7 @@ const data = [
     description:
       'Our open datasets are some of the largest on the internet.',
     href: '/datasets/',
-    imgSrc: '/images/icons/placeholder-black-circle.svg',
+    imgSrc: '/images/icons/datasets.svg',
   },
 ];
 
