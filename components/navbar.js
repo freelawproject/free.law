@@ -1,14 +1,10 @@
 import { Fragment } from 'react';
 import { Popover, Transition } from '@headlessui/react';
 import {
-  CodeIcon,
   DownloadIcon,
   FireIcon,
   HeartIcon,
-  LibraryIcon,
   MenuIcon,
-  MicrophoneIcon,
-  UserGroupIcon,
   XIcon,
 } from '@heroicons/react/outline';
 import { ChevronDownIcon } from '@heroicons/react/solid';
@@ -18,7 +14,26 @@ import { RedButton, WhiteButton } from './button';
 import classNames from 'classnames';
 import { DropDownCallToAction } from './widgets';
 
-const projects = [
+const about = [
+  {
+    name: 'About Free Law Project',
+    href: '/about/',
+  },
+  {
+    name: 'Team',
+    href: '/team/',
+  },
+  {
+    name: 'Conference Presentations & Press',
+    href: '/presentations/',
+  },
+  {
+    name: 'Non-Profit Documents',
+    href: '/non-profit-documents/',
+  },
+];
+
+const tools = [
   {
     name: 'CourtListener.com',
     description: 'Our powerful legal research and awareness platform.',
@@ -26,7 +41,7 @@ const projects = [
     imgSrc: '/images/icons/medium-color-cl.svg',
   },
   {
-    name: 'The RECAP Extension',
+    name: 'RECAP Suite',
     description: "Help build the world's largest open collection of PACER filings. Save money too.",
     href: '/recap/',
     imgSrc: '/images/icons/medium-color-recap.svg',
@@ -38,18 +53,39 @@ const projects = [
     href: 'https://bots.law/',
     imgSrc: '/images/icons/medium-color-bots.svg',
   },
+  {
+    name: 'Open Source Tools',
+    description:
+      'Our collection of open source tools for legal data and research needs.',
+    href: '/open-source-tools/',
+    imgSrc: '/images/icons/open-source-tools.svg',
+  },
 ];
 const callsToAction = [
   { name: 'Install RECAP', href: '/recap/', icon: DownloadIcon },
   { name: 'How to Help', href: '/donate/other-ways/', icon: FireIcon },
 ];
-const tools = [
+const data = [
   {
-    name: 'Legal APIs and Bulk Data',
+    name: 'Our Data Services',
     description:
       'Gather, monitor, and search state and federal court data, bankruptcy information, parties, opinions, judges, and more.',
-    href: 'https://www.courtlistener.com/api/',
+    href: 'https://www.courtlistener.com/help/api/',
+    imgSrc: '/images/icons/data-services.svg',
+  },
+  {
+    name: 'Legal APIs',
+    description:
+      'We have APIs for opinions, filings, judges, financial disclosures, and more.',
+    href: 'https://www.courtlistener.com/help/api/rest/',
     imgSrc: '/images/icons/apis.svg',
+  },
+    {
+    name: 'Bulk Data',
+    description:
+      'Our bulk data files provide large quantities of data from our case law, judge, financial disclosure, and oral argument databases.',
+    href: 'https://www.courtlistener.com/help/api/bulk-data/',
+    imgSrc: '/images/icons/bulk-data.svg',
   },
   {
     name: 'Database Replication',
@@ -59,71 +95,30 @@ const tools = [
     imgSrc: '/images/icons/replication.svg',
   },
   {
-    name: 'Juriscraper',
-    description: 'Battle-hardened open source code to scrape PACER and state court websites.',
-    href: '/projects/juriscraper/',
-    imgSrc: '/images/icons/juriscraper.svg',
-  },
-  {
-    name: 'Eyecite',
+    name: 'Datasets',
     description:
-      'A robust and performant open source library to find and annotate citations in any legal text.',
-    href: '/projects/eyecite/',
-    imgSrc: '/images/icons/eyecite.svg',
-  },
-  {
-    name: 'X-Ray',
-    description: 'A fast and accuratetool to find worthless redactions in PDF files.',
-    href: '/projects/x-ray/',
-    imgSrc: '/images/icons/x-ray.svg',
-  },
-  {
-    name: 'Doctor',
-    description: 'Convert and extract documents and audio files at scale.',
-    href: '/projects/doctor/',
-    imgSrc: '/images/icons/doctor.svg',
-    icon_height: 'h-4',
+      'Our open datasets are some of the largest on the internet.',
+    href: '/datasets/',
+    imgSrc: '/images/icons/datasets.svg',
   },
 ];
 
-const datasets = [
+const engage = [
   {
-    name: 'Judges and Disclosures',
-    description:
-      'A rich structured database of judges, their backgrounds, and their financial entanglements.',
-    href: '/projects/judge-db/',
-    imgSrc: '/images/icons/judge-db.svg',
+    name: 'How We Work with Startups',
+    href: '/startups/',
   },
   {
-    name: 'Reporter Database',
-    description:
-      'The metadata and abbreviations for nearly every written reporter in American history. The heart of any citation parser.',
-    href: '/projects/reporters-db/',
-    imgSrc: '/images/icons/reporters-db.svg',
+    name: 'Librarian Guide',
+    href: '/librarians/',
   },
   {
-    name: 'Court Data',
-    description: 'A collection of court metadata, standardized IDs, and parsers.',
-    href: '/projects/courts-db/',
-    imgSrc: '/images/icons/courts-db.svg',
+    name: 'Volunteer',
+    href: '/volunteer/',
   },
   {
-    name: 'Oral Argument Recording Archive',
-    description: 'The largest open collection of legal audio on the Internet.',
-    href: '/projects/oral-arguments/',
-    imgSrc: '/images/icons/oral-arguments.svg',
-  },
-  {
-    name: 'Judge Portraits',
-    description: 'Thousands of portraits of judges you can use in your projects.',
-    href: '/projects/judge-pics/',
-    imgSrc: '/images/icons/judge-pics.svg',
-  },
-  {
-    name: 'Supreme Court Data',
-    description: 'High quality data about Supreme Court opinions.',
-    href: '/projects/supreme-court-data/',
-    imgSrc: '/images/icons/scotus-data.svg',
+    name: 'Join our Newsletter',
+    href: 'https://donate.free.law/np/clients/freelawproject/subscribe.jsp?subscription=9',
   },
 ];
 
@@ -160,6 +155,97 @@ const featuredPosts = [
   },
 ];
 
+const mobileLinks = [
+  { label: (<>About</>), href: '/about/'},
+  { label: (<>Blog</>), href: '/blog/'},
+  { label: (<>Presentations</>), href: '/presentations/'},
+  { label: (<>CourtListener</>), href: '/projects/courtlistener/'},
+  { label: (<>RECAP Project</>), href: '/recap/'},
+  { label: (<><span className="hidden sm:inline">Services &amp; </span>Consulting</>), href: '/data-consulting/'},
+  { label: (<>APIs and Bulk Data</>), href: 'https://www.courtlistener.com/api/'},
+  { label: (<>Data<span className="hidden sm:inline">base</span> Replication</>), href: 'https://www.courtlistener.com/api/replication/'},
+  { label: (<>Juriscraper</>), href: '/open-source-tools#juriscraper'},
+  { label: (<>Eyecite</>), href: '/open-source-tools#eyecite'},
+  { label: (<>X-Ray</>), href: '/open-source-tools#x-ray'},
+  { label: (<>Court Data</>), href: '/datasets#courts-db'},
+  { label: (<>Judge Portraits</>), href: '/datasets#judges-portraits'},
+  { label: (<>Judge Profiles</>), href: '/datasets#judges-db'},
+  { label: (<>SCOTUS Data</>), href: '/datasets#supreme-court-data'},
+];
+
+function PopoverMenu({children, title, items, panelClasses}) {
+  return (
+    <Popover className="relative">
+    {({ open, close }) => (
+      <>
+        <Popover.Button
+          className={classNames(
+            open ? 'text-gray-300' : 'text-gray-100',
+            'group rounded-md inline-flex items-center text-xs uppercase font-medium hover:text-gray-300 focus:outline-none focus:ring-2 focus:ring-offset-4 focus:ring-offset-purple-900 focus:ring-indigo-500'
+          )}
+        >
+          <span>{title}</span>
+          <ChevronDownIcon
+            className={classNames(
+              open ? 'text-gray-300' : 'text-gray-100',
+              'ml-1 h-4 w-4 group-hover:text-gray-200'
+            )}
+            aria-hidden="true"
+          />
+        </Popover.Button>
+
+        <Transition
+          show={open}
+          as={Fragment}
+          enter="transition ease-out duration-200"
+          enterFrom="opacity-0 translate-y-1"
+          enterTo="opacity-100 translate-y-0"
+          leave="transition ease-in duration-150"
+          leaveFrom="opacity-100 translate-y-0"
+          leaveTo="opacity-0 translate-y-1"
+        >
+          <Popover.Panel
+            className={classNames(
+              panelClasses,
+              "absolute lg:left-1/2 lg:-translate-x-1/2 z-10 mt-3 transform w-screen rounded-lg overflow-hidden shadow-lg ring-1 ring-black ring-opacity-5 bg-white"
+            )}
+          >
+            <div className="grid gap-2 py-6 px-4">
+              {items.map((item) => (
+                <Link
+                  href={item.href}
+                  key={item.name}
+                >
+                  <a onClick={close} className="rounded-lg py-3 px-4 hover:bg-gray-50 text-base font-medium text-gray-900 flex flex-row flex-nowrap gap-4">
+                    {item.icon ? (
+                      <item.icon
+                        className="flex-shrink-0 h-6 w-6 text-gray-400"
+                        aria-hidden="true"
+                      />
+                    ) : item.imgSrc ? (
+                      <div className="h-8 w-8 relative flex-shrink-0">
+                        <Image src={item.imgSrc} layout="fill" aria-hidden="true" />
+                      </div>
+                    ) : <></>}
+                    <span className="flex flex-col gap-1 justify-start">
+                      <p className="text-base font-medium text-gray-900">
+                        {item.name}
+                      </p>
+                      <p className="text-sm text-gray-500">{item.description}</p>
+                    </span>
+                  </a>
+                </Link>
+              ))}
+            </div>
+            {children}
+          </Popover.Panel>
+        </Transition>
+      </>
+    )}
+  </Popover>);
+}
+
+
 export default function Navbar({ allPosts }) {
   return (
     <Popover className="relative bg-purple-900 border-b-2 border-indigo-700">
@@ -185,257 +271,58 @@ export default function Navbar({ allPosts }) {
                   />
                 </a>
               </div>
-              <div className="hidden md:flex">
-                <div className="relative">
-                  <Link href="/about/">
-                    <a className="text-xs font-medium uppercase text-gray-100 hover:text-gray-300">
-                      About
-                    </a>
-                  </Link>
-                </div>
-              </div>
+
+              {/* Mobile Popover Menu Trigger Button */}
               <div className="-mr-2 -my-2 md:hidden">
                 <Popover.Button className="bg-white rounded-md p-2 inline-flex items-center justify-end text-gray-500 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500">
                   <span className="sr-only">Open menu</span>
                   <MenuIcon className="h-6 w-6" aria-hidden="true" />
                 </Popover.Button>
               </div>
+              {/* End Mobile Popover Menu Trigger Button */}
 
+              {/* Desktop Toolbar */}
               <Popover.Group as="nav" className="hidden md:flex md:space-x-6 lg:space-x-10">
-                {/* Projects */}
-                <Popover className="relative">
-                  {({ open }) => (
-                    <>
-                      <Popover.Button
-                        className={classNames(
-                          open ? 'text-gray-300' : 'text-gray-100',
-                          'group rounded-md inline-flex items-center text-xs uppercase font-medium hover:text-gray-300 focus:outline-none focus:ring-2 focus:ring-offset-4 focus:ring-offset-purple-900 focus:ring-indigo-500'
-                        )}
-                      >
-                        <span>Projects</span>
-                        <ChevronDownIcon
-                          className={classNames(
-                            open ? 'text-gray-300' : 'text-gray-100',
-                            'ml-1 h-4 w-4 group-hover:text-gray-200'
-                          )}
-                          aria-hidden="true"
-                        />
-                      </Popover.Button>
-
-                      <Transition
-                        show={open}
-                        as={Fragment}
-                        enter="transition ease-out duration-200"
-                        enterFrom="opacity-0 translate-y-1"
-                        enterTo="opacity-100 translate-y-0"
-                        leave="transition ease-in duration-150"
-                        leaveFrom="opacity-100 translate-y-0"
-                        leaveTo="opacity-0 translate-y-1"
-                      >
-                        <Popover.Panel
-                          static
-                          className="absolute z-10 -ml-4 mt-3 transform px-2 w-screen max-w-md sm:px-0 lg:ml-0 left-1/2 -translate-x-1/2"
-                        >
-                          <div className="rounded-lg shadow-lg ring-1 ring-black ring-opacity-5 overflow-hidden">
-                            <div className="relative grid gap-6 bg-white px-5 py-6 sm:gap-8 sm:p-8">
-                              {projects.map((item) => (
-                                <a
-                                  key={item.name}
-                                  href={item.href}
-                                  className="-m-3 p-3 flex items-start rounded-lg hover:bg-gray-50"
-                                >
-                                  {item.icon ? (
-                                    <item.icon
-                                      className="flex-shrink-0 h-6 w-6 text-gray-400"
-                                      aria-hidden="true"
-                                    />
-                                  ) : (
-                                    <div className="h-8 w-8 relative flex-shrink-0">
-                                      <Image src={item.imgSrc} layout="fill" aria-hidden="true" />
-                                    </div>
-                                  )}
-
-                                  <div className="ml-4">
-                                    <p className="text-base font-medium text-gray-900">
-                                      {item.name}
-                                    </p>
-                                    <p className="mt-1 text-sm text-gray-500">{item.description}</p>
-                                  </div>
-                                </a>
-                              ))}
-                            </div>
-                            <div className="px-5 py-5 bg-gray-50 space-y-6 sm:flex sm:space-y-0 sm:space-x-10 sm:px-8">
-                              {callsToAction.map((item) => (
-                                <div key={item.name} className="flow-root">
-                                  <a
-                                    href={item.href}
-                                    className="-m-3 p-3 flex items-center rounded-md text-base font-medium text-gray-900 hover:bg-gray-100"
-                                  >
-                                    <item.icon
-                                      className="flex-shrink-0 h-6 w-6 text-gray-400"
-                                      aria-hidden="true"
-                                    />
-                                    <span className="ml-3">{item.name}</span>
-                                  </a>
-                                </div>
-                              ))}
-                            </div>
-                          </div>
-                        </Popover.Panel>
-                      </Transition>
-                    </>
-                  )}
-                </Popover>
-                {/* End Projects */}
+                {/* About */}
+                <PopoverMenu items={about} title="About" panelClasses="max-w-xs"></PopoverMenu>
+                {/* End About */}
 
                 {/* Tools */}
-                <Popover className="relative">
-                  {({ open }) => (
-                    <>
-                      <Popover.Button
-                        className={classNames(
-                          open ? 'text-gray-300' : 'text-gray-100',
-                          'group rounded-md inline-flex items-center text-xs uppercase font-medium hover:text-gray-300 focus:outline-none focus:ring-2 focus:ring-offset-4 focus:ring-offset-purple-900 focus:ring-indigo-500'
-                        )}
-                      >
-                        <span>Tools</span>
-                        <ChevronDownIcon
-                          className={classNames(
-                            open ? 'text-gray-300' : 'text-gray-100',
-                            'ml-1 h-4 w-4 group-hover:text-gray-200'
-                          )}
-                          aria-hidden="true"
-                        />
-                      </Popover.Button>
-
-                      <Transition
-                        show={open}
-                        as={Fragment}
-                        enter="transition ease-out duration-200"
-                        enterFrom="opacity-0 translate-y-1"
-                        enterTo="opacity-100 translate-y-0"
-                        leave="transition ease-in duration-150"
-                        leaveFrom="opacity-100 translate-y-0"
-                        leaveTo="opacity-0 translate-y-1"
-                      >
-                        <Popover.Panel
-                          static
-                          className="absolute z-10 -ml-4 mt-3 transform px-2 w-screen max-w-md sm:px-0 lg:ml-0 left-1/2 -translate-x-1/2"
+                <PopoverMenu items={tools} title="Tools" panelClasses="max-w-md">
+                  <div className="px-5 py-5 bg-gray-50 space-y-6 sm:flex sm:space-y-0 sm:space-x-10 sm:px-8">
+                    {callsToAction.map((item) => (
+                      <div key={item.name} className="flow-root">
+                        <a
+                          href={item.href}
+                          className="-m-3 p-3 flex items-center rounded-md text-base font-medium text-gray-900 hover:bg-gray-100"
                         >
-                          <div className="rounded-lg shadow-lg ring-1 ring-black ring-opacity-5 overflow-hidden">
-                            <div className="relative grid gap-6 bg-white px-5 py-6 sm:gap-8 sm:p-8">
-                              {tools.map((item) => (
-                                <a
-                                  key={item.name}
-                                  href={item.href}
-                                  className="-m-3 p-3 flex items-start rounded-lg hover:bg-gray-50"
-                                >
-                                  {item.icon ? (
-                                    <item.icon
-                                      className="flex-shrink-0 h-6 w-6 text-gray-400"
-                                      aria-hidden="true"
-                                    />
-                                  ) : (
-                                    <div
-                                      className={`${
-                                        item.icon_height ? item.icon_height : 'h-6'
-                                      } w-6 relative flex-shrink-0`}
-                                    >
-                                      <img src={item.imgSrc} aria-hidden="true" />
-                                    </div>
-                                  )}
-                                  <div className="ml-4">
-                                    <p className="text-base font-medium text-gray-900">
-                                      {item.name}
-                                    </p>
-                                    <p className="mt-1 text-sm text-gray-500">{item.description}</p>
-                                  </div>
-                                </a>
-                              ))}
-                            </div>
-                            <DropDownCallToAction href="https://github.com/freelawproject/">
-                              View More Projects on Github
-                            </DropDownCallToAction>
-                          </div>
-                        </Popover.Panel>
-                      </Transition>
-                    </>
-                  )}
-                </Popover>
+                          <item.icon
+                            className="flex-shrink-0 h-6 w-6 text-gray-400"
+                            aria-hidden="true"
+                          />
+                          <span className="ml-3">{item.name}</span>
+                        </a>
+                      </div>
+                    ))}
+                  </div>
+                </PopoverMenu>
                 {/* End Tools */}
 
-                {/* Datasets */}
-                <Popover className="relative">
-                  {({ open }) => (
-                    <>
-                      <Popover.Button
-                        className={classNames(
-                          open ? 'text-gray-300' : 'text-gray-100',
-                          'group rounded-md inline-flex items-center text-xs uppercase font-medium hover:text-gray-300 focus:outline-none focus:ring-2 focus:ring-offset-4 focus:ring-offset-purple-900 focus:ring-indigo-500'
-                        )}
-                      >
-                        <span>Data</span>
-                        <ChevronDownIcon
-                          className={classNames(
-                            open ? 'text-gray-300' : 'text-gray-100',
-                            'ml-1 h-4 w-4 group-hover:text-gray-200'
-                          )}
-                          aria-hidden="true"
-                        />
-                      </Popover.Button>
+                {/* Data */}
+                <PopoverMenu items={data} title="Data" panelClasses="max-w-md">
+                  <DropDownCallToAction href="https://github.com/freelawproject/">
+                    View More Projects on Github
+                  </DropDownCallToAction>
+                </PopoverMenu>
+                {/* End Data */}
 
-                      <Transition
-                        show={open}
-                        as={Fragment}
-                        enter="transition ease-out duration-200"
-                        enterFrom="opacity-0 translate-y-1"
-                        enterTo="opacity-100 translate-y-0"
-                        leave="transition ease-in duration-150"
-                        leaveFrom="opacity-100 translate-y-0"
-                        leaveTo="opacity-0 translate-y-1"
-                      >
-                        <Popover.Panel
-                          static
-                          className="absolute z-10 -ml-4 mt-3 transform px-2 w-screen max-w-md sm:px-0 lg:ml-0 left-1/2 -translate-x-1/2"
-                        >
-                          <div className="rounded-lg shadow-lg ring-1 ring-black ring-opacity-5 overflow-hidden">
-                            <div className="relative grid gap-6 bg-white px-5 py-6 sm:gap-8 sm:p-8">
-                              {datasets.map((item) => (
-                                <a
-                                  key={item.name}
-                                  href={item.href}
-                                  className="-m-3 p-3 flex items-start rounded-lg hover:bg-gray-50"
-                                >
-                                  {item.icon ? (
-                                    <item.icon
-                                      className="flex-shrink-0 h-6 w-6 text-purple-800"
-                                      aria-hidden="true"
-                                    />
-                                  ) : (
-                                    <div className="h-6 w-6 relative flex-shrink-0">
-                                      <Image src={item.imgSrc} layout="fill" aria-hidden="true" />
-                                    </div>
-                                  )}
-                                  <div className="ml-4">
-                                    <p className="text-base font-medium text-gray-900">
-                                      {item.name}
-                                    </p>
-                                    <p className="mt-1 text-sm text-gray-500">{item.description}</p>
-                                  </div>
-                                </a>
-                              ))}
-                            </div>
-                          </div>
-                        </Popover.Panel>
-                      </Transition>
-                    </>
-                  )}
-                </Popover>
-                {/* End Datasets */}
+                {/* Engage */}
+                <PopoverMenu items={engage} title="Engage" panelClasses="max-w-xs"></PopoverMenu>
+                {/* End Engage */}
 
                 {/* Blog */}
                 <Popover className="relative">
-                  {({ open }) => (
+                  {({ open, close }) => (
                     <>
                       <Popover.Button
                         className={classNames(
@@ -476,12 +363,13 @@ export default function Navbar({ allPosts }) {
                                 <ul className="mt-4 space-y-4">
                                   {featuredPosts.map((post) => (
                                     <li key={post.id} className="text-base">
-                                      <a
-                                        href={post.href}
-                                        className="font-medium text-gray-900 hover:text-gray-700"
-                                      >
-                                        {post.name}
-                                      </a>
+                                      <Link href={post.href} key={post.id}>
+                                        <a onClick={close}
+                                          className="font-medium text-gray-900 hover:text-gray-700"
+                                        >
+                                          {post.name}
+                                        </a>
+                                      </Link>
                                     </li>
                                   ))}
                                 </ul>
@@ -496,12 +384,14 @@ export default function Navbar({ allPosts }) {
                                 <ul className="mt-4 space-y-4">
                                   {allPosts.slice(0, 5).map(({ id, date, title }) => (
                                     <li key={id} className="text-base">
-                                      <a
-                                        href={`${id}`}
-                                        className="font-medium text-gray-900 hover:text-gray-700"
-                                      >
-                                        {title}
-                                      </a>
+                                      <Link href={id} key={id}>
+                                        <a
+                                          onClick={close}
+                                          className="font-medium text-gray-900 hover:text-gray-700"
+                                        >
+                                          {title}
+                                        </a>
+                                      </Link>
                                     </li>
                                   ))}
                                 </ul>
@@ -528,9 +418,11 @@ export default function Navbar({ allPosts }) {
                   &nbsp;Install RECAP
                 </WhiteButton>
               </div>
+              {/* End Desktop Toolbar */}
             </div>
           </div>
 
+          {/* Mobile Popover Menu */}
           <Transition
             show={open}
             as={Fragment}
@@ -566,103 +458,31 @@ export default function Navbar({ allPosts }) {
                     </div>
                   </div>
                 </div>
-                <div className="py-6 px-5 space-y-6">
-                  <div className="grid grid-cols-2 gap-x-6 sm:gap-x-8">
-                    <div className="grid grid-cols-1 gap-y-4">
-                      <a
-                        href="/about/"
-                        className="text-base font-medium text-gray-900 hover:text-gray-700"
-                      >
-                        About
-                      </a>
-                      <a
-                        href="/blog/"
-                        className="text-base font-medium text-gray-900 hover:text-gray-700"
-                      >
-                        Blog
-                      </a>
-
-                      <a
-                        href="/projects/courtlistener/"
-                        className="text-base font-medium text-gray-900 hover:text-gray-700"
-                      >
-                        CourtListener
-                      </a>
-                      <a
-                        href="/recap/"
-                        className="text-base font-medium text-gray-900 hover:text-gray-700"
-                      >
-                        RECAP Project
-                      </a>
-                      <a
-                        href="/data-consulting/"
-                        className="text-base font-medium text-gray-900 hover:text-gray-700"
-                      >
-                        <span className="hidden sm:inline">Services &amp; </span>Consulting
-                      </a>
-                      <a
-                        href="https://www.courtlistener.com/api/"
-                        className="text-base font-medium text-gray-900 hover:text-gray-700"
-                      >
-                        APIs and Bulk Data
-                      </a>
-                      <a
-                        href="https://www.courtlistener.com/api/replication/"
-                        className="text-base font-medium text-gray-900 hover:text-gray-700"
-                      >
-                        Data<span className="hidden sm:inline">base</span> Replication
-                      </a>
+                <div className="pb-6 pt-4 px-5 space-y-6">
+                  <div className="grid grid-cols-2 max-w-full gap-x-6 sm:gap-x-8">
+                    <div className="flex flex-col justify-between">
+                      {mobileLinks.filter((_, index) => (
+                        index < Math.ceil(mobileLinks.length / 2)
+                      )).map((item) => (
+                        <a
+                          href={item.href}
+                          className="text-base font-medium text-gray-900 hover:text-gray-700 py-2"
+                        >
+                          {item.label}
+                        </a>
+                      ))}
                     </div>
-                    <div className="grid grid-cols-1 gap-y-4">
-                      <a
-                        href="/projects/juriscraper/"
-                        className="text-base font-medium text-gray-900 hover:text-gray-700"
-                      >
-                        Juriscraper
-                      </a>
-                      <a
-                        href="/projects/eyecite/"
-                        className="text-base font-medium text-gray-900 hover:text-gray-700"
-                      >
-                        Eyecite
-                      </a>
-                      <a
-                        href="/projects/x-ray/"
-                        className="text-base font-medium text-gray-900 hover:text-gray-700"
-                      >
-                        X-Ray
-                      </a>
-                      {/* Restore this when balance can be created in the small screen navbar columns */}
-                      {/*<a*/}
-                      {/*  href="/projects/reporters-db/"*/}
-                      {/*  className="text-base font-medium text-gray-900 hover:text-gray-700"*/}
-                      {/*>*/}
-                      {/*  Reporters DB*/}
-                      {/*</a>*/}
-                      <a
-                        href="/projects/courts-db/"
-                        className="text-base font-medium text-gray-900 hover:text-gray-700"
-                      >
-                        Court Data
-                      </a>
-                      <a
-                        href="/projects/judge-pics/"
-                        className="text-base font-medium text-gray-900 hover:text-gray-700"
-                      >
-                        Judge Portraits
-                      </a>
-                      <a
-                        href="/projects/judge-db/"
-                        className="text-base font-medium text-gray-900 hover:text-gray-700"
-                      >
-                        Judge Profiles
-                      </a>
-                      <a
-                        href="/projects/supreme-court-data/"
-                        className="text-base font-medium text-gray-900 hover:text-gray-700"
-                      >
-                        SCOTUS Data
-                      </a>
+                    <div className="flex flex-col justify-between">
+                      {mobileLinks.filter((_, index) => (
+                        index >= Math.ceil(mobileLinks.length / 2)
+                      )).map((item) => (
+                        <a
+                          href={item.href}
+                          className="text-base font-medium text-gray-900 hover:text-gray-700 py-2"
+                        >
+                          {item.label}
+                        </a>
+                      ))}
                     </div>
                   </div>
                   <div className="grid grid-cols-1 sm:grid-cols-2 gap-2">
@@ -685,6 +505,7 @@ export default function Navbar({ allPosts }) {
               </div>
             </Popover.Panel>
           </Transition>
+          {/* End Mobile Popover Menu */}
         </>
       )}
     </Popover>
