@@ -29,6 +29,7 @@ export function Footer({ recentPost }) {
             <H5>About</H5>
             <FooterLink href="/about/">Overview</FooterLink>
             <FooterLink href="/team/">Team</FooterLink>
+            <FooterLink href="/presentations">Presentations &amp; Press</FooterLink> 
             <FooterLink href="/non-profit-documents/">Non-Profit Documents</FooterLink>
             <FooterLink href="/hiring/">Hiring</FooterLink>
             <FooterLink href="/press-assets/">
@@ -41,47 +42,7 @@ export function Footer({ recentPost }) {
           </div>
 
           <div className="pb-3">
-            <H5>Engage</H5>
-            <FooterLink href="/membership/">Membership</FooterLink>
-            <FooterLink href="/blog/">Read the Blog</FooterLink>
-            <FooterLink href="/startups/">How We Work with Startups</FooterLink>
-            <FooterLink href="/librarians/">Librarian Guide</FooterLink>
-            <FooterLink href={recentPost.id}>Our Latest Post</FooterLink>
-            <FooterLink href="https://donate.free.law/np/clients/freelawproject/subscribe.jsp?subscription=9">
-              Join our Newsletter</FooterLink>
-          </div>
-        </div>
-
-        <div className="w-full">
-          <div className="pb-3">
-            <H5>Tools</H5>
-            <FooterLink href="https://www.courtlistener.com/help/api/">Legal APIs</FooterLink>
-            <FooterLink href="https://www.courtlistener.com/help/api/replication/">
-              Database Replication
-            </FooterLink>
-            <FooterLink href="/open-source-tools">Open Source Tools</FooterLink>
-            <FooterLink href="https://github.com/freelawproject/">
-              <span className="hidden lg:inline">Other </span> Projects on Github
-            </FooterLink>
-          </div>
-          <div className="pb-3">
-            <H5>Datasets</H5>
-            <FooterLink href="/projects/judge-db/">Judges and Disclosures</FooterLink>
-            <FooterLink href="/projects/reporters-db/">Reporters</FooterLink>
-            <FooterLink href="/projects/courts-db/">Courts</FooterLink>
-            <FooterLink href="/projects/seal-rookery/">Court Seals</FooterLink>
-            <FooterLink href="/projects/judge-pics/">Judge Portraits</FooterLink>
-            <FooterLink href="/projects/oral-arguments/">Oral Argument Audio</FooterLink>
-            <FooterLink href="/projects/supreme-court-data/">Supreme Court Data</FooterLink>
-          </div>
-        </div>
-
-        <div className="w-full">
-          <div className="pb-3">
             <H5>Our Work</H5>
-            <FooterLink href="https://www.courtlistener.com/">CourtListener.com</FooterLink>
-            <FooterLink href="/recap/">RECAP Project</FooterLink>
-            <FooterLink href="https://bots.law/">Bots.law</FooterLink>
             <FooterLink href="/data-consulting/">
               Data <span className="hidden lg:inline">Services and </span>Consulting
             </FooterLink>
@@ -89,14 +50,50 @@ export function Footer({ recentPost }) {
             <FooterLink href="/idb-facts/">Integrated Database Fact Sheet</FooterLink>
             <FooterLink href="/court-contracts/">Court Contracts</FooterLink>
           </div>
+        </div>
+
+        <div className="w-full">
+          <div className="pb-3">
+            <H5>Tools</H5>
+            <FooterLink href="https://www.courtlistener.com/">CourtListener.com</FooterLink>
+            <FooterLink href="/recap/">RECAP Suite</FooterLink>
+            <FooterLink href="https://bots.law/">Bots.law</FooterLink>
+            <FooterLink href="/open-source-tools">Open Source Tools</FooterLink>
+            <FooterLink href="https://github.com/freelawproject/">
+              <span className="hidden lg:inline">More </span> on GitHub
+            </FooterLink>
+          </div>
+
+          <div className="pb-3">
+            <H5>Data</H5>
+            <FooterLink href="https://www.courtlistener.com/help/api/">Our Data Services</FooterLink>
+            <FooterLink href="https://www.courtlistener.com/help/api/rest/">Legal APIs</FooterLink>
+            <FooterLink href="https://www.courtlistener.com/help/api/bulk-data/">Bulk Data</FooterLink>
+            <FooterLink href="https://www.courtlistener.com/help/api/replication/">
+              Database Replication
+            </FooterLink>
+            <FooterLink href="/datasets">Datasets</FooterLink>
+          </div>
+        </div>
+
+        <div className="w-full">
+          <div className="pb-3">
+            <H5>Engage</H5>
+            <FooterLink href="/membership/">Membership</FooterLink>
+            <FooterLink href="/blog/">Read the Blog</FooterLink>
+            <FooterLink href="/startups/">Startup Guide</FooterLink>
+            <FooterLink href="/librarians/">Librarian Guide</FooterLink>
+            <FooterLink href="/2025/09/30/justice-partners-circle/">Justice Partner Circle</FooterLink>
+            <FooterLink href={recentPost.id}>Our Latest Post</FooterLink>
+            <FooterLink href="https://donate.free.law/np/clients/freelawproject/subscribe.jsp?subscription=9">
+              Join our Newsletter</FooterLink>
+            <FooterLink href="/volunteer/">Volunteer</FooterLink>
+          </div>
+          
           <div className="pb-3">
             <H5>Support FLP</H5>
             <FooterLink href="/donate/">Donate Now</FooterLink>
             <FooterLink href="/donate/help/">Donations FAQ</FooterLink>
-            <FooterLink href="/donate/matching-gifts/">Double Your Donation</FooterLink>
-            <FooterLink href="/sponsors/">Current Sponsors</FooterLink>
-            <FooterLink href="/become-a-sponsor/">Become a Sponsor</FooterLink>
-            <FooterLink href="/volunteer/">Volunteer</FooterLink>
             <FooterLink href="/donate/other-ways/">Other Ways to Help</FooterLink>
             <p className="pb-2 sm:pb-3 md:pb-4 text-gray-500">
               <Link href="/stickers/">
