@@ -40,7 +40,7 @@ export function Footer({ recentPost }) {
             </FooterLink>
             <FooterLink href="/contact/">Contact Us</FooterLink>
           </div>
-         
+
           <div className="pb-3">
             <H5>Our Work</H5>
             <FooterLink href="/data-consulting/">
@@ -52,7 +52,7 @@ export function Footer({ recentPost }) {
           </div>
         </div>
 
-        <div className="w-full"> 
+        <div className="w-full">
           <div className="pb-3">
             <H5>Tools</H5>
             <FooterLink href="https://www.courtlistener.com/">CourtListener.com</FooterLink>
@@ -73,7 +73,7 @@ export function Footer({ recentPost }) {
               Database Replication
             </FooterLink>
             <FooterLink href="/datasets">Datasets</FooterLink>
-          </div> 
+          </div>
         </div>
 
         <div className="w-full">
