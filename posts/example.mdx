@@ -99,7 +99,7 @@ Likewise, `w-full` makes it span the entire width, but you can change this to `w
 
 ### Do a sidebar (beta)
 
-Try something like this: 
+Try something like this:
 
 ```
 <RightInfoBox border={true}>
@@ -109,6 +109,19 @@ Try something like this:
   <PurpleButton href="https://www.courtlistener.com/help/api/rest/search/#semantic-search">Try It Now</PurpleButton>
 </RightInfoBox>
 ```
+
+### Adding a collapsible disclosure widget
+
+Use `<SimpleDisclosure>` to create an expandable/collapsible section with a button:
+
+```
+<SimpleDisclosure buttonText={"Click to learn more"}>
+  <p>This is hidden content that expands when the user clicks the button.</p>
+  <p>You can include multiple paragraphs or any other content here.</p>
+</SimpleDisclosure>
+```
+
+This creates a collapsible section that the user can expand by clicking the button. Useful for FAQs or additional context that doesn't need to be visible by default.
 
 ### Need more?
 
