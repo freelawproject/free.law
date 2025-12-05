@@ -173,7 +173,7 @@ export function EOYDialog() {
             </p>
           </div>
           <div className="my-6 w-full flex justify-end">
-            <Button href="https://donate.free.law/forms/supportflp" extraClasses={buttonClasses}>
+            <Button href="https://donate.free.law/forms/eoyflpsupport" extraClasses={buttonClasses}>
               <H1 extraClasses="font-extrabold">Make your donation today</H1>
             </Button>
           </div>
