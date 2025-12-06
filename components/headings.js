@@ -1,6 +1,6 @@
 export function H1Hero({ children }) {
   return (
-    <h1 className="text-2xl md:text-3xl lg:text-4xl font-display font-light tracking-wide">
+    <h1 className="text-2xl md:text-3xl lg:text-4xl font-display font-light tracking-wide leading-[2.5rem] md:leading-[2.5rem] lg:leading-[3rem]">
       {children}
     </h1>
   );
@@ -8,7 +8,7 @@ export function H1Hero({ children }) {
 
 export function HeroHeading({ children }) {
   return (
-    <h1 className="text-5xl sm:text-6xl md:text-7xl lg:text-8xl font-display font-light leading-relaxed tracking-wide">
+    <h1 className="text-5xl sm:text-6xl md:text-7xl lg:text-8xl font-display font-light leading-[2.5rem] sm:leading-[3rem] md:leading-[4rem] lg:leading-[5rem] tracking-wide">
       {children}
     </h1>
   );
@@ -16,7 +16,7 @@ export function HeroHeading({ children }) {
 
 export function HeroHeadingMono({ children }) {
   return (
-    <h1 className="text-4xl sm:text-5xml md:text-6xl lg:text-7xl leading-relaxed tracking-widest font-mono">
+    <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl leading-[2.5rem] sm:leading-[3rem] md:leading-[4rem] lg:leading-[5rem] tracking-widest font-mono">
       {children}
     </h1>
   );
@@ -32,7 +32,7 @@ export function H1({ children, extraClasses }) {
 
 export function H2({ children }) {
   return (
-    <h2 className="text-2xl md:text-3xl lg:text-4xl md:leading-relaxed tracking-wide font-display">
+    <h2 className="text-2xl md:text-3xl lg:text-4xl leading-[2.5rem] md:leading-[2.5rem] lg:leading-[3rem] tracking-wide font-display">
       {children}
     </h2>
   );
