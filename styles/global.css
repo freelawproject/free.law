@@ -1,6 +1,15 @@
 @config "../tailwind.config.js";
 @import "tailwindcss";
 
+/* Match overscroll background to navbar color */
+html {
+  background-color: #180040;
+}
+
+body {
+  background-color: white;
+}
+
 @theme {
   --background-image-imgScotus: url('/images/homepage/scotus-hero.jpeg');
   --background-image-imgJudgeHr: url('/images/homepage/judge-hr.jpeg');
