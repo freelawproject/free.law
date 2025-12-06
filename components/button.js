@@ -1,10 +1,10 @@
 import Link from 'next/link';
 import {Popover, Transition} from "@headlessui/react";
 import {Fragment} from "react";
-import {ChevronDownIcon} from "@heroicons/react/solid";
-import {DownloadIcon} from "@heroicons/react/outline";
+import {ChevronDownIcon} from "@heroicons/react/24/solid";
+import {ArrowDownTrayIcon as DownloadIcon} from "@heroicons/react/24/outline";
 
-const BASE_BUTTON_CLASSES = 'text-center whitespace-nowrap border border-transparent rounded-md shadow-sm text-base font-medium text-white text-sm no-underline';
+const BASE_BUTTON_CLASSES = 'text-center whitespace-nowrap border rounded-md shadow-sm text-base font-medium no-underline';
 
 export default function Button({ children, href, extraClasses, size, noRouting }) {
   let classes = BASE_BUTTON_CLASSES;
@@ -12,15 +12,15 @@ export default function Button({ children, href, extraClasses, size, noRouting }
     classes += ' ' + extraClasses;
   }
   if (size === 'sm') {
-    classes += ' px-2 pt-2 pb-2 sm:text-md';
+    classes += ' px-2 py-2 text-sm';
   } else if (size === 'lg') {
     classes += ' px-6 py-4 text-lg';
   } else {
-    classes += ' px-4 py-2 sm:text-md';
+    classes += ' px-4 py-2';
   }
   return noRouting // Don't use Next.js routing for local file paths like PDFs, but keep consistent styling
     ? (<a href={href} className={classes}>{children}</a>)
-    : (<Link href={href}><a className={classes}>{children}</a></Link>);
+    : (<Link href={href} className={classes}>{children}</Link>);
 }
 
 export function WideButton({ children, href, extraClasses }) {
@@ -36,7 +36,7 @@ export function WideButton({ children, href, extraClasses }) {
 }
 
 export function RedButton({ children, href, extraClasses, size }) {
-  let classes = 'bg-red-600 hover:bg-red-700';
+  let classes = 'bg-red-600 hover:bg-red-700 text-white border-transparent';
   if (extraClasses) {
     classes += ' ' + extraClasses;
   }
@@ -75,7 +75,7 @@ export function WideWhiteButton({ children, href, extraClasses }) {
 }
 
 export function PurpleButton({ children, href, extraClasses, size }) {
-  let classes = 'bg-purple-800 hover:bg-purple-900';
+  let classes = 'bg-purple-800 hover:bg-purple-900 text-white border-transparent';
   if (extraClasses) {
     classes += ' ' + extraClasses;
   }
@@ -89,8 +89,8 @@ export function PurpleButton({ children, href, extraClasses, size }) {
 export function FooterLink({ children, href }) {
   return (
     <p className="pb-2 sm:pb-3 md:pb-4">
-      <Link href={href}>
-        <a className="text-gray-500 hover:underline">{children}</a>
+      <Link href={href} className="text-gray-500 hover:underline">
+        {children}
       </Link>
     </p>
   );
@@ -99,17 +99,17 @@ export function FooterLink({ children, href }) {
 export function InstallRECAPButtons() {
   const addToChromeButton = (
       <PurpleButton size="lg" href="https://chrome.google.com/webstore/detail/recap/oiillickanjlaeghobeeknbddaonmjnc"
-        extraClasses="inline-flex md:px-4 sm:text-md md:py-2"><DownloadIcon className="flex-shrink-0 h-4 w-4" aria-hidden="true"/>&nbsp;Add to Chrome</PurpleButton>);
+        extraClasses="inline-flex md:px-4 md:py-2"><DownloadIcon className="flex-shrink-0 h-4 w-4" aria-hidden="true"/>&nbsp;Add to Chrome</PurpleButton>);
   const addToEdgeButton = (
       <PurpleButton size="lg" href="/recap/edge/"
-        extraClasses="inline-flex md:px-4 sm:text-md md:py-2"><DownloadIcon className="flex-shrink-0 h-4 w-4" aria-hidden="true"/>&nbsp;Add to Edge</PurpleButton>);
+        extraClasses="inline-flex md:px-4 md:py-2"><DownloadIcon className="flex-shrink-0 h-4 w-4" aria-hidden="true"/>&nbsp;Add to Edge</PurpleButton>);
   const addToSafariButton = (
       <PurpleButton size="lg" href="https://apps.apple.com/us/app/recap/id1600281788"
-        extraClasses="inline-flex md:px-4 sm:text-md md:py-2"><DownloadIcon className="flex-shrink-0 h-4 w-4" aria-hidden="true"/>&nbsp;Add to Safari&nbsp;</PurpleButton>
+        extraClasses="inline-flex md:px-4 md:py-2"><DownloadIcon className="flex-shrink-0 h-4 w-4" aria-hidden="true"/>&nbsp;Add to Safari&nbsp;</PurpleButton>
   );
   const addToFirefoxButton = (
       <PurpleButton size="lg" href="https://addons.mozilla.org/en-US/firefox/addon/recap-195534/"
-        extraClasses="inline-flex md:px-4 sm:text-md md:py-2"><DownloadIcon className="flex-shrink-0 h-4 w-4" aria-hidden="true"/>&nbsp;Add to Firefox&nbsp;</PurpleButton>
+        extraClasses="inline-flex md:px-4 md:py-2"><DownloadIcon className="flex-shrink-0 h-4 w-4" aria-hidden="true"/>&nbsp;Add to Firefox&nbsp;</PurpleButton>
   );
   return (
     <>
@@ -149,7 +149,7 @@ export function ButtonWithPopover({children, buttonText, extraClasses }) {
           <Popover.Button
             className={`
               ${open ? 'text-white' : 'text-white/90'}
-              ${BASE_BUTTON_CLASSES} px-6 py-4 text-lg bg-purple-800 hover:bg-purple-900 flex flex-nowrap mx-auto`}
+              ${BASE_BUTTON_CLASSES} px-6 py-4 text-lg bg-purple-800 hover:bg-purple-900 border-transparent flex flex-nowrap mx-auto`}
           >
             {buttonText}
             <ChevronDownIcon
