@@ -104,7 +104,7 @@ export function RightImage({ children, imgProps, width, height, border, href }) 
 
 export function CaptionedImage({ imgProps, href, border, children }) {
   return (
-    <figure className="m-0">
+    <figure className="not-prose m-0">
       {href ? (
         <Link href={href}>
           <img {...imgProps} className={classNames({ border: border }, 'mb-0')} />
