@@ -1,13 +1,13 @@
 import { Fragment } from 'react';
 import { Popover, Transition } from '@headlessui/react';
 import {
-  DownloadIcon,
+  ArrowDownTrayIcon as DownloadIcon,
   FireIcon,
   HeartIcon,
-  MenuIcon,
-  XIcon,
-} from '@heroicons/react/outline';
-import { ChevronDownIcon } from '@heroicons/react/solid';
+  Bars3Icon as MenuIcon,
+  XMarkIcon as XIcon,
+} from '@heroicons/react/24/outline';
+import { ChevronDownIcon } from '@heroicons/react/24/solid';
 import Link from 'next/link';
 import Image from 'next/image';
 import { RedButton, WhiteButton } from './button';
@@ -215,25 +215,25 @@ function PopoverMenu({children, title, items, panelClasses}) {
                 <Link
                   href={item.href}
                   key={item.name}
+                  onClick={close}
+                  className="rounded-lg py-3 px-4 hover:bg-gray-50 text-base font-medium text-gray-900 flex flex-row flex-nowrap gap-4"
                 >
-                  <a onClick={close} className="rounded-lg py-3 px-4 hover:bg-gray-50 text-base font-medium text-gray-900 flex flex-row flex-nowrap gap-4">
-                    {item.icon ? (
-                      <item.icon
-                        className="flex-shrink-0 h-6 w-6 text-gray-400"
-                        aria-hidden="true"
-                      />
-                    ) : item.imgSrc ? (
-                      <div className="h-8 w-8 relative flex-shrink-0">
-                        <Image src={item.imgSrc} layout="fill" aria-hidden="true" />
-                      </div>
-                    ) : <></>}
-                    <span className="flex flex-col gap-1 justify-start">
-                      <p className="text-base font-medium text-gray-900">
-                        {item.name}
-                      </p>
-                      <p className="text-sm text-gray-500">{item.description}</p>
-                    </span>
-                  </a>
+                  {item.icon ? (
+                    <item.icon
+                      className="flex-shrink-0 h-6 w-6 text-gray-400"
+                      aria-hidden="true"
+                    />
+                  ) : item.imgSrc ? (
+                    <div className="h-8 w-8 relative flex-shrink-0">
+                      <Image src={item.imgSrc} fill aria-hidden="true" />
+                    </div>
+                  ) : <></>}
+                  <span className="flex flex-col gap-1 justify-start">
+                    <p className="text-base font-medium text-gray-900">
+                      {item.name}
+                    </p>
+                    <p className="text-sm text-gray-500">{item.description}</p>
+                  </span>
                 </Link>
               ))}
             </div>
@@ -363,12 +363,13 @@ export default function Navbar({ allPosts }) {
                                 <ul className="mt-4 space-y-4">
                                   {featuredPosts.map((post) => (
                                     <li key={post.id} className="text-base">
-                                      <Link href={post.href} key={post.id}>
-                                        <a onClick={close}
-                                          className="font-medium text-gray-900 hover:text-gray-700"
-                                        >
-                                          {post.name}
-                                        </a>
+                                      <Link
+                                        href={post.href}
+                                        key={post.id}
+                                        onClick={close}
+                                        className="font-medium text-gray-900 hover:text-gray-700"
+                                      >
+                                        {post.name}
                                       </Link>
                                     </li>
                                   ))}
@@ -384,13 +385,13 @@ export default function Navbar({ allPosts }) {
                                 <ul className="mt-4 space-y-4">
                                   {allPosts.slice(0, 5).map(({ id, date, title }) => (
                                     <li key={id} className="text-base">
-                                      <Link href={id} key={id}>
-                                        <a
-                                          onClick={close}
-                                          className="font-medium text-gray-900 hover:text-gray-700"
-                                        >
-                                          {title}
-                                        </a>
+                                      <Link
+                                        href={id}
+                                        key={id}
+                                        onClick={close}
+                                        className="font-medium text-gray-900 hover:text-gray-700"
+                                      >
+                                        {title}
                                       </Link>
                                     </li>
                                   ))}
