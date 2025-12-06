@@ -1,10 +1,11 @@
 import Date from '../components/date';
+import Head from 'next/head';
 import Layout, { PostColumn } from '../components/layout';
 import { MDXRemote } from 'next-mdx-remote';
 import { getAllPostIds, getPostData, getSortedPostsData } from '../lib/posts';
 import { H1 } from '../components/headings';
 import { AlertBox, Tag } from '../components/widgets';
-import { NextSeo } from 'next-seo';
+import { generateNextSeo } from 'next-seo/pages';
 import { mdxComponents } from '../lib/mdx';
 import { RedButton } from '../components/button';
 import slugify from 'slugify';
@@ -44,16 +45,18 @@ export default function Post({ postData, allPostsData }) {
   }
   return (
     <Layout allPosts={allPostsData} home={false}>
-      <NextSeo
-        title={postData.title}
-        noindex={postData.private}
-        robotsProps={{
-          noarchive: postData.private,
-          nosnippet: postData.private,
-        }}
-        description={postData.excerpt}
-        openGraph={openGraph}
-      />
+      <Head>
+        {generateNextSeo({
+          title: postData.title,
+          noindex: postData.private,
+          robotsProps: {
+            noarchive: postData.private,
+            nosnippet: postData.private,
+          },
+          description: postData.excerpt,
+          openGraph: openGraph,
+        })}
+      </Head>
 
       <PostColumn>
         <article className="pt-8 pb-8">
