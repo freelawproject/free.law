@@ -28,7 +28,7 @@ export default function Custom404({ allPostsData }) {
           <p>
             Sometimes it's possible to find things in the{' '}
             <Link href="/blog/">
-              <a>Blog Archive</a>
+              Blog Archive
             </Link>
             .
           </p>
