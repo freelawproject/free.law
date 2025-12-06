@@ -3,9 +3,9 @@ import Link from 'next/link';
 import { H4 } from './headings';
 import Button from './button';
 import classNames from 'classnames';
-import { ArrowCircleRightIcon } from '@heroicons/react/outline';
+import { ArrowRightCircleIcon as ArrowCircleRightIcon } from '@heroicons/react/24/outline';
 import { Disclosure } from '@headlessui/react';
-import { ChevronUpIcon } from '@heroicons/react/solid';
+import { ChevronUpIcon } from '@heroicons/react/24/solid';
 
 export function GridListItem({ heading, imgProps, border, bg, href, btnText, children }) {
   return (
@@ -17,7 +17,7 @@ export function GridListItem({ heading, imgProps, border, bg, href, btnText, chi
       <div className={border ? 'p-5' : ''}>
         {imgProps ? (
           <div className="mt-5 mb-10 w-full h-32 relative">
-            <Image {...imgProps} layout="fill" />
+            <Image {...imgProps} fill />
           </div>
         ) : (
           ''
@@ -42,9 +42,12 @@ export function GridListItem({ heading, imgProps, border, bg, href, btnText, chi
 }
 
 export function GridImage({ imgProps }) {
+  // Create a new imgProps without width/height for fill mode
+  const { width: _w, height: _h, ...restImgProps } = imgProps;
+
   return (
-    <div className="relative w-full">
-      <Image {...imgProps} layout="responsive" />
+    <div className="relative w-full h-16">
+      <Image {...restImgProps} fill className="object-contain" />
     </div>
   );
 }
@@ -54,8 +57,8 @@ export function Tag({ id, href, name }) {
   return (
     <span className="text-xs inline-flex items-center leading-sm uppercase px-3 py-1 bg-purple-200 rounded-full">
       {href ? (
-        <Link id={id} href={href}>
-          <a className={classes}>{name}</a>
+        <Link id={id} href={href} className={classes}>
+          {name}
         </Link>
       ) : (
         <span className={classes}>{name}</span>
@@ -107,9 +110,7 @@ export function CaptionedImage({ imgProps, href, border, children }) {
     <figure className="m-0">
       {href ? (
         <Link href={href}>
-          <a>
-            <img {...imgProps} className={classNames({ border: border }, 'mb-0')} />
-          </a>
+          <img {...imgProps} className={classNames({ border: border }, 'mb-0')} />
         </Link>
       ) : (
         <img {...imgProps} className={classNames({ border: border })} />
