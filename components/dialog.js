@@ -1,6 +1,6 @@
 import { useEffect, useId, useState } from 'react';
-import { Dialog as HeadlessDialog } from '@headlessui/react';
-import { XIcon } from '@heroicons/react/outline';
+import { Dialog as HeadlessDialog, DialogBackdrop, DialogPanel } from '@headlessui/react';
+import { XMarkIcon as XIcon } from '@heroicons/react/24/outline';
 import { H1 } from './headings';
 import Button from './button';
 import {Spinner} from "./widgets";
@@ -205,19 +205,21 @@ export default function Dialog({
   } else {
     [isOpen, setIsOpen] = [isOpenProp, setIsOpenProp];
   }
-  let classes = 'fixed p-6';
+  let panelClasses = 'p-6';
   if (extraClasses) {
-    classes += ' ' + extraClasses;
+    panelClasses += ' ' + extraClasses;
   }
   return (
     <HeadlessDialog
       onClose={() => setIsOpen(false)}
       open={isOpen}
-      className="w-full h-full inset-0 fixed z-50 flex justify-center items-center"
+      className="fixed inset-0 z-50"
       id={dialogId}
     >
-      <HeadlessDialog.Overlay className="fixed inset-0 bg-black opacity-60" />
-      <div className={classes}>{children}</div>
+      <DialogBackdrop className="fixed inset-0 bg-black/60" />
+      <div className="fixed inset-0 flex items-center justify-center p-4">
+        <DialogPanel className={panelClasses}>{children}</DialogPanel>
+      </div>
     </HeadlessDialog>
   );
 }

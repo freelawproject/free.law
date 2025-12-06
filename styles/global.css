@@ -1,5 +1,13 @@
-@tailwind base;
-@tailwind components;
+@config "../tailwind.config.js";
+@import "tailwindcss";
+
+@theme {
+  --background-image-imgScotus: url('/images/homepage/scotus-hero.jpeg');
+  --background-image-imgJudgeHr: url('/images/homepage/judge-hr.jpeg');
+  --background-image-EOYBanner1: url('/images/homepage/eOYBanner1.jpg');
+  --background-image-EOYBanner2: url('/images/homepage/eOYBanner2.jpg');
+  --background-image-smile: radial-gradient(ellipse 80% 100% at 50% 10%, #180040 90%, transparent 90%);
+}
 
 @font-face {
     font-family: 'CooperHewitt';
@@ -25,17 +33,24 @@
     font-weight: 600;
 }
 
-@tailwind utilities;
-
 @layer utilities {
     .centered-row {
-        @apply flex justify-center items-center gap-2 flex-wrap;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 0.5rem;
+        flex-wrap: wrap;
     }
     .prose :where(blockquote):not(:where([class~="not-prose"] *)) {
         font-style: normal;
     }
     .callout-box {
-        @apply px-10 py-8 border border-gray-500;
+        padding-left: 2.5rem;
+        padding-right: 2.5rem;
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+        border-width: 1px;
+        border-color: rgb(107 114 128);
     }
 }
 
