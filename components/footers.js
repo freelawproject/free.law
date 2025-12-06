@@ -16,12 +16,13 @@ export function Footer({ recentPost }) {
         id="footer"
       >
         <div className="w-1/2 hidden md:block row-span-2">
-          <Image
-            src="/images/logos/flp/flp-medium-black.svg"
-            width="204"
-            height="113"
-            layout="responsive"
-          />
+          <div className="relative w-full aspect-[204/113]">
+            <Image
+              src="/images/logos/flp/flp-medium-black.svg"
+              fill
+              className="object-contain"
+            />
+          </div>
         </div>
 
         <div className="w-full">
@@ -96,12 +97,12 @@ export function Footer({ recentPost }) {
             <FooterLink href="/donate/help/">Donations FAQ</FooterLink>
             <FooterLink href="/donate/other-ways/">Other Ways to Help</FooterLink>
             <p className="pb-2 sm:pb-3 md:pb-4 text-gray-500">
-              <Link href="/stickers/">
-                <a className="hover:underline">Stickers</a>
+              <Link href="/stickers/" className="hover:underline">
+                Stickers
               </Link>{' '}
               &amp;{' '}
-              <Link href="https://shop.printyourcause.com/campaigns/free-law-project---for-sales">
-                <a className="hover:underline">Store</a>
+              <Link href="https://shop.printyourcause.com/campaigns/free-law-project---for-sales" className="hover:underline">
+                Store
               </Link>
               !
             </p>
@@ -128,37 +129,29 @@ export function Colophon() {
         </div>
         <div className="w-full sm:w-3/5">
           <p className="flex flex-row justify-center sm:justify-end gap-6 pt-6 sm:pt-0">
-            <Link href="https://bsky.app/profile/free.law">
-              <a className="text-gray-400 hover:text-gray-500 w-8 h-8">
-                <BlueskyLogo></BlueskyLogo>
-              </a>
+            <Link href="https://bsky.app/profile/free.law" className="text-gray-400 hover:text-gray-500 w-8 h-8">
+              <BlueskyLogo></BlueskyLogo>
             </Link>
-            <Link href="https://law.builders/@flp">
-              <a rel="me">
-                <FontAwesomeIcon
-                  icon={faMastodon}
-                  className="w-8 text-gray-400 hover:text-gray-500"
-                  mask={faCircle}
-                  inverse
-                  transform="shrink-6"
-                />
-              </a>
+            <Link href="https://law.builders/@flp" rel="me">
+              <FontAwesomeIcon
+                icon={faMastodon}
+                className="w-8 h-8 text-gray-400 hover:text-gray-500"
+                mask={faCircle}
+                inverse
+                transform="shrink-6"
+              />
             </Link>
             <Link href="https://donate.free.law/np/clients/freelawproject/subscribe.jsp?subscription=9">
-              <a>
-                <FontAwesomeIcon
-                  icon={faNewspaper}
-                  className="w-8 text-gray-400 hover:text-gray-500"
-                  mask={faCircle}
-                  inverse
-                  transform="shrink-6"
-                />
-              </a>
+              <FontAwesomeIcon
+                icon={faNewspaper}
+                className="w-8 h-8 text-gray-400 hover:text-gray-500"
+                mask={faCircle}
+                inverse
+                transform="shrink-6"
+              />
             </Link>
             <Link href="https://github.com/freelawproject/">
-              <a>
-                <FontAwesomeIcon icon={faGithub} className="w-8 text-gray-400 hover:text-gray-500" />
-              </a>
+              <FontAwesomeIcon icon={faGithub} className="w-8 h-8 text-gray-400 hover:text-gray-500" />
             </Link>
           </p>
         </div>
@@ -169,10 +162,8 @@ export function Colophon() {
 
 export function JudgeRibbon() {
   return (
-    <Link href="/projects/judge-pics/">
-      <a title="Check out our database of judge portraits">
-        <MainFullBleedColumn bgClasses="bg-imgJudgeHr h-36px" />
-      </a>
+    <Link href="/projects/judge-pics/" title="Check out our database of judge portraits">
+      <MainFullBleedColumn bgClasses="bg-imgJudgeHr h-36px" />
     </Link>
   );
 }
