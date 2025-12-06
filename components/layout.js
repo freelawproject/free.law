@@ -19,7 +19,7 @@ import classNames from 'classnames';
 import Button, {RedButton} from './button';
 import {H1} from './headings';
 import Date from './date';
-import {HeartIcon} from "@heroicons/react/outline";
+import {HeartIcon} from "@heroicons/react/24/outline";
 import presentations from '../lib/presentations.json';
 
 export function MainColumn({ children }) {
@@ -41,10 +41,8 @@ export function PostColumn({ children }) {
 export function PostSummary({ post }) {
   return (
     <article key={post.id} className="py-8">
-      <Link href={post.id}>
-        <a className="no-underline text-lg">
-          <H1 extraClasses="text-2xl">{post.title}</H1>
-        </a>
+      <Link href={post.id} className="no-underline text-lg">
+        <H1 extraClasses="text-2xl">{post.title}</H1>
       </Link>
       <p>{post.excerpt}</p>
       <p className="space-x-4">
