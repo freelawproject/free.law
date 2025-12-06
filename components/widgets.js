@@ -42,12 +42,9 @@ export function GridListItem({ heading, imgProps, border, bg, href, btnText, chi
 }
 
 export function GridImage({ imgProps }) {
-  // Create a new imgProps without width/height for fill mode
-  const { width: _w, height: _h, ...restImgProps } = imgProps;
-
   return (
-    <div className="relative w-full h-16">
-      <Image {...restImgProps} fill className="object-contain" />
+    <div className="relative w-full">
+      <Image {...imgProps} className="w-full h-auto" />
     </div>
   );
 }
