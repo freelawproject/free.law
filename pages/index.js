@@ -1,5 +1,6 @@
 import Link from 'next/link';
 import Image from 'next/image';
+import Head from 'next/head';
 import Layout, { ClientPics, MainColumn, MainFullBleedColumn } from '../components/layout';
 import { getSortedPostsData } from '../lib/posts';
 import Button, { PurpleButton } from '../components/button';
@@ -8,8 +9,8 @@ import { H2, H3, HeroHeading, HeroHeadingMono } from '../components/headings';
 import { GridListItem } from '../components/widgets';
 import HeroImage from '../components/heroImage';
 import { JudgeRibbon } from '../components/footers';
-import { DownloadIcon } from '@heroicons/react/outline';
-import { NextSeo } from 'next-seo';
+import { ArrowDownTrayIcon as DownloadIcon } from '@heroicons/react/24/outline';
+import { generateNextSeo } from 'next-seo/pages';
 
 export async function getStaticProps() {
   const allPostsData = await getSortedPostsData();
@@ -23,13 +24,15 @@ export async function getStaticProps() {
 export default function Home({ allPostsData }) {
   return (
     <Layout allPosts={allPostsData} home={true}>
-      <NextSeo
-        title="Home"
-        openGraph={{
-          type: 'website',
-          url: 'https://free.law/',
-        }}
-      />
+      <Head>
+        {generateNextSeo({
+          title: 'Home',
+          openGraph: {
+            type: 'website',
+            url: 'https://free.law/',
+          },
+        })}
+      </Head>
       <main>
         <EOYDialog />
 
@@ -41,18 +44,20 @@ export default function Home({ allPostsData }) {
               <H2>The RECAP Suite helps you liberate and work with court documents.</H2>
             </div>
             <div className="hidden sm:flex justify-end sm:w-1/2 pl-8 pt-5">
-              <Image
-                src="/images/homepage/recap.svg"
-                alt="The RECAP logo"
-                width="350"
-                height="207"
-              />
+              <div className="relative w-full max-w-[350px] aspect-[350/207]">
+                <Image
+                  src="/images/homepage/recap.svg"
+                  alt="The RECAP logo"
+                  fill
+                  className="object-contain"
+                />
+              </div>
             </div>
             <div className="flex sm:hidden justify-end w-1/3 pl-4 relative h-24">
               <Image
                 src="/images/icons/medium-color-recap.svg"
                 alt="The RECAP logo"
-                layout="fill"
+                fill
               />
             </div>
             <div
@@ -68,8 +73,8 @@ export default function Home({ allPostsData }) {
                 <p>
                   If you use PACER, install RECAP into your browser. Anything you buy from PACER
                   goes into the{' '}
-                  <Link href="https://www.courtlistener.com/recap/">
-                    <a className="underline">RECAP Archive</a>
+                  <Link href="https://www.courtlistener.com/recap/" className="underline">
+                    RECAP Archive
                   </Link>
                   .
                 </p>
@@ -139,21 +144,20 @@ export default function Home({ allPostsData }) {
           <div className="flex flex-wrap py-16">
             <div className="w-2/3 lg:w-1/2 pb-4">
               <H2>
-                <Link href="https://www.courtlistener.com/">
-                  <a className={'underline'}>CourtListener</a>
+                <Link href="https://www.courtlistener.com/" className="underline">
+                  CourtListener
                 </Link>{' '}
                 is our archive of legal opinions, filings, judges, and judicial
                 financial&nbsp;records.
               </H2>
             </div>
             <div className="hidden sm:block w-1/3 lg:w-1/2 pl-4 justify-end">
-              <div className="w-full lg:w-2/3 float-right">
+              <div className="relative w-full lg:w-2/3 float-right aspect-[400/141]">
                 <Image
                   src="/images/homepage/full-color-no-free-dot-law.svg"
                   alt="The CourtListener logo"
-                  width="400"
-                  height="141"
-                  layout="responsive"
+                  fill
+                  className="object-contain"
                   quality="100"
                 />
               </div>
@@ -162,7 +166,7 @@ export default function Home({ allPostsData }) {
               <Image
                 src="/images/icons/medium-color-cl.svg"
                 alt="The CourtListener logo"
-                layout="fill"
+                fill
               />
             </div>
             <div
@@ -177,8 +181,8 @@ export default function Home({ allPostsData }) {
               >
                 <p>
                   CourtListener has{' '}
-                  <Link href="https://www.courtlistener.com/recap/">
-                    <a className="underline">the largest free collection</a>
+                  <Link href="https://www.courtlistener.com/recap/" className="underline">
+                    the largest free collection
                   </Link>{' '}
                   of federal court documents and dockets on the Internet. Our collection grows every
                   day.
@@ -193,8 +197,8 @@ export default function Home({ allPostsData }) {
               >
                 <p>
                   CourtListener.com houses an{' '}
-                  <Link href="https://www.courtlistener.com/opinion/">
-                    <a className="underline">immense collection</a>
+                  <Link href="https://www.courtlistener.com/opinion/" className="underline">
+                    immense collection
                   </Link>{' '}
                   of searchable orders and opinions.
                 </p>
@@ -214,12 +218,12 @@ export default function Home({ allPostsData }) {
                 </p>
                 <p>
                   Included in the database is{' '}
-                  <Link href="https://www.courtlistener.com/person/">
-                    <a className="underline">detailed biographical information</a>
+                  <Link href="https://www.courtlistener.com/person/" className="underline">
+                    detailed biographical information
                   </Link>
                   , over a million{' '}
-                  <Link href="https://www.courtlistener.com/financial-disclosures/">
-                    <a className="underline">disclosure records</a>
+                  <Link href="https://www.courtlistener.com/financial-disclosures/" className="underline">
+                    disclosure records
                   </Link>
                   , and much&nbsp;more.
                 </p>
@@ -232,8 +236,8 @@ export default function Home({ allPostsData }) {
               >
                 <p>
                   Every docket and PDF we have is full-text searchable in the{' '}
-                  <Link href="https://www.courtlistener.com/recap/">
-                    <a className="underline">RECAP Archive</a>
+                  <Link href="https://www.courtlistener.com/recap/" className="underline">
+                    RECAP Archive
                   </Link>{' '}
                   on CourtListener.
                 </p>
@@ -248,15 +252,15 @@ export default function Home({ allPostsData }) {
                 <p>
                   Courts said they couldn't host oral argument files so we started doing it for
                   them. Now we host{' '}
-                  <Link href="https://www.courtlistener.com/audio/">
-                    <a className="underline">the biggest collection of oral argument audio</a>
+                  <Link href="https://www.courtlistener.com/audio/" className="underline">
+                    the biggest collection of oral argument audio
                   </Link>{' '}
                   in the world.
                 </p>
                 <p>
                   Listen online, subscribe to our podcasts, or{' '}
-                  <Link href="https://www.courtlistener.com/podcasts/">
-                    <a className="underline">make custom podcasts of your own</a>
+                  <Link href="https://www.courtlistener.com/podcasts/" className="underline">
+                    make custom podcasts of your own
                   </Link>
                   .
                 </p>
@@ -269,10 +273,8 @@ export default function Home({ allPostsData }) {
               >
                 <p>
                   We provide automated access to nearly all of the data we host{' '}
-                  <Link href="https://www.courtlistener.com/api/">
-                    <a className="underline">
-                      via APIs, bulk data files, and database&nbsp;replication
-                    </a>
+                  <Link href="https://www.courtlistener.com/api/" className="underline">
+                    via APIs, bulk data files, and database&nbsp;replication
                   </Link>
                   .
                 </p>
@@ -339,12 +341,14 @@ export default function Home({ allPostsData }) {
             id="advocacy"
           >
             <div className="pt-10 sm:pt-20 justify-center flex">
-              <Image
-                src="/images/icons/advocacy.svg"
-                alt="A fist holding the scales of justice"
-                width="450"
-                height="265"
-              />
+              <div className="relative w-full max-w-[450px] aspect-[450/265]">
+                <Image
+                  src="/images/icons/advocacy.svg"
+                  alt="A fist holding the scales of justice"
+                  fill
+                  className="object-contain"
+                />
+              </div>
             </div>
             <div className="pt-8 sm:pt-28 text-center">
               <H2>Legal Advocacy</H2>
@@ -366,8 +370,8 @@ export default function Home({ allPostsData }) {
                 To spur innovation in the legal ecosystem, our work is open source and freely
                 available. These tools give organizations and researchers a launchpad for
                 their&nbsp;innovation.{' '}
-                <Link href="https://github.com/freelawproject/">
-                  <a className="underline">View our tools on Github</a>
+                <Link href="https://github.com/freelawproject/" className="underline">
+                  View our tools on Github
                 </Link>
                 .
               </H3>
