@@ -60,6 +60,18 @@ You can use the `centered-row` class to include multiple elements in a row:
 </p>
 ```
 
+### Linking to PDFs or other files
+
+When linking to PDFs or other static files, use the `noRouting` prop to ensure the browser handles the file correctly (opens in new tab, allows download, etc.):
+
+```
+<p className="centered-row">
+  <PurpleButton href="/pdf/some-document.pdf" size="lg" noRouting>Download PDF</PurpleButton>
+</p>
+```
+
+Without `noRouting`, Next.js tries to handle the link as a page navigation, which breaks PDF viewing and downloads.
+
 ### Embedding YouTube videos
 
 For example, easily embed YouTube videos using a standard link like this:
