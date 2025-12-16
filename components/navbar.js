@@ -158,19 +158,16 @@ const featuredPosts = [
 const mobileLinks = [
   { label: (<>About</>), href: '/about/'},
   { label: (<>Blog</>), href: '/blog/'},
-  { label: (<>Presentations</>), href: '/presentations/'},
+  { label: (<>Team</>), href: '/2025/09/30/justice-partners-circle'},
+  { label: (<>For Law Firms</>), href: '/2025/09/30/justice-partners-circle'},
+  { label: (<>For Librarians</>), href: '/librarians'},
+  { label: (<>For Startups</>), href: '/startups'},
   { label: (<>CourtListener</>), href: '/projects/courtlistener/'},
-  { label: (<>RECAP Project</>), href: '/recap/'},
-  { label: (<><span className="hidden sm:inline">Services &amp; </span>Consulting</>), href: '/data-consulting/'},
-  { label: (<>APIs and Bulk Data</>), href: 'https://www.courtlistener.com/api/'},
-  { label: (<>Data<span className="hidden sm:inline">base</span> Replication</>), href: 'https://www.courtlistener.com/api/replication/'},
-  { label: (<>Juriscraper</>), href: '/open-source-tools#juriscraper'},
-  { label: (<>Eyecite</>), href: '/open-source-tools#eyecite'},
-  { label: (<>X-Ray</>), href: '/open-source-tools#x-ray'},
-  { label: (<>Court Data</>), href: '/datasets#courts-db'},
-  { label: (<>Judge Portraits</>), href: '/datasets#judges-portraits'},
-  { label: (<>Judge Profiles</>), href: '/datasets#judges-db'},
-  { label: (<>SCOTUS Data</>), href: '/datasets#supreme-court-data'},
+  { label: (<>RECAP Suite</>), href: '/recap/'},
+  { label: (<>Bots.law</>), href: 'https://bots.law/'},
+  { label: (<>APIs &amp; Data</>), href: 'https://www.courtlistener.com/help/api/'},
+  { label: (<>Tools</>), href: '/open-source-tools'},
+  { label: (<>Data Sets</>), href: '/datasets'},
 ];
 
 function PopoverMenu({children, title, items, panelClasses}) {
