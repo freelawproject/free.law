@@ -158,7 +158,7 @@ const featuredPosts = [
 const mobileLinks = [
   { label: (<>About</>), href: '/about/'},
   { label: (<>Blog</>), href: '/blog/'},
-  { label: (<>Team</>), href: '/2025/09/30/justice-partners-circle'},
+  { label: (<>Team</>), href: '/team'},
   { label: (<>For Law Firms</>), href: '/2025/09/30/justice-partners-circle'},
   { label: (<>For Librarians</>), href: '/librarians'},
   { label: (<>For Startups</>), href: '/startups'},
