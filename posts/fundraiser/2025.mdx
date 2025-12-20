@@ -1,7 +1,7 @@
 ---
 title: Our 2025 Director's Letter
 type: page
-date: "2025-12-13"
+date: "2025-12-22"
 author: "Michael Lissner, Executive Director"
 excerpt: "In 2025, we launched revolutionary tools, earned major awards, grew our team, and reached historic milestones. Here's how your support made it possible."
 ---
@@ -19,17 +19,21 @@ Read on to learn about our groundbreaking year, or click below to give us your s
 
 This year stands out as one of the most transformative in Free Law Project's history. We didn't just grow as a team and organization—we fundamentally expanded our impact. And we didn't just maintain our mission—we accelerated it.
 
-<RightInfoBox border="{true}">
- <h3 className="mt-3 mb-0">By the&nbsp;Numbers</h3>
- <ul className="mb-0">
-   <li><strong>800,000,000+</strong> Pages and PDFs served</li>
-   <li><strong>100,000,000+</strong> API requests served</li>
-   <li><strong>1,000,000+</strong> monthly visitors to CourtListener</li>
-   <li><strong>1,000+</strong> government users</li>
-   <li><strong>$150,000</strong> AWS Imagine Grant awarded</li>
-   <li><strong>80+</strong> volunteers on AI Citator Project</li>
-   <li><strong>465</strong> Bluesky posts keeping our community informed</li>
- </ul>
+<RightInfoBox border={true}>
+  <h3 className="text-center mt-4 mb-0">The FLP Index</h3>
+  {/* From public dashboard */}
+  <p className="not-prose"><strong>800,000,000+</strong> Downloads served</p>
+  {/* RECAPDocument.objects.aggregate(Sum('page_count'))['page_count__sum'] */}
+  <p className="not-prose"><strong>250,000,000+</strong> Pages of court data in RECAP <sup>1</sup></p>
+  {/* From milestone email/blog post */}
+  <p className="not-prose"><strong>100,000,000+</strong> API requests served</p>
+  {/* From AWS Cloudwatch dashboard */}
+  <p className="not-prose"><strong>5,400,000+</strong> Emails sent</p>
+  {/* From Plausible */}
+  <p className="not-prose"><strong>2,000,000+</strong> monthly visitors</p>
+  {/* Ran custom code on server */}
+  <p className="not-prose"><strong>1,000+</strong> government users</p>
+  <p className="text-xs my-0"><sup>1</sup> If printed, this would go around the equator 1.7 times.</p>
 </RightInfoBox>
 
 
@@ -76,7 +80,7 @@ We launched major new programs this year that expand our mission:
 
 1. **AI Citator**
 
-    We [launched an ambitious project to create an AI Citator](/2025/05/01/citator/) to label case law that is not safe to use. To make this a world-class tool, we are [working with more than 80 volunteers](/2025/09/30/citator-annotation-updates/) to build a benchmark for this tool. This collaborative effort brings together law librarians, practicing lawyers, and court clerks to verify and enhance our citation graph. 
+    We [launched an ambitious project to create an AI Citator](/2025/05/01/citator/) to flag unreliable case law. To make this a world-class tool, we are [working with more than 80 volunteers](/2025/09/30/citator-annotation-updates/) to build a benchmark for this tool. This collaborative effort brings together law librarians, practicing lawyers, and court clerks to verify and enhance our citation graph. 
 
     When complete, this project will provide a free and open alternative to expensive commercial citators. At last, an open citator will be freely available to all.
 
@@ -85,7 +89,7 @@ We launched major new programs this year that expand our mission:
     The only way to have a complete record of case law is to scan the books. This will ensure that our database of case law is current and complete and we'll have much more to say about this in 2026, as this project ramps up.
 
 <p className="centered-row">
-  <PurpleButton href="/2025/12/01/justice-initiatives-division/">Learn about the Justice Division</PurpleButton>
+  <PurpleButton href="/2025/12/01/justice-initiatives-division/">Learn about the Justice Initiatives Division</PurpleButton>
   <PurpleButton href="/2025/09/30/justice-partners-circle/">Learn about Justice Partners Circle</PurpleButton>
 </p>
 
@@ -96,17 +100,7 @@ We continued our advocacy work to protect access to justice:
 
 **A Friend of the Court** — With other legal innovators, [we filed an amicus brief](/2025/10/02/tr-v-ross-amicus/) in *[Thomson Reuters v. ROSS](https://www.courtlistener.com/docket/70622297/thomson-reuters-enterprise-centre-gmbh-v-ross-intelligence-inc/)*, a landmark case about copyright and legal research. Our brief argued that legal data must remain accessible and that restrictive copyright claims threaten the open courts principle. The case has major implications for the future of legal research. We were proud to lead this effort.
 
-**Presentations** — We worked hard this year to get our message out and to advocate for a better legal system. We spoke on [two][pc1] [podcasts][pc2], many [classes][class] at law and journalism schools, and [gave][ilta] [six][calicon1] [talks][calicon2] [at][litcon1] [legal][litcon2] [conferences][lsc].  
-
-[pc1]: https://open.spotify.com/episode/3a3seRVvqIMaq7PmC12NKQ?go=1&sp_cid=1dfaa49c96e69352f33f6bcd4be3945a&utm_source=embed_player_p&utm_medium=desktop
-[pc2]: https://podcasts.apple.com/us/podcast/meet-the-absolute-heroes-behind-courtlistener-com/id1147092464?i=1000704422926
-[class]: /pdf/presentations/Building.Justice.Through.Legal.Technology.A.Career.Beyond.the.Classroom.pdf
-[ilta]: /2025/08/27/iltacon-2025
-[calicon1]: /2025/06/24/calicon-2025
-[calicon2]:/2025/06/24/calicon-2025
-[litcon1]: /2025/04/10/litcon
-[litcon2]: /2025/04/10/litcon
-[lsc]: /2025/02/26/free-law-project-at-itc
+**Presentations** — We [worked hard this year](/presentations) to get our message out and to advocate for a better legal system. We spoke on podcasts, lectured classes at law and journalism schools, and presented at conferences.
 
 **Transparency Advocacy** — Throughout the year, we advocated for court transparency, including speaking out when courts restricted access to records, fighting to keep legal research private, and pushing for greater PACER access. We continue to be a voice for open courts and accessible justice.
 
@@ -138,7 +132,7 @@ We stayed connected with our community through regular updates and engagement:
 
     [Follow us @free.law](https://bsky.app/profile/free.law) for the latest updates.
 
-- **Reddit** — To reach new audiences, we [created a new subreddit](https://www.reddit.com/r/freelawproject/), where we discuss the internals of our work. 
+- **Reddit** — To reach new audiences, we [created a new subreddit](https://www.reddit.com/r/freelawproject/) and [expanded our presence on LinkedIn](https://www.linkedin.com/company/free-law-project/).
 
 - **Open Source Contributions** — Nearly all of our work continues to be open source so that others can build on the work we do. This year we had an unprecedented level of volunteer engagement, and we were proud to release [a new open source tool to make our web framework, Django, more scalable][s3]. 
 
@@ -176,13 +170,13 @@ We need your support to do our work.
 
 <p className="centered-row">
   <RedButton href="https://donate.free.law/forms/supportflp" size="lg" extraClasses="inline-flex"><HeartIcon className="flex-shrink-0 h-5 w-5" aria-hidden="true"/>&nbsp;Donate Now</RedButton>
-  <PurpleButton href="https://donate.free.law/forms/membership" size="lg">Become a Member</PurpleButton>
+  <PurpleButton href="https://donate.free.law/forms/membership" size="lg">Join Free.law</PurpleButton>
 </p>
 
 Thank you for being part of our community and supporting accessible justice. Together, we're building a legal system that works for everyone.
 
 Thank you and happy holidays,
 
-Michael Lissner
+Michael Lissner  
 Executive Director
 
