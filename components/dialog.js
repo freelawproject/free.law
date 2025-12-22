@@ -17,7 +17,7 @@ const SECOND_EOY_DIALOG_END_DAY = 31;
 
 // TEXT COPIES
 const FIRST_EOY_TITLE = 'You can help preserve free public access to the law.';
-const SECOND_EOY_TITLE = "Don't miss your opportunity to make an impact in 2024!";
+const SECOND_EOY_TITLE = "Don't miss your opportunity to make an impact in 2025!";
 const FIRST_EOY_TEXT =
   'Your monthly recurring donation helps Free Law Project bring new, innovative,' +
   ' open-source technology to the legal ecosystem and expand free legal resources available to the public.';
