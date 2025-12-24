@@ -176,7 +176,7 @@ Since our dataset only contains the opinions/context, the next step is to create
 
 We chose the **query-focused** approach for several reasons:
 - It simplifies the review process for ensuring query relevance
-- It aligns with [recent research from Google]((https://research.google/pubs/its-all-relative-a-synthetic-query-generation-approach-for-improving-zero-shot-relevance-prediction/)) on generating high-quality synthetic query pairs
+- It aligns with [recent research from Google](https://research.google/pubs/its-all-relative-a-synthetic-query-generation-approach-for-improving-zero-shot-relevance-prediction/) on generating high-quality synthetic query pairs
 - It allows for faster generation of training data
 
 For those interested in the context-focused approach, the [`mine_hard_negatives()` method from `sentence_transformers`](https://sbert.net/docs/package_reference/util.html#sentence_transformers.util.mine_hard_negatives) provides an excellent way to generate negative contexts. 
