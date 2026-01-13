@@ -3,13 +3,12 @@ import Image from 'next/image';
 import Head from 'next/head';
 import Layout, { ClientPics, MainColumn, MainFullBleedColumn } from '../components/layout';
 import { getSortedPostsData } from '../lib/posts';
-import Button, { PurpleButton } from '../components/button';
+import Button, { PurpleButton, WhiteButton } from '../components/button';
 import { EOYDialog } from '../components/dialog';
 import { H2, H3, HeroHeading, HeroHeadingMono } from '../components/headings';
 import { GridListItem } from '../components/widgets';
 import HeroImage from '../components/heroImage';
 import { JudgeRibbon } from '../components/footers';
-import { ArrowDownTrayIcon as DownloadIcon } from '@heroicons/react/24/outline';
 import { generateNextSeo } from 'next-seo/pages';
 
 export async function getStaticProps() {
@@ -81,60 +80,30 @@ export default function Home({ allPostsData }) {
                 <p>Anything somebody else buys is yours free, directly in PACER.</p>
               </GridListItem>
               <GridListItem
+                heading="Search Alerts"
+                href="https://www.courtlistener.com/help/alerts/#search-alerts"
+                border={true}
+              >
+                <p>
+                  You'll automatically get notified whenever there's a new match in our PACER
+                  archive for your saved searches. You can follow topics, people, organizations,
+                  types of cases, and more.
+                </p>
+              </GridListItem>
+              <GridListItem
                 heading="Docket Alerts"
                 href="https://www.courtlistener.com/help/alerts/"
                 border={true}
               >
-                <p>Get alerts when federal dockets are updated by our data gathering systems.</p>
-              </GridListItem>
-              <GridListItem
-                heading="@recap.email Notification Handler"
-                border={true}
-                href="https://www.courtlistener.com/help/recap/email/"
-                btnText={'Get Started'}
-              >
                 <p>
-                  Automatically send us a copy of your CM/ECF notifications so they're part of the
-                  searchable public record.
-                </p>
-                <p>If you get NEF notifications, it only takes a minute to set up.</p>
-              </GridListItem>
-              <GridListItem
-                heading="PACER Fetch"
-                href="/2019/11/05/pacer-fetch-api/"
-                border={true}
-                btnText="Read the Docs"
-              >
-                <p>
-                  Do you need to gather dockets, PDFs or more from PACER? Use our APIs instead of
-                  building your own scraper framework.
-                </p>
-              </GridListItem>
-              <GridListItem
-                border={true}
-                heading="X-Ray Redaction Detector"
-                href="/open-source-tools#x-ray"
-              >
-                <p>
-                  Bad redactions reveal client secrets. X-Ray can help find bad redactions at scale,
-                  before they wreak havoc on your firm's reputation.
-                </p>
-              </GridListItem>
-              <GridListItem
-                border={true}
-                heading="Webhooks for PACER"
-                btnText="Get Started"
-                href="https://www.courtlistener.com/help/api/webhooks/"
-              >
-                <p>
-                  Automate your workflow by listening to notifications from PACER and CourtListener.
+                  Set alerts for federal dockets and we'll send you an email whenever there is a
+                  new filing in a case in PACER.
                 </p>
               </GridListItem>
             </div>
             <div className="m-auto pt-6">
               <PurpleButton size="lg" href="/recap/" extraClasses="inline-flex">
-                <DownloadIcon className="flex-shrink-0 h-5 w-5" aria-hidden="true" />
-                &nbsp;Install the RECAP Extension Now
+                Learn More
               </PurpleButton>
             </div>
           </section>
@@ -208,42 +177,6 @@ export default function Home({ allPostsData }) {
                 </p>
               </GridListItem>
               <GridListItem
-                heading="Deep Judge Data"
-                bg="bg-transparent"
-                href="/datasets#judges-db"
-              >
-                <p>
-                  We are creating a groundbreaking database of American magistrates, judges, and
-                  justices.
-                </p>
-                <p>
-                  Included in the database is{' '}
-                  <Link href="https://www.courtlistener.com/person/" className="underline">
-                    detailed biographical information
-                  </Link>
-                  , over a million{' '}
-                  <Link href="https://www.courtlistener.com/financial-disclosures/" className="underline">
-                    disclosure records
-                  </Link>
-                  , and much&nbsp;more.
-                </p>
-              </GridListItem>
-              <GridListItem
-                href="https://www.courtlistener.com/recap/"
-                btnText="Search Federal Filings"
-                heading="Home of the RECAP Archive"
-                bg="bg-transparent"
-              >
-                <p>
-                  Every docket and PDF we have is full-text searchable in the{' '}
-                  <Link href="https://www.courtlistener.com/recap/" className="underline">
-                    RECAP Archive
-                  </Link>{' '}
-                  on CourtListener.
-                </p>
-              </GridListItem>
-
-              <GridListItem
                 heading="The Most Oral Arguments"
                 bg="bg-transparent"
                 href="https://www.courtlistener.com/audio/"
@@ -265,21 +198,15 @@ export default function Home({ allPostsData }) {
                   .
                 </p>
               </GridListItem>
-              <GridListItem
-                heading="APIs and Bulk Data"
-                bg="bg-transparent"
-                href="https://www.courtlistener.com/api/"
-                btnText="Read the Docs"
+            </div>
+            <div className="m-auto pt-6">
+              <PurpleButton
+                size="lg"
+                href="/projects/courtlistener/"
+                extraClasses="inline-flex"
               >
-                <p>
-                  We provide automated access to nearly all of the data we host{' '}
-                  <Link href="https://www.courtlistener.com/api/" className="underline">
-                    via APIs, bulk data files, and database&nbsp;replication
-                  </Link>
-                  .
-                </p>
-                <p>This gives innovators, researchers, and the public a jumpstart on their work.</p>
-              </GridListItem>
+                Learn More
+              </PurpleButton>
             </div>
           </div>
         </MainFullBleedColumn>
@@ -371,7 +298,7 @@ export default function Home({ allPostsData }) {
                 available. These tools give organizations and researchers a launchpad for
                 their&nbsp;innovation.{' '}
                 <Link href="https://github.com/freelawproject/" className="underline">
-                  View our tools on Github
+                  View our tools on GitHub
                 </Link>
                 .
               </H3>
@@ -393,16 +320,16 @@ export default function Home({ allPostsData }) {
               </GridListItem>
               <GridListItem
                 border={true}
-                heading="Juriscraper"
+                heading="X-Ray"
                 imgProps={{
-                  src: '/images/icons/juriscraper.svg',
-                  alt: 'Juriscraper logo',
+                  src: '/images/icons/x-ray.svg',
+                  alt: 'X-Ray logo',
                 }}
-                href="/open-source-tools#juriscraper"
+                href="/open-source-tools#x-ray"
               >
                 <p>
-                  Juriscraper is a scraping library written in Python that gathers data from
-                  hundreds of courts each&nbsp;day.
+                  Bad redactions reveal client secrets. X-Ray can help find bad redactions at
+                  scale, before they wreak havoc on your firm's reputation.
                 </p>
               </GridListItem>
               <GridListItem
@@ -439,38 +366,39 @@ export default function Home({ allPostsData }) {
             <div className="grid grid-cols-1 md:grid-cols-3 gap-8 w-full">
               <GridListItem
                 border={true}
-                heading="Reporters Database"
+                heading="Case Law Database"
                 imgProps={{
-                  src: '/images/icons/reporters-db.svg',
-                  alt: 'Reporter database logo',
+                  src: '/images/icons/courtlistener-full-black.svg',
+                  alt: 'CourtListener logo',
                 }}
-                href="/datasets#reporters-db"
+                href="/datasets#case-law-db"
               >
                 <p>
-                  Our database of reporters has information about more than 700 reporters, with more
-                  than 1,400 name variations. Build citators, normalize citations, and&nbsp;more.
+                  CourtListener has one of the most comprehensive collections of American legal
+                  jurisprudence on the Internet.
                 </p>
               </GridListItem>
               <GridListItem
                 border={true}
-                heading="Courts Database"
+                heading="RECAP Archive Database"
                 imgProps={{
-                  src: '/images/icons/courts-db.svg',
-                  alt: 'Courts database logo',
+                  src: '/images/icons/recap-full-black.svg',
+                  alt: 'RECAP logo',
                 }}
-                href="/datasets#courts-db"
+                href="/datasets#recap-db"
               >
                 <p>
-                  Tested on a dataset of 16 million opinions, this tool will help you identify any
-                  court by name, past or&nbsp;present.
+                  The RECAP Archive contains hundreds of millions of docket entries, nearly every
+                  federal case, and millions of documents. It grows by thousands of documents each
+                  day.
                 </p>
               </GridListItem>
               <GridListItem
                 border={true}
-                heading="Judges Database"
+                heading="Judge and Disclosure Database"
                 imgProps={{
                   src: '/images/icons/judge-db.svg',
-                  alt: 'Judges database logo',
+                  alt: 'Judge database logo',
                 }}
                 href="/datasets#judges-db"
               >
@@ -479,6 +407,11 @@ export default function Home({ allPostsData }) {
                   contributions, and more for thousands of state and federal&nbsp;judges.
                 </p>
               </GridListItem>
+            </div>
+            <div className="m-auto pt-6 w-full flex justify-center">
+              <WhiteButton size="lg" href="/datasets/" extraClasses="inline-flex">
+                Learn More
+              </WhiteButton>
             </div>
           </div>
         </MainFullBleedColumn>
