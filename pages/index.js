@@ -147,6 +147,7 @@ export default function Home({ allPostsData }) {
                 bg="bg-transparent"
                 href="https://www.courtlistener.com/recap/"
                 btnText="Search Federal Filings"
+                border={true}
               >
                 <p>
                   CourtListener has{' '}
@@ -163,6 +164,7 @@ export default function Home({ allPostsData }) {
                 bg="bg-transparent"
                 href="https://www.courtlistener.com/opinion/"
                 btnText="Search Opinions"
+                border={true}
               >
                 <p>
                   CourtListener.com houses an{' '}
@@ -181,6 +183,7 @@ export default function Home({ allPostsData }) {
                 bg="bg-transparent"
                 href="https://www.courtlistener.com/audio/"
                 btnText="Search Recordings"
+                border={true}
               >
                 <p>
                   Courts said they couldn't host oral argument files so we started doing it for
