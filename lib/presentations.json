@@ -1,4 +1,108 @@
 [
+    {
+    "title": "Justice, Built with AI and Empathy",
+    "location": "Women + AI Summit, Vanderbilt Law School, Nashville, TN",
+    "date": "2026-02",
+    "presenters": [
+      {
+        "name": "Jessica Frank",
+        "role": "Director of Justice Initiatives"
+      }
+    ],
+    "buttons": [
+      {
+        "url": "/pdf/presentations/WAI 2026 Speech_Justice, Built with AI and Empathy (1).pdf",
+        "label": "Read the speech"
+      }
+    ]
+  },
+   {
+    "title": "Putting AI to Work for Justice",
+    "location": "Legal Services Corporation's Innovations in Technology Conference, San Antonio, TX",
+    "date": "2026-01",
+    "presenters": [
+      {
+        "name": "Michael Lissner",
+        "role": "Executive Director"
+      },
+          {
+        "name": "Jenifer Whiston",
+        "role": "Director of Philanthropy"
+      },
+          {
+        "name": "Mitch Mitchel",
+        "role": "Developer"
+      },
+          {
+        "name": "Kara Peterson",
+        "role": "Descrybe.ai"
+      }
+    ],
+    "buttons": [
+      {
+        "url": "/pdf/presentations/Putting AI to Work for Justice_ITC26.pptx (1).pdf",
+        "label": "View the slides"
+      }
+    ]
+  },
+   {
+    "title": "Open-Source Legal Aid Tools: Pros, Cons, and Procurement",
+    "location": "Legal Services Corporation's Innovations in Technology Conference, San Antonio, TX",
+    "date": "2026-01",
+    "presenters": [
+      {
+        "name": "Jessica Frank",
+        "role": "Director of Justice Initiatives"
+      },
+          {
+        "name": "Sam Glover",
+        "role": "Suffolk LIT Lab"
+      },
+          {
+        "name": "Luigi Bai",
+        "role": "Lone Star Legal Aid"
+      },
+          {
+        "name": "Alison Paul",
+        "role": "Montana Legal Services"
+      }
+    ],
+    "buttons": [
+      {
+        "url": "https://slides.samglover.net/presentations/itc26-open-source-legal-aid-tools/",
+        "label": "View the slides"
+      }
+    ]
+  },
+  {
+    "title": "The Monopolists Who Gatekeep the Court System",
+    "location": "Organized Money Podcast",
+    "date": "2026-01",
+    "presenters": [
+          {
+        "name": "Michael Lissner",
+        "role": "Executive Director"
+      }, 
+      {
+        "name": "David Dayen",
+        "role": "Organized Money"
+      },
+      {
+        "name": "Matt Stoller",
+        "role": "Organized Money"
+      }
+    ],
+    "buttons": [
+       {
+        "url": "https://podcasts.apple.com/us/podcast/the-monopolists-who-gatekeep-the-court-system/id1773721991?i=1000746983254",
+        "label": "Listen to the podcast"
+      }, 
+      {
+        "url": "https://www.organizedmoney.fm/p/the-monopolists-who-gatekeep-the",
+        "label": "Read the synopsis"
+      }
+    ]
+  },
   {
   "title": "American Legal Technology Award Winners",
   "location": "On the Road Podcast for Legal Talk Network",
