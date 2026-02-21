@@ -19,7 +19,9 @@ We encourage you to edit and enhance the site!
 
 ## Writing a post or a page
 
-Pages are stored in the `posts` directory as `.mdx` files. `.mdx` files are basically markdown, but with support for react components as well as HTML. This lets you do neat things like embed sidebars or warnings or other things into your posts. We have a number of components available to you, which are listed in `lib/mdx.js`. Others are pretty easy to make, but most folks can ignore this stuff anyway and just write markdown posts.
+Shortcut for FLP staff: Just tell Claude you want to make a blog post. A skill is configured for our organization that will guide you through the process. 
+
+Otherwise, pages are stored in the `posts` directory as `.mdx` files. `.mdx` files are basically markdown, but with support for react components as well as HTML. This lets you do neat things like embed sidebars or warnings or other things into your posts. We have a number of components available to you, which are listed in `lib/mdx.js`. Others are pretty easy to make, but most folks can ignore this stuff anyway and just write markdown posts.
 
 There are three options for editing or creating new pages, listed below. For each of these, after you make your edits, you'll wind up with a pull request in Github. Whenever you create a pull request, Netlify will create a deploy of the site showing your change. Watch Github for it to chime in on your pull request. It's pretty slick.
 
@@ -32,22 +34,11 @@ To edit on github, pull up a file and edit it. When you're done, make a pull req
 
 Choose this if you want to make small changes and are technical.
 
-### 2. Via Netlify CMS
-
-We have Netlify CMS set up here:
-
-https://free.law/admin/index.html
-
-Go there, if you like, and log in using Github. Once there, you can edit and create pages using a GUI, and it will generate pull requests for you. It's neat.
-
-Use this if you're less technical or don't want to see the guts.
-
-### 3. On your computer
+### 2. On your computer
 
 If you're working on your computer, there's a file called example.mdx. Make a copy of it, edit it, and you're off to the races.
 
 Use this if you want to get serious. 
-
 
 [fl]: https://free.law
 [pelican]: https://github.com/getpelican/pelican/
