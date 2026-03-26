@@ -6,19 +6,21 @@ export function H1Hero({ children }) {
   );
 }
 
-export function HeroHeading({ children }) {
+export function HeroHeading({ children, tag }) {
+  const Tag = tag ?? "h1";
   return (
-    <h1 className="text-5xl sm:text-6xl md:text-7xl lg:text-8xl font-display font-light leading-[2.5rem] sm:leading-[3rem] md:leading-[4rem] lg:leading-[5rem] tracking-wide">
+    <Tag className="text-5xl sm:text-6xl md:text-7xl lg:text-8xl font-display font-light leading-[2.5rem] sm:leading-[3rem] md:leading-[4rem] lg:leading-[5rem] tracking-wide">
       {children}
-    </h1>
+    </Tag>
   );
 }
 
-export function HeroHeadingMono({ children }) {
+export function HeroHeadingMono({ children, tag }) {
+  const Tag = tag ?? "h1";
   return (
-    <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl leading-[2.5rem] sm:leading-[3rem] md:leading-[4rem] lg:leading-[5rem] tracking-widest font-mono">
+    <Tag className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl leading-[2.5rem] sm:leading-[3rem] md:leading-[4rem] lg:leading-[5rem] tracking-widest font-mono">
       {children}
-    </h1>
+    </Tag>
   );
 }
 

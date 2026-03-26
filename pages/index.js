@@ -217,7 +217,7 @@ export default function Home({ allPostsData }) {
         <MainFullBleedColumn bgClasses="bg-purple-800">
           <div className="pt-16 pb-24  text-gray-100" id="bots">
             <div className="w-full text-center">
-              <HeroHeadingMono>Case Bots</HeroHeadingMono>
+              <HeroHeadingMono tag="h2">Case Bots</HeroHeadingMono>
             </div>
             <div className="w-full pt-3 pb-5">
               <H3 textColor="text-gray-100">
@@ -293,7 +293,7 @@ export default function Home({ allPostsData }) {
 
           <section className="w-full py-16" id="tools">
             <div className="w-full text-center">
-              <HeroHeading>We Build Tools</HeroHeading>
+              <HeroHeading tag="h2">We Build Tools</HeroHeading>
             </div>
             <div className="w-full pt-3 pb-5 text-gray-700">
               <H3>
@@ -356,7 +356,7 @@ export default function Home({ allPostsData }) {
         <MainFullBleedColumn bgClasses="bg-purple-800">
           <div className="pt-16 pb-24  text-gray-100" id="datasets">
             <div className="w-full text-center">
-              <HeroHeading>We Build Datasets</HeroHeading>
+              <HeroHeading tag="h2">We Build Datasets</HeroHeading>
             </div>
             <div className="w-full pt-3 pb-5">
               <H3 textColor="text-gray-100">
