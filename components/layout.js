@@ -26,9 +26,9 @@ export function MainColumn({ children }) {
   return <div className="max-w-7xl mx-auto px-4 sm:px-6 md:px-10">{children}</div>;
 }
 
-export function MainFullBleedColumn({ bgClasses, children }) {
+export function MainFullBleedColumn({ bgClasses, children, ...props }) {
   return (
-    <section className={bgClasses}>
+    <section className={bgClasses} {...props}>
       <MainColumn>{children}</MainColumn>
     </section>
   );

@@ -6,10 +6,10 @@ export function H1Hero({ children }) {
   );
 }
 
-export function HeroHeading({ children, tag }) {
+export function HeroHeading({ children, tag, ...props }) {
   const Tag = tag ?? "h1";
   return (
-    <Tag className="text-5xl sm:text-6xl md:text-7xl lg:text-8xl font-display font-light leading-[2.5rem] sm:leading-[3rem] md:leading-[4rem] lg:leading-[5rem] tracking-wide">
+    <Tag {...props} className="text-5xl sm:text-6xl md:text-7xl lg:text-8xl font-display font-light leading-[2.5rem] sm:leading-[3rem] md:leading-[4rem] lg:leading-[5rem] tracking-wide">
       {children}
     </Tag>
   );
