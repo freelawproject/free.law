@@ -1,7 +1,7 @@
 import Link from 'next/link';
 import Image from 'next/image';
 import Head from 'next/head';
-import Layout, { ClientPics, MainColumn, MainFullBleedColumn } from '../components/layout';
+import Layout, { ClientPics, MainColumn, MainFullBleedColumn, ImpactStat } from '../components/layout';
 import { getSortedPostsData } from '../lib/posts';
 import Button, { PurpleButton, WhiteButton } from '../components/button';
 import { EOYDialog } from '../components/dialog';
@@ -43,42 +43,12 @@ export default function Home({ allPostsData }) {
           </div>
           <div className="py-16" id="impact">
             <dl className="grid grid-cols-2 md:grid-cols-3 gap-x-8 gap-y-10 md:gap-y-18 text-center">
-              <div className="flex flex-col-reverse justify-center">
-                <dt className="text-lg font-mono font-bold text-gray-600 mt-2">Downloads Served</dt>
-                <dd className="text-3xl md:text-5xl font-light font-display text-gray-700" aria-label="over 800 million">
-                  800+ million
-                </dd>
-              </div>
-              <div className="flex flex-col-reverse justify-center">
-                <dt className="text-lg font-mono font-bold text-gray-600 mt-2">Pages of Court Data</dt>
-                <dd className="text-3xl md:text-5xl font-light font-display text-gray-700" aria-label="over 250 million">
-                  250+ million
-                </dd>
-              </div>
-              <div className="flex flex-col-reverse justify-center">
-                <dt className="text-lg font-mono font-bold text-gray-600 mt-2">API Requests Served</dt>
-                <dd className="text-3xl md:text-5xl font-light font-display text-gray-700" aria-label="over 100 million">
-                  100+ million
-                </dd>
-              </div>
-              <div className="flex flex-col-reverse justify-center">
-                <dt className="text-lg font-mono font-bold text-gray-600 mt-2">Emails Sent</dt>
-                <dd className="text-3xl md:text-5xl font-light font-display text-gray-700" aria-label="over 5.4 million">
-                  5.4+ million
-                </dd>
-              </div>
-              <div className="flex flex-col-reverse justify-center">
-                <dt className="text-lg font-mono font-bold text-gray-600 mt-2">Monthly Visitors</dt>
-                <dd className="text-3xl md:text-5xl font-light font-display text-gray-700" aria-label="over 2 million">
-                  2+ million
-                </dd>
-              </div>
-              <div className="flex flex-col-reverse justify-center">
-                <dt className="text-lg font-mono font-bold text-gray-600 mt-2">Government Users</dt>
-                <dd className="text-3xl md:text-5xl font-light font-display text-gray-700" aria-label="over 1,000">
-                  1,000+
-                </dd>
-              </div>
+              <ImpactStat label="Downloads Served" ariaLabel="over 800 million" value="800+ million" />
+              <ImpactStat label="Pages of Court Data" ariaLabel="over 250 million" value="250+ million" />
+              <ImpactStat label="API Requests Served" ariaLabel="over 100 million" value="100+ million" />
+              <ImpactStat label="Emails Sent" ariaLabel="over 5.4 million" value="5.4+ million" />
+              <ImpactStat label="Monthly Visitors" ariaLabel="over 2 million" value="2+ million" />
+              <ImpactStat label="Government Users" ariaLabel="over 1,000" value="1,000+" />
             </dl>
             <div className="flex justify-center mt-16">
               <PurpleButton size="lg" href="/donate/">

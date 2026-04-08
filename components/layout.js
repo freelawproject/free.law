@@ -165,6 +165,17 @@ export function PicGrid({ wide, tall, children }) {
   );
 }
 
+export function ImpactStat({ label, ariaLabel, value }) {
+  return (
+    <div className="flex flex-col-reverse justify-center">
+      <dt className="text-lg font-mono font-bold text-gray-600 mt-2">{label}</dt>
+      <dd className="text-3xl md:text-5xl font-light font-display text-gray-700" aria-label={ariaLabel}>
+        {value}
+      </dd>
+    </div>
+  );
+}
+
 export function ClientPics({ wide }) {
   return (
     <PicGrid wide={wide}>
