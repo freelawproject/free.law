@@ -59,9 +59,9 @@ export default function Home({ allPostsData }) {
         </MainFullBleedColumn>
 
         <MainColumn>
-          <section className="flex flex-wrap items-center pt-8 pb-20" id="recap">
+          <section className="flex flex-wrap items-center pt-8 pb-20" id="recap" aria-labelledby="recap-heading">
             <div className="w-2/3 sm:w-1/2">
-              <H2>The RECAP Suite helps you liberate and work with court documents.</H2>
+              <H2 id="recap-heading">The RECAP Suite helps you liberate and work with court documents.</H2>
             </div>
             <div className="hidden sm:flex justify-end sm:w-1/2 pl-8 pt-5">
               <div className="relative w-full max-w-[350px] aspect-[350/207]">
@@ -130,10 +130,10 @@ export default function Home({ allPostsData }) {
           </section>
         </MainColumn>
 
-        <MainFullBleedColumn id="courtlistener" bgClasses="bg-gradient-to-b from-gray-200 to-white">
+        <MainFullBleedColumn id="courtlistener" aria-labelledby="courtlistener-heading" bgClasses="bg-gradient-to-b from-gray-200 to-white">
           <div className="flex flex-wrap py-16">
             <div className="w-2/3 lg:w-1/2 pb-4">
-              <H2>
+              <H2 id="courtlistener-heading">
                 <Link href="https://www.courtlistener.com/" className="underline">
                   CourtListener
                 </Link>{' '}
@@ -235,10 +235,10 @@ export default function Home({ allPostsData }) {
           </div>
         </MainFullBleedColumn>
 
-        <MainFullBleedColumn bgClasses="bg-purple-800">
+        <MainFullBleedColumn aria-labelledby="bots-heading" bgClasses="bg-purple-800">
           <div className="pt-16 pb-24  text-gray-100" id="bots">
             <div className="w-full text-center">
-              <HeroHeadingMono tag="h2">Case Bots</HeroHeadingMono>
+              <HeroHeadingMono id="bots-heading" tag="h2">Case Bots</HeroHeadingMono>
             </div>
             <div className="w-full pt-3 pb-5">
               <H3 textColor="text-gray-100">
@@ -290,6 +290,7 @@ export default function Home({ allPostsData }) {
           <section
             className="grid grid-cols-1 sm:grid-cols-2 gap-6 sm:gap-8 py-8 md:py-16"
             id="advocacy"
+            aria-labelledby="advocacy-heading"
           >
             <div className="pt-10 sm:pt-20 justify-center flex">
               <div className="relative w-full max-w-[450px] aspect-[450/265]">
@@ -302,7 +303,7 @@ export default function Home({ allPostsData }) {
               </div>
             </div>
             <div className="pt-8 sm:pt-28 text-center">
-              <H2>Legal Advocacy</H2>
+              <H2 id="advocacy-heading">Legal Advocacy</H2>
               <p className="text-left pt-5">
                 We work to make the legal system better by changing it from within. Among our
                 initiatives are legislation to make PACER free, early research into a FOIA-like law
@@ -312,9 +313,9 @@ export default function Home({ allPostsData }) {
             </div>
           </section>
 
-          <section className="w-full py-16" id="tools">
+          <section className="w-full py-16" id="tools" aria-labelledby="tools-heading">
             <div className="w-full text-center">
-              <HeroHeading tag="h2">We Build Tools</HeroHeading>
+              <HeroHeading id="tools-heading" tag="h2">We Build Tools</HeroHeading>
             </div>
             <div className="w-full pt-3 pb-5 text-gray-700">
               <H3>
@@ -374,10 +375,10 @@ export default function Home({ allPostsData }) {
           </section>
         </MainColumn>
 
-        <MainFullBleedColumn bgClasses="bg-purple-800">
+        <MainFullBleedColumn aria-labelledby="datasets-heading" bgClasses="bg-purple-800">
           <div className="pt-16 pb-24  text-gray-100" id="datasets">
             <div className="w-full text-center">
-              <HeroHeading tag="h2">We Build Datasets</HeroHeading>
+              <HeroHeading id="datasets-heading" tag="h2">We Build Datasets</HeroHeading>
             </div>
             <div className="w-full pt-3 pb-5">
               <H3 textColor="text-gray-100">
@@ -441,9 +442,9 @@ export default function Home({ allPostsData }) {
         </MainFullBleedColumn>
 
         <MainColumn>
-          <section className="w-full py-16" id="testimonials">
+          <section className="w-full py-16" id="testimonials" aria-labelledby="testimonials-heading">
             <div className="text-center">
-              <H2>You're in Good Company</H2>
+              <H2 id="testimonials-heading">You're in Good Company</H2>
               <div className="w-3/4 pt-5 m-auto">
                 <H3>
                   When you need legal data, we can help. We work with journalists, researchers, and
@@ -462,10 +463,10 @@ export default function Home({ allPostsData }) {
           </section>
         </MainColumn>
 
-        <MainFullBleedColumn bgClasses="bg-smile">
+        <MainFullBleedColumn aria-labelledby="support-heading" bgClasses="bg-smile">
           <div className="pt-16 pb-24 text-gray-100" id="support-us">
             <div className="px-10 text-center">
-              <H2>Like what you see? Please support our work.</H2>
+              <H2 id="support-heading">Like what you see? Please support our work.</H2>
             </div>
             <div className="flex justify-center gap-8 pt-8">
               <Button href="/become-a-sponsor/" extraClasses="bg-white text-gray-800">

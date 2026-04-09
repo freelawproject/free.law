@@ -15,10 +15,10 @@ export function HeroHeading({ children, tag, ...props }) {
   );
 }
 
-export function HeroHeadingMono({ children, tag }) {
+export function HeroHeadingMono({ children, tag, ...props }) {
   const Tag = tag ?? "h1";
   return (
-    <Tag className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl leading-[2.5rem] sm:leading-[3rem] md:leading-[4rem] lg:leading-[5rem] tracking-widest font-mono">
+    <Tag {...props} className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl leading-[2.5rem] sm:leading-[3rem] md:leading-[4rem] lg:leading-[5rem] tracking-widest font-mono">
       {children}
     </Tag>
   );
@@ -32,9 +32,9 @@ export function H1({ children, extraClasses }) {
   return <h1 className={classes}>{children}</h1>;
 }
 
-export function H2({ children }) {
+export function H2({ children, ...props }) {
   return (
-    <h2 className="text-2xl md:text-3xl lg:text-4xl leading-[2.5rem] md:leading-[2.5rem] lg:leading-[3rem] tracking-wide font-display">
+    <h2 {...props} className="text-2xl md:text-3xl lg:text-4xl leading-[2.5rem] md:leading-[2.5rem] lg:leading-[3rem] tracking-wide font-display">
       {children}
     </h2>
   );
