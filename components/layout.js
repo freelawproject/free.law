@@ -26,9 +26,9 @@ export function MainColumn({ children }) {
   return <div className="max-w-7xl mx-auto px-4 sm:px-6 md:px-10">{children}</div>;
 }
 
-export function MainFullBleedColumn({ bgClasses, children }) {
+export function MainFullBleedColumn({ bgClasses, children, ...props }) {
   return (
-    <section className={bgClasses}>
+    <section className={bgClasses} {...props}>
       <MainColumn>{children}</MainColumn>
     </section>
   );
@@ -161,6 +161,17 @@ export function PicGrid({ wide, tall, children }) {
       )}
     >
       {children}
+    </div>
+  );
+}
+
+export function ImpactStat({ label, ariaLabel, value }) {
+  return (
+    <div className="flex flex-col-reverse justify-center">
+      <dt className="text-lg font-mono font-bold text-gray-600 mt-2">{label}</dt>
+      <dd className="text-3xl md:text-5xl font-light font-display text-gray-700" aria-label={ariaLabel}>
+        {value}
+      </dd>
     </div>
   );
 }
