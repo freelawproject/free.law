@@ -1,0 +1,83 @@
+---
+title: "Free Law Project Is Scanning America's Case Law"
+date: "2026-04-16"
+tags:
+  - "Case Law"
+  - "Scanning"
+  - "Blackletter"
+  - "CourtListener"
+  - "Announcements"
+author: "William E. Palin"
+excerpt: "Free Law Project is scanning and digitizing millions of pages of published case law reporters, picking up where Harvard Law Library left off, to make CourtListener a complete and authoritative free source of American case law."
+imagePath: "/images/scanning-americas-case-law/banner.png"
+---
+
+Since our founding, Free Law Project has worked tirelessly to create a complete database of every American legal decision ever written. In 2024, we [announced][all-case-law] that we added historical case law digitized by Harvard Law Library to CourtListener. This made our platform one of the most comprehensive and transparent sources of case law.
+
+Today we're announcing the next milestone. We're picking up where Harvard left off by scanning and digitizing thousands of books that have since been published.
+
+This is a step that we've been planning for years and that is essential to make CourtListener complete. These scans build on our system of court scrapers, and fill the gap between when the Harvard data ends, in 2018, and today.
+
+This is a large-scale effort. So far we have scanned over 200,000 pages of case law. Our immediate goal is to scan 2.5 million pages by the fall, and we will continue scanning books as they are published so that the CourtListener collection is, *and remains*, comprehensive.
+
+## The Approach
+
+Our process begins with about 200 bespoke scrapers that monitor court websites and download case law as it becomes available. This ensures that we have the text and metadata for every decision almost immediately, but it is not perfect. Because this only scrapes content from court websites, it does not get the official pagination or citations for the decisions. Those come much later in time, when the decisions are published in official reporters — until the content is in a book, there's no volume or page to cite to.
+
+The best solution to this problem is for the court to publish [neutral citations][neutral-citations], and about 20 states do. For everything else, the only way to create a citable and complete collection of case law is to get the books, open them up, and scan them page by page. So that's what we're doing.
+
+A key part of what makes this possible is a new system we developed called [Blackletter][blackletter]. This tool uses machine learning to intelligently identify and remove editorial material from the scans of the books. Legal opinions themselves are unquestionably public domain, but the editorial additions layered on top of them are sometimes challenged as copyrightable. Separating the two has historically been a labor-intensive, manual process, but Blackletter automates this, allowing us to do millions of redactions nearly in real time.
+
+After Blackletter has completed its work, we begin the ingestion process which converts the scans to text, identifies formatting, and more. Finally, we put the results into CourtListener, where the content becomes available to the public via the website, APIs, and bulk data.
+
+## Why This Matters
+
+Published legal reporters are the historical standard for legal citation. When attorneys cite a case, they generally will cite to the reporter. When courts issue opinions, they reference reporter volumes and page numbers. For now, this is the canonical record of American case law.
+
+And yet, for most of the country's history, access to these materials has been gated — locked behind expensive subscriptions, available only in law libraries, or simply never digitized at all.
+
+Access to authoritative legal information is an access to justice issue. When self-represented litigants cannot access the cases governing their dispute, they are forced to rely on summaries, outdated secondary sources, or nothing at all. This leaves them unable to cite controlling authority, counter opposing counsel's arguments, or understand how courts have actually applied the law to facts like theirs. This is a structural disadvantage that makes coherent legal argumentation nearly impossible without a lawyer.
+
+This project addresses this problem.
+
+## Our Vision: A Trusted and Comprehensive Source for Legal Content
+
+This scanning initiative is part of a broader effort to make Free Law Project and CourtListener a trusted, primary source for legal content.
+
+This means we are not just aggregating data from the courts or other sources. We are now pulling the books directly so that when a user pulls up a case on CourtListener, they can trust that what they're reading is a faithful representation of the official published text.
+
+This is a significant step for our mission. It moves Free Law Project from a platform that collects and organizes legal information into one that also curates and hosts authoritative digital records of legal materials that have never before been freely available.
+
+## What's Next
+
+We have a long road ahead with nearly two million pages that still lack high-quality scans and complete metadata, and there will be more added every year. But we are committed to this effort for as long as it takes.
+
+We're starting with the core of the American legal record: federal and state reporters. With that complete, we will expand beyond these essential collections to collect other sources such as tribal case law, lower court decisions, and territorial case law. Much of this has *never* been digitized and published online.
+
+On the longer horizon, we will be encouraging more courts to upload their decisions directly into CourtListener. [Already][maine-tn] the Tennessee Workers' Compensation courts upload their decisions directly, and we are eager for more courts to do so. This is an opportunity for courts to self-publish their work so that it is broadly searchable and available from the moment a decision is released, without having to wait for a commercial organization to publish a book.
+
+## How You Can Help
+
+This is an ambitious project, and we need support to see it through.
+
+**Donate or Join Free Law Project.** Scanning and processing at this scale requires sustained funding. If you are a foundation or individual that supports the rule of law, please consider making a contribution to support this work or becoming a member to get extra benefits.
+
+<p className="centered-row">
+  <PurpleButton href="/donate/">Donate</PurpleButton>
+  <PurpleButton href="/membership/">Become a Member</PurpleButton>
+</p>
+
+**Spread the word.** If you care about open access to the law, tell others about this effort.
+
+**Get in touch.** If you're a library, institution, or organization that has books that we can scan, we would love to chat. We're especially looking for books we can de-spine or unique collections that have never been digitized.
+
+<p className="centered-row">
+  <PurpleButton href="/contact/">Contact Us</PurpleButton>
+</p>
+
+The law belongs to the people. We're working to make sure we the people can actually read it.
+
+[all-case-law]: /2024/03/26/all-the-case-law/
+[neutral-citations]: /advocacy/neutral-citations/
+[blackletter]: https://github.com/freelawproject/blackletter
+[maine-tn]: /2022/08/02/maine-supreme-and-tennessee-workers-comp/
