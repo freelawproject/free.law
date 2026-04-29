@@ -1,0 +1,110 @@
+---
+title: "Semantic Search Is Now on CourtListener"
+date: "2026-05-04"
+tags:
+ - "Free Law Project"
+ - "CourtListener"
+ - "Case Law"
+ - "Artificial Intelligence"
+ - "Semantic Search"
+ - "AI"
+author: "Rachel Gao"
+excerpt: "Search case law using natural language, right from CourtListener. Semantic search is now live on the website!"
+---
+
+<p className="lead">Semantic search has arrived on CourtListener—you can now search case law using natural language, directly from the website.</p>
+
+Last November, we [launched semantic search through our API][api-post], bringing a new way to find case law by meaning rather than exact keywords. The next step we're taking today is to make this powerful search available to everyone on the website—no API required.
+
+Thousands of users place hundreds of thousands of searches on our website each day. We can't wait to see how this new feature enhances research on the [CourtListener][cl] platform!
+
+[api-post]: /2025/11/05/semantic-search-api/
+[cl]: https://www.courtlistener.com/
+
+## What Is Semantic Search?
+
+<RightInfoBox border={true}>
+  <h3 className="mt-2 mb-2">How It Works</h3>
+  <p className="my-0">An encoder machine learning model, fine-tuned for information retrieval, represents legal opinions as embeddings (high-dimensional numbers) that capture their semantic meaning. When you submit a query, the same model translates it into embeddings, and an approximate nearest neighbor algorithm identifies opinions with the most semantically similar meanings.</p>
+  <p className="my-0">For a detailed comparison of keyword versus semantic search, check out our help page on [Citegeist][cg].</p>
+  <PurpleButton href="https://www.courtlistener.com/">Try It Now</PurpleButton>
+</RightInfoBox>
+
+Traditional keyword search requires that your query contain the exact same words as an opinion for it to turn up. Semantic search takes a different approach by leveraging the **meaning and intent** of your query. This surfaces relevant decisions even when they use different terminology than your query.
+
+For example, a keyword search for "tenant evicted for having a dog" will only match opinions containing those exact words. A semantic search for the same query can also find cases about "landlord removed renter for violating pet policy"—because the meaning is the same.
+
+[cg]: https://www.courtlistener.com/help/citegeist/
+
+### Hybrid Search
+
+Sometimes you want both meaning-based matching and exact-keyword precision. With **hybrid search**, you can—just wrap your terms in quotation marks.
+
+For example: 
+
+<blockquote className="not-prose border-l-4 border-gray-300 pl-4 py-2 my-4">"Fourth Amendment" unreasonable search of a student's phone at school</blockquote>
+
+Behind the scenes, hybrid search runs keyword and semantic searches in parallel and ranks the combined results together. Your top hits might come from either side—an opinion that contains the exact phrase, or one that's a strong semantic match. Wherever your quoted term does appear in a result, it will be highlighted so you can easily spot it.
+
+### Filters Work Too
+
+All your favorite filters—dates, courts, citation counts, and more—work seamlessly with semantic search, just like they do with keyword search.
+
+## How to Use It
+
+We've added a simple toggle to the search bar: click the **&** / **?** icon to switch between keyword and semantic search. Your last selection is saved, so you'll stay in the same mode when you return.
+
+<ul>
+<li>
+
+**&** — Keyword search (the default you know and love)
+
+<CaptionedImage
+  imgProps={{
+    src: "/images/semantic-search/keyword-mode.png",
+    alt: "Screenshot of CourtListener search bar in keyword mode showing the & toggle"
+  }}
+  border="border border-gray-400"
+></CaptionedImage>
+
+</li>
+<li>
+
+**?** — Semantic search (natural language)
+
+<CaptionedImage
+  imgProps={{
+    src: "/images/semantic-search/semantic-mode.png",
+    alt: "Screenshot of CourtListener search bar in semantic mode showing the ? toggle"
+  }}
+  border="border border-gray-400"
+></CaptionedImage>
+
+</li>
+</ul>
+
+## Also Available via API
+
+If you're building tools on top of CourtListener, semantic search has been available through our [Search API][api] since November 2025. Check out our [API announcement][api-post] for details on integration, hybrid search, and more.
+
+[api]: https://www.courtlistener.com/help/api/rest/search/#semantic-search
+
+## What's Next?
+
+This is just the beginning. We're continuing to improve retrieval quality, expand coverage, and explore new ways to make legal search smarter. Keyword search isn't going anywhere—you'll always have access to both.
+
+If you're as excited about this as we are, [head over to CourtListener][cl] and give it a try!
+
+<p className="text-left">
+  <PurpleButton href="https://www.courtlistener.com/" size="lg">Try It Now</PurpleButton>
+</p>
+
+## With Thanks
+
+Bringing semantic search to this scale has been a collaborative effort by the Free Law Project dev and AI teams, along with many volunteers and testers. Special thanks to [LegalTextAI](https://github.com/legaltextai), [Nina Shamsi at Northeastern University](https://scholar.google.com/citations?user=uIrOBY8AAAAJ&hl=en), [Dominik Stammbach](https://citp.princeton.edu/people/dominik-stammbach) and [Peter Henderson](https://citp.princeton.edu/people/peter-henderson) at Princeton University for their contributions and wisdom. Thank you to everyone who helped make this possible!
+
+Thank you to our [members](https://donate.free.law/forms/membership) and [donors](https://donate.free.law/forms/supportflp) whose support keeps this work going. If you or your company is interested in becoming a sponsor of upcoming projects at Free Law Project, please contact our Director of Philanthropy at jenifer@free.law.
+
+<p className="flex gap-2 flex-wrap">
+<PurpleButton href="https://donate.free.law/forms/membership">Become a Member Today</PurpleButton> <PurpleButton href="https://donate.free.law/forms/supportflp">Make a Donation</PurpleButton>
+</p>
