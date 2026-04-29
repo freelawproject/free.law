@@ -38,13 +38,13 @@ For example, a keyword search for "tenant evicted for having a dog" will only ma
 
 ### Hybrid Search
 
-Sometimes you need to combine the precision of keywords with the flexibility of natural language. With **hybrid search**, you can—just wrap your must-have terms in quotation marks.
+Sometimes you want both meaning-based matching and exact-keyword precision. With **hybrid search**, you can—just wrap your terms in quotation marks.
 
 For example: 
 
 <blockquote className="not-prose border-l-4 border-gray-300 pl-4 py-2 my-4">"Fourth Amendment" unreasonable search of a student's phone at school</blockquote>
 
-This ensures "Fourth Amendment" appears in every result, while the rest of the query is matched semantically.
+Behind the scenes, hybrid search runs keyword and semantic searches in parallel and ranks the combined results together. Your top hits might come from either side—an opinion that contains the exact phrase, or one that's a strong semantic match. Wherever your quoted term does appear in a result, it will be highlighted so you can easily spot it.
 
 ### Filters Work Too
 
