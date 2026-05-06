@@ -114,6 +114,10 @@ const engage = [
     href: '/volunteer/',
   },
   {
+    name: 'Become an FLP Member',
+    href: '/membership',
+  },
+  {
     name: 'Join our Newsletter',
     href: 'https://donate.free.law/np/clients/freelawproject/subscribe.jsp?subscription=9',
   },
