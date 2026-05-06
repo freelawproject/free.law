@@ -17,11 +17,7 @@ export function Footer({ recentPost }) {
       >
         <div className="w-1/2 hidden md:block row-span-2">
           <div className="relative w-full aspect-[204/113]">
-            <Image
-              src="/images/logos/flp/flp-medium-black.svg"
-              fill
-              className="object-contain"
-            />
+            <Image src="/images/logos/flp/flp-medium-black.svg" fill className="object-contain" />
           </div>
         </div>
 
@@ -30,7 +26,7 @@ export function Footer({ recentPost }) {
             <H5>About</H5>
             <FooterLink href="/about/">Overview</FooterLink>
             <FooterLink href="/team/">Team</FooterLink>
-            <FooterLink href="/presentations">Presentations &amp; Press</FooterLink> 
+            <FooterLink href="/presentations">Presentations &amp; Press</FooterLink>
             <FooterLink href="/non-profit-documents/">Non-Profit Documents</FooterLink>
             <FooterLink href="/hiring/">Hiring</FooterLink>
             <FooterLink href="/press-assets/">
@@ -67,10 +63,16 @@ export function Footer({ recentPost }) {
 
           <div className="pb-3">
             <H5>Data</H5>
-            <FooterLink href="https://www.courtlistener.com/help/api/">Our Data Services</FooterLink>
-            <FooterLink href="https://www.courtlistener.com/help/api/rest/">Legal APIs</FooterLink>
-            <FooterLink href="https://www.courtlistener.com/help/api/bulk-data/">Bulk Data</FooterLink>
-            <FooterLink href="https://www.courtlistener.com/help/api/replication/">
+            <FooterLink href="https://wiki.free.law/c/courtlistener/help/api">
+              Our Data Services
+            </FooterLink>
+            <FooterLink href="https://wiki.free.law/c/courtlistener/help/api/rest">
+              Legal APIs
+            </FooterLink>
+            <FooterLink href="https://wiki.free.law/c/courtlistener/help/api/bulk-data">
+              Bulk Data
+            </FooterLink>
+            <FooterLink href="https://wiki.free.law/c/courtlistener/help/api/replication">
               Database Replication
             </FooterLink>
             <FooterLink href="/datasets">Datasets</FooterLink>
@@ -84,13 +86,16 @@ export function Footer({ recentPost }) {
             <FooterLink href="/blog/">Read the Blog</FooterLink>
             <FooterLink href="/startups/">Startup Guide</FooterLink>
             <FooterLink href="/librarians/">Librarian Guide</FooterLink>
-            <FooterLink href="/2025/09/30/justice-partners-circle/">Justice Partner Circle</FooterLink>
+            <FooterLink href="/2025/09/30/justice-partners-circle/">
+              Justice Partner Circle
+            </FooterLink>
             <FooterLink href={recentPost.id}>Our Latest Post</FooterLink>
             <FooterLink href="https://donate.free.law/np/clients/freelawproject/subscribe.jsp?subscription=9">
-              Join our Newsletter</FooterLink>
+              Join our Newsletter
+            </FooterLink>
             <FooterLink href="/volunteer/">Volunteer</FooterLink>
           </div>
-          
+
           <div className="pb-3">
             <H5>Support FLP</H5>
             <FooterLink href="/donate/">Donate Now</FooterLink>
@@ -101,7 +106,10 @@ export function Footer({ recentPost }) {
                 Stickers
               </Link>{' '}
               &amp;{' '}
-              <Link href="https://shop.printyourcause.com/campaigns/free-law-project---for-sales" className="hover:underline">
+              <Link
+                href="https://shop.printyourcause.com/campaigns/free-law-project---for-sales"
+                className="hover:underline"
+              >
                 Store
               </Link>
               !
@@ -129,7 +137,10 @@ export function Colophon() {
         </div>
         <div className="w-full sm:w-3/5">
           <p className="flex flex-row justify-center sm:justify-end gap-6 pt-6 sm:pt-0">
-            <Link href="https://bsky.app/profile/free.law" className="text-gray-400 hover:text-gray-500 w-8 h-8">
+            <Link
+              href="https://bsky.app/profile/free.law"
+              className="text-gray-400 hover:text-gray-500 w-8 h-8"
+            >
               <BlueskyLogo></BlueskyLogo>
             </Link>
             <Link href="https://law.builders/@flp" rel="me">
@@ -151,7 +162,10 @@ export function Colophon() {
               />
             </Link>
             <Link href="https://github.com/freelawproject/">
-              <FontAwesomeIcon icon={faGithub} className="w-8 h-8 text-gray-400 hover:text-gray-500" />
+              <FontAwesomeIcon
+                icon={faGithub}
+                className="w-8 h-8 text-gray-400 hover:text-gray-500"
+              />
             </Link>
           </p>
         </div>

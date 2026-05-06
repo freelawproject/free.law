@@ -22,7 +22,7 @@ curl -X POST \
     --data 'pacer_username=john_w_powell' \
     --data 'pacer_password=coloradoadventures' \
     --header 'Authorization: Token <your-token-here>' \
-    https://www.courtlistener.com/api/rest/v3/recap-fetch/
+    https://wiki.free.law/c/courtlistener/help/api/rest/v4/recap#pacer-fetch
 ```
 
 That'll add a request to our fetch queue, and we'll go get it for you as soon as possible. 
@@ -39,7 +39,7 @@ curl -X POST \
     --data 'pacer_username=john_w_powell' \
     --data 'pacer_password=coloradoadventures' \
     --header 'Authorization: Token <your-token-here>' \
-    https://www.courtlistener.com/api/rest/v3/recap-fetch/
+    https://wiki.free.law/c/courtlistener/help/api/rest/v4/recap#pacer-fetch
 ```
       
 Basically, it's the same as above, but with the `request_type` changed, and with the ID provided instead of the docket number and court. We take it from there. 
@@ -82,18 +82,18 @@ We aim to get each download done in a second or two, with many concurrent reques
 
 Here's the documentation:
 
-<PurpleButton size="lg" href="https://www.courtlistener.com/api/rest-info/#pacer-fetch" target="_blank">PACER Fetch Docs</PurpleButton>
+<PurpleButton size="lg" href="https://wiki.free.law/c/courtlistener/help/api/rest/#pacer-fetch" target="_blank">PACER Fetch Docs</PurpleButton>
 
 Start there. No need to tell us you're using the API, but feel free to get in touch if you have questions or if things aren't working like you'd hoped. This will be an evolving project, and we welcome your feedback and feature requests.
 
 We can't want to see how people use these APIs. 
 
 
-[docs]: https://www.courtlistener.com/api/rest-info/#pacer-fetch
+[docs]: https://wiki.free.law/c/courtlistener/help/api/rest/#pacer-fetch
 [js]: https://github.com/freelawproject/juriscraper
 [recap]: https://www.courtlistener.com/recap/
 [recap-ex]: https://free.law/recap/
-[security]: https://www.courtlistener.com/api/rest-info/#security-of-recap-fetch-api
+[security]: https://wiki.free.law/c/courtlistener/help/api/rest/v4/recap#security-of-recap-fetch-api
 [vdp]: /vulnerabiltiy-disclosure-policy/
 [ssllabs]: https://www.ssllabs.com/ssltest/analyze.html?d=courtlistener.com
 [tashea]: http://www.abajournal.com/lawscribbler/article/forgoing-bug-bounties-and-disclosure-policies-legal-tech-leaves-lawyers-vulnerable
