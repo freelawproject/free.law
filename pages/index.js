@@ -1,7 +1,12 @@
 import Link from 'next/link';
 import Image from 'next/image';
 import Head from 'next/head';
-import Layout, { ClientPics, MainColumn, MainFullBleedColumn, ImpactStat } from '../components/layout';
+import Layout, {
+  ClientPics,
+  ImpactStat,
+  MainColumn,
+  MainFullBleedColumn,
+} from '../components/layout';
 import { getSortedPostsData } from '../lib/posts';
 import Button, { PurpleButton, WhiteButton } from '../components/button';
 import { EOYDialog } from '../components/dialog';
@@ -39,13 +44,27 @@ export default function Home({ allPostsData }) {
 
         <MainFullBleedColumn aria-labelledby="impact-heading" bgClasses="bg-gray-100">
           <div className="pt-16 w-full text-center">
-            <HeroHeading id="impact-heading" tag="h2">Our Impact</HeroHeading>
+            <HeroHeading id="impact-heading" tag="h2">
+              Our Impact
+            </HeroHeading>
           </div>
           <div className="py-16" id="impact">
             <dl className="grid grid-cols-2 md:grid-cols-3 gap-x-8 gap-y-10 md:gap-y-18 text-center">
-              <ImpactStat label="Downloads Served" ariaLabel="over 800 million" value="800+ million" />
-              <ImpactStat label="Pages of Court Data" ariaLabel="over 250 million" value="250+ million" />
-              <ImpactStat label="API Requests Served" ariaLabel="over 100 million" value="100+ million" />
+              <ImpactStat
+                label="Downloads Served"
+                ariaLabel="over 800 million"
+                value="800+ million"
+              />
+              <ImpactStat
+                label="Pages of Court Data"
+                ariaLabel="over 250 million"
+                value="250+ million"
+              />
+              <ImpactStat
+                label="API Requests Served"
+                ariaLabel="over 100 million"
+                value="100+ million"
+              />
               <ImpactStat label="Emails Sent" ariaLabel="over 5.4 million" value="5.4+ million" />
               <ImpactStat label="Monthly Visitors" ariaLabel="over 2 million" value="2+ million" />
               <ImpactStat label="Government Users" ariaLabel="over 1,000" value="1,000+" />
@@ -59,9 +78,15 @@ export default function Home({ allPostsData }) {
         </MainFullBleedColumn>
 
         <MainColumn>
-          <section className="flex flex-wrap items-center pt-8 pb-20" id="recap" aria-labelledby="recap-heading">
+          <section
+            className="flex flex-wrap items-center pt-8 pb-20"
+            id="recap"
+            aria-labelledby="recap-heading"
+          >
             <div className="w-2/3 sm:w-1/2">
-              <H2 id="recap-heading">The RECAP Suite helps you liberate and work with court documents.</H2>
+              <H2 id="recap-heading">
+                The RECAP Suite helps you liberate and work with court documents.
+              </H2>
             </div>
             <div className="hidden sm:flex justify-end sm:w-1/2 pl-8 pt-5">
               <div className="relative w-full max-w-[350px] aspect-[350/207]">
@@ -74,11 +99,7 @@ export default function Home({ allPostsData }) {
               </div>
             </div>
             <div className="flex sm:hidden justify-end w-1/3 pl-4 relative h-24">
-              <Image
-                src="/images/icons/medium-color-recap.svg"
-                alt="The RECAP logo"
-                fill
-              />
+              <Image src="/images/icons/medium-color-recap.svg" alt="The RECAP logo" fill />
             </div>
             <div
               className="grid grid-cols-1 sm:grid-cols-3 w-full gap-6 sm:gap-8"
@@ -117,8 +138,8 @@ export default function Home({ allPostsData }) {
                 border={true}
               >
                 <p>
-                  Set alerts for federal dockets and we'll send you an email whenever there is a
-                  new filing in a case in PACER.
+                  Set alerts for federal dockets and we'll send you an email whenever there is a new
+                  filing in a case in PACER.
                 </p>
               </GridListItem>
             </div>
@@ -130,7 +151,11 @@ export default function Home({ allPostsData }) {
           </section>
         </MainColumn>
 
-        <MainFullBleedColumn id="courtlistener" aria-labelledby="courtlistener-heading" bgClasses="bg-gradient-to-b from-gray-200 to-white">
+        <MainFullBleedColumn
+          id="courtlistener"
+          aria-labelledby="courtlistener-heading"
+          bgClasses="bg-gradient-to-b from-gray-200 to-white"
+        >
           <div className="flex flex-wrap py-16">
             <div className="w-2/3 lg:w-1/2 pb-4">
               <H2 id="courtlistener-heading">
@@ -153,11 +178,7 @@ export default function Home({ allPostsData }) {
               </div>
             </div>
             <div className="flex sm:hidden justify-end w-1/3 pl-4 relative h-24">
-              <Image
-                src="/images/icons/medium-color-cl.svg"
-                alt="The CourtListener logo"
-                fill
-              />
+              <Image src="/images/icons/medium-color-cl.svg" alt="The CourtListener logo" fill />
             </div>
             <div
               className="grid grid-cols-1 sm:grid-cols-3 w-full gap-6 sm:gap-8 pt-6"
@@ -224,11 +245,7 @@ export default function Home({ allPostsData }) {
               </GridListItem>
             </div>
             <div className="m-auto pt-6">
-              <PurpleButton
-                size="lg"
-                href="/projects/courtlistener/"
-                extraClasses="inline-flex"
-              >
+              <PurpleButton size="lg" href="/projects/courtlistener/" extraClasses="inline-flex">
                 Learn More
               </PurpleButton>
             </div>
@@ -238,7 +255,9 @@ export default function Home({ allPostsData }) {
         <MainFullBleedColumn aria-labelledby="bots-heading" bgClasses="bg-purple-800">
           <div className="pt-16 pb-24  text-gray-100" id="bots">
             <div className="w-full text-center">
-              <HeroHeadingMono id="bots-heading" tag="h2">Case Bots</HeroHeadingMono>
+              <HeroHeadingMono id="bots-heading" tag="h2">
+                Case Bots
+              </HeroHeadingMono>
             </div>
             <div className="w-full pt-3 pb-5">
               <H3 textColor="text-gray-100">
@@ -315,7 +334,9 @@ export default function Home({ allPostsData }) {
 
           <section className="w-full py-16" id="tools" aria-labelledby="tools-heading">
             <div className="w-full text-center">
-              <HeroHeading id="tools-heading" tag="h2">We Build Tools</HeroHeading>
+              <HeroHeading id="tools-heading" tag="h2">
+                We Build Tools
+              </HeroHeading>
             </div>
             <div className="w-full pt-3 pb-5 text-gray-700">
               <H3>
@@ -336,7 +357,7 @@ export default function Home({ allPostsData }) {
                   src: '/images/icons/replication.svg',
                   alt: 'Replication logo',
                 }}
-                href="https://www.courtlistener.com/api/"
+                href="https://wiki.free.law/c/courtlistener/help/api"
               >
                 <p>
                   We provide APIs for opinions, filings, judges, financial disclosures, and more.
@@ -353,8 +374,8 @@ export default function Home({ allPostsData }) {
                 href="/open-source-tools#x-ray"
               >
                 <p>
-                  Bad redactions reveal client secrets. X-Ray can help find bad redactions at
-                  scale, before they wreak havoc on your firm's reputation.
+                  Bad redactions reveal client secrets. X-Ray can help find bad redactions at scale,
+                  before they wreak havoc on your firm's reputation.
                 </p>
               </GridListItem>
               <GridListItem
@@ -378,7 +399,9 @@ export default function Home({ allPostsData }) {
         <MainFullBleedColumn aria-labelledby="datasets-heading" bgClasses="bg-purple-800">
           <div className="pt-16 pb-24  text-gray-100" id="datasets">
             <div className="w-full text-center">
-              <HeroHeading id="datasets-heading" tag="h2">We Build Datasets</HeroHeading>
+              <HeroHeading id="datasets-heading" tag="h2">
+                We Build Datasets
+              </HeroHeading>
             </div>
             <div className="w-full pt-3 pb-5">
               <H3 textColor="text-gray-100">
@@ -442,7 +465,11 @@ export default function Home({ allPostsData }) {
         </MainFullBleedColumn>
 
         <MainColumn>
-          <section className="w-full py-16" id="testimonials" aria-labelledby="testimonials-heading">
+          <section
+            className="w-full py-16"
+            id="testimonials"
+            aria-labelledby="testimonials-heading"
+          >
             <div className="text-center">
               <H2 id="testimonials-heading">You're in Good Company</H2>
               <div className="w-3/4 pt-5 m-auto">

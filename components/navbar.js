@@ -2,9 +2,9 @@ import { Fragment } from 'react';
 import { Popover, Transition } from '@headlessui/react';
 import {
   ArrowDownTrayIcon as DownloadIcon,
+  Bars3Icon as MenuIcon,
   FireIcon,
   HeartIcon,
-  Bars3Icon as MenuIcon,
   XMarkIcon as XIcon,
 } from '@heroicons/react/24/outline';
 import { ChevronDownIcon } from '@heroicons/react/24/solid';
@@ -55,8 +55,7 @@ const tools = [
   },
   {
     name: 'Open Source Tools',
-    description:
-      'Our collection of open source tools for legal data and research needs.',
+    description: 'Our collection of open source tools for legal data and research needs.',
     href: '/open-source-tools/',
     imgSrc: '/images/icons/open-source-tools.svg',
   },
@@ -70,34 +69,32 @@ const data = [
     name: 'Our Data Services',
     description:
       'Gather, monitor, and search state and federal court data, bankruptcy information, parties, opinions, judges, and more.',
-    href: 'https://www.courtlistener.com/help/api/',
+    href: 'https://wiki.free.law/c/courtlistener/help/api',
     imgSrc: '/images/icons/data-services.svg',
   },
   {
     name: 'Legal APIs',
-    description:
-      'We have APIs for opinions, filings, judges, financial disclosures, and more.',
-    href: 'https://www.courtlistener.com/help/api/rest/',
+    description: 'We have APIs for opinions, filings, judges, financial disclosures, and more.',
+    href: 'https://wiki.free.law/c/courtlistener/help/api/rest/',
     imgSrc: '/images/icons/apis.svg',
   },
-    {
+  {
     name: 'Bulk Data',
     description:
       'Our bulk data files provide large quantities of data from our case law, judge, financial disclosure, and oral argument databases.',
-    href: 'https://www.courtlistener.com/help/api/bulk-data/',
+    href: 'https://wiki.free.law/c/courtlistener/help/api/bulk-data',
     imgSrc: '/images/icons/bulk-data.svg',
   },
   {
     name: 'Database Replication',
     description:
       'Our complete database updated in realtime to your server — All of our work under your roof.',
-    href: 'https://www.courtlistener.com/api/replication/',
+    href: 'https://wiki.free.law/c/courtlistener/help/api/replication',
     imgSrc: '/images/icons/replication.svg',
   },
   {
     name: 'Datasets',
-    description:
-      'Our open datasets are some of the largest on the internet.',
+    description: 'Our open datasets are some of the largest on the internet.',
     href: '/datasets/',
     imgSrc: '/images/icons/datasets.svg',
   },
@@ -115,6 +112,10 @@ const engage = [
   {
     name: 'Volunteer',
     href: '/volunteer/',
+  },
+  {
+    name: 'Become an FLP Member',
+    href: '/membership',
   },
   {
     name: 'Join our Newsletter',
@@ -156,92 +157,92 @@ const featuredPosts = [
 ];
 
 const mobileLinks = [
-  { label: (<>About</>), href: '/about/'},
-  { label: (<>Blog</>), href: '/blog/'},
-  { label: (<>Team</>), href: '/team'},
-  { label: (<>For Law Firms</>), href: '/2025/09/30/justice-partners-circle'},
-  { label: (<>For Librarians</>), href: '/librarians'},
-  { label: (<>For Startups</>), href: '/startups'},
-  { label: (<>CourtListener</>), href: '/projects/courtlistener/'},
-  { label: (<>RECAP Suite</>), href: '/recap/'},
-  { label: (<>Bots.law</>), href: 'https://bots.law/'},
-  { label: (<>APIs &amp; Data</>), href: 'https://www.courtlistener.com/help/api/'},
-  { label: (<>Tools</>), href: '/open-source-tools'},
-  { label: (<>Data Sets</>), href: '/datasets'},
+  { label: <>About</>, href: '/about/' },
+  { label: <>Blog</>, href: '/blog/' },
+  { label: <>Team</>, href: '/team' },
+  { label: <>For Law Firms</>, href: '/2025/09/30/justice-partners-circle' },
+  { label: <>For Librarians</>, href: '/librarians' },
+  { label: <>For Startups</>, href: '/startups' },
+  { label: <>CourtListener</>, href: '/projects/courtlistener/' },
+  { label: <>RECAP Suite</>, href: '/recap/' },
+  { label: <>Bots.law</>, href: 'https://bots.law/' },
+  { label: <>APIs &amp; Data</>, href: 'https://wiki.free.law/c/courtlistener/help/api' },
+  { label: <>Tools</>, href: '/open-source-tools' },
+  { label: <>Data Sets</>, href: '/datasets' },
 ];
 
-function PopoverMenu({children, title, items, panelClasses}) {
+function PopoverMenu({ children, title, items, panelClasses }) {
   return (
     <Popover className="relative">
-    {({ open, close }) => (
-      <>
-        <Popover.Button
-          className={classNames(
-            open ? 'text-gray-300' : 'text-gray-100',
-            'group rounded-md inline-flex items-center text-xs uppercase font-medium hover:text-gray-300 focus:outline-none focus:ring-2 focus:ring-offset-4 focus:ring-offset-purple-900 focus:ring-indigo-500'
-          )}
-        >
-          <span>{title}</span>
-          <ChevronDownIcon
+      {({ open, close }) => (
+        <>
+          <Popover.Button
             className={classNames(
               open ? 'text-gray-300' : 'text-gray-100',
-              'ml-1 h-4 w-4 group-hover:text-gray-200'
-            )}
-            aria-hidden="true"
-          />
-        </Popover.Button>
-
-        <Transition
-          show={open}
-          as={Fragment}
-          enter="transition ease-out duration-200"
-          enterFrom="opacity-0 translate-y-1"
-          enterTo="opacity-100 translate-y-0"
-          leave="transition ease-in duration-150"
-          leaveFrom="opacity-100 translate-y-0"
-          leaveTo="opacity-0 translate-y-1"
-        >
-          <Popover.Panel
-            className={classNames(
-              panelClasses,
-              "absolute lg:left-1/2 lg:-translate-x-1/2 z-10 mt-3 transform w-screen rounded-lg overflow-hidden shadow-lg ring-1 ring-black ring-opacity-5 bg-white"
+              'group rounded-md inline-flex items-center text-xs uppercase font-medium hover:text-gray-300 focus:outline-none focus:ring-2 focus:ring-offset-4 focus:ring-offset-purple-900 focus:ring-indigo-500'
             )}
           >
-            <div className="grid gap-2 py-6 px-4">
-              {items.map((item) => (
-                <Link
-                  href={item.href}
-                  key={item.name}
-                  onClick={close}
-                  className="rounded-lg py-3 px-4 hover:bg-gray-50 text-base font-medium text-gray-900 flex flex-row flex-nowrap gap-4"
-                >
-                  {item.icon ? (
-                    <item.icon
-                      className="flex-shrink-0 h-6 w-6 text-gray-400"
-                      aria-hidden="true"
-                    />
-                  ) : item.imgSrc ? (
-                    <div className="h-8 w-8 relative flex-shrink-0">
-                      <Image src={item.imgSrc} fill aria-hidden="true" />
-                    </div>
-                  ) : <></>}
-                  <span className="flex flex-col gap-1 justify-start">
-                    <p className="text-base font-medium text-gray-900">
-                      {item.name}
-                    </p>
-                    <p className="text-sm text-gray-500">{item.description}</p>
-                  </span>
-                </Link>
-              ))}
-            </div>
-            {children}
-          </Popover.Panel>
-        </Transition>
-      </>
-    )}
-  </Popover>);
-}
+            <span>{title}</span>
+            <ChevronDownIcon
+              className={classNames(
+                open ? 'text-gray-300' : 'text-gray-100',
+                'ml-1 h-4 w-4 group-hover:text-gray-200'
+              )}
+              aria-hidden="true"
+            />
+          </Popover.Button>
 
+          <Transition
+            show={open}
+            as={Fragment}
+            enter="transition ease-out duration-200"
+            enterFrom="opacity-0 translate-y-1"
+            enterTo="opacity-100 translate-y-0"
+            leave="transition ease-in duration-150"
+            leaveFrom="opacity-100 translate-y-0"
+            leaveTo="opacity-0 translate-y-1"
+          >
+            <Popover.Panel
+              className={classNames(
+                panelClasses,
+                'absolute lg:left-1/2 lg:-translate-x-1/2 z-10 mt-3 transform w-screen rounded-lg overflow-hidden shadow-lg ring-1 ring-black ring-opacity-5 bg-white'
+              )}
+            >
+              <div className="grid gap-2 py-6 px-4">
+                {items.map((item) => (
+                  <Link
+                    href={item.href}
+                    key={item.name}
+                    onClick={close}
+                    className="rounded-lg py-3 px-4 hover:bg-gray-50 text-base font-medium text-gray-900 flex flex-row flex-nowrap gap-4"
+                  >
+                    {item.icon ? (
+                      <item.icon
+                        className="flex-shrink-0 h-6 w-6 text-gray-400"
+                        aria-hidden="true"
+                      />
+                    ) : item.imgSrc ? (
+                      <div className="h-8 w-8 relative flex-shrink-0">
+                        <Image src={item.imgSrc} fill aria-hidden="true" />
+                      </div>
+                    ) : (
+                      <></>
+                    )}
+                    <span className="flex flex-col gap-1 justify-start">
+                      <p className="text-base font-medium text-gray-900">{item.name}</p>
+                      <p className="text-sm text-gray-500">{item.description}</p>
+                    </span>
+                  </Link>
+                ))}
+              </div>
+              {children}
+            </Popover.Panel>
+          </Transition>
+        </>
+      )}
+    </Popover>
+  );
+}
 
 export default function Navbar({ allPosts }) {
   return (
@@ -459,28 +460,28 @@ export default function Navbar({ allPosts }) {
                 <div className="pb-6 pt-4 px-5 space-y-6">
                   <div className="grid grid-cols-2 max-w-full gap-x-6 sm:gap-x-8">
                     <div className="flex flex-col justify-between">
-                      {mobileLinks.filter((_, index) => (
-                        index < Math.ceil(mobileLinks.length / 2)
-                      )).map((item) => (
-                        <a
-                          href={item.href}
-                          className="text-base font-medium text-gray-900 hover:text-gray-700 py-2"
-                        >
-                          {item.label}
-                        </a>
-                      ))}
+                      {mobileLinks
+                        .filter((_, index) => index < Math.ceil(mobileLinks.length / 2))
+                        .map((item) => (
+                          <a
+                            href={item.href}
+                            className="text-base font-medium text-gray-900 hover:text-gray-700 py-2"
+                          >
+                            {item.label}
+                          </a>
+                        ))}
                     </div>
                     <div className="flex flex-col justify-between">
-                      {mobileLinks.filter((_, index) => (
-                        index >= Math.ceil(mobileLinks.length / 2)
-                      )).map((item) => (
-                        <a
-                          href={item.href}
-                          className="text-base font-medium text-gray-900 hover:text-gray-700 py-2"
-                        >
-                          {item.label}
-                        </a>
-                      ))}
+                      {mobileLinks
+                        .filter((_, index) => index >= Math.ceil(mobileLinks.length / 2))
+                        .map((item) => (
+                          <a
+                            href={item.href}
+                            className="text-base font-medium text-gray-900 hover:text-gray-700 py-2"
+                          >
+                            {item.label}
+                          </a>
+                        ))}
                     </div>
                   </div>
                   <div className="grid grid-cols-1 sm:grid-cols-2 gap-2">
