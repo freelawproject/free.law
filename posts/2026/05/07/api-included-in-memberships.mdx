@@ -1,0 +1,91 @@
+---
+title: "Full CourtListener Data Access via API Now Included with Membership"
+date: "2026-05-07"
+tags:
+  - "Feature Launch"
+  - "CourtListener"
+  - "RECAP"
+  - "For Developers"
+  - "Memberships & Community"
+author: "Jenifer Whiston"
+excerpt: "Researchers, journalists, developers, and vibe coders can now access the full CourtListener API, including PACER data, with a membership. No contact form. No waiting for approval."
+imagePath: "/images/api-included-in-memberships/courtlistener-api-membership-banner.png"
+---
+
+<p className="lead">Starting today, any CourtListener member can connect directly to all our APIs, no need to fill out a contact form and wait for access to be granted.</p>
+
+That includes our PACER APIs, which previously required special permission or a partnership agreement. As of today, access to the full CourtListener API is available to everyone with a CourtListener account, and becoming a member gets you more.
+
+We've heard from researchers, journalists, students, and developers who wanted to build with our data but hit a wall at the access request process. This change removes that wall.
+
+## What you can access
+
+The [CourtListener REST API v4][api-overview] gives programmatic access to one of the largest collections of free legal data available anywhere. Depending on your use case, you can query:
+
+- **Case law:** [over nine million decisions from more than 2,000 courts][opinions], including a detailed collection of SCOTUS opinions
+- **PACER data:** the [RECAP Archive][recap], the biggest open collection of federal court data on the internet, with hundreds of millions of docket entries, every federal case that's publicly available, parties, attorneys, firms, and documents
+- **Oral arguments:** [over 3.4 million minutes of recordings][oral-args], the largest collection available anywhere online
+- **Judges:** biographical, professional, and political data on [16,191 state and federal judges][judges]
+- **Financial disclosures:** [32,336 disclosure records][fin-disclosures] containing nearly two million individual investments
+- **Citations:** traverse and analyze our citation graph across millions of decisions
+- **Alerts:** create and manage search and case alerts programmatically
+- **Citation lookup:** parse blocks of text and verify citations, useful as a guardrail against AI hallucinations
+
+Researchers can pull targeted case law datasets without manual downloading. Journalists can automate monitoring of dockets and parties. Developers and vibe coders building legal tools can connect directly to real data without a procurement process. Membership-based access is intended for personal, educational, research, journalistic, and exploratory use. Please see our [usage guidelines][usage-guidelines] for full details on what's in and out of scope.
+
+## Membership tiers and rate limits
+
+We offer several membership tiers each with increasing rate limits to match your needs. Academic researchers and students can sign up for an [EDU membership][edu-membership], which comes with a generous access tier at no cost.
+
+For full details on rate limits, pricing, and allowed usage, check out the [memberships page][memberships] or review our [allowed API usage policy][api-usage-policy].
+
+## A note on rate limits for existing API users
+
+Before today, we gave every CourtListener user 5,000 API requests per hour out of the box. AI has broadened the scope of who can write code, and [like others][w], we have found our existing systems need some tweaks. 
+
+Starting today, the default rate is lower to protect our infrastructure. In practice, most users never came close to it, and those who did were typically already in conversations with us about a formal agreement. This change encodes where things already stood, and opens up access that wasn't available before.
+
+[w]: https://diff.wikimedia.org/2026/03/26/quo-vadis-crawlers-progress-and-whats-next-on-safeguarding-our-infrastructure/
+
+Here's how the transition works:
+
+- **If you've ever made 1,000 or more API requests**, you're grandfathered in. Your existing rate stays in place, though we may reach out if we see your usage spiking.
+- **If you have an existing agreement with us**, nothing changes. Your agreement stands.
+- **If you're a new user**, you'll get our new default rates unless you sign up for a membership, in which case your membership tier applies.
+
+We know a rate reduction may sting, and we hope the above approach feels fair. 
+
+The other side of this change is that endpoints that were previously closed to most users, including the PACER APIs, are now open to everyone. What's more, we are launching an [MCP Connector for Claude][mcp] next week that will bring grounding to AI-assisted legal research. And later this year, we'll launch alerts for Supreme Court cases and queries as a further member benefit.
+
+[mcp]: https://claude.com/connectors
+
+If you have questions about where you land, [get in touch][contact].
+
+## How to get started
+
+1. [Sign up for a membership][membership] or upgrade your existing membership to the tier that fits your needs. [Group memberships][group-membership] and [EDU memberships][edu-membership] are also available.
+2. Log into CourtListener and [retrieve your API token][api-token] from your profile and check your access levels.
+3. [Use the API][api-overview]!
+
+## What's next
+
+This is the first of several improvements coming to CourtListener memberships. We're working on additional member benefits and will have more to share soon. If you're already a member, keep an eye on your inbox.
+
+<p className="centered-row">
+  <PurpleButton href="https://donate.free.law/forms/membership" size="lg">Become a Member Today</PurpleButton>
+</p>
+
+[api-overview]: https://wiki.free.law/c/courtlistener/help/api/rest/v4/overview
+[opinions]: https://www.courtlistener.com/help/coverage/opinions/
+[recap]: https://www.courtlistener.com/help/coverage/recap/
+[oral-args]: https://www.courtlistener.com/help/coverage/oral-arguments/
+[judges]: https://free.law/datasets#judges-db
+[fin-disclosures]: https://www.courtlistener.com/help/coverage/financial-disclosures/
+[usage-guidelines]: https://free.law/membership/allowed-api-usage/
+[edu-membership]: https://donate.free.law/forms/edu-memberships
+[memberships]: https://free.law/memberships
+[api-usage-policy]: https://free.law/membership/allowed-api-usage/
+[membership]: https://donate.free.law/forms/membership
+[group-membership]: https://donate.free.law/forms/group-memberships
+[api-token]: https://www.courtlistener.com/profile/api-token/
+[contact]: https://www.courtlistener.com/contact/?issue_type=partnerships
