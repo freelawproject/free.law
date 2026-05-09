@@ -37,9 +37,9 @@ Our MCP server gives Claude access to:
 * **Citation network** — What cases cite, and what cites them
 * **Oral arguments** — A huge trove of searchable audio and transcripts from federal appellate courts
 * **Judges and their financial disclosures** — Biographical and analytical data on the federal judiciary, including judicial assets and debts that may trigger conflicts
-* **Keyword and semantic search** — Both keyword and natural language search across the full case law corpus
-* **Alerts** — Real-time monitoring for new filings, opinions, and queries
-* **Citation lookup and verification** — Grounded citation checks to reduce hallucinations
+* **Keyword and semantic search** — Both keyword and natural language search across our archives
+* **Alerts** — Real-time monitoring for new filings, citations, and queries
+* **Citation verification** — Grounded citation checks to reduce hallucinations
 
 This is real primary legal data: not summaries, not scraped text, not reconstructed from training data. And critically: rather than just searching CourtListener's site, you can now have full conversations with this data. Ask Claude to draft a memo, compare how circuits have ruled on an issue, surface filings in a case, or verify whether a citation is good law, all without leaving your AI assistant.
 
@@ -53,20 +53,22 @@ This is real primary legal data: not summaries, not scraped text, not reconstruc
 
 ## How to use it
 
-The CourtListener MCP server is live in Anthropic's directory now. Four steps to get started:
+The CourtListener MCP server is live in Anthropic's directory now. To get started:
 
-1. Open Claude on web, desktop, or mobile.
-2. Add the CourtListener MCP from the connector directory.
-3. Grant Claude access to your CourtListener account.
-4. Start a conversation.
+1. Open Claude on web, desktop, or mobile
+2. Go to Settings > Connectors ([or click here](https://claude.ai/settings/connectors)) > Browse
+3. Find the CourtListener MCP in the connector directory and add it
+4. Grant Claude access to your CourtListener account
+5. Start a conversation
 
-Try a prompts like:
+Try prompts like:
  - "Find recent opinions on qualified immunity and identify splits"
  - "Pull the latest filings on docket XYZ and explain what's happening"
  - "Find the PACER fees class action, tell me the current status, and sign me up for email alerts at the appellate and district level"
+ - "Make me an alert any time that Miranda v. Arizona is cited by the supreme court"
  - "Verify every citation in this brief and flag any unknown citations"
 
-For other AI assistants, you can add our tool as a custom MCP server with the address of [`mcp.courtlistener.com`](http://mcp.courtlistener.com).
+Instructions for other AI assistants [are available on our wiki][wiki].
 
 As the AI assistant uses this tool, it will rely on your API access to CourtListener. Every CourtListener account is granted some free API access, and more is available via a [Free Law Project membership](https://free.law/membership/).
 
@@ -112,6 +114,8 @@ We're continuing to expand CourtListener's capabilities. Two projects worth foll
 
 If this work matters to you, the best things you can do are try the MCP, give us your feedback, and support Free Law Project's mission. We're a nonprofit. Everything we build is free and open. None of it happens without the community behind it.
 
-**→ [ Learn More on our Wiki ](https://wiki.free.law/c/courtlistener/help/api/mcp/model-context-protocol-mcp-server-for-agentic-access)**
+**→ [Learn More on our Wiki][wiki]**
 
 **→ [Donate to Free Law Project](https://donate.free.law/forms/supportflp)**
+
+[wiki]: https://wiki.free.law/c/courtlistener/help/api/mcp/model-context-protocol-mcp-server-for-agentic-access
