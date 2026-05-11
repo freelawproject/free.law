@@ -1,0 +1,139 @@
+---
+title: "CourtListener Is Now Available Inside Claude and Other AI Assistants"
+date: "2026-05-12"
+tags:
+  - "Feature Launch"
+  - "CourtListener"
+  - "Artificial Intelligence"
+  - "Partnerships"
+  - "For Developers"
+author: "Eri O'Diah"
+excerpt: "CourtListener is now available as a new MCP Connector inside Claude and other AI assistants, giving AI agents native access to the full power of CourtListener — case law, PACER data, citation analysis, oral argument transcripts, judge data, and more."
+imagePath: "/images/courtlistener-is-now-available-inside-claude/flp-mcp-header.jpeg"
+---
+
+<p className="lead">CourtListener is now available inside Claude as a new MCP Connector. Giving Claude and other AI agents native access to the full power of CourtListener including case law, parenthetical case holdings, PACER data, citation analysis, oral argument transcripts, judge data, search, alerts, and more.</p>
+
+This is real primary legal data, not summaries, not scraped text, and not reconstructed from training data. It is grounded access to primary sources at the moment people need them most, inside the AI tools they are already using.
+
+The MCP is a free new tool that uses your API access on the CourtListener platform to bring unparalleled legal research to your fingertips. Need research on a topic? Ask Claude for a memo. Need citations verified? No problem. Want to automatically identify and analyze cases or filings in bulk? Put the AI agent to work. Read on for details. This is a big one.
+
+## The problem this solves
+
+Legal information is everywhere. Actually using it has always required either deep expertise or an expensive subscription to a gated research platform. For more than 15 years, Free Law Project has been building the data infrastructure to change that. CourtListener is one of the largest free legal research platforms in the world, built on the belief that the law belongs to everyone.
+
+But access to data is only half the problem. Increasingly, people start their legal questions with AI. That presents a real risk because AI tools often answer legal questions without grounded access to primary sources, producing confident responses built on hallucinations rather than real case law. The same barrier we have spent years dismantling is reappearing in a new form. People can reach the law, but they still cannot trust what they are being told about it. This integration directly addresses that.
+
+## What we built
+
+MCP, or Model Context Protocol, is an open standard that lets AI models connect to external data sources and tools. Think of it as a direct line between Claude and the systems that hold real-world information — in this case, CourtListener's legal database.
+
+Our MCP server gives Claude and other AI assistants access to:
+
+- **Case law and opinions** — millions of federal and state court decisions going back centuries
+- **PACER/RECAP dockets and filings** — the largest open repository of federal court cases, parties, and documents
+- **Citation networks** — what cases cite, and what cites them
+- **Oral arguments** — a huge trove of searchable audio and transcripts from federal appellate courts
+- **Judge data and financial disclosures** — biographical and analytical records on the federal judiciary, including assets and debts that may trigger conflicts of interest
+- **Keyword and semantic search** — both keyword and natural language search across our full archive
+- **Alerts** — real-time monitoring for new filings, citations, and search queries
+- **Citation verification** — grounded citation checks to reduce hallucinations
+
+For our most heavily used functionality, including search, citation verification, and alerts, we built dedicated tools so Claude can use them reliably out of the box. For the rest of the CourtListener API, rather than creating a tool for every endpoint (which would consume too much context), we provide two generic tools: `get_endpoint_schema` and `call_endpoint`. These allow Claude to discover available filters and parameters for any endpoint and query it directly.
+
+## What you can do with it
+
+Because this data now lives inside a conversational AI interface, you can do things that were not possible before, all in a single conversation without a high cost.
+
+**Legal researchers** can pull citation networks across jurisdictions, analyze how legal language has shifted over time, trace the lineage of a doctrine from its origins to today, and visualize it all.
+
+**Lawyers and legal aid organizations** can surface relevant dockets and case history without an expensive subscription, search filings, pull opinions, and verify citations inside a single workflow.
+
+**Journalists and policy researchers** can investigate judicial behavior patterns, track litigation trends across courts, and dig into public court records without specialized tools.
+
+**Developers and legal tech builders** can prototype AI-powered legal applications with direct access to structured, primary-source legal data through a standardized interface.
+
+**Self-represented litigants** can understand what has been filed in their case, find analogous cases, and get grounded answers to legal questions backed by real primary sources, not generated text.
+
+Here is a sampling of prompts to try:
+
+- "Find recent opinions on qualified immunity and identify circuit splits."
+- "Pull the latest filings on [docket number] and explain what is happening."
+- "Make me an alert any time [*Miranda v. Arizona*][miranda] is cited by the Supreme Court."
+- "Verify every citation in this brief and flag anything that looks off."
+- "Draft a memo on how circuits have treated [legal issue] and cite the leading cases."
+
+<CaptionedImage
+  imgProps={{
+    "src": "/images/courtlistener-is-now-available-inside-claude/mcp-citation-network.png",
+    "alt": "A dark-background network graph showing citation relationships between Chaplinsky v. New Hampshire (315 U.S. 568, 1942) and Cohen v. California (403 U.S. 15, 1971). Nodes represent cases from 1919 to 1971, color-coded by citation relationship: orange for cases cited only by Chaplinsky, purple for cases cited by both, teal for cases cited only by Cohen, and grey for the two focus cases. Colored arcs connecting the nodes represent direct citations and shared precedents.",
+  }}
+>A response to the prompt: "Make a network visualization that connects the citations between <em>Chaplinsky v. New Hampshire</em> (the 'fighting words' doctrine) and <em>Cohen v. California</em> in the case law database."</CaptionedImage>
+
+## How to get started
+
+The CourtListener MCP server is live in Anthropic's connector directory now. To connect it:
+
+1. Open Claude on web, desktop, or mobile.
+2. Go to **Settings > Connectors > Browse**.
+3. Find CourtListener in the directory and add it.
+4. Grant Claude access to your CourtListener account.
+5. Start a conversation.
+
+Every CourtListener account includes free API access. Additional access is available through a [Free Law Project membership][membership].
+
+Instructions for connecting to other AI assistants are available on [our wiki][wiki].
+
+<p className="centered-row">
+  <PurpleButton href="https://claude.ai/settings/connectors" size="lg">Connect CourtListener to Claude</PurpleButton>
+</p>
+
+## A note on what this is and what it isn't
+
+We want to be honest about what this integration does and does not do.
+
+The MCP server is infrastructure. It connects a powerful AI model to a high-quality legal data source. That combination has genuine potential to support access to justice work, and we are committed to building toward that. For self-represented litigants and legal aid organizations in particular, grounded access to primary legal data makes AI legal assistance meaningfully more reliable. A response built on verified CourtListener data is categorically different from one built on even the best model alone.
+
+At the same time, the MCP itself is a technical tool. It is most immediately useful to researchers, journalists, practitioners, and builders who know how to work with legal data and want a more capable interface for doing so. We are not claiming it solves the access to justice problem. We are stating that it moves the infrastructure in the right direction.
+
+Claude is not a lawyer. Nothing produced through this integration is legal advice, and human judgment remains essential, especially for high-stakes decisions.
+
+A few additional considerations worth keeping in mind:
+
+**On privacy.** Court documents contain personal information: names, addresses, financial details, and medical history. The fact that this information is public record does not mean it should be handled carelessly. Be thoughtful about what you retrieve and what you upload. When working with court documents inside Claude, avoid submitting filings or records that contain sensitive personal information unless it is strictly necessary for your query.
+
+**On bias.** Court records reflect the legal system that produced them, including its historical inequities. Patterns in the data reflect human decisions, not neutral facts. Interpret findings accordingly.
+
+**On infrastructure.** Every query through this MCP hits CourtListener's live systems. Please avoid bulk or repetitive requests that could degrade access for other users. CourtListener is a shared public resource.
+
+## Need deeper access?
+
+The MCP covers a wide range of CourtListener's functionality, but it is not the only way to access our data. If you are building a legal AI product, conducting large-scale research, or need access beyond what the MCP provides, we offer API licensing, bulk data, and database replication designed for institutional and commercial use. We work with legal tech companies, academic institutions, newsrooms, and research organizations on custom data partnerships. [Get in touch][contact] if that is what you need.
+
+## What's next
+
+We are continuing to expand CourtListener's capabilities. Two FLP projects worth following:
+
+**Citator.** We are building a free, open tool for checking whether a case is still good law. An integration with the MCP is also on our roadmap, and we will share updates as that work progresses.
+
+**Scanning Project.** We are digitizing American case law so that our system is complete. As this corpus grows, it becomes part of what Claude can access through this integration.
+
+If this work matters to you, the best things you can do are try the MCP, share your feedback, and support Free Law Project's mission. We are a nonprofit. Everything we build is free and open. None of it happens without the community behind it.
+
+<p className="centered-row">
+  <PurpleButton href="https://wiki.courtlistener.com" size="lg">Learn More on our Wiki</PurpleButton>
+</p>
+
+<p className="centered-row">
+  <PurpleButton href="https://donate.free.law/forms/supportflp" size="lg">Support Free Law Project</PurpleButton>
+</p>
+
+Anthropic is hosting a webinar on Claude for Legal, and we will share the date and registration link as soon as it is available. Follow Free Law Project on [LinkedIn][linkedin], [Bluesky][bluesky], and [Reddit][reddit] so you don't miss it.
+
+[miranda]: https://www.courtlistener.com/opinion/101016/miranda-v-arizona/
+[membership]: https://donate.free.law/forms/membership
+[wiki]: https://wiki.courtlistener.com
+[contact]: https://free.law/contact/
+[linkedin]: https://www.linkedin.com/company/free-law-project/
+[bluesky]: https://bsky.app/profile/free.law
+[reddit]: https://www.reddit.com/r/freelawproject/
