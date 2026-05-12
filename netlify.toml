@@ -1,3 +1,9 @@
+[[redirects]]
+    from = "/blog/:year/:month/:day/:slug/*"
+    to = "/:year/:month/:day/:slug/"
+    status = 301
+    force = true
+
 [[headers]]
     for = "/*"
     [headers.values]
