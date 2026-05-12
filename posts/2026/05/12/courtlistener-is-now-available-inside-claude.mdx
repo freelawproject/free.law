@@ -15,11 +15,15 @@ imagePath: "/images/courtlistener-is-now-available-inside-claude/flp-mcp-header.
 
 This free new tool uses your API access on the CourtListener platform to bring unparalleled legal research and grounded legal data to your fingertips. Need research on a topic? Ask Claude for a memo. Need citations verified? No problem. Want to automatically identify and analyze cases or filings in bulk? Put the AI agent to work. Read on for details. This is a big one.
 
+
 ## The problem this solves
 
 Legal information is everywhere. Actually using it has always required either deep expertise or an expensive subscription to a gated research platform. For more than 15 years, Free Law Project has been building the data infrastructure to change that. CourtListener is one of the largest free legal research platforms in the world, built on the belief that the law belongs to everyone.
 
-But access to data is only half the problem. Increasingly, people start their legal questions with AI. That presents a real risk because AI tools often answer legal questions without grounded access to primary sources, producing confident responses built on hallucinations rather than real case law. The same barrier we have spent years dismantling is reappearing in a new form. People can reach the law, but they still cannot trust what they are being told about it. This integration directly addresses that.
+But access to data is only half the problem. Increasingly, people start their legal questions with AI. That presents a real risk because AI tools often answer legal questions without grounded access to primary sources. This can produce confident responses built on hallucinations rather than real case law. 
+
+The same barrier we have spent years dismantling is reappearing in a new form. People can reach the law, but they still cannot trust what they are being told about it. This integration directly addresses that.
+
 
 ## What we built
 
@@ -44,6 +48,7 @@ For our most heavily used functionality, including search, citation verification
     "alt": "A dark-background network graph showing citation relationships between Chaplinsky v. New Hampshire (315 U.S. 568, 1942) and Cohen v. California (403 U.S. 15, 1971). Nodes represent cases from 1919 to 1971, color-coded by citation relationship: orange for cases cited only by Chaplinsky, purple for cases cited by both, teal for cases cited only by Cohen, and grey for the two focus cases. Colored arcs connecting the nodes represent direct citations and shared precedents.",
   }}
 >A response to the prompt: "Make a network visualization that connects the citations between <em>Chaplinsky v. New Hampshire</em> (the 'fighting words' doctrine) and <em>Cohen v. California</em> in the case law database."</CaptionedImage>
+
 
 ## What you can do with it
 
@@ -71,7 +76,6 @@ Here is a sampling of prompts to try:
 - "Find the status of [a given case] and tell me what's next for it"
 
 
-
 ## How to get started
 
 The CourtListener MCP server is live in Anthropic's connector directory now. To connect it:
@@ -90,6 +94,7 @@ Instructions for connecting to other AI assistants are available on [our wiki][w
   <PurpleButton href="https://claude.ai/settings/connectors" size="lg">Connect CourtListener to Claude</PurpleButton>
 </p>
 
+
 ## A note on what this is and what it isn't
 
 We want to be honest about what this integration does and does not do.
@@ -106,9 +111,11 @@ A few additional considerations worth keeping in mind:
 
 **On bias.** Court records reflect the legal system that produced them, including its historical inequities. Patterns in the data reflect human decisions, not neutral facts. Interpret findings accordingly.
 
+
 ## Need deeper access?
 
 The MCP covers a wide range of CourtListener's functionality, but it is not the only way to access our data. If you are building a legal AI product, conducting large-scale research, or need access beyond what the MCP provides, we offer API licensing, bulk data, and database replication designed for institutional and commercial use. We work with legal tech companies, academic institutions, newsrooms, and research organizations on custom data partnerships. [Get in touch][contact] if that is what you need.
+
 
 ## What's next
 
@@ -121,7 +128,7 @@ We are continuing to expand CourtListener's capabilities. Two FLP projects worth
 If this work matters to you, the best things you can do are try the MCP, share your feedback, and support Free Law Project's mission. We are a nonprofit. Everything we build is free and open. None of it happens without the community behind it.
 
 <p className="centered-row">
-  <PurpleButton href="https://wiki.courtlistener.com" size="lg">Learn More on our Wiki</PurpleButton>
+  <PurpleButton href="https://wiki.free.law/c/courtlistener/help/api/mcp/model-context-protocol-mcp-server-for-agentic-access" size="lg">Learn More on our Wiki</PurpleButton>
 </p>
 
 <p className="centered-row">
@@ -132,8 +139,8 @@ Anthropic is hosting a webinar on Claude for Legal, and we will share the date a
 
 [miranda]: https://www.courtlistener.com/opinion/101016/miranda-v-arizona/
 [membership]: https://donate.free.law/forms/membership
-[wiki]: https://wiki.courtlistener.com
-[contact]: https://free.law/contact/
+[wiki]: https://wiki.free.law/c/courtlistener/help/api/mcp/model-context-protocol-mcp-server-for-agentic-access
+[contact]: https://www.courtlistener.com/contact/?issue_type=partnerships
 [linkedin]: https://www.linkedin.com/company/free-law-project/
 [bluesky]: https://bsky.app/profile/free.law
 [reddit]: https://www.reddit.com/r/freelawproject/
