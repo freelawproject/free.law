@@ -1,3 +1,9 @@
+[[redirects]]
+    from = "/blog/2026/05/12/courtlistener-is-now-available-inside-claude/"
+    to = "/2026/05/12/courtlistener-is-now-available-inside-claude/"
+    status = 301
+    force = true
+
 [[headers]]
     for = "/*"
     [headers.values]
