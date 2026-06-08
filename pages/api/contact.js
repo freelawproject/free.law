@@ -8,7 +8,6 @@ import {
   requestTypeFor,
   assigneeEnvFor,
   isFormOption,
-  looksLikeSpam,
 } from '../../lib/contact-form';
 import { createTicket } from '../../lib/zoho';
 
@@ -33,11 +32,6 @@ export default async function handler(req, res) {
   }
 
   const data = req.body && typeof req.body === 'object' ? req.body : {};
-
-  // 3-digit subject honeypot: silently accept and drop, so bots think they won.
-  if (looksLikeSpam(data)) {
-    return res.status(200).json({ ok: true });
-  }
 
   if (!isFormOption(data.issue_type)) {
     return res.status(400).json({ ok: false, errors: { issue_type: 'Please choose a topic.' } });

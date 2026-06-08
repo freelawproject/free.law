@@ -170,7 +170,14 @@ function PartnershipFields({ values, errors, update, toggleBackground }) {
     <fieldset className="mb-2">
       <legend className="sr-only">Partnership details</legend>
 
-      <Field label="What’s your background?" error={errors.partner_background_other} required>
+      <fieldset className="mb-4">
+        <legend className="block font-medium text-gray-800">
+          What’s your background?
+          <span className="text-red-600" aria-hidden="true">
+            {' '}
+            *
+          </span>
+        </legend>
         <div className="mt-1 space-y-1 pl-1">
           {PARTNER_BACKGROUND_CHOICES.map(([value, optionLabel]) => (
             <label key={value} className="flex items-center gap-2">
@@ -184,17 +191,25 @@ function PartnershipFields({ values, errors, update, toggleBackground }) {
             </label>
           ))}
           {backgrounds.includes('other') && (
-            <input
-              type="text"
-              aria-label="Other background"
-              maxLength={120}
-              className={inputClass}
-              value={values.partner_background_other}
-              onChange={(e) => update('partner_background_other', e.target.value)}
-            />
+            <div>
+              <input
+                type="text"
+                aria-label="Other background"
+                maxLength={120}
+                className={inputClass}
+                value={values.partner_background_other}
+                onChange={(e) => update('partner_background_other', e.target.value)}
+              />
+              {errors.partner_background_other && (
+                <p className="mt-1 text-sm text-red-600">{errors.partner_background_other}</p>
+              )}
+            </div>
           )}
         </div>
-      </Field>
+        {errors.partner_background && (
+          <p className="mt-1 text-sm text-red-600">{errors.partner_background}</p>
+        )}
+      </fieldset>
 
       <Field
         label={PARTNER_FIELD_LABELS.partner_current_work}
