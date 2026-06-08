@@ -550,10 +550,16 @@ export default function Contact({ allPostsData }) {
                   error={errors.human_check}
                   required
                 >
+                  {/* Keep browsers/password managers from auto-answering the
+                      human check: Chrome often ignores autoComplete="off", and
+                      the "state" wording can trigger address autofill. */}
                   <input
                     id="human_check"
                     type="text"
                     autoComplete="off"
+                    data-1p-ignore
+                    data-lpignore="true"
+                    data-form-type="other"
                     className={inputClass}
                     value={values.human_check}
                     onChange={(e) => update('human_check', e.target.value)}
