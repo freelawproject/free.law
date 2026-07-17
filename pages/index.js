@@ -480,7 +480,9 @@ export default function Home({ allPostsData }) {
               </div>
             </div>
 
-            <ClientPics wide={true} />
+            <div className="py-8">
+              <ClientPics wide={true} />
+            </div>
 
             <div className="justify-center flex pt-8">
               <PurpleButton size="lg" href="/data-consulting/">
