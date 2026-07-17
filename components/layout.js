@@ -6,7 +6,6 @@ import proPublica from '../public/images/services-logos/x256/proPublica.png';
 import harvardSociology from '../public/images/services-logos/x256/harvard-sociology-logo.png';
 import gsu from '../public/images/services-logos/x256/gsu.png';
 import noacri from '../public/images/services-logos/x256/noacri.png';
-import nyt from '../public/images/services-logos/x256/nyt.svg';
 import predicta from '../public/images/services-logos/x256/predicta.png';
 import darrow from '../public/images/services-logos/x256/darrow.png';
 import smithsonian from '../public/images/services-logos/x256/smithsonian.png';
