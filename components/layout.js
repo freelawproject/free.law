@@ -6,14 +6,13 @@ import proPublica from '../public/images/services-logos/x256/proPublica.png';
 import harvardSociology from '../public/images/services-logos/x256/harvard-sociology-logo.png';
 import gsu from '../public/images/services-logos/x256/gsu.png';
 import noacri from '../public/images/services-logos/x256/noacri.png';
-import edhec from '../public/images/services-logos/x256/edhec.png';
-import midpage from '../public/images/services-logos/x256/midpage.png';
 import predicta from '../public/images/services-logos/x256/predicta.png';
 import darrow from '../public/images/services-logos/x256/darrow.png';
 import smithsonian from '../public/images/services-logos/x256/smithsonian.png';
 import clearBrief from '../public/images/services-logos/x256/clearbrief.png';
 import openAI from '../public/images/services-logos/x256/openAI.png';
 import wsj from '../public/images/services-logos/x256/wsj.png';
+import clearinghouse from '../public/images/services-logos/x256/clearinghouse.png';
 import washingtonPost from '../public/images/services-logos/x256/washingtonpost-wordmark.png';
 import classNames from 'classnames';
 import Button, {RedButton} from './button';
@@ -235,19 +234,10 @@ export function ClientPics({ wide }) {
       />
       <GridImage
         imgProps={{
-          src: edhec,
-          alt: 'EDHEC Business School',
-          width: '256',
-          height: '110',
-          placeholder: 'blur',
-        }}
-      />
-      <GridImage
-        imgProps={{
-          src: midpage,
-          alt: "Midpage logo",
-          width: '256',
-          height: '51',
+          src: clearinghouse,
+          alt: 'Civil Rights Litigation Clearinghouse logo',
+          width: '111',
+          height: '105',
           placeholder: 'blur',
         }}
       />
