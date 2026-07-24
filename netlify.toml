@@ -4,6 +4,31 @@
     status = 301
     force = true
 
+# Terms and policies moved to wiki.free.law
+[[redirects]]
+    from = "/recap/tos/"
+    to = "https://wiki.free.law/c/terms/recap-extension/recap-extension-terms-of-use"
+    status = 301
+    force = true
+
+[[redirects]]
+    from = "/recap/privacy-policy/"
+    to = "https://wiki.free.law/c/terms/recap-extension/recap-extension-privacy-policy"
+    status = 301
+    force = true
+
+[[redirects]]
+    from = "/recap/dmca/"
+    to = "https://wiki.free.law/c/terms/recap-extension/recap-extension-dmca-policy"
+    status = 301
+    force = true
+
+[[redirects]]
+    from = "/vulnerability-disclosure-policy/"
+    to = "https://wiki.free.law/c/terms/free-law-project-vulnerability-disclosure-policy-and-bounty-program"
+    status = 301
+    force = true
+
 [[headers]]
     for = "/*"
     [headers.values]

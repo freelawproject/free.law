@@ -32,7 +32,7 @@ export function Footer({ recentPost }) {
             <FooterLink href="/press-assets/">
               Press <span className="hidden lg:inline">Logos and </span>Assets
             </FooterLink>
-            <FooterLink href="/vulnerability-disclosure-policy/">
+            <FooterLink href="https://wiki.free.law/c/terms/free-law-project-vulnerability-disclosure-policy-and-bounty-program">
               Vulnerability Disclosure Policy
             </FooterLink>
             <FooterLink href="/contact/">Contact Us</FooterLink>
