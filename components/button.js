@@ -6,7 +6,7 @@ import {ArrowDownTrayIcon as DownloadIcon} from "@heroicons/react/24/outline";
 
 const BASE_BUTTON_CLASSES = 'text-center whitespace-nowrap border rounded-md shadow-sm text-base font-medium no-underline';
 
-export default function Button({ children, href, extraClasses, size, noRouting }) {
+export default function Button({ children, href, extraClasses, size, noRouting, target, rel, type, onClick, disabled }) {
   let classes = BASE_BUTTON_CLASSES;
   if (extraClasses) {
     classes += ' ' + extraClasses;
@@ -18,8 +18,15 @@ export default function Button({ children, href, extraClasses, size, noRouting }
   } else {
     classes += ' px-4 py-2';
   }
-  return noRouting // Don't use Next.js routing for local file paths like PDFs, but keep consistent styling
-    ? (<a href={href} className={classes}>{children}</a>)
+  if (disabled) {
+    classes += ' opacity-50 cursor-not-allowed';
+  }
+  if (!href) { // No href => render a real <button> (e.g. a form submit), keeping consistent styling
+    return (<button type={type || 'button'} onClick={onClick} disabled={disabled} className={classes}>{children}</button>);
+  }
+  const relValue = rel || (target === '_blank' ? 'noopener noreferrer' : undefined);
+  return noRouting || target // Skip Next.js routing for local files (PDFs) and external links, but keep styling
+    ? (<a href={href} target={target} rel={relValue} className={classes}>{children}</a>)
     : (<Link href={href} className={classes}>{children}</Link>);
 }
 
@@ -50,13 +57,13 @@ export function RedButton({ children, href, extraClasses, size }) {
 const whiteClasses =
   'text-gray-800 border-gray-700 hover:border-gray-900 hover:text-gray-900 bg-white';
 
-export function WhiteButton({ children, href, extraClasses, size }) {
+export function WhiteButton({ children, href, extraClasses, size, target, type, onClick, disabled }) {
   let classes = whiteClasses;
   if (extraClasses) {
     classes += ' ' + extraClasses;
   }
   return (
-    <Button href={href} extraClasses={classes} size={size}>
+    <Button href={href} extraClasses={classes} size={size} target={target} type={type} onClick={onClick} disabled={disabled}>
       {children}
     </Button>
   );
@@ -74,13 +81,13 @@ export function WideWhiteButton({ children, href, extraClasses }) {
   );
 }
 
-export function PurpleButton({ children, href, extraClasses, size }) {
+export function PurpleButton({ children, href, extraClasses, size, target, type, onClick, disabled }) {
   let classes = 'bg-purple-800 hover:bg-purple-900 text-white border-transparent';
   if (extraClasses) {
     classes += ' ' + extraClasses;
   }
   return (
-    <Button href={href} extraClasses={classes} size={size}>
+    <Button href={href} extraClasses={classes} size={size} target={target} type={type} onClick={onClick} disabled={disabled}>
       {children}
     </Button>
   );
