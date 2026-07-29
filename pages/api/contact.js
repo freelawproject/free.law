@@ -2,6 +2,8 @@
 // submission, runs the spam checks, and creates a Zoho Desk ticket. Only the
 // three "form" dropdown options reach here; the rest redirect client-side.
 
+import * as Sentry from '@sentry/nextjs';
+
 import {
   validateSubmission,
   buildTicketBody,
@@ -56,6 +58,7 @@ export default async function handler(req, res) {
   } catch (err) {
     // Never surface Zoho specifics to the user; the page shows a generic
     // message with the info@free.law fallback.
+    Sentry.captureException(err);
     console.error('Contact form submission failed:', err);
     return res.status(502).json({ ok: false });
   }
