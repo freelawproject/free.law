@@ -24,7 +24,7 @@
     "feed": "^5.1.0",
     "glob": "^13.0.0",
     "gray-matter": "^4.0.3",
-    "next": "^16.0.7",
+    "next": "^16.2.12",
     "next-mdx-remote": "^5.0.0",
     "next-seo": "^7.0.1",
     "postcss-flexbugs-fixes": "^5.0.2",
