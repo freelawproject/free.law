@@ -24,7 +24,7 @@
     "feed": "^5.1.0",
     "glob": "^13.0.0",
     "gray-matter": "^4.0.3",
-    "next": "^16.2.12",
+    "next": "^16.3.0",
     "next-mdx-remote": "^6.0.0",
     "next-seo": "^7.0.1",
     "postcss-flexbugs-fixes": "^5.0.2",
@@ -39,7 +39,7 @@
   },
   "devDependencies": {
     "autoprefixer": "^10.4.22",
-    "postcss": "^8.5.18",
+    "postcss": "^8.5.23",
     "tailwindcss": "^4.1.17"
   }
 }
