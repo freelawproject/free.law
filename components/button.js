@@ -30,25 +30,25 @@ export default function Button({ children, href, extraClasses, size, noRouting, 
     : (<Link href={href} className={classes}>{children}</Link>);
 }
 
-export function WideButton({ children, href, extraClasses }) {
+export function WideButton({ children, href, extraClasses, noRouting, target }) {
   let classes = 'w-full inline-block';
   if (extraClasses) {
     classes += ' ' + extraClasses;
   }
   return (
-    <Button href={href} extraClasses={classes}>
+    <Button href={href} extraClasses={classes} noRouting={noRouting} target={target}>
       {children}
     </Button>
   );
 }
 
-export function RedButton({ children, href, extraClasses, size }) {
+export function RedButton({ children, href, extraClasses, size, noRouting, target }) {
   let classes = 'bg-red-600 hover:bg-red-700 text-white border-transparent';
   if (extraClasses) {
     classes += ' ' + extraClasses;
   }
   return (
-    <Button href={href} extraClasses={classes} size={size}>
+    <Button href={href} extraClasses={classes} size={size} noRouting={noRouting} target={target}>
       {children}
     </Button>
   );
@@ -57,37 +57,37 @@ export function RedButton({ children, href, extraClasses, size }) {
 const whiteClasses =
   'text-gray-800 border-gray-700 hover:border-gray-900 hover:text-gray-900 bg-white';
 
-export function WhiteButton({ children, href, extraClasses, size, target, type, onClick, disabled }) {
+export function WhiteButton({ children, href, extraClasses, size, noRouting, target, type, onClick, disabled }) {
   let classes = whiteClasses;
   if (extraClasses) {
     classes += ' ' + extraClasses;
   }
   return (
-    <Button href={href} extraClasses={classes} size={size} target={target} type={type} onClick={onClick} disabled={disabled}>
+    <Button href={href} extraClasses={classes} size={size} noRouting={noRouting} target={target} type={type} onClick={onClick} disabled={disabled}>
       {children}
     </Button>
   );
 }
 
-export function WideWhiteButton({ children, href, extraClasses }) {
+export function WideWhiteButton({ children, href, extraClasses, noRouting, target }) {
   let classes = whiteClasses;
   if (extraClasses) {
     classes += ' ' + extraClasses;
   }
   return (
-    <WideButton href={href} extraClasses={classes}>
+    <WideButton href={href} extraClasses={classes} noRouting={noRouting} target={target}>
       {children}
     </WideButton>
   );
 }
 
-export function PurpleButton({ children, href, extraClasses, size, target, type, onClick, disabled }) {
+export function PurpleButton({ children, href, extraClasses, size, noRouting, target, type, onClick, disabled }) {
   let classes = 'bg-purple-800 hover:bg-purple-900 text-white border-transparent';
   if (extraClasses) {
     classes += ' ' + extraClasses;
   }
   return (
-    <Button href={href} extraClasses={classes} size={size} target={target} type={type} onClick={onClick} disabled={disabled}>
+    <Button href={href} extraClasses={classes} size={size} noRouting={noRouting} target={target} type={type} onClick={onClick} disabled={disabled}>
       {children}
     </Button>
   );
