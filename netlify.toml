@@ -4,6 +4,13 @@
     status = 301
     force = true
 
+# Contributors page merged into the sponsors page
+[[redirects]]
+    from = "/thanks/"
+    to = "/sponsors/"
+    status = 301
+    force = true
+
 # Terms and policies moved to wiki.free.law
 [[redirects]]
     from = "/recap/tos/"
