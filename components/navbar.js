@@ -356,28 +356,6 @@ export default function Navbar({ allPosts }) {
                             <div className="px-5 py-5 sm:px-8 sm:py-8">
                               <div>
                                 <h3 className="text-sm tracking-wide font-medium text-gray-500 uppercase">
-                                  Featured Posts
-                                </h3>
-                                <ul className="mt-4 space-y-4">
-                                  {featuredPosts.map((post) => (
-                                    <li key={post.id} className="text-base">
-                                      <Link
-                                        href={post.href}
-                                        key={post.id}
-                                        onClick={close}
-                                        className="font-medium text-gray-900 hover:text-gray-700"
-                                      >
-                                        {post.name}
-                                      </Link>
-                                    </li>
-                                  ))}
-                                </ul>
-                              </div>
-                            </div>
-
-                            <div className="px-5 py-5 sm:px-8 sm:py-8">
-                              <div>
-                                <h3 className="text-sm tracking-wide font-medium text-gray-500 uppercase">
                                   Recent Posts
                                 </h3>
                                 <ul className="mt-4 space-y-4">
@@ -390,6 +368,28 @@ export default function Navbar({ allPosts }) {
                                         className="font-medium text-gray-900 hover:text-gray-700"
                                       >
                                         {title}
+                                      </Link>
+                                    </li>
+                                  ))}
+                                </ul>
+                              </div>
+                            </div>
+
+                            <div className="px-5 py-5 sm:px-8 sm:py-8">
+                              <div>
+                                <h3 className="text-sm tracking-wide font-medium text-gray-500 uppercase">
+                                  Featured Posts
+                                </h3>
+                                <ul className="mt-4 space-y-4">
+                                  {featuredPosts.map((post) => (
+                                    <li key={post.id} className="text-base">
+                                      <Link
+                                        href={post.href}
+                                        key={post.id}
+                                        onClick={close}
+                                        className="font-medium text-gray-900 hover:text-gray-700"
+                                      >
+                                        {post.name}
                                       </Link>
                                     </li>
                                   ))}
