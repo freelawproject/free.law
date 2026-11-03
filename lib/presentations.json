@@ -1,5 +1,22 @@
 [
     {
+    "title": "Access to Justice/Poverty Law Innovation Showcase",
+    "location": "LITCon 2026, Suffolk University Law School, Boston, MA ",
+    "date": "2026-04",
+    "presenters": [
+      {
+        "name": "Jessica Frank",
+        "role": "Director of Justice Initiatives"
+      },
+    ],
+    "buttons": [
+      {
+        "url": "https://www.youtube.com/live/DCB0pHYp7RM?si=7lherF_lAbBRj5e2",
+        "label": "Watch the video"
+      }
+    ]
+  },
+    {
     "title": "Justice, Built with AI and Empathy",
     "location": "Women + AI Summit, Vanderbilt Law School, Nashville, TN",
     "date": "2026-02",
