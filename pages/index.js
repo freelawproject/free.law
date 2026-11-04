@@ -311,11 +311,15 @@ export default function Home({ allPostsData }) {
             id="justice-initiatives"
             aria-labelledby="justice-initiatives-heading"
           >
-            <div className="w-full text-center">
-              <HeroHeading id="justice-initiatives-heading" tag="h2">
-                Justice Initiatives
-              </HeroHeading>
-            </div>
+            <h2 id="justice-initiatives-heading" className="flex justify-center">
+              <img
+                src="/images/logos/justice-initiatives/justice-initiatives.svg"
+                alt="Justice Initiatives by Free.law"
+                width="769"
+                height="300"
+                className="w-full max-w-md h-auto"
+              />
+            </h2>
             <div className="w-full pt-3 pb-5 text-gray-700">
               <H3>
                 We put open legal data to work for people the legal system underserves: those going

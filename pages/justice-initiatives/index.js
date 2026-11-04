@@ -34,7 +34,13 @@ export default function JusticeInitiatives({ allPostsData }) {
       <main className="bg-gray-50">
         <JIHero
           eyebrow={
-            <p className="text-sm font-bold tracking-widest uppercase">Justice Initiatives</p>
+            <img
+              src="/images/logos/justice-initiatives/justice-initiatives-white.svg"
+              alt="Justice Initiatives by Free.law"
+              width="769"
+              height="300"
+              className="w-64 md:w-80 h-auto"
+            />
           }
           title="Built on open legal data. Built for people who need it most."
         >
