@@ -307,27 +307,37 @@ export default function Home({ allPostsData }) {
 
         <MainColumn>
           <section
-            className="w-full pt-16 pb-8"
+            className="flex flex-wrap items-center pt-16 pb-20"
             id="justice-initiatives"
             aria-labelledby="justice-initiatives-heading"
           >
-            <h2 id="justice-initiatives-heading" className="flex justify-center">
-              <img
-                src="/images/logos/justice-initiatives/justice-initiatives.svg"
-                alt="Justice Initiatives by Free.law"
-                width="769"
-                height="300"
-                className="w-full max-w-md h-auto"
-              />
-            </h2>
-            <div className="w-full pt-3 pb-5 text-gray-700">
-              <H3>
-                We put open legal data to work for people the legal system underserves: those going
-                to court without a lawyer, the public defenders carrying heavy caseloads, and the
-                organizations that support them.
-              </H3>
+            <div className="w-2/3 sm:w-1/2">
+              <H2 id="justice-initiatives-heading">
+                <Link href="/justice-initiatives/" className="underline">
+                  Justice Initiatives
+                </Link>{' '}
+                puts open legal data to work for people the legal system&nbsp;underserves.
+              </H2>
             </div>
-            <div className="grid grid-cols-1 md:grid-cols-3 gap-6 md:gap-8 w-full">
+            <div className="hidden sm:flex justify-end sm:w-1/2 pl-8 pt-5">
+              <div className="relative w-full max-w-[350px] aspect-[769/300]">
+                <Image
+                  src="/images/logos/justice-initiatives/justice-initiatives.svg"
+                  alt="The Justice Initiatives logo"
+                  fill
+                  className="object-contain"
+                />
+              </div>
+            </div>
+            <div className="flex sm:hidden justify-end w-1/3 pl-4 relative h-24">
+              <Image
+                src="/images/logos/justice-initiatives/justice-initiatives.svg"
+                alt="The Justice Initiatives logo"
+                fill
+                className="object-contain"
+              />
+            </div>
+            <div className="grid grid-cols-1 sm:grid-cols-3 w-full gap-6 sm:gap-8 pt-6">
               <GridListItem
                 border={true}
                 heading="Litigant Portal"
@@ -355,7 +365,7 @@ export default function Home({ allPostsData }) {
                 </p>
               </GridListItem>
             </div>
-            <div className="flex justify-center pt-6">
+            <div className="m-auto pt-6">
               <PurpleButton size="lg" href="/justice-initiatives/" extraClasses="inline-flex">
                 Learn More
               </PurpleButton>
