@@ -20,6 +20,10 @@ const about = [
     href: '/about/',
   },
   {
+    name: 'Justice Initiatives',
+    href: '/justice-initiatives/',
+  },
+  {
     name: 'Team',
     href: '/team/',
   },
@@ -160,6 +164,7 @@ const mobileLinks = [
   { label: <>About</>, href: '/about/' },
   { label: <>Blog</>, href: '/blog/' },
   { label: <>Team</>, href: '/team' },
+  { label: <>Justice Initiatives</>, href: '/justice-initiatives/' },
   { label: <>For Law Firms</>, href: '/2025/09/30/justice-partners-circle' },
   { label: <>For Librarians</>, href: '/librarians' },
   { label: <>For Startups</>, href: '/startups' },

@@ -307,6 +307,58 @@ export default function Home({ allPostsData }) {
 
         <MainColumn>
           <section
+            className="w-full pt-16 pb-8"
+            id="justice-initiatives"
+            aria-labelledby="justice-initiatives-heading"
+          >
+            <div className="w-full text-center">
+              <HeroHeading id="justice-initiatives-heading" tag="h2">
+                Justice Initiatives
+              </HeroHeading>
+            </div>
+            <div className="w-full pt-3 pb-5 text-gray-700">
+              <H3>
+                We put open legal data to work for people the legal system underserves: those going
+                to court without a lawyer, the public defenders carrying heavy caseloads, and the
+                organizations that support them.
+              </H3>
+            </div>
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-6 md:gap-8 w-full">
+              <GridListItem
+                border={true}
+                heading="Litigant Portal"
+                href="/justice-initiatives/litigant-portal/"
+                btnText="About Litigant Portal"
+              >
+                <p>
+                  A guide through civil court for people who show up alone. Court-reviewed,
+                  interactive workflows help self-represented litigants understand their rights,
+                  prepare the correct forms, and act on their decisions. Now piloting with four
+                  courts.
+                </p>
+              </GridListItem>
+              <GridListItem border={true} heading="Defender Portal">
+                <p>
+                  A platform built specifically for federal public defenders, shaped around how
+                  their offices actually work. We are gathering requirements and raising funds now.
+                </p>
+              </GridListItem>
+              <GridListItem border={true} heading="Advocacy">
+                <p>
+                  We work with law school clinics to research and advocate for policies that keep
+                  court records open and affordable, through public comments, testimony, and
+                  published research.
+                </p>
+              </GridListItem>
+            </div>
+            <div className="flex justify-center pt-6">
+              <PurpleButton size="lg" href="/justice-initiatives/" extraClasses="inline-flex">
+                Learn More
+              </PurpleButton>
+            </div>
+          </section>
+
+          <section
             className="grid grid-cols-1 sm:grid-cols-2 gap-6 sm:gap-8 py-8 md:py-16"
             id="advocacy"
             aria-labelledby="advocacy-heading"
