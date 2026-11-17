@@ -1,0 +1,78 @@
+---
+title: "How to Check AI’s Legal Work Against Real Court Records"
+date: "2026-11-17"
+tags:
+  - "Artificial Intelligence"
+  - "CourtListener"
+  - "For Legal Professionals"
+  - "Legal Research"
+author: "Nadia Hicks"
+excerpt: "AI’s legal mistakes range from fake cases to arguments that quietly hurt the client. Here’s what catches each one, and the free tools Free Law Project builds to check AI’s work against real court records."
+---
+
+<p className="lead">AI is increasingly part of everyday legal work, helping people research faster and draft more efficiently. Like any research tool, it can get things wrong, with mistakes ranging from fake cases to arguments that quietly hurt the client. Many of those mistakes can be caught by checking AI’s work against real court records, and Free Law Project builds free tools that help anyone do it.</p>
+
+## AI’s legal mistakes range from fake cases to bad arguments
+
+Using AI is increasingly the norm in legal work. Most legal professionals use general-purpose AI tools on the job, according to [8am’s 2026 Legal Industry Report][8am]. Law students are more divided. Many [worry about relying on AI][tr], and some law schools, including [Berkeley Law][berkeley], now bar it for most coursework. Still, in a [Law360 Pulse survey][law360] this summer, 96% of summer associates said they used AI at work, up from 80% a year earlier. People representing themselves are reaching for the same tools, often because getting a lawyer isn’t an option.
+
+The best-known mistake is the fake citation. In 2023, U.S. District Judge P. Kevin Castel in Manhattan [sanctioned two lawyers][register] for filing a brief full of court cases that ChatGPT made up, writing in [*Mata v. Avianca*][mata] that “a fake opinion is not ‘existing law.’” Since then, courts worldwide have issued more than 2,000 decisions involving AI-fabricated material, according to [a public database kept by Damien Charlotin][charlotin], a researcher at HEC Paris. Most involve people representing themselves, but more than 800 involve licensed lawyers. [Appeals courts have started quoting Judge Castel’s line][lawnext] back to lawyers, and the [Fifth Circuit cited Charlotin’s database][ca5] by name.
+
+Other mistakes are harder to see. [New research testing AI-written briefs][harvey] found that even the strongest models sometimes concede points their client didn’t need to give up, drop strong arguments from earlier filings, or rely on court decisions that have been set aside. These errors can look like ordinary legal writing, and the cases they cite are real. AI can also cite a real case for a point it doesn’t make.
+
+Here’s what can catch each kind of mistake:
+
+| Mistake | Example | What catches it |
+| :---- | :---- | :---- |
+| Fake citation | A case that doesn’t exist | Citation Lookup, free on CourtListener |
+| Misstated case | A real case that doesn’t support the point it’s cited for | A careful read of the cited case |
+| Bad law | A real case that’s been overturned or set aside | A commercial citator (or ours once it’s ready) |
+| Weak argument | A concession or dropped argument that hurts the client | A lawyer who knows the client and the case |
+
+## Free tools anyone can use to check AI’s work
+
+### Citation Lookup
+
+[Citation Lookup][cite-tool] on CourtListener takes you to the case a citation points to, so you can see whether it exists. It checks one citation at a time: paste in a longer passage, and it looks up the first citation it finds. To check every citation in a brief at once, developers can use our [Citation Lookup and Verification API][cite-api], launched in 2024. It matches citations against more than 18 million in CourtListener and flags the ones it can’t find.
+
+### CourtListener in your AI assistant
+
+If you already use an AI assistant for legal research, you can [connect it to CourtListener][mcp] through our MCP connector, so it looks up real cases instead of guessing. It works with several popular AI assistants.
+
+### An AI citator
+
+A real case isn’t always good law. Commercial citators have tracked this for decades, but they come with paid research subscriptions. We’re building a [free, open-source citator][citator] to flag cases that have been overturned or weakened, and testing it against a [benchmark of good and bad law][citator-benchmark] built with more than 80 volunteer legal experts.
+
+## Testing AI in the open requires public court records
+
+Tools catch mistakes one brief at a time. To know whether AI is getting better overall, you need benchmarks: standard tests that run the same way on every model, so results can be compared over time. In law, a good benchmark has to look past whether a brief seems polished and judge whether its arguments hold up.
+
+That takes real cases, in records anyone can check. The research cited above, from Harvey, built its test from case law in CourtListener and federal cases in [RECAP][recap], our archive of court records. In part of the test, AI models searched for case law through our CourtListener [MCP connector][mcp].
+
+Tests like this one mostly cover federal courts, because federal dockets and filings are collected in one place: PACER. But the vast majority of cases are filed in state courts. We’re working to close that gap. CourtListener already has opinions from state courts and the [U.S. Supreme Court][scotus], and will soon add dockets and filings from courts in five states.
+
+## AI should support the legal field, not undermine it
+
+Used well, AI can help people understand their legal problems and help lawyers research faster. Used carelessly, it wastes courts’ time, misleads people without legal training, and erodes trust in what gets filed. Free Law Project’s role is to provide the foundational data, tools, and tests that legal AI should be built on and measured against, so it is a force for good. That means people without legal training aren’t fed false legal information, lawyers’ AI assistants rely on real court data, and benchmarks reflect how complex legal work really is.
+
+Even good tools have limits. Citation Lookup checks that a case exists and shows you where to read it. It doesn’t check whether the case supports the point it’s cited for. That part still takes a careful read.
+
+The better AI gets at legal writing, the more it matters that its work can be checked against the real record.
+
+[8am]: https://www.8am.com/blog/ai-adoption-law-firms-2026-legal-industry-report
+[tr]: https://www.thomsonreuters.com/en/institute/reports/law-student-pulse-survey-2026
+[berkeley]: https://www.findlaw.com/legalblogs/greedy-associates/ai-use-is-about-to-be-banned-at-uc-berkeley-law/
+[law360]: https://www.law360.com/pulse/articles/2523789
+[register]: https://www.theregister.com/2023/06/22/lawyers_fake_cases
+[mata]: https://www.courtlistener.com/docket/63107798/mata-v-avianca-inc/
+[charlotin]: https://www.damiencharlotin.com/hallucinations/
+[lawnext]: https://www.lawnext.com/2026/03/sixth-circuit-slaps-steep-sanctions-on-two-lawyers-for-fake-citations-and-misrepresentations-in-appellate-briefs.html
+[ca5]: https://www.ca5.uscourts.gov/opinions/pub/25/25-20086-CV0.pdf
+[harvey]: https://www.harvey.ai/blog/legal-agent-bench-us-case-law
+[cite-tool]: https://www.courtlistener.com/c/
+[cite-api]: https://free.law/2024/04/16/citation-lookup-api/
+[mcp]: https://wiki.free.law/c/courtlistener/help/api/mcp/using-the-courtlistener-mcp-in-claude-chatgpt-and-other-ai-assistants
+[citator]: https://free.law/2025/05/01/citator/
+[citator-benchmark]: https://free.law/2025/09/30/citator-annotation-updates/
+[recap]: https://free.law/recap/
+[scotus]: https://free.law/2026/11/17/recap-supreme-court-collection/
