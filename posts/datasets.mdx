@@ -37,7 +37,7 @@ While we emphasize quantity, we also prioritize quality. Our team constantly is 
     "alt": "RECAP logo",
 }} height="h-auto"/>
 
-<p className="lead">The RECAP Archive is the biggest open collection of federal court data on the Internet.</p>
+<p className="lead">The RECAP Archive is the biggest open collection of federal court data on the Internet, including the Supreme Court.</p>
 
 It contains hundreds of millions of docket entries, nearly every federal case, and millions of documents. It grows by thousands of documents each day.
 
@@ -46,6 +46,8 @@ The data in RECAP is collected from many different sources. A significant source
 People that receive ECF notification emails from PACER can use the [@recap.email system][res] to seamlessly add documents to the RECAP Archive.
 
 We host a [free API that organizations use to gather content from PACER][fetch]. We also scrape PACER documents, crawl federal district court RSS feeds, and scrape metadata for District and Bankruptcy cases.
+
+We also monitor every case at the Supreme Court of the United States, gathering new docket entries and documents directly from the Court's website within minutes of when they are filed. This collection covers cases from 2000 to the present. [Learn more][scotus-wiki].
 
 Additionally, Free Law Project consults with organizations to gather PACER data. In these arrangements, we purchase thousands of items from PACER, which we add to the archive for all to access.
 
@@ -224,8 +226,11 @@ This work has been possible in part thanks to a grant from Columbia University L
 
 In this task, we have combined many sources of data including the [Supreme Court Database][scb], the [opinions available on Resource.org][pro], [Library of Congress][loc], and downloads that we have [collected directly][js] from the [Supreme Court website][scotus]. All of this data has been carefully combined, fixing innumerable errors both manually and with automated systems.
 
+In 2026, we added the Supreme Court's dockets and filings to the RECAP Archive. It covers briefs, motions, orders, and other filings since 2000, with full-text search and alerts. [Learn more about the collection][scotus-wiki] or [search it now][scotus-search].
+
 Some examples of the work we have completed so far includes:
 
+ - [RECAP Grows: Free Law Project Launches Searchable Supreme Court Collection](/2026/11/17/recap-supreme-court-collection/)
  - [We've Added Thousands More Citations to Historical Supreme Court Opinions](/2017/03/27/old-scotus-citations/)
  - [CourtListener's SCOTUS Data Gets Even Better with Legacy Data from the Supreme Court Database](/2016/09/06/legacy-scdb/)
  - [Updated Supreme Court Case Dates and The First Release of Early SCOTUS Data in Machine-Readable Form](/2011/05/25/updated-scotus-dates/)
@@ -261,6 +266,8 @@ Some examples of the work we have completed so far includes:
 [scdb]: http://scdb.wustl.edu/
 [scb]: /2014/12/21/scdb/
 [scotus]: http://www.supremecourt.gov/
+[scotus-search]: https://www.courtlistener.com/?type=r&q=court_id%3Ascotus
+[scotus-wiki]: https://wiki.free.law/c/courtlistener/help/data-coverage/supreme-court-cases-and-filings
 [wsj]: https://www.wsj.com/articles/131-federal-judges-broke-the-law-by-hearing-cases-where-they-had-a-financial-interest-11632834421/
 [fetch]: https://wiki.free.law/c/courtlistener/help/api/rest/v4/recap#pacer-fetch
 [cite]: /citing-flp/
