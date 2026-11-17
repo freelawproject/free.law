@@ -1,4 +1,21 @@
 [
+  {
+    "title": "Nocode for Claude Code",
+    "location": "Free Law Project Show and Tell (online)",
+    "date": "2026-11",
+    "presenters": [
+      {
+        "name": "John Gardner",
+        "role": "Presenter"
+      }
+    ],
+    "buttons": [
+      {
+        "url": "/pdf/presentations/claude-code-for-non-coders.pdf",
+        "label": "View The Presentation"
+      }
+    ]
+  },
     {
     "title": "Access to Justice/Poverty Law Innovation Showcase",
     "location": "LITCon 2026, Suffolk University Law School, Boston, MA ",
