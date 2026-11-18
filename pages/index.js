@@ -252,12 +252,12 @@ export default function Home({ allPostsData }) {
           </div>
         </MainFullBleedColumn>
 
-        <MainColumn>
-          <section
-            className="flex flex-wrap items-center pt-8 pb-20"
-            id="justice-initiatives"
-            aria-labelledby="justice-initiatives-heading"
-          >
+        <MainFullBleedColumn
+          id="justice-initiatives"
+          aria-labelledby="justice-initiatives-heading"
+          bgClasses="bg-gradient-to-b from-gray-200 to-white"
+        >
+          <div className="flex flex-wrap items-center pt-16 pb-20">
             <div className="w-2/3 sm:w-1/2">
               <H2 id="justice-initiatives-heading">
                 <Link href="/justice-initiatives/" className="underline">
@@ -317,8 +317,8 @@ export default function Home({ allPostsData }) {
                 Learn More
               </PurpleButton>
             </div>
-          </section>
-        </MainColumn>
+          </div>
+        </MainFullBleedColumn>
 
         <MainFullBleedColumn aria-labelledby="bots-heading" bgClasses="bg-purple-800">
           <div className="pt-16 pb-24  text-gray-100" id="bots">
