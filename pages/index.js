@@ -127,9 +127,9 @@ export default function Home({ allPostsData }) {
                 border={true}
               >
                 <p>
-                  You'll automatically get notified whenever there's a new match in our PACER
-                  archive for your saved searches. You can follow topics, people, organizations,
-                  types of cases, and more.
+                  You'll automatically get notified whenever there's a new match in our PACER and
+                  Supreme Court archive for your saved searches. You can follow topics, people,
+                  organizations, types of cases, and more.
                 </p>
               </GridListItem>
               <GridListItem
@@ -138,8 +138,8 @@ export default function Home({ allPostsData }) {
                 border={true}
               >
                 <p>
-                  Set alerts for federal dockets and we'll send you an email whenever there is a new
-                  filing in a case in PACER.
+                  Set alerts for federal and Supreme Court dockets and we'll send you an email
+                  whenever there is a new filing.
                 </p>
               </GridListItem>
             </div>
@@ -185,7 +185,7 @@ export default function Home({ allPostsData }) {
               id="cl-factoids"
             >
               <GridListItem
-                heading="PACER Filings and Dockets"
+                heading="Federal Filings and Dockets"
                 bg="bg-transparent"
                 href="https://www.courtlistener.com/recap/"
                 btnText="Search Federal Filings"
@@ -196,8 +196,8 @@ export default function Home({ allPostsData }) {
                   <Link href="https://www.courtlistener.com/recap/" className="underline">
                     the largest free collection
                   </Link>{' '}
-                  of federal court documents and dockets on the Internet. Our collection grows every
-                  day.
+                  of federal court documents and dockets on the Internet, including Supreme Court
+                  filings since 2000. Our collection grows every day.
                 </p>
                 <p>Everything we have is fully searchable and accessible on CourtListener.</p>
               </GridListItem>
@@ -437,8 +437,8 @@ export default function Home({ allPostsData }) {
               >
                 <p>
                   The RECAP Archive contains hundreds of millions of docket entries, nearly every
-                  federal case, and millions of documents. It grows by thousands of documents each
-                  day.
+                  federal case, Supreme Court cases since 2000, and millions of documents. It grows
+                  by thousands of documents each day.
                 </p>
               </GridListItem>
               <GridListItem
