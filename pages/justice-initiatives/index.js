@@ -101,8 +101,8 @@ export default function JusticeInitiatives({ allPostsData }) {
                 </div>
                 <h3 className="text-2xl font-semibold text-gray-900">Defender Portal</h3>
                 <p className="leading-relaxed text-gray-700 grow">
-                  A platform built specifically for federal public defenders. We start by listening
-                  to defenders, then shape the technology around how their offices actually work. We
+                  A platform built specifically for public defenders. We start by listening to
+                  defenders, then shape the technology around how their offices actually work. We
                   are gathering requirements and raising funds now.
                 </p>
                 <p className="font-semibold text-gray-600">More to come</p>
