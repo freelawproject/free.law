@@ -115,14 +115,15 @@ export default function JusticeInitiatives({ allPostsData }) {
                 <div className="flex flex-col gap-3">
                   <div className="flex flex-wrap items-center gap-x-3 gap-y-2">
                     <h4 className="text-xl font-semibold text-gray-900">
-                      Free CourtListener access for legal services organizations (LSOs)
+                      Free memberships for legal services organizations (LSOs)
                     </h4>
                     <StatusBadge variant="available">Available now</StatusBadge>
                   </div>
                   <p className="leading-relaxed text-gray-700">
-                    U.S.-based nonprofit legal services organizations can apply for a free
-                    CourtListener group membership, so their staff can research and track cases
-                    without a subscription.
+                    U.S.-based nonprofit legal services organizations can apply for a no-cost Free
+                    Law Project group membership. Their staff get CourtListener member features to
+                    research and track cases for the clients they serve, and the membership supports
+                    our mission.
                   </p>
                   <Link
                     href="/membership/"
