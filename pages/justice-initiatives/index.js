@@ -204,7 +204,9 @@ export default function JusticeInitiatives({ allPostsData }) {
                 </p>
               </div>
               <div className="flex flex-wrap gap-3">
-                <GreenButton href="/contact/">Contact us</GreenButton>
+                <GreenButton href="/contact/?issue_type=justice_initiatives">
+                  Contact us
+                </GreenButton>
                 <GreenButton href="/membership/" outline>
                   Apply for LSO membership
                 </GreenButton>

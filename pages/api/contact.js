@@ -1,6 +1,6 @@
 // Contact form endpoint. Deploys as a Netlify serverless function. Validates a
 // submission, runs the spam checks, and creates a Zoho Desk ticket. Only the
-// three "form" dropdown options reach here; the rest redirect client-side.
+// "form" dropdown options reach here; the rest redirect client-side.
 
 import * as Sentry from '@sentry/nextjs';
 

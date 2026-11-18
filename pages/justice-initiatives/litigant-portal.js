@@ -189,6 +189,9 @@ export default function LitigantPortal({ allPostsData }) {
               ))}
             </ol>
             <div className="bg-gray-100 border-2 border-gray-200 rounded-2xl px-6 py-6 md:px-8 flex flex-col gap-2">
+              <p className="text-sm font-bold tracking-widest uppercase text-green-700">
+                AI optional
+              </p>
               <h3 className="text-xl font-semibold text-gray-900">
                 Two ways through, one source of content
               </h3>
@@ -344,8 +347,8 @@ export default function LitigantPortal({ allPostsData }) {
                   in this one, we’d like to hear from you.
                 </p>
               </div>
-              <GreenButton href="mailto:jessica@free.law" onDark>
-                Email jessica@free.law
+              <GreenButton href="/contact/?issue_type=justice_initiatives" onDark>
+                Contact us
               </GreenButton>
             </div>
           </section>
