@@ -17,6 +17,19 @@ module.exports = {
       indigo: colors.indigo,
       red: colors.red,
       yellow: colors.yellow,
+      // Accent color for Justice Initiatives pages
+      green: {
+        50: '#f3f8f2',
+        100: '#e6f0e4',
+        200: '#c9dfc5',
+        300: '#a3c79c',
+        400: '#73a66a',
+        500: '#5a9151',
+        600: '#4a8042',
+        700: '#3d6b37',
+        800: '#2f5429',
+        900: '#223d1e',
+      },
       // FLP's special purple is number 900!
       purple: {
         50: '#f9fafb',

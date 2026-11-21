@@ -252,6 +252,74 @@ export default function Home({ allPostsData }) {
           </div>
         </MainFullBleedColumn>
 
+        <MainFullBleedColumn
+          id="justice-initiatives"
+          aria-labelledby="justice-initiatives-heading"
+          bgClasses="bg-gradient-to-b from-gray-200 to-white"
+        >
+          <div className="flex flex-wrap items-center pt-16 pb-20">
+            <div className="w-2/3 sm:w-1/2">
+              <H2 id="justice-initiatives-heading">
+                <Link href="/justice-initiatives/" className="underline">
+                  Justice Initiatives
+                </Link>{' '}
+                puts open legal data to work for people the legal system&nbsp;underserves.
+              </H2>
+            </div>
+            <div className="hidden sm:flex justify-end sm:w-1/2 pl-8 pt-5">
+              <div className="relative w-full max-w-[350px] aspect-[769/300]">
+                <Image
+                  src="/images/logos/justice-initiatives/justice-initiatives.svg"
+                  alt="The Justice Initiatives logo"
+                  fill
+                  className="object-contain"
+                />
+              </div>
+            </div>
+            <div className="flex sm:hidden justify-end w-1/3 pl-4 relative h-24">
+              <Image
+                src="/images/logos/justice-initiatives/justice-initiatives.svg"
+                alt="The Justice Initiatives logo"
+                fill
+                className="object-contain"
+              />
+            </div>
+            <div className="grid grid-cols-1 sm:grid-cols-3 w-full gap-6 sm:gap-8 pt-6">
+              <GridListItem
+                border={true}
+                heading="Litigant Portal"
+                href="/justice-initiatives/litigant-portal/"
+                btnText="About Litigant Portal"
+              >
+                <p>
+                  A guide through civil court for people who show up alone. Court-reviewed,
+                  interactive workflows help self-represented litigants understand their rights,
+                  prepare the correct forms, and act on their decisions. Now piloting with four
+                  courts.
+                </p>
+              </GridListItem>
+              <GridListItem border={true} heading="Defender Portal">
+                <p>
+                  A platform built specifically for public defenders, shaped around how their
+                  offices actually work. We are gathering requirements and raising funds now.
+                </p>
+              </GridListItem>
+              <GridListItem border={true} heading="Advocacy">
+                <p>
+                  We work with law school clinics to research and advocate for policies that keep
+                  court records open and affordable, through public comments, testimony, and
+                  published research.
+                </p>
+              </GridListItem>
+            </div>
+            <div className="m-auto pt-6">
+              <PurpleButton size="lg" href="/justice-initiatives/" extraClasses="inline-flex">
+                Learn More
+              </PurpleButton>
+            </div>
+          </div>
+        </MainFullBleedColumn>
+
         <MainFullBleedColumn aria-labelledby="bots-heading" bgClasses="bg-purple-800">
           <div className="pt-16 pb-24  text-gray-100" id="bots">
             <div className="w-full text-center">
