@@ -1,0 +1,260 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Free Law Project Matching Gift</title>
+<!-- Testing: remove the robots tag below when this page is ready to link to -->
+<meta name="robots" content="noindex, nofollow">
+<meta name="description" content="Donate to Free Law Project by December 31 and your gift will be matched up to $50,000.">
+<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<link rel="icon" href="/favicon-32.png" sizes="32x32">
+<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Raleway:wght@600;800;900&family=Libre+Caslon+Text:ital,wght@0,400;1,400;1,700&family=IBM+Plex+Mono:wght@500&display=swap">
+<style>
+/* Layout: one bold column of full-bleed bands (plum hero, lavender impact, plum statement, lilac chart, white form) */
+:root {
+  --plum: #3e1d40;        /* hero / statement ground */
+  --plum-ink: #2a1230;    /* darkest text */
+  --grape: #66306a;       /* accent fills, big numbers */
+  --lilac: #d4b6d8;       /* secondary headline on plum, chart slice */
+  --lavender: #ffffff;    /* page ground (was light purple) */
+  --paper: #ffffff;       /* card ground */
+  --soft: #f4f3f5;        /* quiet neutral fill */
+  --ink: #121014;         /* black highlights */
+  --muted: #66626b;       /* footer links */
+  --rule: #d9d6dc;        /* footer hairlines */
+  --on-plum: #ffffff;
+  --muted-on-plum: #cbb3cf;
+  --display: "Raleway", "Helvetica Neue", Arial, sans-serif;
+  --serif: "Libre Caslon Text", "Century Schoolbook", Georgia, serif;
+  --mono: "IBM Plex Mono", ui-monospace, Menlo, monospace;
+  --col: 44rem;
+  color-scheme: light;
+}
+* { box-sizing: border-box; }
+body { background: var(--lavender); color: var(--ink); font-family: var(--serif); font-size: 1.125rem; line-height: 1.55; -webkit-font-smoothing: antialiased; }
+
+.band > .inner {
+  max-width: var(--col); margin-inline: auto;
+  padding-left: max(16px, env(safe-area-inset-left, 0px));
+  padding-right: max(16px, env(safe-area-inset-right, 0px));
+}
+.eyebrow { font-family: var(--mono); font-weight: 500; font-size: .8rem; letter-spacing: .14em; text-transform: uppercase; }
+h1, h2, .stmt { font-family: var(--display); font-weight: 900; letter-spacing: -.02em; line-height: 1.02; text-wrap: balance; margin: 0; }
+
+/* Hero */
+.hero { background: radial-gradient(60rem 30rem at 85% 0%, rgba(102, 48, 106, .55), transparent 70%), var(--ink); color: var(--on-plum); border-bottom: 6px solid var(--grape);
+  margin-top: calc(-1 * env(safe-area-inset-top, 0px));
+  padding-top: calc(env(safe-area-inset-top, 0px) + 1.75rem); padding-bottom: 6.5rem; }
+.hero .inner { display: grid; gap: 1rem; }
+.hero .top { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: .75rem 1.5rem; margin-bottom: .5rem; }
+.logo { width: 9rem; height: auto; display: block; }
+.hero .home { display: block; border-radius: 4px; }
+.hero .home:focus-visible { outline: 3px solid var(--lilac); outline-offset: 4px; }
+.hero .eyebrow { color: var(--muted-on-plum); }
+.hero h1 { font-size: clamp(2.3rem, 7.5vw, 4.2rem); }
+.hero h1 span { display: block; color: var(--lilac); }
+.hero .lede { font-style: italic; font-size: clamp(1.1rem, 2.6vw, 1.35rem); line-height: 1.45; margin: 0; max-width: 40ch; }
+.hero .lede b { font-weight: 700; }
+.btn { display: inline-block; background: var(--paper); color: var(--plum-ink); font-family: var(--display); font-weight: 800; font-size: 1.3rem; padding: 1rem 2.1rem; border-radius: .7rem; text-decoration: none; transition: transform .15s ease, background .15s ease; }
+.btn:hover { background: var(--lilac); transform: translateY(-2px); }
+.btn:focus-visible { outline: 3px solid var(--lilac); outline-offset: 4px; }
+
+/* Match meter */
+.meter { display: grid; gap: .5rem; margin-top: .5rem; }
+.meter .bar { height: 1.1rem; border-radius: 1rem; background: var(--grape); position: relative; overflow: hidden; }
+.meter .bar::after { content: ""; position: absolute; inset: 0; background: repeating-linear-gradient(90deg, transparent 0 calc(50% - 2px), var(--plum) calc(50% - 2px) calc(50% + 2px), transparent calc(50% + 2px) 100%); }
+.meter .bar i { position: absolute; inset: 0 50% 0 0; background: var(--lilac); }
+.meter .ends { display: flex; justify-content: space-between; font-family: var(--mono); font-size: .8rem; color: var(--muted-on-plum); }
+
+/* Impact */
+.impact { padding-block: 3.5rem 4.5rem; }
+.impact .inner { display: grid; gap: 2.25rem; }
+.impact h2 { font-size: clamp(1.9rem, 5.5vw, 2.9rem); color: var(--ink); }
+.impact h2 em { font-family: var(--serif); font-weight: 400; color: var(--grape); letter-spacing: 0; }
+.impact .intro { font-style: italic; font-size: 1.25rem; margin: 0; }
+.stats { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 1rem; }
+.stat { background: var(--ink); border-radius: 1rem; padding: 1.5rem 1.4rem; display: grid; gap: .35rem; align-content: start; }
+.stat .num { font-family: var(--display); font-weight: 900; font-size: clamp(2.6rem, 9vw, 4rem); line-height: 1; color: var(--on-plum); letter-spacing: -.03em; font-variant-numeric: lining-nums tabular-nums; }
+.stat .lbl { font-family: var(--mono); font-size: .8rem; letter-spacing: .1em; text-transform: uppercase; color: var(--lilac); }
+.keep { list-style: none; margin: 0; padding: 0; display: grid; gap: 0; border-top: 2px solid var(--ink); }
+.keep li { padding-block: 1.35rem; border-bottom: 2px solid var(--ink); }
+.keep .tag { font-family: var(--mono); font-size: .75rem; letter-spacing: .1em; color: var(--grape); padding-top: .45rem; }
+.keep strong { display: block; font-family: var(--display); font-weight: 900; font-size: 1.6rem; color: var(--ink); line-height: 1.1; }
+.keep span { font-size: 1.1rem; }
+.sr { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }
+
+/* Statement */
+.statement { background: var(--ink); color: var(--on-plum); padding-block: 4.5rem; }
+.statement .stmt { font-size: clamp(2.1rem, 6.5vw, 3.6rem); }
+.statement .stmt span { color: var(--lilac); }
+
+/* Chart */
+.chart { padding-block: 4.5rem; background: var(--lavender); border-top: 2px solid var(--ink); }
+.chart .inner { display: grid; gap: 2.5rem; justify-items: center; text-align: center; }
+.donut { width: min(20rem, 80vw); height: auto; display: block; }
+.donut .ring-a { stroke: var(--grape); }
+.donut .ring-b { stroke: var(--lilac); }
+.donut text { font-family: var(--display); fill: var(--ink); }
+.chart p { font-size: clamp(1.3rem, 3.6vw, 1.7rem); font-style: italic; line-height: 1.4; margin: 0; max-width: 30ch; text-wrap: balance; }
+.chart p b { font-style: normal; font-family: var(--display); font-weight: 900; color: var(--grape); }
+.legend { display: flex; flex-wrap: wrap; gap: .75rem 1.75rem; justify-content: center; font-family: var(--mono); font-size: .85rem; color: var(--ink); }
+.legend span { display: inline-flex; align-items: flex-start; gap: .55rem; text-align: left; }
+.legend i { flex: none; width: .9rem; height: .9rem; border-radius: .2rem; display: inline-block; margin-top: .15em; }
+
+/* Give */
+.give { background: var(--lavender); padding-block: 0 1rem; }
+.give .inner { display: grid; gap: 1rem; }
+.give .card { margin-top: -5rem; background: var(--paper); border: 2px solid var(--ink); border-radius: 1.25rem; padding: 1.25rem; display: grid; gap: 1rem; box-shadow: 0 1.25rem 2.5rem -1.25rem rgba(42, 18, 48, .35); }
+.give .eyebrow { color: var(--ink); text-align: center; }
+.give .fine { text-align: center; }
+.statement .btn { margin-top: 2rem; }
+.statement .cta { display: flex; justify-content: center; }
+.form-slot { min-width: 0; display: grid; }
+.fallback { background: var(--soft); border-radius: 1rem; padding: 1.75rem; display: grid; gap: 1rem; justify-items: center; text-align: center; }
+.fallback p { margin: 0; font-style: italic; }
+.fallback .btn { background: var(--ink); color: var(--on-plum); }
+.fallback .btn:hover { background: var(--grape); }
+.fine { font-family: var(--mono); font-size: .75rem; letter-spacing: .04em; color: var(--grape); margin: 0; }
+
+/* Footer */
+.foot { background: var(--soft); padding-block: 3rem 3.5rem; border-top: 2px solid var(--ink); }
+.foot .inner { display: grid; gap: 1rem; }
+.foot p { margin: 0; font-size: 1rem; line-height: 1.6; color: var(--ink); max-width: 62ch; }
+.foot .ask { font-family: var(--display); font-weight: 800; font-size: 1.15rem; line-height: 1.4; color: var(--ink); }
+.foot a { color: var(--grape); font-weight: 700; text-decoration-thickness: 2px; text-underline-offset: 3px; }
+.foot a:hover { color: var(--plum); }
+.foot a:focus-visible { outline: 3px solid var(--lilac); outline-offset: 2px; border-radius: 2px; }
+
+/* Centered headlines, stat boxes and calls to action; explanatory text stays left-aligned */
+.hero .top { justify-content: center; }
+.hero h1, .impact h2, .impact .intro, .statement .stmt { text-align: center; }
+.hero .lede { justify-self: center; }
+.stat { justify-items: center; text-align: center; }
+
+/* free.law site footer */
+.sitefoot { background: var(--paper); border-top: 1px solid var(--rule); padding-block: 2.25rem .5rem; font-family: var(--display); }
+.sitefoot > .inner { max-width: 68rem; }
+.sf-row { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 1.25rem 2rem; }
+.sf-logo { display: block; width: 7.5rem; flex: none; }
+.sf-logo svg { width: 100%; height: auto; display: block; }
+.sf-nav ul { list-style: none; margin: 0; padding: 0; display: flex; flex-wrap: wrap; gap: .6rem 1.5rem; font-size: .9rem; font-weight: 600; line-height: 1.35; }
+.sitefoot a { color: var(--muted); text-decoration: none; }
+.sitefoot a:hover { color: var(--ink); text-decoration: underline; }
+.sitefoot a:focus-visible { outline: 3px solid var(--lilac); outline-offset: 2px; border-radius: 2px; }
+.sf-colophon { margin-top: 1.75rem; padding-block: 1.5rem; border-top: 1px solid var(--rule); display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 1.25rem; }
+.sf-colophon p { margin: 0; font-size: .8rem; line-height: 1.5; color: var(--muted); max-width: 40rem; }
+.sf-social { display: flex; gap: 1.25rem; }
+.sf-social a { width: 2rem; height: 2rem; display: block; color: var(--muted); }
+.sf-social a:hover { color: var(--ink); }
+.sf-social svg { width: 100%; height: 100%; display: block; }
+.sf-social .knock { fill: var(--paper); }
+
+@media (max-width: 30rem) {
+  .legend { flex-direction: column; align-items: flex-start; }
+  .sf-nav ul { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .stats { grid-template-columns: minmax(0, 1fr); }
+  .keep li { grid-template-columns: minmax(0, 1fr); gap: .3rem; }
+  .keep .tag { padding-top: 0; }
+}
+@media (prefers-reduced-motion: reduce) { .btn { transition: none; } .btn:hover { transform: none; } }
+</style>
+
+</head>
+<body>
+<main>
+  <section class="band hero">
+    <div class="inner">
+      <div class="top"><a class="home" href="https://free.law/" aria-label="Free Law Project home"><svg xmlns="http://www.w3.org/2000/svg" class="logo" role="img" aria-label="Free Law Project" viewBox="0 0 1118.8 452.75"><defs><style>.flp-l1{stroke:#fff;stroke-miterlimit:10;stroke-width:7px;fill:#fff}.flp-l2{fill:#fff;stroke-width:0}</style></defs><g><g><path d="M109.63,382.9v-80.43h54.03v13.71h-38.4v20.73h31.94v12.69h-31.94v33.3h-15.63Z" class="flp-l2"/><path d="M174.65,382.9v-80.43h35.57c3.7,0,7.12.78,10.25,2.32,3.13,1.55,5.83,3.59,8.1,6.12,2.27,2.53,4.04,5.4,5.32,8.61,1.28,3.21,1.93,6.44,1.93,9.69,0,5.21-1.3,9.95-3.91,14.22-2.61,4.27-6.14,7.35-10.59,9.23l18.35,30.25h-17.56l-16.43-26.96h-15.41v26.96h-15.63ZM190.28,342.23h19.6c1.43,0,2.78-.34,4.02-1.02s2.32-1.6,3.23-2.78c.91-1.17,1.62-2.55,2.15-4.13.53-1.59.79-3.29.79-5.1s-.3-3.63-.91-5.21c-.61-1.59-1.42-2.96-2.44-4.13-1.02-1.17-2.19-2.08-3.51-2.72-1.32-.64-2.66-.96-4.02-.96h-18.92v26.05Z" class="flp-l2"/><path d="M305.82,369.19v13.71h-55.85v-80.43h54.83v13.71h-39.19v19.37h33.87v12.69h-33.87v20.96h40.21Z" class="flp-l2"/><path d="M373.9,369.19v13.71h-55.85v-80.43h54.83v13.71h-39.19v19.37h33.87v12.69h-33.87v20.96h40.21Z" class="flp-l2"/><path d="M413.32,382.9v-80.43h15.63v66.72h41.01v13.71h-56.64Z" class="flp-l2"/><path d="M502.36,302.47h13.82l30.58,80.43h-16.09l-7.48-20.05h-28.09l-7.36,20.05h-16.09l30.7-80.43ZM520.37,351.86l-11.1-31.6-11.55,31.6h22.66Z" class="flp-l2"/></g><path d="M568.51,302.7h14.39l9.06,26.62,9.06-26.62h14.5l-13.71,36.59,10.19,25.71,22.77-62.53h16.99l-32.74,80.43h-13.14l-13.93-33.76-13.93,33.76h-13.14l-32.51-80.43h16.77l22.88,62.53,9.97-25.71-13.48-36.59Z" class="flp-l2"/></g><g><g><path d="M671.47,382.9v-80.43h33.3c3.47,0,6.66.74,9.57,2.21,2.91,1.47,5.42,3.4,7.53,5.78,2.11,2.38,3.78,5.08,4.98,8.1,1.21,3.02,1.81,6.08,1.81,9.18,0,3.32-.57,6.51-1.7,9.57-1.13,3.06-2.72,5.76-4.76,8.1-2.04,2.34-4.47,4.23-7.31,5.66-2.83,1.43-5.99,2.15-9.46,2.15h-26.05v29.68h-7.93ZM679.4,346.19h25.71c2.34,0,4.47-.51,6.4-1.53,1.93-1.02,3.57-2.38,4.93-4.08,1.36-1.7,2.42-3.66,3.17-5.89.75-2.23,1.13-4.55,1.13-6.97s-.43-4.85-1.3-7.08c-.87-2.23-2.04-4.17-3.51-5.83-1.47-1.66-3.21-2.96-5.21-3.91-2-.94-4.1-1.42-6.29-1.42h-25.03v36.7Z" class="flp-l2"/><path d="M736.26,382.9v-80.43h33.98c3.47,0,6.66.74,9.57,2.21,2.91,1.47,5.42,3.4,7.53,5.78,2.11,2.38,3.76,5.08,4.93,8.1,1.17,3.02,1.76,6.08,1.76,9.18s-.43,5.76-1.3,8.44c-.87,2.68-2.08,5.1-3.63,7.25-1.55,2.15-3.42,3.96-5.61,5.44-2.19,1.47-4.64,2.47-7.36,3l19.71,31.04h-8.95l-18.92-29.68h-23.79v29.68h-7.93ZM744.19,346.19h26.28c2.34,0,4.47-.51,6.4-1.53,1.93-1.02,3.57-2.4,4.93-4.13,1.36-1.74,2.42-3.7,3.17-5.89.75-2.19,1.13-4.49,1.13-6.91s-.43-4.74-1.3-6.97c-.87-2.23-2.04-4.17-3.51-5.83-1.47-1.66-3.21-2.98-5.21-3.96-2-.98-4.1-1.47-6.29-1.47h-25.6v36.7Z" class="flp-l2"/><path d="M836.97,383.46c-5.59,0-10.7-1.15-15.35-3.45-4.64-2.3-8.63-5.36-11.95-9.18-3.32-3.81-5.89-8.17-7.7-13.08-1.81-4.91-2.72-9.93-2.72-15.07s.96-10.5,2.89-15.41c1.93-4.91,4.59-9.25,7.99-13.03,3.4-3.78,7.4-6.78,12.01-9,4.61-2.23,9.59-3.34,14.95-3.34s10.7,1.19,15.35,3.57c4.64,2.38,8.61,5.49,11.89,9.35,3.29,3.85,5.83,8.21,7.65,13.08,1.81,4.87,2.72,9.84,2.72,14.9,0,5.36-.96,10.5-2.89,15.41-1.93,4.91-4.57,9.23-7.93,12.97-3.36,3.74-7.35,6.72-11.95,8.95-4.61,2.23-9.59,3.34-14.95,3.34ZM807.17,342.68c0,4.38.72,8.59,2.15,12.63,1.43,4.04,3.47,7.63,6.12,10.76,2.64,3.13,5.78,5.63,9.4,7.48,3.62,1.85,7.66,2.78,12.12,2.78s8.65-.98,12.35-2.94c3.7-1.96,6.83-4.53,9.4-7.7,2.57-3.17,4.55-6.76,5.95-10.76,1.4-4,2.1-8.08,2.1-12.23,0-4.38-.74-8.59-2.21-12.63-1.47-4.04-3.53-7.61-6.17-10.7-2.64-3.1-5.78-5.57-9.4-7.42-3.62-1.85-7.63-2.78-12.01-2.78s-8.65.96-12.35,2.89c-3.7,1.93-6.84,4.47-9.4,7.65-2.57,3.17-4.55,6.76-5.95,10.76-1.4,4-2.1,8.08-2.1,12.23Z" class="flp-l2"/></g><g><path d="M873.79,372.81c1.66,1.13,3.8,2.11,6.4,2.94,2.61.83,5.53,1.25,8.78,1.25,4.08,0,7.34-.74,9.8-2.21,2.45-1.47,4.32-3.64,5.61-6.51,1.28-2.87,2.11-6.4,2.49-10.59.38-4.19.57-8.97.57-14.33v-40.89h7.93v40.89c0,6.12-.28,11.69-.85,16.71-.57,5.02-1.76,9.31-3.57,12.86-1.81,3.55-4.46,6.31-7.93,8.27-3.47,1.96-8.16,2.94-14.05,2.94-6.8,0-12.61-1.66-17.44-4.98l2.27-6.34Z" class="flp-l2"/><path d="M982.88,375.87v7.02h-54.03v-80.43h53.01v7.02h-45.08v29h39.31v6.68h-39.31v30.7h46.1Z" class="flp-l2"/></g><g><path d="M985.14,342.12c0-4.83.85-9.65,2.55-14.44,1.7-4.8,4.17-9.08,7.42-12.86,3.25-3.78,7.25-6.85,12.01-9.23,4.76-2.38,10.16-3.57,16.2-3.57,7.17,0,13.31,1.62,18.41,4.87,5.1,3.25,8.85,7.48,11.27,12.69l-6.23,3.85c-1.28-2.64-2.85-4.87-4.7-6.68-1.85-1.81-3.83-3.29-5.95-4.42-2.12-1.13-4.3-1.94-6.57-2.44-2.27-.49-4.49-.74-6.68-.74-4.83,0-9.1.98-12.8,2.95-3.7,1.96-6.82,4.53-9.35,7.7-2.53,3.17-4.44,6.74-5.72,10.7-1.29,3.96-1.93,7.99-1.93,12.06,0,4.46.77,8.72,2.32,12.8,1.55,4.08,3.66,7.68,6.34,10.82,2.68,3.13,5.85,5.63,9.52,7.48,3.66,1.85,7.65,2.78,11.95,2.78,2.27,0,4.59-.28,6.97-.85,2.38-.57,4.68-1.47,6.91-2.72,2.23-1.25,4.29-2.79,6.17-4.64,1.89-1.85,3.47-4.1,4.76-6.74l6.57,3.4c-1.29,3.02-3.1,5.68-5.44,7.99-2.34,2.3-4.95,4.25-7.82,5.83-2.87,1.59-5.91,2.79-9.12,3.62-3.21.83-6.36,1.25-9.46,1.25-5.51,0-10.57-1.21-15.18-3.62-4.61-2.42-8.57-5.57-11.89-9.46-3.32-3.89-5.91-8.31-7.76-13.25-1.85-4.95-2.78-9.99-2.78-15.12Z" class="flp-l2"/><path d="M1118.8,309.49h-28.66v73.4h-7.93v-73.4h-28.66v-7.02h65.25v7.02Z" class="flp-l2"/></g></g><path d="M179.41,21.17c-3.6,0-6.53-2.93-6.53-6.53s2.93-6.53,6.53-6.53,6.53,2.93,6.53,6.53-2.93,6.53-6.53,6.53ZM175.93.4c-5.3,1.23-9.58,5.52-10.78,10.83-1.63,7.22,2.18,13.79,8.17,16.54v248.28h12.16V27.77c5.05-2.27,8.57-7.33,8.57-13.21,0-9.13-8.53-16.35-18.11-14.15Z" class="flp-l2"/><path d="M209.85,92.65c-3.6,0-6.53-2.93-6.53-6.53s2.93-6.53,6.53-6.53,6.53,2.93,6.53,6.53-2.93,6.53-6.53,6.53ZM206.35,71.88c-5.26,1.23-9.55,5.48-10.75,10.74-1.67,7.1,2,13.52,7.77,16.36v177.07h12.16V99.41c5.26-2.2,8.97-7.39,8.97-13.41,0-9.15-8.57-16.33-18.15-14.13Z" class="flp-l2"/><path d="M349.92,132.72c-1.2-5.01-5.23-9.12-10.24-10.42-7.77-2.06-14.92,2.13-17.53,8.58h-91.26v145.26h12.2v-133.14h45.81l-.11,25.19,8.06-.22.15-24.98h25.77c2.43,4.65,7.3,7.86,12.96,7.86,9.22,0,16.52-8.55,14.19-18.14ZM335.71,142.94c-3.6,0-6.53-2.93-6.53-6.53s2.93-6.53,6.53-6.53,6.53,2.93,6.53,6.53-2.93,6.53-6.53,6.53Z" class="flp-l2"/><g><line x1="62.26" x2="82.26" y1="196.3" y2="243.36" class="flp-l1"/><line x1="60.99" x2="43.9" y1="196.52" y2="244.71" class="flp-l1"/><path d="M24.26,251.92h75.26v4.47c0,7.53-6.11,13.64-13.64,13.64h-49.41c-6.73,0-12.2-5.47-12.2-12.2v-5.91h0Z" class="flp-l2" transform="translate(-1.25 .3) rotate(-.27)"/><path d="M100.53,245.87l-75.99.36c-.9,0-1.63-.85-1.64-1.92v-.09c0-1.06.72-1.93,1.62-1.93l75.99-.36c.9,0,1.63.85,1.64,1.92v.09c0,1.06-.72,1.93-1.62,1.93Z" class="flp-l2"/></g><line x1="293.35" x2="313.35" y1="164.12" y2="211.17" class="flp-l1"/><line x1="292.08" x2="274.99" y1="164.33" y2="212.52" class="flp-l1"/><path d="M255.35,219.73h75.26v4.47c0,7.53-6.11,13.64-13.64,13.64h-49.41c-6.73,0-12.2-5.47-12.2-12.2v-5.91h0Z" class="flp-l2" transform="translate(-1.09 1.41) rotate(-.27)"/><path d="M331.62,213.69l-75.99.36c-.9,0-1.63-.85-1.64-1.92v-.09c0-1.06.72-1.93,1.62-1.93l75.99-.36c.9,0,1.63.85,1.64,1.92v.09c0,1.06-.72,1.93-1.62,1.93Z" class="flp-l2"/><path d="M28.67,163.48c-1.74-6.13-7.33-10.67-14.01-10.67-9.26,0-16.52,8.64-14.23,18.26,1.23,5.05,5.19,9.18,10.2,10.53,6.64,1.78,12.85-1.02,16.15-5.95h31.07l-.11,26.8,8.06-.22.15-26.58h45.52l-.42,100.49h12.2l.42-112.65H28.67ZM14.7,173.99c-3.61,0-6.53-2.92-6.53-6.53s2.92-6.53,6.53-6.53,6.53,2.92,6.53,6.53-2.92,6.53-6.53,6.53Z" class="flp-l2"/><path d="M143.58,41.46c-5.01,1.2-9.15,5.19-10.49,10.2-2.07,7.73,2.07,14.85,8.49,17.53v206.86h12.16V68.68c4.79-2.4,8.1-7.3,8.1-13,0-9.26-8.6-16.55-18.26-14.23ZM147.36,61.43c-3.61,0-6.53-2.92-6.53-6.53s2.93-6.53,6.53-6.53,6.53,2.92,6.53,6.53-2.92,6.53-6.53,6.53Z" class="flp-l2"/><g><rect width="12.07" height="42.21" x="141.62" y="410.54" class="flp-l2"/><rect width="12.07" height="42.21" x="111.68" y="410.54" class="flp-l2"/><rect width="12.07" height="42.21" x="173.35" y="410.54" class="flp-l2"/><rect width="12.07" height="42.21" x="203.74" y="410.54" class="flp-l2"/><rect width="12.07" height="42.21" x="230.56" y="410.54" class="flp-l2"/></g></svg></a></div>
+      <h1>Double your gift. <span>Up to $50,000.</span></h1>
+      <p class="lede">Donate to Free Law Project between now and the end of the year and your donation will be <b>matched up to $50,000</b>.</p>
+    </div>
+  </section>
+
+  <section class="band give" id="give">
+    <div class="inner"><div class="card">
+      <div class="eyebrow">Matched up to $50,000 through December 31</div>
+      <div class="form-slot" id="form-slot">
+        <script src='https://donate.free.law/forms/share/Rk9STS1FTUJFRFNIQVJJTkctQ09ERTcw'></script>
+        <div class="fallback" id="fallback" hidden>
+          <p>Give through our secure matching-gift form. Every dollar is matched up to $50,000.</p>
+          <a class="btn" href="https://donate.free.law/forms/2026-match">Double my gift</a>
+        </div>
+      </div>
+    </div></div>
+  </section>
+
+  <section class="band impact">
+    <div class="inner">
+      <h2>Have an even bigger impact on creating a <em>free and accessible</em> legal system.</h2>
+      <p class="intro">Your donation helps us:</p>
+      <div class="stats">
+        <div class="stat"><div class="num">250M+</div><div class="lbl">Court records online</div></div>
+        <div class="stat"><div class="num">10M+</div><div class="lbl">Monthly visitors</div></div>
+      </div>
+      <ul class="keep">
+        <li><div><strong>Support the RECAP extension</strong><span>to liberate PACER documents for all.</span></div></li>
+        <li><div><strong>Build and maintain CourtListener<span class="sr">,</span></strong><span>helping journalists, researchers, and the public understand our courts.</span></div></li>
+        <li><div><strong>Support our Justice Initiatives<span class="sr">,</span></strong><span>building tech to help people representing themselves in court.</span></div></li>
+      </ul>
+    </div>
+  </section>
+
+  <section class="band statement">
+    <div class="inner">
+      <p class="stmt">We need your help to expand access to the legal system <span>in 2027.</span></p>
+      <div class="cta"><a class="btn" href="#give">Double my gift</a></div>
+    </div>
+  </section>
+
+  <section class="band chart">
+    <div class="inner">
+      <svg class="donut" viewBox="0 0 42 42" role="img" aria-labelledby="donut-title">
+        <title id="donut-title">85.5% program expenses, 14.5% administration, support, and fundraising</title>
+        <circle cx="21" cy="21" r="15.9155" fill="none" class="ring-b" stroke-width="6"></circle>
+        <circle cx="21" cy="21" r="15.9155" fill="none" class="ring-a" stroke-width="6"
+          stroke-dasharray="85.5 14.5" stroke-dashoffset="25" transform="rotate(0)"></circle>
+        <text x="21" y="22.3" text-anchor="middle" font-size="7.4" font-weight="900">85.5%</text>
+        <text x="21" y="27.2" text-anchor="middle" font-size="2.3" font-weight="600" letter-spacing=".25">TO PROGRAMS</text>
+      </svg>
+      <div class="legend">
+        <span><i style="background: var(--grape)"></i>Program 85.5%</span>
+        <span><i style="background: var(--lilac)"></i>Administration, support, &amp; fundraising 14.5%</span>
+      </div>
+      <p>When you support Free Law Project, <b>85.5%</b> of your donation directly covers our program expenses.</p>
+    </div>
+  </section>
+
+  <footer class="band foot">
+    <div class="inner">
+      <p class="ask">Questions about major gifts, donor-advised funds, other gifts, or sponsorships? Contact <a href="mailto:donate@free.law">donate@free.law</a>.</p>
+      <p>CourtListener and RECAP are run by Free Law Project, a U.S. 501(c)(3) nonprofit, tax ID #46-3342480. You can read more about our <a href="https://free.law/about/">mission and history</a>, and our <a href="https://free.law/non-profit-documents/">tax returns</a> are available for public inspection.</p>
+    </div>
+  </footer>
+  <footer class="band sitefoot">
+    <div class="inner">
+      <div class="sf-row">
+        <a class="sf-logo" href="https://free.law/" aria-label="Free Law Project home"><svg xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Free Law Project" viewBox="0 0 1118.8 452.75"><defs><style>.flp-k1{stroke:#121014;stroke-miterlimit:10;stroke-width:7px;fill:#121014}.flp-k2{fill:#121014;stroke-width:0}</style></defs><g><g><path d="M109.63,382.9v-80.43h54.03v13.71h-38.4v20.73h31.94v12.69h-31.94v33.3h-15.63Z" class="flp-k2"/><path d="M174.65,382.9v-80.43h35.57c3.7,0,7.12.78,10.25,2.32,3.13,1.55,5.83,3.59,8.1,6.12,2.27,2.53,4.04,5.4,5.32,8.61,1.28,3.21,1.93,6.44,1.93,9.69,0,5.21-1.3,9.95-3.91,14.22-2.61,4.27-6.14,7.35-10.59,9.23l18.35,30.25h-17.56l-16.43-26.96h-15.41v26.96h-15.63ZM190.28,342.23h19.6c1.43,0,2.78-.34,4.02-1.02s2.32-1.6,3.23-2.78c.91-1.17,1.62-2.55,2.15-4.13.53-1.59.79-3.29.79-5.1s-.3-3.63-.91-5.21c-.61-1.59-1.42-2.96-2.44-4.13-1.02-1.17-2.19-2.08-3.51-2.72-1.32-.64-2.66-.96-4.02-.96h-18.92v26.05Z" class="flp-k2"/><path d="M305.82,369.19v13.71h-55.85v-80.43h54.83v13.71h-39.19v19.37h33.87v12.69h-33.87v20.96h40.21Z" class="flp-k2"/><path d="M373.9,369.19v13.71h-55.85v-80.43h54.83v13.71h-39.19v19.37h33.87v12.69h-33.87v20.96h40.21Z" class="flp-k2"/><path d="M413.32,382.9v-80.43h15.63v66.72h41.01v13.71h-56.64Z" class="flp-k2"/><path d="M502.36,302.47h13.82l30.58,80.43h-16.09l-7.48-20.05h-28.09l-7.36,20.05h-16.09l30.7-80.43ZM520.37,351.86l-11.1-31.6-11.55,31.6h22.66Z" class="flp-k2"/></g><path d="M568.51,302.7h14.39l9.06,26.62,9.06-26.62h14.5l-13.71,36.59,10.19,25.71,22.77-62.53h16.99l-32.74,80.43h-13.14l-13.93-33.76-13.93,33.76h-13.14l-32.51-80.43h16.77l22.88,62.53,9.97-25.71-13.48-36.59Z" class="flp-k2"/></g><g><g><path d="M671.47,382.9v-80.43h33.3c3.47,0,6.66.74,9.57,2.21,2.91,1.47,5.42,3.4,7.53,5.78,2.11,2.38,3.78,5.08,4.98,8.1,1.21,3.02,1.81,6.08,1.81,9.18,0,3.32-.57,6.51-1.7,9.57-1.13,3.06-2.72,5.76-4.76,8.1-2.04,2.34-4.47,4.23-7.31,5.66-2.83,1.43-5.99,2.15-9.46,2.15h-26.05v29.68h-7.93ZM679.4,346.19h25.71c2.34,0,4.47-.51,6.4-1.53,1.93-1.02,3.57-2.38,4.93-4.08,1.36-1.7,2.42-3.66,3.17-5.89.75-2.23,1.13-4.55,1.13-6.97s-.43-4.85-1.3-7.08c-.87-2.23-2.04-4.17-3.51-5.83-1.47-1.66-3.21-2.96-5.21-3.91-2-.94-4.1-1.42-6.29-1.42h-25.03v36.7Z" class="flp-k2"/><path d="M736.26,382.9v-80.43h33.98c3.47,0,6.66.74,9.57,2.21,2.91,1.47,5.42,3.4,7.53,5.78,2.11,2.38,3.76,5.08,4.93,8.1,1.17,3.02,1.76,6.08,1.76,9.18s-.43,5.76-1.3,8.44c-.87,2.68-2.08,5.1-3.63,7.25-1.55,2.15-3.42,3.96-5.61,5.44-2.19,1.47-4.64,2.47-7.36,3l19.71,31.04h-8.95l-18.92-29.68h-23.79v29.68h-7.93ZM744.19,346.19h26.28c2.34,0,4.47-.51,6.4-1.53,1.93-1.02,3.57-2.4,4.93-4.13,1.36-1.74,2.42-3.7,3.17-5.89.75-2.19,1.13-4.49,1.13-6.91s-.43-4.74-1.3-6.97c-.87-2.23-2.04-4.17-3.51-5.83-1.47-1.66-3.21-2.98-5.21-3.96-2-.98-4.1-1.47-6.29-1.47h-25.6v36.7Z" class="flp-k2"/><path d="M836.97,383.46c-5.59,0-10.7-1.15-15.35-3.45-4.64-2.3-8.63-5.36-11.95-9.18-3.32-3.81-5.89-8.17-7.7-13.08-1.81-4.91-2.72-9.93-2.72-15.07s.96-10.5,2.89-15.41c1.93-4.91,4.59-9.25,7.99-13.03,3.4-3.78,7.4-6.78,12.01-9,4.61-2.23,9.59-3.34,14.95-3.34s10.7,1.19,15.35,3.57c4.64,2.38,8.61,5.49,11.89,9.35,3.29,3.85,5.83,8.21,7.65,13.08,1.81,4.87,2.72,9.84,2.72,14.9,0,5.36-.96,10.5-2.89,15.41-1.93,4.91-4.57,9.23-7.93,12.97-3.36,3.74-7.35,6.72-11.95,8.95-4.61,2.23-9.59,3.34-14.95,3.34ZM807.17,342.68c0,4.38.72,8.59,2.15,12.63,1.43,4.04,3.47,7.63,6.12,10.76,2.64,3.13,5.78,5.63,9.4,7.48,3.62,1.85,7.66,2.78,12.12,2.78s8.65-.98,12.35-2.94c3.7-1.96,6.83-4.53,9.4-7.7,2.57-3.17,4.55-6.76,5.95-10.76,1.4-4,2.1-8.08,2.1-12.23,0-4.38-.74-8.59-2.21-12.63-1.47-4.04-3.53-7.61-6.17-10.7-2.64-3.1-5.78-5.57-9.4-7.42-3.62-1.85-7.63-2.78-12.01-2.78s-8.65.96-12.35,2.89c-3.7,1.93-6.84,4.47-9.4,7.65-2.57,3.17-4.55,6.76-5.95,10.76-1.4,4-2.1,8.08-2.1,12.23Z" class="flp-k2"/></g><g><path d="M873.79,372.81c1.66,1.13,3.8,2.11,6.4,2.94,2.61.83,5.53,1.25,8.78,1.25,4.08,0,7.34-.74,9.8-2.21,2.45-1.47,4.32-3.64,5.61-6.51,1.28-2.87,2.11-6.4,2.49-10.59.38-4.19.57-8.97.57-14.33v-40.89h7.93v40.89c0,6.12-.28,11.69-.85,16.71-.57,5.02-1.76,9.31-3.57,12.86-1.81,3.55-4.46,6.31-7.93,8.27-3.47,1.96-8.16,2.94-14.05,2.94-6.8,0-12.61-1.66-17.44-4.98l2.27-6.34Z" class="flp-k2"/><path d="M982.88,375.87v7.02h-54.03v-80.43h53.01v7.02h-45.08v29h39.31v6.68h-39.31v30.7h46.1Z" class="flp-k2"/></g><g><path d="M985.14,342.12c0-4.83.85-9.65,2.55-14.44,1.7-4.8,4.17-9.08,7.42-12.86,3.25-3.78,7.25-6.85,12.01-9.23,4.76-2.38,10.16-3.57,16.2-3.57,7.17,0,13.31,1.62,18.41,4.87,5.1,3.25,8.85,7.48,11.27,12.69l-6.23,3.85c-1.28-2.64-2.85-4.87-4.7-6.68-1.85-1.81-3.83-3.29-5.95-4.42-2.12-1.13-4.3-1.94-6.57-2.44-2.27-.49-4.49-.74-6.68-.74-4.83,0-9.1.98-12.8,2.95-3.7,1.96-6.82,4.53-9.35,7.7-2.53,3.17-4.44,6.74-5.72,10.7-1.29,3.96-1.93,7.99-1.93,12.06,0,4.46.77,8.72,2.32,12.8,1.55,4.08,3.66,7.68,6.34,10.82,2.68,3.13,5.85,5.63,9.52,7.48,3.66,1.85,7.65,2.78,11.95,2.78,2.27,0,4.59-.28,6.97-.85,2.38-.57,4.68-1.47,6.91-2.72,2.23-1.25,4.29-2.79,6.17-4.64,1.89-1.85,3.47-4.1,4.76-6.74l6.57,3.4c-1.29,3.02-3.1,5.68-5.44,7.99-2.34,2.3-4.95,4.25-7.82,5.83-2.87,1.59-5.91,2.79-9.12,3.62-3.21.83-6.36,1.25-9.46,1.25-5.51,0-10.57-1.21-15.18-3.62-4.61-2.42-8.57-5.57-11.89-9.46-3.32-3.89-5.91-8.31-7.76-13.25-1.85-4.95-2.78-9.99-2.78-15.12Z" class="flp-k2"/><path d="M1118.8,309.49h-28.66v73.4h-7.93v-73.4h-28.66v-7.02h65.25v7.02Z" class="flp-k2"/></g></g><path d="M179.41,21.17c-3.6,0-6.53-2.93-6.53-6.53s2.93-6.53,6.53-6.53,6.53,2.93,6.53,6.53-2.93,6.53-6.53,6.53ZM175.93.4c-5.3,1.23-9.58,5.52-10.78,10.83-1.63,7.22,2.18,13.79,8.17,16.54v248.28h12.16V27.77c5.05-2.27,8.57-7.33,8.57-13.21,0-9.13-8.53-16.35-18.11-14.15Z" class="flp-k2"/><path d="M209.85,92.65c-3.6,0-6.53-2.93-6.53-6.53s2.93-6.53,6.53-6.53,6.53,2.93,6.53,6.53-2.93,6.53-6.53,6.53ZM206.35,71.88c-5.26,1.23-9.55,5.48-10.75,10.74-1.67,7.1,2,13.52,7.77,16.36v177.07h12.16V99.41c5.26-2.2,8.97-7.39,8.97-13.41,0-9.15-8.57-16.33-18.15-14.13Z" class="flp-k2"/><path d="M349.92,132.72c-1.2-5.01-5.23-9.12-10.24-10.42-7.77-2.06-14.92,2.13-17.53,8.58h-91.26v145.26h12.2v-133.14h45.81l-.11,25.19,8.06-.22.15-24.98h25.77c2.43,4.65,7.3,7.86,12.96,7.86,9.22,0,16.52-8.55,14.19-18.14ZM335.71,142.94c-3.6,0-6.53-2.93-6.53-6.53s2.93-6.53,6.53-6.53,6.53,2.93,6.53,6.53-2.93,6.53-6.53,6.53Z" class="flp-k2"/><g><line x1="62.26" x2="82.26" y1="196.3" y2="243.36" class="flp-k1"/><line x1="60.99" x2="43.9" y1="196.52" y2="244.71" class="flp-k1"/><path d="M24.26,251.92h75.26v4.47c0,7.53-6.11,13.64-13.64,13.64h-49.41c-6.73,0-12.2-5.47-12.2-12.2v-5.91h0Z" class="flp-k2" transform="translate(-1.25 .3) rotate(-.27)"/><path d="M100.53,245.87l-75.99.36c-.9,0-1.63-.85-1.64-1.92v-.09c0-1.06.72-1.93,1.62-1.93l75.99-.36c.9,0,1.63.85,1.64,1.92v.09c0,1.06-.72,1.93-1.62,1.93Z" class="flp-k2"/></g><line x1="293.35" x2="313.35" y1="164.12" y2="211.17" class="flp-k1"/><line x1="292.08" x2="274.99" y1="164.33" y2="212.52" class="flp-k1"/><path d="M255.35,219.73h75.26v4.47c0,7.53-6.11,13.64-13.64,13.64h-49.41c-6.73,0-12.2-5.47-12.2-12.2v-5.91h0Z" class="flp-k2" transform="translate(-1.09 1.41) rotate(-.27)"/><path d="M331.62,213.69l-75.99.36c-.9,0-1.63-.85-1.64-1.92v-.09c0-1.06.72-1.93,1.62-1.93l75.99-.36c.9,0,1.63.85,1.64,1.92v.09c0,1.06-.72,1.93-1.62,1.93Z" class="flp-k2"/><path d="M28.67,163.48c-1.74-6.13-7.33-10.67-14.01-10.67-9.26,0-16.52,8.64-14.23,18.26,1.23,5.05,5.19,9.18,10.2,10.53,6.64,1.78,12.85-1.02,16.15-5.95h31.07l-.11,26.8,8.06-.22.15-26.58h45.52l-.42,100.49h12.2l.42-112.65H28.67ZM14.7,173.99c-3.61,0-6.53-2.92-6.53-6.53s2.92-6.53,6.53-6.53,6.53,2.92,6.53,6.53-2.92,6.53-6.53,6.53Z" class="flp-k2"/><path d="M143.58,41.46c-5.01,1.2-9.15,5.19-10.49,10.2-2.07,7.73,2.07,14.85,8.49,17.53v206.86h12.16V68.68c4.79-2.4,8.1-7.3,8.1-13,0-9.26-8.6-16.55-18.26-14.23ZM147.36,61.43c-3.61,0-6.53-2.92-6.53-6.53s2.93-6.53,6.53-6.53,6.53,2.92,6.53,6.53-2.92,6.53-6.53,6.53Z" class="flp-k2"/><g><rect width="12.07" height="42.21" x="141.62" y="410.54" class="flp-k2"/><rect width="12.07" height="42.21" x="111.68" y="410.54" class="flp-k2"/><rect width="12.07" height="42.21" x="173.35" y="410.54" class="flp-k2"/><rect width="12.07" height="42.21" x="203.74" y="410.54" class="flp-k2"/><rect width="12.07" height="42.21" x="230.56" y="410.54" class="flp-k2"/></g></svg></a>
+        <nav class="sf-nav" aria-label="Free Law Project"><ul><li><a href="https://free.law/about/">About</a></li><li><a href="https://free.law/blog/">Blog</a></li><li><a href="https://www.courtlistener.com/">CourtListener</a></li><li><a href="https://free.law/donate/help/">Donations FAQ</a></li><li><a href="https://free.law/non-profit-documents/">Nonprofit Documents</a></li><li><a href="https://free.law/contact/">Contact Us</a></li></ul></nav>
+      </div>
+      <div class="sf-colophon">
+        <p>© 2026 Free Law Project. Content licensed under a Creative Commons BY-ND international 4.0 license, except where indicated. <a href="https://www.netlify.com/">Site powered by Netlify</a>.</p>
+        <div class="sf-social"><a href="https://bsky.app/profile/free.law" aria-label="Bluesky"><svg viewBox="0 0 512 512" aria-hidden="true"><path fill="currentColor" fill-rule="evenodd" d="M256 0c141.385 0 256 114.615 256 256S397.385 512 256 512 0 397.385 0 256 114.615 0 256 0zm-72.224 158.537c29.233 22.022 60.681 66.666 72.223 90.624 11.543-23.958 42.993-68.602 72.225-90.624 21.097-15.886 55.276-28.181 55.276 10.937 0 7.809-4.464 65.631-7.084 75.02-9.1 32.629-42.271 40.953-71.774 35.917 51.572 8.805 64.69 37.97 36.357 67.136-53.809 55.394-77.341-13.898-83.366-31.653-1.737-5.111-1.489-5.228-3.267 0-6.026 17.755-29.555 87.047-83.364 31.653-28.334-29.166-15.216-58.331 36.356-67.136-29.503 5.036-62.674-3.288-71.774-35.917-2.62-9.389-7.084-67.211-7.084-75.02 0-39.118 34.183-26.823 55.276-10.937z"/></svg></a><a href="https://law.builders/@flp" aria-label="Mastodon"><svg viewBox="0 0 512 512" aria-hidden="true"><path fill="currentColor" d="M0 256a256 256 0 1 1 512 0 256 256 0 1 1 -512 0z"/><g transform="translate(256 256) scale(0.625)"><path class="knock" d="M433 179.1c0-97.2-63.7-125.7-63.7-125.7-62.5-28.7-228.6-28.4-290.5 0 0 0-63.7 28.5-63.7 125.7 0 115.7-6.6 259.4 105.6 289.1 40.5 10.7 75.3 13 103.3 11.4 50.8-2.8 79.3-18.1 79.3-18.1l-1.7-36.9s-36.3 11.4-77.1 10.1c-40.4-1.4-83-4.4-89.6-54-.6-4.6-.9-9.3-.9-13.9 85.6 20.9 158.7 9.1 178.7 6.7 56.1-6.7 105-41.3 111.2-72.9 9.8-49.8 9-121.5 9-121.5zM357.9 304.3l-46.6 0 0-114.2c0-49.7-64-51.6-64 6.9l0 62.5-46.3 0 0-62.5c0-58.5-64-56.6-64-6.9l0 114.2-46.7 0c0-122.1-5.2-147.9 18.4-175 25.9-28.9 79.8-30.8 103.8 6.1l11.6 19.5 11.6-19.5c24.1-37.1 78.1-34.8 103.8-6.1 23.7 27.3 18.4 53 18.4 175l0 0z" transform="translate(-224 -256)"/></g></svg></a><a href="https://donate.free.law/np/clients/freelawproject/subscribe.jsp?subscription=9" aria-label="Newsletter"><svg viewBox="0 0 512 512" aria-hidden="true"><path fill="currentColor" d="M0 256a256 256 0 1 1 512 0 256 256 0 1 1 -512 0z"/><g transform="translate(256 256) scale(0.625)"><path class="knock" d="M0 416L0 120c0-13.3 10.7-24 24-24s24 10.7 24 24l0 288c0 13.3 10.7 24 24 24s24-10.7 24-24L96 96c0-35.3 28.7-64 64-64l288 0c35.3 0 64 28.7 64 64l0 320c0 35.3-28.7 64-64 64L64 480c-35.3 0-64-28.7-64-64zM160 128l0 64c0 17.7 14.3 32 32 32l64 0c17.7 0 32-14.3 32-32l0-64c0-17.7-14.3-32-32-32l-64 0c-17.7 0-32 14.3-32 32zm24 240c-13.3 0-24 10.7-24 24s10.7 24 24 24l240 0c13.3 0 24-10.7 24-24s-10.7-24-24-24l-240 0zm-24-72c0 13.3 10.7 24 24 24l240 0c13.3 0 24-10.7 24-24s-10.7-24-24-24l-240 0c-13.3 0-24 10.7-24 24zM360 176c-13.3 0-24 10.7-24 24s10.7 24 24 24l64 0c13.3 0 24-10.7 24-24s-10.7-24-24-24l-64 0z" transform="translate(-256 -256)"/></g></svg></a><a href="https://github.com/freelawproject/" aria-label="GitHub"><svg viewBox="0 0 512 512" aria-hidden="true"><path fill="currentColor" d="M173.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3 .3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5 .3-6.2 2.3zm44.2-1.7c-2.9 .7-4.9 2.6-4.6 4.9 .3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM252.8 8c-138.7 0-244.8 105.3-244.8 244 0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1 100-33.2 167.8-128.1 167.8-239 0-138.7-112.5-244-251.2-244zM105.2 352.9c-1.3 1-1 3.3 .7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3 .3 2.9 2.3 3.9 1.6 1 3.6 .7 4.3-.7 .7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3 .7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3 .7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9s4.3 3.3 5.6 2.3c1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z"/></svg></a></div>
+      </div>
+    </div>
+  </footer>
+</main>
+
+<script>
+  // Show a backup donate button if the embedded form hasn't rendered after a few seconds.
+  setTimeout(function () {
+    // The form script inserts an iframe; if none appeared, the embed was blocked.
+    if (!document.querySelector('#form-slot iframe')) document.getElementById('fallback').hidden = false;
+  }, 4000);
+</script>
+
+</body>
+</html>
