@@ -11,6 +11,13 @@
     status = 301
     force = true
 
+# Double the Donation matching-gifts page removed; send visitors to the Donations FAQ
+[[redirects]]
+    from = "/donate/matching-gifts/"
+    to = "/donate/help/"
+    status = 301
+    force = true
+
 # Terms and policies moved to wiki.free.law
 [[redirects]]
     from = "/recap/tos/"
