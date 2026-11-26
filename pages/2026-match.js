@@ -210,7 +210,7 @@ export default function MatchCampaign({ allPostsData }) {
       </main>
 
       <div className="text-gray-800 font-display">
-        <Footer recentPost={allPostsData[0]} />
+        <Footer recentPost={allPostsData[0]} flush />
         <Colophon />
         <JudgeRibbon />
       </div>
