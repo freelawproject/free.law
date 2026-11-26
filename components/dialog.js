@@ -7,14 +7,6 @@ import {Spinner} from "./widgets";
 
 const EOY_MODE = true;
 
-// EOY dialog dates
-const EOY_DIALOG_START_MONTH = 12; // December
-const EOY_DIALOG_START_DAY = 4;
-const FIRST_EOY_DIALOG_END_MONTH = 12; // December
-const FIRST_EOY_DIALOG_END_DAY = 20;
-const SECOND_EOY_DIALOG_END_MONTH = 12; // December
-const SECOND_EOY_DIALOG_END_DAY = 31;
-
 // TEXT COPIES
 const FIRST_EOY_TITLE = 'You can help preserve free public access to the law.';
 const SECOND_EOY_TITLE = "Don't miss your opportunity to make an impact in 2025!";
@@ -26,114 +18,125 @@ const SECOND_EOY_TEXT =
   ' ensure that you can access, study, and improve the American legal system. We count on your support' +
   ' for the continued growth and improved accessibility of this important legal resource.';
 
+const MS_PER_DAY = 1000 * 60 * 60 * 24;
+
 /**
- * Displays an End-of-Year (EOY) modal dialog that switches between two content
- * versions based on specified date ranges within the current year.
+ * Parses a 'YYYY-MM-DD' string as a date in the visitor's local time zone.
+ * `endOfDay` moves the time to 23:59:59.999 so the date range is inclusive.
+ */
+function parseLocalDate(isoDate, endOfDay = false) {
+  const [year, month, day] = isoDate.split('-').map(Number);
+  return endOfDay
+    ? new Date(year, month - 1, day, 23, 59, 59, 999)
+    : new Date(year, month - 1, day);
+}
+
+/**
+ * A modal dialog that opens on its own between two dates and stays hidden for
+ * a while after the visitor dismisses it.
  *
- * Features:
- * - **Dismissal Logic**: When dismissed, each dialog version hides for one week.
- * - **Customization**: Dates, titles, and texts can be adjusted via constants at the top of the file.
- * - **Enable/Disable**: Use the `EOY_MODE` flag to toggle the dialog.
- *
- * Notes:
- * - Uses `localStorage` to store dismissal timestamps; ensure this code runs on the client side.
- * - Time comparisons are based on the user's local time zone.
- *
- * @returns {JSX.Element|null} The EOYDialog component or null if not displayed.
+ * - `start` and `end` are inclusive 'YYYY-MM-DD' dates in the visitor's local time.
+ * - `storageKey` names the `localStorage` entry holding the dismissal timestamp.
+ *   Use a unique key per campaign so dismissing one doesn't hide another.
+ * - `hideForDays` is how long the dialog stays hidden after being dismissed.
+ * - `children` is a function that receives a `dismiss` callback for the content's
+ *   own close button. Only that dismissal is remembered for `hideForDays`.
+ * - `extraClasses` styles the dialog panel.
+ */
+export function CampaignDialog({
+  start,
+  end,
+  storageKey,
+  hideForDays = 7,
+  extraClasses,
+  children,
+}) {
+  const [isOpen, setIsOpen] = useState(false);
+
+  useEffect(() => {
+    const now = new Date();
+    if (now < parseLocalDate(start) || now > parseLocalDate(end, true)) return;
+    let dismissedAt = null;
+    try {
+      dismissedAt = localStorage.getItem(storageKey);
+    } catch (e) {
+      // Storage can be unavailable (e.g. blocked cookies); show the dialog anyway.
+    }
+    if (dismissedAt && (now - parseInt(dismissedAt, 10)) / MS_PER_DAY < hideForDays) return;
+    setIsOpen(true);
+  }, [start, end, storageKey, hideForDays]);
+
+  // Only an explicit close (e.g. the × button) is remembered. Esc and backdrop
+  // clicks just close it for now: those are easy to do by mistake.
+  const dismiss = () => {
+    setIsOpen(false);
+    try {
+      localStorage.setItem(storageKey, Date.now().toString());
+    } catch (e) {
+      // Nothing to do: the dialog will simply show again on the next visit.
+    }
+  };
+
+  return (
+    <Dialog extraClasses={extraClasses} isOpen={isOpen} setIsOpen={setIsOpen}>
+      {children(dismiss)}
+    </Dialog>
+  );
+}
+
+/**
+ * End-of-Year (EOY) dialog: two versions shown in consecutive date ranges.
+ * Toggle with `EOY_MODE`.
  */
 export function EOYDialog() {
-  if (!EOY_MODE) return;
+  if (!EOY_MODE) return null;
+  return (
+    <>
+      <CampaignDialog
+        start="2026-12-04"
+        end="2026-12-20"
+        storageKey="firstEOYDialogDismissalDate"
+        extraClasses={`${EOY_DIALOG_CLASSES} bg-EOYBanner1`}
+      >
+        {(close) => <EOYDialogContent version="first" onClose={close} />}
+      </CampaignDialog>
+      <CampaignDialog
+        start="2026-12-21"
+        end="2026-12-31"
+        storageKey="secondEOYDialogDismissalDate"
+        extraClasses={`${EOY_DIALOG_CLASSES} bg-EOYBanner2`}
+      >
+        {(close) => <EOYDialogContent version="second" onClose={close} />}
+      </CampaignDialog>
+    </>
+  );
+}
 
-  // DIALOG CLASSES
-  const dialogBaseClasses =
-    'bg-center bg-cover bg-no-repeat flex flex-col justify-between' +
-    ' items-center max-w-screen-md w-full min-h-450px max-h-screen';
-  const firstDialogClasses = 'bg-EOYBanner1';
-  const secondDialogClasses = 'bg-EOYBanner2';
+const EOY_DIALOG_CLASSES =
+  'bg-center bg-cover bg-no-repeat flex flex-col justify-between' +
+  ' items-center max-w-screen-md w-full min-h-450px max-h-screen';
 
-  // BUTTON CLASSES
-  const buttonBaseClasses =
-    'uppercase shadow-lg shadow-gray-800 rounded-br-none rounded-tr-none relative -right-6';
-  const firstButtonClasses = 'bg-yellow-600 hover:bg-yellow-700 text-purple-900';
-  const secondButtonClasses = 'bg-gray-300 hover:bg-gray-400 text-purple-700';
-
-  const [isOpen, setIsOpen] = useState(false);
-  const [dialogVersion, setDialogVersion] = useState(null);
-  const [closeButtonPressed, setCloseButtonPressed] = useState(false);
-
-  // Determine version and visibility depending on current date and dismissal state
-  useEffect(() => {
-    const today = new Date();
-    const currentYear = today.getFullYear();
-    const getDate = (month, day) => new Date(currentYear, month, day, 23, 59, 59);
-
-    const dialogStart = getDate(EOY_DIALOG_START_MONTH - 1, EOY_DIALOG_START_DAY);
-    const firstDialogEnd = getDate(FIRST_EOY_DIALOG_END_MONTH - 1, FIRST_EOY_DIALOG_END_DAY);
-    const secondDialogEnd = getDate(SECOND_EOY_DIALOG_END_MONTH - 1, SECOND_EOY_DIALOG_END_DAY);
-
-    const firstEOYDialogDismissalDate = localStorage.getItem('firstEOYDialogDismissalDate');
-    const firstDismissed = dismissedWithinWeek(firstEOYDialogDismissalDate);
-    const secondEOYDialogDismissalDate = localStorage.getItem('secondEOYDialogDismissalDate');
-    const secondDismissed = dismissedWithinWeek(secondEOYDialogDismissalDate);
-
-    if (!firstDismissed && dialogStart <= today && today <= firstDialogEnd) {
-      setDialogVersion('first');
-      setIsOpen(true);
-    } else if (!secondDismissed && firstDialogEnd <= today && today <= secondDialogEnd) {
-      setDialogVersion('second');
-      setIsOpen(true);
-    } else {
-      setIsOpen(false);
-    }
-  }, []);
-
-  // Set dismissal date for current version when pressing close button
-  useEffect(() => {
-    if (!closeButtonPressed) return;
-    const now = Date.now().toString();
-    if (dialogVersion === 'first') {
-      localStorage.setItem('firstEOYDialogDismissalDate', now);
-    } else if (dialogVersion === 'second') {
-      localStorage.setItem('secondEOYDialogDismissalDate', now);
-    }
-  }, [closeButtonPressed]);
-
-  const dismissedWithinWeek = (dismissedDate) => {
-    if (!dismissedDate) return false;
-    const now = new Date();
-    const dismissedAt = new Date(parseInt(dismissedDate, 10));
-    const diffInDays = (now - dismissedAt) / (1000 * 60 * 60 * 24);
-    return diffInDays < 7;
-  };
-
-  const handleClose = () => {
-    setIsOpen(false);
-    setCloseButtonPressed(true);
-  };
-
-  const isFirst = dialogVersion === 'first';
-
-  const dialogClasses = `${dialogBaseClasses} ${
-    isFirst ? firstDialogClasses : secondDialogClasses
-  }`;
-
-  const buttonClasses = `${buttonBaseClasses} ${
-    isFirst ? firstButtonClasses : secondButtonClasses
-  }`;
-
+function EOYDialogContent({ version, onClose }) {
+  const isFirst = version === 'first';
+  const buttonClasses =
+    'uppercase shadow-lg shadow-gray-800 rounded-br-none rounded-tr-none relative -right-6 ' +
+    (isFirst
+      ? 'bg-yellow-600 hover:bg-yellow-700 text-purple-900'
+      : 'bg-gray-300 hover:bg-gray-400 text-purple-700');
   const title = isFirst ? FIRST_EOY_TITLE : SECOND_EOY_TITLE;
   const text = isFirst ? FIRST_EOY_TEXT : SECOND_EOY_TEXT;
 
   const [bgImageIsLoaded, setBgImageIsLoaded] = useState(false);
 
-  const handleImageLoad = () => {
-    setBgImageIsLoaded(true);
-  };
-
   return (
-    <Dialog extraClasses={dialogClasses} isOpen={isOpen} setIsOpen={setIsOpen}>
+    <>
       {/* Hidden image that tracks bg-image loading */}
-      <img src={`/images/homepage/${isFirst ? 'eOYBanner1' : 'eOYBanner2'}.jpg`} alt="Background" className="hidden" onLoad={handleImageLoad}/>
+      <img
+        src={`/images/homepage/${isFirst ? 'eOYBanner1' : 'eOYBanner2'}.jpg`}
+        alt="Background"
+        className="hidden"
+        onLoad={() => setBgImageIsLoaded(true)}
+      />
       {/* SPINNER that waits for the background image to load: */}
       {!bgImageIsLoaded && (
         <div className="absolute inset-0 flex flex-col items-center justify-center bg-gray-600 h-full w-full">
@@ -152,7 +155,7 @@ export function EOYDialog() {
               height="79"
               className="place-self-start relative mb-8"
             />
-            <div onClick={handleClose} className="cursor-pointer">
+            <div onClick={onClose} className="cursor-pointer">
               <XIcon className="h-8 w-8 text-purple-900" />
             </div>
           </div>
@@ -179,7 +182,7 @@ export function EOYDialog() {
           </div>
         </div>
       )}
-    </Dialog>
+    </>
   );
 }
 
