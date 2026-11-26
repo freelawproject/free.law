@@ -1,20 +1,9 @@
 import Head from 'next/head';
 import { generateNextSeo } from 'next-seo/pages';
-import { Raleway, Libre_Caslon_Text, IBM_Plex_Mono } from 'next/font/google';
 import { getSortedPostsData } from '../lib/posts';
 import { Colophon, Footer, JudgeRibbon } from '../components/footers';
 import NeonFormEmbed from '../components/neonFormEmbed';
-
-// Campaign fonts, loaded only on this page and exposed as CSS variables.
-// Raleway is only used for the stat numbers; everything else display-y is the site's Cooper Hewitt.
-const raleway = Raleway({ subsets: ['latin'], weight: '900', variable: '--font-raleway' });
-const caslon = Libre_Caslon_Text({
-  subsets: ['latin'],
-  weight: ['400', '700'],
-  style: ['normal', 'italic'],
-  variable: '--font-caslon',
-});
-const plexMono = IBM_Plex_Mono({ subsets: ['latin'], weight: '500', variable: '--font-plex-mono' });
+import { campaignFontVariables } from '../lib/campaignFonts';
 
 const PAGE_URL = 'https://free.law/2026-match/';
 const SHARE_TITLE = 'Support Free Law Project';
@@ -71,7 +60,7 @@ export default function MatchCampaign({ allPostsData }) {
       </Head>
 
       <main
-        className={`${raleway.variable} ${caslon.variable} ${plexMono.variable} font-[family-name:var(--font-caslon)] text-[1.125rem] leading-[1.55] text-[#121014] antialiased`}
+        className={`${campaignFontVariables} font-[family-name:var(--font-caslon)] text-[1.125rem] leading-[1.55] text-[#121014] antialiased`}
       >
         {/* Hero */}
         <section className="bg-[#121014] bg-[radial-gradient(60rem_30rem_at_85%_0%,rgba(102,48,106,.55),transparent_70%)] text-white border-b-[6px] border-[#66306a] pt-7 pb-[6.5rem]">

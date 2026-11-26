@@ -38,8 +38,6 @@ module.exports = {
       backgroundImage: {
         imgScotus: "url('/images/homepage/scotus-hero.jpeg')",
         imgJudgeHr: "url('/images/homepage/judge-hr.jpeg')",
-        EOYBanner1: "url('/images/homepage/eOYBanner1.jpg')",
-        EOYBanner2: "url('/images/homepage/eOYBanner2.jpg')",
         smile: 'radial-gradient(ellipse 80% 100% at 50% 10%, #180040 90%, transparent 90%)',
       },
       fontFamily: {
