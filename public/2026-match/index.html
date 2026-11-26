@@ -12,8 +12,15 @@
 <link rel="apple-touch-icon" href="/apple-touch-icon.png">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Raleway:wght@600;800;900&family=Libre+Caslon+Text:ital,wght@0,400;1,400;1,700&family=IBM+Plex+Mono:wght@500&display=swap">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Raleway:wght@900&family=Libre+Caslon+Text:ital,wght@0,400;1,400;1,700&family=IBM+Plex+Mono:wght@500&display=swap">
 <style>
+@font-face { font-family: "Cooper Hewitt"; font-weight: 300; font-display: swap; src: url(/fonts/CooperHewitt-Light.woff) format("woff"); }
+@font-face { font-family: "Cooper Hewitt"; font-weight: 400; font-display: swap; src: url(/fonts/CooperHewitt-Book.woff) format("woff"); }
+@font-face { font-family: "Cooper Hewitt"; font-weight: 500; font-display: swap; src: url(/fonts/CooperHewitt-Medium.woff) format("woff"); }
+@font-face { font-family: "Cooper Hewitt"; font-weight: 600; font-display: swap; src: url(/fonts/CooperHewitt-Semibold.woff) format("woff"); }
+@font-face { font-family: "Cooper Hewitt"; font-weight: 700; font-display: swap; src: url(/fonts/CooperHewitt-Bold.woff) format("woff"); }
+@font-face { font-family: "Cooper Hewitt"; font-weight: 800; font-display: swap; src: url(/fonts/CooperHewitt-Heavy.woff) format("woff"); }
+
 /* Layout: one bold column of full-bleed bands (plum hero, lavender impact, plum statement, lilac chart, white form) */
 :root {
   --plum: #3e1d40;        /* hero / statement ground */
@@ -28,7 +35,8 @@
   --rule: #d9d6dc;        /* footer hairlines */
   --on-plum: #ffffff;
   --muted-on-plum: #cbb3cf;
-  --display: "Raleway", "Helvetica Neue", Arial, sans-serif;
+  --display: "Cooper Hewitt", "Helvetica Neue", Arial, sans-serif;   /* free.law's heading font */
+  --raleway: "Raleway", "Helvetica Neue", Arial, sans-serif;        /* stat numbers only */
   --serif: "Libre Caslon Text", "Century Schoolbook", Georgia, serif;
   --mono: "IBM Plex Mono", ui-monospace, Menlo, monospace;
   --col: 44rem;
@@ -43,7 +51,7 @@ body { margin: 0; background: var(--lavender); color: var(--ink); font-family: v
   padding-right: max(16px, env(safe-area-inset-right, 0px));
 }
 .eyebrow { font-family: var(--mono); font-weight: 500; font-size: .8rem; letter-spacing: .14em; text-transform: uppercase; }
-h1, h2, .stmt { font-family: var(--display); font-weight: 900; letter-spacing: -.02em; line-height: 1.02; text-wrap: balance; margin: 0; }
+h1, h2, .stmt { font-family: var(--display); font-weight: 800; letter-spacing: .01em; line-height: 1.06; text-wrap: balance; margin: 0; }
 
 /* Hero */
 .hero { background: radial-gradient(60rem 30rem at 85% 0%, rgba(102, 48, 106, .55), transparent 70%), var(--ink); color: var(--on-plum); border-bottom: 6px solid var(--grape);
@@ -78,7 +86,7 @@ h1, h2, .stmt { font-family: var(--display); font-weight: 900; letter-spacing: -
 .impact .intro { font-style: italic; font-size: 1.25rem; margin: 0; }
 .stats { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 1rem; }
 .stat { background: var(--ink); border-radius: 1rem; padding: 1.5rem 1.4rem; display: grid; gap: .35rem; align-content: start; }
-.stat .num { font-family: var(--display); font-weight: 900; font-size: clamp(2.6rem, 9vw, 4rem); line-height: 1; color: var(--on-plum); letter-spacing: -.03em; font-variant-numeric: lining-nums tabular-nums; }
+.stat .num { font-family: var(--raleway); font-weight: 900; font-size: clamp(2.6rem, 9vw, 4rem); line-height: 1; color: var(--on-plum); letter-spacing: -.03em; font-variant-numeric: lining-nums tabular-nums; }
 .stat .lbl { font-family: var(--mono); font-size: .8rem; letter-spacing: .1em; text-transform: uppercase; color: var(--lilac); }
 .keep { list-style: none; margin: 0; padding: 0; display: grid; gap: 0; border-top: 2px solid var(--ink); }
 .keep li { padding-block: 1.35rem; border-bottom: 2px solid var(--ink); }
