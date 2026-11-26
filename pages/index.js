@@ -9,7 +9,7 @@ import Layout, {
 } from '../components/layout';
 import { getSortedPostsData } from '../lib/posts';
 import Button, { PurpleButton, WhiteButton } from '../components/button';
-import { EOYDialog } from '../components/dialog';
+import { MatchDialog } from '../components/dialog';
 import { H2, H3, HeroHeading, HeroHeadingMono } from '../components/headings';
 import { GridListItem } from '../components/widgets';
 import HeroImage from '../components/heroImage';
@@ -38,7 +38,7 @@ export default function Home({ allPostsData }) {
         })}
       </Head>
       <main>
-        <EOYDialog />
+        <MatchDialog />
 
         <HeroImage />
 

@@ -8,9 +8,10 @@ import { faCircle, faNewspaper } from '@fortawesome/free-solid-svg-icons';
 import { MainFullBleedColumn } from './layout';
 import { BlueskyLogo } from './widgets';
 
-export function Footer({ recentPost }) {
+// `flush` drops the top margin, for pages whose last section already ends with a band.
+export function Footer({ recentPost, flush = false }) {
   return (
-    <MainFullBleedColumn bgClasses="border-t border-gray-300 mt-16">
+    <MainFullBleedColumn bgClasses={`border-t border-gray-300 ${flush ? '' : 'mt-16'}`}>
       <section
         className="grid grid-cols-1 sm:grid-cols-3 md:grid-cols-4 gap-8 md:gap-10 lg:gap-12 w-full py-8 justify-start"
         id="footer"

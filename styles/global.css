@@ -13,8 +13,6 @@ body {
 @theme {
   --background-image-imgScotus: url('/images/homepage/scotus-hero.jpeg');
   --background-image-imgJudgeHr: url('/images/homepage/judge-hr.jpeg');
-  --background-image-EOYBanner1: url('/images/homepage/eOYBanner1.jpg');
-  --background-image-EOYBanner2: url('/images/homepage/eOYBanner2.jpg');
   --background-image-smile: radial-gradient(ellipse 80% 100% at 50% 10%, #180040 90%, transparent 90%);
 }
 
@@ -40,6 +38,14 @@ body {
          url(/fonts/CooperHewitt-Bold.eot) format('embedded-opentype'),
          url(/fonts/CooperHewitt-Bold.svg) format('svg');
     font-weight: 600;
+}
+
+@font-face {
+    font-family: "CooperHewitt";
+    src: url(/fonts/CooperHewitt-Heavy.woff) format('woff'),
+         url(/fonts/CooperHewitt-Heavy.eot) format('embedded-opentype'),
+         url(/fonts/CooperHewitt-Heavy.svg) format('svg');
+    font-weight: 800;
 }
 
 @layer utilities {
