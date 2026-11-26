@@ -42,6 +42,14 @@ body {
     font-weight: 600;
 }
 
+@font-face {
+    font-family: "CooperHewitt";
+    src: url(/fonts/CooperHewitt-Heavy.woff) format('woff'),
+         url(/fonts/CooperHewitt-Heavy.eot) format('embedded-opentype'),
+         url(/fonts/CooperHewitt-Heavy.svg) format('svg');
+    font-weight: 800;
+}
+
 @layer utilities {
     .centered-row {
         display: flex;

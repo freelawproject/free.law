@@ -5,7 +5,8 @@ import { Colophon, Footer, JudgeRibbon } from '../components/footers';
 import NeonFormEmbed from '../components/neonFormEmbed';
 
 // Campaign fonts, loaded only on this page and exposed as CSS variables.
-const raleway = Raleway({ subsets: ['latin'], weight: ['600', '800', '900'], variable: '--font-raleway' });
+// Raleway is only used for the stat numbers; everything else display-y is the site's Cooper Hewitt.
+const raleway = Raleway({ subsets: ['latin'], weight: '900', variable: '--font-raleway' });
 const caslon = Libre_Caslon_Text({
   subsets: ['latin'],
   weight: ['400', '700'],
@@ -18,9 +19,10 @@ const NEON_FORM_SCRIPT = 'https://donate.free.law/forms/share/Rk9STS1FTUJFRFNIQV
 const NEON_FORM_URL = 'https://donate.free.law/forms/2026-match';
 
 // Shared class lists
-const DISPLAY = 'font-[family-name:var(--font-raleway)]';
+const DISPLAY = 'font-display';
+const RALEWAY = 'font-[family-name:var(--font-raleway)]';
 const MONO = 'font-[family-name:var(--font-plex-mono)] font-medium';
-const HEADING = `${DISPLAY} font-black tracking-[-.02em] leading-[1.02] text-balance m-0`;
+const HEADING = `${DISPLAY} font-extrabold tracking-[.01em] leading-[1.06] text-balance m-0`;
 const COLUMN = 'max-w-[44rem] mx-auto px-4';
 const BUTTON =
   `inline-block ${DISPLAY} font-extrabold text-[1.3rem] px-[2.1rem] py-4 rounded-[.7rem] no-underline ` +
@@ -215,7 +217,7 @@ function Stat({ value, label }) {
   return (
     <div className="bg-[#121014] rounded-2xl py-6 px-[1.4rem] grid gap-[.35rem] content-start justify-items-center text-center">
       <div
-        className={`${DISPLAY} font-black text-[clamp(2.6rem,9vw,4rem)] leading-none text-white tracking-[-.03em] lining-nums tabular-nums`}
+        className={`${RALEWAY} font-black text-[clamp(2.6rem,9vw,4rem)] leading-none text-white tracking-[-.03em] lining-nums tabular-nums`}
       >
         {value}
       </div>
