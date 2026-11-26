@@ -1,4 +1,5 @@
 import Head from 'next/head';
+import { generateNextSeo } from 'next-seo/pages';
 import { Raleway, Libre_Caslon_Text, IBM_Plex_Mono } from 'next/font/google';
 import { getSortedPostsData } from '../lib/posts';
 import { Colophon, Footer, JudgeRibbon } from '../components/footers';
@@ -14,6 +15,15 @@ const caslon = Libre_Caslon_Text({
   variable: '--font-caslon',
 });
 const plexMono = IBM_Plex_Mono({ subsets: ['latin'], weight: '500', variable: '--font-plex-mono' });
+
+const PAGE_URL = 'https://free.law/2026-match/';
+const SHARE_TITLE = 'Support Free Law Project';
+const SHARE_DESCRIPTION =
+  'Donate now to support CourtListener, RECAP, and other projects. Help build a more open and ' +
+  'equitable justice system. Give before December 31 and your donation will be matched up to $50,000.';
+const SHARE_IMAGE_ALT =
+  'Support Free Law Project. For CourtListener, RECAP, and an open, equitable justice system. ' +
+  'Gifts matched up to $50,000 through December 31.';
 
 const NEON_FORM_SCRIPT = 'https://donate.free.law/forms/share/Rk9STS1FTUJFRFNIQVJJTkctQ09ERTcw';
 const NEON_FORM_URL = 'https://donate.free.law/forms/2026-match';
@@ -39,12 +49,25 @@ export default function MatchCampaign({ allPostsData }) {
   return (
     <>
       <Head>
-        <title>Free Law Project Matching Gift</title>
-        <meta name="robots" content="noindex, nofollow" />
-        <meta
-          name="description"
-          content="Donate to Free Law Project by December 31 and your gift will be matched up to $50,000."
-        />
+        {/* Not passed to generateNextSeo so the site-wide title template isn't appended */}
+        <title>{SHARE_TITLE}</title>
+        {generateNextSeo({
+          description: SHARE_DESCRIPTION,
+          openGraph: {
+            type: 'website',
+            url: PAGE_URL,
+            title: SHARE_TITLE,
+            images: [
+              {
+                url: 'https://free.law/images/2026-match/share-1200x630.png',
+                width: 1200,
+                height: 630,
+                alt: SHARE_IMAGE_ALT,
+              },
+            ],
+          },
+          twitter: { cardType: 'summary_large_image' },
+        })}
       </Head>
 
       <main
